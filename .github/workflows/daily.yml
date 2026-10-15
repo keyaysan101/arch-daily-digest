@@ -1,0 +1,48 @@
+name: 每日建筑案例
+
+on:
+  schedule:
+    - cron: '0 0 * * *'   # 北京时间 08:00
+    - cron: '0 22 * * *'  # 北京时间 06:00（兜底）
+  workflow_dispatch:
+  repository_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-digest
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - run: pip install -r requirements.txt
+
+      - name: 抓取并筛选
+        run: python run_daily.py
+
+      - name: 渲染页面
+        env:
+          SITE_DIR: .
+          LOCAL_EXPORT: '0'
+        run: python render_html.py
+
+      - name: 提交
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html archive.html digest_*.html manifest.json icon.svg .nojekyll data/
+          if git diff --quiet --cached; then
+            echo "本次无内容变化，跳过提交"
+          else
+            git commit -m "每日建筑案例 $(date -u +'%Y-%m-%d %H:%M UTC')"
+            git push
+          fi
