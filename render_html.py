@@ -665,6 +665,13 @@ def load_datas() -> list[dict]:
     for fp in sorted(glob.glob("data/digest_*.json")):
         with open(fp, encoding="utf-8") as f:
             datas.append(json.load(f))
+    # 合并详情页补抓到的元数据（历史条目可能是在补抓之前生成的）
+    try:
+        import enrich
+        for d in datas:
+            enrich.apply_cache(d.get("items", []))
+    except Exception as e:
+        print(f"[提示] 元数据合并跳过：{type(e).__name__} {str(e)[:80]}")
     return datas
 
 
