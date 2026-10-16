@@ -87,6 +87,28 @@ def items_for_date(day: dt.date, path: str = STORE_PATH) -> list[dict]:
     return out
 
 
+def items_in_range(start: dt.date, end: dt.date, path: str = STORE_PATH) -> list[dict]:
+    """从库存里取出 [start, end] 闭区间内发布的全部条目，按时间倒序。
+
+    存在的原因：热度需要时间沉淀——昨天刚发布的案例不可能已经爬上阅读榜
+    （实测 Dezeen 热门榜里最旧的一条是 5 月的文章）。只筛「前一天」等于
+    把热度信号全部排除在外，所以候选池必须是一个时间窗口而不是单日。
+    """
+    out = []
+    for o in _load(path).values():
+        pub = o.get("published_at")
+        if not pub:
+            continue
+        try:
+            d = dt.datetime.fromisoformat(pub).date()
+        except ValueError:
+            continue
+        if start <= d <= end:
+            out.append(o)
+    out.sort(key=lambda x: x["published_at"], reverse=True)
+    return out
+
+
 def all_dates(path: str = STORE_PATH) -> list[str]:
     """库存里已有的全部日期，倒序"""
     ds = set()
