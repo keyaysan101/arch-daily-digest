@@ -13,39 +13,59 @@
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
-       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px}
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
   .wrap{max-width:420px;margin:0 auto}
-  .hd{background:linear-gradient(135deg,#1e293b,#334155);color:#fff;border-radius:18px;
-      padding:20px 18px;margin-bottom:14px}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
   .hd h1{font-size:20px;letter-spacing:.5px}
   .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
   .stats{display:flex;gap:8px;margin-top:12px}
   .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
         font-size:11px;line-height:1.5;flex:1}
   .stat b{display:block;font-size:16px;font-weight:700}
-  .card{display:block;background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;
-        text-decoration:none;color:inherit;position:relative;-webkit-tap-highlight-color:transparent;
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
         box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
-  .card:active{transform:scale(.985);opacity:.92}
+  .card:active{transform:scale(.99)}
   .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
         color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
         display:flex;align-items:center;justify-content:center}
-  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
   .pic img{width:100%;height:100%;object-fit:cover;display:block}
-  .pic.noimg{aspect-ratio:auto;height:0}
-  .pic.noimg img{display:none}
-  .noimg-box{height:130px;display:flex;align-items:center;justify-content:center;
-             color:#94a3b8;font-size:13px}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
   .body{padding:14px}
   .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
   .arch{font-size:12px;color:#64748b;margin-bottom:8px}
   .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
   .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
-  .foot{display:flex;align-items:center;justify-content:space-between}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
-  .score{font-size:11px;color:#94a3b8}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
   .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
-  .ft-link{color:#2563eb;text-decoration:none;font-size:12px;display:inline-block;margin-top:6px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
 </style>
 </head>
 <body>
@@ -59,149 +79,253 @@
       <div class="stat"><b>0</b>过滤噪音</div>
     </div>
   </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a></div>
   
-    <a class="card" href="https://www.gooood.cn/nghia-do-kindergarten-by-sunjin-vietnam-joint-venture-company.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/nghia-do-kindergarten-by-sunjin-vietnam-joint-venture-company.htm">
       <div class="rank">1</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Nghia-Do-Kindergarten-by-Sunjin-Vietnam-Joint-Venture-Company-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Nghia-Do-Kindergarten-by-Sunjin-Vietnam-Joint-Venture-Company-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Nghia Do幼儿园，河内 / Sunjin越南合资有限公司</div>
+        <div class="title"><a href="https://www.gooood.cn/nghia-do-kindergarten-by-sunjin-vietnam-joint-venture-company.htm" target="_blank" rel="noopener">Nghia Do幼儿园，河内 / Sunjin越南合资有限公司</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 河内</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 河内</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="mcb7ee985b2e7">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/nghia-do-kindergarten-by-sunjin-vietnam-joint-venture-company.htm"
+            data-t="Nghia Do幼儿园，河内 / Sunjin越南合资有限公司" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Nghia-Do-Kindergarten-by-Sunjin-Vietnam-Joint-Venture-Company-472x303.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/nghia-do-kindergarten-by-sunjin-vietnam-joint-venture-company.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mcb7ee985b2e7"><div class="kv"><b>所在地</b><span>河内</span></div><div class="kv"><b>摘要</b><span>建筑 以一座受到庇护的庭院，组织600名儿童的校园生活 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「教育」+5</div><div>· 地域「河内」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/centre-de-salut-son-ferriol-by-laboqueria-arquitectura-munarq.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/centre-de-salut-son-ferriol-by-laboqueria-arquitectura-munarq.htm">
       <div class="rank">2</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Centre-de-Salut-Son-Ferriol-by-Laboqueria-Arquitectura-Munarq-90h-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Centre-de-Salut-Son-Ferriol-by-Laboqueria-Arquitectura-Munarq-90h-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Son Ferriol医疗中心，马略卡岛帕尔马 / Laboqueria Arquitectura + Munarq</div>
+        <div class="title"><a href="https://www.gooood.cn/centre-de-salut-son-ferriol-by-laboqueria-arquitectura-munarq.htm" target="_blank" rel="noopener">Son Ferriol医疗中心，马略卡岛帕尔马 / Laboqueria Arquitectura + Munarq</a></div>
         <div class="arch">设计：Laboqueria Arquitectura + Munarq</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 医疗</span><span class="chip" style="color:#0f766e">📍 马略卡岛帕尔马</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 医疗</span><span class="chip" style="color:#0f766e">地域 马略卡岛帕尔马</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m90b7798c672c">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/centre-de-salut-son-ferriol-by-laboqueria-arquitectura-munarq.htm"
+            data-t="Son Ferriol医疗中心，马略卡岛帕尔马 / Laboqueria Arquitectura + Munarq" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Centre-de-Salut-Son-Ferriol-by-Laboqueria-Arquitectura-Munarq-90h-472x303.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/centre-de-salut-son-ferriol-by-laboqueria-arquitectura-munarq.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m90b7798c672c"><div class="kv"><b>所在地</b><span>马略卡岛帕尔马</span></div><div class="kv"><b>摘要</b><span>建筑 关怀的建筑 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「医疗」+5</div><div>· 地域「马略卡岛帕尔马」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/half-solid-house-by-tui-studio.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/half-solid-house-by-tui-studio.htm">
       <div class="rank">3</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-half-solid-house-tui-studio-02-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-half-solid-house-tui-studio-02-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">半实住宅，头顿 / Túi Studio</div>
+        <div class="title"><a href="https://www.gooood.cn/half-solid-house-by-tui-studio.htm" target="_blank" rel="noopener">半实住宅，头顿 / Túi Studio</a></div>
         <div class="arch">设计：Túi Studio</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 头顿</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 头顿</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="mc83a813a5ed7">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/half-solid-house-by-tui-studio.htm"
+            data-t="半实住宅，头顿 / Túi Studio" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-half-solid-house-tui-studio-02-472x303.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/half-solid-house-by-tui-studio.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mc83a813a5ed7"><div class="kv"><b>所在地</b><span>头顿</span></div><div class="kv"><b>摘要</b><span>建筑 在白色百叶与绿植之间，让开放、遮阳和私密共存 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「住宅」+5</div><div>· 地域「头顿」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/10/eight-unconventional-lighting-designs-roundups" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/10/eight-unconventional-lighting-designs-roundups">
       <div class="rank">4</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/seletti-bic-pen-lamp-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/seletti-bic-pen-lamp-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Eight Unconventional Lighting Designs That Tear Up the Rulebook</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/10/eight-unconventional-lighting-designs-roundups" target="_blank" rel="noopener">Eight Unconventional Lighting Designs That Tear Up the Rulebook</a></div>
         
         <div class="tags"><span class="chip" style="color:#334155">类型 商业</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">76 分</span>
+          <button type="button" class="mini" data-more="mdf1a89614c07">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/10/eight-unconventional-lighting-designs-roundups"
+            data-t="Eight Unconventional Lighting Designs That Tear Up the Rulebook" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/seletti-bic-pen-lamp-411x411.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/10/eight-unconventional-lighting-designs-roundups" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mdf1a89614c07"><div class="kv"><b>摘要</b><span>From mouldable wax lampshades that can be melted and remade to a desk lamp that packs flat inside an A4 envelope, this roundup celebrates a series of unusual lighting designs. Photo courtesy of City G…</span></div><div class="why"><b>为什么推荐 · 合计 76 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「商业」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/10/brewery-cultural-centre-brno-acronym-collective-studio" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/10/brewery-cultural-centre-brno-acronym-collective-studio">
       <div class="rank">5</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/brewery-cultural-centre-acronym-collective-studio_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/brewery-cultural-centre-acronym-collective-studio_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Acronym Collective Studio Transforms Former Brewery in Czech Republic Into Community Centre</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/10/brewery-cultural-centre-brno-acronym-collective-studio" target="_blank" rel="noopener">Acronym Collective Studio Transforms Former Brewery in Czech Republic Into Community Centre</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">📍 Czech Republic</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 Czech Republic</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">69 分</span>
+          <button type="button" class="mini" data-more="m4f1478703c54">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/10/brewery-cultural-centre-brno-acronym-collective-studio"
+            data-t="Acronym Collective Studio Transforms Former Brewery in Czech Republic Into Community Centre" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/brewery-cultural-centre-acronym-collective-studio_dezeen_2364_col_0-411x411.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/10/brewery-cultural-centre-brno-acronym-collective-studio" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m4f1478703c54"><div class="kv"><b>所在地</b><span>Czech Republic</span></div><div class="kv"><b>摘要</b><span>Architecture firm Acronym Collective Studio has transformed a former brewery near Brno into a community centre, which addresses its corner site with a curved, perforated brick facade. Named Kulturní C…</span></div><div class="why"><b>为什么推荐 · 合计 69 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「文化」+5</div><div>· 地域「Czech Republic」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week">
       <div class="rank">6</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">This Week Jaguar&#x27;s Much-anticipated Type 01 Electric Car Was Unveiled</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week" target="_blank" rel="noopener">This Week Jaguar&#x27;s Much-anticipated Type 01 Electric Car Was Unveiled</a></div>
         
-        <div class="tags"><span class="chip" style="color:#0f766e">📍 New York</span></div>
+        <div class="tags"><span class="chip" style="color:#0f766e">地域 New York</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">64 分</span>
+          <button type="button" class="mini" data-more="m4aab52fa2ec7">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week"
+            data-t="This Week Jaguar&#x27;s Much-anticipated Type 01 Electric Car Was Unveiled" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/jaguar-type-01-_dezeen_2364_sq-1-411x411.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/10/jaguar-type-01-electric-car-this-week" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m4aab52fa2ec7"><div class="kv"><b>所在地</b><span>New York</span></div><div class="kv"><b>摘要</b><span>This week on Dezeen , we revealed Jaguar&#x27;s Type 01 electric car , which was designed to &quot;inaugurate a new era&quot; for the British car brand. Created as the first car in a new era for Jaguar, the Type 01 …</span></div><div class="why"><b>为什么推荐 · 合计 64 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 地域「New York」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm">
       <div class="rank">7</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院</div>
+        <div class="title"><a href="https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm" target="_blank" rel="noopener">上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 上海</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 上海</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m39e7c7691244">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm"
+            data-t="上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m39e7c7691244"><div class="kv"><b>所在地</b><span>上海</span></div><div class="kv"><b>摘要</b><span>建筑 前观后学，学修一体 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「教育」+5</div><div>· 地域「上海」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm">
       <div class="rank">8</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-472x303.png" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-472x303.png" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">雁柏山庄，北京 / 业余建筑工作室 + 上海华都设计</div>
+        <div class="title"><a href="https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm" target="_blank" rel="noopener">雁柏山庄，北京 / 业余建筑工作室 + 上海华都设计</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 北京</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 北京</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m59c63e9664d1">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm"
+            data-t="雁柏山庄，北京 / 业余建筑工作室 + 上海华都设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-472x303.png" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m59c63e9664d1"><div class="kv"><b>所在地</b><span>北京</span></div><div class="kv"><b>摘要</b><span>建筑 国际会都的山水长卷 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「住宅」+5</div><div>· 地域「北京」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/resonance-tallinn-architecture-biennale-pavilion-by-aru-ma-architects.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/resonance-tallinn-architecture-biennale-pavilion-by-aru-ma-architects.htm">
       <div class="rank">9</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Tallinn-Architecture-Biennale-Pavilion-by-Aru-Ma-Architects-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Tallinn-Architecture-Biennale-Pavilion-by-Aru-Ma-Architects-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">RESONANCE：塔林建筑双年展展亭，塔林 / 或间建筑</div>
+        <div class="title"><a href="https://www.gooood.cn/resonance-tallinn-architecture-biennale-pavilion-by-aru-ma-architects.htm" target="_blank" rel="noopener">RESONANCE：塔林建筑双年展展亭，塔林 / 或间建筑</a></div>
         <div class="arch">设计：或间建筑</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 展览</span><span class="chip" style="color:#0f766e">📍 塔林</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 展览</span><span class="chip" style="color:#0f766e">地域 塔林</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m464690e9c8da">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/resonance-tallinn-architecture-biennale-pavilion-by-aru-ma-architects.htm"
+            data-t="RESONANCE：塔林建筑双年展展亭，塔林 / 或间建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Tallinn-Architecture-Biennale-Pavilion-by-Aru-Ma-Architects-472x303.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/resonance-tallinn-architecture-biennale-pavilion-by-aru-ma-architects.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m464690e9c8da"><div class="kv"><b>所在地</b><span>塔林</span></div><div class="kv"><b>摘要</b><span>建筑 普通材料构成的共鸣庭院 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「展览」+5</div><div>· 地域「塔林」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/lixue-primary-school-by-temp-architects-and-huayi.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/lixue-primary-school-by-temp-architects-and-huayi.htm">
       <div class="rank">10</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/lixue-primary-school-00-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/lixue-primary-school-00-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">立雪小学，深圳 / 博风建筑 + 华艺设计</div>
+        <div class="title"><a href="https://www.gooood.cn/lixue-primary-school-by-temp-architects-and-huayi.htm" target="_blank" rel="noopener">立雪小学，深圳 / 博风建筑 + 华艺设计</a></div>
         <div class="arch">设计：博风建筑 + 华艺设计</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 深圳</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 深圳</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="mbaa80c291e50">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/lixue-primary-school-by-temp-architects-and-huayi.htm"
+            data-t="立雪小学，深圳 / 博风建筑 + 华艺设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/lixue-primary-school-00-472x303.jpg" data-d="2026-10-10">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/lixue-primary-school-by-temp-architects-and-huayi.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mbaa80c291e50"><div class="kv"><b>所在地</b><span>深圳</span></div><div class="kv"><b>摘要</b><span>建筑 在漫步中抵达校园深处 2026.10.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「教育」+5</div><div>· 地域「深圳」+5</div></div></div>
       </div>
-    </a>
-  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 有方 / 建筑学院<br/>
-  点击卡片跳转原文<br/>
-  <a class="ft-link" href="archive.html">‹ 往期归档</a></div>
+    </div>
+  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
 </div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
 </body>
 </html>
