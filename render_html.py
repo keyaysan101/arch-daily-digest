@@ -297,7 +297,7 @@ def detail_block(it: dict) -> str:
     m = it.get("meta", {}) or {}
     rows = []
     if m.get("area"):
-        rows.append(("建筑面积", m["area"]))
+        rows.append(("建筑面积", _area(m["area"])))
     if m.get("year"):
         rows.append(("建成年份", f"{m['year']} 年"))
     if m.get("image_count"):
@@ -341,15 +341,29 @@ def _mid(url: str) -> str:
     return "m" + hashlib.md5(url.encode("utf-8")).hexdigest()[:12]
 
 
+def _area(s: str) -> str:
+    """展示层兜底统一面积写法：历史期次的 meta 里还留着「平方米」「7421m²」这类旧值"""
+    s = str(s or "").strip()
+    if not s:
+        return ""
+    s = re.sub(r"([\d,.]*[\d])\s*(平方米|平米|平方公尺)", r"\1 m²", s)
+    s = re.sub(r"([\d,.]*[\d])\s*m\s*[²2]", r"\1 m²", s)
+    return s
+
+
 def card(it: dict) -> str:
     tags = []
+    # 热度来源放最前：这是排序的主要依据，用户第一眼就该看到「凭什么排第一」
+    heat_labels = it.get("heat_labels") or []
+    if heat_labels:
+        tags.append((heat_labels[0], "#b91c1c"))
     if it.get("btype"):
         tags.append(("类型 " + it["btype"], "#334155"))
     if it.get("region"):
         tags.append(("地域 " + it["region"], "#0f766e"))
     meta = it.get("meta", {})
     if meta.get("area"):
-        tags.append(("面积 " + meta["area"], "#7c3aed"))
+        tags.append(("面积 " + _area(meta["area"]), "#7c3aed"))
     if meta.get("year"):
         tags.append(("建成 " + str(meta["year"]), "#b45309"))
     if meta.get("image_count"):
@@ -419,10 +433,45 @@ def render(data: dict, links=None, current: str = "") -> str:
     # 必须同时给出页面自身的更新时间，并说明次日才会收录当天内容
     gen = data.get("generated_at", "")
     gen_date, gen_time = (gen[:10], gen[11:19]) if len(gen) >= 19 else ("", "")
-    try:
-        nxt = (dt.date.fromisoformat(d) + dt.timedelta(days=1)).isoformat()
-    except ValueError:
-        nxt = ""
+
+    # 候选池是「近 7 天」窗口而不是单日：热度需要时间沉淀，
+    # 昨天刚发的案例不可能已经爬上阅读榜。
+    # 老期次（2026-10-15 及更早）没有窗口字段，且是用旧评分选出来的，
+    # 必须走旧文案——不能给旧内容套「按热度排序」的说明，那是假的。
+    ws = data.get("window_start") or ""
+    we = data.get("window_end") or ""
+    is_window = bool(ws and we and ws != we)
+    win_days = data.get("window_days") or 7
+    if is_window:
+        win_txt = f"近 {win_days} 天（{ws} ~ {we}）"
+        title = f"{win_txt}最热 · 每日建筑案例"
+        lead = (f"<b>{win_txt}</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>")
+        heat_txt = ""
+        if data.get("heat_hit_count") is not None:
+            heat_txt = (f"<br/>窗口内 {data['candidate_count']} 条候选，"
+                        f"其中 {data['heat_hit_count']} 条命中热度信号")
+        stat_label = "候选"
+        foot = (f"本页收录的是 <b>{win_txt}</b> 发布的案例，按热度排序<br/>"
+                "热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」）"
+                " + 各站首页曝光位次 + 多源转载 + 中英双版；"
+                "质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>"
+                "用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>"
+                + (f'另有 {data["out_of_window_count"]} 条发布于该窗口之前、'
+                   f'此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>'
+                   if data.get("out_of_window_count") else ""))
+    else:
+        win_txt = f"{d} 当天"
+        title = f"{d} 新发布 · 每日建筑案例"
+        lead = f"<b>{d}</b> 新发布的案例<br/>"
+        heat_txt, stat_label = "", "抓取"
+        try:
+            nxt = (dt.date.fromisoformat(d) + dt.timedelta(days=1)).isoformat()
+        except ValueError:
+            nxt = ""
+        foot = (f"本页收录的是 <b>{d}</b> 当天发布的案例"
+                f"（每天收录前一天的新内容）<br/>"
+                + (f"{nxt} 发布的内容，将在次日早上自动收录<br/>" if nxt else ""))
+
     cards = "\n".join(card(it) for it in data["items"])
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -435,25 +484,24 @@ def render(data: dict, links=None, current: str = "") -> str:
 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
 <meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
 <link rel="manifest" href="manifest.json"/>
-<title>{d} 新发布 · 每日建筑案例</title>
+<title>{title}</title>
 <style>{CSS_BASE}</style>
 </head>
 <body>
 <div class="wrap">
   <div class="hd">
     <h1>每日建筑案例 · Top {data['count']}</h1>
-    <div class="sub"><b>{d}</b> 新发布的案例<br/>
-      页面更新于 {gen_date} {gen_time} · 每天 06:00 / 08:00 自动更新<br/>{esc(src_stat)}</div>
+    <div class="sub">{lead}
+      页面更新于 {gen_date} {gen_time} · 每天 06:00 / 08:00 自动更新<br/>{esc(src_stat)}{heat_txt}</div>
     <div class="stats">
-      <div class="stat"><b>{data['candidate_count']}</b>抓取</div>
+      <div class="stat"><b>{data['candidate_count']}</b>{stat_label}</div>
       <div class="stat"><b>{data['after_dedupe']}</b>去重后</div>
       <div class="stat"><b>{data['noise_count']}</b>过滤噪音</div>
     </div>
   </div>
   {nav_bar(links, current)}
   {cards}
-  <div class="ft">本页收录的是 <b>{d}</b> 当天发布的案例（每天收录前一天的新内容）<br/>
-  {nxt + ' 发布的内容，将在次日早上自动收录' if nxt else ''}<br/>
+  <div class="ft">{foot}
   数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
   点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
   <a class="ft-link" href="{esc(links.get('library','library.html'))}">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
@@ -509,7 +557,7 @@ def render_index(datas: list[dict], links=None, current: str = "archive") -> str
   <div class="hd">
     <h1>往期归档</h1>
     <div class="sub">共 {len(datas)} 期 · 累计 {sum(len(x['items']) for x in datas)} 个案例
-      · 点击任意一期查看当天全部入选</div>
+      · 点击任意一期查看该期全部入选</div>
   </div>
   {nav_bar(links, current)}
   {"".join(rows)}
