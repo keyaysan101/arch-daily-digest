@@ -13,39 +13,59 @@
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
-       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px}
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
   .wrap{max-width:420px;margin:0 auto}
-  .hd{background:linear-gradient(135deg,#1e293b,#334155);color:#fff;border-radius:18px;
-      padding:20px 18px;margin-bottom:14px}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
   .hd h1{font-size:20px;letter-spacing:.5px}
   .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
   .stats{display:flex;gap:8px;margin-top:12px}
   .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
         font-size:11px;line-height:1.5;flex:1}
   .stat b{display:block;font-size:16px;font-weight:700}
-  .card{display:block;background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;
-        text-decoration:none;color:inherit;position:relative;-webkit-tap-highlight-color:transparent;
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
         box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
-  .card:active{transform:scale(.985);opacity:.92}
+  .card:active{transform:scale(.99)}
   .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
         color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
         display:flex;align-items:center;justify-content:center}
-  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
   .pic img{width:100%;height:100%;object-fit:cover;display:block}
-  .pic.noimg{aspect-ratio:auto;height:0}
-  .pic.noimg img{display:none}
-  .noimg-box{height:130px;display:flex;align-items:center;justify-content:center;
-             color:#94a3b8;font-size:13px}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
   .body{padding:14px}
   .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
   .arch{font-size:12px;color:#64748b;margin-bottom:8px}
   .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
   .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
-  .foot{display:flex;align-items:center;justify-content:space-between}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
-  .score{font-size:11px;color:#94a3b8}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
   .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
-  .ft-link{color:#2563eb;text-decoration:none;font-size:12px;display:inline-block;margin-top:6px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
 </style>
 </head>
 <body>
@@ -59,149 +79,253 @@
       <div class="stat"><b>2</b>过滤噪音</div>
     </div>
   </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a></div>
   
-    <a class="card" href="https://www.archdaily.cn/zh/1186711/oma-jason-long-jiang-xiu-si-dun-li-shi-you-jiu-de-fu-er-jie-ka-pei-han-gai-zao-wei-yin-le-yu-yi-zhu-xue-xiao" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186711/oma-jason-long-jiang-xiu-si-dun-li-shi-you-jiu-de-fu-er-jie-ka-pei-han-gai-zao-wei-yin-le-yu-yi-zhu-xue-xiao">
       <div class="rank">1</div>
-      <div class="pic"><img src="https://images.adsttc.com/media/images/6acd/582c/7887/fb01/8910/6a65/newsletter/the-frank-liu-jr-academy-for-music-and-arts-flama_3.jpg?1791842390" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6acd/582c/7887/fb01/8910/6a65/newsletter/the-frank-liu-jr-academy-for-music-and-arts-flama_3.jpg?1791842390" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">OMA / Jason Long 将休斯敦历史悠久的福尔杰咖啡厂改造为音乐与艺术学校</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186711/oma-jason-long-jiang-xiu-si-dun-li-shi-you-jiu-de-fu-er-jie-ka-pei-han-gai-zao-wei-yin-le-yu-yi-zhu-xue-xiao" target="_blank" rel="noopener">OMA / Jason Long 将休斯敦历史悠久的福尔杰咖啡厂改造为音乐与艺术学校</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 休斯敦</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 休斯敦</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">106 分</span>
+          <button type="button" class="mini" data-more="m6bf14fff50a5">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186711/oma-jason-long-jiang-xiu-si-dun-li-shi-you-jiu-de-fu-er-jie-ka-pei-han-gai-zao-wei-yin-le-yu-yi-zhu-xue-xiao"
+            data-t="OMA / Jason Long 将休斯敦历史悠久的福尔杰咖啡厂改造为音乐与艺术学校" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6acd/582c/7887/fb01/8910/6a65/newsletter/the-frank-liu-jr-academy-for-music-and-arts-flama_3.jpg?1791842390" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186711/oma-jason-long-jiang-xiu-si-dun-li-shi-you-jiu-de-fu-er-jie-ka-pei-han-gai-zao-wei-yin-le-yu-yi-zhu-xue-xiao" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m6bf14fff50a5"><div class="kv"><b>所在地</b><span>休斯敦</span></div><div class="kv"><b>摘要</b><span>十月 13 有音频 由 OMA / Jason Long 设计的小弗兰克·刘音乐与艺术学院（FLAMA）改造再利用项目，2026。图片 © Out of RAM 位于德克萨斯州休斯顿的小弗兰克·刘音乐与艺术学院（Frank Liu Jr. Academy for Music and Arts，简称 FLAMA）已正式动工。该项目由 OMA 设计，合伙人 Jason Long 领衔，RDLR Arc…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186703/oma-jason-long-is-transforming-houstons-historic-folger-coffee-plant-into-a-music-and-arts-school" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 106 分</b><div>· 站点权重1.00→40</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「教育」+5</div><div>· 地域「休斯敦」+5</div><div>· 知名事务所+12</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.cn/zh/1186660/hosho-house-israelpacheco-arquitectos" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186660/hosho-house-israelpacheco-arquitectos">
       <div class="rank">2</div>
-      <div class="pic"><img src="https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/medium_jpg/IMG_9144.jpg?1791744005" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/medium_jpg/IMG_9144.jpg?1791744005" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Hōsho House / Israelpacheco Arquitectos</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186660/hosho-house-israelpacheco-arquitectos" target="_blank" rel="noopener">Hōsho House / Israelpacheco Arquitectos</a></div>
         <div class="arch">设计：israelpacheco arquitectos</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 墨西哥</span><span class="chip" style="color:#7c3aed">面积 305 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 27 张</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 墨西哥</span><span class="chip" style="color:#7c3aed">面积 305 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 27 张</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">105 分</span>
+          <button type="button" class="mini" data-more="mf1e5c6d42661">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186660/hosho-house-israelpacheco-arquitectos"
+            data-t="Hōsho House / Israelpacheco Arquitectos" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/medium_jpg/IMG_9144.jpg?1791744005" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186660/hosho-house-israelpacheco-arquitectos" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mf1e5c6d42661"><div class="kv"><b>建筑面积</b><span>305 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>27 张</span></div><div class="kv"><b>摄影</b><span>Israel Pacheco Montiel</span></div><div class="kv"><b>所在地</b><span>Pachuca de Soto / 墨西哥</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Helvex&#x27;, &#x27;Nanocal&#x27;]</span></div><div class="kv"><b>摘要</b><span>十月 12 © Israel Pacheco Montiel + 27 • Pachuca de Soto, 墨西哥 建筑师: israelpacheco arquitectos 面积 该建筑项目的领域 面积: 305 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Helvex , Nanocal https://www.archdaily.cn…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186659/hosho-house-israelpacheco-arquitectos" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 105 分</b><div>· 站点权重1.00→40</div><div>· 图集27张+6</div><div>· 含面积数据+3</div><div>· 含材料厂家+2</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 地域「墨西哥」+5</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.cn/zh/1068151/ya-ma-zhu-zhai-tetro-arquitetura" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1068151/ya-ma-zhu-zhai-tetro-arquitetura">
       <div class="rank">3</div>
-      <div class="pic"><img src="https://images.adsttc.com/media/images/689b/9b43/07ae/3401/89b5/21ea/newsletter/casa-de-linho-tetro-arquitetura_1.jpg?1755028307" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/689b/9b43/07ae/3401/89b5/21ea/newsletter/casa-de-linho-tetro-arquitetura_1.jpg?1755028307" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">亚麻住宅 / TETRO Arquitetura</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1068151/ya-ma-zhu-zhai-tetro-arquitetura" target="_blank" rel="noopener">亚麻住宅 / TETRO Arquitetura</a></div>
         <div class="arch">设计：TETRO Arquitetura</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 巴西</span><span class="chip" style="color:#7c3aed">面积 1300 m²</span><span class="chip" style="color:#b45309">建成 2024</span><span class="chip" style="color:#475569">图 38 张</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 巴西</span><span class="chip" style="color:#7c3aed">面积 1300 m²</span><span class="chip" style="color:#b45309">建成 2024</span><span class="chip" style="color:#475569">图 38 张</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">105 分</span>
+          <button type="button" class="mini" data-more="m29688fc897f3">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1068151/ya-ma-zhu-zhai-tetro-arquitetura"
+            data-t="亚麻住宅 / TETRO Arquitetura" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/689b/9b43/07ae/3401/89b5/21ea/newsletter/casa-de-linho-tetro-arquitetura_1.jpg?1755028307" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1068151/ya-ma-zhu-zhai-tetro-arquitetura" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m29688fc897f3"><div class="kv"><b>建筑面积</b><span>1300 m²</span></div><div class="kv"><b>建成年份</b><span>2024 年</span></div><div class="kv"><b>图集</b><span>38 张</span></div><div class="kv"><b>摄影</b><span>Luisa Lage</span></div><div class="kv"><b>所在地</b><span>Nova Lima / 巴西</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Indusparquet&#x27;, &#x27;Jader Almeida&#x27;, &#x27;Studio 31 Mobiliário&#x27;]</span></div><div class="kv"><b>摘要</b><span>十月 12 © Luisa Lage + 38 • Nova Lima, 巴西 建筑师: TETRO Arquitetura 面积 该建筑项目的领域 面积: 1300 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 厂家 该项目中使用产品的品牌 厂家: Indusparquet , Jader Almeida , Studio 31 Mobiliário https://www.arc…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1033039/linho-house-tetro-arquitetura" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 105 分</b><div>· 站点权重1.00→40</div><div>· 图集38张+6</div><div>· 含面积数据+3</div><div>· 含材料厂家+2</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 地域「巴西」+5</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.cn/zh/1186645/district-six-gui-huan-an-zhi-zhu-zhai-jakupa-architects-and-urban-designers" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186645/district-six-gui-huan-an-zhi-zhu-zhai-jakupa-architects-and-urban-designers">
       <div class="rank">4</div>
-      <div class="pic"><img src="https://images.adsttc.com/media/images/6ac6/4bab/07c3/d100/017f/dd29/newsletter/01_-_Hero_Image.jpg?1791380427" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ac6/4bab/07c3/d100/017f/dd29/newsletter/01_-_Hero_Image.jpg?1791380427" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">District Six 归还安置住宅 / Jakupa Architects and Urban Designers</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186645/district-six-gui-huan-an-zhi-zhu-zhai-jakupa-architects-and-urban-designers" target="_blank" rel="noopener">District Six 归还安置住宅 / Jakupa Architects and Urban Designers</a></div>
         <div class="arch">设计：Jakupa Architects and Urban Designers</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 南非</span><span class="chip" style="color:#7c3aed">面积 17370 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 15 张</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 南非</span><span class="chip" style="color:#7c3aed">面积 17370 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 15 张</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">103 分</span>
+          <button type="button" class="mini" data-more="m0628ad8b6b00">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186645/district-six-gui-huan-an-zhi-zhu-zhai-jakupa-architects-and-urban-designers"
+            data-t="District Six 归还安置住宅 / Jakupa Architects and Urban Designers" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ac6/4bab/07c3/d100/017f/dd29/newsletter/01_-_Hero_Image.jpg?1791380427" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186645/district-six-gui-huan-an-zhi-zhu-zhai-jakupa-architects-and-urban-designers" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m0628ad8b6b00"><div class="kv"><b>建筑面积</b><span>17370 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>15 张</span></div><div class="kv"><b>摄影</b><span>Terry February</span></div><div class="kv"><b>所在地</b><span>Cape Town / 南非</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Plascon&#x27;, &#x27;Plumblink&#x27;]</span></div><div class="kv"><b>摘要</b><span>十月 13 视频 © Terry February + 15 • Cape Town, 南非 建筑师: Jakupa Architects and Urban Designers 面积 该建筑项目的领域 面积: 17370 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Plascon , Plumblink https://www.archdai…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186482/district-six-restitution-housing-jakupa-architects-and-urban-designers" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 103 分</b><div>· 站点权重1.00→40</div><div>· 图集15张+4</div><div>· 含面积数据+3</div><div>· 含材料厂家+2</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 地域「南非」+5</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/bilbao-fine-arts-museum-by-foster-partners.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/bilbao-fine-arts-museum-by-foster-partners.htm">
       <div class="rank">5</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-bilbao-fine-arts-museum-drawing-01-%E6%8B%B7%E8%B4%9D-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-bilbao-fine-arts-museum-drawing-01-%E6%8B%B7%E8%B4%9D-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">毕尔巴鄂美术馆扩建，西班牙 / Foster + Partners</div>
+        <div class="title"><a href="https://www.gooood.cn/bilbao-fine-arts-museum-by-foster-partners.htm" target="_blank" rel="noopener">毕尔巴鄂美术馆扩建，西班牙 / Foster + Partners</a></div>
         <div class="arch">设计：Foster + Partners</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">📍 西班牙</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 西班牙</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">92 分</span>
+          <button type="button" class="mini" data-more="mb04bbc496050">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/bilbao-fine-arts-museum-by-foster-partners.htm"
+            data-t="毕尔巴鄂美术馆扩建，西班牙 / Foster + Partners" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-bilbao-fine-arts-museum-drawing-01-%E6%8B%B7%E8%B4%9D-472x303.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/bilbao-fine-arts-museum-by-foster-partners.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mb04bbc496050"><div class="kv"><b>所在地</b><span>西班牙</span></div><div class="kv"><b>摘要</b><span>建筑 跨越55米，以悬浮扩建连接历史、艺术与城市 2026.10.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 92 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「文化」+5</div><div>· 地域「西班牙」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/13/sable-house-allan-joyce-architects" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/13/sable-house-allan-joyce-architects">
       <div class="rank">6</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/sable-house-allan-joyce-architects-uk-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/sable-house-allan-joyce-architects-uk-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Openings &quot;dissolve Boundaries&quot; at Sable House by Allan Joyce Architects</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/13/sable-house-allan-joyce-architects" target="_blank" rel="noopener">Openings &quot;dissolve Boundaries&quot; at Sable House by Allan Joyce Architects</a></div>
         <div class="arch">设计：Allan Joyce Architects</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 英国</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 英国</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">81 分</span>
+          <button type="button" class="mini" data-more="m30e6c0282323">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/13/sable-house-allan-joyce-architects"
+            data-t="Openings &quot;dissolve Boundaries&quot; at Sable House by Allan Joyce Architects" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/sable-house-allan-joyce-architects-uk-sq_dezeen_2364_col_0-411x411.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/13/sable-house-allan-joyce-architects" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m30e6c0282323"><div class="kv"><b>所在地</b><span>英国</span></div><div class="kv"><b>摘要</b><span>Local studio Allan Joyce Architects used courtyards and covered walkways to connect this charred timber-clad home in Nottinghamshire, UK , to its countryside surroundings. Perched on a verdant plot, t…</span></div><div class="why"><b>为什么推荐 · 合计 81 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 地域「英国」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/berkeley-station-by-brooks-scarpa.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/berkeley-station-by-brooks-scarpa.htm">
       <div class="rank">7</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/berkeley-station-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/berkeley-station-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Berkeley Station保障性住房，美国 / Brooks + Scarpa</div>
+        <div class="title"><a href="https://www.gooood.cn/berkeley-station-by-brooks-scarpa.htm" target="_blank" rel="noopener">Berkeley Station保障性住房，美国 / Brooks + Scarpa</a></div>
         <div class="arch">设计：Brooks + Scarpa</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 交通</span><span class="chip" style="color:#0f766e">📍 美国</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 交通</span><span class="chip" style="color:#0f766e">地域 美国</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m73b794019b4f">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/berkeley-station-by-brooks-scarpa.htm"
+            data-t="Berkeley Station保障性住房，美国 / Brooks + Scarpa" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/berkeley-station-cover-700x449-472x303.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/berkeley-station-by-brooks-scarpa.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m73b794019b4f"><div class="kv"><b>所在地</b><span>美国</span></div><div class="kv"><b>摘要</b><span>建筑 以模块化建造提供有尊严的住所 2026.10.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「交通」+5</div><div>· 地域「美国」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm">
       <div class="rank">8</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/2-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/2-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">叶下庇护所酒店，坎佩切 / Punto Arquitectónico + Paolo Sarra Estudio</div>
+        <div class="title"><a href="https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm" target="_blank" rel="noopener">叶下庇护所酒店，坎佩切 / Punto Arquitectónico + Paolo Sarra Estudio</a></div>
         <div class="arch">设计：Punto Arquitectónico + Paolo Sarra Estudio</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 酒店</span><span class="chip" style="color:#0f766e">📍 坎佩切</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 酒店</span><span class="chip" style="color:#0f766e">地域 坎佩切</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m088ae5d75cd0">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm"
+            data-t="叶下庇护所酒店，坎佩切 / Punto Arquitectónico + Paolo Sarra Estudio" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/2-472x303.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m088ae5d75cd0"><div class="kv"><b>所在地</b><span>坎佩切</span></div><div class="kv"><b>摘要</b><span>建筑 以庭院、光影与大树串联九间客房 2026.10.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「酒店」+5</div><div>· 地域「坎佩切」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti">
       <div class="rank">9</div>
-      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/10/ghisellini-architetti-public-square-madre-francesca-cabrini-italian-piazza-designboom-700-500x400-22b08q85r254.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/10/ghisellini-architetti-public-square-madre-francesca-cabrini-italian-piazza-designboom-700-500x400-22b08q85r254.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Fifty Oak Trees and Stone-paved Clearing Shape Contemporary Italian Piazza by Ghisellini Architetti</div>
+        <div class="title"><a href="https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti" target="_blank" rel="noopener">Fifty Oak Trees and Stone-paved Clearing Shape Contemporary Italian Piazza by Ghisellini Architetti</a></div>
         <div class="arch">设计：ghisellini architetti</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">📍 意大利</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">地域 意大利</span></div>
         <div class="foot">
           <span class="src" style="background:#7c3aed">Designboom</span>
           <span class="score">76 分</span>
+          <button type="button" class="mini" data-more="m5671f8d20e8a">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti"
+            data-t="Fifty Oak Trees and Stone-paved Clearing Shape Contemporary Italian Piazza by Ghisellini Architetti" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/10/ghisellini-architetti-public-square-madre-francesca-cabrini-italian-piazza-designboom-700-500x400-22b08q85r254.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/fifty-oak-trees-stone-paved-clearing-contemporary-italian-piazza-ghisellini-architetti" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m5671f8d20e8a"><div class="kv"><b>所在地</b><span>意大利</span></div><div class="kv"><b>摘要</b><span>a grid of oak trees frames porphyry-paved piazza in northern Italy &amp;nbsp; Ghisellini Architetti has redesigned Public Square Madre Francesca Cabrini as a contemporary Italian piazza framed by architec…</span></div><div class="why"><b>为什么推荐 · 合计 76 分</b><div>· 站点权重0.82→33</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「商业」+5</div><div>· 地域「意大利」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.designboom.com/architecture/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.designboom.com/architecture/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant">
       <div class="rank">10</div>
-      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/10/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant-designboom-3.jpg-500x400-22b08q85r026.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/10/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant-designboom-3.jpg-500x400-22b08q85r026.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Gasparetto Parenti and Olivier Guyot Shape Hôtel Massé’s Creative World in Paris</div>
+        <div class="title"><a href="https://www.designboom.com/architecture/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant" target="_blank" rel="noopener">Gasparetto Parenti and Olivier Guyot Shape Hôtel Massé’s Creative World in Paris</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 酒店</span><span class="chip" style="color:#0f766e">📍 巴黎</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 酒店</span><span class="chip" style="color:#0f766e">地域 巴黎</span></div>
         <div class="foot">
           <span class="src" style="background:#7c3aed">Designboom</span>
           <span class="score">76 分</span>
+          <button type="button" class="mini" data-more="m9b3ce674bbe2">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant"
+            data-t="Gasparetto Parenti and Olivier Guyot Shape Hôtel Massé’s Creative World in Paris" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/10/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant-designboom-3.jpg-500x400-22b08q85r026.jpg" data-d="2026-10-13">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/gasparetto-parenti-olivier-guyot-hotel-masse-paris-pigalle-le-trente-restaurant" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m9b3ce674bbe2"><div class="kv"><b>所在地</b><span>巴黎</span></div><div class="kv"><b>摘要</b><span>HÔTEL MASSÉ BECOMES A CREATIVE MEETING POINT IN PIGALLE &amp;nbsp; One year after opening in Paris&amp;#8217; Pigalle neighborhood, Hôtel Massé has gradually established itself as a meeting point for the city…</span></div><div class="why"><b>为什么推荐 · 合计 76 分</b><div>· 站点权重0.82→33</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「酒店」+5</div><div>· 地域「巴黎」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
-  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 有方 / 建筑学院<br/>
-  点击卡片跳转原文<br/>
-  <a class="ft-link" href="archive.html">‹ 往期归档</a></div>
+    </div>
+  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
 </div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
 </body>
 </html>
