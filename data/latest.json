@@ -1,12 +1,12 @@
 {
   "date": "2026-10-15",
-  "generated_at": "2026-10-16T22:38:28+08:00",
+  "generated_at": "2026-10-16T22:02:29+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
-      "total": 65,
-      "oldest": "2026-09-16",
+      "total": 41,
+      "oldest": "2026-10-01",
       "newest": "2026-10-16",
       "hit": 16,
       "stale_days": -1,
@@ -64,8 +64,8 @@
     }
   ],
   "candidate_count": 48,
-  "new_stored": 1,
-  "store_total": 376,
+  "new_stored": 52,
+  "store_total": 375,
   "after_dedupe": 32,
   "noise_count": 1,
   "count": 10,
@@ -268,10 +268,8 @@
       "summary": "景观  莱希的山间体验 2026.10.15 收藏 分享",
       "published_at": "2026-10-15T14:30:40+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
-      "meta": {
-        "photographer": "Christian Flatscher"
-      },
+      "last_seen": "2026-10-16T22:02:29+08:00",
+      "meta": {},
       "is_project": true,
       "btype": "景观",
       "region": "奥地利",
@@ -298,7 +296,7 @@
       "summary": "景观  庆祝拉丁文化的临时城市 2026.10.15 收藏 分享",
       "published_at": "2026-10-15T09:26:51+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
+      "last_seen": "2026-10-16T22:02:29+08:00",
       "meta": {},
       "is_project": true,
       "btype": "景观",
@@ -326,10 +324,8 @@
       "summary": "建筑  在塞纳河畔，让建筑成为艺术体验的一部分 2026.10.15 收藏 分享",
       "published_at": "2026-10-15T11:15:05+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
-      "meta": {
-        "area": "5,000 m²"
-      },
+      "last_seen": "2026-10-16T22:02:29+08:00",
+      "meta": {},
       "is_project": true,
       "btype": null,
       "region": "法国",
@@ -355,10 +351,8 @@
       "summary": "For Design Week Mexico 2026 , design studio 2x1 displayed works by French and Mexican designers on plinths in the gardens of Casa Ortega, a rarely opened private residence designed by local architect Luis Barragán in the 1940s. The Creative Immersions France-Mexico 2026 exhibition featured furniture and design objects by over 30 designers. It was the result of three years of residency programs in ",
       "published_at": "2026-10-15T05:20:19+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
-      "meta": {
-        "photographer": "Juan Hernandez"
-      },
+      "last_seen": "2026-10-16T22:02:29+08:00",
+      "meta": {},
       "is_project": false,
       "btype": "住宅",
       "region": "墨西哥",
@@ -386,7 +380,7 @@
       "summary": "Designer Jonas Hejduk has released a collection of rugs and benches that have ambiguously pixellated aesthetics. Hejduk 's focus on deliberately compressed, low-resolution versions of popular furnishings were informed by his childhood fixation with video game graphics. \"Youngsters like myself were already caught in the spiral logic of infinite growth, trained never to tolerate technological stagna",
       "published_at": "2026-10-15T13:00:46+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
+      "last_seen": "2026-10-16T22:02:29+08:00",
       "meta": {},
       "is_project": false,
       "btype": null,
@@ -413,7 +407,7 @@
       "summary": "MYCELIUM MODULES ADAPT TO VARIED SPATIAL CONFIGURATIONS &nbsp; Hypha-Lume is an adaptive modular pavilion that uses reconfigurable mycelium components, sensors, projection, and sound to translate human movement into spatial data. Conceived as a responsive system, the structure incorporates three block types with curvatures of 20, 40, and 60 degrees. These tapered biomaterial modules connect around",
       "published_at": "2026-10-15T23:45:54+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-16T22:38:28+08:00",
+      "last_seen": "2026-10-16T22:02:29+08:00",
       "meta": {},
       "is_project": false,
       "btype": "展览",
