@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""每日流水线：抓取 → 去重 → 打分 → 配额选取 → 落盘"""
+"""每日流水线：抓取 → 热度信号 → 去重 → 打分 → 配额选取 → 落盘"""
 from __future__ import annotations
 
 import datetime as dt
@@ -9,7 +9,7 @@ import sys
 
 from fetch_daily import SH, collect
 from score import run as score_run
-from store import merge_new, items_for_date, load_all
+from store import merge_new, items_in_range, load_all
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -17,10 +17,17 @@ except Exception:
     pass
 
 N = int(os.environ.get("DIGEST_N", "10"))
+# 候选窗口天数：热度需要时间沉淀，只筛单日等于把热度信号全排除（见 store.items_in_range）
+WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "7"))
 
 
-def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
-    """fetch=False 时跳过联网抓取，直接用库存补生成历史日期的日报"""
+def build(target_date: dt.date, n=N, verbose=True, fetch=True,
+          window_days=WINDOW_DAYS) -> dict:
+    """fetch=False 时跳过联网抓取，直接用库存补生成历史日期的日报。
+
+    target_date 是窗口的最后一天（默认=昨天），窗口为 [target-6, target] 共 7 天。
+    今天的不收：当天发布的内容还没来得及产生任何热度。
+    """
     new_stored = 0
     if fetch:
         # 1) 抓取：抓到什么算什么，不在抓取阶段做日期过滤
@@ -30,15 +37,46 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
     else:
         fetch_stats = []
         pooled = load_all()
-    # 3) 取当日候选：从库存里按发布日期筛选
-    items = items_for_date(target_date)
 
-    # 统计各信源在目标日的命中数（失败源 hit 记 0 并保留错误信息）
+    # 4) 热度信号：真实阅读排行 + 各站首页排序。失败不阻断出刊
+    heat_sig, heat_stats = {}, []
+    if fetch:
+        try:
+            import heat
+            heat_sig = heat.collect(verbose=verbose)
+        except Exception as e:
+            print(f"  [提示] 热度信号采集跳过（不影响出刊）：{type(e).__name__} {str(e)[:80]}")
+
+    # 3) 取候选：近 7 天发布的全部条目（不是单日）
+    start_date = target_date - dt.timedelta(days=window_days - 1)
+    items = items_in_range(start_date, target_date)
+
+    # 3b) 站方阅读榜条目豁免时间窗口。
+    # 谷德「7 天最热」按的是近 7 日阅读量，榜上条目完全可能发布于 8~9 天前
+    # （实测第 1 名发布于窗口前一天）。它此刻就在榜上 = 此刻最热，
+    # 因为发布日期早几天就丢掉，等于把最热的案例排除掉，与「以热度为标准」相悖。
+    extra = []
+    if heat_sig:
+        try:
+            from heat import strong_urls
+            strong = strong_urls(heat_sig)
+        except Exception:
+            strong = set()
+        if strong:
+            have = {it["url"] for it in items}
+            for o in pooled:
+                if o.get("url") in strong and o["url"] not in have:
+                    have.add(o["url"])
+                    extra.append(o)
+    if extra:
+        items = items + extra
+
+    # 统计各信源在窗口内的命中数（失败源 hit 记 0 并保留错误信息）
     hit: dict[str, int] = {}
     for it in items:
         hit[it["source"]] = hit.get(it["source"], 0) + 1
 
-    if not fetch_stats:  # 离线补生成时，用当日实际入选的信源反推统计
+    if not fetch_stats:  # 离线补生成时，用窗口内实际命中的信源反推统计
         fetch_stats = [dict(source=k, ok=True, total=v, hit=v, oldest=None,
                             newest=target_date.isoformat())
                        for k, v in hit.items()]
@@ -48,16 +86,18 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
         row = dict(s, hit=hit.get(s["source"], 0))
         newest = s.get("newest")
         if newest:
-            # 信源最新内容落后目标日 3 天以上，说明该源已停更或抓取入口失效
+            # 窗口是 7 天，最新内容落后超过整个窗口才说明该源停更或入口失效
             gap = (target_date - dt.date.fromisoformat(newest)).days
             row["stale_days"] = gap
-            row["stale"] = gap >= 3
+            row["stale"] = gap > window_days
         stats.append(row)
 
-    picked, dropped, info = score_run(items, n)
+    picked, dropped, info = score_run(items, n, heat_sig)
 
     for i, it in enumerate(picked, 1):
         it["rank"] = i
+    # 记录命中热度信号的候选比例，用于判断热度信号是否真的起效
+    heat_hit = sum(1 for it in items if heat_sig.get(it["url"]))
 
     # 详情页补抓元数据（面积/年份/摄影等卡片摘要里没有的字段）。
     # 这是增强项：任何异常都不能阻断出刊，所以整体包在 try 里。
@@ -70,6 +110,9 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
 
     out = dict(
         date=target_date.isoformat(),
+        window_start=start_date.isoformat(),
+        window_end=target_date.isoformat(),
+        window_days=window_days,
         generated_at=dt.datetime.now(SH).isoformat(timespec="seconds"),
         sources=stats,
         candidate_count=len(items),
@@ -77,6 +120,9 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
         store_total=len(pooled),
         after_dedupe=info["after_dedupe"],
         noise_count=len(dropped),
+        heat_signal_count=len(heat_sig),
+        heat_hit_count=heat_hit,
+        out_of_window_count=len(extra),
         count=len(picked),
         noise=[dict(title=x["title"], source=x["source"], url=x["url"]) for x in dropped],
         items=picked,
@@ -100,9 +146,11 @@ if __name__ == "__main__":
         target = (dt.datetime.now(SH) - dt.timedelta(days=1)).date()
 
     res = build(target, fetch=not offline)
-    print(f"[{res['date']}] 库存 {res['store_total']} 条（本次新增 {res['new_stored']} 条），"
-          f"当日候选 {res['candidate_count']} 条，过滤噪音 {res['noise_count']} 条，"
-          f"入选 {res['count']} 条")
+    print(f"[{res['window_start']} ~ {res['window_end']}] 库存 {res['store_total']} 条"
+          f"（本次新增 {res['new_stored']} 条），窗口内候选 {res['candidate_count']} 条，"
+          f"其中带热度信号 {res['heat_hit_count']} 条（信号库共 {res['heat_signal_count']} 条），"
+          f"榜上热文破窗补入 {res['out_of_window_count']} 条，"
+          f"过滤噪音 {res['noise_count']} 条，入选 {res['count']} 条")
     for s in res["sources"]:
         if not s.get("ok"):
             print(f"  [失败] {s['source']}: {s.get('error')}")
@@ -112,7 +160,11 @@ if __name__ == "__main__":
     print()
     for it in res["items"]:
         tag = f"{it.get('btype') or '-'}/{it.get('region') or '-'}"
-        print(f"{it['rank']:>2}. [{it['source']}] {it['score']:>5.1f}  {tag}")
+        hot = it.get("heat_labels") or []
+        print(f"{it['rank']:>2}. [{it['source']}] 热度 {it.get('heat_score', 0):>5.1f}"
+              f" + 质量 {it.get('quality_score', 0):>4.1f} = {it['score']:>5.1f}  {tag}")
         print(f"    {it['title']}")
+        if hot:
+            print(f"    热度来源：{' + '.join(hot)}")
         print(f"    {it['url']}")
         print()
