@@ -13,39 +13,59 @@
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
-       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px}
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
   .wrap{max-width:420px;margin:0 auto}
-  .hd{background:linear-gradient(135deg,#1e293b,#334155);color:#fff;border-radius:18px;
-      padding:20px 18px;margin-bottom:14px}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
   .hd h1{font-size:20px;letter-spacing:.5px}
   .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
   .stats{display:flex;gap:8px;margin-top:12px}
   .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
         font-size:11px;line-height:1.5;flex:1}
   .stat b{display:block;font-size:16px;font-weight:700}
-  .card{display:block;background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;
-        text-decoration:none;color:inherit;position:relative;-webkit-tap-highlight-color:transparent;
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
         box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
-  .card:active{transform:scale(.985);opacity:.92}
+  .card:active{transform:scale(.99)}
   .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
         color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
         display:flex;align-items:center;justify-content:center}
-  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
   .pic img{width:100%;height:100%;object-fit:cover;display:block}
-  .pic.noimg{aspect-ratio:auto;height:0}
-  .pic.noimg img{display:none}
-  .noimg-box{height:130px;display:flex;align-items:center;justify-content:center;
-             color:#94a3b8;font-size:13px}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
   .body{padding:14px}
   .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
   .arch{font-size:12px;color:#64748b;margin-bottom:8px}
   .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
   .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
-  .foot{display:flex;align-items:center;justify-content:space-between}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
   .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
-  .score{font-size:11px;color:#94a3b8}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
   .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
-  .ft-link{color:#2563eb;text-decoration:none;font-size:12px;display:inline-block;margin-top:6px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
 </style>
 </head>
 <body>
@@ -59,149 +79,253 @@
       <div class="stat"><b>0</b>过滤噪音</div>
     </div>
   </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a></div>
   
-    <a class="card" href="https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania">
       <div class="rank">1</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">BIG Designs Cloud-like Tirana Fountain Plaza Raised Above Public Park</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania" target="_blank" rel="noopener">BIG Designs Cloud-like Tirana Fountain Plaza Raised Above Public Park</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">📍 Tirana</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 Tirana</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">81 分</span>
+          <button type="button" class="mini" data-more="mddd906df3d42">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania"
+            data-t="BIG Designs Cloud-like Tirana Fountain Plaza Raised Above Public Park" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mddd906df3d42"><div class="kv"><b>所在地</b><span>Tirana</span></div><div class="kv"><b>摘要</b><span>Cloaked in layers of white disks, architecture studio BIG has revealed plans for a mixed-use building in Tirana containing apartments , offices , cultural spaces and water features. Named Tirana Fount…</span></div><div class="why"><b>为什么推荐 · 合计 81 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 地域「Tirana」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/12/not-a-hotel-open-not-a-museum-imperial-plaza-hotel-tokyo" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/12/not-a-hotel-open-not-a-museum-imperial-plaza-hotel-tokyo">
       <div class="rank">2</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/not-a-museum-skwat-tokyo-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/not-a-museum-skwat-tokyo-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Not a Hotel to Open Not a Museum at Imperial Hotel Plaza Tokyo Ahead of Demolition</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/12/not-a-hotel-open-not-a-museum-imperial-plaza-hotel-tokyo" target="_blank" rel="noopener">Not a Hotel to Open Not a Museum at Imperial Hotel Plaza Tokyo Ahead of Demolition</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">📍 东京</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 东京</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">81 分</span>
+          <button type="button" class="mini" data-more="m6113ec9d05e2">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/12/not-a-hotel-open-not-a-museum-imperial-plaza-hotel-tokyo"
+            data-t="Not a Hotel to Open Not a Museum at Imperial Hotel Plaza Tokyo Ahead of Demolition" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/not-a-museum-skwat-tokyo-sq_dezeen_2364_col_0-411x411.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/12/not-a-hotel-open-not-a-museum-imperial-plaza-hotel-tokyo" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m6113ec9d05e2"><div class="kv"><b>所在地</b><span>东京</span></div><div class="kv"><b>摘要</b><span>Nota, the company behind hotelier Not a Hotel , is set to create its first cultural space with the opening of Not a Museum, which will be designed together with Tokyo creative collective SKWAT. The mi…</span></div><div class="why"><b>为什么推荐 · 合计 81 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「文化」+5</div><div>· 地域「东京」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/phan-chau-trinh-sports-hall-by-scale50.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/phan-chau-trinh-sports-hall-by-scale50.htm">
       <div class="rank">3</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/pct-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/pct-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">潘周桢学校体育馆，胡志明市 / scale50</div>
+        <div class="title"><a href="https://www.gooood.cn/phan-chau-trinh-sports-hall-by-scale50.htm" target="_blank" rel="noopener">潘周桢学校体育馆，胡志明市 / scale50</a></div>
         <div class="arch">设计：scale50</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 胡志明市</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 胡志明市</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="mb9b1a4247860">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/phan-chau-trinh-sports-hall-by-scale50.htm"
+            data-t="潘周桢学校体育馆，胡志明市 / scale50" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/pct-cover-700x449-472x303.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/phan-chau-trinh-sports-hall-by-scale50.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mb9b1a4247860"><div class="kv"><b>所在地</b><span>胡志明市</span></div><div class="kv"><b>摘要</b><span>建筑 会呼吸的双层墙体 2026.10.12 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「教育」+5</div><div>· 地域「胡志明市」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/heritage-park-mito-by-archipatch.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/heritage-park-mito-by-archipatch.htm">
       <div class="rank">4</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/heritage-park-mito-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/heritage-park-mito-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Heritage Park Mito婚礼场所与餐厅，日本水户 / Archipatch</div>
+        <div class="title"><a href="https://www.gooood.cn/heritage-park-mito-by-archipatch.htm" target="_blank" rel="noopener">Heritage Park Mito婚礼场所与餐厅，日本水户 / Archipatch</a></div>
         <div class="arch">设计：Archipatch</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">📍 日本</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 日本</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m0ba0a83a04ae">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/heritage-park-mito-by-archipatch.htm"
+            data-t="Heritage Park Mito婚礼场所与餐厅，日本水户 / Archipatch" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/heritage-park-mito-cover-700x449-472x303.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/heritage-park-mito-by-archipatch.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m0ba0a83a04ae"><div class="kv"><b>所在地</b><span>日本</span></div><div class="kv"><b>摘要</b><span>建筑 根植于水户日常景观的庆典场所 2026.10.12 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「景观」+5</div><div>· 地域「日本」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/valerio-catullo-school-complex-by-giulia-de-appolonia-and-eutecne.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/valerio-catullo-school-complex-by-giulia-de-appolonia-and-eutecne.htm">
       <div class="rank">5</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Valerio-Catullo-School-Complex-by-Giulia-de-Appolonia-and-EUTECNE-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Valerio-Catullo-School-Complex-by-Giulia-de-Appolonia-and-EUTECNE-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">瓦莱里奥·卡图洛学校综合体，意大利 / Giulia de Appolonia、EUTECNE</div>
+        <div class="title"><a href="https://www.gooood.cn/valerio-catullo-school-complex-by-giulia-de-appolonia-and-eutecne.htm" target="_blank" rel="noopener">瓦莱里奥·卡图洛学校综合体，意大利 / Giulia de Appolonia、EUTECNE</a></div>
         <div class="arch">设计：Giulia de Appolonia、EUTECNE</div>
-        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">📍 意大利</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 意大利</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="m6b978df894c1">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/valerio-catullo-school-complex-by-giulia-de-appolonia-and-eutecne.htm"
+            data-t="瓦莱里奥·卡图洛学校综合体，意大利 / Giulia de Appolonia、EUTECNE" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Valerio-Catullo-School-Complex-by-Giulia-de-Appolonia-and-EUTECNE-472x303.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/valerio-catullo-school-complex-by-giulia-de-appolonia-and-eutecne.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m6b978df894c1"><div class="kv"><b>所在地</b><span>卡图洛学校综合体 / 意大利</span></div><div class="kv"><b>摘要</b><span>建筑 向社区开放、与公园相连的校园 2026.10.12 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「教育」+5</div><div>· 地域「意大利」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.dezeen.com/2026/10/12/gundry-ducker-french-dining-culture-london-cassette" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.dezeen.com/2026/10/12/gundry-ducker-french-dining-culture-london-cassette">
       <div class="rank">6</div>
-      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/Gundry-Ducker-French-Dining-Culture-Cassette-Featured_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="http://static.dezeen.com/uploads/2026/10/Gundry-Ducker-French-Dining-Culture-Cassette-Featured_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">Gundry &amp; Ducker Draws on French Dining Culture for London Restaurant Cassette</div>
+        <div class="title"><a href="https://www.dezeen.com/2026/10/12/gundry-ducker-french-dining-culture-london-cassette" target="_blank" rel="noopener">Gundry &amp; Ducker Draws on French Dining Culture for London Restaurant Cassette</a></div>
         
         <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span></div>
         <div class="foot">
           <span class="src" style="background:#1d4ed8">Dezeen</span>
           <span class="score">76 分</span>
+          <button type="button" class="mini" data-more="mea72d3fc4c8c">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/12/gundry-ducker-french-dining-culture-london-cassette"
+            data-t="Gundry &amp; Ducker Draws on French Dining Culture for London Restaurant Cassette" data-s="Dezeen"
+            data-c="http://static.dezeen.com/uploads/2026/10/Gundry-Ducker-French-Dining-Culture-Cassette-Featured_dezeen_2364_col_0-411x411.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/12/gundry-ducker-french-dining-culture-london-cassette" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="mea72d3fc4c8c"><div class="kv"><b>摘要</b><span>Design studio Gundry &amp;amp; Ducker has renovated the interiors of a Grade II-listed workshop for Cassette, a Parisian-style bistro that has recently opened in the heart of London &#x27;s West End. The spaci…</span></div><div class="why"><b>为什么推荐 · 合计 76 分</b><div>· 站点权重0.95→38</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「住宅」+5</div><div>· 知名事务所+12</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.cn/zh/1042072/ge-di-fang-ming-ji-zhao-fa-sheng-guo-de-shi-tian-gen-gang-zai-louisiana-channelfang-tan-zhong-tan-ji-yi-zuo-wei-she-ji-qu-dong-li" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1042072/ge-di-fang-ming-ji-zhao-fa-sheng-guo-de-shi-tian-gen-gang-zai-louisiana-channelfang-tan-zhong-tan-ji-yi-zuo-wei-she-ji-qu-dong-li">
       <div class="rank">7</div>
-      <div class="pic"><img src="https://images.adsttc.com/media/images/6983/1d33/dddf/b60c/1d00/2411/thumb_jpg/a-place-remembers-what-has-happened-tsuyoshi-tane-on-memory-as-a-design-driver-in-louisiana-channel-interview_6.jpg?1770200380" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6983/1d33/dddf/b60c/1d00/2411/thumb_jpg/a-place-remembers-what-has-happened-tsuyoshi-tane-on-memory-as-a-design-driver-in-louisiana-channel-interview_6.jpg?1770200380" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">“场所记住了曾经发生的一切”：田根刚在 Louisiana Channel 访谈中谈记忆如何驱动设计</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1042072/ge-di-fang-ming-ji-zhao-fa-sheng-guo-de-shi-tian-gen-gang-zai-louisiana-channelfang-tan-zhong-tan-ji-yi-zuo-wei-she-ji-qu-dong-li" target="_blank" rel="noopener">“场所记住了曾经发生的一切”：田根刚在 Louisiana Channel 访谈中谈记忆如何驱动设计</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">📍 日本</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 日本</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">74 分</span>
+          <button type="button" class="mini" data-more="m7910c3a50a17">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1042072/ge-di-fang-ming-ji-zhao-fa-sheng-guo-de-shi-tian-gen-gang-zai-louisiana-channelfang-tan-zhong-tan-ji-yi-zuo-wei-she-ji-qu-dong-li"
+            data-t="“场所记住了曾经发生的一切”：田根刚在 Louisiana Channel 访谈中谈记忆如何驱动设计" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6983/1d33/dddf/b60c/1d00/2411/thumb_jpg/a-place-remembers-what-has-happened-tsuyoshi-tane-on-memory-as-a-design-driver-in-louisiana-channel-interview_6.jpg?1770200380" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1042072/ge-di-fang-ming-ji-zhao-fa-sheng-guo-de-shi-tian-gen-gang-zai-louisiana-channelfang-tan-zhong-tan-ji-yi-zuo-wei-she-ji-qu-dong-li" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m7910c3a50a17"><div class="kv"><b>所在地</b><span>日本</span></div><div class="kv"><b>摘要</b><span>十月 12 有音频 田根刚 （Tsuyoshi Tane）是一位 日本建筑师 ，1979年出生于 东京 ，目前常驻 巴黎 。2006年，他在那里创立了 ATTA – 田根刚建筑设计事务所（Atelier Tsuyoshi Tane Architects） 。在其实践中，田根刚的项目涵盖文化、机构以及景观等领域。他探索出了一种将记忆视为核心设计驱动力的建筑方法。在他的巴黎工作室接受 Louisian…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1038454/a-place-remembers-what-has-happened-tsuyoshi-tane-on-memory-as-a-design-driver-in-louisiana-channel-interview" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 74 分</b><div>· 站点权重1.00→40</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「景观」+5</div><div>· 地域「日本」+5</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.cn/zh/1186671/cheng-shi-shi-jing-shen-wu-qi-utopian-hours-2026-zhong-fan-du-ling-xi-shou-bi-de-star-ku-ke-jue-shi-gong-hua-cheng-shi-su-zao" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186671/cheng-shi-shi-jing-shen-wu-qi-utopian-hours-2026-zhong-fan-du-ling-xi-shou-bi-de-star-ku-ke-jue-shi-gong-hua-cheng-shi-su-zao">
       <div class="rank">8</div>
-      <div class="pic"><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6acc/35ee/7887/fb01/8910/6745/slideshow/utopian-hours-2026_6.jpg?1791768073&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6acc/35ee/7887/fb01/8910/6745/slideshow/utopian-hours-2026_6.jpg?1791768073&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">“城市是精神武器”：Utopian Hours 2026 重返都灵，携手彼得·库克爵士共话城市塑造</div>
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186671/cheng-shi-shi-jing-shen-wu-qi-utopian-hours-2026-zhong-fan-du-ling-xi-shou-bi-de-star-ku-ke-jue-shi-gong-hua-cheng-shi-su-zao" target="_blank" rel="noopener">“城市是精神武器”：Utopian Hours 2026 重返都灵，携手彼得·库克爵士共话城市塑造</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 公共</span><span class="chip" style="color:#0f766e">📍 意大利</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 公共</span><span class="chip" style="color:#0f766e">地域 意大利</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">74 分</span>
+          <button type="button" class="mini" data-more="m952b3c277f09">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186671/cheng-shi-shi-jing-shen-wu-qi-utopian-hours-2026-zhong-fan-du-ling-xi-shou-bi-de-star-ku-ke-jue-shi-gong-hua-cheng-shi-su-zao"
+            data-t="“城市是精神武器”：Utopian Hours 2026 重返都灵，携手彼得·库克爵士共话城市塑造" data-s="ArchDaily"
+            data-c="https://snoopy.archdaily.com/images/archdaily/media/images/6acc/35ee/7887/fb01/8910/6745/slideshow/utopian-hours-2026_6.jpg?1791768073&amp;format=webp&amp;width=640&amp;height=580" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186671/cheng-shi-shi-jing-shen-wu-qi-utopian-hours-2026-zhong-fan-du-ling-xi-shou-bi-de-star-ku-ke-jue-shi-gong-hua-cheng-shi-su-zao" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="m952b3c277f09"><div class="kv"><b>所在地</b><span>意大利</span></div><div class="kv"><b>摘要</b><span>十月 12 有音频 意大利皮埃蒙特都灵安托内利尖塔风光，2018。图片 © nonmisvegliate，来自 Wikimedia Commons，基于 CC0 1.0 通用协议授权 Utopian Hours 2026 国际城市营建节第二部分将于10月16日至17日在都灵举行。继 在鹿特丹开启首个篇章 后，该节日重返其意大利的诞生地，以此纪念其十周年版。本次活动的嘉宾阵容和文化项目旨在探讨城市如…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186668/cities-are-mental-weapons-utopian-hours-2026-returns-to-turin-with-sir-peter-cook-and-a-program-on-city-making" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 74 分</b><div>· 站点权重1.00→40</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 类型「公共」+5</div><div>· 地域「意大利」+5</div><div>· 中英双版+3</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.archdaily.com/catalog/us/products/39013/how-to-visualize-concepts-in-sketchup-with-ai-d5-render" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.archdaily.com/catalog/us/products/39013/how-to-visualize-concepts-in-sketchup-with-ai-d5-render">
       <div class="rank">9</div>
-      <div class="pic"><img src="https://neufert-cdn.archdaily.net/uploads/photo/image/419047/big_AD_11.gif?v=1775052818" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://neufert-cdn.archdaily.net/uploads/photo/image/419047/big_AD_11.gif?v=1775052818" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">How to Visualize Concepts in SketchUp with AI</div>
+        <div class="title"><a href="https://www.archdaily.com/catalog/us/products/39013/how-to-visualize-concepts-in-sketchup-with-ai-d5-render" target="_blank" rel="noopener">How to Visualize Concepts in SketchUp with AI</a></div>
         
-        <div class="tags"><span class="chip" style="color:#0f766e">📍 SketchUp</span></div>
+        <div class="tags"><span class="chip" style="color:#0f766e">地域 SketchUp</span></div>
         <div class="foot">
           <span class="src" style="background:#c2410c">ArchDaily</span>
           <span class="score">66 分</span>
+          <button type="button" class="mini" data-more="me90ecc7edfce">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/catalog/us/products/39013/how-to-visualize-concepts-in-sketchup-with-ai-d5-render"
+            data-t="How to Visualize Concepts in SketchUp with AI" data-s="ArchDaily"
+            data-c="https://neufert-cdn.archdaily.net/uploads/photo/image/419047/big_AD_11.gif?v=1775052818" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/catalog/us/products/39013/how-to-visualize-concepts-in-sketchup-with-ai-d5-render" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="me90ecc7edfce"><div class="kv"><b>所在地</b><span>SketchUp</span></div><div class="kv"><b>摘要</b><span>October 12 | Sponsored Content How to Visualize Concepts in SketchUp with AI How to visualize architectural concepts in SketchUp using D5 Lite for faster design exploration. https://www.archdaily.comh…</span></div><div class="why"><b>为什么推荐 · 合计 66 分</b><div>· 站点权重1.00→40</div><div>· 封面图+8</div><div>· 摘要充分+4</div><div>· 摘要详实+4</div><div>· 地域「SketchUp」+5</div></div></div>
       </div>
-    </a>
+    </div>
 
-    <a class="card" href="https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm" target="_blank" rel="noopener">
+    <div class="card" data-url="https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm">
       <div class="rank">10</div>
-      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Painting-Boats-Weaving-a-Cultural-Water-Network-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.parentNode.classList.add('noimg')"/></div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Painting-Boats-Weaving-a-Cultural-Water-Network-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
       <div class="body">
-        <div class="title">画舫织就文艺水网，杭州 / 造园建筑 + 中国美术学院建筑艺术学院</div>
+        <div class="title"><a href="https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm" target="_blank" rel="noopener">画舫织就文艺水网，杭州 / 造园建筑 + 中国美术学院建筑艺术学院</a></div>
         
-        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">📍 杭州</span></div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 杭州</span></div>
         <div class="foot">
           <span class="src" style="background:#15803d">谷德设计网</span>
           <span class="score">80 分</span>
+          <button type="button" class="mini" data-more="md720ebd1773e">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm"
+            data-t="画舫织就文艺水网，杭州 / 造园建筑 + 中国美术学院建筑艺术学院" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Painting-Boats-Weaving-a-Cultural-Water-Network-472x303.jpg" data-d="2026-10-12">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm" target="_blank" rel="noopener">原文</a>
         </div>
+        <div class="more" id="md720ebd1773e"><div class="kv"><b>所在地</b><span>杭州</span></div><div class="kv"><b>摘要</b><span>建筑 三种尺度的宋韵画舫，探索水上移动园林与无界课堂 2026.10.12 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 80 分</b><div>· 站点权重0.92→37</div><div>· 建成项目格式+25</div><div>· 封面图+8</div><div>· 类型「文化」+5</div><div>· 地域「杭州」+5</div></div></div>
       </div>
-    </a>
-  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 有方 / 建筑学院<br/>
-  点击卡片跳转原文<br/>
-  <a class="ft-link" href="archive.html">‹ 往期归档</a></div>
+    </div>
+  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
 </div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
 </body>
 </html>
