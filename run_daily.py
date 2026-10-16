@@ -59,6 +59,15 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True) -> dict:
     for i, it in enumerate(picked, 1):
         it["rank"] = i
 
+    # 详情页补抓元数据（面积/年份/摄影等卡片摘要里没有的字段）。
+    # 这是增强项：任何异常都不能阻断出刊，所以整体包在 try 里。
+    try:
+        import enrich
+        enrich.enrich_items(picked, verbose=False)
+        enrich.apply_cache(picked)
+    except Exception as e:
+        print(f"  [提示] 详情页补抓跳过（不影响出刊）：{type(e).__name__} {str(e)[:80]}")
+
     out = dict(
         date=target_date.isoformat(),
         generated_at=dt.datetime.now(SH).isoformat(timespec="seconds"),
