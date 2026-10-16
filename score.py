@@ -47,9 +47,16 @@ NOISE_WORDS = re.compile(
     r"(?:\bdies\b|\bdied\b|obituary|dezeen\s+showroom|\bshortlist\b|\binterview\b"
     r"|\bpodcast\b|\bopinion\b|advertorial|\bsponsored\b|partner content"
     r"|\bpartners with\b|\bconference\b|\bwebinar\b|\bnewsletter\b|five new products"
+    r"|\bround-?ups?\b|\blookbook\b|in[- ]pictures|dezeen awards|\bweekly round\b"
     r"|招聘|征文启事|直播预告|线上课程|讲座报名|讣告|榜单|招生简章|实习生招募|合作推广)",
     re.I,
 )
+
+try:  # 强热度判定与 heat.py 共用同一套规则，避免两边口径不一致
+    from heat import is_strong
+except ImportError:
+    def is_strong(labels):
+        return any(re.search(r"(7 天最热|热门榜)", x or "") for x in (labels or []))
 
 # ------------------------------------------------ ArchDaily 卡片元数据抽取
 # 卡片文本形如：© 摄影师 + 15 • Cape Town, 南非 建筑师: XX 面积: 17370 m² 项目年份: 2025 厂家: A , B
@@ -271,6 +278,21 @@ def fame_key(text: str) -> str | None:
     return re.sub(r"[^\w]+", "", m.group(0)).lower() if m else None
 
 
+def cross_source_map(items: list[dict]) -> tuple[dict, dict]:
+    """统计同一个项目被多少家媒体报道（标题归一化 / 事务所名两种口径取大者）。
+
+    必须在去重之前统计：去重会把同源重复项删掉，那时就数不出「被几家报过」了。
+    """
+    by_title: dict[str, set] = {}
+    by_studio: dict[str, set] = {}
+    for it in items:
+        by_title.setdefault(norm_title(it["title"]), set()).add(it["source"])
+        st = studio_of(it["title"])
+        if st and len(st) >= 4:
+            by_studio.setdefault(st, set()).add(it["source"])
+    return by_title, by_studio
+
+
 def dedupe_sorted(items: list[dict]) -> list[dict]:
     """输入已按分数降序，保留首次出现的（即高分者），丢弃后续重复项"""
     out, seen_title, seen_studio, seen_fame = [], set(), set(), set()
@@ -344,66 +366,102 @@ REGION_ALIAS = {
 
 
 # ---------------------------------------------------------------- 打分
-def score_one(it: dict) -> dict:
+# 评分口径（2026-10-17 改）：热度为主，质量为辅。
+# 总分 = 热度分（0~60）+ 质量分（0~40）。
+#
+# 为什么这么改：评分的对象是「建筑案例」本身值不值得看，而最直接的度量就是
+# 有多少人真的在看。质量项（是不是建成项目、资料全不全、事务所知不知名）降级为
+# 底线过滤——它负责把招聘、新闻、产品、讣告这类东西挡在外面，而不是负责排序。
+HEAT_CAP = 60.0
+QUALITY_CAP = 40.0
+
+# 跨源报道：同一个项目被多家媒体同时报道，说明传播面广
+CROSS_STEP = 7.5
+CROSS_CAP = 15.0
+
+
+def score_one(it: dict, heat_sig: dict | None = None,
+              cross: tuple[dict, dict] | None = None) -> dict:
     title, summary = it["title"], it.get("summary", "") or ""
     blob = f"{title} {summary} {it['url']}"
-    s, reasons = 0.0, []
+    heat_sig = heat_sig or {}
+    cross_title, cross_studio = cross if cross else ({}, {})
 
-    base = it["weight"] * 40
-    s += base
-    reasons.append(f"站点权重{it['weight']:.2f}→{base:.0f}")
-
-    # 噪音判定只看标题与 URL，正文里的普通用词不参与
+    # 噪音一票否决：只看标题与 URL，正文里的普通用词不参与
     if NOISE_WORDS.search(f"{title} {it['url']}"):
         it["score"], it["reasons"] = -999.0, ["噪音内容：新闻/产品/讣告/广告"]
+        it["heat_score"], it["quality_score"] = 0.0, 0.0
+        it["heat_labels"] = []
         it["is_noise"] = True
         return it
 
     meta = parse_meta(it)
     it["meta"] = meta
-    ic = meta.get("image_count", 0)
-    if ic >= 20:
-        s += 6
-        reasons.append(f"图集{ic}张+6")
-    elif ic >= 10:
-        s += 4
-        reasons.append(f"图集{ic}张+4")
-    elif ic:
-        s += 2
-        reasons.append(f"图集{ic}张+2")
-    if meta.get("area"):
-        s += 3
-        reasons.append("含面积数据+3")
-    if meta.get("brands"):
-        s += 2
-        reasons.append("含材料厂家+2")
 
-    is_project = bool(PROJECT_SLASH.search(title)) or bool(
-        re.search(r"\.htm(\?|$)", it["url"]) and "gooood" not in it["source"]
-    ) or it["source"] in ("谷德设计网", "ArchDaily")
+    # ---------------- 热度分 ----------------
+    heat, heat_reasons = 0.0, []
+    sig = heat_sig.get(it["url"]) or heat_sig.get(it.get("alt_url") or "", None)
+    it["strong_heat"] = False
+    if sig:
+        heat += sig["heat"]
+        it["heat_labels"] = list(sig["labels"])
+        heat_reasons.append("、".join(sig["labels"]) + f"→{sig['heat']:.1f}")
+        # 站方真实阅读榜（谷德 7 天最热 / Dezeen 热门榜）与首页编辑排序要区分开：
+        # 前者是用户真正想看的「热度」，选取时豁免来源配额与时间窗口
+        it["strong_heat"] = is_strong(sig["labels"])
+    else:
+        it["heat_labels"] = []
+
+    # 同一项目被多源报道 → 传播面广
+    nt = norm_title(title)
+    st = studio_of(title)
+    n_src = len(cross_title.get(nt, ()))
+    if st and len(st) >= 4:
+        n_src = max(n_src, len(cross_studio.get(st, ())))
+    if n_src >= 2:
+        add = min(CROSS_CAP, (n_src - 1) * CROSS_STEP)
+        heat += add
+        heat_reasons.append(f"{n_src} 家媒体报道+{add:.1f}")
+
+    if it.get("bilingual"):
+        heat += 4
+        heat_reasons.append("中英双版+4")
+
+    # ---------------- 质量分（底线，不主导排序） ----------------
+    q, q_reasons = 0.0, []
+
     if PROJECT_SLASH.search(title):
-        s += 25
-        reasons.append("建成项目格式+25")
+        q += 18
+        q_reasons.append("建成项目格式+18")
         it["is_project"] = True
     else:
-        s += 5
+        q += 3
         it["is_project"] = False
 
-    if it.get("cover"):
-        s += 8
-        reasons.append("封面图+8")
-    if len(summary) > 50:
-        s += 4
-        reasons.append("摘要充分+4")
-    if len(summary) > 150:
-        s += 4
-        reasons.append("摘要详实+4")
+    w = it["weight"] * 8
+    q += w
+    q_reasons.append(f"站点权重{it['weight']:.2f}→{w:.1f}")
+
+    ic = meta.get("image_count", 0)
+    if ic >= 20:
+        q += 8
+        q_reasons.append(f"图集{ic}张+8")
+    elif ic >= 10:
+        q += 5
+        q_reasons.append(f"图集{ic}张+5")
+    elif ic:
+        q += 3
+        q_reasons.append(f"图集{ic}张+3")
+
+    if FAME_STUDIOS.search(blob):
+        q += 6
+        q_reasons.append("知名事务所+6")
 
     t = detect_type(blob)
     it["btype"] = t
     if t:
-        s += 5
-        reasons.append(f"类型「{t}」+5")
+        q += 3
+        q_reasons.append(f"类型「{t}」+3")
 
     r = meta.get("country") or detect_region(title) or detect_region(summary)
     r = REGION_ALIAS.get(r, r) if r else None
@@ -411,35 +469,60 @@ def score_one(it: dict) -> dict:
     it["city"] = meta.get("city") or ""
     it["architect"] = meta.get("architect") or studio_display(title) or ""
     if r:
-        s += 5
-        reasons.append(f"地域「{r}」+5")
+        q += 3
+        q_reasons.append(f"地域「{r}」+3")
 
-    if FAME_STUDIOS.search(blob):
-        s += 12
-        reasons.append("知名事务所+12")
+    if it.get("cover"):
+        q += 2
+        q_reasons.append("封面图+2")
+    if meta.get("area"):
+        q += 2
+        q_reasons.append("含面积数据+2")
+    if meta.get("brands"):
+        q += 1
+        q_reasons.append("含材料厂家+1")
 
-    if it.get("bilingual"):
-        s += 3
-        reasons.append("中英双版+3")
+    heat = round(min(heat, HEAT_CAP), 1)
+    q = round(min(q, QUALITY_CAP), 1)
 
-    it["score"] = round(s, 1)
-    it["reasons"] = reasons
+    it["heat_score"] = heat
+    it["quality_score"] = q
+    it["score"] = round(heat + q, 1)
+    it["reasons"] = ([f"热度 {heat}：" + ("；".join(heat_reasons) or "无信号")]
+                     + [f"质量 {q}：" + "；".join(q_reasons)])
     return it
 
 
 # ---------------------------------------------------------------- 配额选取
 def pick_top(items: list[dict], n=10, quota=None) -> list[dict]:
-    """按分数排序后按来源配额贪心选取，保证信源多样性"""
+    """热度优先 + 来源配额兜底。
+
+    第一轮：真实阅读榜条目（strong_heat）豁免配额。
+    这些是站方按阅读量排出来的，正是「以热度为标准」要的东西，
+    不该被「每家最多几条」的多样性规则挤掉——否则谷德热榜第 4、5 名
+    会被配额挡在门外，换上分数更低的其他源条目。
+    第一轮就够 n 条时直接返回（说明当周热度榜本身撑得满一期）。
+
+    第二轮：其余条目按来源配额贪心补齐，保证信源多样性。
+    """
     quota = quota or {"ArchDaily": 4, "谷德设计网": 3, "Dezeen": 3,
                       "Designboom": 2, "有方空间": 2, "建筑学院": 2}
     ranked = sorted(items, key=lambda x: x["score"], reverse=True)
-    used, picked = {}, []
+    picked, used, rest = [], {}, []
     for it in ranked:
+        if it.get("strong_heat"):
+            picked.append(it)
+            used[it["source"]] = used.get(it["source"], 0) + 1
+            if len(picked) >= n:
+                return picked
+        else:
+            rest.append(it)
+
+    for it in rest:
         if len(picked) >= n:
             break
         src = it["source"]
-        cap = quota.get(src, 2)
-        if used.get(src, 0) >= cap:
+        if used.get(src, 0) >= quota.get(src, 2):
             continue
         used[src] = used.get(src, 0) + 1
         picked.append(it)
@@ -454,10 +537,13 @@ def pick_top(items: list[dict], n=10, quota=None) -> list[dict]:
     return picked
 
 
-def run(items: list[dict], n=10) -> tuple[list[dict], list[dict], dict]:
-    """先打分（分数用于决定重复项保留谁）→ 去噪 → 去重 → 配额选取"""
+def run(items: list[dict], n=10, heat_sig: dict | None = None) -> tuple[list[dict], list[dict], dict]:
+    """热度信号 → 打分（分数用于决定重复项保留谁）→ 去噪 → 去重 → 配额选取"""
+    heat_sig = heat_sig or {}
     merged = merge_archdaily_bilingual(items)
-    scored = [score_one(x) for x in merged]
+    # 跨源报道数必须在去重之前统计，否则重复项被删掉后就数不出来了
+    cross = cross_source_map(merged)
+    scored = [score_one(x, heat_sig, cross) for x in merged]
     clean = [x for x in scored if not x.get("is_noise")]
     dropped = [x for x in scored if x.get("is_noise")]
     clean.sort(key=lambda x: x["score"], reverse=True)
