@@ -414,6 +414,15 @@ def render(data: dict, links=None, current: str = "") -> str:
 
     src_stat = " · ".join(
         f"{s['source']} {s.get('hit', 0)}" for s in data.get("sources", []) if s.get("ok"))
+
+    # 页面标题只写案例发布日，会让用户在次日误以为「没更新」——
+    # 必须同时给出页面自身的更新时间，并说明次日才会收录当天内容
+    gen = data.get("generated_at", "")
+    gen_date, gen_time = (gen[:10], gen[11:19]) if len(gen) >= 19 else ("", "")
+    try:
+        nxt = (dt.date.fromisoformat(d) + dt.timedelta(days=1)).isoformat()
+    except ValueError:
+        nxt = ""
     cards = "\n".join(card(it) for it in data["items"])
     return f"""<!DOCTYPE html>
 <html lang="zh-CN">
@@ -426,14 +435,15 @@ def render(data: dict, links=None, current: str = "") -> str:
 <meta name="apple-mobile-web-app-status-bar-style" content="default"/>
 <meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
 <link rel="manifest" href="manifest.json"/>
-<title>每日建筑案例 · {d}</title>
+<title>{d} 新发布 · 每日建筑案例</title>
 <style>{CSS_BASE}</style>
 </head>
 <body>
 <div class="wrap">
   <div class="hd">
     <h1>每日建筑案例 · Top {data['count']}</h1>
-    <div class="sub">{d} 发布 · 生成于 {esc(data['generated_at'][11:19])}<br/>{esc(src_stat)}</div>
+    <div class="sub"><b>{d}</b> 新发布的案例<br/>
+      页面更新于 {gen_date} {gen_time} · 每天 06:00 / 08:00 自动更新<br/>{esc(src_stat)}</div>
     <div class="stats">
       <div class="stat"><b>{data['candidate_count']}</b>抓取</div>
       <div class="stat"><b>{data['after_dedupe']}</b>去重后</div>
@@ -442,7 +452,9 @@ def render(data: dict, links=None, current: str = "") -> str:
   </div>
   {nav_bar(links, current)}
   {cards}
-  <div class="ft">数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  <div class="ft">本页收录的是 <b>{d}</b> 当天发布的案例（每天收录前一天的新内容）<br/>
+  {nxt + ' 发布的内容，将在次日早上自动收录' if nxt else ''}<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
   点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
   <a class="ft-link" href="{esc(links.get('library','library.html'))}">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
 </div>
