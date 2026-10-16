@@ -9,10 +9,60 @@
 <style>
   *{box-sizing:border-box;margin:0;padding:0}
   body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
-       "Microsoft YaHei",sans-serif;color:#0f172a;padding:24px 14px 48px}
-  .wrap{max-width:560px;margin:0 auto}
-  h1{font-size:22px;margin-bottom:6px}
-  .sub{font-size:13px;color:#64748b;margin-bottom:20px;line-height:1.7}
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+
   .day{display:block;background:#fff;border-radius:16px;padding:16px;margin-bottom:14px;
        text-decoration:none;color:inherit;-webkit-tap-highlight-color:transparent;
        box-shadow:0 1px 3px rgba(15,23,42,.07),0 8px 22px rgba(15,23,42,.05)}
@@ -25,14 +75,15 @@
   .thumbs img{width:33%;aspect-ratio:4/3;object-fit:cover;border-radius:8px;background:#e2e8f0}
   .day-list{font-size:13px;color:#475569;line-height:1.75;padding-left:18px}
   .day-more{font-size:12px;color:#2563eb;margin-top:10px}
-  .back{display:inline-block;font-size:13px;color:#2563eb;text-decoration:none;
-        background:#fff;border-radius:10px;padding:9px 14px;margin-bottom:18px;
-        box-shadow:0 1px 3px rgba(15,23,42,.08)}
-</style></head>
+</style>
+</head>
 <body><div class="wrap">
-  <a class="back" href="index.html">‹ 回到最新一期</a>
-  <h1>建筑案例日报 · 往期归档</h1>
-  <div class="sub">共 7 期 · 点击任意一期查看当天筛选出的全部案例</div>
+  <div class="hd">
+    <h1>往期归档</h1>
+    <div class="sub">共 7 期 · 累计 70 个案例
+      · 点击任意一期查看当天全部入选</div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html" class="on">往期归档</a><a href="library.html">灵感库</a></div>
   
       <a class="day" href="digest_2026-10-15.html">
         <div class="day-hd">
@@ -40,7 +91,7 @@
           <span class="day-wd">周四</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6ace/0b2a/c599/0e01/8860/1095/newsletter/zhuozhuo-community-wei-plus-design_52.jpg?1791888309" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6acf/8ec6/b2c4/c300/0178/f330/slideshow/02_Pedro_Mascaro_DJI_20250221081134_0859_D.jpg?1791987438&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6acd/0fd4/c599/0e01/8860/0eca/newsletter/azenya-villas-kwca-kosala-weerasekara-chartered-architects_20.jpg?1791823849" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6ace/0b2a/c599/0e01/8860/1095/newsletter/zhuozhuo-community-wei-plus-design_52.jpg?1791888309" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6acf/8ec6/b2c4/c300/0178/f330/slideshow/02_Pedro_Mascaro_DJI_20250221081134_0859_D.jpg?1791987438&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6acd/0fd4/c599/0e01/8860/0eca/newsletter/azenya-villas-kwca-kosala-weerasekara-chartered-architects_20.jpg?1791823849" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>景德镇陶阳里灼灼社区 / 韦加设计</li><li>布鲁马迪纽纪念碑 / Gustavo Penna Arquiteto e Associados</li><li>Azenya 别墅 / KWCA - Kosala Weerasekara Chartered Architects</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -50,7 +101,7 @@
           <span class="day-wd">周三</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6ac6/13be/07c3/d100/017f/dc73/newsletter/004.jpg?1791366141" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6ace/7c2a/b2c4/c300/0178/ee36/newsletter/DJI_20260824183026_0231_D_copia.jpg?1791917170" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6ac7/f66c/b2c4/c300/0178/e3a1/newsletter/09__SebastianSchels.jpg?1791491626" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6ac6/13be/07c3/d100/017f/dc73/newsletter/004.jpg?1791366141" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6ace/7c2a/b2c4/c300/0178/ee36/newsletter/DJI_20260824183026_0231_D_copia.jpg?1791917170" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6ac7/f66c/b2c4/c300/0178/e3a1/newsletter/09__SebastianSchels.jpg?1791491626" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>葡萄园之家 / ARCHITEKTI mikulaj &amp; mikulajova</li><li>KatNap 住宅 / Nutum Estudio</li><li>Wilnsdorf 小学与体育馆 / BUERO BB</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -60,7 +111,7 @@
           <span class="day-wd">周二</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6acd/582c/7887/fb01/8910/6a65/newsletter/the-frank-liu-jr-academy-for-music-and-arts-flama_3.jpg?1791842390" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/medium_jpg/IMG_9144.jpg?1791744005" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/689b/9b43/07ae/3401/89b5/21ea/newsletter/casa-de-linho-tetro-arquitetura_1.jpg?1755028307" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://images.adsttc.com/media/images/6acd/582c/7887/fb01/8910/6a65/newsletter/the-frank-liu-jr-academy-for-music-and-arts-flama_3.jpg?1791842390" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/6acb/d543/b2c4/c300/0178/e7fe/medium_jpg/IMG_9144.jpg?1791744005" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://images.adsttc.com/media/images/689b/9b43/07ae/3401/89b5/21ea/newsletter/casa-de-linho-tetro-arquitetura_1.jpg?1755028307" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>OMA / Jason Long 将休斯敦历史悠久的福尔杰咖啡厂改造为音乐与艺术学校</li><li>Hōsho House / Israelpacheco Arquitectos</li><li>亚麻住宅 / TETRO Arquitetura</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -70,7 +121,7 @@
           <span class="day-wd">周一</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/not-a-museum-skwat-tokyo-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/pct-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/not-a-museum-skwat-tokyo-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/pct-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>BIG Designs Cloud-like Tirana Fountain Plaza Raised Above Public Park</li><li>Not a Hotel to Open Not a Museum at Imperial Hotel Plaza Tokyo Ahead of Demolition</li><li>潘周桢学校体育馆，胡志明市 / scale50</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -80,7 +131,7 @@
           <span class="day-wd">周六</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/Nghia-Do-Kindergarten-by-Sunjin-Vietnam-Joint-Venture-Company-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/Centre-de-Salut-Son-Ferriol-by-Laboqueria-Arquitectura-Munarq-90h-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/00-half-solid-house-tui-studio-02-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/Nghia-Do-Kindergarten-by-Sunjin-Vietnam-Joint-Venture-Company-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/Centre-de-Salut-Son-Ferriol-by-Laboqueria-Arquitectura-Munarq-90h-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="https://oss.gooood.cn/uploads/2026/10/00-half-solid-house-tui-studio-02-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>Nghia Do幼儿园，河内 / Sunjin越南合资有限公司</li><li>Son Ferriol医疗中心，马略卡岛帕尔马 / Laboqueria Arquitectura + Munarq</li><li>半实住宅，头顿 / Túi Studio</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -90,7 +141,7 @@
           <span class="day-wd">周五</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/jingan-park-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/sugi-house-ujizono-architects-kyoto_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta-sq_dezeen_2364_col_1-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/jingan-park-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/sugi-house-ujizono-architects-kyoto_dezeen_2364_sq_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/ian-potter-state-theatre-nh-architecture-snohetta-sq_dezeen_2364_col_1-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>融界·静安：上海静安公园更新设计 / 同济原作设计工作室</li><li>Home in Kyoto is a &quot;subtle Rearranging&quot; of Familiar Spaces</li><li>Ian Potter State Theatre Refreshed &quot;for the Next Generation&quot;</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
@@ -100,8 +151,9 @@
           <span class="day-wd">周四</span>
           <span class="day-num">10 个案例</span>
         </div>
-        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/zhuozhuo-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/wardrobe-house-sepka-architekti-architecture-residential-czech-republic-wood-prefabrication_dezeen_2364_sq-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/zaha-hadid-foundation-cultural-hub-london-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" onerror="this.style.display='none'"/></div>
+        <div class="thumbs"><img src="https://oss.gooood.cn/uploads/2026/10/zhuozhuo-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/wardrobe-house-sepka-architekti-architecture-residential-czech-republic-wood-prefabrication_dezeen_2364_sq-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/><img src="http://static.dezeen.com/uploads/2026/10/zaha-hadid-foundation-cultural-hub-london-sq_dezeen_2364_col_0-411x411.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.style.display='none'"/></div>
         <ol class="day-list"><li>景德镇陶阳里灼灼社区 / 韦加设计</li><li>Šépka Architekti Models Prefab House in Prague on Wooden Wardrobe</li><li>Former Zaha Hadid Headquarters to Open As Public Arts Venue in London</li></ol>
         <div class="day-more">查看全部 10 个 ›</div>
       </a>
+  <div class="ft"><a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
 </div></body></html>
