@@ -119,7 +119,7 @@ def _norm_area(s: str) -> str:
     s = re.sub(r"sq[-\s]?\.?\s?m\b", "m²", s, flags=re.I)
     s = re.sub(r"\s*m\s*[²2]", " m²", s)
     s = re.sub(r"[-‐-―]\s*(?=m²)", "", s)
-    s = re.sub(r"(\d)\s*(m²|平方米|平米)", r"\1 \2", s)
+    s = re.sub(r"(\d)\s*(m²|平方米|平米|平方公尺)", lambda m: f"{m.group(1)} m²", s)
     return _clean(s)
 
 
