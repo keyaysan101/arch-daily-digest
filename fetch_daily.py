@@ -66,6 +66,8 @@ SOURCES = [
     dict(name="Designboom", kind="rss", weight=0.82, lang="en",
          path_include=r"/architecture/",
          urls=["https://www.designboom.com/feed"]),
+    dict(name="有方空间", kind="yf", weight=0.80, lang="zh",
+         urls=["https://www.archiposition.com/"]),
     dict(name="建筑学院", kind="rss", weight=0.65, lang="zh",
          urls=["https://www.archcollege.com/feed"]),
 ]
@@ -358,6 +360,64 @@ def fetch_html_id(src: dict) -> list[dict]:
     return out
 
 
+def fetch_yf(src: dict) -> list[dict]:
+    """有方空间首页信息流。
+
+    早期失败的原因是它的文章 ID 从「日期数字」（/items/20180525080701）
+    换成了 10 位十六进制（/items/1b6ac7e405），老的时间解析规则失效。
+    但卡片 <a class="index-feed-item"> 上带 data-date="2026-10-16 19:11:58"，
+    直接给出精确发布时间，比从 ID 里反推更可靠。
+
+    首页形如：
+      <a class="index-feed-item" href="/items/xxxxxxxxxx"
+         data-date="2026-10-16 19:11:58" data-id="581817">
+        <img alt="标题" src="封面">
+        <p class="index-feed-detail">摘要</p>
+      </a>
+    """
+    base = src["urls"][0]
+    soup = BeautifulSoup(get_html(base), "lxml")
+    out = []
+    for a in soup.select("a.index-feed-item"):
+        href = a.get("href") or ""
+        # 只认内容条目；/video?…、/category/… 这类入口不走这条路
+        if not href.startswith("/items/"):
+            continue
+        raw_date = (a.get("data-date") or "").strip().replace(" ", "T")
+        pub = parse_dt(raw_date)
+        if not pub:
+            continue
+        title = ""
+        for im in a.find_all("img"):
+            title = (im.get("alt") or "").strip()
+            if title:
+                break
+        if not title:
+            for p in a.find_all("p"):
+                t = re.sub(r"\s+", " ", p.get_text(strip=True))
+                if t and not re.match(r"^20\d{2}[.\-/]", t):
+                    title = t
+                    break
+        if len(title) < 4:
+            continue
+
+        cover = None
+        for im in a.find_all("img"):
+            cover = img_from_tag(im)
+            if cover:
+                break
+
+        detail = a.find(class_="index-feed-detail")
+        summary = re.sub(r"\s+", " ", detail.get_text(strip=True)) if detail else ""
+
+        out.append(dict(
+            source=src["name"], weight=src["weight"], lang=src["lang"],
+            title=title, url=normalize_url(urljoin(base, href)),
+            cover=cover, summary=summary[:400], published_at=pub.isoformat(),
+        ))
+    return out
+
+
 # ---------------------------------------------------------------- 主流程
 def collect(verbose=True) -> tuple[list[dict], list[dict]]:
     """抓取全部信源，返回 (所有条目, 各源统计)。
@@ -366,7 +426,8 @@ def collect(verbose=True) -> tuple[list[dict], list[dict]]:
     这样即使某天漏跑，之前几天抓到的内容也不会凭空消失。
     """
     raw_all, stats = [], []
-    fetchers = {"rss": fetch_rss, "html": fetch_html, "html_id": fetch_html_id}
+    fetchers = {"rss": fetch_rss, "html": fetch_html, "html_id": fetch_html_id,
+                "yf": fetch_yf}
     for s in SOURCES:
         try:
             got = fetchers[s["kind"]](s)
