@@ -325,5 +325,41 @@
   "photographer": "空与间摄影"
  },
  "https://www.gooood.cn/pamet-bend-usa-by-leblanc-jones-landscape-architects-inc.htm": {},
- "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm": {}
+ "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm": {},
+ "https://www.archdaily.cn/zh/1186923/shang-hai-da-ge-ju-yuan-snohetta": {
+  "year": "2026",
+  "photographer": "朱雨蒙 , Tian Fangfang , Chen Hao",
+  "image_count": 67
+ },
+ "https://www.archdaily.cn/zh/1187055/casa-colares-sintra-sabrab": {
+  "year": "2026",
+  "photographer": "Ivo Tavares Studio",
+  "brands": [
+   "Vibia",
+   "Minotti"
+  ],
+  "image_count": 56
+ },
+ "https://www.archdaily.cn/zh/1186833/bu-la-ge-xiao-fang-jiu-yuan-ju-architektura": {
+  "year": "2025",
+  "photographer": "Filip Šlapal",
+  "brands": [
+   "AbleTrade",
+   "B&V GIPS EU",
+   "B.V.A",
+   "BELLE Bohemia",
+   "BR-INVEST",
+   "Barevný Svět Liberec"
+  ],
+  "image_count": 42
+ },
+ "https://www.archdaily.cn/zh/1186879/hua-mei-chang-sha-guo-jin-jie-dian-shui-hua-bu-tong-kong-jian-she-ji": {
+  "year": "2025",
+  "photographer": "邵钟瑞",
+  "brands": [
+   "NKSTONE",
+   "Shanghai Mufang Display Props"
+  ],
+  "image_count": 36
+ }
 }
