@@ -1,35 +1,89 @@
 {
-  "captured_at": "2026-10-17T14:30:28",
+  "captured_at": "2026-10-17T23:04:57",
   "signals": {
     "https://www.gooood.cn/jingan-park-regeneration-by-original-design-studio.htm": {
       "heat": 45.0,
       "labels": [
-        "谷德 7 天最热 第 01 名"
-      ]
+        "谷德 7 天最热 第 1 名 · 阅读 2489 次"
+      ],
+      "views": 2489
     },
     "https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm": {
-      "heat": 42.0,
+      "heat": 42.23,
       "labels": [
-        "谷德 7 天最热 第 02 名"
-      ]
+        "谷德 7 天最热 第 2 名 · 阅读 2336 次"
+      ],
+      "views": 2336
     },
     "https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm": {
-      "heat": 39.0,
+      "heat": 40.97,
       "labels": [
-        "谷德 7 天最热 第 03 名"
-      ]
+        "谷德 7 天最热 第 3 名 · 阅读 2266 次"
+      ],
+      "views": 2266
     },
     "https://www.gooood.cn/soft-bake-by-ye-guanxin-and-huang-zhihao.htm": {
-      "heat": 36.0,
+      "heat": 37.26,
       "labels": [
-        "谷德 7 天最热 第 04 名"
-      ]
+        "谷德 7 天最热 第 4 名 · 阅读 2061 次"
+      ],
+      "views": 2061
     },
     "https://www.gooood.cn/kj-den-haag-by-powerhouse-company.htm": {
-      "heat": 33.0,
+      "heat": 36.09,
       "labels": [
-        "谷德 7 天最热 第 05 名"
-      ]
+        "谷德 7 天最热 第 5 名 · 阅读 1996 次"
+      ],
+      "views": 1996
+    },
+    "https://www.gooood.cn/boundaryless-regeneration-of-the-former-hangzhou-cannery-by-r-a-u-m.htm": {
+      "heat": 35.76,
+      "labels": [
+        "谷德 7 天最热 第 6 名 · 阅读 1978 次"
+      ],
+      "views": 1978
+    },
+    "https://www.gooood.cn/shuangfengqiao-tod-yujian-affordable-rental-housing-by-cdad.htm": {
+      "heat": 35.16,
+      "labels": [
+        "谷德 7 天最热 第 7 名 · 阅读 1945 次"
+      ],
+      "views": 1945
+    },
+    "https://www.gooood.cn/painting-boats-weaving-a-cultural-water-network-by-gardening-architects.htm": {
+      "heat": 32.0,
+      "labels": [
+        "谷德 7 天最热 第 8 名 · 阅读 1770 次"
+      ],
+      "views": 1770
+    },
+    "https://www.gooood.cn/pamet-bend-usa-by-leblanc-jones-landscape-architects-inc.htm": {
+      "heat": 31.57,
+      "labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1746 次"
+      ],
+      "views": 1746
+    },
+    "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm": {
+      "heat": 31.04,
+      "labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1717 次"
+      ],
+      "views": 1717
+    },
+    "https://www.gooood.cn/spatial-narrative-of-light-and-scale-by-7f-design.htm": {
+      "heat": 30.17,
+      "labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1669 次"
+      ],
+      "views": 1669
+    },
+    "https://www.gooood.cn/kai-akiu-interior-design-by-kooo-architects.htm": {
+      "heat": 30.08,
+      "labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1664 次"
+      ],
+      "views": 1664
     },
     "https://www.dezeen.com/2026/06/09/design-weeks-repair-katie-treggiden-opinion": {
       "heat": 35.0,
@@ -61,127 +115,127 @@
         "Dezeen 热门榜 第 5 名"
       ]
     },
-    "https://www.archdaily.com/1186819/shanghai-grand-opera-house-snohetta": {
+    "https://www.archdaily.com/1187054/colares-sintra-house-sabrab": {
       "heat": 22.0,
       "labels": [
         "ArchDaily 首页第 1 位"
       ]
     },
-    "https://www.archdaily.com/1186212/bunkers-and-arks-escaping-the-future-we-built-ourselves": {
+    "https://www.archdaily.com/1186819/shanghai-grand-opera-house-snohetta": {
       "heat": 21.08,
       "labels": [
         "ArchDaily 首页第 2 位"
       ]
     },
-    "https://www.archdaily.com/1018532/from-silos-to-iconic-spaces-15-projects-that-repurpose-industrial-structures": {
+    "https://www.archdaily.com/1186212/bunkers-and-arks-escaping-the-future-we-built-ourselves": {
       "heat": 20.17,
       "labels": [
         "ArchDaily 首页第 3 位"
       ]
     },
-    "https://www.archdaily.com/1185671/prague-fire-rescue-service-architektura": {
+    "https://www.archdaily.com/1018532/from-silos-to-iconic-spaces-15-projects-that-repurpose-industrial-structures": {
       "heat": 19.25,
       "labels": [
         "ArchDaily 首页第 4 位"
       ]
     },
-    "https://www.archdaily.com/1186874/harmay-changsha-guojin-street-store-studio-splash": {
+    "https://www.archdaily.com/1185671/prague-fire-rescue-service-architektura": {
       "heat": 18.33,
       "labels": [
         "ArchDaily 首页第 5 位"
       ]
     },
-    "https://www.archdaily.com/1186948/cclm-280-house-barbalaco-arquitectos": {
+    "https://www.archdaily.com/1186874/harmay-changsha-guojin-street-store-studio-splash": {
       "heat": 17.42,
       "labels": [
         "ArchDaily 首页第 6 位"
       ]
     },
-    "https://www.archdaily.com/1187034/ella-house-studio-memo": {
+    "https://www.archdaily.com/1186948/cclm-280-house-barbalaco-arquitectos": {
       "heat": 16.5,
       "labels": [
         "ArchDaily 首页第 7 位"
       ]
     },
-    "https://www.archdaily.com/1022567/pavilion-for-good-sleep-whale": {
+    "https://www.archdaily.com/1187034/ella-house-studio-memo": {
       "heat": 15.58,
       "labels": [
         "ArchDaily 首页第 8 位"
       ]
     },
-    "https://www.archdaily.com/1186962/gondomar-urban-park-paulo-merlini-arquitetos": {
+    "https://www.archdaily.com/1022567/pavilion-for-good-sleep-whale": {
       "heat": 14.67,
       "labels": [
         "ArchDaily 首页第 9 位"
       ]
     },
-    "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects": {
+    "https://www.archdaily.com/1186962/gondomar-urban-park-paulo-merlini-arquitetos": {
       "heat": 13.75,
       "labels": [
         "ArchDaily 首页第 10 位"
       ]
     },
-    "https://www.archdaily.com/1186600/two-multi-family-housing-units-aplomb": {
+    "https://www.archdaily.com/1186856/central-library-at-stevens-ranch-miller-hull-partnership-plus-steele-associates-architects": {
       "heat": 12.83,
       "labels": [
         "ArchDaily 首页第 11 位"
       ]
     },
-    "https://www.archdaily.com/1186700/transforming-barcelonas-waterfront-a-story-of-urban-renewal": {
+    "https://www.archdaily.com/1186600/two-multi-family-housing-units-aplomb": {
       "heat": 11.92,
       "labels": [
         "ArchDaily 首页第 12 位"
       ]
     },
-    "https://www.archdaily.com/1186200/designing-the-in-between-from-tactical-interventions-to-urban-policy-in-barcelona": {
+    "https://www.archdaily.com/1186700/transforming-barcelonas-waterfront-a-story-of-urban-renewal": {
       "heat": 11.0,
       "labels": [
         "ArchDaily 首页第 13 位"
       ]
     },
-    "https://www.archdaily.com/1186698/city-pride-school-a-threshold": {
+    "https://www.archdaily.com/1186200/designing-the-in-between-from-tactical-interventions-to-urban-policy-in-barcelona": {
       "heat": 10.08,
       "labels": [
         "ArchDaily 首页第 14 位"
       ]
     },
-    "https://www.archdaily.com/1186531/what-should-exterior-insulation-do-beyond-thermal-performance": {
+    "https://www.archdaily.com/1186698/city-pride-school-a-threshold": {
       "heat": 9.17,
       "labels": [
         "ArchDaily 首页第 15 位"
       ]
     },
-    "https://www.archdaily.com/1186944/lion-green-road-by-mary-duggan-architects-and-ruffarchitects-wins-riba-stirling-prize-2026": {
+    "https://www.archdaily.com/1186531/what-should-exterior-insulation-do-beyond-thermal-performance": {
       "heat": 8.25,
       "labels": [
         "ArchDaily 首页第 16 位"
       ]
     },
-    "https://www.archdaily.com/1148863/riba-reveals-the-shortlist-for-the-2026-stirling-prize": {
+    "https://www.archdaily.com/1186944/lion-green-road-by-mary-duggan-architects-and-ruffarchitects-wins-riba-stirling-prize-2026": {
       "heat": 7.33,
       "labels": [
         "ArchDaily 首页第 17 位"
       ]
     },
-    "https://www.archdaily.com/1186489/house-with-a-red-addition-facha-architekti": {
+    "https://www.archdaily.com/1148863/riba-reveals-the-shortlist-for-the-2026-stirling-prize": {
       "heat": 6.42,
       "labels": [
         "ArchDaily 首页第 18 位"
       ]
     },
-    "https://www.archdaily.com/1186995/world-monuments-watch-2027-nominations-point-to-government-austerity-climate-impact-and-skills-shortages-as-main-threats-to-heritage": {
+    "https://www.archdaily.com/1186489/house-with-a-red-addition-facha-architekti": {
       "heat": 5.5,
       "labels": [
         "ArchDaily 首页第 19 位"
       ]
     },
-    "https://www.archdaily.com/1186702/the-expanded-scope-of-the-architect-moving-windmills-innovation-center": {
+    "https://www.archdaily.com/1186995/world-monuments-watch-2027-nominations-point-to-government-austerity-climate-impact-and-skills-shortages-as-main-threats-to-heritage": {
       "heat": 4.58,
       "labels": [
         "ArchDaily 首页第 20 位"
       ]
     },
-    "https://www.archdaily.com/1186422/simose-museum-and-auberge-shigeru-ban-architects": {
+    "https://www.archdaily.com/1186702/the-expanded-scope-of-the-architect-moving-windmills-innovation-center": {
       "heat": 3.67,
       "labels": [
         "ArchDaily 首页第 21 位"
@@ -331,109 +385,253 @@
         "Dezeen 首页第 24 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186923/shang-hai-da-ge-ju-yuan-snohetta": {
+    "https://www.archcollege.com/105231.html": {
+      "heat": 8.0,
+      "labels": [
+        "建筑学院 首页第 1 位"
+      ]
+    },
+    "https://www.archcollege.com/105154.html": {
+      "heat": 7.67,
+      "labels": [
+        "建筑学院 首页第 2 位"
+      ]
+    },
+    "https://www.archcollege.com/105047.html": {
+      "heat": 7.33,
+      "labels": [
+        "建筑学院 首页第 3 位"
+      ]
+    },
+    "https://www.archcollege.com/105002.html": {
+      "heat": 7.0,
+      "labels": [
+        "建筑学院 首页第 4 位"
+      ]
+    },
+    "https://www.archcollege.com/104940.html": {
+      "heat": 6.67,
+      "labels": [
+        "建筑学院 首页第 5 位"
+      ]
+    },
+    "https://www.archcollege.com/104874.html": {
+      "heat": 6.33,
+      "labels": [
+        "建筑学院 首页第 6 位"
+      ]
+    },
+    "https://www.archcollege.com/104785.html": {
+      "heat": 6.0,
+      "labels": [
+        "建筑学院 首页第 7 位"
+      ]
+    },
+    "https://www.archcollege.com/104712.html": {
+      "heat": 5.67,
+      "labels": [
+        "建筑学院 首页第 8 位"
+      ]
+    },
+    "https://www.archcollege.com/104677.html": {
+      "heat": 5.33,
+      "labels": [
+        "建筑学院 首页第 9 位"
+      ]
+    },
+    "https://www.archcollege.com/104635.html": {
+      "heat": 5.0,
+      "labels": [
+        "建筑学院 首页第 10 位"
+      ]
+    },
+    "https://www.archcollege.com/90458.html": {
+      "heat": 4.67,
+      "labels": [
+        "建筑学院 首页第 11 位"
+      ]
+    },
+    "https://www.archcollege.com/88519.html": {
+      "heat": 4.33,
+      "labels": [
+        "建筑学院 首页第 12 位"
+      ]
+    },
+    "https://www.archcollege.com/86961.html": {
+      "heat": 4.0,
+      "labels": [
+        "建筑学院 首页第 13 位"
+      ]
+    },
+    "https://www.archcollege.com/104605.html": {
+      "heat": 3.67,
+      "labels": [
+        "建筑学院 首页第 14 位"
+      ]
+    },
+    "https://www.archcollege.com/104589.html": {
+      "heat": 3.33,
+      "labels": [
+        "建筑学院 首页第 15 位"
+      ]
+    },
+    "https://www.archcollege.com/104534.html": {
+      "heat": 3.0,
+      "labels": [
+        "建筑学院 首页第 16 位"
+      ]
+    },
+    "https://www.archcollege.com/104445.html": {
+      "heat": 2.67,
+      "labels": [
+        "建筑学院 首页第 17 位"
+      ]
+    },
+    "https://www.archcollege.com/104389.html": {
+      "heat": 2.33,
+      "labels": [
+        "建筑学院 首页第 18 位"
+      ]
+    },
+    "https://www.archcollege.com/104208.html": {
+      "heat": 2.0,
+      "labels": [
+        "建筑学院 首页第 19 位"
+      ]
+    },
+    "https://www.archcollege.com/104091.html": {
+      "heat": 1.67,
+      "labels": [
+        "建筑学院 首页第 20 位"
+      ]
+    },
+    "https://www.archcollege.com/104010.html": {
+      "heat": 1.33,
+      "labels": [
+        "建筑学院 首页第 21 位"
+      ]
+    },
+    "https://www.archcollege.com/103964.html": {
+      "heat": 1.0,
+      "labels": [
+        "建筑学院 首页第 22 位"
+      ]
+    },
+    "https://www.archcollege.com/103636.html": {
+      "heat": 0.67,
+      "labels": [
+        "建筑学院 首页第 23 位"
+      ]
+    },
+    "https://www.archcollege.com/103591.html": {
+      "heat": 0.33,
+      "labels": [
+        "建筑学院 首页第 24 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187055/casa-colares-sintra-sabrab": {
       "heat": 10.0,
       "labels": [
         "ArchDaily中国 首页第 1 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186493/di-bao-yu-fang-zhou-tao-chi-wo-men-qin-shou-jian-zao-de-wei-lai": {
+    "https://www.archdaily.cn/zh/1186923/shang-hai-da-ge-ju-yuan-snohetta": {
       "heat": 9.58,
       "labels": [
         "ArchDaily中国 首页第 2 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186833/bu-la-ge-xiao-fang-jiu-yuan-ju-architektura": {
+    "https://www.archdaily.cn/zh/1186493/di-bao-yu-fang-zhou-tao-chi-wo-men-qin-shou-jian-zao-de-wei-lai": {
       "heat": 9.17,
       "labels": [
         "ArchDaily中国 首页第 3 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186879/hua-mei-chang-sha-guo-jin-jie-dian-shui-hua-bu-tong-kong-jian-she-ji": {
+    "https://www.archdaily.cn/zh/1186833/bu-la-ge-xiao-fang-jiu-yuan-ju-architektura": {
       "heat": 8.75,
       "labels": [
         "ArchDaily中国 首页第 4 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186949/cclm-280-zhu-zhai-barbalaco-arquitectos": {
+    "https://www.archdaily.cn/zh/1186879/hua-mei-chang-sha-guo-jin-jie-dian-shui-hua-bu-tong-kong-jian-she-ji": {
       "heat": 8.33,
       "labels": [
         "ArchDaily中国 首页第 5 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187035/casa-ella-studio-memo": {
+    "https://www.archdaily.cn/zh/1186949/cclm-280-zhu-zhai-barbalaco-arquitectos": {
       "heat": 7.92,
       "labels": [
         "ArchDaily中国 首页第 6 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1064376/hao-mian-zhan-ting-whale": {
+    "https://www.archdaily.cn/zh/1187035/casa-ella-studio-memo": {
       "heat": 7.5,
       "labels": [
         "ArchDaily中国 首页第 7 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187027/gondomar-cheng-shi-gong-yuan-paulo-merlini-arquitetos": {
+    "https://www.archdaily.cn/zh/1064376/hao-mian-zhan-ting-whale": {
       "heat": 7.08,
       "labels": [
         "ArchDaily中国 首页第 8 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187019/shi-di-wen-si-mu-chang-zhong-yang-tu-shu-guan-miller-hull-partnership-plus-steele-associates-architects": {
+    "https://www.archdaily.cn/zh/1187027/gondomar-cheng-shi-gong-yuan-paulo-merlini-arquitetos": {
       "heat": 6.67,
       "labels": [
         "ArchDaily中国 首页第 9 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186806/liang-hu-zhu-zhai-aplomb": {
+    "https://www.archdaily.cn/zh/1187019/shi-di-wen-si-mu-chang-zhong-yang-tu-shu-guan-miller-hull-partnership-plus-steele-associates-architects": {
       "heat": 6.25,
       "labels": [
         "ArchDaily中国 首页第 10 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186788/zhong-su-ba-sai-luo-na-bin-shui-kong-jian-duan-cheng-shi-geng-xin-de-li-cheng": {
+    "https://www.archdaily.cn/zh/1186806/liang-hu-zhu-zhai-aplomb": {
       "heat": 5.83,
       "labels": [
         "ArchDaily中国 首页第 11 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186728/cheng-shi-jiao-ao-xue-xiao-a-threshold": {
+    "https://www.archdaily.cn/zh/1186788/zhong-su-ba-sai-luo-na-bin-shui-kong-jian-duan-cheng-shi-geng-xin-de-li-cheng": {
       "heat": 5.42,
       "labels": [
         "ArchDaily中国 首页第 12 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186931/chu-liao-bao-wen-xing-neng-wai-qiang-wai-bao-wen-huan-ying-ju-bei-na-xie-gong-neng": {
+    "https://www.archdaily.cn/zh/1186728/cheng-shi-jiao-ao-xue-xiao-a-threshold": {
       "heat": 5.0,
       "labels": [
         "ArchDaily中国 首页第 13 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186977/mary-duggan-architects-yu-ruffarchitects-she-ji-de-lion-green-road-xiang-mu-rong-huo-2026-nian-riba-si-te-lin-jiang": {
+    "https://www.archdaily.cn/zh/1186931/chu-liao-bao-wen-xing-neng-wai-qiang-wai-bao-wen-huan-ying-ju-bei-na-xie-gong-neng": {
       "heat": 4.58,
       "labels": [
         "ArchDaily中国 首页第 14 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186818/hong-wu-ding-zhu-zhai-facha-architekti": {
+    "https://www.archdaily.cn/zh/1186977/mary-duggan-architects-yu-ruffarchitects-she-ji-de-lion-green-road-xiang-mu-rong-huo-2026-nian-riba-si-te-lin-jiang": {
       "heat": 4.17,
       "labels": [
         "ArchDaily中国 首页第 15 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186999/2027nian-shi-jie-jian-zhu-wen-wu-guan-cha-ti-ming-zhi-chu-zheng-fu-cai-zheng-jin-suo-qi-hou-ying-xiang-yu-zhuan-ye-ji-neng-duan-que-shi-wen-hua-yi-chan-mian-lin-de-zhu-yao-wei-xie": {
+    "https://www.archdaily.cn/zh/1186818/hong-wu-ding-zhu-zhai-facha-architekti": {
       "heat": 3.75,
       "labels": [
         "ArchDaily中国 首页第 16 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186786/jian-zhu-shi-zhi-ze-fan-wei-de-tuo-zhan-yi-dong-feng-che-chuang-xin-zhong-xin": {
+    "https://www.archdaily.cn/zh/1186999/2027nian-shi-jie-jian-zhu-wen-wu-guan-cha-ti-ming-zhi-chu-zheng-fu-cai-zheng-jin-suo-qi-hou-ying-xiang-yu-zhuan-ye-ji-neng-duan-que-shi-wen-hua-yi-chan-mian-lin-de-zhu-yao-wei-xie": {
       "heat": 3.33,
       "labels": [
         "ArchDaily中国 首页第 17 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1186512/xia-lai-mei-zhu-guan-yu-bie-shu-jiu-dian-ban-mao-jian-zhu-she-ji-shi-wu-suo": {
+    "https://www.archdaily.cn/zh/1186786/jian-zhu-shi-zhi-ze-fan-wei-de-tuo-zhan-yi-dong-feng-che-chuang-xin-zhong-xin": {
       "heat": 2.92,
       "labels": [
         "ArchDaily中国 首页第 18 位"
@@ -581,150 +779,6 @@
       "heat": 0.5,
       "labels": [
         "Designboom 首页第 24 位"
-      ]
-    },
-    "https://www.archcollege.com/105231.html": {
-      "heat": 8.0,
-      "labels": [
-        "建筑学院 首页第 1 位"
-      ]
-    },
-    "https://www.archcollege.com/105154.html": {
-      "heat": 7.67,
-      "labels": [
-        "建筑学院 首页第 2 位"
-      ]
-    },
-    "https://www.archcollege.com/105047.html": {
-      "heat": 7.33,
-      "labels": [
-        "建筑学院 首页第 3 位"
-      ]
-    },
-    "https://www.archcollege.com/105002.html": {
-      "heat": 7.0,
-      "labels": [
-        "建筑学院 首页第 4 位"
-      ]
-    },
-    "https://www.archcollege.com/104940.html": {
-      "heat": 6.67,
-      "labels": [
-        "建筑学院 首页第 5 位"
-      ]
-    },
-    "https://www.archcollege.com/104874.html": {
-      "heat": 6.33,
-      "labels": [
-        "建筑学院 首页第 6 位"
-      ]
-    },
-    "https://www.archcollege.com/104785.html": {
-      "heat": 6.0,
-      "labels": [
-        "建筑学院 首页第 7 位"
-      ]
-    },
-    "https://www.archcollege.com/104712.html": {
-      "heat": 5.67,
-      "labels": [
-        "建筑学院 首页第 8 位"
-      ]
-    },
-    "https://www.archcollege.com/104677.html": {
-      "heat": 5.33,
-      "labels": [
-        "建筑学院 首页第 9 位"
-      ]
-    },
-    "https://www.archcollege.com/104635.html": {
-      "heat": 5.0,
-      "labels": [
-        "建筑学院 首页第 10 位"
-      ]
-    },
-    "https://www.archcollege.com/90458.html": {
-      "heat": 4.67,
-      "labels": [
-        "建筑学院 首页第 11 位"
-      ]
-    },
-    "https://www.archcollege.com/88519.html": {
-      "heat": 4.33,
-      "labels": [
-        "建筑学院 首页第 12 位"
-      ]
-    },
-    "https://www.archcollege.com/86961.html": {
-      "heat": 4.0,
-      "labels": [
-        "建筑学院 首页第 13 位"
-      ]
-    },
-    "https://www.archcollege.com/104605.html": {
-      "heat": 3.67,
-      "labels": [
-        "建筑学院 首页第 14 位"
-      ]
-    },
-    "https://www.archcollege.com/104589.html": {
-      "heat": 3.33,
-      "labels": [
-        "建筑学院 首页第 15 位"
-      ]
-    },
-    "https://www.archcollege.com/104534.html": {
-      "heat": 3.0,
-      "labels": [
-        "建筑学院 首页第 16 位"
-      ]
-    },
-    "https://www.archcollege.com/104445.html": {
-      "heat": 2.67,
-      "labels": [
-        "建筑学院 首页第 17 位"
-      ]
-    },
-    "https://www.archcollege.com/104389.html": {
-      "heat": 2.33,
-      "labels": [
-        "建筑学院 首页第 18 位"
-      ]
-    },
-    "https://www.archcollege.com/104208.html": {
-      "heat": 2.0,
-      "labels": [
-        "建筑学院 首页第 19 位"
-      ]
-    },
-    "https://www.archcollege.com/104091.html": {
-      "heat": 1.67,
-      "labels": [
-        "建筑学院 首页第 20 位"
-      ]
-    },
-    "https://www.archcollege.com/104010.html": {
-      "heat": 1.33,
-      "labels": [
-        "建筑学院 首页第 21 位"
-      ]
-    },
-    "https://www.archcollege.com/103964.html": {
-      "heat": 1.0,
-      "labels": [
-        "建筑学院 首页第 22 位"
-      ]
-    },
-    "https://www.archcollege.com/103636.html": {
-      "heat": 0.67,
-      "labels": [
-        "建筑学院 首页第 23 位"
-      ]
-    },
-    "https://www.archcollege.com/103591.html": {
-      "heat": 0.33,
-      "labels": [
-        "建筑学院 首页第 24 位"
       ]
     }
   }
