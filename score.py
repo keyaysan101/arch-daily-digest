@@ -405,10 +405,18 @@ def score_one(it: dict, heat_sig: dict | None = None,
     if sig:
         heat += sig["heat"]
         it["heat_labels"] = list(sig["labels"])
+        if sig.get("views"):
+            it["views"] = sig["views"]      # 站方公开的七日阅读次数，页面直接展示
         heat_reasons.append("、".join(sig["labels"]) + f"→{sig['heat']:.1f}")
         # 站方真实阅读榜（谷德 7 天最热 / Dezeen 热门榜）与首页编辑排序要区分开：
         # 前者是用户真正想看的「热度」，选取时豁免来源配额与时间窗口
         it["strong_heat"] = is_strong(sig["labels"])
+        if it["strong_heat"]:
+            # 记录站方榜单名次：同一份榜单内部的先后顺序就该照站方排的来，
+            # 不该被「跨源转载 +7.5」这类附加项颠覆——
+            # 否则会出现阅读 1978 次的排到阅读 2336 次前面的反直觉结果
+            m = re.search(r"第\s*(\d+)\s*名", " ".join(sig["labels"]))
+            it["heat_rank"] = int(m.group(1)) if m else 99
     else:
         it["heat_labels"] = []
 
@@ -494,29 +502,36 @@ def score_one(it: dict, heat_sig: dict | None = None,
 
 
 # ---------------------------------------------------------------- 配额选取
-def pick_top(items: list[dict], n=10, quota=None) -> list[dict]:
-    """热度优先 + 来源配额兜底。
+def pick_top(items: list[dict], n=10, quota=None, per_source_cap=None) -> list[dict]:
+    """站方榜单名次优先 + 单源上限 + 来源配额兜底。
 
-    第一轮：真实阅读榜条目（strong_heat）豁免配额。
-    这些是站方按阅读量排出来的，正是「以热度为标准」要的东西，
-    不该被「每家最多几条」的多样性规则挤掉——否则谷德热榜第 4、5 名
-    会被配额挡在门外，换上分数更低的其他源条目。
-    第一轮就够 n 条时直接返回（说明当周热度榜本身撑得满一期）。
+    第一轮：真实阅读榜条目（strong_heat）**严格按站方给的榜单名次**取用。
+    这些是站方按阅读量排出来的，正是「以热度为标准」要的东西。
+
+    但必须设单源上限（默认一半）——否则某一家的榜单条目足够多时
+    （谷德热榜实测有 12 条）会把整期占满，来源多样性归零。
+    实测教训：热榜条目从 5 条扩到 12 条后，曾出现过 10 条全是谷德的情况。
 
     第二轮：其余条目按来源配额贪心补齐，保证信源多样性。
     """
     quota = quota or {"ArchDaily": 4, "谷德设计网": 3, "Dezeen": 3,
                       "Designboom": 2, "有方空间": 2, "建筑学院": 2}
-    ranked = sorted(items, key=lambda x: x["score"], reverse=True)
-    picked, used, rest = [], {}, []
-    for it in ranked:
-        if it.get("strong_heat"):
-            picked.append(it)
-            used[it["source"]] = used.get(it["source"], 0) + 1
-            if len(picked) >= n:
-                return picked
-        else:
-            rest.append(it)
+    cap = per_source_cap if per_source_cap is not None else max(3, n // 2)
+
+    strong = sorted((x for x in items if x.get("strong_heat")),
+                    key=lambda x: (x.get("heat_rank", 99), -x["score"]))
+    rest = sorted((x for x in items if not x.get("strong_heat")),
+                  key=lambda x: x["score"], reverse=True)
+
+    picked, used = [], {}
+    for it in strong:
+        if len(picked) >= n:
+            return picked
+        src = it["source"]
+        if used.get(src, 0) >= cap:
+            continue
+        used[src] = used.get(src, 0) + 1
+        picked.append(it)
 
     for it in rest:
         if len(picked) >= n:
@@ -528,7 +543,7 @@ def pick_top(items: list[dict], n=10, quota=None) -> list[dict]:
         picked.append(it)
     # 配额未满则放宽补齐
     if len(picked) < n:
-        for it in ranked:
+        for it in rest:
             if len(picked) >= n:
                 break
             if it in picked:
