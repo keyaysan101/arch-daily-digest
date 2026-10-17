@@ -3,7 +3,7 @@
   "window_start": "2026-10-10",
   "window_end": "2026-10-16",
   "window_days": 7,
-  "generated_at": "2026-10-17T06:26:22+08:00",
+  "generated_at": "2026-10-17T08:13:38+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -18,7 +18,7 @@
     {
       "source": "ArchDaily中国",
       "ok": true,
-      "total": 64,
+      "total": 42,
       "oldest": "2026-09-16",
       "newest": "2026-10-17",
       "hit": 62,
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-10",
       "newest": "2026-10-16",
-      "hit": 60,
+      "hit": 59,
       "stale_days": 0,
       "stale": false
     },
@@ -66,14 +66,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 245,
-  "new_stored": 9,
-  "store_total": 385,
-  "after_dedupe": 166,
+  "candidate_count": 244,
+  "new_stored": 2,
+  "store_total": 387,
+  "after_dedupe": 165,
   "noise_count": 6,
   "heat_signal_count": 120,
-  "heat_hit_count": 62,
-  "out_of_window_count": 3,
+  "heat_hit_count": 60,
+  "out_of_window_count": 2,
   "count": 10,
   "noise": [
     {
@@ -151,7 +151,7 @@
       "summary": "建筑  国际会都的山水长卷 2026.10.10 收藏 分享",
       "published_at": "2026-10-10T10:46:20+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "meta": {
         "area": "27,935 m²"
       },
@@ -183,7 +183,7 @@
       "summary": "建筑  前观后学，学修一体 2026.10.10 收藏 分享",
       "published_at": "2026-10-10T11:56:37+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
@@ -207,31 +207,31 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "杭州罐头厂建筑景观一体化更新 / R.A.U.M.径合间",
-      "url": "https://www.gooood.cn/boundaryless-regeneration-of-the-former-hangzhou-cannery-by-r-a-u-m.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-hangzhou-cannery-15-2-472x303.jpg",
-      "summary": "建筑  一次高密度语境下的公共空间营造 2026.10.09 收藏 分享",
-      "published_at": "2026-10-09T14:51:29+08:00",
+      "title": "SOFT BAKE柔软发生，南昌 / 栖向设计",
+      "url": "https://www.gooood.cn/soft-bake-by-ye-guanxin-and-huang-zhihao.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/soft-bake-0-472x303.jpg",
+      "summary": "建筑  质朴肌理与烘焙温度共生 2026.10.12 收藏 分享",
+      "published_at": "2026-10-12T11:27:56+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-15T23:12:21+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "meta": {
-        "year": "2026"
+        "photographer": "叶官欣"
       },
       "strong_heat": true,
       "heat_labels": [
         "谷德 7 天最热 第 04 名"
       ],
       "is_project": true,
-      "btype": "景观",
-      "region": "杭州",
+      "btype": null,
+      "region": "南昌",
       "city": "",
-      "architect": "R.A.U.M.径合间",
+      "architect": "栖向设计",
       "heat_score": 36.0,
-      "quality_score": 33.4,
-      "score": 69.4,
+      "quality_score": 30.4,
+      "score": 66.4,
       "reasons": [
         "热度 36.0：谷德 7 天最热 第 04 名→36.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2"
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「南昌」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -239,31 +239,31 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "SOFT BAKE柔软发生，南昌 / 栖向设计",
-      "url": "https://www.gooood.cn/soft-bake-by-ye-guanxin-and-huang-zhihao.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/soft-bake-0-472x303.jpg",
-      "summary": "建筑  质朴肌理与烘焙温度共生 2026.10.12 收藏 分享",
-      "published_at": "2026-10-12T11:27:56+08:00",
+      "title": "KJ住宅综合体，荷兰 / Powerhouse Company",
+      "url": "https://www.gooood.cn/kj-den-haag-by-powerhouse-company.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-ejc-472x303.png",
+      "summary": "建筑  在九千平方米木质穹顶下抵达海牙 2026.10.12 收藏 分享",
+      "published_at": "2026-10-12T08:30:39+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "meta": {
-        "photographer": "叶官欣"
+        "photographer": "Sebastian van Damme"
       },
       "strong_heat": true,
       "heat_labels": [
         "谷德 7 天最热 第 05 名"
       ],
       "is_project": true,
-      "btype": null,
-      "region": "南昌",
+      "btype": "住宅",
+      "region": "荷兰",
       "city": "",
-      "architect": "栖向设计",
+      "architect": "Powerhouse Company",
       "heat_score": 33.0,
-      "quality_score": 30.4,
-      "score": 63.4,
+      "quality_score": 33.4,
+      "score": 66.4,
       "reasons": [
         "热度 33.0：谷德 7 天最热 第 05 名→33.0",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「南昌」+3；封面图+2"
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「荷兰」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -277,7 +277,7 @@
       "summary": "十月 16 © Guillaume Porche + 11 • Rixheim, 法国 建筑师: Aplomb 面积 该建筑项目的领域 面积: 125 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186806/liang-hu-zhu-zhai-aplomb Nana Dokua 阅读更多 »",
       "published_at": "2026-10-16T22:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "alt_url": "https://www.archdaily.com/1186600/two-multi-family-housing-units-aplomb",
       "bilingual": true,
       "meta": {
@@ -291,18 +291,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "法国",
       "city": "Rixheim",
       "architect": "Aplomb",
-      "heat_score": 12.3,
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 52.3,
+      "score": 51.9,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -317,7 +317,7 @@
       "summary": "十月 16 © Peter Fabo + 30 • Nečín, 捷克 建筑师: Facha architekti 面积 该建筑项目的领域 面积: 515 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Artemide , Gerflor , TON , CADRE , Jaroslav Kozohorsky , +2 Panab , Polstrin -2 https://www.archdaily.cn/zh/1186818/hong-wu-ding-zhu-zhai-facha-architekti Valeria Silva 阅读更多 »",
       "published_at": "2026-10-16T18:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "alt_url": "https://www.archdaily.com/1186489/house-with-a-red-addition-facha-architekti",
       "bilingual": true,
       "meta": {
@@ -339,18 +339,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "捷克",
       "city": "Nečín",
       "architect": "Facha architekti",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集30张+8；类型「住宅」+3；地域「捷克」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 7
@@ -365,7 +365,7 @@
       "summary": "十月 16 © Hiroyuki Hirai + 27 • Otake, 日本 建筑师: 坂茂建筑事务所 面积 该建筑项目的领域 面积: 7421 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: LOTTE CHEMICAL , Toto , Hansgrohe , A&A Material Corporation , CERA , +28 FP Kasei , Glasbau Hahn , HINOKI SOKEN , Hiro & Associe , Ikegami Sangyo , Jaxson , Kawashima Selkon , Kumahira , Kurosawa Construction , LIXIL , Mitsubishi Chemical Infratec , Mouri Architectural Hardwa",
       "published_at": "2026-10-16T15:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "alt_url": "https://www.archdaily.com/1186422/simose-museum-and-auberge-shigeru-ban-architects",
       "bilingual": true,
       "meta": {
@@ -387,18 +387,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 13 位"
+        "ArchDaily中国 首页第 14 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "日本",
       "city": "Otake",
       "architect": "坂茂建筑事务所",
-      "heat_score": 9.0,
+      "heat_score": 8.6,
       "quality_score": 40.0,
-      "score": 49.0,
+      "score": 48.6,
       "reasons": [
-        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 8
@@ -413,7 +413,7 @@
       "summary": "十月 16 © 刘国威 + 31 • 天津, 中国 建筑师: 米思建筑 面积 该建筑项目的领域 面积: 17894 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186612/tian-mei-yi-zhu-jie-qu-he-xin-qu-mi-si-jian-zhu 韩爽 阅读更多 »",
       "published_at": "2026-10-16T12:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "alt_url": "https://www.archdaily.com/1186609/renovation-of-the-core-area-of-tafa-art-block-mix-architecture",
       "bilingual": true,
       "meta": {
@@ -427,18 +427,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 15 位"
+        "ArchDaily中国 首页第 16 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "中国",
       "city": "天津",
       "architect": "米思建筑",
-      "heat_score": 8.2,
+      "heat_score": 7.8,
       "quality_score": 40.0,
-      "score": 48.2,
+      "score": 47.8,
       "reasons": [
-        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；地域「中国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
@@ -453,7 +453,7 @@
       "summary": "Cloaked in layers of white disks, architecture studio BIG has revealed plans for a mixed-use building in Tirana containing apartments , offices , cultural spaces and water features. Named Tirana Fountain Plaza, the cloud-like building will be raised on slim white columns over Rinia Park, designed to keep the ground level largely open as a public space. BIG has won the competition to design the Tir",
       "published_at": "2026-10-12T17:30:56+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-17T06:26:18+08:00",
+      "last_seen": "2026-10-17T08:13:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
