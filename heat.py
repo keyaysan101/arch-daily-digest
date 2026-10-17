@@ -9,7 +9,11 @@ Reddit / Pinterest / Facebook / Buffer 等社交分享计数接口被墙或恒�
 所以热度只能用「站方自己给出的排行」+「首页排序」两类代理信号：
 
   强信号（站方真实阅读排行）
-    谷德「7 天最热」   站方按近 7 日阅读量排的名次榜，12 条，带 01~12 名次
+    谷德「7 天最热」   2026-10-17 挖到它的后台接口：
+                       https://dashboard.gooood.cn/wp-json/gooood/v1/home/week-hot?count=12
+                       返回 metric=seven_day_views 的**真实七日阅读量**（如 2489 次），
+                       默认只给 5 条，加 ?count=12 可拿到 12 条（再大也是 12）。
+                       这是全网唯一能拿到的公众阅读数字，首选；HTML 解析降为兜底。
     Dezeen Most popular 站方热门榜，5 条（实测含数月前的文章，说明热度需要时间沉淀）
   弱信号（编辑排序，不是阅读量，但越靠前越被站方推）
     各站首页 / 栏目页文章出现顺序
@@ -26,7 +30,9 @@ import re
 import sys
 from concurrent.futures import ThreadPoolExecutor
 
-from fetch_daily import get_html, normalize_url
+import requests
+
+from fetch_daily import HEADERS, UA, get_html, normalize_url
 
 try:
     sys.stdout.reconfigure(encoding="utf-8")
@@ -38,9 +44,20 @@ CACHE_PATH = os.path.join("data", "heat_snapshot.json")
 # 热度总分上限：多个信号叠加时不让单项刷爆，保证质量项仍有话语权
 HEAT_CAP = 60.0
 
-# 谷德「7 天最热」名次 → 热度分（第 1 名 45 分，第 12 名 12 分）
-def _rank_gooood(r: int) -> float:
-    return max(0.0, 45.0 - (r - 1) * 3.0)
+# 谷德七日阅读榜 → 热度分（满 45 分）
+GOOOD_VIEW_MAX = 45.0
+
+
+def _views_gooood(v: int, top: int) -> float:
+    """按真实阅读量相对最高值归一：榜首 45 分，阅读量减半则热度分减半。
+
+    刻意不用「名次线性递减」——实测第 1 名 2489 次、第 12 名 1664 次，
+    真实差距只有 1.5 倍；若按名次给分会把第 12 名压到 12 分（3.75 倍差），
+    凭空放大了这条尾巴上的差距。
+    """
+    if top <= 0:
+        return 0.0
+    return round(GOOOD_VIEW_MAX * min(1.0, v / top), 2)
 
 
 # Dezeen 热门榜名次 → 热度分（第 1 名 35 分，第 5 名 11 分）
@@ -92,8 +109,56 @@ def _add(sig: dict, url: str, score: float, label: str) -> None:
 
 
 # ------------------------------------------------------------ 强信号：谷德 7 天最热
+def gooood_views(sig: dict, verbose=True) -> int:
+    """谷德「7 天最热」后台接口：拿带真实七日阅读量的榜单（最多 12 条）。
+
+    这是全网唯一能拿到公众阅读数字的地方，优先使用它；
+    接口挂了才回退到 HTML 解析（那时没有阅读量，只有名次）。
+    """
+    url = "https://dashboard.gooood.cn/wp-json/gooood/v1/home/week-hot?count=12"
+    try:
+        r = requests.get(url, headers={"User-Agent": UA, "Accept": "application/json"},
+                         timeout=25)
+        r.raise_for_status()
+        d = r.json()
+    except Exception as e:
+        if verbose:
+            print(f"    [热度] 谷德阅读量接口不可用（转 HTML 兜底）：{type(e).__name__}")
+        return 0
+    items = d.get("items") or []
+    if d.get("metric") != "seven_day_views" or not items:
+        return 0
+    # 防止异常数据（如首条 views 为 0 或非数字）
+    views = []
+    for x in items:
+        try:
+            v = int(x.get("sevenDayViews") or 0)
+        except (TypeError, ValueError):
+            v = 0
+        views.append((x, v))
+    top = max((v for _x, v in views), default=0)
+    if top <= 0:
+        return 0
+    n = 0
+    for rank, (x, v) in enumerate(sorted(views, key=lambda t: -t[1]), 1):
+        slug = (x.get("slug") or "").strip()
+        if not slug:
+            continue
+        u = f"https://www.gooood.cn/{slug}.htm"
+        rec = sig.setdefault(normalize_url(u), dict(heat=0.0, labels=[]))
+        rec["heat"] += _views_gooood(v, top)
+        rec["views"] = v            # 真实阅读量，页面直接展示
+        lab = f"谷德 7 天最热 第 {rank} 名 · 阅读 {v} 次"
+        if lab not in rec["labels"]:
+            rec["labels"].append(lab)
+        n += 1
+    if verbose:
+        print(f"    [热度] 谷德 7 天最热（真实阅读量）：{n} 条，榜首 {top} 次")
+    return n
+
+
 def gooood_hot(sig: dict, verbose=True) -> int:
-    """谷德首页侧栏「7 天最热」：站方按近 7 日阅读量排的名次榜。
+    """HTML 兜底：从首页侧栏「7 天最热」区块取名次（无阅读量数字）。
 
     页面结构（sidebar-week-hot 面板）：
         <a class="hot" href="/xxx.htm"><div class="rank">01</div><div><b data-zh="标题">…
@@ -121,9 +186,11 @@ def gooood_hot(sig: dict, verbose=True) -> int:
         seen.add(href)
         rank = int(m.group(2))
         n += 1
-        _add(sig, href, _rank_gooood(rank), f"谷德 7 天最热 第 {rank:02d} 名")
+        # 兜底路径没有阅读量，只能给名次差分（第 1 名 45 分起，每名递减 3 分）
+        _add(sig, href, max(0.0, 45.0 - (rank - 1) * 3.0),
+             f"谷德 7 天最热 第 {rank:02d} 名")
     if verbose:
-        print(f"    [热度] 谷德 7 天最热：{n} 条")
+        print(f"    [热度] 谷德 7 天最热（HTML 兜底）：{n} 条")
     return n
 
 
@@ -203,7 +270,9 @@ def collect(verbose=True, use_cache_if_fail=True) -> dict:
     sig: dict = {}
     if verbose:
         print("  [热度] 开始采集热度信号")
-    gooood_hot(sig, verbose)
+    # 谷德优先走能给出真实阅读量的后台接口，拿不到才退回 HTML 解析名次
+    if not gooood_views(sig, verbose):
+        gooood_hot(sig, verbose)
     dezeen_hot(sig, verbose)
     home_orders(sig, verbose)
 
