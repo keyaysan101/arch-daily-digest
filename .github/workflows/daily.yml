@@ -39,7 +39,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html archive.html digest_*.html manifest.json icon.svg .nojekyll data/
+          git add index.html archive.html library.html all.json digest_*.html manifest.json icon.svg .nojekyll data/
           if git diff --quiet --cached; then
             echo "本次无内容变化，跳过提交"
           else
