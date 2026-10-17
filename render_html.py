@@ -202,7 +202,11 @@ function filtered(){
     }
     return true;
   });
-  out.sort(function(a,b){return sortBy==='score'?(b.sc-a.sc):(a.d<b.d?1:a.d>b.d?-1:b.sc-a.sc)});
+  // 名次升序 = 推荐度降序；日期模式下同日再按名次排
+  out.sort(function(a,b){
+    if(sortBy==='score')return (a.rk-b.rk)||(a.d<b.d?1:a.d>b.d?-1:0);
+    return (a.d<b.d?1:a.d>b.d?-1:0)||(a.rk-b.rk);
+  });
   return out;
 }
 function cardHtml(x){
@@ -218,7 +222,7 @@ function cardHtml(x){
     (x.a?'<div class="arch">设计：'+esc(x.a)+'</div>':'')+
     '<div class="tags">'+chips+'</div>'+
     '<div class="foot"><span class="src" style="background:'+(SRCCOLOR[x.s]||'#475569')+'">'+esc(x.s)+'</span>'+
-    '<span class="score">'+esc(x.d)+' · '+x.sc+' 分</span>'+
+    '<span class="score">'+esc(x.d)+' · 当日第 '+x.rk+' 名</span>'+
     '<button class="mini" data-fav="'+esc(x.u)+'" data-t="'+esc(x.t)+'" data-s="'+esc(x.s)+'" data-c="'+esc(x.c)+'" data-d="'+esc(x.d)+'">收藏</button></div>'+
     '</div></div>';
 }
@@ -241,7 +245,7 @@ function exportMd(){
     lines.push((i+1)+'. ['+x.t+']('+x.u+')');
     var m=[];if(x.a)m.push(x.a);if(x.bt)m.push(x.bt);if(x.ct||x.rg)m.push(x.ct||x.rg);
     if(x.ar)m.push('面积 '+x.ar);if(x.yr)m.push(x.yr+' 年');if(x.s)m.push(x.s);
-    lines.push('   - '+(m.join(' · ')||'—')+'（'+x.d+'，评分 '+x.sc+'）');
+    lines.push('   - '+(m.join(' · ')||'—')+'（'+x.d+'，当日第 '+x.rk+' 名，评分 '+x.sc+'）');
     lines.push('   - 封面：'+x.c);
     lines.push('');
   });
@@ -250,10 +254,10 @@ function exportMd(){
 function exportCsv(){
   var out=filtered();
   if(!out.length){alert('当前筛选结果为空');return}
-  var head=['日期','标题','设计机构','类型','城市','国家或地区','面积','建成年份','图集张数','摄影师','评分','来源','链接','封面'];
+  var head=['日期','当日名次','标题','设计机构','类型','城市','国家或地区','面积','建成年份','图集张数','摄影师','评分','来源','链接','封面'];
   var rows=[head.join(',')];
   out.forEach(function(x){
-    rows.push([x.d,x.t,x.a,x.bt,x.ct,x.rg,x.ar,x.yr,x.ic,x.ph,x.sc,x.s,x.u,x.c]
+    rows.push([x.d,x.rk,x.t,x.a,x.bt,x.ct,x.rg,x.ar,x.yr,x.ic,x.ph,x.sc,x.s,x.u,x.c]
       .map(function(v){v=String(v==null?'':v);return '"'+v.replace(/"/g,'""')+'"'}).join(','));
   });
   download('建筑案例_'+out.length+'条.csv','\\ufeff'+rows.join('\\r\\n'),'text/csv;charset=utf-8');
@@ -268,7 +272,7 @@ document.getElementById('tg-fav').addEventListener('click',function(){
 });
 document.getElementById('tg-sort').addEventListener('click',function(){
   sortBy=sortBy==='date'?'score':'date';
-  this.textContent=sortBy==='score'?'排序：评分优先':'排序：日期优先';draw();
+  this.textContent=sortBy==='score'?'排序：推荐度优先':'排序：日期优先';draw();
 });
 document.getElementById('ex-md').addEventListener('click',exportMd);
 document.getElementById('ex-csv').addEventListener('click',exportCsv);
@@ -289,6 +293,9 @@ def slim(it: dict, date: str) -> dict:
         "ic": m.get("image_count") or 0, "ph": str(m.get("photographer") or ""),
         "sc": round(float(it.get("score") or 0), 1), "d": date,
         "au": it.get("alt_url") or "",
+        # 期内的推荐名次。跨期不能用原始分排序：2026-10-16 起换成热度口径后
+        # 分值量级从最高 117 降到最高 ~80，混排会永远把老案例压在新案例上面
+        "rk": int(it.get("rank") or 99),
     }
 
 
