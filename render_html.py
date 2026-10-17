@@ -358,12 +358,29 @@ def _area(s: str) -> str:
     return s
 
 
+def _score_text(it: dict) -> str:
+    """卡片右下角显示什么：有真实阅读量就显示阅读量，否则显示热度分。
+
+    不直接显示总分是因为同一份站方榜单内部是按**榜单名次**排序的，
+    而总分里混了跨源转载、质量等附加项，可能出现「第 4 名总分低于第 5 名」，
+    让人以为排序错了。阅读量是单调递减的，看着最直观。
+    """
+    v = it.get("views")
+    if v:
+        return f"7 天阅读 {v:,} 次"
+    h = it.get("heat_score") or 0
+    return f"热度 {h:.0f}"
+
+
 def card(it: dict) -> str:
     tags = []
     # 热度来源放最前：这是排序的主要依据，用户第一眼就该看到「凭什么排第一」
     heat_labels = it.get("heat_labels") or []
     if heat_labels:
-        tags.append((heat_labels[0], "#b91c1c"))
+        # 阅读量单独成一个标签：混在名次文案里太长，且它是唯一的可信数字
+        tags.append((re.sub(r"\s*·\s*阅读 [\d,]+ 次", "", heat_labels[0]), "#b91c1c"))
+    if it.get("views"):
+        tags.append((f"7 天阅读 {it['views']:,} 次", "#dc2626"))
     if it.get("btype"):
         tags.append(("类型 " + it["btype"], "#334155"))
     if it.get("region"):
@@ -399,7 +416,7 @@ def card(it: dict) -> str:
         <div class="tags">{tag_html}</div>
         <div class="foot">
           <span class="src" style="background:{src_color}">{esc(it['source'])}</span>
-          <span class="score">{it['score']:.0f} 分</span>
+          <span class="score">{_score_text(it)}</span>
           <button type="button" class="mini" data-more="{mid}">详情</button>
           <button type="button" class="mini" data-fav="{esc(it['url'])}"
             data-t="{esc(pretty_title(it['title']))}" data-s="{esc(it['source'])}"
