@@ -3,7 +3,7 @@
   "window_start": "2026-10-11",
   "window_end": "2026-10-17",
   "window_days": 7,
-  "generated_at": "2026-10-18T06:22:22+08:00",
+  "generated_at": "2026-10-18T08:11:19+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -40,9 +40,9 @@
       "ok": true,
       "total": 50,
       "oldest": "2026-10-09",
-      "newest": "2026-10-17",
+      "newest": "2026-10-18",
       "hit": 44,
-      "stale_days": 0,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -77,8 +77,8 @@
     }
   ],
   "candidate_count": 278,
-  "new_stored": 7,
-  "store_total": 427,
+  "new_stored": 1,
+  "store_total": 428,
   "after_dedupe": 184,
   "noise_count": 6,
   "heat_signal_count": 128,
@@ -135,9 +135,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2503 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2304 次"
       ],
-      "views": 2503,
+      "views": 2304,
       "heat_rank": 1,
       "is_project": true,
       "btype": "景观",
@@ -148,7 +148,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2503 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2304 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 1
@@ -169,55 +169,23 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2341 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2098 次"
       ],
-      "views": 2341,
+      "views": 2098,
       "heat_rank": 2,
       "is_project": true,
       "btype": "住宅",
       "region": "北京",
       "city": "",
       "architect": "",
-      "heat_score": 42.1,
+      "heat_score": 41.0,
       "quality_score": 33.4,
-      "score": 75.5,
+      "score": 74.4,
       "reasons": [
-        "热度 42.1：谷德 7 天最热 第 2 名 · 阅读 2341 次→42.1",
+        "热度 41.0：谷德 7 天最热 第 2 名 · 阅读 2098 次→41.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院",
-      "url": "https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg",
-      "summary": "建筑  前观后学，学修一体 2026.10.10 收藏 分享",
-      "published_at": "2026-10-10T11:56:37+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2271 次"
-      ],
-      "views": 2271,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": "教育",
-      "region": "上海",
-      "city": "",
-      "architect": "",
-      "heat_score": 40.8,
-      "quality_score": 33.4,
-      "score": 74.2,
-      "reasons": [
-        "热度 40.8：谷德 7 天最热 第 3 名 · 阅读 2271 次→40.8",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「上海」+3；封面图+2"
-      ],
-      "rank": 3
     },
     {
       "source": "谷德设计网",
@@ -229,27 +197,59 @@
       "summary": "建筑  质朴肌理与烘焙温度共生 2026.10.12 收藏 分享",
       "published_at": "2026-10-12T11:27:56+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "meta": {
         "photographer": "叶官欣"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2066 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2066 次"
       ],
       "views": 2066,
-      "heat_rank": 4,
+      "heat_rank": 3,
       "is_project": true,
       "btype": null,
       "region": "南昌",
       "city": "",
       "architect": "栖向设计",
-      "heat_score": 37.1,
+      "heat_score": 40.4,
       "quality_score": 30.4,
-      "score": 67.5,
+      "score": 70.8,
       "reasons": [
-        "热度 37.1：谷德 7 天最热 第 4 名 · 阅读 2066 次→37.1",
+        "热度 40.4：谷德 7 天最热 第 3 名 · 阅读 2066 次→40.4",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「南昌」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院",
+      "url": "https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg",
+      "summary": "建筑  前观后学，学修一体 2026.10.10 收藏 分享",
+      "published_at": "2026-10-10T11:56:37+08:00",
+      "first_seen": "2026-10-14T22:57:45+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2038 次"
+      ],
+      "views": 2038,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": "教育",
+      "region": "上海",
+      "city": "",
+      "architect": "",
+      "heat_score": 39.8,
+      "quality_score": 33.4,
+      "score": 73.2,
+      "reasons": [
+        "热度 39.8：谷德 7 天最热 第 4 名 · 阅读 2038 次→39.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -263,7 +263,7 @@
       "summary": "建筑  在九千平方米木质穹顶下抵达海牙 2026.10.12 收藏 分享",
       "published_at": "2026-10-12T08:30:39+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "meta": {
         "photographer": "Sebastian van Damme"
       },
@@ -278,11 +278,11 @@
       "region": "荷兰",
       "city": "",
       "architect": "Powerhouse Company",
-      "heat_score": 36.0,
+      "heat_score": 39.1,
       "quality_score": 33.4,
-      "score": 69.4,
+      "score": 72.5,
       "reasons": [
-        "热度 36.0：谷德 7 天最热 第 5 名 · 阅读 2001 次→36.0",
+        "热度 39.1：谷德 7 天最热 第 5 名 · 阅读 2001 次→39.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「荷兰」+3；封面图+2"
       ],
       "rank": 5
@@ -297,7 +297,7 @@
       "summary": "十月 17 © 朱雨蒙 + 59 • Shanghai, 中国 建筑师: Snøhetta 面积 该建筑项目的领域 面积: 146786 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186923/shang-hai-da-ge-ju-yuan-snohetta Nina Vuga 阅读更多 »",
       "published_at": "2026-10-17T22:00:00+08:00",
       "first_seen": "2026-10-17T22:24:25+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "alt_url": "https://www.archdaily.com/1186819/shanghai-grand-opera-house-snohetta",
       "bilingual": true,
       "meta": {
@@ -337,7 +337,7 @@
       "summary": "十月 17 © Ivo Tavares Studio + 48 • Sintra, 葡萄牙 建筑师: Sabrab 面积 该建筑项目的领域 面积: 350 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Vibia , Minotti https://www.archdaily.cn/zh/1187055/casa-colares-sintra-sabrab Susanna Moreira 阅读更多 »",
       "published_at": "2026-10-17T23:00:00+08:00",
       "first_seen": "2026-10-17T23:02:05+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "alt_url": "https://www.archdaily.com/1187054/colares-sintra-house-sabrab",
       "bilingual": true,
       "meta": {
@@ -381,7 +381,7 @@
       "summary": "十月 17 © Filip Šlapal + 35 • Praha 7, 捷克 建筑师: Architektura 面积 该建筑项目的领域 面积: 517 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: AbleTrade , B&V GIPS EU , B.V.A , BELLE Bohemia , BR-INVEST , +19 Barevný Svět Liberec , Boušek , DASIP , DELTA SIGN , ENERGOMONT , Euflooria , Eurocolor , FERI , Gramon Print , ISOTRA PRO , KAREJA , MSV Liberec , Maron CZ , Menard Zakládání Staveb , PODANÝ , PORR , ProInt",
       "published_at": "2026-10-17T18:00:00+08:00",
       "first_seen": "2026-10-17T22:24:25+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "alt_url": "https://www.archdaily.com/1185671/prague-fire-rescue-service-architektura",
       "bilingual": true,
       "meta": {
@@ -429,7 +429,7 @@
       "summary": "十月 17 © 邵钟瑞 + 28 • 长沙, 中国 建筑师: 水花扑通空间设计 面积 该建筑项目的领域 面积: 471 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: NKSTONE , Shanghai Mufang Display Props https://www.archdaily.cn/zh/1186879/hua-mei-chang-sha-guo-jin-jie-dian-shui-hua-bu-tong-kong-jian-she-ji 韩爽 阅读更多 »",
       "published_at": "2026-10-17T14:00:00+08:00",
       "first_seen": "2026-10-17T22:24:25+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "alt_url": "https://www.archdaily.com/1186874/harmay-changsha-guojin-street-store-studio-splash",
       "bilingual": true,
       "meta": {
@@ -473,7 +473,7 @@
       "summary": "Cloaked in layers of white disks, architecture studio BIG has revealed plans for a mixed-use building in Tirana containing apartments , offices , cultural spaces and water features. Named Tirana Fountain Plaza, the cloud-like building will be raised on slim white columns over Rinia Park, designed to keep the ground level largely open as a public space. BIG has won the competition to design the Tir",
       "published_at": "2026-10-12T17:30:56+08:00",
       "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-18T06:22:15+08:00",
+      "last_seen": "2026-10-18T08:11:11+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
