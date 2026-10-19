@@ -3,7 +3,7 @@
   "window_start": "2026-10-12",
   "window_end": "2026-10-18",
   "window_days": 7,
-  "generated_at": "2026-10-19T06:22:18+08:00",
+  "generated_at": "2026-10-19T08:12:20+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-10",
       "newest": "2026-10-18",
-      "hit": 54,
+      "hit": 51,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 296,
-  "new_stored": 24,
+  "candidate_count": 293,
+  "new_stored": 0,
   "store_total": 452,
-  "after_dedupe": 193,
+  "after_dedupe": 191,
   "noise_count": 6,
   "heat_signal_count": 126,
-  "heat_hit_count": 70,
-  "out_of_window_count": 5,
+  "heat_hit_count": 81,
+  "out_of_window_count": 2,
   "count": 10,
   "noise": [
     {
@@ -122,6 +122,114 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
+      "title": "双凤桥TOD保租房“寓见”，成都 / 成都市建筑设计研究院有限公司",
+      "url": "https://www.gooood.cn/shuangfengqiao-tod-yujian-affordable-rental-housing-by-cdad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-yujian-10-s17-472x303.jpg",
+      "summary": "建筑  轨道上的租住生活 2026.10.13 收藏 分享",
+      "published_at": "2026-10-13T14:40:21+08:00",
+      "first_seen": "2026-10-14T22:57:10+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
+      "meta": {
+        "photographer": "空与间摄影"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 1 名 · 阅读 2011 次"
+      ],
+      "views": 2011,
+      "heat_rank": 1,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "成都",
+      "city": "",
+      "architect": "",
+      "heat_score": 45.0,
+      "quality_score": 33.4,
+      "score": 78.4,
+      "reasons": [
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2011 次→45.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「成都」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "光与尺度的空间叙事，西安 / 7F设计工作室",
+      "url": "https://www.gooood.cn/spatial-narrative-of-light-and-scale-by-7f-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/1-osd-472x303.jpg",
+      "summary": "建筑  空白可以成为家的一部分 2026.10.15 收藏 分享",
+      "published_at": "2026-10-15T12:15:36+08:00",
+      "first_seen": "2026-10-15T23:01:37+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
+      "meta": {
+        "photographer": "Leo.",
+        "brands": [
+          "Fritz Hansen",
+          "Poul Kjærholm",
+          "Home Gallery",
+          "Louispoulsen",
+          "Carl Hansen & Søn",
+          "usm"
+        ]
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 2 名 · 阅读 1886 次"
+      ],
+      "views": 1886,
+      "heat_rank": 2,
+      "is_project": false,
+      "btype": null,
+      "region": "西安",
+      "city": "",
+      "architect": "7F设计工作室",
+      "heat_score": 42.2,
+      "quality_score": 15.4,
+      "score": 57.6,
+      "reasons": [
+        "热度 42.2：谷德 7 天最热 第 2 名 · 阅读 1886 次→42.2",
+        "质量 15.4：站点权重0.92→7.4；地域「西安」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "霞若户外中心，德钦 / 平介设计",
+      "url": "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-xiaruo-outdoor-29-472x303.jpg",
+      "summary": "建筑  田野上的木构户外运动驿站 2026.10.14 收藏 分享",
+      "published_at": "2026-10-14T10:53:47+08:00",
+      "first_seen": "2026-10-14T22:57:45+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 3 名 · 阅读 1792 次"
+      ],
+      "views": 1792,
+      "heat_rank": 3,
+      "is_project": true,
+      "btype": "体育",
+      "region": "德钦",
+      "city": "",
+      "architect": "平介设计",
+      "heat_score": 40.1,
+      "quality_score": 33.4,
+      "score": 73.5,
+      "reasons": [
+        "热度 40.1：谷德 7 天最热 第 3 名 · 阅读 1792 次→40.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「德钦」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
       "title": "融界·静安：上海静安公园更新设计 / 同济原作设计工作室",
       "url": "https://www.gooood.cn/jingan-park-regeneration-by-original-design-studio.htm",
       "cover": "https://oss.gooood.cn/uploads/2026/10/jingan-park-cover-472x303.jpg",
@@ -135,121 +243,21 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2396 次"
+        "谷德 7 天最热 第 4 名 · 阅读 1633 次"
       ],
-      "views": 2396,
-      "heat_rank": 1,
+      "views": 1633,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "景观",
       "region": "上海",
       "city": "",
       "architect": "",
-      "heat_score": 45.0,
+      "heat_score": 36.5,
       "quality_score": 33.4,
-      "score": 78.4,
+      "score": 69.9,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2396 次→45.0",
+        "热度 36.5：谷德 7 天最热 第 4 名 · 阅读 1633 次→36.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「上海」+3；封面图+2"
-      ],
-      "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "雁柏山庄，北京 / 业余建筑工作室 + 上海华都设计",
-      "url": "https://www.gooood.cn/yanbai-villa-by-amateur-architecture-studio-and-hdd.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-472x303.png",
-      "summary": "建筑  国际会都的山水长卷 2026.10.10 收藏 分享",
-      "published_at": "2026-10-10T10:46:20+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-16T23:55:00+08:00",
-      "meta": {
-        "area": "27,935 m²"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2131 次"
-      ],
-      "views": 2131,
-      "heat_rank": 2,
-      "is_project": true,
-      "btype": "住宅",
-      "region": "北京",
-      "city": "",
-      "architect": "",
-      "heat_score": 40.0,
-      "quality_score": 33.4,
-      "score": 73.4,
-      "reasons": [
-        "热度 40.0：谷德 7 天最热 第 2 名 · 阅读 2131 次→40.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「北京」+3；封面图+2"
-      ],
-      "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "SOFT BAKE柔软发生，南昌 / 栖向设计",
-      "url": "https://www.gooood.cn/soft-bake-by-ye-guanxin-and-huang-zhihao.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/soft-bake-0-472x303.jpg",
-      "summary": "建筑  质朴肌理与烘焙温度共生 2026.10.12 收藏 分享",
-      "published_at": "2026-10-12T11:27:56+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
-      "meta": {
-        "photographer": "叶官欣"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2110 次"
-      ],
-      "views": 2110,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": null,
-      "region": "南昌",
-      "city": "",
-      "architect": "栖向设计",
-      "heat_score": 39.6,
-      "quality_score": 30.4,
-      "score": 70.0,
-      "reasons": [
-        "热度 39.6：谷德 7 天最热 第 3 名 · 阅读 2110 次→39.6",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「南昌」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "上海道教学院及鹤坡观，上海 / 清华大学建筑设计研究院",
-      "url": "https://www.gooood.cn/shanghai-daoist-academy-and-hepo-temple-by-thad.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/hepotemple-word-13-960x608.jpg",
-      "summary": "建筑  前观后学，学修一体 2026.10.10 收藏 分享",
-      "published_at": "2026-10-10T11:56:37+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-18T08:11:11+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2067 次"
-      ],
-      "views": 2067,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "教育",
-      "region": "上海",
-      "city": "",
-      "architect": "",
-      "heat_score": 38.8,
-      "quality_score": 33.4,
-      "score": 72.2,
-      "reasons": [
-        "热度 38.8：谷德 7 天最热 第 4 名 · 阅读 2067 次→38.8",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -257,33 +265,34 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "KJ住宅综合体，荷兰 / Powerhouse Company",
-      "url": "https://www.gooood.cn/kj-den-haag-by-powerhouse-company.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-ejc-472x303.png",
-      "summary": "建筑  在九千平方米木质穹顶下抵达海牙 2026.10.12 收藏 分享",
-      "published_at": "2026-10-12T08:30:39+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
+      "title": "叶下庇护所酒店，坎佩切 / Punto Arquitectónico + Paolo Sarra Estudio",
+      "url": "https://www.gooood.cn/refugio-bajo-las-hojas-by-punto-arquitectonico-and-paolo-sarra-estudio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/2-472x303.jpg",
+      "summary": "建筑  以庭院、光影与大树串联九间客房 2026.10.13 收藏 分享",
+      "published_at": "2026-10-13T15:00:57+08:00",
+      "first_seen": "2026-10-14T22:57:10+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
       "meta": {
-        "photographer": "Sebastian van Damme"
+        "area": "220.00 m²",
+        "photographer": "Fabián Martínez、Bombay Estudio"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2030 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1596 次"
       ],
-      "views": 2030,
+      "views": 1596,
       "heat_rank": 5,
       "is_project": true,
-      "btype": "住宅",
-      "region": "荷兰",
+      "btype": "酒店",
+      "region": "坎佩切",
       "city": "",
-      "architect": "Powerhouse Company",
-      "heat_score": 38.1,
+      "architect": "Punto Arquitectónico + Paolo Sarra Estudio",
+      "heat_score": 35.7,
       "quality_score": 33.4,
-      "score": 71.5,
+      "score": 69.1,
       "reasons": [
-        "热度 38.1：谷德 7 天最热 第 5 名 · 阅读 2030 次→38.1",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「荷兰」+3；封面图+2"
+        "热度 35.7：谷德 7 天最热 第 5 名 · 阅读 1596 次→35.7",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「坎佩切」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -297,7 +306,7 @@
       "summary": "十月 17 © 朱雨蒙 + 59 • Shanghai, 中国 建筑师: Snøhetta 面积 该建筑项目的领域 面积: 146786 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186923/shang-hai-da-ge-ju-yuan-snohetta Nina Vuga 阅读更多 »",
       "published_at": "2026-10-17T22:00:00+08:00",
       "first_seen": "2026-10-17T22:24:25+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
       "alt_url": "https://www.archdaily.com/1186819/shanghai-grand-opera-house-snohetta",
       "bilingual": true,
       "meta": {
@@ -337,7 +346,7 @@
       "summary": "十月 18 © Salva Lopez + 18 • Barcelona, 西班牙 建筑师: Miriam Castells 面积 该建筑项目的领域 面积: 6600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Emiliana , La Invisible , Vergés https://www.archdaily.cn/zh/1186844/gracia-guan-jing-zhu-zhai-miriam-castells Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-18T23:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
       "alt_url": "https://www.archdaily.com/1186767/mirador-de-gracia-miriam-castells",
       "bilingual": true,
       "meta": {
@@ -382,7 +391,7 @@
       "summary": "十月 18 © Jan Bitter + 14 • Berlin, 德国 建筑师: Office ParkScheerbarth 面积 该建筑项目的领域 面积: 3400 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186939/huo-dong-dang-an-living-archive-office-parkscheerbarth Nina Vuga 阅读更多 »",
       "published_at": "2026-10-18T22:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
       "alt_url": "https://www.archdaily.com/1186676/living-archive-office-parkscheerbarth",
       "bilingual": true,
       "meta": {
@@ -422,7 +431,7 @@
       "summary": "十月 18 © Radek Šrettr Úlehla + 39 • Prague, 捷克 建筑师: matěj šebek architekti 面积 该建筑项目的领域 面积: 298 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Ikea , Lukáš Koubek , two hundred tons https://www.archdaily.cn/zh/1186934/harfa-wu-ding-jia-jian-xiang-mu-matej-sebek-architekti Valeria Silva 阅读更多 »",
       "published_at": "2026-10-18T18:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
       "alt_url": "https://www.archdaily.com/1185696/harfa-rooftop-extension-matej-sebek-architekti",
       "bilingual": true,
       "meta": {
@@ -461,29 +470,31 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "BIG designs cloud-like Tirana Fountain Plaza raised above public park",
-      "url": "https://www.dezeen.com/2026/10/12/tirana-fountain-tower-big-albania",
-      "cover": "http://static.dezeen.com/uploads/2026/10/tirana-fountain-tower-big_dezeen_2364_sq_0-411x411.jpg",
-      "summary": "Cloaked in layers of white disks, architecture studio BIG has revealed plans for a mixed-use building in Tirana containing apartments , offices , cultural spaces and water features. Named Tirana Fountain Plaza, the cloud-like building will be raised on slim white columns over Rinia Park, designed to keep the ground level largely open as a public space. BIG has won the competition to design the Tir",
-      "published_at": "2026-10-12T17:30:56+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-19T06:22:11+08:00",
-      "meta": {},
+      "title": "Snøhetta completes landmark opera house in Shanghai",
+      "url": "https://www.dezeen.com/2026/10/17/snohetta-shanghai-grand-opera-house",
+      "cover": "http://static.dezeen.com/uploads/2026/10/shanghai-grand-opera-house-snohetta-architecture-public-leisure-cultural-china-exclusive_dezeen_2364_sq-411x411.jpg",
+      "summary": "A giant spiral staircase guides visitors to the roof of the Shanghai Grand Opera House, which international studio Snøhetta designed to be \"as much a civic destination as a performance venue\". Located on the Huangpu River waterfront in Shanghai, China, the 146,786-square-metre opera house was conceived as a major cultural landmark that can accommodate a variety of musical performances. Snøhetta ha",
+      "published_at": "2026-10-17T19:30:27+08:00",
+      "first_seen": "2026-10-17T22:24:25+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
+      "meta": {
+        "area": "146,786 m²"
+      },
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 4 位"
+        "Dezeen 首页第 5 位"
       ],
       "is_project": false,
       "btype": "住宅",
-      "region": "Tirana",
+      "region": "Shanghai",
       "city": "",
       "architect": "",
-      "heat_score": 14.0,
+      "heat_score": 13.3,
       "quality_score": 24.6,
-      "score": 38.6,
+      "score": 37.9,
       "reasons": [
-        "热度 14.0：Dezeen 首页第 4 位→14.0",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「Tirana」+3；封面图+2"
+        "热度 13.3：Dezeen 首页第 5 位→13.3",
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「Shanghai」+3；封面图+2"
       ],
       "rank": 10
     }
