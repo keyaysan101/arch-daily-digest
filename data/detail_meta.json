@@ -400,5 +400,45 @@
  },
  "https://www.dezeen.com/2026/10/17/snohetta-shanghai-grand-opera-house": {
   "area": "146,786 m²"
+ },
+ "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm": {
+  "area": "146,786 m²",
+  "year": "2026"
+ },
+ "https://www.archdaily.cn/zh/1186860/dua-bie-shu-architecture-brio": {
+  "year": "2023",
+  "photographer": "Ishita Sitwala | The Fishy Project",
+  "brands": [
+   "Kohler",
+   "Dtale Modern",
+   "Fan Studio",
+   "Hatsu Lighting",
+   "Josmo",
+   "Norisys"
+  ],
+  "image_count": 33
+ },
+ "https://www.archdaily.cn/zh/1187010/macisaac-yi-liao-jian-kang-da-lou-shl": {
+  "year": "2026",
+  "photographer": "Ema Peter",
+  "image_count": 14
+ },
+ "https://www.archdaily.cn/zh/1186734/xia-jing-zhi-jia-gieo-architecture": {
+  "year": "2025",
+  "photographer": "Triệu Chiến",
+  "brands": [
+   "Toto",
+   "Vietceramics"
+  ],
+  "image_count": 28
+ },
+ "https://www.archdaily.cn/zh/1186993/salomon-store-minamiaoyama-xiao-da-jian-zhu": {
+  "year": "2026",
+  "photographer": "堀越圭晋 / SS",
+  "brands": [
+   "Amer Sports Japan",
+   "Tachibana Shoten"
+  ],
+  "image_count": 25
  }
 }

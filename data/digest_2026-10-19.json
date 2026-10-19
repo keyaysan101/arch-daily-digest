@@ -1,0 +1,508 @@
+{
+  "date": "2026-10-19",
+  "window_start": "2026-10-13",
+  "window_end": "2026-10-19",
+  "window_days": 7,
+  "generated_at": "2026-10-20T06:27:35+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-09-17",
+      "newest": "2026-10-20",
+      "hit": 97,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-09-17",
+      "newest": "2026-10-20",
+      "hit": 95,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-10-12",
+      "newest": "2026-10-19",
+      "hit": 53,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-10-11",
+      "newest": "2026-10-20",
+      "hit": 41,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 4,
+      "oldest": "2026-10-19",
+      "newest": "2026-10-20",
+      "hit": 18,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 18,
+      "oldest": "2026-10-13",
+      "newest": "2026-10-19",
+      "hit": 20,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-07-29",
+      "newest": "2026-10-19",
+      "hit": 1,
+      "stale_days": 0,
+      "stale": false
+    }
+  ],
+  "candidate_count": 325,
+  "new_stored": 58,
+  "store_total": 510,
+  "after_dedupe": 206,
+  "noise_count": 6,
+  "heat_signal_count": 130,
+  "heat_hit_count": 71,
+  "out_of_window_count": 2,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Seven striking buildings that make a statement with red",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/18/seven-red-buildings-roundup"
+    },
+    {
+      "title": "Eight converted power stations that show the power of reuse",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/17/converted-power-stations-roundup"
+    },
+    {
+      "title": "\"People need to be able to afford to adapt to climate change\" says architect founder of Shaded",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview"
+    },
+    {
+      "title": "\"Pioneering conservationist\" Donald Insall dies aged 100",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/13/donald-insall-dies-aged-100"
+    },
+    {
+      "title": "Profondo seating by Zenith Interiors among five new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/12/profondo-seating-zenith-interiors-furniture-accessories-dezeen-showroom"
+    },
+    {
+      "title": "Eight seats from Dezeen Showroom to sink into this autumn",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/09/chairs-seating-seats-sofa-bed-autumn-dezeen-showroom"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "光与尺度的空间叙事，西安 / 7F设计工作室",
+      "url": "https://www.gooood.cn/spatial-narrative-of-light-and-scale-by-7f-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/1-osd-472x303.jpg",
+      "summary": "建筑  空白可以成为家的一部分 2026.10.15 收藏 分享",
+      "published_at": "2026-10-15T12:15:36+08:00",
+      "first_seen": "2026-10-15T23:01:37+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "meta": {
+        "photographer": "Leo.",
+        "brands": [
+          "Fritz Hansen",
+          "Poul Kjærholm",
+          "Home Gallery",
+          "Louispoulsen",
+          "Carl Hansen & Søn",
+          "usm"
+        ]
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 1 名 · 阅读 2302 次"
+      ],
+      "views": 2302,
+      "heat_rank": 1,
+      "is_project": false,
+      "btype": null,
+      "region": "西安",
+      "city": "",
+      "architect": "7F设计工作室",
+      "heat_score": 45.0,
+      "quality_score": 15.4,
+      "score": 60.4,
+      "reasons": [
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2302 次→45.0",
+        "质量 15.4：站点权重0.92→7.4；地域「西安」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "双凤桥TOD保租房“寓见”，成都 / 成都市建筑设计研究院有限公司",
+      "url": "https://www.gooood.cn/shuangfengqiao-tod-yujian-affordable-rental-housing-by-cdad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-yujian-10-s17-472x303.jpg",
+      "summary": "建筑  轨道上的租住生活 2026.10.13 收藏 分享",
+      "published_at": "2026-10-13T14:40:21+08:00",
+      "first_seen": "2026-10-14T22:57:10+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "meta": {
+        "photographer": "空与间摄影"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 2 名 · 阅读 2185 次"
+      ],
+      "views": 2185,
+      "heat_rank": 2,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "成都",
+      "city": "",
+      "architect": "",
+      "heat_score": 42.7,
+      "quality_score": 33.4,
+      "score": 76.1,
+      "reasons": [
+        "热度 42.7：谷德 7 天最热 第 2 名 · 阅读 2185 次→42.7",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「成都」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "霞若户外中心，德钦 / 平介设计",
+      "url": "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-xiaruo-outdoor-29-472x303.jpg",
+      "summary": "建筑  田野上的木构户外运动驿站 2026.10.14 收藏 分享",
+      "published_at": "2026-10-14T10:53:47+08:00",
+      "first_seen": "2026-10-14T22:57:45+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 3 名 · 阅读 1996 次"
+      ],
+      "views": 1996,
+      "heat_rank": 3,
+      "is_project": true,
+      "btype": "体育",
+      "region": "德钦",
+      "city": "",
+      "architect": "平介设计",
+      "heat_score": 39.0,
+      "quality_score": 33.4,
+      "score": 72.4,
+      "reasons": [
+        "热度 39.0：谷德 7 天最热 第 3 名 · 阅读 1996 次→39.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「德钦」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "上海大歌剧院正式揭开帷幕 / Snøhetta",
+      "url": "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-shanghai-opera-072-N758-472x303.jpg",
+      "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
+      "published_at": "2026-10-18T09:00:00+08:00",
+      "first_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "meta": {
+        "area": "146,786 m²",
+        "year": "2026"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 1934 次"
+      ],
+      "views": 1934,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "上海",
+      "city": "",
+      "architect": "Snøhetta",
+      "heat_score": 45.3,
+      "quality_score": 39.4,
+      "score": 84.7,
+      "reasons": [
+        "热度 45.3：谷德 7 天最热 第 4 名 · 阅读 1934 次→37.8；2 家媒体报道+7.5",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "融界·静安：上海静安公园更新设计 / 同济原作设计工作室",
+      "url": "https://www.gooood.cn/jingan-park-regeneration-by-original-design-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/jingan-park-cover-472x303.jpg",
+      "summary": "景观  在高度约束条件下修复古树、水系与城市边界，让静安公园重新融入日常生活。 2026.10.09 收藏 分享",
+      "published_at": "2026-10-09T14:52:17+08:00",
+      "first_seen": "2026-10-14T22:57:45+08:00",
+      "last_seen": "2026-10-15T23:12:21+08:00",
+      "meta": {
+        "area": "32984 m²",
+        "photographer": "章鱼见筑、原作设计工作室（吴正浩、陈恩强）"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 1906 次"
+      ],
+      "views": 1906,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "景观",
+      "region": "上海",
+      "city": "",
+      "architect": "",
+      "heat_score": 37.3,
+      "quality_score": 33.4,
+      "score": 70.7,
+      "reasons": [
+        "热度 37.3：谷德 7 天最热 第 5 名 · 阅读 1906 次→37.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「上海」+3；封面图+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "DUA 别墅 / Architecture BRIO",
+      "url": "https://www.archdaily.cn/zh/1186860/dua-bie-shu-architecture-brio",
+      "cover": "https://images.adsttc.com/media/images/6ace/5114/7887/fb01/8910/6dce/newsletter/dua-villa-architecture-brio_16.jpg?1791906086",
+      "summary": "十月 19 © Ishita Sitwala | The Fishy Project + 26 • Alibag, 印度 建筑师: Architecture BRIO 面积 该建筑项目的领域 面积: 2087 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: Kohler , Dtale Modern , Fan Studio , Hatsu Lighting , Josmo , +6 Norisys , Objectry , Olie , Perenials , Phantom Hands , Pure Concept -6 https://www.archdaily.cn/zh/1186860/dua-bie-shu-architecture-brio Pratik Mour 阅读更多 »",
+      "published_at": "2026-10-19T19:00:00+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "alt_url": "https://www.archdaily.com/1186756/dua-villa-architecture-brio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Ishita Sitwala | The Fishy Project",
+        "image_count": 26,
+        "city": "Alibag",
+        "country": "印度",
+        "architect": "Architecture BRIO",
+        "area": "2087 m²",
+        "year": "2023",
+        "brands": [
+          "Kohler",
+          "Dtale Modern",
+          "Fan Studio",
+          "Hatsu Lighting",
+          "Josmo",
+          "+6 Norisys"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "印度",
+      "city": "Alibag",
+      "architect": "Architecture BRIO",
+      "heat_score": 11.5,
+      "quality_score": 40.0,
+      "score": 51.5,
+      "reasons": [
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「印度」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "MacIsaac 医疗健康大楼 / SHL",
+      "url": "https://www.archdaily.cn/zh/1187010/macisaac-yi-liao-jian-kang-da-lou-shl",
+      "cover": "https://images.adsttc.com/media/images/6acf/5e19/b2c4/c300/0178/f2a9/newsletter/412007_000_N89_highres.jpg?1791975001",
+      "summary": "十月 19 © Ema Peter + 8 • Vancouver, 加拿大 建筑师: SHL建筑事务所 面积 该建筑项目的领域 面积: 25000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187010/macisaac-yi-liao-jian-kang-da-lou-shl Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-19T22:00:00+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "alt_url": "https://www.archdaily.com/1186815/macisaac-health-building-shl",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Ema Peter",
+        "image_count": 8,
+        "city": "Vancouver",
+        "country": "加拿大",
+        "architect": "SHL建筑事务所",
+        "area": "25000 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 5 位"
+      ],
+      "is_project": true,
+      "btype": "医疗",
+      "region": "加拿大",
+      "city": "Vancouver",
+      "architect": "SHL建筑事务所",
+      "heat_score": 12.3,
+      "quality_score": 39.0,
+      "score": 51.3,
+      "reasons": [
+        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集8张+3；类型「医疗」+3；地域「加拿大」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "夏径之家 / Gieo Architecture",
+      "url": "https://www.archdaily.cn/zh/1186734/xia-jing-zhi-jia-gieo-architecture",
+      "cover": "https://images.adsttc.com/media/images/6acc/b94b/b2c4/c300/0178/e9ab/medium_jpg/The_Summer_Path_5.jpg?1791801713",
+      "summary": "十月 19 © Triệu Chiến + 21 • Tho Tang, 越南 建筑师: Gieo Architecture 面积 该建筑项目的领域 面积: 1700 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Toto , Vietceramics https://www.archdaily.cn/zh/1186734/xia-jing-zhi-jia-gieo-architecture Pratik Mour 阅读更多 »",
+      "published_at": "2026-10-19T15:00:00+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "alt_url": "https://www.archdaily.com/1186687/the-summer-path-house-gieo-architecture",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Triệu Chiến",
+        "image_count": 21,
+        "city": "Tho Tang",
+        "country": "越南",
+        "architect": "Gieo Architecture",
+        "area": "1700 m²",
+        "year": "2025",
+        "brands": [
+          "Toto",
+          "Vietceramics"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "越南",
+      "city": "Tho Tang",
+      "architect": "Gieo Architecture",
+      "heat_score": 9.4,
+      "quality_score": 40.0,
+      "score": 49.4,
+      "reasons": [
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集21张+8；地域「越南」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "SALOMON Store MINAMIAOYAMA / 小大建筑",
+      "url": "https://www.archdaily.cn/zh/1186993/salomon-store-minamiaoyama-xiao-da-jian-zhu",
+      "cover": "https://images.adsttc.com/media/images/6ad0/8766/b2c4/c300/0178/f613/newsletter/09_8556.jpg?1792051099",
+      "summary": "十月 19 © 堀越圭晋 / SS + 17 • 东京, 日本 建筑师: 小大建筑设计事务所 面积 该建筑项目的领域 面积: 135 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Amer Sports Japan , Tachibana Shoten https://www.archdaily.cn/zh/1186993/salomon-store-minamiaoyama-xiao-da-jian-zhu 韩爽 - HAN Shuang 阅读更多 »",
+      "published_at": "2026-10-19T12:00:00+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "alt_url": "https://www.archdaily.com/1186876/salomon-store-minamiaoyama-kooo-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "堀越圭晋 / SS",
+        "image_count": 17,
+        "city": "东京",
+        "country": "日本",
+        "architect": "小大建筑设计事务所",
+        "area": "135 m²",
+        "year": "2026",
+        "brands": [
+          "Amer Sports Japan",
+          "Tachibana Shoten"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 14 位"
+      ],
+      "is_project": true,
+      "btype": "商业",
+      "region": "日本",
+      "city": "东京",
+      "architect": "小大建筑设计事务所",
+      "heat_score": 8.6,
+      "quality_score": 40.0,
+      "score": 48.6,
+      "reasons": [
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集17张+5；类型「商业」+3；地域「日本」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Recycled-plastic plinths hold furniture at \"secret\" Barragán house in Mexico City",
+      "url": "https://www.dezeen.com/2026/10/14/design-week-mexico-2026-creative-immersions-casa-ortega",
+      "cover": "http://static.dezeen.com/uploads/2026/10/casa-ortega-creative-immersions-france-mexico-design-week-mexico-2026_dezeen_2364_sq-1-411x411.jpg",
+      "summary": "For Design Week Mexico 2026 , design studio 2x1 displayed works by French and Mexican designers on plinths in the gardens of Casa Ortega, a rarely opened private residence designed by local architect Luis Barragán in the 1940s. The Creative Immersions France-Mexico 2026 exhibition featured furniture and design objects by over 30 designers. It was the result of three years of residency programs in ",
+      "published_at": "2026-10-15T05:20:19+08:00",
+      "first_seen": "2026-10-15T23:01:37+08:00",
+      "last_seen": "2026-10-20T06:27:23+08:00",
+      "meta": {
+        "photographer": "Juan Hernandez"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 1 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "墨西哥",
+      "city": "",
+      "architect": "",
+      "heat_score": 16.0,
+      "quality_score": 24.6,
+      "score": 40.6,
+      "reasons": [
+        "热度 16.0：Dezeen 首页第 1 位→16.0",
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「墨西哥」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
