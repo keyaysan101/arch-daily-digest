@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-19",
-  "window_start": "2026-10-13",
-  "window_end": "2026-10-19",
+  "date": "2026-10-20",
+  "window_start": "2026-10-14",
+  "window_end": "2026-10-20",
   "window_days": 7,
-  "generated_at": "2026-10-20T08:16:37+08:00",
+  "generated_at": "2026-10-21T06:28:08+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
       "oldest": "2026-09-17",
-      "newest": "2026-10-20",
-      "hit": 97,
+      "newest": "2026-10-21",
+      "hit": 100,
       "stale_days": -1,
       "stale": false
     },
@@ -20,8 +20,8 @@
       "ok": true,
       "total": 64,
       "oldest": "2026-09-17",
-      "newest": "2026-10-20",
-      "hit": 95,
+      "newest": "2026-10-21",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-12",
-      "newest": "2026-10-19",
-      "hit": 52,
+      "oldest": "2026-10-13",
+      "newest": "2026-10-20",
+      "hit": 50,
       "stale_days": 0,
       "stale": false
     },
@@ -40,28 +40,28 @@
       "ok": true,
       "total": 50,
       "oldest": "2026-10-11",
-      "newest": "2026-10-20",
-      "hit": 41,
+      "newest": "2026-10-21",
+      "hit": 42,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 3,
-      "oldest": "2026-10-19",
+      "total": 4,
+      "oldest": "2026-10-20",
       "newest": "2026-10-20",
-      "hit": 18,
-      "stale_days": -1,
+      "hit": 17,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "有方空间",
       "ok": true,
-      "total": 18,
-      "oldest": "2026-10-13",
-      "newest": "2026-10-19",
-      "hit": 20,
+      "total": 17,
+      "oldest": "2026-10-15",
+      "newest": "2026-10-20",
+      "hit": 21,
       "stale_days": 0,
       "stale": false
     },
@@ -72,20 +72,25 @@
       "oldest": "2026-07-29",
       "newest": "2026-10-19",
       "hit": 1,
-      "stale_days": 0,
+      "stale_days": 1,
       "stale": false
     }
   ],
-  "candidate_count": 324,
-  "new_stored": 2,
-  "store_total": 512,
-  "after_dedupe": 205,
-  "noise_count": 6,
-  "heat_signal_count": 130,
-  "heat_hit_count": 80,
-  "out_of_window_count": 1,
+  "candidate_count": 328,
+  "new_stored": 63,
+  "store_total": 575,
+  "after_dedupe": 203,
+  "noise_count": 4,
+  "heat_signal_count": 128,
+  "heat_hit_count": 66,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
+    {
+      "title": "designboom listens: what does space sound like to kengo kuma?",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/designboom-listens-kengo-kuma-interview"
+    },
     {
       "title": "Seven striking buildings that make a statement with red",
       "source": "Dezeen",
@@ -100,21 +105,6 @@
       "title": "\"People need to be able to afford to adapt to climate change\" says architect founder of Shaded",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview"
-    },
-    {
-      "title": "\"Pioneering conservationist\" Donald Insall dies aged 100",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/13/donald-insall-dies-aged-100"
-    },
-    {
-      "title": "Profondo seating by Zenith Interiors among five new products on Dezeen Showroom",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/12/profondo-seating-zenith-interiors-furniture-accessories-dezeen-showroom"
-    },
-    {
-      "title": "Eight seats from Dezeen Showroom to sink into this autumn",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/09/chairs-seating-seats-sofa-bed-autumn-dezeen-showroom"
     }
   ],
   "items": [
@@ -128,7 +118,7 @@
       "summary": "建筑  空白可以成为家的一部分 2026.10.15 收藏 分享",
       "published_at": "2026-10-15T12:15:36+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
       "meta": {
         "photographer": "Leo.",
         "brands": [
@@ -142,9 +132,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2305 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2597 次"
       ],
-      "views": 2305,
+      "views": 2597,
       "heat_rank": 1,
       "is_project": false,
       "btype": null,
@@ -155,42 +145,10 @@
       "quality_score": 15.4,
       "score": 60.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2305 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2597 次→45.0",
         "质量 15.4：站点权重0.92→7.4；地域「西安」+3；封面图+2"
       ],
       "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "霞若户外中心，德钦 / 平介设计",
-      "url": "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-xiaruo-outdoor-29-472x303.jpg",
-      "summary": "建筑  田野上的木构户外运动驿站 2026.10.14 收藏 分享",
-      "published_at": "2026-10-14T10:53:47+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 1997 次"
-      ],
-      "views": 1997,
-      "heat_rank": 2,
-      "is_project": true,
-      "btype": "体育",
-      "region": "德钦",
-      "city": "",
-      "architect": "平介设计",
-      "heat_score": 39.0,
-      "quality_score": 33.4,
-      "score": 72.4,
-      "reasons": [
-        "热度 39.0：谷德 7 天最热 第 2 名 · 阅读 1997 次→39.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「德钦」+3；封面图+2"
-      ],
-      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -202,65 +160,30 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 1945 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2559 次"
       ],
-      "views": 1945,
-      "heat_rank": 3,
+      "views": 2559,
+      "heat_rank": 2,
       "is_project": true,
       "btype": "住宅",
       "region": "上海",
       "city": "",
       "architect": "Snøhetta",
-      "heat_score": 45.5,
+      "heat_score": 51.8,
       "quality_score": 39.4,
-      "score": 84.9,
+      "score": 91.2,
       "reasons": [
-        "热度 45.5：谷德 7 天最热 第 3 名 · 阅读 1945 次→38.0；2 家媒体报道+7.5",
+        "热度 51.8：谷德 7 天最热 第 2 名 · 阅读 2559 次→44.3；2 家媒体报道+7.5",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "柿子枫了·宁波城隍庙店 / 杭州观堂设计",
-      "url": "https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg",
-      "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
-      "published_at": "2026-10-16T11:28:55+08:00",
-      "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "meta": {
-        "area": "615 m²",
-        "photographer": "黑水"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 1853 次"
-      ],
-      "views": 1853,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "商业",
-      "region": "杭州",
-      "city": "",
-      "architect": "",
-      "heat_score": 36.2,
-      "quality_score": 33.4,
-      "score": 69.6,
-      "reasons": [
-        "热度 36.2：谷德 7 天最热 第 4 名 · 阅读 1853 次→36.2",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
-      ],
-      "rank": 4
+      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -272,28 +195,95 @@
       "summary": "建筑  无围墙的艺术场：湖岸地景中的开放艺术范式 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T15:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
       "meta": {
         "area": "2,884 m²",
         "photographer": "苏圣亮、DONG建筑影像"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1849 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2218 次"
       ],
-      "views": 1849,
-      "heat_rank": 5,
+      "views": 2218,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "文化",
       "region": "湖北",
       "city": "",
       "architect": "",
-      "heat_score": 36.1,
+      "heat_score": 38.4,
       "quality_score": 33.4,
-      "score": 69.5,
+      "score": 71.8,
       "reasons": [
-        "热度 36.1：谷德 7 天最热 第 5 名 · 阅读 1849 次→36.1",
+        "热度 38.4：谷德 7 天最热 第 3 名 · 阅读 2218 次→38.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「湖北」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "霞若户外中心，德钦 / 平介设计",
+      "url": "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-xiaruo-outdoor-29-472x303.jpg",
+      "summary": "建筑  田野上的木构户外运动驿站 2026.10.14 收藏 分享",
+      "published_at": "2026-10-14T10:53:47+08:00",
+      "first_seen": "2026-10-14T22:57:45+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2167 次"
+      ],
+      "views": 2167,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": "体育",
+      "region": "德钦",
+      "city": "",
+      "architect": "平介设计",
+      "heat_score": 37.5,
+      "quality_score": 33.4,
+      "score": 70.9,
+      "reasons": [
+        "热度 37.5：谷德 7 天最热 第 4 名 · 阅读 2167 次→37.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「德钦」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "柿子枫了·宁波城隍庙店 / 杭州观堂设计",
+      "url": "https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg",
+      "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
+      "published_at": "2026-10-16T11:28:55+08:00",
+      "first_seen": "2026-10-16T22:02:29+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "meta": {
+        "area": "615 m²",
+        "photographer": "黑水"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 2105 次"
+      ],
+      "views": 2105,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "商业",
+      "region": "杭州",
+      "city": "",
+      "architect": "",
+      "heat_score": 36.5,
+      "quality_score": 33.4,
+      "score": 69.9,
+      "reasons": [
+        "热度 36.5：谷德 7 天最热 第 5 名 · 阅读 2105 次→36.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -301,47 +291,44 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "DUA 别墅 / Architecture BRIO",
-      "url": "https://www.archdaily.cn/zh/1186860/dua-bie-shu-architecture-brio",
-      "cover": "https://images.adsttc.com/media/images/6ace/5114/7887/fb01/8910/6dce/newsletter/dua-villa-architecture-brio_16.jpg?1791906086",
-      "summary": "十月 19 © Ishita Sitwala | The Fishy Project + 26 • Alibag, 印度 建筑师: Architecture BRIO 面积 该建筑项目的领域 面积: 2087 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: Kohler , Dtale Modern , Fan Studio , Hatsu Lighting , Josmo , +6 Norisys , Objectry , Olie , Perenials , Phantom Hands , Pure Concept -6 https://www.archdaily.cn/zh/1186860/dua-bie-shu-architecture-brio Pratik Mour 阅读更多 »",
-      "published_at": "2026-10-19T19:00:00+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "alt_url": "https://www.archdaily.com/1186756/dua-villa-architecture-brio",
+      "title": "温彻斯特公学女生寄宿楼 / Stanton Williams",
+      "url": "https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams",
+      "cover": "https://images.adsttc.com/media/images/6acf/3632/b2c4/c300/0178/f122/newsletter/Stanton_Williams_Winchester_College__JackHobhouse_012.jpg?1791964760",
+      "summary": "十月 20 © Jack Hobhouse + 27 • Winchester, 英国 建筑师: Stanton Williams 面积 该建筑项目的领域 面积: 5450 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Craftstone , Gartec , Howdens https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-20T18:00:00+08:00",
+      "first_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "alt_url": "https://www.archdaily.com/1186793/winchester-college-girls-boarding-houses-stanton-williams",
       "bilingual": true,
       "meta": {
-        "photographer": "Ishita Sitwala | The Fishy Project",
-        "image_count": 26,
-        "city": "Alibag",
-        "country": "印度",
-        "architect": "Architecture BRIO",
-        "area": "2087 m²",
-        "year": "2023",
+        "photographer": "Jack Hobhouse",
+        "image_count": 27,
+        "city": "Winchester",
+        "country": "英国",
+        "architect": "Stanton Williams",
+        "area": "5450 m²",
+        "year": "2026",
         "brands": [
-          "Kohler",
-          "Dtale Modern",
-          "Fan Studio",
-          "Hatsu Lighting",
-          "Josmo",
-          "+6 Norisys"
+          "Craftstone",
+          "Gartec",
+          "Howdens"
         ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "印度",
-      "city": "Alibag",
-      "architect": "Architecture BRIO",
-      "heat_score": 11.1,
+      "region": "英国",
+      "city": "Winchester",
+      "architect": "Stanton Williams",
+      "heat_score": 17.3,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 57.3,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「印度」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 17.3：ArchDaily中国 首页第 11 位→5.8；2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 6
     },
@@ -349,39 +336,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "MacIsaac 医疗健康大楼 / SHL",
-      "url": "https://www.archdaily.cn/zh/1187010/macisaac-yi-liao-jian-kang-da-lou-shl",
-      "cover": "https://images.adsttc.com/media/images/6acf/5e19/b2c4/c300/0178/f2a9/newsletter/412007_000_N89_highres.jpg?1791975001",
-      "summary": "十月 19 © Ema Peter + 8 • Vancouver, 加拿大 建筑师: SHL建筑事务所 面积 该建筑项目的领域 面积: 25000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187010/macisaac-yi-liao-jian-kang-da-lou-shl Cristina Popescu 阅读更多 »",
-      "published_at": "2026-10-19T22:00:00+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "alt_url": "https://www.archdaily.com/1186815/macisaac-health-building-shl",
+      "title": "里尔法院 / OMA",
+      "url": "https://www.archdaily.cn/zh/1187192/li-er-fa-yuan-oma",
+      "cover": "https://images.adsttc.com/media/images/6ad7/379b/c720/ac01/8896/317c/newsletter/palais-de-justice-de-lille-oma_1.jpg?1792489419",
+      "summary": "十月 20 © François-Xavier Gbré，图片由 OMA 提供 + 14 • Lille, 法国 建筑师: OMA 面积 该建筑项目的领域 面积: 24000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187192/li-er-fa-yuan-oma Nina Vuga 阅读更多 »",
+      "published_at": "2026-10-20T19:00:00+08:00",
+      "first_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "alt_url": "https://www.archdaily.com/1187188/palais-de-justice-de-lille-oma",
       "bilingual": true,
       "meta": {
-        "photographer": "Ema Peter",
-        "image_count": 8,
-        "city": "Vancouver",
-        "country": "加拿大",
-        "architect": "SHL建筑事务所",
-        "area": "25000 m²",
+        "photographer": "François-Xavier Gbré，图片由 OMA 提供",
+        "image_count": 14,
+        "city": "Lille",
+        "country": "法国",
+        "architect": "OMA",
+        "area": "24000 m²",
         "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 8 位"
       ],
       "is_project": true,
-      "btype": "医疗",
-      "region": "加拿大",
-      "city": "Vancouver",
-      "architect": "SHL建筑事务所",
-      "heat_score": 11.9,
-      "quality_score": 39.0,
-      "score": 50.9,
+      "btype": null,
+      "region": "法国",
+      "city": "Lille",
+      "architect": "OMA",
+      "heat_score": 11.1,
+      "quality_score": 40.0,
+      "score": 51.1,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
-        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集8张+3；类型「医疗」+3；地域「加拿大」+3；封面图+2；含面积数据+2"
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集14张+5；知名事务所+6；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
     },
@@ -389,43 +376,37 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "夏径之家 / Gieo Architecture",
-      "url": "https://www.archdaily.cn/zh/1186734/xia-jing-zhi-jia-gieo-architecture",
-      "cover": "https://images.adsttc.com/media/images/6acc/b94b/b2c4/c300/0178/e9ab/medium_jpg/The_Summer_Path_5.jpg?1791801713",
-      "summary": "十月 19 © Triệu Chiến + 21 • Tho Tang, 越南 建筑师: Gieo Architecture 面积 该建筑项目的领域 面积: 1700 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Toto , Vietceramics https://www.archdaily.cn/zh/1186734/xia-jing-zhi-jia-gieo-architecture Pratik Mour 阅读更多 »",
-      "published_at": "2026-10-19T15:00:00+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "alt_url": "https://www.archdaily.com/1186687/the-summer-path-house-gieo-architecture",
+      "title": "Budor 木屋 / R21 Arkitekter",
+      "url": "https://www.archdaily.cn/zh/1187131/budor-mu-wu-r21-arkitekter",
+      "cover": "https://images.adsttc.com/media/images/6ac3/6d3f/07c3/d100/017f/cf05/newsletter/R21_Budor_09_kopi.jpg?1791192464",
+      "summary": "十月 20 © Ruben Ratkusic + 11 • 挪威 建筑师: R21 Arkitekter 面积 该建筑项目的领域 面积: 120 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187131/budor-mu-wu-r21-arkitekter Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-20T22:00:00+08:00",
+      "first_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "alt_url": "https://www.archdaily.com/1186292/cabin-budor-r21-arkitekter",
       "bilingual": true,
       "meta": {
-        "photographer": "Triệu Chiến",
-        "image_count": 21,
-        "city": "Tho Tang",
-        "country": "越南",
-        "architect": "Gieo Architecture",
-        "area": "1700 m²",
-        "year": "2025",
-        "brands": [
-          "Toto",
-          "Vietceramics"
-        ]
+        "photographer": "Ruben Ratkusic",
+        "image_count": 11,
+        "architect": "R21 Arkitekter",
+        "area": "120 m²",
+        "year": "2025"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 13 位"
+        "ArchDaily中国 首页第 5 位"
       ],
       "is_project": true,
       "btype": null,
-      "region": "越南",
-      "city": "Tho Tang",
-      "architect": "Gieo Architecture",
-      "heat_score": 9.0,
-      "quality_score": 40.0,
-      "score": 49.0,
+      "region": "挪威",
+      "city": "",
+      "architect": "R21 Arkitekter",
+      "heat_score": 12.3,
+      "quality_score": 38.0,
+      "score": 50.3,
       "reasons": [
-        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集21张+8；地域「越南」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "质量 38.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；地域「挪威」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
     },
@@ -433,43 +414,43 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "SALOMON Store MINAMIAOYAMA / 小大建筑",
-      "url": "https://www.archdaily.cn/zh/1186993/salomon-store-minamiaoyama-xiao-da-jian-zhu",
-      "cover": "https://images.adsttc.com/media/images/6ad0/8766/b2c4/c300/0178/f613/newsletter/09_8556.jpg?1792051099",
-      "summary": "十月 19 © 堀越圭晋 / SS + 17 • 东京, 日本 建筑师: 小大建筑设计事务所 面积 该建筑项目的领域 面积: 135 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Amer Sports Japan , Tachibana Shoten https://www.archdaily.cn/zh/1186993/salomon-store-minamiaoyama-xiao-da-jian-zhu 韩爽 - HAN Shuang 阅读更多 »",
-      "published_at": "2026-10-19T12:00:00+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
-      "alt_url": "https://www.archdaily.com/1186876/salomon-store-minamiaoyama-kooo-architects",
+      "title": "Tašbik 装置 / Wesam Al Asali",
+      "url": "https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali",
+      "cover": "https://images.adsttc.com/media/images/6ace/9565/b2c4/c300/0178/ee72/newsletter/7-Wesam_Al_Asali_Tas_bik20260930_003_Saifuldeen_Fayez.jpg?1791923617",
+      "summary": "十月 20 © Saifuldeen Fayez + 7 • Amman, 约旦 建筑师: Wesam Al Asali 面积 该建筑项目的领域 面积: 256 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Home Pillar , Siwan Stone & Marble Co. https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-20T15:00:00+08:00",
+      "first_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
+      "alt_url": "https://www.archdaily.com/1186763/tasbik-wesam-al-asali",
       "bilingual": true,
       "meta": {
-        "photographer": "堀越圭晋 / SS",
-        "image_count": 17,
-        "city": "东京",
-        "country": "日本",
-        "architect": "小大建筑设计事务所",
-        "area": "135 m²",
+        "photographer": "Saifuldeen Fayez",
+        "image_count": 7,
+        "city": "Amman",
+        "country": "约旦",
+        "architect": "Wesam Al Asali",
+        "area": "256 m²",
         "year": "2026",
         "brands": [
-          "Amer Sports Japan",
-          "Tachibana Shoten"
+          "Home Pillar",
+          "Siwan Stone & Marble Co."
         ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 15 位"
+        "ArchDaily中国 首页第 13 位"
       ],
       "is_project": true,
-      "btype": "商业",
-      "region": "日本",
-      "city": "东京",
-      "architect": "小大建筑设计事务所",
-      "heat_score": 8.2,
+      "btype": "展览",
+      "region": "约旦",
+      "city": "Amman",
+      "architect": "Wesam Al Asali",
+      "heat_score": 9.0,
       "quality_score": 40.0,
-      "score": 48.2,
+      "score": 49.0,
       "reasons": [
-        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集17张+5；类型「商业」+3；地域「日本」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集7张+3；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 9
     },
@@ -477,31 +458,32 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "OMA dresses faceted French courthouse in coloured glass",
-      "url": "https://www.dezeen.com/2026/10/19/oma-palais-de-justice-de-lille",
-      "cover": "http://static.dezeen.com/uploads/2026/10/palais-de-justice-de-lille-oma-architecture-france_dezeen_2364_sq-411x411.jpg",
-      "summary": "Dutch studio OMA has completed the Palais de Justice de Lille, a six-sided law court in northern France with a faceted facade lined with coloured glass . Located in Lille, the project was commissioned by the Ministry of Justice to host the city's high and district courts. OMA has completed the Palais de Justice de Lille Palais de Justice de Lille occupies a verdant landscape adjacent to a star-sha",
-      "published_at": "2026-10-19T18:30:45+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-20T08:16:27+08:00",
+      "title": "Box 9 used “brick on every surface” in Soho restaurant Kid",
+      "url": "https://www.dezeen.com/2026/10/20/box-9-brick-soho-restaurant-kid",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/10/box-9-kid-soho_dezeen_2364_col_sq2-1024x1024.jpg",
+      "summary": "Local studio Box 9 has used bricks made from recycled construction waste for the interior of London restaurant Kid, where the material clads everything from the grill to the wine room. Photographs Previous Next Photographs Close 1 of 18 The 307-square-metre restaurant in central Soho sits on a corner and is made from two formerly separate units, which Box 9 combined to make Kid, a modern take on a",
+      "published_at": "2026-10-20T13:00:00+08:00",
+      "first_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T06:27:54+08:00",
       "meta": {
-        "photographer": "François-Xavier Gbré"
+        "area": "307 m²",
+        "photographer": "Andrew Urwin"
       },
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 2 位"
+        "Dezeen 首页第 3 位"
       ],
       "is_project": false,
-      "btype": "住宅",
-      "region": "法国",
+      "btype": "室内",
+      "region": "Soho",
       "city": "",
       "architect": "",
-      "heat_score": 15.3,
+      "heat_score": 14.7,
       "quality_score": 24.6,
-      "score": 39.9,
+      "score": 39.3,
       "reasons": [
-        "热度 15.3：Dezeen 首页第 2 位→15.3",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「法国」+3；封面图+2"
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「室内」+3；地域「Soho」+3；封面图+2"
       ],
       "rank": 10
     }

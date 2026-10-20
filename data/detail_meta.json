@@ -451,5 +451,36 @@
  },
  "https://www.dezeen.com/2026/10/19/oma-palais-de-justice-de-lille": {
   "photographer": "François-Xavier Gbré"
+ },
+ "https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams": {
+  "year": "2026",
+  "photographer": "Jack Hobhouse",
+  "brands": [
+   "Craftstone",
+   "Gartec",
+   "Howdens"
+  ],
+  "image_count": 35
+ },
+ "https://www.archdaily.cn/zh/1187192/li-er-fa-yuan-oma": {
+  "year": "2026",
+  "image_count": 22
+ },
+ "https://www.archdaily.cn/zh/1187131/budor-mu-wu-r21-arkitekter": {
+  "year": "2025",
+  "photographer": "Ruben Ratkusic",
+  "image_count": 18
+ },
+ "https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali": {
+  "year": "2026",
+  "brands": [
+   "Home Pillar",
+   "Siwan Stone & Marble Co."
+  ],
+  "image_count": 15
+ },
+ "https://www.dezeen.com/2026/10/20/box-9-brick-soho-restaurant-kid": {
+  "area": "307 m²",
+  "photographer": "Andrew Urwin"
  }
 }
