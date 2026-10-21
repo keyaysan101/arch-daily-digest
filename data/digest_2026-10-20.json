@@ -3,7 +3,7 @@
   "window_start": "2026-10-14",
   "window_end": "2026-10-20",
   "window_days": 7,
-  "generated_at": "2026-10-21T06:28:08+08:00",
+  "generated_at": "2026-10-21T08:14:23+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -48,7 +48,7 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 4,
+      "total": 3,
       "oldest": "2026-10-20",
       "newest": "2026-10-20",
       "hit": 17,
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 328,
-  "new_stored": 63,
-  "store_total": 575,
+  "new_stored": 2,
+  "store_total": 577,
   "after_dedupe": 203,
   "noise_count": 4,
   "heat_signal_count": 128,
-  "heat_hit_count": 66,
+  "heat_hit_count": 64,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
@@ -118,7 +118,7 @@
       "summary": "建筑  空白可以成为家的一部分 2026.10.15 收藏 分享",
       "published_at": "2026-10-15T12:15:36+08:00",
       "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "meta": {
         "photographer": "Leo.",
         "brands": [
@@ -132,9 +132,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2597 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2599 次"
       ],
-      "views": 2597,
+      "views": 2599,
       "heat_rank": 1,
       "is_project": false,
       "btype": null,
@@ -145,7 +145,7 @@
       "quality_score": 15.4,
       "score": 60.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2597 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2599 次→45.0",
         "质量 15.4：站点权重0.92→7.4；地域「西安」+3；封面图+2"
       ],
       "rank": 1
@@ -160,27 +160,27 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2559 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2563 次"
       ],
-      "views": 2559,
+      "views": 2563,
       "heat_rank": 2,
       "is_project": true,
       "btype": "住宅",
       "region": "上海",
       "city": "",
       "architect": "Snøhetta",
-      "heat_score": 51.8,
+      "heat_score": 51.9,
       "quality_score": 39.4,
-      "score": 91.2,
+      "score": 91.3,
       "reasons": [
-        "热度 51.8：谷德 7 天最热 第 2 名 · 阅读 2559 次→44.3；2 家媒体报道+7.5",
+        "热度 51.9：谷德 7 天最热 第 2 名 · 阅读 2563 次→44.4；2 家媒体报道+7.5",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 2
@@ -195,16 +195,16 @@
       "summary": "建筑  无围墙的艺术场：湖岸地景中的开放艺术范式 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T15:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "meta": {
         "area": "2,884 m²",
         "photographer": "苏圣亮、DONG建筑影像"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2218 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2220 次"
       ],
-      "views": 2218,
+      "views": 2220,
       "heat_rank": 3,
       "is_project": true,
       "btype": "文化",
@@ -215,42 +215,10 @@
       "quality_score": 33.4,
       "score": 71.8,
       "reasons": [
-        "热度 38.4：谷德 7 天最热 第 3 名 · 阅读 2218 次→38.4",
+        "热度 38.4：谷德 7 天最热 第 3 名 · 阅读 2220 次→38.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「湖北」+3；封面图+2"
       ],
       "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "霞若户外中心，德钦 / 平介设计",
-      "url": "https://www.gooood.cn/xia-ruo-outdoor-center-by-parallect-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-xiaruo-outdoor-29-472x303.jpg",
-      "summary": "建筑  田野上的木构户外运动驿站 2026.10.14 收藏 分享",
-      "published_at": "2026-10-14T10:53:47+08:00",
-      "first_seen": "2026-10-14T22:57:45+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2167 次"
-      ],
-      "views": 2167,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "体育",
-      "region": "德钦",
-      "city": "",
-      "architect": "平介设计",
-      "heat_score": 37.5,
-      "quality_score": 33.4,
-      "score": 70.9,
-      "reasons": [
-        "热度 37.5：谷德 7 天最热 第 4 名 · 阅读 2167 次→37.5",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「德钦」+3；封面图+2"
-      ],
-      "rank": 4
     },
     {
       "source": "谷德设计网",
@@ -262,17 +230,17 @@
       "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T11:28:55+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "meta": {
         "area": "615 m²",
         "photographer": "黑水"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2105 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2107 次"
       ],
-      "views": 2105,
-      "heat_rank": 5,
+      "views": 2107,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "商业",
       "region": "杭州",
@@ -282,8 +250,42 @@
       "quality_score": 33.4,
       "score": 69.9,
       "reasons": [
-        "热度 36.5：谷德 7 天最热 第 5 名 · 阅读 2105 次→36.5",
+        "热度 36.5：谷德 7 天最热 第 4 名 · 阅读 2107 次→36.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "临港产业园办公楼改造，上海 / 衡建筑",
+      "url": "https://www.gooood.cn/lingang-industrial-park-office-building-renovation-by-modum-atelier.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-lingang-modum-20261015-04-472x303.jpg",
+      "summary": "建筑  以光重塑空间：从内向秩序到雕塑体量 2026.10.16 收藏 分享",
+      "published_at": "2026-10-16T14:57:59+08:00",
+      "first_seen": "2026-10-16T22:02:29+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
+      "meta": {
+        "photographer": "刘国威"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 1984 次"
+      ],
+      "views": 1984,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "办公",
+      "region": "上海",
+      "city": "",
+      "architect": "衡建筑",
+      "heat_score": 34.4,
+      "quality_score": 33.4,
+      "score": 67.8,
+      "reasons": [
+        "热度 34.4：谷德 7 天最热 第 5 名 · 阅读 1984 次→34.4",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -297,7 +299,7 @@
       "summary": "十月 20 © Jack Hobhouse + 27 • Winchester, 英国 建筑师: Stanton Williams 面积 该建筑项目的领域 面积: 5450 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Craftstone , Gartec , Howdens https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-20T18:00:00+08:00",
       "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "alt_url": "https://www.archdaily.com/1186793/winchester-college-girls-boarding-houses-stanton-williams",
       "bilingual": true,
       "meta": {
@@ -316,18 +318,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 12 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "英国",
       "city": "Winchester",
       "architect": "Stanton Williams",
-      "heat_score": 17.3,
+      "heat_score": 16.9,
       "quality_score": 40.0,
-      "score": 57.3,
+      "score": 56.9,
       "reasons": [
-        "热度 17.3：ArchDaily中国 首页第 11 位→5.8；2 家媒体报道+7.5；中英双版+4",
+        "热度 16.9：ArchDaily中国 首页第 12 位→5.4；2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 6
@@ -342,7 +344,7 @@
       "summary": "十月 20 © François-Xavier Gbré，图片由 OMA 提供 + 14 • Lille, 法国 建筑师: OMA 面积 该建筑项目的领域 面积: 24000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187192/li-er-fa-yuan-oma Nina Vuga 阅读更多 »",
       "published_at": "2026-10-20T19:00:00+08:00",
       "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "alt_url": "https://www.archdaily.com/1187188/palais-de-justice-de-lille-oma",
       "bilingual": true,
       "meta": {
@@ -356,18 +358,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 9 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "法国",
       "city": "Lille",
       "architect": "OMA",
-      "heat_score": 11.1,
+      "heat_score": 10.7,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 50.7,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集14张+5；知名事务所+6；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -382,7 +384,7 @@
       "summary": "十月 20 © Ruben Ratkusic + 11 • 挪威 建筑师: R21 Arkitekter 面积 该建筑项目的领域 面积: 120 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187131/budor-mu-wu-r21-arkitekter Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-20T22:00:00+08:00",
       "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "alt_url": "https://www.archdaily.com/1186292/cabin-budor-r21-arkitekter",
       "bilingual": true,
       "meta": {
@@ -394,18 +396,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "挪威",
       "city": "",
       "architect": "R21 Arkitekter",
-      "heat_score": 12.3,
+      "heat_score": 11.9,
       "quality_score": 38.0,
-      "score": 50.3,
+      "score": 49.9,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
         "质量 38.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；地域「挪威」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
@@ -420,7 +422,7 @@
       "summary": "十月 20 © Saifuldeen Fayez + 7 • Amman, 约旦 建筑师: Wesam Al Asali 面积 该建筑项目的领域 面积: 256 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Home Pillar , Siwan Stone & Marble Co. https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-20T15:00:00+08:00",
       "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "alt_url": "https://www.archdaily.com/1186763/tasbik-wesam-al-asali",
       "bilingual": true,
       "meta": {
@@ -438,18 +440,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 13 位"
+        "ArchDaily中国 首页第 14 位"
       ],
       "is_project": true,
       "btype": "展览",
       "region": "约旦",
       "city": "Amman",
       "architect": "Wesam Al Asali",
-      "heat_score": 9.0,
+      "heat_score": 8.6,
       "quality_score": 40.0,
-      "score": 49.0,
+      "score": 48.6,
       "reasons": [
-        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集7张+3；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 9
@@ -464,7 +466,7 @@
       "summary": "Local studio Box 9 has used bricks made from recycled construction waste for the interior of London restaurant Kid, where the material clads everything from the grill to the wine room. Photographs Previous Next Photographs Close 1 of 18 The 307-square-metre restaurant in central Soho sits on a corner and is made from two formerly separate units, which Box 9 combined to make Kid, a modern take on a",
       "published_at": "2026-10-20T13:00:00+08:00",
       "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T06:27:54+08:00",
+      "last_seen": "2026-10-21T08:14:16+08:00",
       "meta": {
         "area": "307 m²",
         "photographer": "Andrew Urwin"
