@@ -3,7 +3,7 @@
   "window_start": "2026-10-15",
   "window_end": "2026-10-21",
   "window_days": 7,
-  "generated_at": "2026-10-22T06:28:39+08:00",
+  "generated_at": "2026-10-22T08:13:53+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -48,7 +48,7 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 2,
+      "total": 3,
       "oldest": "2026-10-21",
       "newest": "2026-10-22",
       "hit": 15,
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 323,
-  "new_stored": 48,
-  "store_total": 625,
+  "new_stored": 3,
+  "store_total": 628,
   "after_dedupe": 203,
   "noise_count": 4,
   "heat_signal_count": 123,
-  "heat_hit_count": 66,
+  "heat_hit_count": 64,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
@@ -118,16 +118,16 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2948 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2954 次"
       ],
-      "views": 2948,
+      "views": 2954,
       "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
@@ -138,52 +138,10 @@
       "quality_score": 39.4,
       "score": 91.9,
       "reasons": [
-        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2948 次→45.0；2 家媒体报道+7.5",
+        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2954 次→45.0；2 家媒体报道+7.5",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "光与尺度的空间叙事，西安 / 7F设计工作室",
-      "url": "https://www.gooood.cn/spatial-narrative-of-light-and-scale-by-7f-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/1-osd-472x303.jpg",
-      "summary": "建筑  空白可以成为家的一部分 2026.10.15 收藏 分享",
-      "published_at": "2026-10-15T12:15:36+08:00",
-      "first_seen": "2026-10-15T23:01:37+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
-      "meta": {
-        "photographer": "Leo.",
-        "brands": [
-          "Fritz Hansen",
-          "Poul Kjærholm",
-          "Home Gallery",
-          "Louispoulsen",
-          "Carl Hansen & Søn",
-          "usm"
-        ]
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2808 次"
-      ],
-      "views": 2808,
-      "heat_rank": 2,
-      "is_project": false,
-      "btype": null,
-      "region": "西安",
-      "city": "",
-      "architect": "7F设计工作室",
-      "heat_score": 42.9,
-      "quality_score": 15.4,
-      "score": 58.3,
-      "reasons": [
-        "热度 42.9：谷德 7 天最热 第 2 名 · 阅读 2808 次→42.9",
-        "质量 15.4：站点权重0.92→7.4；地域「西安」+3；封面图+2"
-      ],
-      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -195,30 +153,30 @@
       "summary": "建筑  无围墙的艺术场：湖岸地景中的开放艺术范式 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T15:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "meta": {
         "area": "2,884 m²",
         "photographer": "苏圣亮、DONG建筑影像"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2468 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2471 次"
       ],
-      "views": 2468,
-      "heat_rank": 3,
+      "views": 2471,
+      "heat_rank": 2,
       "is_project": true,
       "btype": "文化",
       "region": "湖北",
       "city": "",
       "architect": "",
-      "heat_score": 37.7,
+      "heat_score": 37.6,
       "quality_score": 33.4,
-      "score": 71.1,
+      "score": 71.0,
       "reasons": [
-        "热度 37.7：谷德 7 天最热 第 3 名 · 阅读 2468 次→37.7",
+        "热度 37.6：谷德 7 天最热 第 2 名 · 阅读 2471 次→37.6",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「湖北」+3；封面图+2"
       ],
-      "rank": 3
+      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -230,14 +188,14 @@
       "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T10:49:13+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2305 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2310 次"
       ],
-      "views": 2305,
-      "heat_rank": 4,
+      "views": 2310,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "住宅",
       "region": "深圳",
@@ -247,10 +205,10 @@
       "quality_score": 33.4,
       "score": 68.6,
       "reasons": [
-        "热度 35.2：谷德 7 天最热 第 4 名 · 阅读 2305 次→35.2",
+        "热度 35.2：谷德 7 天最热 第 3 名 · 阅读 2310 次→35.2",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
       ],
-      "rank": 4
+      "rank": 3
     },
     {
       "source": "谷德设计网",
@@ -262,17 +220,17 @@
       "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T11:28:55+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "meta": {
         "area": "615 m²",
         "photographer": "黑水"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2296 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2298 次"
       ],
-      "views": 2296,
-      "heat_rank": 5,
+      "views": 2298,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "商业",
       "region": "杭州",
@@ -282,8 +240,42 @@
       "quality_score": 33.4,
       "score": 68.4,
       "reasons": [
-        "热度 35.0：谷德 7 天最热 第 5 名 · 阅读 2296 次→35.0",
+        "热度 35.0：谷德 7 天最热 第 4 名 · 阅读 2298 次→35.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "淳岸威士忌酒厂，杭州 / PRA前研建筑设计事务所",
+      "url": "https://www.gooood.cn/chunan-distillery-by-pra.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/Chunan-Distillery-by-Project-for-Research-Architecture-472x303.jpg",
+      "summary": "建筑  容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享",
+      "published_at": "2026-10-19T09:44:51+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
+      "meta": {
+        "year": "2024"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 2283 次"
+      ],
+      "views": 2283,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": null,
+      "region": "杭州",
+      "city": "",
+      "architect": "",
+      "heat_score": 34.8,
+      "quality_score": 30.4,
+      "score": 65.2,
+      "reasons": [
+        "热度 34.8：谷德 7 天最热 第 5 名 · 阅读 2283 次→34.8",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -297,7 +289,7 @@
       "summary": "十月 21 © Sidney Zag + 61 • Nanterre, 法国 建筑师: IT'S Studio 面积 该建筑项目的领域 面积: 18000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187214/campus-du-parc-its-studio Andreas Luco 阅读更多 »",
       "published_at": "2026-10-21T22:00:00+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "alt_url": "https://www.archdaily.com/1186926/campus-du-parc-its-studio",
       "bilingual": true,
       "meta": {
@@ -311,18 +303,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": "教育",
       "region": "法国",
       "city": "Nanterre",
       "architect": "IT'S Studio",
-      "heat_score": 12.3,
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 52.3,
+      "score": 51.9,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集61张+8；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -337,7 +329,7 @@
       "summary": "十月 21 © Hiroyuki Hirai + 17 • Kuki, 日本 建筑师: UENOA 面积 该建筑项目的领域 面积: 740 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187117/yuki-office-uenoa Pratik Mour 阅读更多 »",
       "published_at": "2026-10-21T19:00:00+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "alt_url": "https://www.archdaily.com/1187102/yuki-office-uenoa",
       "bilingual": true,
       "meta": {
@@ -351,18 +343,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 7 位"
       ],
       "is_project": true,
       "btype": "办公",
       "region": "日本",
       "city": "Kuki",
       "architect": "UENOA",
-      "heat_score": 11.9,
+      "heat_score": 11.5,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 51.5,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集17张+5；类型「办公」+3；地域「日本」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -462,7 +454,7 @@
       "summary": "Burgundy-coloured bricks incorporating reclaimed manufacturing waste wrap Princeton University's Frist Health Centre in Princeton, New Jersey , as shown in this video carousel produced by Dezeen. Called Ponderosa Western , the bricks are part of North American manufacturer Glen-Gery 's Western Series and incorporate materials recovered from its own manufacturing process. View this post on Instagra",
       "published_at": "2026-10-21T15:00:00+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-22T08:13:46+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
