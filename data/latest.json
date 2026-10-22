@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-21",
-  "window_start": "2026-10-15",
-  "window_end": "2026-10-21",
+  "date": "2026-10-22",
+  "window_start": "2026-10-16",
+  "window_end": "2026-10-22",
   "window_days": 7,
-  "generated_at": "2026-10-22T08:13:53+08:00",
+  "generated_at": "2026-10-23T06:27:20+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
-      "total": 65,
-      "oldest": "2026-09-18",
-      "newest": "2026-10-22",
+      "total": 64,
+      "oldest": "2026-09-21",
+      "newest": "2026-10-23",
       "hit": 99,
       "stale_days": -1,
       "stale": false
@@ -20,8 +20,8 @@
       "ok": true,
       "total": 65,
       "oldest": "2026-09-18",
-      "newest": "2026-10-22",
-      "hit": 97,
+      "newest": "2026-10-23",
+      "hit": 99,
       "stale_days": -1,
       "stale": false
     },
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-14",
-      "newest": "2026-10-21",
-      "hit": 48,
+      "oldest": "2026-10-15",
+      "newest": "2026-10-22",
+      "hit": 49,
       "stale_days": 0,
       "stale": false
     },
@@ -39,29 +39,29 @@
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-10-13",
-      "newest": "2026-10-22",
-      "hit": 44,
+      "oldest": "2026-10-14",
+      "newest": "2026-10-23",
+      "hit": 43,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 3,
-      "oldest": "2026-10-21",
+      "total": 1,
+      "oldest": "2026-10-22",
       "newest": "2026-10-22",
-      "hit": 15,
-      "stale_days": -1,
+      "hit": 16,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "有方空间",
       "ok": true,
       "total": 17,
-      "oldest": "2026-10-15",
-      "newest": "2026-10-21",
-      "hit": 19,
+      "oldest": "2026-10-19",
+      "newest": "2026-10-22",
+      "hit": 21,
       "stale_days": 0,
       "stale": false
     },
@@ -69,21 +69,21 @@
       "source": "建筑学院",
       "ok": true,
       "total": 10,
-      "oldest": "2026-07-29",
-      "newest": "2026-10-19",
+      "oldest": "2026-07-28",
+      "newest": "2026-08-30",
       "hit": 1,
-      "stale_days": 2,
-      "stale": false
+      "stale_days": 53,
+      "stale": true
     }
   ],
-  "candidate_count": 323,
-  "new_stored": 3,
-  "store_total": 628,
-  "after_dedupe": 203,
+  "candidate_count": 328,
+  "new_stored": 59,
+  "store_total": 687,
+  "after_dedupe": 209,
   "noise_count": 4,
-  "heat_signal_count": 123,
-  "heat_hit_count": 64,
-  "out_of_window_count": 0,
+  "heat_signal_count": 126,
+  "heat_hit_count": 61,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -97,14 +97,14 @@
       "url": "https://www.dezeen.com/2026/10/18/seven-red-buildings-roundup"
     },
     {
+      "title": "Seven striking buildings that make a statement with red",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/18/red-buildings-roundup"
+    },
+    {
       "title": "Eight converted power stations that show the power of reuse",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/10/17/converted-power-stations-roundup"
-    },
-    {
-      "title": "\"People need to be able to afford to adapt to climate change\" says architect founder of Shaded",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview"
     }
   ],
   "items": [
@@ -118,16 +118,16 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2954 次"
+        "谷德 7 天最热 第 1 名 · 阅读 3232 次"
       ],
-      "views": 2954,
+      "views": 3232,
       "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
@@ -138,7 +138,7 @@
       "quality_score": 39.4,
       "score": 91.9,
       "reasons": [
-        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2954 次→45.0；2 家媒体报道+7.5",
+        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 3232 次→45.0；2 家媒体报道+7.5",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 1
@@ -153,27 +153,27 @@
       "summary": "建筑  无围墙的艺术场：湖岸地景中的开放艺术范式 2026.10.16 收藏 分享",
       "published_at": "2026-10-16T15:00:00+08:00",
       "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
       "meta": {
         "area": "2,884 m²",
         "photographer": "苏圣亮、DONG建筑影像"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2471 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2649 次"
       ],
-      "views": 2471,
+      "views": 2649,
       "heat_rank": 2,
       "is_project": true,
       "btype": "文化",
       "region": "湖北",
       "city": "",
       "architect": "",
-      "heat_score": 37.6,
+      "heat_score": 36.9,
       "quality_score": 33.4,
-      "score": 71.0,
+      "score": 70.3,
       "reasons": [
-        "热度 37.6：谷德 7 天最热 第 2 名 · 阅读 2471 次→37.6",
+        "热度 36.9：谷德 7 天最热 第 2 名 · 阅读 2649 次→36.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「湖北」+3；封面图+2"
       ],
       "rank": 2
@@ -188,62 +188,27 @@
       "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T10:49:13+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2310 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2648 次"
       ],
-      "views": 2310,
+      "views": 2648,
       "heat_rank": 3,
       "is_project": true,
       "btype": "住宅",
       "region": "深圳",
       "city": "",
       "architect": "里外工作室",
-      "heat_score": 35.2,
+      "heat_score": 36.9,
       "quality_score": 33.4,
-      "score": 68.6,
+      "score": 70.3,
       "reasons": [
-        "热度 35.2：谷德 7 天最热 第 3 名 · 阅读 2310 次→35.2",
+        "热度 36.9：谷德 7 天最热 第 3 名 · 阅读 2648 次→36.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "柿子枫了·宁波城隍庙店 / 杭州观堂设计",
-      "url": "https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg",
-      "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
-      "published_at": "2026-10-16T11:28:55+08:00",
-      "first_seen": "2026-10-16T22:02:29+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
-      "meta": {
-        "area": "615 m²",
-        "photographer": "黑水"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2298 次"
-      ],
-      "views": 2298,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "商业",
-      "region": "杭州",
-      "city": "",
-      "architect": "",
-      "heat_score": 35.0,
-      "quality_score": 33.4,
-      "score": 68.4,
-      "reasons": [
-        "热度 35.0：谷德 7 天最热 第 4 名 · 阅读 2298 次→35.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
-      ],
-      "rank": 4
     },
     {
       "source": "谷德设计网",
@@ -255,152 +220,64 @@
       "summary": "建筑  容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T09:44:51+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
       "meta": {
         "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2283 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2544 次"
       ],
-      "views": 2283,
-      "heat_rank": 5,
+      "views": 2544,
+      "heat_rank": 4,
       "is_project": true,
       "btype": null,
       "region": "杭州",
       "city": "",
       "architect": "",
-      "heat_score": 34.8,
+      "heat_score": 35.4,
       "quality_score": 30.4,
-      "score": 65.2,
+      "score": 65.8,
       "reasons": [
-        "热度 34.8：谷德 7 天最热 第 5 名 · 阅读 2283 次→34.8",
+        "热度 35.4：谷德 7 天最热 第 4 名 · 阅读 2544 次→35.4",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
       ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "柿子枫了·宁波城隍庙店 / 杭州观堂设计",
+      "url": "https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg",
+      "summary": "建筑  老羽毛球馆里的城市山野 2026.10.16 收藏 分享",
+      "published_at": "2026-10-16T11:28:55+08:00",
+      "first_seen": "2026-10-16T22:02:29+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
+      "meta": {
+        "area": "615 m²",
+        "photographer": "黑水"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 2434 次"
+      ],
+      "views": 2434,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "商业",
+      "region": "杭州",
+      "city": "",
+      "architect": "",
+      "heat_score": 33.9,
+      "quality_score": 33.4,
+      "score": 67.3,
+      "reasons": [
+        "热度 33.9：谷德 7 天最热 第 5 名 · 阅读 2434 次→33.9",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
+      ],
       "rank": 5
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "Campus du Parc / IT'S Studio",
-      "url": "https://www.archdaily.cn/zh/1187214/campus-du-parc-its-studio",
-      "cover": "https://images.adsttc.com/media/images/6ad0/d77b/7887/fb01/8910/778e/newsletter/campus-du-parc-its-studio_1.jpg?1792071586",
-      "summary": "十月 21 © Sidney Zag + 61 • Nanterre, 法国 建筑师: IT'S Studio 面积 该建筑项目的领域 面积: 18000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187214/campus-du-parc-its-studio Andreas Luco 阅读更多 »",
-      "published_at": "2026-10-21T22:00:00+08:00",
-      "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
-      "alt_url": "https://www.archdaily.com/1186926/campus-du-parc-its-studio",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Sidney Zag",
-        "image_count": 61,
-        "city": "Nanterre",
-        "country": "法国",
-        "architect": "IT'S Studio",
-        "area": "18000 m²",
-        "year": "2026"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
-      ],
-      "is_project": true,
-      "btype": "教育",
-      "region": "法国",
-      "city": "Nanterre",
-      "architect": "IT'S Studio",
-      "heat_score": 11.9,
-      "quality_score": 40.0,
-      "score": 51.9,
-      "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集61张+8；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "YUKI Office / UENOA",
-      "url": "https://www.archdaily.cn/zh/1187117/yuki-office-uenoa",
-      "cover": "https://images.adsttc.com/media/images/6ad6/0b46/c720/ac01/8896/2d04/newsletter/yuki-office-uenoa_1.jpg?1792412529",
-      "summary": "十月 21 © Hiroyuki Hirai + 17 • Kuki, 日本 建筑师: UENOA 面积 该建筑项目的领域 面积: 740 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187117/yuki-office-uenoa Pratik Mour 阅读更多 »",
-      "published_at": "2026-10-21T19:00:00+08:00",
-      "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
-      "alt_url": "https://www.archdaily.com/1187102/yuki-office-uenoa",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Hiroyuki Hirai",
-        "image_count": 17,
-        "city": "Kuki",
-        "country": "日本",
-        "architect": "UENOA",
-        "area": "740 m²",
-        "year": "2024"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 7 位"
-      ],
-      "is_project": true,
-      "btype": "办公",
-      "region": "日本",
-      "city": "Kuki",
-      "architect": "UENOA",
-      "heat_score": 11.5,
-      "quality_score": 40.0,
-      "score": 51.5,
-      "reasons": [
-        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集17张+5；类型「办公」+3；地域「日本」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 7
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "温彻斯特公学女生寄宿楼 / Stanton Williams",
-      "url": "https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams",
-      "cover": "https://images.adsttc.com/media/images/6acf/3632/b2c4/c300/0178/f122/newsletter/Stanton_Williams_Winchester_College__JackHobhouse_012.jpg?1791964760",
-      "summary": "十月 20 © Jack Hobhouse + 27 • Winchester, 英国 建筑师: Stanton Williams 面积 该建筑项目的领域 面积: 5450 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Craftstone , Gartec , Howdens https://www.archdaily.cn/zh/1187127/wen-che-si-te-gong-xue-nu-sheng-ji-su-lou-stanton-williams Cristina Popescu 阅读更多 »",
-      "published_at": "2026-10-20T18:00:00+08:00",
-      "first_seen": "2026-10-21T06:27:54+08:00",
-      "last_seen": "2026-10-21T08:14:16+08:00",
-      "alt_url": "https://www.archdaily.com/1186793/winchester-college-girls-boarding-houses-stanton-williams",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Jack Hobhouse",
-        "image_count": 27,
-        "city": "Winchester",
-        "country": "英国",
-        "architect": "Stanton Williams",
-        "area": "5450 m²",
-        "year": "2026",
-        "brands": [
-          "Craftstone",
-          "Gartec",
-          "Howdens"
-        ]
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "住宅",
-      "region": "英国",
-      "city": "Winchester",
-      "architect": "Stanton Williams",
-      "heat_score": 11.5,
-      "quality_score": 40.0,
-      "score": 51.5,
-      "reasons": [
-        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2；含材料厂家+1"
-      ],
-      "rank": 8
     },
     {
       "source": "ArchDaily",
@@ -442,35 +319,160 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集7张+3；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "北京 1733 商业提升 / 拾集建筑",
+      "url": "https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu",
+      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6acf/d694/7887/fb3b/1182/d652/slideshow/beijing-1733-bytedance-commercial-project-xu-studio_15.jpg?1792005800&format=webp&width=640&height=580",
+      "summary": "十月 18 © 朱雨蒙 + 33 • 北京, 中国 建筑师: 拾集建筑 面积 该建筑项目的领域 面积: 9000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 年 https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu Pilar Caballero 阅读更多 »",
+      "published_at": "2026-10-18T14:00:00+08:00",
+      "first_seen": "2026-10-19T06:22:11+08:00",
+      "last_seen": "2026-10-19T08:12:09+08:00",
+      "alt_url": "https://www.archdaily.com/1186852/beijing-1733-bytedance-commercial-project-xu-studio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "朱雨蒙",
+        "image_count": 33,
+        "city": "北京",
+        "country": "中国",
+        "architect": "拾集建筑",
+        "area": "9000 m²",
+        "year": "2025"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "商业",
+      "region": "中国",
+      "city": "北京",
+      "architect": "拾集建筑",
+      "heat_score": 11.5,
+      "quality_score": 40.0,
+      "score": 51.5,
+      "reasons": [
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「商业」+3；地域「中国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Aalok 农庄 / Nodecraft Studio",
+      "url": "https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio",
+      "cover": "https://images.adsttc.com/media/images/6acf/8a83/7887/fb01/8910/7252/newsletter/aalok-farmhouse_11.jpg?1791986341",
+      "summary": "十月 22 © Naresh and Nayan + 22 • Bengaluru, 印度 建筑师: Nodecraft Studio 面积 该建筑项目的领域 面积: 3000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio Pratik Mour 阅读更多 »",
+      "published_at": "2026-10-22T19:00:00+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
+      "alt_url": "https://www.archdaily.com/1186827/aalok-farmhouse-nodecraft-studio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Naresh and Nayan",
+        "image_count": 22,
+        "city": "Bengaluru",
+        "country": "印度",
+        "architect": "Nodecraft Studio",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "印度",
+      "city": "Bengaluru",
+      "architect": "Nodecraft Studio",
+      "heat_score": 11.5,
+      "quality_score": 39.0,
+      "score": 50.5,
+      "reasons": [
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「印度」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Sanlomjoy 别墅 / Yangnar Studio",
+      "url": "https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio",
+      "cover": "https://images.adsttc.com/media/images/6ad8/bbe7/20d6/d878/437e/c773/newsletter/villa-sanlomjoy-yangnar-studio_20.jpg?1792588786",
+      "summary": "十月 22 © Rungkit Charoenwat + 16 • Chiang Mai, 泰国 建筑师: Yangnar Studio 面积 该建筑项目的领域 面积: 250 m² 项目年份 该建筑项目的竣工年份 项目年份: 2020 https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio Pratik Mour 阅读更多 »",
+      "published_at": "2026-10-22T15:00:00+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
+      "alt_url": "https://www.archdaily.com/1187087/villa-sanlomjoy-yangnar-studio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Rungkit Charoenwat",
+        "image_count": 16,
+        "city": "Chiang Mai",
+        "country": "泰国",
+        "architect": "Yangnar Studio",
+        "area": "250 m²",
+        "year": "2020"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 13 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "泰国",
+      "city": "Chiang Mai",
+      "architect": "Yangnar Studio",
+      "heat_score": 9.0,
+      "quality_score": 40.0,
+      "score": 49.0,
+      "reasons": [
+        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；类型「住宅」+3；地域「泰国」+3；封面图+2；含面积数据+2"
+      ],
       "rank": 9
     },
     {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "Glen-Gery clads Princeton University health centre in bricks made with reclaimed materials",
-      "url": "https://www.dezeen.com/2026/10/21/glen-gery-frist-health-centre",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/GlenGery_sq1_dezeen_2364_col_0-1024x1024.jpg",
-      "summary": "Burgundy-coloured bricks incorporating reclaimed manufacturing waste wrap Princeton University's Frist Health Centre in Princeton, New Jersey , as shown in this video carousel produced by Dezeen. Called Ponderosa Western , the bricks are part of North American manufacturer Glen-Gery 's Western Series and incorporate materials recovered from its own manufacturing process. View this post on Instagra",
-      "published_at": "2026-10-21T15:00:00+08:00",
-      "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-22T08:13:46+08:00",
-      "meta": {},
+      "source": "ArchDaily中国",
+      "weight": 0.88,
+      "lang": "zh",
+      "title": "7th door 杭州餐厅 / Chakchak Studio",
+      "url": "https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio",
+      "cover": "https://images.adsttc.com/media/images/6acf/585e/b2c4/c300/0178/f1cb/newsletter/_7.jpg?1791973531",
+      "summary": "十月 22 © Donggyu Kim + 16 • Hangzhou, 中国 建筑师: Chakchak Studio 面积 该建筑项目的领域 面积: 150 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio Miwa Negoro 阅读更多 »",
+      "published_at": "2026-10-22T12:00:00+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-23T06:27:13+08:00",
+      "meta": {
+        "photographer": "Donggyu Kim",
+        "image_count": 16,
+        "city": "Hangzhou",
+        "country": "中国",
+        "architect": "Chakchak Studio",
+        "area": "150 m²",
+        "year": "2025"
+      },
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 4 位"
+        "ArchDaily中国 首页第 16 位"
       ],
-      "is_project": false,
-      "btype": "教育",
-      "region": "Princeton",
-      "city": "",
-      "architect": "",
-      "heat_score": 14.0,
-      "quality_score": 24.6,
-      "score": 38.6,
+      "is_project": true,
+      "btype": null,
+      "region": "中国",
+      "city": "Hangzhou",
+      "architect": "Chakchak Studio",
+      "heat_score": 3.8,
+      "quality_score": 37.0,
+      "score": 40.8,
       "reasons": [
-        "热度 14.0：Dezeen 首页第 4 位→14.0",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「教育」+3；地域「Princeton」+3；封面图+2"
+        "热度 3.8：ArchDaily中国 首页第 16 位→3.8",
+        "质量 37.0：建成项目格式+18；站点权重0.88→7.0；图集16张+5；地域「中国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 10
     }

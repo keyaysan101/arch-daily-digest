@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-10-16 ~ 2026-10-22）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-10-16 ~ 2026-10-22）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-10-23 06:27:20 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 99 · ArchDaily中国 99 · 谷德设计网 49 · Dezeen 43 · Designboom 16 · 有方空间 21 · 建筑学院 1<br/>窗口内 328 条候选，其中 61 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>328</b>候选</div>
+      <div class="stat"><b>209</b>去重后</div>
+      <div class="stat"><b>4</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-shanghai-opera-072-N758-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm" target="_blank" rel="noopener">上海大歌剧院正式揭开帷幕 / Snøhetta</a></div>
+        <div class="arch">设计：Snøhetta</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 1 名</span><span class="chip" style="color:#dc2626">7 天阅读 3,232 次</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 上海</span><span class="chip" style="color:#7c3aed">面积 146,786 m²</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 3,232 次</span>
+          <button type="button" class="mini" data-more="m5b71dbce63e0">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm"
+            data-t="上海大歌剧院正式揭开帷幕 / Snøhetta" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-shanghai-opera-072-N758-472x303.jpg" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m5b71dbce63e0"><div class="kv"><b>建筑面积</b><span>146,786 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>所在地</b><span>上海</span></div><div class="kv"><b>摘要</b><span>建筑 连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 92 分</b><div>· 热度 52.5：谷德 7 天最热 第 1 名 · 阅读 3232 次→45.0；2 家媒体报道+7.5</div><div>· 质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/zi-art-museum-cultural-complex-by-buzz-architects.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/zi-museum-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/zi-art-museum-cultural-complex-by-buzz-architects.htm" target="_blank" rel="noopener">梓美术馆文化建筑群，湖北咸宁 / BUZZ建筑设计事务所</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 2 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,649 次</span><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 湖北</span><span class="chip" style="color:#7c3aed">面积 2,884 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,649 次</span>
+          <button type="button" class="mini" data-more="ma972d9fdb1d8">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/zi-art-museum-cultural-complex-by-buzz-architects.htm"
+            data-t="梓美术馆文化建筑群，湖北咸宁 / BUZZ建筑设计事务所" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/zi-museum-cover-472x303.jpg" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/zi-art-museum-cultural-complex-by-buzz-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="ma972d9fdb1d8"><div class="kv"><b>建筑面积</b><span>2,884 m²</span></div><div class="kv"><b>摄影</b><span>苏圣亮、DONG建筑影像</span></div><div class="kv"><b>所在地</b><span>湖北</span></div><div class="kv"><b>摘要</b><span>建筑 无围墙的艺术场：湖岸地景中的开放艺术范式 2026.10.16 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 70 分</b><div>· 热度 36.9：谷德 7 天最热 第 2 名 · 阅读 2649 次→36.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「湖北」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/0-taizi-villa-01-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm" target="_blank" rel="noopener">深圳太子湾花园城 VILLA 街区提升设计 / 里外工作室</a></div>
+        <div class="arch">设计：里外工作室</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 3 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,648 次</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 深圳</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,648 次</span>
+          <button type="button" class="mini" data-more="m4689734e5bbf">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm"
+            data-t="深圳太子湾花园城 VILLA 街区提升设计 / 里外工作室" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/0-taizi-villa-01-472x303.jpg" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m4689734e5bbf"><div class="kv"><b>所在地</b><span>深圳</span></div><div class="kv"><b>摘要</b><span>建筑 盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 70 分</b><div>· 热度 36.9：谷德 7 天最热 第 3 名 · 阅读 2648 次→36.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/chunan-distillery-by-pra.htm">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Chunan-Distillery-by-Project-for-Research-Architecture-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/chunan-distillery-by-pra.htm" target="_blank" rel="noopener">淳岸威士忌酒厂，杭州 / PRA前研建筑设计事务所</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 4 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,544 次</span><span class="chip" style="color:#0f766e">地域 杭州</span><span class="chip" style="color:#b45309">建成 2024</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,544 次</span>
+          <button type="button" class="mini" data-more="m34440a3b9f26">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/chunan-distillery-by-pra.htm"
+            data-t="淳岸威士忌酒厂，杭州 / PRA前研建筑设计事务所" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Chunan-Distillery-by-Project-for-Research-Architecture-472x303.jpg" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/chunan-distillery-by-pra.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m34440a3b9f26"><div class="kv"><b>建成年份</b><span>2024 年</span></div><div class="kv"><b>所在地</b><span>杭州</span></div><div class="kv"><b>摘要</b><span>建筑 容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 66 分</b><div>· 热度 35.4：谷德 7 天最热 第 4 名 · 阅读 2544 次→35.4</div><div>· 质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm" target="_blank" rel="noopener">柿子枫了·宁波城隍庙店 / 杭州观堂设计</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 5 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,434 次</span><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">地域 杭州</span><span class="chip" style="color:#7c3aed">面积 615 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,434 次</span>
+          <button type="button" class="mini" data-more="m6c22bf6b5377">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm"
+            data-t="柿子枫了·宁波城隍庙店 / 杭州观堂设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/ningbo-472x303.jpg" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/solia-ningbo-chenghuang-temple-store-by-gtd.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m6c22bf6b5377"><div class="kv"><b>建筑面积</b><span>615 m²</span></div><div class="kv"><b>摄影</b><span>黑水</span></div><div class="kv"><b>所在地</b><span>杭州</span></div><div class="kv"><b>摘要</b><span>建筑 老羽毛球馆里的城市山野 2026.10.16 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 67 分</b><div>· 热度 33.9：谷德 7 天最热 第 5 名 · 阅读 2434 次→33.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ace/9565/b2c4/c300/0178/ee72/newsletter/7-Wesam_Al_Asali_Tas_bik20260930_003_Saifuldeen_Fayez.jpg?1791923617" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali" target="_blank" rel="noopener">Tašbik 装置 / Wesam Al Asali</a></div>
+        <div class="arch">设计：Wesam Al Asali</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 展览</span><span class="chip" style="color:#0f766e">地域 约旦</span><span class="chip" style="color:#7c3aed">面积 256 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 7 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 52 分</span>
+          <button type="button" class="mini" data-more="m415b79daf888">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali"
+            data-t="Tašbik 装置 / Wesam Al Asali" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ace/9565/b2c4/c300/0178/ee72/newsletter/7-Wesam_Al_Asali_Tas_bik20260930_003_Saifuldeen_Fayez.jpg?1791923617" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186847/tasbik-zhuang-zhi-wesam-al-asali" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m415b79daf888"><div class="kv"><b>建筑面积</b><span>256 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>7 张</span></div><div class="kv"><b>摄影</b><span>Saifuldeen Fayez</span></div><div class="kv"><b>所在地</b><span>Amman / 约旦</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Home Pillar&#x27;, &#x27;Siwan Stone &amp; Marble Co.&#x27;]</span></div><div class="kv"><b>摘要</b><span>十月 20 © Saifuldeen Fayez + 7 • Amman, 约旦 建筑师: Wesam Al Asali 面积 该建筑项目的领域 面积: 256 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Home Pillar , Siwan Stone &amp; Marble Co. https://www.archdaily.cn/zh/118…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186763/tasbik-wesam-al-asali" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 52 分</b><div>· 热度 11.5：2 家媒体报道+7.5；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集7张+3；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2；含材料厂家+1</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6acf/d694/7887/fb3b/1182/d652/slideshow/beijing-1733-bytedance-commercial-project-xu-studio_15.jpg?1792005800&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu" target="_blank" rel="noopener">北京 1733 商业提升 / 拾集建筑</a></div>
+        <div class="arch">设计：拾集建筑</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">地域 中国</span><span class="chip" style="color:#7c3aed">面积 9000 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 33 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 52 分</span>
+          <button type="button" class="mini" data-more="m51a100ffa1d8">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu"
+            data-t="北京 1733 商业提升 / 拾集建筑" data-s="ArchDaily"
+            data-c="https://snoopy.archdaily.com/images/archdaily/media/images/6acf/d694/7887/fb3b/1182/d652/slideshow/beijing-1733-bytedance-commercial-project-xu-studio_15.jpg?1792005800&amp;format=webp&amp;width=640&amp;height=580" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m51a100ffa1d8"><div class="kv"><b>建筑面积</b><span>9000 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>33 张</span></div><div class="kv"><b>摄影</b><span>朱雨蒙</span></div><div class="kv"><b>所在地</b><span>北京 / 中国</span></div><div class="kv"><b>摘要</b><span>十月 18 © 朱雨蒙 + 33 • 北京, 中国 建筑师: 拾集建筑 面积 该建筑项目的领域 面积: 9000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 年 https://www.archdaily.cn/zh/1186878/bei-jing-1733-shang-ye-ti-sheng-shi-ji-jian-zhu Pilar Caballero 阅读更多 »</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186852/beijing-1733-bytedance-commercial-project-xu-studio" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 52 分</b><div>· 热度 11.5：2 家媒体报道+7.5；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「商业」+3；地域「中国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6acf/8a83/7887/fb01/8910/7252/newsletter/aalok-farmhouse_11.jpg?1791986341" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio" target="_blank" rel="noopener">Aalok 农庄 / Nodecraft Studio</a></div>
+        <div class="arch">设计：Nodecraft Studio</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 7 位</span><span class="chip" style="color:#0f766e">地域 印度</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 22 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 50 分</span>
+          <button type="button" class="mini" data-more="m91589505f9bb">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio"
+            data-t="Aalok 农庄 / Nodecraft Studio" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6acf/8a83/7887/fb01/8910/7252/newsletter/aalok-farmhouse_11.jpg?1791986341" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m91589505f9bb"><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>22 张</span></div><div class="kv"><b>摄影</b><span>Naresh and Nayan</span></div><div class="kv"><b>所在地</b><span>Bengaluru / 印度</span></div><div class="kv"><b>摘要</b><span>十月 22 © Naresh and Nayan + 22 • Bengaluru, 印度 建筑师: Nodecraft Studio 面积 该建筑项目的领域 面积: 3000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1186858/aalok-nong-zhuang-nodecraft-studio Pratik Mo…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186827/aalok-farmhouse-nodecraft-studio" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 50 分</b><div>· 热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4</div><div>· 质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「印度」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ad8/bbe7/20d6/d878/437e/c773/newsletter/villa-sanlomjoy-yangnar-studio_20.jpg?1792588786" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio" target="_blank" rel="noopener">Sanlomjoy 别墅 / Yangnar Studio</a></div>
+        <div class="arch">设计：Yangnar Studio</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 13 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 泰国</span><span class="chip" style="color:#7c3aed">面积 250 m²</span><span class="chip" style="color:#b45309">建成 2020</span><span class="chip" style="color:#475569">图 16 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 49 分</span>
+          <button type="button" class="mini" data-more="m7a56b3b7e02f">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio"
+            data-t="Sanlomjoy 别墅 / Yangnar Studio" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ad8/bbe7/20d6/d878/437e/c773/newsletter/villa-sanlomjoy-yangnar-studio_20.jpg?1792588786" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m7a56b3b7e02f"><div class="kv"><b>建筑面积</b><span>250 m²</span></div><div class="kv"><b>建成年份</b><span>2020 年</span></div><div class="kv"><b>图集</b><span>16 张</span></div><div class="kv"><b>摄影</b><span>Rungkit Charoenwat</span></div><div class="kv"><b>所在地</b><span>Chiang Mai / 泰国</span></div><div class="kv"><b>摘要</b><span>十月 22 © Rungkit Charoenwat + 16 • Chiang Mai, 泰国 建筑师: Yangnar Studio 面积 该建筑项目的领域 面积: 250 m² 项目年份 该建筑项目的竣工年份 项目年份: 2020 https://www.archdaily.cn/zh/1187285/sanlomjoy-bie-shu-yangnar-studio Pratik Mour …</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187087/villa-sanlomjoy-yangnar-studio" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 49 分</b><div>· 热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；类型「住宅」+3；地域「泰国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6acf/585e/b2c4/c300/0178/f1cb/newsletter/_7.jpg?1791973531" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio" target="_blank" rel="noopener">7th door 杭州餐厅 / Chakchak Studio</a></div>
+        <div class="arch">设计：Chakchak Studio</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 16 位</span><span class="chip" style="color:#0f766e">地域 中国</span><span class="chip" style="color:#7c3aed">面积 150 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 16 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily中国</span>
+          <span class="score">综合 41 分</span>
+          <button type="button" class="mini" data-more="m46d191455525">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio"
+            data-t="7th door 杭州餐厅 / Chakchak Studio" data-s="ArchDaily中国"
+            data-c="https://images.adsttc.com/media/images/6acf/585e/b2c4/c300/0178/f1cb/newsletter/_7.jpg?1791973531" data-d="2026-10-22">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m46d191455525"><div class="kv"><b>建筑面积</b><span>150 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>16 张</span></div><div class="kv"><b>摄影</b><span>Donggyu Kim</span></div><div class="kv"><b>所在地</b><span>Hangzhou / 中国</span></div><div class="kv"><b>摘要</b><span>十月 22 © Donggyu Kim + 16 • Hangzhou, 中国 建筑师: Chakchak Studio 面积 该建筑项目的领域 面积: 150 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187299/7th-door-hang-zhou-can-ting-chakchak-studio Miwa Nego…</span></div><div class="why"><b>为什么推荐 · 合计 41 分</b><div>· 热度 3.8：ArchDaily中国 首页第 16 位→3.8</div><div>· 质量 37.0：建成项目格式+18；站点权重0.88→7.0；图集16张+5；地域「中国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-10-16 ~ 2026-10-22）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 1 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>
