@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-24",
-  "window_start": "2026-10-18",
-  "window_end": "2026-10-24",
+  "date": "2026-10-25",
+  "window_start": "2026-10-19",
+  "window_end": "2026-10-25",
   "window_days": 7,
-  "generated_at": "2026-10-25T08:10:59+08:00",
+  "generated_at": "2026-10-26T06:21:41+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 66,
       "oldest": "2026-09-22",
-      "newest": "2026-10-25",
+      "newest": "2026-10-26",
       "hit": 102,
       "stale_days": -1,
       "stale": false
@@ -18,10 +18,10 @@
     {
       "source": "ArchDaily中国",
       "ok": true,
-      "total": 65,
+      "total": 66,
       "oldest": "2026-09-21",
-      "newest": "2026-10-25",
-      "hit": 96,
+      "newest": "2026-10-26",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -30,8 +30,8 @@
       "ok": true,
       "total": 54,
       "oldest": "2026-10-16",
-      "newest": "2026-10-24",
-      "hit": 51,
+      "newest": "2026-10-25",
+      "hit": 52,
       "stale_days": 0,
       "stale": false
     },
@@ -39,10 +39,10 @@
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-10-16",
+      "oldest": "2026-10-17",
       "newest": "2026-10-25",
-      "hit": 45,
-      "stale_days": -1,
+      "hit": 43,
+      "stale_days": 0,
       "stale": false
     },
     {
@@ -50,9 +50,9 @@
       "ok": true,
       "total": 6,
       "oldest": "2026-10-23",
-      "newest": "2026-10-24",
+      "newest": "2026-10-26",
       "hit": 20,
-      "stale_days": 0,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -62,7 +62,7 @@
       "oldest": "2026-10-20",
       "newest": "2026-10-23",
       "hit": 21,
-      "stale_days": 1,
+      "stale_days": 2,
       "stale": false
     },
     {
@@ -72,18 +72,18 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 1,
-      "stale_days": 55,
+      "stale_days": 56,
       "stale": true
     }
   ],
   "candidate_count": 336,
-  "new_stored": 0,
-  "store_total": 771,
-  "after_dedupe": 218,
-  "noise_count": 6,
-  "heat_signal_count": 127,
+  "new_stored": 24,
+  "store_total": 795,
+  "after_dedupe": 219,
+  "noise_count": 4,
+  "heat_signal_count": 124,
   "heat_hit_count": 70,
-  "out_of_window_count": 2,
+  "out_of_window_count": 3,
   "count": 10,
   "noise": [
     {
@@ -105,16 +105,6 @@
       "title": "designboom listens: what does space sound like to kengo kuma?",
       "source": "Designboom",
       "url": "https://www.designboom.com/architecture/designboom-listens-kengo-kuma-interview"
-    },
-    {
-      "title": "Seven striking buildings that make a statement with red",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/18/seven-red-buildings-roundup"
-    },
-    {
-      "title": "Seven striking buildings that make a statement with red",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/18/red-buildings-roundup"
     }
   ],
   "items": [
@@ -128,16 +118,16 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3070 次"
+        "谷德 7 天最热 第 1 名 · 阅读 3116 次"
       ],
-      "views": 3070,
+      "views": 3116,
       "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
@@ -148,7 +138,7 @@
       "quality_score": 39.4,
       "score": 84.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3070 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3116 次→45.0",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 1
@@ -163,24 +153,24 @@
       "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T10:49:13+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2985 次"
+        "谷德 7 天最热 第 2 名 · 阅读 3066 次"
       ],
-      "views": 2985,
+      "views": 3066,
       "heat_rank": 2,
       "is_project": true,
       "btype": "住宅",
       "region": "深圳",
       "city": "",
       "architect": "里外工作室",
-      "heat_score": 43.8,
+      "heat_score": 44.3,
       "quality_score": 33.4,
-      "score": 77.2,
+      "score": 77.7,
       "reasons": [
-        "热度 43.8：谷德 7 天最热 第 2 名 · 阅读 2985 次→43.8",
+        "热度 44.3：谷德 7 天最热 第 2 名 · 阅读 3066 次→44.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 2
@@ -195,26 +185,26 @@
       "summary": "建筑  容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T09:44:51+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {
         "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2802 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2857 次"
       ],
-      "views": 2802,
+      "views": 2857,
       "heat_rank": 3,
       "is_project": true,
       "btype": null,
       "region": "杭州",
       "city": "",
       "architect": "",
-      "heat_score": 41.1,
+      "heat_score": 41.3,
       "quality_score": 30.4,
-      "score": 71.5,
+      "score": 71.7,
       "reasons": [
-        "热度 41.1：谷德 7 天最热 第 3 名 · 阅读 2802 次→41.1",
+        "热度 41.3：谷德 7 天最热 第 3 名 · 阅读 2857 次→41.3",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
       ],
       "rank": 3
@@ -229,7 +219,7 @@
       "summary": "建筑  江南水乡的超现实主义 2026.10.21 收藏 分享",
       "published_at": "2026-10-21T09:09:33+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {
         "city": "博物志民宿",
         "country": "苏州",
@@ -238,20 +228,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2234 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2320 次"
       ],
-      "views": 2234,
+      "views": 2320,
       "heat_rank": 4,
       "is_project": true,
       "btype": "酒店",
       "region": "苏州",
       "city": "博物志民宿",
       "architect": "Wutopia Lab",
-      "heat_score": 32.8,
+      "heat_score": 33.5,
       "quality_score": 33.4,
-      "score": 66.2,
+      "score": 66.9,
       "reasons": [
-        "热度 32.8：谷德 7 天最热 第 4 名 · 阅读 2234 次→32.8",
+        "热度 33.5：谷德 7 天最热 第 4 名 · 阅读 2320 次→33.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「苏州」+3；封面图+2"
       ],
       "rank": 4
@@ -266,27 +256,27 @@
       "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T09:51:55+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {
         "area": "7000 m²",
         "photographer": "朱雨蒙"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2095 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2286 次"
       ],
-      "views": 2095,
+      "views": 2286,
       "heat_rank": 5,
       "is_project": true,
       "btype": "教育",
       "region": "北京",
       "city": "",
       "architect": "拾集建筑",
-      "heat_score": 38.2,
+      "heat_score": 33.0,
       "quality_score": 33.4,
-      "score": 71.6,
+      "score": 66.4,
       "reasons": [
-        "热度 38.2：谷德 7 天最热 第 5 名 · 阅读 2095 次→30.7；2 家媒体报道+7.5",
+        "热度 33.0：谷德 7 天最热 第 5 名 · 阅读 2286 次→33.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 5
@@ -295,22 +285,21 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Camposoto 医疗中心 / Estudio Suárez Corchete",
-      "url": "https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete",
-      "cover": "https://images.adsttc.com/media/images/6a8e/ac0a/4253/0500/01ca/0d5d/newsletter/9834_11_Fernando_Alda.jpg?1787735085",
-      "summary": "十月 24 © Fernando Alda + 33 • San Fernando, 西班牙 建筑师: Estudio Suárez Corchete 面积 该建筑项目的领域 面积: 2167 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete Valentina Díaz 阅读更多 »",
-      "published_at": "2026-10-24T23:00:00+08:00",
-      "first_seen": "2026-10-25T06:22:42+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
-      "alt_url": "https://www.archdaily.com/1187184/camposoto-health-center-estudio-suarez-corchete",
+      "title": "敦化大楼 / Oyler Wu Collaborative",
+      "url": "https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative",
+      "cover": "https://images.adsttc.com/media/images/6ada/54a3/20d6/d801/8852/0953/medium_jpg/dunhua-tower-oyler-wu-collaborative_7.jpg?1792693442",
+      "summary": "十月 25 © Omni Multimedia LTD. + 22 • Zhongzheng Village, 台湾 建筑师: Oyler Wu Collaborative 面积 该建筑项目的领域 面积: 99700 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative Susanna Moreira 阅读更多 »",
+      "published_at": "2026-10-25T23:00:00+08:00",
+      "first_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
+      "alt_url": "https://www.archdaily.com/1187401/dunhua-tower-oyler-wu-collaborative",
       "bilingual": true,
       "meta": {
-        "photographer": "Fernando Alda",
-        "image_count": 33,
-        "city": "San Fernando",
-        "country": "西班牙",
-        "architect": "Estudio Suárez Corchete",
-        "area": "2167 m²",
+        "photographer": "Omni Multimedia LTD.",
+        "image_count": 22,
+        "city": "Zhongzheng Village",
+        "country": "台湾",
+        "architect": "Oyler Wu Collaborative",
         "year": "2026"
       },
       "strong_heat": false,
@@ -318,18 +307,58 @@
         "ArchDaily中国 首页第 5 位"
       ],
       "is_project": true,
-      "btype": "医疗",
-      "region": "西班牙",
-      "city": "San Fernando",
-      "architect": "Estudio Suárez Corchete",
+      "btype": "住宅",
+      "region": "台湾",
+      "city": "Zhongzheng Village",
+      "architect": "Oyler Wu Collaborative",
       "heat_score": 12.3,
       "quality_score": 40.0,
       "score": 52.3,
       "reasons": [
         "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「医疗」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；类型「住宅」+3；地域「台湾」+3；封面图+2"
       ],
       "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "萨拉梅罗广场（Plaza Salamero）：基础设施、景观与城市 / Hector Fernández Elorza",
+      "url": "https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza",
+      "cover": "https://images.adsttc.com/media/images/6a8e/ab83/4253/0500/01ca/0d33/newsletter/Plaza_Salamero_in_Zaragoza_Spain___He_ctor_F_Elorza___photo___Montse_Zamorano_05.jpg?1787734934",
+      "summary": "十月 25 © Montse Zamorano + 10 • Zaragoza, 西班牙 建筑师: Hector Fernández Elorza 面积 该建筑项目的领域 面积: 11000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza Valentina Díaz 阅读更多 »",
+      "published_at": "2026-10-25T22:00:00+08:00",
+      "first_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
+      "alt_url": "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Montse Zamorano",
+        "image_count": 10,
+        "city": "Zaragoza",
+        "country": "西班牙",
+        "architect": "Hector Fernández Elorza",
+        "area": "11000 m²",
+        "year": "2023"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 6 位"
+      ],
+      "is_project": true,
+      "btype": "景观",
+      "region": "西班牙",
+      "city": "Zaragoza",
+      "architect": "Hector Fernández Elorza",
+      "heat_score": 11.9,
+      "quality_score": 40.0,
+      "score": 51.9,
+      "reasons": [
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「景观」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
     },
     {
       "source": "ArchDaily",
@@ -371,85 +400,45 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集7张+3；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 7
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "巴斯克博物馆，毕尔巴鄂 / VAILLO + ARCHITECTS",
-      "url": "https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects",
-      "cover": "https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535",
-      "summary": "十月 23 © Iñaki Bergera + 33 • Bilbao, 西班牙 建筑师: VAILLO + ARCHITECTS 面积 该建筑项目的领域 面积: 8 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects Cristina Popescu 阅读更多 »",
-      "published_at": "2026-10-24T03:00:00+08:00",
-      "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
-      "alt_url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Iñaki Bergera",
-        "image_count": 33,
-        "city": "Bilbao",
-        "country": "西班牙",
-        "architect": "VAILLO + ARCHITECTS",
-        "area": "8 m²",
-        "year": "2026"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
-      ],
-      "is_project": true,
-      "btype": "文化",
-      "region": "西班牙",
-      "city": "Bilbao",
-      "architect": "VAILLO + ARCHITECTS",
-      "heat_score": 10.2,
-      "quality_score": 40.0,
-      "score": 50.2,
-      "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「文化」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
-      ],
       "rank": 8
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Loja Veja São Paulo / Roberto Somlo Arquitetura",
-      "url": "https://www.archdaily.cn/zh/1187438/loja-veja-sao-paulo-roberto-somlo-arquitetura",
-      "cover": "https://images.adsttc.com/media/images/6ad6/7503/aadf/a000/01e3/b350/newsletter/MVB_LojaVeja_D5A9010.jpg?1792439578",
-      "summary": "十月 23 © marcos vilas boas + 23 • São Paulo, 巴西 建筑师: Roberto Somlo Arquitetura 面积 该建筑项目的领域 面积: 536 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187438/loja-veja-sao-paulo-roberto-somlo-arquitetura Nana Dokua 阅读更多 »",
-      "published_at": "2026-10-24T01:00:00+08:00",
-      "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
-      "alt_url": "https://www.archdaily.com/1187436/veja-sao-paulo-store-roberto-somlo-arquitetura",
+      "title": "维尔纽斯住宅 / Architectural Bureau G.Natkevicius & Partners",
+      "url": "https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners",
+      "cover": "https://images.adsttc.com/media/images/6abd/6d25/122d/aa00/0196/fd54/newsletter/4.jpg?1790799189",
+      "summary": "十月 25 © Lukas Mykolaitis + 27 • Vilnius, 立陶宛 建筑师: Architectural Bureau G.Natkevicius & Partners 面积 该建筑项目的领域 面积: 166 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners Nina Vuga 阅读更多 »",
+      "published_at": "2026-10-25T18:00:00+08:00",
+      "first_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
+      "alt_url": "https://www.archdaily.com/1186113/residential-house-in-vilnius-architectural-bureau-gnatkevicius-and-partners",
       "bilingual": true,
       "meta": {
-        "photographer": "marcos vilas boas",
-        "image_count": 23,
-        "city": "São Paulo",
-        "country": "巴西",
-        "architect": "Roberto Somlo Arquitetura",
-        "area": "536 m²",
-        "year": "2025"
+        "photographer": "Lukas Mykolaitis",
+        "image_count": 27,
+        "city": "Vilnius",
+        "country": "立陶宛",
+        "architect": "Architectural Bureau G.Natkevicius & Partners",
+        "area": "166 m²",
+        "year": "2022"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 8 位"
       ],
       "is_project": true,
-      "btype": null,
-      "region": "巴西",
-      "city": "São Paulo",
-      "architect": "Roberto Somlo Arquitetura",
-      "heat_score": 9.8,
+      "btype": "住宅",
+      "region": "立陶宛",
+      "city": "Vilnius",
+      "architect": "Architectural Bureau G.Natkevicius & Partners",
+      "heat_score": 11.1,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 51.1,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；知名事务所+6；地域「巴西」+3；封面图+2；含面积数据+2"
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「立陶宛」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
     },
@@ -457,13 +446,13 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "Cloud House by Peter Morris brings \"fairytale flamboyance\" to London",
-      "url": "https://www.dezeen.com/2026/10/24/cloud-house-peter-morris",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/cloud-house-peter-morris-gospel-oak-london-residential-architecture-pomo-exterior_dezeen_2364_sq-1024x1024.jpg",
-      "summary": "Marshmallow-pink walls, sweeping arches and turquoise detailing influenced by a trip to Miami animate architect Peter Morris 's self-designed home in Gospel Oak, London . Named Cloud House, the eccentric project combines two offset residences, one for Morris and his partner, producer Emily Kennedy, and a second for a neighbour who shares their love of colour. According to the architect, the goal o",
-      "published_at": "2026-10-24T18:00:00+08:00",
-      "first_seen": "2026-10-25T06:22:42+08:00",
-      "last_seen": "2026-10-25T08:10:50+08:00",
+      "title": "Five uncanny venues where guests are treated to frightfully unique interiors",
+      "url": "https://www.dezeen.com/2026/10/25/uncanny-venues-frightful-interiors-lookbooks",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/01/bar-far-villa-lontana-studio-strato-sq-411x411.jpg",
+      "summary": "With spooky season in full swing and Halloween rapidly approaching, this lookbook rounds up five venues featuring unusual decor, including faux body parts, dead insects and slaughterhouse machinery. A London pub , a brewery in Copenhagen and a bar in Shanghai are among the selected projects. This is the latest in our lookbooks series, which provides visual inspiration from Dezeen's archive. For mo",
+      "published_at": "2026-10-25T18:00:00+08:00",
+      "first_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T06:21:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -471,7 +460,7 @@
       ],
       "is_project": false,
       "btype": "住宅",
-      "region": "Gospel Oak",
+      "region": "Copenhagen",
       "city": "",
       "architect": "",
       "heat_score": 15.3,
@@ -479,7 +468,7 @@
       "score": 39.9,
       "reasons": [
         "热度 15.3：Dezeen 首页第 2 位→15.3",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「Gospel Oak」+3；封面图+2"
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「Copenhagen」+3；封面图+2"
       ],
       "rank": 10
     }
