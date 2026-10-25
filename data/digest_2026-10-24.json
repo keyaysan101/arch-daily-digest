@@ -3,7 +3,7 @@
   "window_start": "2026-10-18",
   "window_end": "2026-10-24",
   "window_days": 7,
-  "generated_at": "2026-10-25T06:22:50+08:00",
+  "generated_at": "2026-10-25T08:10:59+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,7 +77,7 @@
     }
   ],
   "candidate_count": 336,
-  "new_stored": 20,
+  "new_stored": 0,
   "store_total": 771,
   "after_dedupe": 218,
   "noise_count": 6,
@@ -128,16 +128,16 @@
       "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
       "published_at": "2026-10-18T09:00:00+08:00",
       "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {
         "area": "146,786 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3582 次"
+        "谷德 7 天最热 第 1 名 · 阅读 3070 次"
       ],
-      "views": 3582,
+      "views": 3070,
       "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
@@ -148,7 +148,7 @@
       "quality_score": 39.4,
       "score": 84.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3582 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3070 次→45.0",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 1
@@ -163,24 +163,24 @@
       "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T10:49:13+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2984 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2985 次"
       ],
-      "views": 2984,
+      "views": 2985,
       "heat_rank": 2,
       "is_project": true,
       "btype": "住宅",
       "region": "深圳",
       "city": "",
       "architect": "里外工作室",
-      "heat_score": 37.5,
+      "heat_score": 43.8,
       "quality_score": 33.4,
-      "score": 70.9,
+      "score": 77.2,
       "reasons": [
-        "热度 37.5：谷德 7 天最热 第 2 名 · 阅读 2984 次→37.5",
+        "热度 43.8：谷德 7 天最热 第 2 名 · 阅读 2985 次→43.8",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 2
@@ -195,26 +195,26 @@
       "summary": "建筑  容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享",
       "published_at": "2026-10-19T09:44:51+08:00",
       "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {
         "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2800 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2802 次"
       ],
-      "views": 2800,
+      "views": 2802,
       "heat_rank": 3,
       "is_project": true,
       "btype": null,
       "region": "杭州",
       "city": "",
       "architect": "",
-      "heat_score": 35.2,
+      "heat_score": 41.1,
       "quality_score": 30.4,
-      "score": 65.6,
+      "score": 71.5,
       "reasons": [
-        "热度 35.2：谷德 7 天最热 第 3 名 · 阅读 2800 次→35.2",
+        "热度 41.1：谷德 7 天最热 第 3 名 · 阅读 2802 次→41.1",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
       ],
       "rank": 3
@@ -229,7 +229,7 @@
       "summary": "建筑  江南水乡的超现实主义 2026.10.21 收藏 分享",
       "published_at": "2026-10-21T09:09:33+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {
         "city": "博物志民宿",
         "country": "苏州",
@@ -238,20 +238,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2232 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2234 次"
       ],
-      "views": 2232,
+      "views": 2234,
       "heat_rank": 4,
       "is_project": true,
       "btype": "酒店",
       "region": "苏州",
       "city": "博物志民宿",
       "architect": "Wutopia Lab",
-      "heat_score": 28.0,
+      "heat_score": 32.8,
       "quality_score": 33.4,
-      "score": 61.4,
+      "score": 66.2,
       "reasons": [
-        "热度 28.0：谷德 7 天最热 第 4 名 · 阅读 2232 次→28.0",
+        "热度 32.8：谷德 7 天最热 第 4 名 · 阅读 2234 次→32.8",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「苏州」+3；封面图+2"
       ],
       "rank": 4
@@ -266,27 +266,27 @@
       "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T09:51:55+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {
         "area": "7000 m²",
         "photographer": "朱雨蒙"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2089 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2095 次"
       ],
-      "views": 2089,
+      "views": 2095,
       "heat_rank": 5,
       "is_project": true,
       "btype": "教育",
       "region": "北京",
       "city": "",
       "architect": "拾集建筑",
-      "heat_score": 33.7,
+      "heat_score": 38.2,
       "quality_score": 33.4,
-      "score": 67.1,
+      "score": 71.6,
       "reasons": [
-        "热度 33.7：谷德 7 天最热 第 5 名 · 阅读 2089 次→26.2；2 家媒体报道+7.5",
+        "热度 38.2：谷德 7 天最热 第 5 名 · 阅读 2095 次→30.7；2 家媒体报道+7.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 5
@@ -301,7 +301,7 @@
       "summary": "十月 24 © Fernando Alda + 33 • San Fernando, 西班牙 建筑师: Estudio Suárez Corchete 面积 该建筑项目的领域 面积: 2167 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete Valentina Díaz 阅读更多 »",
       "published_at": "2026-10-24T23:00:00+08:00",
       "first_seen": "2026-10-25T06:22:42+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "alt_url": "https://www.archdaily.com/1187184/camposoto-health-center-estudio-suarez-corchete",
       "bilingual": true,
       "meta": {
@@ -383,7 +383,7 @@
       "summary": "十月 23 © Iñaki Bergera + 33 • Bilbao, 西班牙 建筑师: VAILLO + ARCHITECTS 面积 该建筑项目的领域 面积: 8 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-24T03:00:00+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "alt_url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects",
       "bilingual": true,
       "meta": {
@@ -423,7 +423,7 @@
       "summary": "十月 23 © marcos vilas boas + 23 • São Paulo, 巴西 建筑师: Roberto Somlo Arquitetura 面积 该建筑项目的领域 面积: 536 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187438/loja-veja-sao-paulo-roberto-somlo-arquitetura Nana Dokua 阅读更多 »",
       "published_at": "2026-10-24T01:00:00+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "alt_url": "https://www.archdaily.com/1187436/veja-sao-paulo-store-roberto-somlo-arquitetura",
       "bilingual": true,
       "meta": {
@@ -463,7 +463,7 @@
       "summary": "Marshmallow-pink walls, sweeping arches and turquoise detailing influenced by a trip to Miami animate architect Peter Morris 's self-designed home in Gospel Oak, London . Named Cloud House, the eccentric project combines two offset residences, one for Morris and his partner, producer Emily Kennedy, and a second for a neighbour who shares their love of colour. According to the architect, the goal o",
       "published_at": "2026-10-24T18:00:00+08:00",
       "first_seen": "2026-10-25T06:22:42+08:00",
-      "last_seen": "2026-10-25T06:22:42+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
