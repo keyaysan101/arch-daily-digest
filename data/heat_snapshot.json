@@ -1,89 +1,89 @@
 {
-  "captured_at": "2026-10-25T22:21:38",
+  "captured_at": "2026-10-26T00:14:58",
   "signals": {
-    "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm": {
+    "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm": {
       "heat": 45.0,
       "labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3116 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2321 次"
       ],
-      "views": 3116
-    },
-    "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm": {
-      "heat": 44.28,
-      "labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 3066 次"
-      ],
-      "views": 3066
-    },
-    "https://www.gooood.cn/chunan-distillery-by-pra.htm": {
-      "heat": 41.26,
-      "labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2857 次"
-      ],
-      "views": 2857
-    },
-    "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm": {
-      "heat": 33.5,
-      "labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2320 次"
-      ],
-      "views": 2320
+      "views": 2321
     },
     "https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm": {
-      "heat": 33.01,
+      "heat": 44.44,
       "labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2286 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2292 次"
       ],
-      "views": 2286
+      "views": 2292
     },
     "https://www.gooood.cn/begl-restaurant-by-vari-architects.htm": {
-      "heat": 31.8,
+      "heat": 42.75,
       "labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 2202 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2205 次"
       ],
-      "views": 2202
+      "views": 2205
     },
     "https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm": {
-      "heat": 31.51,
+      "heat": 42.4,
       "labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 2182 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2187 次"
       ],
-      "views": 2182
+      "views": 2187
     },
-    "https://www.gooood.cn/big-wins-competition-for-tirana-fountain-plaza.htm": {
-      "heat": 30.01,
+    "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm": {
+      "heat": 38.06,
       "labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 2078 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1963 次"
       ],
-      "views": 2078
+      "views": 1963
     },
     "https://www.gooood.cn/gumie-museum.htm": {
-      "heat": 27.74,
+      "heat": 37.34,
       "labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1921 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1926 次"
       ],
-      "views": 1921
+      "views": 1926
     },
-    "https://www.gooood.cn/lego-bloom-exhibition-by-our-lego-agency.htm": {
-      "heat": 25.39,
+    "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm": {
+      "heat": 32.8,
       "labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1758 次"
+        "谷德 7 天最热 第 7 名 · 阅读 1692 次"
       ],
-      "views": 1758
+      "views": 1692
     },
-    "https://www.gooood.cn/zi-art-museum-cultural-complex-by-buzz-architects.htm": {
-      "heat": 25.32,
+    "https://www.gooood.cn/chunan-distillery-by-pra.htm": {
+      "heat": 31.45,
       "labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1753 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1622 次"
       ],
-      "views": 1753
+      "views": 1622
     },
-    "https://www.gooood.cn/lingang-industrial-park-office-building-renovation-by-modum-atelier.htm": {
-      "heat": 24.07,
+    "https://www.gooood.cn/wound-land-art-installation-corfu.htm": {
+      "heat": 29.95,
       "labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1667 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1545 次"
       ],
-      "views": 1667
+      "views": 1545
+    },
+    "https://www.gooood.cn/big-wins-competition-for-tirana-fountain-plaza.htm": {
+      "heat": 28.58,
+      "labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1474 次"
+      ],
+      "views": 1474
+    },
+    "https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm": {
+      "heat": 28.04,
+      "labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1446 次"
+      ],
+      "views": 1446
+    },
+    "https://www.gooood.cn/perma-serifos-by-mold-architects.htm": {
+      "heat": 27.07,
+      "labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1396 次"
+      ],
+      "views": 1396
     },
     "https://www.dezeen.com/2026/10/23/space-architecture-jonathan-morrison-opinion": {
       "heat": 36.33,
@@ -224,114 +224,6 @@
         "ArchDaily 首页第 22 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187291/creasvalley-cc-hui-suo-ljl-architects": {
-      "heat": 10.0,
-      "labels": [
-        "ArchDaily中国 首页第 1 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187178/montana-nong-chang-estudio-balzano": {
-      "heat": 9.58,
-      "labels": [
-        "ArchDaily中国 首页第 2 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1061299/shan-dian-zhu-zhai-h3o-architects": {
-      "heat": 9.17,
-      "labels": [
-        "ArchDaily中国 首页第 3 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187443/ombria-jiu-dian-ji-gong-yu-luo-lai-promontorio": {
-      "heat": 8.75,
-      "labels": [
-        "ArchDaily中国 首页第 4 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative": {
-      "heat": 8.33,
-      "labels": [
-        "ArchDaily中国 首页第 5 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza": {
-      "heat": 7.92,
-      "labels": [
-        "ArchDaily中国 首页第 6 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187309/xiang-zi-ben-zhu-yi-xue-xi-hou-xian-dai-jian-zhu-ru-he-cheng-wei-mei-guo-shang-ye-de-yu-yan": {
-      "heat": 7.5,
-      "labels": [
-        "ArchDaily中国 首页第 7 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners": {
-      "heat": 7.08,
-      "labels": [
-        "ArchDaily中国 首页第 8 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187355/chi-dai-sheng-huo-jia-ju-dian-che-zhan-yosuke-sagoshi-atelier": {
-      "heat": 6.67,
-      "labels": [
-        "ArchDaily中国 首页第 9 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187081/legombang-shu-wu-cave-urban": {
-      "heat": 6.25,
-      "labels": [
-        "ArchDaily中国 首页第 10 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187169/la-joya-veo-estudio": {
-      "heat": 5.83,
-      "labels": [
-        "ArchDaily中国 首页第 11 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187447/jcb-zhu-zhai-suite": {
-      "heat": 5.42,
-      "labels": [
-        "ArchDaily中国 首页第 12 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187441/herdade-da-matinha-country-house-sabrab": {
-      "heat": 5.0,
-      "labels": [
-        "ArchDaily中国 首页第 13 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete": {
-      "heat": 4.58,
-      "labels": [
-        "ArchDaily中国 首页第 14 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187262/nai-liang-tian-ye-bi-nan-suo": {
-      "heat": 4.17,
-      "labels": [
-        "ArchDaily中国 首页第 15 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187223/family-home-eemnes-kumiki": {
-      "heat": 3.75,
-      "labels": [
-        "ArchDaily中国 首页第 16 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1019977/ke-lin-zhi-jia-a-er-wa-luo-star-xi-zha": {
-      "heat": 3.33,
-      "labels": [
-        "ArchDaily中国 首页第 17 位"
-      ]
-    },
-    "https://www.archdaily.cn/zh/1187449/estudio-semibreve-estudio-clara-nahas": {
-      "heat": 2.92,
-      "labels": [
-        "ArchDaily中国 首页第 18 位"
-      ]
-    },
     "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel": {
       "heat": 16.0,
       "labels": [
@@ -468,6 +360,114 @@
       "heat": 0.67,
       "labels": [
         "Dezeen 首页第 24 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187291/creasvalley-cc-hui-suo-ljl-architects": {
+      "heat": 10.0,
+      "labels": [
+        "ArchDaily中国 首页第 1 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187178/montana-nong-chang-estudio-balzano": {
+      "heat": 9.58,
+      "labels": [
+        "ArchDaily中国 首页第 2 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1061299/shan-dian-zhu-zhai-h3o-architects": {
+      "heat": 9.17,
+      "labels": [
+        "ArchDaily中国 首页第 3 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187443/ombria-jiu-dian-ji-gong-yu-luo-lai-promontorio": {
+      "heat": 8.75,
+      "labels": [
+        "ArchDaily中国 首页第 4 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative": {
+      "heat": 8.33,
+      "labels": [
+        "ArchDaily中国 首页第 5 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza": {
+      "heat": 7.92,
+      "labels": [
+        "ArchDaily中国 首页第 6 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187309/xiang-zi-ben-zhu-yi-xue-xi-hou-xian-dai-jian-zhu-ru-he-cheng-wei-mei-guo-shang-ye-de-yu-yan": {
+      "heat": 7.5,
+      "labels": [
+        "ArchDaily中国 首页第 7 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners": {
+      "heat": 7.08,
+      "labels": [
+        "ArchDaily中国 首页第 8 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187355/chi-dai-sheng-huo-jia-ju-dian-che-zhan-yosuke-sagoshi-atelier": {
+      "heat": 6.67,
+      "labels": [
+        "ArchDaily中国 首页第 9 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187081/legombang-shu-wu-cave-urban": {
+      "heat": 6.25,
+      "labels": [
+        "ArchDaily中国 首页第 10 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187169/la-joya-veo-estudio": {
+      "heat": 5.83,
+      "labels": [
+        "ArchDaily中国 首页第 11 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187447/jcb-zhu-zhai-suite": {
+      "heat": 5.42,
+      "labels": [
+        "ArchDaily中国 首页第 12 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187441/herdade-da-matinha-country-house-sabrab": {
+      "heat": 5.0,
+      "labels": [
+        "ArchDaily中国 首页第 13 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete": {
+      "heat": 4.58,
+      "labels": [
+        "ArchDaily中国 首页第 14 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187262/nai-liang-tian-ye-bi-nan-suo": {
+      "heat": 4.17,
+      "labels": [
+        "ArchDaily中国 首页第 15 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187223/family-home-eemnes-kumiki": {
+      "heat": 3.75,
+      "labels": [
+        "ArchDaily中国 首页第 16 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1019977/ke-lin-zhi-jia-a-er-wa-luo-star-xi-zha": {
+      "heat": 3.33,
+      "labels": [
+        "ArchDaily中国 首页第 17 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187449/estudio-semibreve-estudio-clara-nahas": {
+      "heat": 2.92,
+      "labels": [
+        "ArchDaily中国 首页第 18 位"
       ]
     },
     "https://www.designboom.com/architecture/page": {

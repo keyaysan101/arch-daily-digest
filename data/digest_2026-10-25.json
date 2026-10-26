@@ -3,7 +3,7 @@
   "window_start": "2026-10-19",
   "window_end": "2026-10-25",
   "window_days": 7,
-  "generated_at": "2026-10-26T06:21:41+08:00",
+  "generated_at": "2026-10-26T08:15:01+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-16",
       "newest": "2026-10-25",
-      "hit": 52,
+      "hit": 50,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 336,
-  "new_stored": 24,
+  "candidate_count": 334,
+  "new_stored": 0,
   "store_total": 795,
-  "after_dedupe": 219,
+  "after_dedupe": 217,
   "noise_count": 4,
   "heat_signal_count": 124,
   "heat_hit_count": 70,
-  "out_of_window_count": 3,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -112,114 +112,13 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "上海大歌剧院正式揭开帷幕 / Snøhetta",
-      "url": "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-shanghai-opera-072-N758-472x303.jpg",
-      "summary": "建筑  连接城市公共生活、表演艺术与建筑空间的文化新地标 2026.10.18 收藏 分享",
-      "published_at": "2026-10-18T09:00:00+08:00",
-      "first_seen": "2026-10-19T06:22:11+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
-      "meta": {
-        "area": "146,786 m²",
-        "year": "2026"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3116 次"
-      ],
-      "views": 3116,
-      "heat_rank": 1,
-      "is_project": true,
-      "btype": "住宅",
-      "region": "上海",
-      "city": "",
-      "architect": "Snøhetta",
-      "heat_score": 45.0,
-      "quality_score": 39.4,
-      "score": 84.4,
-      "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3116 次→45.0",
-        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
-      ],
-      "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "深圳太子湾花园城 VILLA 街区提升设计 / 里外工作室",
-      "url": "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/0-taizi-villa-01-472x303.jpg",
-      "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
-      "published_at": "2026-10-19T10:49:13+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 3066 次"
-      ],
-      "views": 3066,
-      "heat_rank": 2,
-      "is_project": true,
-      "btype": "住宅",
-      "region": "深圳",
-      "city": "",
-      "architect": "里外工作室",
-      "heat_score": 44.3,
-      "quality_score": 33.4,
-      "score": 77.7,
-      "reasons": [
-        "热度 44.3：谷德 7 天最热 第 2 名 · 阅读 3066 次→44.3",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
-      ],
-      "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "淳岸威士忌酒厂，杭州 / PRA前研建筑设计事务所",
-      "url": "https://www.gooood.cn/chunan-distillery-by-pra.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/Chunan-Distillery-by-Project-for-Research-Architecture-472x303.jpg",
-      "summary": "建筑  容纳沉默与专注，呈现可触摸的建筑工艺 2026.10.19 收藏 分享",
-      "published_at": "2026-10-19T09:44:51+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
-      "meta": {
-        "year": "2024"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2857 次"
-      ],
-      "views": 2857,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": null,
-      "region": "杭州",
-      "city": "",
-      "architect": "",
-      "heat_score": 41.3,
-      "quality_score": 30.4,
-      "score": 71.7,
-      "reasons": [
-        "热度 41.3：谷德 7 天最热 第 3 名 · 阅读 2857 次→41.3",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
       "title": "大山·博物志民宿，苏州 / Wutopia Lab",
       "url": "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm",
       "cover": "https://oss.gooood.cn/uploads/2026/10/00-Mountain-Muse-LodgingNature-by-Wutopia-Lab1-472x303.jpg",
       "summary": "建筑  江南水乡的超现实主义 2026.10.21 收藏 分享",
       "published_at": "2026-10-21T09:09:33+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "meta": {
         "city": "博物志民宿",
         "country": "苏州",
@@ -228,23 +127,23 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2320 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2321 次"
       ],
-      "views": 2320,
-      "heat_rank": 4,
+      "views": 2321,
+      "heat_rank": 1,
       "is_project": true,
       "btype": "酒店",
       "region": "苏州",
       "city": "博物志民宿",
       "architect": "Wutopia Lab",
-      "heat_score": 33.5,
+      "heat_score": 45.0,
       "quality_score": 33.4,
-      "score": 66.9,
+      "score": 78.4,
       "reasons": [
-        "热度 33.5：谷德 7 天最热 第 4 名 · 阅读 2320 次→33.5",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2321 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「苏州」+3；封面图+2"
       ],
-      "rank": 4
+      "rank": 1
     },
     {
       "source": "谷德设计网",
@@ -256,28 +155,126 @@
       "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T09:51:55+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "meta": {
         "area": "7000 m²",
         "photographer": "朱雨蒙"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2286 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2292 次"
       ],
-      "views": 2286,
-      "heat_rank": 5,
+      "views": 2292,
+      "heat_rank": 2,
       "is_project": true,
       "btype": "教育",
       "region": "北京",
       "city": "",
       "architect": "拾集建筑",
-      "heat_score": 33.0,
+      "heat_score": 44.4,
       "quality_score": 33.4,
-      "score": 66.4,
+      "score": 77.8,
       "reasons": [
-        "热度 33.0：谷德 7 天最热 第 5 名 · 阅读 2286 次→33.0",
+        "热度 44.4：谷德 7 天最热 第 2 名 · 阅读 2292 次→44.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Begl餐厅，阿那亚 / 几里建筑",
+      "url": "https://www.gooood.cn/begl-restaurant-by-vari-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/begl-cover-472x303.jpg",
+      "summary": "建筑  以轻盈的檐下空间重塑街区边界 2026.10.22 收藏 分享",
+      "published_at": "2026-10-22T08:59:05+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 3 名 · 阅读 2205 次"
+      ],
+      "views": 2205,
+      "heat_rank": 3,
+      "is_project": true,
+      "btype": null,
+      "region": "阿那亚",
+      "city": "",
+      "architect": "几里建筑",
+      "heat_score": 42.8,
+      "quality_score": 30.4,
+      "score": 73.2,
+      "reasons": [
+        "热度 42.8：谷德 7 天最热 第 3 名 · 阅读 2205 次→42.8",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「阿那亚」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "深圳湾万象城二期 / IFG伊波莱茨建筑设计",
+      "url": "https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/Shenzhen-Bay-MixC-Phase-II-by-Ippolito-Fleitz-Group-472x303.jpg",
+      "summary": "建筑  当购物中心成为城市基础设施 2026.10.22 收藏 分享",
+      "published_at": "2026-10-22T10:30:40+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
+      "meta": {
+        "area": "151,264 m²"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2187 次"
+      ],
+      "views": 2187,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": null,
+      "region": "深圳",
+      "city": "",
+      "architect": "",
+      "heat_score": 42.4,
+      "quality_score": 30.4,
+      "score": 72.8,
+      "reasons": [
+        "热度 42.4：谷德 7 天最热 第 4 名 · 阅读 2187 次→42.4",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "深圳太子湾花园城 VILLA 街区提升设计 / 里外工作室",
+      "url": "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/0-taizi-villa-01-472x303.jpg",
+      "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
+      "published_at": "2026-10-19T10:49:13+08:00",
+      "first_seen": "2026-10-20T06:27:23+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 1963 次"
+      ],
+      "views": 1963,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "深圳",
+      "city": "",
+      "architect": "里外工作室",
+      "heat_score": 38.1,
+      "quality_score": 33.4,
+      "score": 71.5,
+      "reasons": [
+        "热度 38.1：谷德 7 天最热 第 5 名 · 阅读 1963 次→38.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -291,7 +288,7 @@
       "summary": "十月 25 © Omni Multimedia LTD. + 22 • Zhongzheng Village, 台湾 建筑师: Oyler Wu Collaborative 面积 该建筑项目的领域 面积: 99700 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative Susanna Moreira 阅读更多 »",
       "published_at": "2026-10-25T23:00:00+08:00",
       "first_seen": "2026-10-26T06:21:32+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "alt_url": "https://www.archdaily.com/1187401/dunhua-tower-oyler-wu-collaborative",
       "bilingual": true,
       "meta": {
@@ -330,7 +327,7 @@
       "summary": "十月 25 © Montse Zamorano + 10 • Zaragoza, 西班牙 建筑师: Hector Fernández Elorza 面积 该建筑项目的领域 面积: 11000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza Valentina Díaz 阅读更多 »",
       "published_at": "2026-10-25T22:00:00+08:00",
       "first_seen": "2026-10-26T06:21:32+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "alt_url": "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza",
       "bilingual": true,
       "meta": {
@@ -412,7 +409,7 @@
       "summary": "十月 25 © Lukas Mykolaitis + 27 • Vilnius, 立陶宛 建筑师: Architectural Bureau G.Natkevicius & Partners 面积 该建筑项目的领域 面积: 166 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners Nina Vuga 阅读更多 »",
       "published_at": "2026-10-25T18:00:00+08:00",
       "first_seen": "2026-10-26T06:21:32+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "alt_url": "https://www.archdaily.com/1186113/residential-house-in-vilnius-architectural-bureau-gnatkevicius-and-partners",
       "bilingual": true,
       "meta": {
@@ -452,7 +449,7 @@
       "summary": "With spooky season in full swing and Halloween rapidly approaching, this lookbook rounds up five venues featuring unusual decor, including faux body parts, dead insects and slaughterhouse machinery. A London pub , a brewery in Copenhagen and a bar in Shanghai are among the selected projects. This is the latest in our lookbooks series, which provides visual inspiration from Dezeen's archive. For mo",
       "published_at": "2026-10-25T18:00:00+08:00",
       "first_seen": "2026-10-26T06:21:32+08:00",
-      "last_seen": "2026-10-26T06:21:32+08:00",
+      "last_seen": "2026-10-26T08:14:53+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
