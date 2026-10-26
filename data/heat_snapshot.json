@@ -1,470 +1,469 @@
 {
-  "captured_at": "2026-10-26T00:14:58",
+  "captured_at": "2026-10-26T22:31:36",
   "signals": {
-    "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm": {
+    "https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm": {
       "heat": 45.0,
       "labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2321 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2828 次"
       ],
-      "views": 2321
-    },
-    "https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm": {
-      "heat": 44.44,
-      "labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2292 次"
-      ],
-      "views": 2292
-    },
-    "https://www.gooood.cn/begl-restaurant-by-vari-architects.htm": {
-      "heat": 42.75,
-      "labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2205 次"
-      ],
-      "views": 2205
+      "views": 2828
     },
     "https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm": {
-      "heat": 42.4,
+      "heat": 42.41,
       "labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2187 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2665 次"
       ],
-      "views": 2187
+      "views": 2665
+    },
+    "https://www.gooood.cn/begl-restaurant-by-vari-architects.htm": {
+      "heat": 41.93,
+      "labels": [
+        "谷德 7 天最热 第 3 名 · 阅读 2635 次"
+      ],
+      "views": 2635
+    },
+    "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm": {
+      "heat": 41.17,
+      "labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2587 次"
+      ],
+      "views": 2587
     },
     "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm": {
-      "heat": 38.06,
+      "heat": 34.75,
       "labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1963 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2184 次"
       ],
-      "views": 1963
+      "views": 2184
     },
     "https://www.gooood.cn/gumie-museum.htm": {
-      "heat": 37.34,
+      "heat": 34.0,
       "labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 1926 次"
+        "谷德 7 天最热 第 6 名 · 阅读 2137 次"
       ],
-      "views": 1926
-    },
-    "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm": {
-      "heat": 32.8,
-      "labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 1692 次"
-      ],
-      "views": 1692
-    },
-    "https://www.gooood.cn/chunan-distillery-by-pra.htm": {
-      "heat": 31.45,
-      "labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1622 次"
-      ],
-      "views": 1622
-    },
-    "https://www.gooood.cn/wound-land-art-installation-corfu.htm": {
-      "heat": 29.95,
-      "labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1545 次"
-      ],
-      "views": 1545
-    },
-    "https://www.gooood.cn/big-wins-competition-for-tirana-fountain-plaza.htm": {
-      "heat": 28.58,
-      "labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1474 次"
-      ],
-      "views": 1474
+      "views": 2137
     },
     "https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm": {
-      "heat": 28.04,
+      "heat": 31.27,
       "labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1446 次"
+        "谷德 7 天最热 第 7 名 · 阅读 1965 次"
       ],
-      "views": 1446
+      "views": 1965
     },
-    "https://www.gooood.cn/perma-serifos-by-mold-architects.htm": {
-      "heat": 27.07,
+    "https://www.gooood.cn/the-shanghai-grand-opera-house-has-officially-opened-its-doors.htm": {
+      "heat": 29.6,
       "labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1396 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1860 次"
       ],
-      "views": 1396
+      "views": 1860
+    },
+    "https://www.gooood.cn/chunan-distillery-by-pra.htm": {
+      "heat": 28.47,
+      "labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1789 次"
+      ],
+      "views": 1789
+    },
+    "https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm": {
+      "heat": 28.13,
+      "labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1768 次"
+      ],
+      "views": 1768
+    },
+    "https://www.gooood.cn/longjing-tea-pavilion.htm": {
+      "heat": 27.34,
+      "labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1718 次"
+      ],
+      "views": 1718
+    },
+    "https://www.gooood.cn/wound-land-art-installation-corfu.htm": {
+      "heat": 26.7,
+      "labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1678 次"
+      ],
+      "views": 1678
     },
     "https://www.dezeen.com/2026/10/23/space-architecture-jonathan-morrison-opinion": {
-      "heat": 36.33,
+      "heat": 35.0,
       "labels": [
-        "Dezeen 热门榜 第 1 名",
-        "Dezeen 首页第 23 位"
+        "Dezeen 热门榜 第 1 名"
       ]
     },
-    "https://www.archdaily.com/1187088/creasvalley-cc-clubhouse-ljl-architects": {
-      "heat": 22.0,
-      "labels": [
-        "ArchDaily 首页第 1 位"
-      ]
-    },
-    "https://www.archdaily.com/1187040/montana-farm": {
-      "heat": 21.08,
-      "labels": [
-        "ArchDaily 首页第 2 位"
-      ]
-    },
-    "https://www.archdaily.com/1010715/relampago-house-h3o-architects": {
-      "heat": 20.17,
-      "labels": [
-        "ArchDaily 首页第 3 位"
-      ]
-    },
-    "https://www.archdaily.com/1187100/ombria-hotel-and-apartments-loule-promontorio": {
-      "heat": 19.25,
-      "labels": [
-        "ArchDaily 首页第 4 位"
-      ]
-    },
-    "https://www.archdaily.com/1187401/dunhua-tower-oyler-wu-collaborative": {
-      "heat": 18.33,
-      "labels": [
-        "ArchDaily 首页第 5 位"
-      ]
-    },
-    "https://www.archdaily.com/1187180/plaza-salamero-infrastructure-landscape-and-city-hector-fernandez-elorza": {
-      "heat": 17.42,
-      "labels": [
-        "ArchDaily 首页第 6 位"
-      ]
-    },
-    "https://www.archdaily.com/1187113/learning-from-capitalism-how-postmodern-architecture-became-the-language-of-american-business": {
-      "heat": 16.5,
-      "labels": [
-        "ArchDaily 首页第 7 位"
-      ]
-    },
-    "https://www.archdaily.com/964625/what-is-postmodernism": {
-      "heat": 15.58,
-      "labels": [
-        "ArchDaily 首页第 8 位"
-      ]
-    },
-    "https://www.archdaily.com/1038681/playful-and-ironic-the-legacy-of-postmodernist-architecture-in-the-united-states": {
-      "heat": 14.67,
-      "labels": [
-        "ArchDaily 首页第 9 位"
-      ]
-    },
-    "https://www.archdaily.com/1114349/for-robert-venturi-a-gentle-architecture-did-not-imply-a-lack-of-intellectual-depth": {
-      "heat": 13.75,
-      "labels": [
-        "ArchDaily 首页第 10 位"
-      ]
-    },
-    "https://www.archdaily.com/1186113/residential-house-in-vilnius-architectural-bureau-gnatkevicius-and-partners": {
-      "heat": 12.83,
-      "labels": [
-        "ArchDaily 首页第 11 位"
-      ]
-    },
-    "https://www.archdaily.com/1186237/ikebukuro-living-furniture-tram-stop-yosuke-sagoshi-atelier": {
-      "heat": 11.92,
-      "labels": [
-        "ArchDaily 首页第 12 位"
-      ]
-    },
-    "https://www.archdaily.com/1186813/legombang-treehouse-cave-urban": {
-      "heat": 11.0,
-      "labels": [
-        "ArchDaily 首页第 13 位"
-      ]
-    },
-    "https://www.archdaily.com/1187168/la-joya-veo-estudio": {
-      "heat": 10.08,
-      "labels": [
-        "ArchDaily 首页第 14 位"
-      ]
-    },
-    "https://www.archdaily.com/1187446/jcb-house-suite": {
-      "heat": 9.17,
-      "labels": [
-        "ArchDaily 首页第 15 位"
-      ]
-    },
-    "https://www.archdaily.com/1187439/herdade-da-matinha-country-house-sabrab": {
-      "heat": 8.25,
-      "labels": [
-        "ArchDaily 首页第 16 位"
-      ]
-    },
-    "https://www.archdaily.com/1187184/camposoto-health-center-estudio-suarez-corchete": {
-      "heat": 7.33,
-      "labels": [
-        "ArchDaily 首页第 17 位"
-      ]
-    },
-    "https://www.archdaily.com/1186828/field-shelter-in-nara": {
-      "heat": 6.42,
-      "labels": [
-        "ArchDaily 首页第 18 位"
-      ]
-    },
-    "https://www.archdaily.com/1014363/eyes-on-the-street-jane-jacobs-concept-and-contemporary-residential-architecture-in-brazil": {
-      "heat": 5.5,
-      "labels": [
-        "ArchDaily 首页第 19 位"
-      ]
-    },
-    "https://www.archdaily.com/878317/rereading-jane-jacobs-10-lessons-for-the-21st-century-from-the-death-and-life-of-great-american-cities": {
-      "heat": 4.58,
-      "labels": [
-        "ArchDaily 首页第 20 位"
-      ]
-    },
-    "https://www.archdaily.com/1186471/family-home-eemnes-kumiki": {
-      "heat": 3.67,
-      "labels": [
-        "ArchDaily 首页第 21 位"
-      ]
-    },
-    "https://www.archdaily.com/1019867/colien-house-alvaro-siza-vieira-plus-alvaro-fonseca": {
-      "heat": 2.75,
-      "labels": [
-        "ArchDaily 首页第 22 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel": {
+    "https://www.dezeen.com/2026/10/26/paralelo-transversal-casa-ensenada-chile": {
       "heat": 16.0,
       "labels": [
         "Dezeen 首页第 1 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/25/uncanny-venues-frightful-interiors-lookbooks": {
+    "https://www.dezeen.com/2026/10/26/gamaya-farms-biome-environmental-solutions": {
       "heat": 15.33,
       "labels": [
         "Dezeen 首页第 2 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/24/cloud-house-peter-morris": {
+    "https://www.dezeen.com/2026/10/26/apple-music-logo-physically-made-by-sound": {
       "heat": 14.67,
       "labels": [
         "Dezeen 首页第 3 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/24/nakshabid-architects-project-roundup": {
+    "https://www.dezeen.com/2026/10/26/think-architecture-hillside-house-lake-zurich": {
       "heat": 14.0,
       "labels": [
         "Dezeen 首页第 4 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/25/collectible-furniture-dutch-design-week-table-of-power": {
+    "https://www.dezeen.com/2026/10/26/dezeen-awards-public-vote-winner-architecture-2026": {
       "heat": 13.33,
       "labels": [
         "Dezeen 首页第 5 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/24/monos-headquarters-vancouver-ste-marie": {
+    "https://www.dezeen.com/2026/10/26/loco-park-masterplan-stefano-boeri": {
       "heat": 12.67,
       "labels": [
         "Dezeen 首页第 6 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/24/dezeen-website-launch-this-week": {
+    "https://www.dezeen.com/2026/10/26/roca-innovative-avant-toilet": {
       "heat": 12.0,
       "labels": [
         "Dezeen 首页第 7 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview": {
+    "https://www.dezeen.com/2026/10/25/arup-pilen-viewpoint-fehmarnbelt-tunnel": {
       "heat": 11.33,
       "labels": [
         "Dezeen 首页第 8 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/08/residential-architecture-playful-kevin-mccloud-interviews": {
+    "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview": {
       "heat": 10.67,
       "labels": [
         "Dezeen 首页第 9 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/06/omhu-teddy-sofa-interview": {
+    "https://www.dezeen.com/2026/10/08/residential-architecture-playful-kevin-mccloud-interviews": {
       "heat": 10.0,
       "labels": [
         "Dezeen 首页第 10 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/24/line-ramstad-oslo-architecture-triennale": {
+    "https://www.dezeen.com/2026/10/06/omhu-teddy-sofa-interview": {
       "heat": 9.33,
       "labels": [
         "Dezeen 首页第 11 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/15/shoreditch-design-week-ldf-duncan-riches-interview": {
+    "https://www.dezeen.com/2026/09/24/line-ramstad-oslo-architecture-triennale": {
       "heat": 8.67,
       "labels": [
         "Dezeen 首页第 12 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/14/london-design-festival-sadiq-khan": {
+    "https://www.dezeen.com/2026/09/15/shoreditch-design-week-ldf-duncan-riches-interview": {
       "heat": 8.0,
       "labels": [
         "Dezeen 首页第 13 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/11/london-designers-making-it-work": {
+    "https://www.dezeen.com/2026/09/14/london-design-festival-sadiq-khan": {
       "heat": 7.33,
       "labels": [
         "Dezeen 首页第 14 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/10/anab-jain-superflux-interview": {
+    "https://www.dezeen.com/2026/09/11/london-designers-making-it-work": {
       "heat": 6.67,
       "labels": [
         "Dezeen 首页第 15 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/29/data-centres-design-architecture-hyperscale-ai": {
+    "https://www.dezeen.com/2026/09/10/anab-jain-superflux-interview": {
       "heat": 6.0,
       "labels": [
         "Dezeen 首页第 16 位"
       ]
     },
-    "https://www.dezeen.com/2026/07/28/stadium-design-outlandish-heatherwick-foster-gmp-populous": {
+    "https://www.dezeen.com/2026/09/29/data-centres-design-architecture-hyperscale-ai": {
       "heat": 5.33,
       "labels": [
         "Dezeen 首页第 17 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/17/futuro-house-matti-suuronen-marimekko-helsinki-design-week": {
+    "https://www.dezeen.com/2026/07/28/stadium-design-outlandish-heatherwick-foster-gmp-populous": {
       "heat": 4.67,
       "labels": [
         "Dezeen 首页第 18 位"
       ]
     },
-    "https://www.dezeen.com/2026/09/16/how-craft-conquered-design": {
+    "https://www.dezeen.com/2026/09/17/futuro-house-matti-suuronen-marimekko-helsinki-design-week": {
       "heat": 4.0,
       "labels": [
         "Dezeen 首页第 19 位"
       ]
     },
-    "https://www.dezeen.com/2026/08/25/architecture-studios-encouraging-ai-feature": {
+    "https://www.dezeen.com/2026/09/16/how-craft-conquered-design": {
       "heat": 3.33,
       "labels": [
         "Dezeen 首页第 20 位"
       ]
     },
-    "https://www.dezeen.com/2026/07/21/future-stadium-sports-anchored-districts-development": {
+    "https://www.dezeen.com/2026/08/25/architecture-studios-encouraging-ai-feature": {
       "heat": 2.67,
       "labels": [
         "Dezeen 首页第 21 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/23/world-trade-center-yerevan-foster-partners-armenia": {
+    "https://www.dezeen.com/2026/07/21/future-stadium-sports-anchored-districts-development": {
       "heat": 2.0,
       "labels": [
         "Dezeen 首页第 22 位"
       ]
     },
-    "https://www.dezeen.com/2026/10/23/shanghai-tea-shop-basao-rockbund-historic-buildings": {
+    "https://www.dezeen.com/2026/10/24/monos-headquarters-vancouver-ste-marie": {
+      "heat": 1.33,
+      "labels": [
+        "Dezeen 首页第 23 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/10/24/cloud-house-peter-morris": {
       "heat": 0.67,
       "labels": [
         "Dezeen 首页第 24 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187291/creasvalley-cc-hui-suo-ljl-architects": {
+    "https://www.archdaily.com/1187456/project-mmr-david-ito-arquitetura": {
+      "heat": 22.0,
+      "labels": [
+        "ArchDaily 首页第 1 位"
+      ]
+    },
+    "https://www.archdaily.com/1187477/santa-rosa-social-housing-far-frohn-and-rojas": {
+      "heat": 21.08,
+      "labels": [
+        "ArchDaily 首页第 2 位"
+      ]
+    },
+    "https://www.archdaily.com/1187520/coqueira-house-tiago-sousa-arquitecto": {
+      "heat": 20.17,
+      "labels": [
+        "ArchDaily 首页第 3 位"
+      ]
+    },
+    "https://www.archdaily.com/1187398/ironwood-the-ranch-mine": {
+      "heat": 19.25,
+      "labels": [
+        "ArchDaily 首页第 4 位"
+      ]
+    },
+    "https://www.archdaily.com/1177056/dondoh-restaurant-costa-plus-herrera-arquitectos": {
+      "heat": 18.33,
+      "labels": [
+        "ArchDaily 首页第 5 位"
+      ]
+    },
+    "https://www.archdaily.com/1186694/mokuzai-its-studio": {
+      "heat": 17.42,
+      "labels": [
+        "ArchDaily 首页第 6 位"
+      ]
+    },
+    "https://www.archdaily.com/1186715/planned-overflow-how-singapore-balances-floods-canals-and-public-space": {
+      "heat": 16.5,
+      "labels": [
+        "ArchDaily 首页第 7 位"
+      ]
+    },
+    "https://www.archdaily.com/1187304/muammer-karaca-theatre-refurbishment-novos-studio": {
+      "heat": 15.58,
+      "labels": [
+        "ArchDaily 首页第 8 位"
+      ]
+    },
+    "https://www.archdaily.com/1187494/politecnica-park-associati-and-amdl-circle-win-competition-for-cultural-hub-in-italys-unesco-listed-valle-camonica": {
+      "heat": 14.67,
+      "labels": [
+        "ArchDaily 首页第 9 位"
+      ]
+    },
+    "https://www.archdaily.com/1186101/house-jcm-ralph-germann-architectes": {
+      "heat": 13.75,
+      "labels": [
+        "ArchDaily 首页第 10 位"
+      ]
+    },
+    "https://www.archdaily.com/1187468/stefano-boeri-architetti-selected-to-transform-former-locomotive-factory-into-green-neighbourhood-in-tbilisi": {
+      "heat": 12.83,
+      "labels": [
+        "ArchDaily 首页第 11 位"
+      ]
+    },
+    "https://www.archdaily.com/1186608/building-the-view-4-brazilian-houses-framing-the-sea": {
+      "heat": 11.92,
+      "labels": [
+        "ArchDaily 首页第 12 位"
+      ]
+    },
+    "https://www.archdaily.com/979358/how-the-renaissance-influenced-architecture": {
+      "heat": 11.0,
+      "labels": [
+        "ArchDaily 首页第 13 位"
+      ]
+    },
+    "https://www.archdaily.com/1024391/how-to-frame-a-view-worth-framing-vitruvian-principles-and-the-ideal-window": {
+      "heat": 10.08,
+      "labels": [
+        "ArchDaily 首页第 14 位"
+      ]
+    },
+    "https://www.archdaily.com/1187389/mornington-house-foomann-architects": {
+      "heat": 9.17,
+      "labels": [
+        "ArchDaily 首页第 15 位"
+      ]
+    },
+    "https://www.archdaily.com/1186430/house-in-mibu-tato-architects": {
+      "heat": 8.25,
+      "labels": [
+        "ArchDaily 首页第 16 位"
+      ]
+    },
+    "https://www.archdaily.com/1187153/how-material-choices-shape-contemporary-additions-to-historic-buildings": {
+      "heat": 7.33,
+      "labels": [
+        "ArchDaily 首页第 17 位"
+      ]
+    },
+    "https://www.archdaily.com/1017770/lh-residence-starh": {
+      "heat": 6.42,
+      "labels": [
+        "ArchDaily 首页第 18 位"
+      ]
+    },
+    "https://www.archdaily.com/1187273/sip-coffee-and-bakery-movs-studio": {
+      "heat": 5.5,
+      "labels": [
+        "ArchDaily 首页第 19 位"
+      ]
+    },
+    "https://www.archdaily.com/1187088/creasvalley-cc-clubhouse-ljl-architects": {
+      "heat": 4.58,
+      "labels": [
+        "ArchDaily 首页第 20 位"
+      ]
+    },
+    "https://www.archdaily.com/1187040/montana-farm": {
+      "heat": 3.67,
+      "labels": [
+        "ArchDaily 首页第 21 位"
+      ]
+    },
+    "https://www.archdaily.cn/zh/1187457/mmr-xiang-mu-david-ito-arquitetura": {
       "heat": 10.0,
       "labels": [
         "ArchDaily中国 首页第 1 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187178/montana-nong-chang-estudio-balzano": {
+    "https://www.archdaily.cn/zh/1187500/sheng-luo-sha-bao-zhang-xing-zhu-fang-far-frohn-and-rojas": {
       "heat": 9.58,
       "labels": [
         "ArchDaily中国 首页第 2 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1061299/shan-dian-zhu-zhai-h3o-architects": {
+    "https://www.archdaily.cn/zh/1187521/casa-coqueira-tiago-sousa-arquitecto": {
       "heat": 9.17,
       "labels": [
         "ArchDaily中国 首页第 3 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187443/ombria-jiu-dian-ji-gong-yu-luo-lai-promontorio": {
+    "https://www.archdaily.cn/zh/1187458/mu-tie-lin-yin-ju-suo-the-ranch-mine": {
       "heat": 8.75,
       "labels": [
         "ArchDaily中国 首页第 4 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187454/dun-hua-da-lou-oyler-wu-collaborative": {
+    "https://www.archdaily.cn/zh/1178147/dondoh-can-ting-costa-plus-herrera-arquitectos": {
       "heat": 8.33,
       "labels": [
         "ArchDaily中国 首页第 5 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187181/sa-la-mei-luo-yan-chang-plaza-salamero-ji-chu-she-shi-jing-guan-yu-cheng-shi-hector-fernandez-elorza": {
+    "https://www.archdaily.cn/zh/1187471/mokuzai-its-studio": {
       "heat": 7.92,
       "labels": [
         "ArchDaily中国 首页第 6 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187309/xiang-zi-ben-zhu-yi-xue-xi-hou-xian-dai-jian-zhu-ru-he-cheng-wei-mei-guo-shang-ye-de-yu-yan": {
+    "https://www.archdaily.cn/zh/1187391/gui-hua-xing-yi-liu-xin-jia-po-ru-he-ping-heng-hong-lao-yun-he-yu-gong-gong-kong-jian": {
       "heat": 7.5,
       "labels": [
         "ArchDaily中国 首页第 7 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187366/wei-er-niu-si-zhu-zhai-architectural-bureau-gnatkevicius-and-partners": {
+    "https://www.archdaily.cn/zh/1187418/muammer-karaca-ju-yuan-xiu-shan-xiang-mu-novos-studio": {
       "heat": 7.08,
       "labels": [
         "ArchDaily中国 首页第 8 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187355/chi-dai-sheng-huo-jia-ju-dian-che-zhan-yosuke-sagoshi-atelier": {
+    "https://www.archdaily.cn/zh/1187496/politecnica-park-associati-yu-amdl-circle-ying-de-yi-da-li-lian-he-guo-jiao-ke-wen-zu-zhi-shi-jie-yi-chan-qia-mo-ni-qia-gu-wen-hua-zhong-xin-she-ji-jing-sai": {
       "heat": 6.67,
       "labels": [
         "ArchDaily中国 首页第 9 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187081/legombang-shu-wu-cave-urban": {
+    "https://www.archdaily.cn/zh/1187378/jcm-zhu-zhai-ralph-germann-architectes": {
       "heat": 6.25,
       "labels": [
         "ArchDaily中国 首页第 10 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187169/la-joya-veo-estudio": {
+    "https://www.archdaily.cn/zh/1187474/si-te-fa-nuo-star-bo-ai-li-jian-zhu-shi-wu-suo-huo-xuan-jiang-di-bi-li-si-jiu-ji-che-han-gai-zao-wei-lu-se-she-qu": {
       "heat": 5.83,
       "labels": [
         "ArchDaily中国 首页第 11 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187447/jcb-zhu-zhai-suite": {
+    "https://www.archdaily.cn/zh/1187385/gou-zhu-shi-ye-4dong-kuang-jing-hai-yang-de-ba-xi-zhu-zhai": {
       "heat": 5.42,
       "labels": [
         "ArchDaily中国 首页第 12 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187441/herdade-da-matinha-country-house-sabrab": {
+    "https://www.archdaily.cn/zh/1187427/mornington-house-foomann-architects": {
       "heat": 5.0,
       "labels": [
         "ArchDaily中国 首页第 13 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187185/camposoto-yi-liao-zhong-xin-estudio-suarez-corchete": {
+    "https://www.archdaily.cn/zh/1187353/ren-sheng-zhi-zhu-zhai-tato-architects": {
       "heat": 4.58,
       "labels": [
         "ArchDaily中国 首页第 14 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187262/nai-liang-tian-ye-bi-nan-suo": {
+    "https://www.archdaily.cn/zh/1187338/cai-liao-xuan-ze-ru-he-su-zao-li-shi-jian-zhu-de-dang-dai-jia-jian": {
       "heat": 4.17,
       "labels": [
         "ArchDaily中国 首页第 15 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187223/family-home-eemnes-kumiki": {
+    "https://www.archdaily.cn/zh/1187374/sip-ka-pei-mian-bao-dian-movs-studio": {
       "heat": 3.75,
       "labels": [
         "ArchDaily中国 首页第 16 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1019977/ke-lin-zhi-jia-a-er-wa-luo-star-xi-zha": {
+    "https://www.archdaily.cn/zh/1187291/creasvalley-cc-hui-suo-ljl-architects": {
       "heat": 3.33,
       "labels": [
         "ArchDaily中国 首页第 17 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1187449/estudio-semibreve-estudio-clara-nahas": {
+    "https://www.archdaily.cn/zh/1187178/montana-nong-chang-estudio-balzano": {
       "heat": 2.92,
       "labels": [
         "ArchDaily中国 首页第 18 位"
@@ -482,133 +481,133 @@
         "Designboom 首页第 2 位"
       ]
     },
-    "https://www.designboom.com/architecture/stepped-timber-platforms-operable-textiles-circular-dusseldorf-home-urselmann-interior": {
+    "https://www.designboom.com/architecture/ariel-andre-golem-guest-essay-architecture-beyond-human": {
       "heat": 11.0,
       "labels": [
         "Designboom 首页第 3 位"
       ]
     },
-    "https://www.designboom.com/architecture/thinking-with-animals-in-the-sicilian-village-of-santo-pietro-explores-the-human-animal-divide": {
+    "https://www.designboom.com/architecture/ryue-nishizawa-vivid-orange-peak-turquoise-landfill-japan-setouchi-art-industry-2026-sanaa-kazuyo-sejima": {
       "heat": 10.5,
       "labels": [
         "Designboom 首页第 4 位"
       ]
     },
-    "https://www.designboom.com/architecture/modular-timber-framing-textile-canopies-open-air-civic-pavilion-turkey-datca-summer-workshop-erazo-pugliese": {
+    "https://www.designboom.com/architecture/stefano-boeri-architetti-loco-park-green-neighborhood-tbilisi": {
       "heat": 10.0,
       "labels": [
         "Designboom 首页第 5 位"
       ]
     },
-    "https://www.designboom.com/architecture/granite-plaster-steel-oroco-studio-40-sqm-apartment-renovation-madrid-rs19": {
+    "https://www.designboom.com/architecture/stepped-timber-platforms-operable-textiles-circular-dusseldorf-home-urselmann-interior": {
       "heat": 9.5,
       "labels": [
         "Designboom 首页第 6 位"
       ]
     },
-    "https://www.designboom.com/architecture/frank-lloyd-wright-miller-planetarium-florida-southern-college-restoration": {
+    "https://www.designboom.com/architecture/thinking-with-animals-in-the-sicilian-village-of-santo-pietro-explores-the-human-animal-divide": {
       "heat": 9.0,
       "labels": [
         "Designboom 首页第 7 位"
       ]
     },
-    "https://www.designboom.com/architecture/bacchus-floor-mosaic-yellow-terrazzo-marble-apartment-renovation-athens-space-is-around-us": {
+    "https://www.designboom.com/architecture/modular-timber-framing-textile-canopies-open-air-civic-pavilion-turkey-datca-summer-workshop-erazo-pugliese": {
       "heat": 8.5,
       "labels": [
         "Designboom 首页第 8 位"
       ]
     },
-    "https://www.designboom.com/architecture/jean-prouve-1944-demountable-house-japanese-tea-pavilion-design-miami-paris-2026-galerie-patrick-seguin": {
+    "https://www.designboom.com/architecture/granite-plaster-steel-oroco-studio-40-sqm-apartment-renovation-madrid-rs19": {
       "heat": 8.0,
       "labels": [
         "Designboom 首页第 9 位"
       ]
     },
-    "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia": {
+    "https://www.designboom.com/architecture/frank-lloyd-wright-miller-planetarium-florida-southern-college-restoration": {
       "heat": 7.5,
       "labels": [
         "Designboom 首页第 10 位"
       ]
     },
-    "https://www.designboom.com/architecture/snohetta-barth-spaces-le-rosey-boarding-school": {
+    "https://www.designboom.com/architecture/bacchus-floor-mosaic-yellow-terrazzo-marble-apartment-renovation-athens-space-is-around-us": {
       "heat": 7.0,
       "labels": [
         "Designboom 首页第 11 位"
       ]
     },
-    "https://www.designboom.com/architecture/repurposed-shipping-container-24-sqm-birch-plywood-micro-cabin-evgeny-makarenko-andris-shneps-shneppe": {
+    "https://www.designboom.com/architecture/jean-prouve-1944-demountable-house-japanese-tea-pavilion-design-miami-paris-2026-galerie-patrick-seguin": {
       "heat": 6.5,
       "labels": [
         "Designboom 首页第 12 位"
       ]
     },
-    "https://www.designboom.com/architecture/le-poisson-volant-red-restaurant-paris-nightclub-claves-france": {
+    "https://www.designboom.com/architecture/oma-potato-head-good-times-general-store-bali-indonesia": {
       "heat": 6.0,
       "labels": [
         "Designboom 首页第 13 位"
       ]
     },
-    "https://www.designboom.com/architecture/architecture-extinction-where-nature-habitat-disappears": {
+    "https://www.designboom.com/architecture/snohetta-barth-spaces-le-rosey-boarding-school": {
       "heat": 5.5,
       "labels": [
         "Designboom 首页第 14 位"
       ]
     },
-    "https://www.designboom.com/architecture/corten-steel-tubes-spruce-plywood-ribs-alpine-learning-burrow-officina-82-tana-delle-marmotte": {
+    "https://www.designboom.com/architecture/repurposed-shipping-container-24-sqm-birch-plywood-micro-cabin-evgeny-makarenko-andris-shneps-shneppe": {
       "heat": 5.0,
       "labels": [
         "Designboom 首页第 15 位"
       ]
     },
-    "https://www.designboom.com/architecture/garnet-red-accents-high-clerestories-aa-apartments-malaga-crearctive": {
+    "https://www.designboom.com/architecture/le-poisson-volant-red-restaurant-paris-nightclub-claves-france": {
       "heat": 4.5,
       "labels": [
         "Designboom 首页第 16 位"
       ]
     },
-    "https://www.designboom.com/architecture/rammed-concrete-cube-terraced-gardens-sunken-art-center-proposal-bulgaria-unformed-design-ground-of-descent": {
+    "https://www.designboom.com/architecture/architecture-extinction-where-nature-habitat-disappears": {
       "heat": 4.0,
       "labels": [
         "Designboom 首页第 17 位"
       ]
     },
-    "https://www.designboom.com/architecture/vincent-darre-le-magnifique-hotel-paris-theatrical-interiors": {
+    "https://www.designboom.com/architecture/corten-steel-tubes-spruce-plywood-ribs-alpine-learning-burrow-officina-82-tana-delle-marmotte": {
       "heat": 3.5,
       "labels": [
         "Designboom 首页第 18 位"
       ]
     },
-    "https://www.designboom.com/architecture/designboom-listens-kengo-kuma-interview": {
+    "https://www.designboom.com/architecture/garnet-red-accents-high-clerestories-aa-apartments-malaga-crearctive": {
       "heat": 3.0,
       "labels": [
         "Designboom 首页第 19 位"
       ]
     },
-    "https://www.designboom.com/architecture/continuous-vertical-gardens-layered-planters-111-house-sao-paulo-isay-weinfeld-rodrigo-oliveira": {
+    "https://www.designboom.com/architecture/rammed-concrete-cube-terraced-gardens-sunken-art-center-proposal-bulgaria-unformed-design-ground-of-descent": {
       "heat": 2.5,
       "labels": [
         "Designboom 首页第 20 位"
       ]
     },
-    "https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken": {
+    "https://www.designboom.com/architecture/vincent-darre-le-magnifique-hotel-paris-theatrical-interiors": {
       "heat": 2.0,
       "labels": [
         "Designboom 首页第 21 位"
       ]
     },
-    "https://www.designboom.com/architecture/boonserm-premthada-bangkok-project-studio-coastal-office-thailand-reclaimed-timber": {
+    "https://www.designboom.com/architecture/designboom-listens-kengo-kuma-interview": {
       "heat": 1.5,
       "labels": [
         "Designboom 首页第 22 位"
       ]
     },
-    "https://www.designboom.com/architecture/mirrored-acrylic-skin-cube-pavilion-surroundings-mexico-errre-taller": {
+    "https://www.designboom.com/architecture/continuous-vertical-gardens-layered-planters-111-house-sao-paulo-isay-weinfeld-rodrigo-oliveira": {
       "heat": 1.0,
       "labels": [
         "Designboom 首页第 23 位"
       ]
     },
-    "https://www.designboom.com/architecture/sardinian-school-perforated-aluminum-facade-flexible-agora-leicho-architettura": {
+    "https://www.designboom.com/architecture/anselm-kiefer-monumental-painting-pavilion-david-chipperfield-schwarze-flocken": {
       "heat": 0.5,
       "labels": [
         "Designboom 首页第 24 位"
