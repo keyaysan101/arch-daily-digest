@@ -3,7 +3,7 @@
   "window_start": "2026-10-20",
   "window_end": "2026-10-26",
   "window_days": 7,
-  "generated_at": "2026-10-27T06:31:38+08:00",
+  "generated_at": "2026-10-27T08:17:16+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-19",
       "newest": "2026-10-26",
-      "hit": 52,
+      "hit": 50,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 338,
-  "new_stored": 57,
-  "store_total": 852,
-  "after_dedupe": 220,
+  "candidate_count": 336,
+  "new_stored": 2,
+  "store_total": 854,
+  "after_dedupe": 218,
   "noise_count": 5,
   "heat_signal_count": 124,
-  "heat_hit_count": 72,
-  "out_of_window_count": 3,
+  "heat_hit_count": 70,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -123,16 +123,16 @@
       "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T09:51:55+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "meta": {
         "area": "7000 m²",
         "photographer": "朱雨蒙"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2828 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2831 次"
       ],
-      "views": 2828,
+      "views": 2831,
       "heat_rank": 1,
       "is_project": true,
       "btype": "教育",
@@ -143,7 +143,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2828 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2831 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 1
@@ -158,15 +158,15 @@
       "summary": "建筑  当购物中心成为城市基础设施 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T10:30:40+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "meta": {
         "area": "151,264 m²"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2665 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2668 次"
       ],
-      "views": 2665,
+      "views": 2668,
       "heat_rank": 2,
       "is_project": true,
       "btype": null,
@@ -177,7 +177,7 @@
       "quality_score": 30.4,
       "score": 72.8,
       "reasons": [
-        "热度 42.4：谷德 7 天最热 第 2 名 · 阅读 2665 次→42.4",
+        "热度 42.4：谷德 7 天最热 第 2 名 · 阅读 2668 次→42.4",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
       ],
       "rank": 2
@@ -192,13 +192,13 @@
       "summary": "建筑  以轻盈的檐下空间重塑街区边界 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T08:59:05+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2635 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2637 次"
       ],
-      "views": 2635,
+      "views": 2637,
       "heat_rank": 3,
       "is_project": true,
       "btype": null,
@@ -209,7 +209,7 @@
       "quality_score": 30.4,
       "score": 72.3,
       "reasons": [
-        "热度 41.9：谷德 7 天最热 第 3 名 · 阅读 2635 次→41.9",
+        "热度 41.9：谷德 7 天最热 第 3 名 · 阅读 2637 次→41.9",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「阿那亚」+3；封面图+2"
       ],
       "rank": 3
@@ -224,7 +224,7 @@
       "summary": "建筑  江南水乡的超现实主义 2026.10.21 收藏 分享",
       "published_at": "2026-10-21T09:09:33+08:00",
       "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "meta": {
         "city": "博物志民宿",
         "country": "苏州",
@@ -233,20 +233,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2587 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2589 次"
       ],
-      "views": 2587,
+      "views": 2589,
       "heat_rank": 4,
       "is_project": true,
       "btype": "酒店",
       "region": "苏州",
       "city": "博物志民宿",
       "architect": "Wutopia Lab",
-      "heat_score": 41.2,
+      "heat_score": 41.1,
       "quality_score": 33.4,
-      "score": 74.6,
+      "score": 74.5,
       "reasons": [
-        "热度 41.2：谷德 7 天最热 第 4 名 · 阅读 2587 次→41.2",
+        "热度 41.1：谷德 7 天最热 第 4 名 · 阅读 2589 次→41.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「苏州」+3；封面图+2"
       ],
       "rank": 4
@@ -255,31 +255,37 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "深圳太子湾花园城 VILLA 街区提升设计 / 里外工作室",
-      "url": "https://www.gooood.cn/sz-princes-bay-garden-city-villa-street-improvement-design-by-within-beyond-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/0-taizi-villa-01-472x303.jpg",
-      "summary": "建筑  盒而不同：一棵树与三个盒子的街区聚落 2026.10.19 收藏 分享",
-      "published_at": "2026-10-19T10:49:13+08:00",
-      "first_seen": "2026-10-20T06:27:23+08:00",
-      "last_seen": "2026-10-26T08:14:53+08:00",
-      "meta": {},
+      "title": "姑蔑博物馆，浙江衢州 / 筑境设计",
+      "url": "https://www.gooood.cn/gumie-museum.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/gumie-museum-cover-472x303.jpg",
+      "summary": "建筑  以“礼遇山水”为设计出发点，形如散落草坡之上玉玦的浙江西周姑蔑文明展示窗口 2026.10.21 收藏 分享",
+      "published_at": "2026-10-21T09:51:35+08:00",
+      "first_seen": "2026-10-22T06:28:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
+      "meta": {
+        "year": "2022",
+        "brands": [
+          "Hangzhou Zhu Bingren Copper Art Co.",
+          "Ltd."
+        ]
+      },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2184 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2140 次"
       ],
-      "views": 2184,
+      "views": 2140,
       "heat_rank": 5,
       "is_project": true,
-      "btype": "住宅",
-      "region": "深圳",
+      "btype": "文化",
+      "region": "浙江",
       "city": "",
-      "architect": "里外工作室",
-      "heat_score": 34.8,
+      "architect": "筑境设计",
+      "heat_score": 34.0,
       "quality_score": 33.4,
-      "score": 68.2,
+      "score": 67.4,
       "reasons": [
-        "热度 34.8：谷德 7 天最热 第 5 名 · 阅读 2184 次→34.8",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「深圳」+3；封面图+2"
+        "热度 34.0：谷德 7 天最热 第 5 名 · 阅读 2140 次→34.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -335,7 +341,7 @@
       "summary": "十月 26 © Egemen Karakaya + 30 • İstanbul, 土耳其 建筑师: Novos Studio 面积 该建筑项目的领域 面积: 3000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187418/muammer-karaca-ju-yuan-xiu-shan-xiang-mu-novos-studio Pratik Mour 阅读更多 »",
       "published_at": "2026-10-26T19:00:00+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "alt_url": "https://www.archdaily.com/1187304/muammer-karaca-theatre-refurbishment-novos-studio",
       "bilingual": true,
       "meta": {
@@ -347,18 +353,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 9 位"
       ],
       "is_project": true,
       "btype": "文化",
       "region": "土耳其",
       "city": "",
       "architect": "Novos Studio",
-      "heat_score": 11.1,
+      "heat_score": 10.7,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 50.7,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集30张+8；类型「文化」+3；地域「土耳其」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -373,7 +379,7 @@
       "summary": "十月 26 © Agnès Clotis + 13 • Bordeaux, 法国 建筑师: IT'S Studio 面积 该建筑项目的领域 面积: 7500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: CIR PREFA https://www.archdaily.cn/zh/1187471/mokuzai-its-studio Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-26T22:00:00+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "alt_url": "https://www.archdaily.com/1186694/mokuzai-its-studio",
       "bilingual": true,
       "meta": {
@@ -390,18 +396,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 7 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "法国",
       "city": "Bordeaux",
       "architect": "IT'S Studio",
-      "heat_score": 11.9,
+      "heat_score": 11.5,
       "quality_score": 39.0,
-      "score": 50.9,
+      "score": 50.5,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
         "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；地域「法国」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 8
@@ -416,7 +422,7 @@
       "summary": "十月 26 © Nicolas Sedlatchek + 20 • 瑞士 建筑师: Ralph Germann architectes 面积 该建筑项目的领域 面积: 96 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187378/jcm-zhu-zhai-ralph-germann-architectes Nina Vuga 阅读更多 »",
       "published_at": "2026-10-26T18:00:00+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-10-27T08:17:08+08:00",
       "alt_url": "https://www.archdaily.com/1186101/house-jcm-ralph-germann-architectes",
       "bilingual": true,
       "meta": {
@@ -428,18 +434,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "瑞士",
       "city": "",
       "architect": "Ralph Germann architectes",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；类型「住宅」+3；地域「瑞士」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
