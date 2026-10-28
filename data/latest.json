@@ -3,7 +3,7 @@
   "window_start": "2026-10-21",
   "window_end": "2026-10-27",
   "window_days": 7,
-  "generated_at": "2026-10-28T06:33:58+08:00",
+  "generated_at": "2026-10-28T08:23:15+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-20",
       "newest": "2026-10-27",
-      "hit": 51,
+      "hit": 50,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 334,
-  "new_stored": 56,
-  "store_total": 910,
-  "after_dedupe": 216,
+  "candidate_count": 333,
+  "new_stored": 2,
+  "store_total": 912,
+  "after_dedupe": 215,
   "noise_count": 6,
   "heat_signal_count": 127,
-  "heat_hit_count": 69,
-  "out_of_window_count": 1,
+  "heat_hit_count": 67,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
     {
@@ -128,16 +128,16 @@
       "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T09:51:55+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {
         "area": "7000 m²",
         "photographer": "朱雨蒙"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3177 次"
+        "谷德 7 天最热 第 1 名 · 阅读 3180 次"
       ],
-      "views": 3177,
+      "views": 3180,
       "heat_rank": 1,
       "is_project": true,
       "btype": "教育",
@@ -148,7 +148,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3177 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3180 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 1
@@ -163,13 +163,13 @@
       "summary": "建筑  以轻盈的檐下空间重塑街区边界 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T08:59:05+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2971 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2975 次"
       ],
-      "views": 2971,
+      "views": 2975,
       "heat_rank": 2,
       "is_project": true,
       "btype": null,
@@ -180,7 +180,7 @@
       "quality_score": 30.4,
       "score": 72.5,
       "reasons": [
-        "热度 42.1：谷德 7 天最热 第 2 名 · 阅读 2971 次→42.1",
+        "热度 42.1：谷德 7 天最热 第 2 名 · 阅读 2975 次→42.1",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「阿那亚」+3；封面图+2"
       ],
       "rank": 2
@@ -195,15 +195,15 @@
       "summary": "建筑  当购物中心成为城市基础设施 2026.10.22 收藏 分享",
       "published_at": "2026-10-22T10:30:40+08:00",
       "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {
         "area": "151,264 m²"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2954 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2956 次"
       ],
-      "views": 2954,
+      "views": 2956,
       "heat_rank": 3,
       "is_project": true,
       "btype": null,
@@ -214,7 +214,7 @@
       "quality_score": 30.4,
       "score": 72.2,
       "reasons": [
-        "热度 41.8：谷德 7 天最热 第 3 名 · 阅读 2954 次→41.8",
+        "热度 41.8：谷德 7 天最热 第 3 名 · 阅读 2956 次→41.8",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
       ],
       "rank": 3
@@ -223,36 +223,36 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "大山·博物志民宿，苏州 / Wutopia Lab",
-      "url": "https://www.gooood.cn/mountain-muse-lodging-nature-by-wutopia-lab.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-Mountain-Muse-LodgingNature-by-Wutopia-Lab1-472x303.jpg",
-      "summary": "建筑  江南水乡的超现实主义 2026.10.21 收藏 分享",
-      "published_at": "2026-10-21T09:09:33+08:00",
-      "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "title": "大乐之野·松阳·小后畬山居度假酒店，浙江 / 空崆建筑",
+      "url": "https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-dale-songyang-010-472x303.jpg",
+      "summary": "建筑  以旧补旧，亦以新补旧，延续山村聚落的宁静与温柔。 2026.10.23 收藏 分享",
+      "published_at": "2026-10-23T09:38:26+08:00",
+      "first_seen": "2026-10-24T06:27:11+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {
-        "city": "博物志民宿",
-        "country": "苏州",
-        "area": "1237 m²",
-        "photographer": "CreatAR Images"
+        "city": "小后畬山居度假酒店",
+        "country": "浙江",
+        "area": "1934 m²",
+        "photographer": "唐徐国、空崆建筑、大乐之野、李葉飞"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2761 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2232 次"
       ],
-      "views": 2761,
+      "views": 2232,
       "heat_rank": 4,
       "is_project": true,
-      "btype": "酒店",
-      "region": "苏州",
-      "city": "博物志民宿",
-      "architect": "Wutopia Lab",
+      "btype": "住宅",
+      "region": "浙江",
+      "city": "小后畬山居度假酒店",
+      "architect": "空崆建筑",
       "heat_score": 39.1,
       "quality_score": 33.4,
       "score": 72.5,
       "reasons": [
-        "热度 39.1：谷德 7 天最热 第 4 名 · 阅读 2761 次→39.1",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「苏州」+3；封面图+2"
+        "热度 39.1：谷德 7 天最热 第 4 名 · 阅读 2232 次→31.6；2 家媒体报道+7.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -260,37 +260,33 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "姑蔑博物馆，浙江衢州 / 筑境设计",
-      "url": "https://www.gooood.cn/gumie-museum.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/gumie-museum-cover-472x303.jpg",
-      "summary": "建筑  以“礼遇山水”为设计出发点，形如散落草坡之上玉玦的浙江西周姑蔑文明展示窗口 2026.10.21 收藏 分享",
-      "published_at": "2026-10-21T09:51:35+08:00",
-      "first_seen": "2026-10-22T06:28:30+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "title": "旧厂新序——时装工厂店立面改造，浙江桐乡 / 森上建筑",
+      "url": "https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/shenshang-facade-coverpsd-472x303.jpg",
+      "summary": "建筑  与行道树对话的沿街立面更新 2026.10.23 收藏 分享",
+      "published_at": "2026-10-23T14:35:39+08:00",
+      "first_seen": "2026-10-24T06:27:11+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {
-        "year": "2022",
-        "brands": [
-          "Hangzhou Zhu Bingren Copper Art Co.",
-          "Ltd."
-        ]
+        "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2302 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2103 次"
       ],
-      "views": 2302,
+      "views": 2103,
       "heat_rank": 5,
       "is_project": true,
-      "btype": "文化",
+      "btype": "商业",
       "region": "浙江",
       "city": "",
-      "architect": "筑境设计",
-      "heat_score": 32.6,
+      "architect": "森上建筑",
+      "heat_score": 29.8,
       "quality_score": 33.4,
-      "score": 66.0,
+      "score": 63.2,
       "reasons": [
-        "热度 32.6：谷德 7 天最热 第 5 名 · 阅读 2302 次→32.6",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「浙江」+3；封面图+2"
+        "热度 29.8：谷德 7 天最热 第 5 名 · 阅读 2103 次→29.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -304,7 +300,7 @@
       "summary": "十月 27 © Giacomo Albo + 34 • Morcote, 瑞士 建筑师: Wespi de Meuron Romeo architects 面积 该建筑项目的领域 面积: 115 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187533/we-zhu-zhai-wespi-de-meuron-romeo-architects Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-27T22:00:00+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "alt_url": "https://www.archdaily.com/1186943/house-we-wespi-de-meuron-romeo-architects",
       "bilingual": true,
       "meta": {
@@ -318,18 +314,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 7 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "瑞士",
       "city": "Morcote",
       "architect": "Wespi de Meuron Romeo architects",
-      "heat_score": 11.9,
+      "heat_score": 11.5,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 51.5,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集34张+8；类型「住宅」+3；地域「瑞士」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -344,7 +340,7 @@
       "summary": "十月 27 © Mohammad Ashkanani + 11 • Kuwait City, 科威特 建筑师: Studio Madouh 面积 该建筑项目的领域 面积: 4925 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187482/nasima-du-jia-cun-studio-madouh Pratik Mour 阅读更多 »",
       "published_at": "2026-10-27T19:00:00+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "alt_url": "https://www.archdaily.com/1187277/resort-nasima-studio-madouh",
       "bilingual": true,
       "meta": {
@@ -358,18 +354,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 9 位"
       ],
       "is_project": true,
       "btype": "酒店",
       "region": "科威特",
       "city": "Kuwait City",
       "architect": "Studio Madouh",
-      "heat_score": 11.1,
+      "heat_score": 10.7,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 50.7,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；知名事务所+6；类型「酒店」+3；地域「科威特」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -384,7 +380,7 @@
       "summary": "十月 27 视频 © Vaidotas Darulis + 25 • Kaunas, 立陶宛 建筑师: ARCHISPEKTRAS 面积 该建筑项目的领域 面积: 440 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187531/lin-zhong-zhu-zhai-archispektras Cristina Popescu 阅读更多 »",
       "published_at": "2026-10-27T18:00:00+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "alt_url": "https://www.archdaily.com/1186997/pamiskio-house-archispektras",
       "bilingual": true,
       "meta": {
@@ -398,18 +394,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 12 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "立陶宛",
       "city": "Kaunas",
       "architect": "ARCHISPEKTRAS",
-      "heat_score": 9.8,
+      "heat_score": 9.4,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 49.4,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；类型「住宅」+3；地域「立陶宛」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
@@ -424,7 +420,7 @@
       "summary": "十月 27 © Antoine Mercusot for Chatillon Architectes + 7 • 圣德尼岛, 法国 建筑师: Chatillon Architectes 面积 该建筑项目的领域 面积: 3000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 厂家 该项目中使用产品的品牌 厂家: Danpal https://www.archdaily.cn/zh/1020329/grande-nef-chang-guan-gai-zao-chatillon-architectes Hadir Al Koshta 阅读更多 »",
       "published_at": "2026-10-27T23:00:00+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "alt_url": "https://www.archdaily.com/1019486/grande-nef-de-lile-des-vannes-renovation-chatillon-architectes",
       "bilingual": true,
       "meta": {
@@ -440,18 +436,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": "改造",
       "region": "法国",
       "city": "圣德尼岛",
       "architect": "Chatillon Architectes",
-      "heat_score": 12.3,
+      "heat_score": 11.9,
       "quality_score": 37.0,
-      "score": 49.3,
+      "score": 48.9,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
         "质量 37.0：建成项目格式+18；站点权重1.00→8.0；类型「改造」+3；地域「法国」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 9
@@ -466,7 +462,7 @@
       "summary": "Abu Dhabi 's Department of Culture and Tourism has unveiled plans for a concert hall dedicated to young musicians, designed by Canadian-American architect Frank Gehry before his death. Expected to open in January 2027 in the Mina Zayed port district, the Youth Orchestra Abu Dhabi will contain a 600-seat concert hall and 18 rehearsal rooms. The orchestra building, designed by Gehry before he died i",
       "published_at": "2026-10-27T18:45:00+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-28T08:23:01+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
