@@ -629,5 +629,41 @@
  },
  "https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm": {
   "year": "2024"
+ },
+ "https://www.archdaily.cn/zh/1187629/mind-bo-wu-guan-cf-moller": {
+  "year": "2026",
+  "photographer": "Kirstine Mengel",
+  "image_count": 25
+ },
+ "https://www.archdaily.cn/zh/1187538/la-ji-fen-lei-hui-shou-gong-yuan-bovenbouw": {
+  "year": "2024",
+  "photographer": "© Filip Dujardin",
+  "image_count": 39
+ },
+ "https://www.archdaily.cn/zh/1187626/guest-house-bin-ke-zhi-jia-mints-design": {
+  "year": "2026",
+  "photographer": "Anastasiia Shynkarenko",
+  "brands": [
+   "&Tradition",
+   "Audo",
+   "Eichholtz",
+   "FREDERICIA",
+   "GUBI",
+   "Gervasoni 1882"
+  ],
+  "image_count": 39
+ },
+ "https://www.archdaily.cn/zh/1167620/coliseum-place-bao-zhang-xing-zhu-fang-david-baker-architects": {
+  "year": "2022",
+  "photographer": "Bruce Damonte",
+  "brands": [
+   "Daltile",
+   "Interface",
+   "Sherwin-Williams",
+   "Advanta",
+   "Armstrong",
+   "Mecho"
+  ],
+  "image_count": 23
  }
 }
