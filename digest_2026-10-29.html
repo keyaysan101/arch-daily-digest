@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-10-23 ~ 2026-10-29）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-10-23 ~ 2026-10-29）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-10-30 06:37:32 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 104 · ArchDaily中国 97 · 谷德设计网 58 · Dezeen 48 · Designboom 20 · 有方空间 18 · 建筑学院 0<br/>窗口内 345 条候选，其中 66 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>345</b>候选</div>
+      <div class="stat"><b>219</b>去重后</div>
+      <div class="stat"><b>11</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-dale-songyang-010-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm" target="_blank" rel="noopener">大乐之野·松阳·小后畬山居度假酒店，浙江 / 空崆建筑</a></div>
+        <div class="arch">设计：空崆建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 1 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,629 次</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 浙江</span><span class="chip" style="color:#7c3aed">面积 1934 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,629 次</span>
+          <button type="button" class="mini" data-more="me3c0b6d98b38">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm"
+            data-t="大乐之野·松阳·小后畬山居度假酒店，浙江 / 空崆建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-dale-songyang-010-472x303.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="me3c0b6d98b38"><div class="kv"><b>建筑面积</b><span>1934 m²</span></div><div class="kv"><b>摄影</b><span>唐徐国、空崆建筑、大乐之野、李葉飞</span></div><div class="kv"><b>所在地</b><span>小后畬山居度假酒店 / 浙江</span></div><div class="kv"><b>摘要</b><span>建筑 以旧补旧，亦以新补旧，延续山村聚落的宁静与温柔。 2026.10.23 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 86 分</b><div>· 热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2629 次→45.0；2 家媒体报道+7.5</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「浙江」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-beijing-1733-xu-studio-02-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm" target="_blank" rel="noopener">北京1733商业氛围提升 / 拾集建筑</a></div>
+        <div class="arch">设计：拾集建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 2 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,624 次</span><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 北京</span><span class="chip" style="color:#7c3aed">面积 7000 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,624 次</span>
+          <button type="button" class="mini" data-more="m4046d1743558">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm"
+            data-t="北京1733商业氛围提升 / 拾集建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-beijing-1733-xu-studio-02-472x303.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m4046d1743558"><div class="kv"><b>建筑面积</b><span>7000 m²</span></div><div class="kv"><b>摄影</b><span>朱雨蒙</span></div><div class="kv"><b>所在地</b><span>北京</span></div><div class="kv"><b>摘要</b><span>建筑 轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 78 分</b><div>· 热度 44.9：谷德 7 天最热 第 2 名 · 阅读 2624 次→44.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/shenshang-facade-coverpsd-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm" target="_blank" rel="noopener">旧厂新序——时装工厂店立面改造，浙江桐乡 / 森上建筑</a></div>
+        <div class="arch">设计：森上建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 3 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,529 次</span><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">地域 浙江</span><span class="chip" style="color:#b45309">建成 2024</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,529 次</span>
+          <button type="button" class="mini" data-more="maf1fb0084eb9">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm"
+            data-t="旧厂新序——时装工厂店立面改造，浙江桐乡 / 森上建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/shenshang-facade-coverpsd-472x303.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/fashion-factory-store-facade-renovation-by-sens-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="maf1fb0084eb9"><div class="kv"><b>建成年份</b><span>2024 年</span></div><div class="kv"><b>所在地</b><span>浙江</span></div><div class="kv"><b>摘要</b><span>建筑 与行道树对话的沿街立面更新 2026.10.23 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 77 分</b><div>· 热度 43.3：谷德 7 天最热 第 3 名 · 阅读 2529 次→43.3</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「浙江」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/longjing-tea-pavilion.htm">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/00-longjing-tea-pavilion-09-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/longjing-tea-pavilion.htm" target="_blank" rel="noopener">龙井茶亭，杭州 / 陆少波建筑工作室</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 4 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,288 次</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 杭州</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,288 次</span>
+          <button type="button" class="mini" data-more="m4e9a798994b8">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/longjing-tea-pavilion.htm"
+            data-t="龙井茶亭，杭州 / 陆少波建筑工作室" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/00-longjing-tea-pavilion-09-472x303.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/longjing-tea-pavilion.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m4e9a798994b8"><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>所在地</b><span>杭州</span></div><div class="kv"><b>摘要</b><span>景观 富春江畔茶田中的开放茶亭，两片轻盈屋顶漂浮于茶树间 2026.10.23 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 73 分</b><div>· 热度 39.2：谷德 7 天最热 第 4 名 · 阅读 2288 次→39.2</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/Shenzhen-Bay-MixC-Phase-II-by-Ippolito-Fleitz-Group-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm" target="_blank" rel="noopener">深圳湾万象城二期 / IFG伊波莱茨建筑设计</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 5 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,226 次</span><span class="chip" style="color:#0f766e">地域 深圳</span><span class="chip" style="color:#7c3aed">面积 151,264 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,226 次</span>
+          <button type="button" class="mini" data-more="m915240c5ce08">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm"
+            data-t="深圳湾万象城二期 / IFG伊波莱茨建筑设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/Shenzhen-Bay-MixC-Phase-II-by-Ippolito-Fleitz-Group-472x303.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m915240c5ce08"><div class="kv"><b>建筑面积</b><span>151,264 m²</span></div><div class="kv"><b>所在地</b><span>深圳</span></div><div class="kv"><b>摘要</b><span>建筑 当购物中心成为城市基础设施 2026.10.22 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 68 分</b><div>· 热度 38.1：谷德 7 天最热 第 5 名 · 阅读 2226 次→38.1</div><div>· 质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura" target="_blank" rel="noopener">Minimalist House in Japan by FORM/Kouichi Kimura is &quot;reduced to the Essentials&quot;</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Dezeen 首页第 3 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 日本</span></div>
+        <div class="foot">
+          <span class="src" style="background:#1d4ed8">Dezeen</span>
+          <span class="score">综合 54 分</span>
+          <button type="button" class="mini" data-more="mf795ee47e479">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura"
+            data-t="Minimalist House in Japan by FORM/Kouichi Kimura is &quot;reduced to the Essentials&quot;" data-s="Dezeen"
+            data-c="https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mf795ee47e479"><div class="kv"><b>所在地</b><span>日本</span></div><div class="kv"><b>摘要</b><span>A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the …</span></div><div class="why"><b>为什么推荐 · 合计 54 分</b><div>· 热度 14.7：Dezeen 首页第 3 位→14.7</div><div>· 质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6745/e509/61c7/c100/0136/9933/newsletter/AdamKaneArchitectsGreyHouse01.jpg?1732633884" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects" target="_blank" rel="noopener">灰色住宅 / Adam Kane Architects</a></div>
+        <div class="arch">设计：Adam Kane Architects</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 5 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 澳大利亚</span><span class="chip" style="color:#7c3aed">面积 250 m²</span><span class="chip" style="color:#b45309">建成 2023</span><span class="chip" style="color:#475569">图 11 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 52 分</span>
+          <button type="button" class="mini" data-more="meb023115cd87">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects"
+            data-t="灰色住宅 / Adam Kane Architects" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6745/e509/61c7/c100/0136/9933/newsletter/AdamKaneArchitectsGreyHouse01.jpg?1732633884" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="meb023115cd87"><div class="kv"><b>建筑面积</b><span>250 m²</span></div><div class="kv"><b>建成年份</b><span>2023 年</span></div><div class="kv"><b>图集</b><span>11 张</span></div><div class="kv"><b>摄影</b><span>Timothy Kaye</span></div><div class="kv"><b>所在地</b><span>Daylesford / 澳大利亚</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Focus&#x27;, &#x27;Swisspearl&#x27;]</span></div><div class="kv"><b>摘要</b><span>十月 29 © Timothy Kaye + 11 • Daylesford, 澳大利亚 建筑师: Adam Kane Architects 面积 该建筑项目的领域 面积: 250 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: Focus , Swisspearl https://www.archdaily.cn/zh/1063011/hui-s…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1024034/grey-house-adam-kane-architects" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 52 分</b><div>· 热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「澳大利亚」+3；封面图+2；含面积数据+2；含材料厂家+1</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6adb/31dd/3271/8400/01d0/e3fa/newsletter/Villalta-19.jpg?1792750352" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito" target="_blank" rel="noopener">VILLALTA 空间 / Artico Fracassi + Marco Zito</a></div>
+        <div class="arch">设计：Artico Fracassi + Marco Zito</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 6 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 意大利</span><span class="chip" style="color:#7c3aed">面积 8500 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 26 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 52 分</span>
+          <button type="button" class="mini" data-more="m88238426ee6d">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito"
+            data-t="VILLALTA 空间 / Artico Fracassi + Marco Zito" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6adb/31dd/3271/8400/01d0/e3fa/newsletter/Villalta-19.jpg?1792750352" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m88238426ee6d"><div class="kv"><b>建筑面积</b><span>8500 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>26 张</span></div><div class="kv"><b>摄影</b><span>Marco Cappelletti</span></div><div class="kv"><b>所在地</b><span>Udine / 意大利</span></div><div class="kv"><b>摘要</b><span>十月 29 © Marco Cappelletti + 26 • Udine, 意大利 建筑师: Artico Fracassi + Marco Zito 面积 该建筑项目的领域 面积: 8500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187413/spazio-villalta-artico-fracassi-plus-marco-zito" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 52 分</b><div>· 热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「意大利」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects" target="_blank" rel="noopener">巴斯克博物馆，毕尔巴鄂 / VAILLO + ARCHITECTS</a></div>
+        <div class="arch">设计：VAILLO + ARCHITECTS</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 西班牙</span><span class="chip" style="color:#7c3aed">面积 8 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 33 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 52 分</span>
+          <button type="button" class="mini" data-more="m687e34b1dec2">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects"
+            data-t="巴斯克博物馆，毕尔巴鄂 / VAILLO + ARCHITECTS" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m687e34b1dec2"><div class="kv"><b>建筑面积</b><span>8 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>33 张</span></div><div class="kv"><b>摄影</b><span>Iñaki Bergera</span></div><div class="kv"><b>所在地</b><span>Bilbao / 西班牙</span></div><div class="kv"><b>摘要</b><span>十月 23 © Iñaki Bergera + 33 • Bilbao, 西班牙 建筑师: VAILLO + ARCHITECTS 面积 该建筑项目的领域 面积: 8 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-archite…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 52 分</b><div>· 热度 11.5：2 家媒体报道+7.5；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「文化」+3；地域「西班牙」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ae0/b363/20d6/d82a/88e0/5b5e/newsletter/umodzi-epicentre-community-center-kamuna-design-studio_7.jpg?1793110913" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio" target="_blank" rel="noopener">Umodzi Epicentre 社区中心 / Kamuna Design Studio</a></div>
+        <div class="arch">设计：Kamuna Design Studio</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 8 位</span><span class="chip" style="color:#334155">类型 公共</span><span class="chip" style="color:#0f766e">地域 赞比亚</span><span class="chip" style="color:#7c3aed">面积 4500 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 11 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 51 分</span>
+          <button type="button" class="mini" data-more="m74ac93fa02b3">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio"
+            data-t="Umodzi Epicentre 社区中心 / Kamuna Design Studio" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ae0/b363/20d6/d82a/88e0/5b5e/newsletter/umodzi-epicentre-community-center-kamuna-design-studio_7.jpg?1793110913" data-d="2026-10-29">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m74ac93fa02b3"><div class="kv"><b>建筑面积</b><span>4500 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>11 张</span></div><div class="kv"><b>摄影</b><span>Gareth Bentley</span></div><div class="kv"><b>所在地</b><span>Vubwi / 赞比亚</span></div><div class="kv"><b>摘要</b><span>十月 29 © Gareth Bentley + 11 • Vubwi, 赞比亚 建筑师: Kamuna Design Studio 面积 该建筑项目的领域 面积: 4500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-desig…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187600/umodzi-epicentre-community-center-kamuna-design-studio" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 51 分</b><div>· 热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「公共」+3；地域「赞比亚」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-10-23 ~ 2026-10-29）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 3 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>

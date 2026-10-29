@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-28",
-  "window_start": "2026-10-22",
-  "window_end": "2026-10-28",
+  "date": "2026-10-29",
+  "window_start": "2026-10-23",
+  "window_end": "2026-10-29",
   "window_days": 7,
-  "generated_at": "2026-10-29T08:24:39+08:00",
+  "generated_at": "2026-10-30T06:37:32+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
-      "oldest": "2026-09-24",
-      "newest": "2026-10-29",
-      "hit": 103,
+      "oldest": "2026-09-25",
+      "newest": "2026-10-30",
+      "hit": 104,
       "stale_days": -1,
       "stale": false
     },
@@ -19,9 +19,9 @@
       "source": "ArchDaily中国",
       "ok": true,
       "total": 64,
-      "oldest": "2026-09-24",
-      "newest": "2026-10-29",
-      "hit": 99,
+      "oldest": "2026-09-25",
+      "newest": "2026-10-30",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-21",
-      "newest": "2026-10-28",
-      "hit": 53,
+      "oldest": "2026-10-23",
+      "newest": "2026-10-29",
+      "hit": 58,
       "stale_days": 0,
       "stale": false
     },
@@ -39,18 +39,18 @@
       "source": "Dezeen",
       "ok": true,
       "total": 49,
-      "oldest": "2026-10-21",
-      "newest": "2026-10-28",
-      "hit": 47,
-      "stale_days": 0,
+      "oldest": "2026-10-23",
+      "newest": "2026-10-30",
+      "hit": 48,
+      "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
       "total": 3,
-      "oldest": "2026-10-28",
-      "newest": "2026-10-29",
+      "oldest": "2026-10-29",
+      "newest": "2026-10-30",
       "hit": 20,
       "stale_days": -1,
       "stale": false
@@ -59,9 +59,9 @@
       "source": "有方空间",
       "ok": true,
       "total": 16,
-      "oldest": "2026-10-22",
-      "newest": "2026-10-28",
-      "hit": 20,
+      "oldest": "2026-10-23",
+      "newest": "2026-10-29",
+      "hit": 18,
       "stale_days": 0,
       "stale": false
     },
@@ -72,20 +72,30 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 0,
-      "stale_days": 59,
+      "stale_days": 60,
       "stale": true
     }
   ],
-  "candidate_count": 342,
-  "new_stored": 2,
-  "store_total": 971,
-  "after_dedupe": 220,
-  "noise_count": 9,
-  "heat_signal_count": 123,
-  "heat_hit_count": 69,
-  "out_of_window_count": 0,
+  "candidate_count": 345,
+  "new_stored": 59,
+  "store_total": 1030,
+  "after_dedupe": 219,
+  "noise_count": 11,
+  "heat_signal_count": 126,
+  "heat_hit_count": 66,
+  "out_of_window_count": 3,
   "count": 10,
   "noise": [
+    {
+      "title": "\"If AI can do most of what we think an architect does, maybe we have defined the profession too narrowly\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/29/ai-piers-taylor-opinion"
+    },
+    {
+      "title": "C Next Designers EMEA brings together over 250 professionals for design conference in Almería",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/29/c-next-designers-emea-almeria-cosentino"
+    },
     {
       "title": "Flokk's design-forward seating features on Dezeen Showroom",
       "source": "Dezeen",
@@ -143,7 +153,7 @@
       "summary": "建筑  以旧补旧，亦以新补旧，延续山村聚落的宁静与温柔。 2026.10.23 收藏 分享",
       "published_at": "2026-10-23T09:38:26+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
       "meta": {
         "city": "小后畬山居度假酒店",
         "country": "浙江",
@@ -152,9 +162,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2421 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2629 次"
       ],
-      "views": 2421,
+      "views": 2629,
       "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
@@ -165,7 +175,7 @@
       "quality_score": 33.4,
       "score": 85.9,
       "reasons": [
-        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2421 次→45.0；2 家媒体报道+7.5",
+        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2629 次→45.0；2 家媒体报道+7.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 1
@@ -187,20 +197,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2375 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2624 次"
       ],
-      "views": 2375,
+      "views": 2624,
       "heat_rank": 2,
       "is_project": true,
       "btype": "教育",
       "region": "北京",
       "city": "",
       "architect": "拾集建筑",
-      "heat_score": 44.1,
+      "heat_score": 44.9,
       "quality_score": 33.4,
-      "score": 77.5,
+      "score": 78.3,
       "reasons": [
-        "热度 44.1：谷德 7 天最热 第 2 名 · 阅读 2375 次→44.1",
+        "热度 44.9：谷德 7 天最热 第 2 名 · 阅读 2624 次→44.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 2
@@ -215,26 +225,26 @@
       "summary": "建筑  与行道树对话的沿街立面更新 2026.10.23 收藏 分享",
       "published_at": "2026-10-23T14:35:39+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
       "meta": {
         "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2352 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2529 次"
       ],
-      "views": 2352,
+      "views": 2529,
       "heat_rank": 3,
       "is_project": true,
       "btype": "商业",
       "region": "浙江",
       "city": "",
       "architect": "森上建筑",
-      "heat_score": 43.7,
+      "heat_score": 43.3,
       "quality_score": 33.4,
-      "score": 77.1,
+      "score": 76.7,
       "reasons": [
-        "热度 43.7：谷德 7 天最热 第 3 名 · 阅读 2352 次→43.7",
+        "热度 43.3：谷德 7 天最热 第 3 名 · 阅读 2529 次→43.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 3
@@ -249,26 +259,26 @@
       "summary": "景观  富春江畔茶田中的开放茶亭，两片轻盈屋顶漂浮于茶树间 2026.10.23 收藏 分享",
       "published_at": "2026-10-23T14:40:30+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
       "meta": {
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2152 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2288 次"
       ],
-      "views": 2152,
+      "views": 2288,
       "heat_rank": 4,
       "is_project": true,
       "btype": "景观",
       "region": "杭州",
       "city": "",
       "architect": "",
-      "heat_score": 40.0,
+      "heat_score": 39.2,
       "quality_score": 33.4,
-      "score": 73.4,
+      "score": 72.6,
       "reasons": [
-        "热度 40.0：谷德 7 天最热 第 4 名 · 阅读 2152 次→40.0",
+        "热度 39.2：谷德 7 天最热 第 4 名 · 阅读 2288 次→39.2",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 4
@@ -289,61 +299,51 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2057 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2226 次"
       ],
-      "views": 2057,
+      "views": 2226,
       "heat_rank": 5,
       "is_project": true,
       "btype": null,
       "region": "深圳",
       "city": "",
       "architect": "",
-      "heat_score": 38.2,
+      "heat_score": 38.1,
       "quality_score": 30.4,
-      "score": 68.6,
+      "score": 68.5,
       "reasons": [
-        "热度 38.2：谷德 7 天最热 第 5 名 · 阅读 2057 次→38.2",
+        "热度 38.1：谷德 7 天最热 第 5 名 · 阅读 2226 次→38.1",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
       ],
       "rank": 5
     },
     {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "MIND 博物馆 / C.F. Møller",
-      "url": "https://www.archdaily.cn/zh/1187629/mind-bo-wu-guan-cf-moller",
-      "cover": "https://images.adsttc.com/media/images/6adf/8cc2/3271/8400/01d0/ec79/newsletter/04_MIND_Photo_by_Kirstine_Mengel.jpg?1793035560",
-      "summary": "十月 28 © Kirstine Mengel + 18 • Middelfart, 丹麦 建筑师: C.F. Møller 面积 该建筑项目的领域 面积: 1500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187629/mind-bo-wu-guan-cf-moller Nina Vuga 阅读更多 »",
-      "published_at": "2026-10-28T22:00:00+08:00",
-      "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
-      "alt_url": "https://www.archdaily.com/1187560/mind-museum-cf-moller",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Kirstine Mengel",
-        "image_count": 18,
-        "city": "Middelfart",
-        "country": "丹麦",
-        "architect": "C.F. Møller",
-        "area": "1500 m²",
-        "year": "2026"
-      },
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
+      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the 73-square-metre home is formed of cubic volumes clad in corrugated metal and black render, perched on a hill overlooking the nearby Lake Biwa. Drawings Previous Next Drawings Close Plan Plan Section S",
+      "published_at": "2026-10-29T19:30:00+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
+      "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 7 位"
+        "Dezeen 首页第 3 位"
       ],
       "is_project": true,
-      "btype": "文化",
-      "region": "丹麦",
-      "city": "Middelfart",
-      "architect": "C.F. Møller",
-      "heat_score": 11.5,
-      "quality_score": 40.0,
-      "score": 51.5,
+      "btype": "住宅",
+      "region": "日本",
+      "city": "",
+      "architect": "",
+      "heat_score": 14.7,
+      "quality_score": 39.6,
+      "score": 54.3,
       "reasons": [
-        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「文化」+3；地域「丹麦」+3；封面图+2；含面积数据+2"
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 6
     },
@@ -351,39 +351,43 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "垃圾分类回收公园 / Bovenbouw",
-      "url": "https://www.archdaily.cn/zh/1187538/la-ji-fen-lei-hui-shou-gong-yuan-bovenbouw",
-      "cover": "https://images.adsttc.com/media/images/6ad9/dab7/3271/8400/01d0/dd4e/newsletter/BB_COKI_05_FilipDujardin.jpg?1792662218",
-      "summary": "十月 28 © © Filip Dujardin + 31 • Antwerpen, 比利时 建筑师: Bovenbouw architectuur 面积 该建筑项目的领域 面积: 51032 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187538/la-ji-fen-lei-hui-shou-gong-yuan-bovenbouw Nina Vuga 阅读更多 »",
-      "published_at": "2026-10-28T19:00:00+08:00",
-      "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
-      "alt_url": "https://www.archdaily.com/1187333/recycling-park-bovenbouw",
+      "title": "灰色住宅 / Adam Kane Architects",
+      "url": "https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects",
+      "cover": "https://images.adsttc.com/media/images/6745/e509/61c7/c100/0136/9933/newsletter/AdamKaneArchitectsGreyHouse01.jpg?1732633884",
+      "summary": "十月 29 © Timothy Kaye + 11 • Daylesford, 澳大利亚 建筑师: Adam Kane Architects 面积 该建筑项目的领域 面积: 250 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: Focus , Swisspearl https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects Miwa Negoro 阅读更多 »",
+      "published_at": "2026-10-29T23:00:00+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
+      "alt_url": "https://www.archdaily.com/1024034/grey-house-adam-kane-architects",
       "bilingual": true,
       "meta": {
-        "photographer": "© Filip Dujardin",
-        "image_count": 31,
-        "city": "Antwerpen",
-        "country": "比利时",
-        "architect": "Bovenbouw architectuur",
-        "area": "51032 m²",
-        "year": "2024"
+        "photographer": "Timothy Kaye",
+        "image_count": 11,
+        "city": "Daylesford",
+        "country": "澳大利亚",
+        "architect": "Adam Kane Architects",
+        "area": "250 m²",
+        "year": "2023",
+        "brands": [
+          "Focus",
+          "Swisspearl"
+        ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 9 位"
+        "ArchDaily中国 首页第 5 位"
       ],
       "is_project": true,
-      "btype": "景观",
-      "region": "比利时",
-      "city": "Antwerpen",
-      "architect": "Bovenbouw architectuur",
-      "heat_score": 10.7,
+      "btype": "住宅",
+      "region": "澳大利亚",
+      "city": "Daylesford",
+      "architect": "Adam Kane Architects",
+      "heat_score": 12.3,
       "quality_score": 40.0,
-      "score": 50.7,
+      "score": 52.3,
       "reasons": [
-        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「景观」+3；地域「比利时」+3；封面图+2；含面积数据+2"
+        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「澳大利亚」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 7
     },
@@ -391,45 +395,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Guest House 宾客之家 / Mints Design",
-      "url": "https://www.archdaily.cn/zh/1187626/guest-house-bin-ke-zhi-jia-mints-design",
-      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6adf/8d12/3271/8400/01d0/ec89/slideshow/08_GuestHouse_ext_view.jpg?1793035578&format=webp&width=640&height=580",
-      "summary": "十月 28 © Anastasiia Shynkarenko + 31 • 乌克兰 建筑师: Mints Design 面积 该建筑项目的领域 面积: 640 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: &Tradition , Audo , Eichholtz , FREDERICIA , GUBI , +2 Gervasoni 1882 , Gushka -2 https://www.archdaily.cn/zh/1187626/guest-house-bin-ke-zhi-jia-mints-design Nina Vuga 阅读更多 »",
-      "published_at": "2026-10-28T18:00:00+08:00",
-      "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
-      "alt_url": "https://www.archdaily.com/1187561/guest-house-mints-design",
+      "title": "VILLALTA 空间 / Artico Fracassi + Marco Zito",
+      "url": "https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito",
+      "cover": "https://images.adsttc.com/media/images/6adb/31dd/3271/8400/01d0/e3fa/newsletter/Villalta-19.jpg?1792750352",
+      "summary": "十月 29 © Marco Cappelletti + 26 • Udine, 意大利 建筑师: Artico Fracassi + Marco Zito 面积 该建筑项目的领域 面积: 8500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-29T22:00:00+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
+      "alt_url": "https://www.archdaily.com/1187413/spazio-villalta-artico-fracassi-plus-marco-zito",
       "bilingual": true,
       "meta": {
-        "photographer": "Anastasiia Shynkarenko",
-        "image_count": 31,
-        "architect": "Mints Design",
-        "area": "640 m²",
-        "year": "2026",
-        "brands": [
-          "&Tradition",
-          "Audo",
-          "Eichholtz",
-          "FREDERICIA",
-          "GUBI",
-          "+2 Gervasoni 1882"
-        ]
+        "photographer": "Marco Cappelletti",
+        "image_count": 26,
+        "city": "Udine",
+        "country": "意大利",
+        "architect": "Artico Fracassi + Marco Zito",
+        "area": "8500 m²",
+        "year": "2025"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": null,
-      "city": "",
-      "architect": "Mints Design",
-      "heat_score": 9.8,
+      "region": "意大利",
+      "city": "Udine",
+      "architect": "Artico Fracassi + Marco Zito",
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 51.9,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「意大利」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
     },
@@ -437,76 +435,77 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Coliseum Place 保障性住房 / David Baker Architects",
-      "url": "https://www.archdaily.cn/zh/1167620/coliseum-place-bao-zhang-xing-zhu-fang-david-baker-architects",
-      "cover": "https://images.adsttc.com/media/images/6751/8dfd/3080/cf00/0100/d010/medium_jpg/21503_ColiseumPlace_BruceDamonte_02.jpg?1733398062",
-      "summary": "十月 28 © Bruce Damonte + 16 • Oakland, 美国 建筑师: David Baker Architects 面积 该建筑项目的领域 面积: 79752 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2022 厂家 该项目中使用产品的品牌 厂家: Daltile , Interface , Sherwin-Williams , Advanta , Armstrong , +1 Mecho -1 https://www.archdaily.cn/zh/1167620/coliseum-place-bao-zhang-xing-zhu-fang-david-baker-architects Hadir Al Koshta 阅读更多 »",
-      "published_at": "2026-10-28T23:00:00+08:00",
-      "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
-      "alt_url": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
+      "title": "巴斯克博物馆，毕尔巴鄂 / VAILLO + ARCHITECTS",
+      "url": "https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects",
+      "cover": "https://images.adsttc.com/media/images/6ad8/93dc/20d6/d801/8852/00db/newsletter/basque-museum-bilbao-vaillo-plus-architects_5.jpg?1792578535",
+      "summary": "十月 23 © Iñaki Bergera + 33 • Bilbao, 西班牙 建筑师: VAILLO + ARCHITECTS 面积 该建筑项目的领域 面积: 8 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187275/ba-si-ke-bo-wu-guan-bi-er-ba-e-vaillo-plus-architects Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-24T03:00:00+08:00",
+      "first_seen": "2026-10-24T06:27:11+08:00",
+      "last_seen": "2026-10-25T08:10:50+08:00",
+      "alt_url": "https://www.archdaily.com/1187258/basque-museum-bilbao-vaillo-plus-architects",
       "bilingual": true,
       "meta": {
-        "photographer": "Bruce Damonte",
-        "image_count": 16,
-        "city": "Oakland",
-        "country": "美国",
-        "architect": "David Baker Architects",
-        "year": "2022",
-        "brands": [
-          "Daltile",
-          "Interface",
-          "Sherwin-Williams",
-          "Advanta",
-          "Armstrong",
-          "+1 Mecho -1"
-        ]
+        "photographer": "Iñaki Bergera",
+        "image_count": 33,
+        "city": "Bilbao",
+        "country": "西班牙",
+        "architect": "VAILLO + ARCHITECTS",
+        "area": "8 m²",
+        "year": "2026"
       },
       "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
-      ],
+      "heat_labels": [],
       "is_project": true,
-      "btype": null,
-      "region": "美国",
-      "city": "Oakland",
-      "architect": "David Baker Architects",
-      "heat_score": 11.9,
-      "quality_score": 37.0,
-      "score": 48.9,
+      "btype": "文化",
+      "region": "西班牙",
+      "city": "Bilbao",
+      "architect": "VAILLO + ARCHITECTS",
+      "heat_score": 11.5,
+      "quality_score": 40.0,
+      "score": 51.5,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
-        "质量 37.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；地域「美国」+3；封面图+2；含材料厂家+1"
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「文化」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
     },
     {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "KPF completes Texas' tallest skyscraper in Austin",
-      "url": "https://www.dezeen.com/2026/10/28/kpf-texas-tallest-skyscraper-waterline-austin",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/waterline-kpf-completes-austin_dezeen_2364_sq-1024x1024.jpg",
-      "summary": "New York architecture studio KPF has completed Waterline in Austin, Texas, a supertall skyscraper with a mixed-use programme that slopes away from Lady Bird Lake as it rises. It has a form that resembles a \"cowboy boot\", according to its designers. KPF , which is known for its skyscrapers around the world, was not originally meant to design the 1,025-foot-tall (312-metre-tall) structure. The build",
-      "published_at": "2026-10-28T23:34:02+08:00",
-      "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T08:24:33+08:00",
-      "meta": {},
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Umodzi Epicentre 社区中心 / Kamuna Design Studio",
+      "url": "https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio",
+      "cover": "https://images.adsttc.com/media/images/6ae0/b363/20d6/d82a/88e0/5b5e/newsletter/umodzi-epicentre-community-center-kamuna-design-studio_7.jpg?1793110913",
+      "summary": "十月 29 © Gareth Bentley + 11 • Vubwi, 赞比亚 建筑师: Kamuna Design Studio 面积 该建筑项目的领域 面积: 4500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio Pratik Mour 阅读更多 »",
+      "published_at": "2026-10-29T19:00:00+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-10-30T06:37:23+08:00",
+      "alt_url": "https://www.archdaily.com/1187600/umodzi-epicentre-community-center-kamuna-design-studio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Gareth Bentley",
+        "image_count": 11,
+        "city": "Vubwi",
+        "country": "赞比亚",
+        "architect": "Kamuna Design Studio",
+        "area": "4500 m²",
+        "year": "2025"
+      },
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 1 位"
+        "ArchDaily中国 首页第 8 位"
       ],
-      "is_project": false,
-      "btype": null,
-      "region": "Austin",
-      "city": "",
-      "architect": "",
-      "heat_score": 16.0,
-      "quality_score": 21.6,
-      "score": 37.6,
+      "is_project": true,
+      "btype": "公共",
+      "region": "赞比亚",
+      "city": "Vubwi",
+      "architect": "Kamuna Design Studio",
+      "heat_score": 11.1,
+      "quality_score": 40.0,
+      "score": 51.1,
       "reasons": [
-        "热度 16.0：Dezeen 首页第 1 位→16.0",
-        "质量 21.6：站点权重0.95→7.6；知名事务所+6；地域「Austin」+3；封面图+2"
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「公共」+3；地域「赞比亚」+3；封面图+2；含面积数据+2"
       ],
       "rank": 10
     }

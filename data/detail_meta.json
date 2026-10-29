@@ -668,5 +668,24 @@
  },
  "https://www.gooood.cn/longjing-tea-pavilion.htm": {
   "year": "2026"
+ },
+ "https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects": {
+  "year": "2023",
+  "photographer": "Timothy Kaye",
+  "brands": [
+   "Focus",
+   "Swisspearl"
+  ],
+  "image_count": 19
+ },
+ "https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito": {
+  "year": "2025",
+  "photographer": "Marco Cappelletti",
+  "image_count": 34
+ },
+ "https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio": {
+  "year": "2025",
+  "photographer": "Gareth Bentley",
+  "image_count": 19
  }
 }
