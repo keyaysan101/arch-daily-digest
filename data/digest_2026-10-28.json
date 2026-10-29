@@ -3,7 +3,7 @@
   "window_start": "2026-10-22",
   "window_end": "2026-10-28",
   "window_days": 7,
-  "generated_at": "2026-10-29T06:35:58+08:00",
+  "generated_at": "2026-10-29T08:24:39+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-21",
       "newest": "2026-10-28",
-      "hit": 54,
+      "hit": 53,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 343,
-  "new_stored": 57,
-  "store_total": 969,
-  "after_dedupe": 221,
+  "candidate_count": 342,
+  "new_stored": 2,
+  "store_total": 971,
+  "after_dedupe": 220,
   "noise_count": 9,
   "heat_signal_count": 123,
-  "heat_hit_count": 71,
-  "out_of_window_count": 1,
+  "heat_hit_count": 69,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
     {
@@ -137,114 +137,13 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "北京1733商业氛围提升 / 拾集建筑",
-      "url": "https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-beijing-1733-xu-studio-02-472x303.jpg",
-      "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
-      "published_at": "2026-10-22T09:51:55+08:00",
-      "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
-      "meta": {
-        "area": "7000 m²",
-        "photographer": "朱雨蒙"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 3498 次"
-      ],
-      "views": 3498,
-      "heat_rank": 1,
-      "is_project": true,
-      "btype": "教育",
-      "region": "北京",
-      "city": "",
-      "architect": "拾集建筑",
-      "heat_score": 45.0,
-      "quality_score": 33.4,
-      "score": 78.4,
-      "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 3498 次→45.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
-      ],
-      "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Begl餐厅，阿那亚 / 几里建筑",
-      "url": "https://www.gooood.cn/begl-restaurant-by-vari-architects.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/begl-cover-472x303.jpg",
-      "summary": "建筑  以轻盈的檐下空间重塑街区边界 2026.10.22 收藏 分享",
-      "published_at": "2026-10-22T08:59:05+08:00",
-      "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
-      "meta": {},
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 3236 次"
-      ],
-      "views": 3236,
-      "heat_rank": 2,
-      "is_project": true,
-      "btype": null,
-      "region": "阿那亚",
-      "city": "",
-      "architect": "几里建筑",
-      "heat_score": 41.6,
-      "quality_score": 30.4,
-      "score": 72.0,
-      "reasons": [
-        "热度 41.6：谷德 7 天最热 第 2 名 · 阅读 3236 次→41.6",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「阿那亚」+3；封面图+2"
-      ],
-      "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "深圳湾万象城二期 / IFG伊波莱茨建筑设计",
-      "url": "https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/Shenzhen-Bay-MixC-Phase-II-by-Ippolito-Fleitz-Group-472x303.jpg",
-      "summary": "建筑  当购物中心成为城市基础设施 2026.10.22 收藏 分享",
-      "published_at": "2026-10-22T10:30:40+08:00",
-      "first_seen": "2026-10-23T06:27:13+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
-      "meta": {
-        "area": "151,264 m²"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 3200 次"
-      ],
-      "views": 3200,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": null,
-      "region": "深圳",
-      "city": "",
-      "architect": "",
-      "heat_score": 41.2,
-      "quality_score": 30.4,
-      "score": 71.6,
-      "reasons": [
-        "热度 41.2：谷德 7 天最热 第 3 名 · 阅读 3200 次→41.2",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
       "title": "大乐之野·松阳·小后畬山居度假酒店，浙江 / 空崆建筑",
       "url": "https://www.gooood.cn/lost-villa-in-xiaohoushe-songyang-by-kong-architects.htm",
       "cover": "https://oss.gooood.cn/uploads/2026/10/00-dale-songyang-010-472x303.jpg",
       "summary": "建筑  以旧补旧，亦以新补旧，延续山村聚落的宁静与温柔。 2026.10.23 收藏 分享",
       "published_at": "2026-10-23T09:38:26+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "meta": {
         "city": "小后畬山居度假酒店",
         "country": "浙江",
@@ -253,23 +152,58 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2419 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2421 次"
       ],
-      "views": 2419,
-      "heat_rank": 4,
+      "views": 2421,
+      "heat_rank": 1,
       "is_project": true,
       "btype": "住宅",
       "region": "浙江",
       "city": "小后畬山居度假酒店",
       "architect": "空崆建筑",
-      "heat_score": 38.6,
+      "heat_score": 52.5,
       "quality_score": 33.4,
-      "score": 72.0,
+      "score": 85.9,
       "reasons": [
-        "热度 38.6：谷德 7 天最热 第 4 名 · 阅读 2419 次→31.1；2 家媒体报道+7.5",
+        "热度 52.5：谷德 7 天最热 第 1 名 · 阅读 2421 次→45.0；2 家媒体报道+7.5",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「浙江」+3；封面图+2"
       ],
-      "rank": 4
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "北京1733商业氛围提升 / 拾集建筑",
+      "url": "https://www.gooood.cn/beijing-1733-bytedance-campus-commercial-project-by-xu-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-beijing-1733-xu-studio-02-472x303.jpg",
+      "summary": "建筑  轻量化介入，唤醒园区的生活场景 2026.10.22 收藏 分享",
+      "published_at": "2026-10-22T09:51:55+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
+      "meta": {
+        "area": "7000 m²",
+        "photographer": "朱雨蒙"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 2 名 · 阅读 2375 次"
+      ],
+      "views": 2375,
+      "heat_rank": 2,
+      "is_project": true,
+      "btype": "教育",
+      "region": "北京",
+      "city": "",
+      "architect": "拾集建筑",
+      "heat_score": 44.1,
+      "quality_score": 33.4,
+      "score": 77.5,
+      "reasons": [
+        "热度 44.1：谷德 7 天最热 第 2 名 · 阅读 2375 次→44.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -281,27 +215,95 @@
       "summary": "建筑  与行道树对话的沿街立面更新 2026.10.23 收藏 分享",
       "published_at": "2026-10-23T14:35:39+08:00",
       "first_seen": "2026-10-24T06:27:11+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "meta": {
         "year": "2024"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2350 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2352 次"
       ],
-      "views": 2350,
-      "heat_rank": 5,
+      "views": 2352,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "商业",
       "region": "浙江",
       "city": "",
       "architect": "森上建筑",
-      "heat_score": 30.2,
+      "heat_score": 43.7,
       "quality_score": 33.4,
-      "score": 63.6,
+      "score": 77.1,
       "reasons": [
-        "热度 30.2：谷德 7 天最热 第 5 名 · 阅读 2350 次→30.2",
+        "热度 43.7：谷德 7 天最热 第 3 名 · 阅读 2352 次→43.7",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「浙江」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "龙井茶亭，杭州 / 陆少波建筑工作室",
+      "url": "https://www.gooood.cn/longjing-tea-pavilion.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-longjing-tea-pavilion-09-472x303.jpg",
+      "summary": "景观  富春江畔茶田中的开放茶亭，两片轻盈屋顶漂浮于茶树间 2026.10.23 收藏 分享",
+      "published_at": "2026-10-23T14:40:30+08:00",
+      "first_seen": "2026-10-24T06:27:11+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
+      "meta": {
+        "year": "2026"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2152 次"
+      ],
+      "views": 2152,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": "景观",
+      "region": "杭州",
+      "city": "",
+      "architect": "",
+      "heat_score": 40.0,
+      "quality_score": 33.4,
+      "score": 73.4,
+      "reasons": [
+        "热度 40.0：谷德 7 天最热 第 4 名 · 阅读 2152 次→40.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "深圳湾万象城二期 / IFG伊波莱茨建筑设计",
+      "url": "https://www.gooood.cn/shenzhen-bay-mixc-phase-ii-by-ippolito-fleitz-group.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/Shenzhen-Bay-MixC-Phase-II-by-Ippolito-Fleitz-Group-472x303.jpg",
+      "summary": "建筑  当购物中心成为城市基础设施 2026.10.22 收藏 分享",
+      "published_at": "2026-10-22T10:30:40+08:00",
+      "first_seen": "2026-10-23T06:27:13+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
+      "meta": {
+        "area": "151,264 m²"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 2057 次"
+      ],
+      "views": 2057,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": null,
+      "region": "深圳",
+      "city": "",
+      "architect": "",
+      "heat_score": 38.2,
+      "quality_score": 30.4,
+      "score": 68.6,
+      "reasons": [
+        "热度 38.2：谷德 7 天最热 第 5 名 · 阅读 2057 次→38.2",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「深圳」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -315,7 +317,7 @@
       "summary": "十月 28 © Kirstine Mengel + 18 • Middelfart, 丹麦 建筑师: C.F. Møller 面积 该建筑项目的领域 面积: 1500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187629/mind-bo-wu-guan-cf-moller Nina Vuga 阅读更多 »",
       "published_at": "2026-10-28T22:00:00+08:00",
       "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "alt_url": "https://www.archdaily.com/1187560/mind-museum-cf-moller",
       "bilingual": true,
       "meta": {
@@ -329,18 +331,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 7 位"
       ],
       "is_project": true,
       "btype": "文化",
       "region": "丹麦",
       "city": "Middelfart",
       "architect": "C.F. Møller",
-      "heat_score": 11.9,
+      "heat_score": 11.5,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 51.5,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「文化」+3；地域「丹麦」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -355,7 +357,7 @@
       "summary": "十月 28 © © Filip Dujardin + 31 • Antwerpen, 比利时 建筑师: Bovenbouw architectuur 面积 该建筑项目的领域 面积: 51032 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187538/la-ji-fen-lei-hui-shou-gong-yuan-bovenbouw Nina Vuga 阅读更多 »",
       "published_at": "2026-10-28T19:00:00+08:00",
       "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "alt_url": "https://www.archdaily.com/1187333/recycling-park-bovenbouw",
       "bilingual": true,
       "meta": {
@@ -369,18 +371,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 9 位"
       ],
       "is_project": true,
       "btype": "景观",
       "region": "比利时",
       "city": "Antwerpen",
       "architect": "Bovenbouw architectuur",
-      "heat_score": 11.1,
+      "heat_score": 10.7,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 50.7,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「景观」+3；地域「比利时」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -395,7 +397,7 @@
       "summary": "十月 28 © Anastasiia Shynkarenko + 31 • 乌克兰 建筑师: Mints Design 面积 该建筑项目的领域 面积: 640 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: &Tradition , Audo , Eichholtz , FREDERICIA , GUBI , +2 Gervasoni 1882 , Gushka -2 https://www.archdaily.cn/zh/1187626/guest-house-bin-ke-zhi-jia-mints-design Nina Vuga 阅读更多 »",
       "published_at": "2026-10-28T18:00:00+08:00",
       "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "alt_url": "https://www.archdaily.com/1187561/guest-house-mints-design",
       "bilingual": true,
       "meta": {
@@ -415,18 +417,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": null,
       "city": "",
       "architect": "Mints Design",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 8
@@ -441,7 +443,7 @@
       "summary": "十月 28 © Bruce Damonte + 16 • Oakland, 美国 建筑师: David Baker Architects 面积 该建筑项目的领域 面积: 79752 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2022 厂家 该项目中使用产品的品牌 厂家: Daltile , Interface , Sherwin-Williams , Advanta , Armstrong , +1 Mecho -1 https://www.archdaily.cn/zh/1167620/coliseum-place-bao-zhang-xing-zhu-fang-david-baker-architects Hadir Al Koshta 阅读更多 »",
       "published_at": "2026-10-28T23:00:00+08:00",
       "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "alt_url": "https://www.archdaily.com/1024398/coliseum-place-building-david-baker-architects",
       "bilingual": true,
       "meta": {
@@ -462,18 +464,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "美国",
       "city": "Oakland",
       "architect": "David Baker Architects",
-      "heat_score": 12.3,
+      "heat_score": 11.9,
       "quality_score": 37.0,
-      "score": 49.3,
+      "score": 48.9,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
         "质量 37.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；地域「美国」+3；封面图+2；含材料厂家+1"
       ],
       "rank": 9
@@ -488,7 +490,7 @@
       "summary": "New York architecture studio KPF has completed Waterline in Austin, Texas, a supertall skyscraper with a mixed-use programme that slopes away from Lady Bird Lake as it rises. It has a form that resembles a \"cowboy boot\", according to its designers. KPF , which is known for its skyscrapers around the world, was not originally meant to design the 1,025-foot-tall (312-metre-tall) structure. The build",
       "published_at": "2026-10-28T23:34:02+08:00",
       "first_seen": "2026-10-29T06:35:43+08:00",
-      "last_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-10-29T08:24:33+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
