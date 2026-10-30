@@ -1,17 +1,17 @@
 {
-  "date": "2026-10-29",
-  "window_start": "2026-10-23",
-  "window_end": "2026-10-29",
+  "date": "2026-10-30",
+  "window_start": "2026-10-24",
+  "window_end": "2026-10-30",
   "window_days": 7,
-  "generated_at": "2026-10-30T08:25:53+08:00",
+  "generated_at": "2026-10-31T06:36:46+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
-      "oldest": "2026-09-25",
-      "newest": "2026-10-30",
-      "hit": 104,
+      "oldest": "2026-09-28",
+      "newest": "2026-10-31",
+      "hit": 99,
       "stale_days": -1,
       "stale": false
     },
@@ -19,8 +19,8 @@
       "source": "ArchDaily中国",
       "ok": true,
       "total": 64,
-      "oldest": "2026-09-25",
-      "newest": "2026-10-30",
+      "oldest": "2026-09-28",
+      "newest": "2026-10-31",
       "hit": 97,
       "stale_days": -1,
       "stale": false
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-23",
-      "newest": "2026-10-29",
-      "hit": 57,
+      "oldest": "2026-10-26",
+      "newest": "2026-10-30",
+      "hit": 61,
       "stale_days": 0,
       "stale": false
     },
@@ -39,8 +39,8 @@
       "source": "Dezeen",
       "ok": true,
       "total": 49,
-      "oldest": "2026-10-23",
-      "newest": "2026-10-30",
+      "oldest": "2026-10-24",
+      "newest": "2026-10-31",
       "hit": 48,
       "stale_days": -1,
       "stale": false
@@ -48,10 +48,10 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 3,
-      "oldest": "2026-10-29",
-      "newest": "2026-10-30",
-      "hit": 20,
+      "total": 6,
+      "oldest": "2026-10-30",
+      "newest": "2026-10-31",
+      "hit": 19,
       "stale_days": -1,
       "stale": false
     },
@@ -61,8 +61,8 @@
       "total": 16,
       "oldest": "2026-10-23",
       "newest": "2026-10-29",
-      "hit": 18,
-      "stale_days": 0,
+      "hit": 15,
+      "stale_days": 1,
       "stale": false
     },
     {
@@ -72,20 +72,35 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 0,
-      "stale_days": 60,
+      "stale_days": 61,
       "stale": true
     }
   ],
-  "candidate_count": 344,
-  "new_stored": 2,
-  "store_total": 1032,
-  "after_dedupe": 218,
-  "noise_count": 11,
-  "heat_signal_count": 126,
-  "heat_hit_count": 64,
-  "out_of_window_count": 2,
+  "candidate_count": 339,
+  "new_stored": 55,
+  "store_total": 1087,
+  "after_dedupe": 215,
+  "noise_count": 12,
+  "heat_signal_count": 123,
+  "heat_hit_count": 67,
+  "out_of_window_count": 5,
   "count": 10,
   "noise": [
+    {
+      "title": "‘dismantling should be designed, not improvised’: THISS studio on radical reuse in architecture",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/thiss-studio-tamsin-hanke-radical-reuse-exhibition-design-interview"
+    },
+    {
+      "title": "podcast: architecture that listens through nature and site intelligence",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-01-02"
+    },
+    {
+      "title": "\"Lady in Blue is as fitting a monument to our era as any I can imagine\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/30/lady-in-blue-trafalgar-square-priya-khanchandani-opinion"
+    },
     {
       "title": "\"If AI can do most of what we think an architect does, maybe we have defined the profession too narrowly\"",
       "source": "Dezeen",
@@ -130,16 +145,6 @@
       "title": "Seven projects by RIBA award-winning Nakshabid Architects",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/10/24/nakshabid-architects-project-roundup"
-    },
-    {
-      "title": "\"Getting people into space is one thing. Creating somewhere they actually want to live is quite another\"",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/23/space-architecture-jonathan-morrison-opinion"
-    },
-    {
-      "title": "Has Tesla really made a flying car?",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/23/tesla-roadster-shanghai-opera-house-dezeen-weekly-podcast"
     }
   ],
   "items": [
@@ -153,15 +158,15 @@
       "summary": "景观  以“自然森谷”重塑商业景观 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T11:26:22+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
       "meta": {
         "photographer": "三棱镜"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2022 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2270 次"
       ],
-      "views": 2022,
+      "views": 2270,
       "heat_rank": 1,
       "is_project": true,
       "btype": "商业",
@@ -172,10 +177,45 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2022 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2270 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「西安」+3；封面图+2"
       ],
       "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "丰田市博物馆，日本 / 坂茂建築設計",
+      "url": "https://www.gooood.cn/toyota-city-museum-by-shigeru-ban-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/03-cab-472x303.jpg",
+      "summary": "建筑  雪松木构的“间隙空间” 2026.10.27 收藏 分享",
+      "published_at": "2026-10-27T15:32:37+08:00",
+      "first_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
+      "meta": {
+        "year": "2024",
+        "photographer": "Hiroyuki Hirai"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 2 名 · 阅读 2191 次"
+      ],
+      "views": 2191,
+      "heat_rank": 2,
+      "is_project": true,
+      "btype": "文化",
+      "region": "日本",
+      "city": "",
+      "architect": "",
+      "heat_score": 43.4,
+      "quality_score": 33.4,
+      "score": 76.8,
+      "reasons": [
+        "热度 43.4：谷德 7 天最热 第 2 名 · 阅读 2191 次→43.4",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「日本」+3；封面图+2"
+      ],
+      "rank": 2
     },
     {
       "source": "谷德设计网",
@@ -193,23 +233,23 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 1993 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2155 次"
       ],
-      "views": 1993,
-      "heat_rank": 2,
+      "views": 2155,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "商业",
       "region": "浙江",
       "city": "",
       "architect": "森上建筑",
-      "heat_score": 44.4,
+      "heat_score": 42.7,
       "quality_score": 33.4,
-      "score": 77.8,
+      "score": 76.1,
       "reasons": [
-        "热度 44.4：谷德 7 天最热 第 2 名 · 阅读 1993 次→44.4",
+        "热度 42.7：谷德 7 天最热 第 3 名 · 阅读 2155 次→42.7",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「浙江」+3；封面图+2"
       ],
-      "rank": 2
+      "rank": 3
     },
     {
       "source": "谷德设计网",
@@ -221,62 +261,27 @@
       "summary": "建筑  在新旧编织之间，重塑非遗文化的当代表达 2026.10.26 收藏 分享",
       "published_at": "2026-10-26T11:04:48+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
       "meta": {
         "photographer": "存在建筑-建筑摄影"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 1970 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2135 次"
       ],
-      "views": 1970,
-      "heat_rank": 3,
+      "views": 2135,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "文化",
       "region": "成都",
       "city": "",
       "architect": "",
-      "heat_score": 43.8,
+      "heat_score": 42.3,
       "quality_score": 33.4,
-      "score": 77.2,
+      "score": 75.7,
       "reasons": [
-        "热度 43.8：谷德 7 天最热 第 3 名 · 阅读 1970 次→43.8",
+        "热度 42.3：谷德 7 天最热 第 4 名 · 阅读 2135 次→42.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「成都」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "丰田市博物馆，日本 / 坂茂建築設計",
-      "url": "https://www.gooood.cn/toyota-city-museum-by-shigeru-ban-architects.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/03-cab-472x303.jpg",
-      "summary": "建筑  雪松木构的“间隙空间” 2026.10.27 收藏 分享",
-      "published_at": "2026-10-27T15:32:37+08:00",
-      "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
-      "meta": {
-        "year": "2024",
-        "photographer": "Hiroyuki Hirai"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 1945 次"
-      ],
-      "views": 1945,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "文化",
-      "region": "日本",
-      "city": "",
-      "architect": "",
-      "heat_score": 43.3,
-      "quality_score": 33.4,
-      "score": 76.7,
-      "reasons": [
-        "热度 43.3：谷德 7 天最热 第 4 名 · 阅读 1945 次→43.3",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -284,64 +289,72 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "渌口美术馆，株洲 / 地方工作室",
-      "url": "https://www.gooood.cn/lukou-art-museum-by-wcy-regional-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/2-egg-472x303.jpg",
-      "summary": "建筑  一座从桃林坡地里长出来的乡村美术馆 2026.10.26 收藏 分享",
-      "published_at": "2026-10-26T12:40:38+08:00",
+      "title": "深圳市龙华区创新实验学校（初中部） / 筑博设计-联合公设+厘米制造",
+      "url": "https://www.gooood.cn/longhua-innovation-experimental-school-by-zhubo-design-aao-cm-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/1-uwh-472x303.jpg",
+      "summary": "建筑  高密度双重挑战下校园的∞延展 2026.10.26 收藏 分享",
+      "published_at": "2026-10-26T16:42:43+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
       "meta": {
-        "area": "884.83 m²",
-        "year": "2026"
+        "area": "30950 m²",
+        "photographer": "夏至"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1879 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1994 次"
       ],
-      "views": 1879,
+      "views": 1994,
       "heat_rank": 5,
       "is_project": true,
-      "btype": "文化",
-      "region": "株洲",
+      "btype": "教育",
+      "region": "深圳",
       "city": "",
-      "architect": "地方工作室",
-      "heat_score": 41.8,
+      "architect": "筑博设计-联合公设+厘米制造",
+      "heat_score": 39.5,
       "quality_score": 33.4,
-      "score": 75.2,
+      "score": 72.9,
       "reasons": [
-        "热度 41.8：谷德 7 天最热 第 5 名 · 阅读 1879 次→41.8",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「株洲」+3；封面图+2"
+        "热度 39.5：谷德 7 天最热 第 5 名 · 阅读 1994 次→39.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 5
     },
     {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
-      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg",
-      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the 73-square-metre home is formed of cubic volumes clad in corrugated metal and black render, perched on a hill overlooking the nearby Lake Biwa. Drawings Previous Next Drawings Close Plan Plan Section S",
-      "published_at": "2026-10-29T19:30:00+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
-      "meta": {},
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "伊比萨 Roca Views 住宅 / Fran Silvestre Arquitectos",
+      "url": "https://www.archdaily.cn/zh/1187795/yi-bi-sa-roca-views-zhu-zhai-fran-silvestre-arquitectos",
+      "cover": "https://images.adsttc.com/media/images/6ae3/8e14/a8ed/4118/c6b5/a793/newsletter/house-in-ibiza-the-roca-views-fran-silvestre-arquitectos_1.jpg?1793297957",
+      "summary": "十月 29 © Jesús Orrico + 13 • 西班牙 建筑师: Fran Silvestre Arquitectos 面积 该建筑项目的领域 面积: 463 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187795/yi-bi-sa-roca-views-zhu-zhai-fran-silvestre-arquitectos Valentina Díaz 阅读更多 »",
+      "published_at": "2026-10-30T07:00:00+08:00",
+      "first_seen": "2026-10-30T08:25:47+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
+      "alt_url": "https://www.archdaily.com/1187789/house-in-ibiza-the-roca-views-fran-silvestre-arquitectos",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Jesús Orrico",
+        "image_count": 13,
+        "architect": "Fran Silvestre Arquitectos",
+        "area": "463 m²",
+        "year": "2026"
+      },
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 3 位"
+        "ArchDaily中国 首页第 15 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "日本",
+      "region": "西班牙",
       "city": "",
-      "architect": "",
-      "heat_score": 14.7,
-      "quality_score": 39.6,
-      "score": 54.3,
+      "architect": "Fran Silvestre Arquitectos",
+      "heat_score": 15.7,
+      "quality_score": 40.0,
+      "score": 55.7,
       "reasons": [
-        "热度 14.7：Dezeen 首页第 3 位→14.7",
-        "质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
+        "热度 15.7：ArchDaily中国 首页第 15 位→4.2；2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
     },
@@ -349,43 +362,47 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "灰色住宅 / Adam Kane Architects",
-      "url": "https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects",
-      "cover": "https://images.adsttc.com/media/images/6745/e509/61c7/c100/0136/9933/newsletter/AdamKaneArchitectsGreyHouse01.jpg?1732633884",
-      "summary": "十月 29 © Timothy Kaye + 11 • Daylesford, 澳大利亚 建筑师: Adam Kane Architects 面积 该建筑项目的领域 面积: 250 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 厂家 该项目中使用产品的品牌 厂家: Focus , Swisspearl https://www.archdaily.cn/zh/1063011/hui-se-zhu-zhai-adam-kane-architects Miwa Negoro 阅读更多 »",
-      "published_at": "2026-10-29T23:00:00+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
-      "alt_url": "https://www.archdaily.com/1024034/grey-house-adam-kane-architects",
+      "title": "AEME商业大楼 / Paz Arquitectura",
+      "url": "https://www.archdaily.cn/zh/995179/aemeshang-ye-da-lou-paz-arquitectura",
+      "cover": "https://images.adsttc.com/media/images/63ab/2234/adb1/7440/9e70/d1c9/newsletter/aeme-paz-arquitectura_7.jpg?1672159805",
+      "summary": "十月 30 © Cristóbal Palma + 36 • Ciudad de Guatemala, 瓜地马拉 建筑师: Paz Arquitectura 面积 该建筑项目的领域 面积: 10702 m² 项目年份 该建筑项目的竣工年份 项目年份: 2021 厂家 该项目中使用产品的品牌 厂家: Parklex Prodema , Aluver , Coverlam , Hunter Douglas , Neocrete , +1 Tecto -1 https://www.archdaily.cn/zh/995179/aemeshang-ye-da-lou-paz-arquitectura Pilar Caballero 阅读更多 »",
+      "published_at": "2026-10-30T23:00:00+08:00",
+      "first_seen": "2026-10-31T06:36:39+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
+      "alt_url": "https://www.archdaily.com/994469/edificio-aeme-paz-arquitectura",
       "bilingual": true,
       "meta": {
-        "photographer": "Timothy Kaye",
-        "image_count": 11,
-        "city": "Daylesford",
-        "country": "澳大利亚",
-        "architect": "Adam Kane Architects",
-        "area": "250 m²",
-        "year": "2023",
+        "photographer": "Cristóbal Palma",
+        "image_count": 36,
+        "city": "Ciudad de Guatemala",
+        "country": "瓜地马拉",
+        "architect": "Paz Arquitectura",
+        "area": "10702 m²",
+        "year": "2021",
         "brands": [
-          "Focus",
-          "Swisspearl"
+          "Parklex Prodema",
+          "Aluver",
+          "Coverlam",
+          "Hunter Douglas",
+          "Neocrete",
+          "+1 Tecto -1"
         ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 5 位"
       ],
       "is_project": true,
-      "btype": "住宅",
-      "region": "澳大利亚",
-      "city": "Daylesford",
-      "architect": "Adam Kane Architects",
-      "heat_score": 11.9,
+      "btype": "商业",
+      "region": "瓜地马拉",
+      "city": "Ciudad de Guatemala",
+      "architect": "Paz Arquitectura",
+      "heat_score": 12.3,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 52.3,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「澳大利亚」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集36张+8；类型「商业」+3；地域「瓜地马拉」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 7
     },
@@ -393,39 +410,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "VILLALTA 空间 / Artico Fracassi + Marco Zito",
-      "url": "https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito",
-      "cover": "https://images.adsttc.com/media/images/6adb/31dd/3271/8400/01d0/e3fa/newsletter/Villalta-19.jpg?1792750352",
-      "summary": "十月 29 © Marco Cappelletti + 26 • Udine, 意大利 建筑师: Artico Fracassi + Marco Zito 面积 该建筑项目的领域 面积: 8500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187680/villalta-kong-jian-artico-fracassi-plus-marco-zito Cristina Popescu 阅读更多 »",
-      "published_at": "2026-10-29T22:00:00+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
-      "alt_url": "https://www.archdaily.com/1187413/spazio-villalta-artico-fracassi-plus-marco-zito",
+      "title": "Rotiers - 布鲁塞尔46套住宅改造项目 / MULTIPLE Architecture & Urbanism",
+      "url": "https://www.archdaily.cn/zh/1187755/rotiers-bu-lu-sai-er-46tao-zhu-zhai-gai-zao-xiang-mu-multiple-architecture-and-urbanism",
+      "cover": "https://images.adsttc.com/media/images/6adf/8efb/3271/8400/01d0/ecee/newsletter/Rotiers_08_Bruno_Dias_Ventura.jpg?1793036122",
+      "summary": "十月 30 © Bruno Dias Ventura + 22 • Brussels, 比利时 建筑师: MULTIPLE Architecture & Urbanism 面积 该建筑项目的领域 面积: 3916 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187755/rotiers-bu-lu-sai-er-46tao-zhu-zhai-gai-zao-xiang-mu-multiple-architecture-and-urbanism Cristina Popescu 阅读更多 »",
+      "published_at": "2026-10-30T22:00:00+08:00",
+      "first_seen": "2026-10-31T06:36:39+08:00",
+      "last_seen": "2026-10-31T06:36:39+08:00",
+      "alt_url": "https://www.archdaily.com/1187565/rotiers-renovation-of-46-housing-units-in-brussels-multiple-architecture-and-urbanism",
       "bilingual": true,
       "meta": {
-        "photographer": "Marco Cappelletti",
-        "image_count": 26,
-        "city": "Udine",
-        "country": "意大利",
-        "architect": "Artico Fracassi + Marco Zito",
-        "area": "8500 m²",
+        "photographer": "Bruno Dias Ventura",
+        "image_count": 22,
+        "city": "Brussels",
+        "country": "比利时",
+        "architect": "MULTIPLE Architecture & Urbanism",
+        "area": "3916 m²",
         "year": "2025"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 7 位"
+        "ArchDaily中国 首页第 6 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "意大利",
-      "city": "Udine",
-      "architect": "Artico Fracassi + Marco Zito",
-      "heat_score": 11.5,
+      "region": "比利时",
+      "city": "Brussels",
+      "architect": "MULTIPLE Architecture & Urbanism",
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 51.5,
+      "score": 51.9,
       "reasons": [
-        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「意大利」+3；封面图+2；含面积数据+2"
+        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；知名事务所+6；类型「住宅」+3；地域「比利时」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
     },
@@ -468,42 +485,30 @@
       "rank": 9
     },
     {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "Umodzi Epicentre 社区中心 / Kamuna Design Studio",
-      "url": "https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio",
-      "cover": "https://images.adsttc.com/media/images/6ae0/b363/20d6/d82a/88e0/5b5e/newsletter/umodzi-epicentre-community-center-kamuna-design-studio_7.jpg?1793110913",
-      "summary": "十月 29 © Gareth Bentley + 11 • Vubwi, 赞比亚 建筑师: Kamuna Design Studio 面积 该建筑项目的领域 面积: 4500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187705/umodzi-epicentre-she-qu-zhong-xin-kamuna-design-studio Pratik Mour 阅读更多 »",
-      "published_at": "2026-10-29T19:00:00+08:00",
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
+      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the 73-square-metre home is formed of cubic volumes clad in corrugated metal and black render, perched on a hill overlooking the nearby Lake Biwa. Drawings Previous Next Drawings Close Plan Plan Section S",
+      "published_at": "2026-10-29T19:30:00+08:00",
       "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-10-30T08:25:47+08:00",
-      "alt_url": "https://www.archdaily.com/1187600/umodzi-epicentre-community-center-kamuna-design-studio",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Gareth Bentley",
-        "image_count": 11,
-        "city": "Vubwi",
-        "country": "赞比亚",
-        "architect": "Kamuna Design Studio",
-        "area": "4500 m²",
-        "year": "2025"
-      },
+      "last_seen": "2026-10-31T06:36:39+08:00",
+      "meta": {},
       "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 9 位"
-      ],
+      "heat_labels": [],
       "is_project": true,
-      "btype": "公共",
-      "region": "赞比亚",
-      "city": "Vubwi",
-      "architect": "Kamuna Design Studio",
-      "heat_score": 10.7,
-      "quality_score": 40.0,
-      "score": 50.7,
+      "btype": "住宅",
+      "region": "日本",
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 39.6,
+      "score": 39.6,
       "reasons": [
-        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「公共」+3；地域「赞比亚」+3；封面图+2；含面积数据+2"
+        "热度 0.0：无信号",
+        "质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 10
     }

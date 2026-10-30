@@ -701,5 +701,32 @@
  "https://www.gooood.cn/lukou-art-museum-by-wcy-regional-studio.htm": {
   "area": "884.83 m²",
   "year": "2026"
+ },
+ "https://www.gooood.cn/longhua-innovation-experimental-school-by-zhubo-design-aao-cm-design.htm": {
+  "area": "30950 m²",
+  "photographer": "夏至"
+ },
+ "https://www.archdaily.cn/zh/1187795/yi-bi-sa-roca-views-zhu-zhai-fran-silvestre-arquitectos": {
+  "year": "2026",
+  "photographer": "Jesús Orrico",
+  "image_count": 20
+ },
+ "https://www.archdaily.cn/zh/995179/aemeshang-ye-da-lou-paz-arquitectura": {
+  "year": "2021",
+  "photographer": "Cristóbal Palma",
+  "brands": [
+   "Parklex Prodema",
+   "Aluver",
+   "Coverlam",
+   "Hunter Douglas",
+   "Neocrete",
+   "Tecto"
+  ],
+  "image_count": 44
+ },
+ "https://www.archdaily.cn/zh/1187755/rotiers-bu-lu-sai-er-46tao-zhu-zhai-gai-zao-xiang-mu-multiple-architecture-and-urbanism": {
+  "year": "2025",
+  "photographer": "Bruno Dias Ventura",
+  "image_count": 30
  }
 }
