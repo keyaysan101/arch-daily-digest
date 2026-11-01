@@ -1,16 +1,16 @@
 {
-  "date": "2026-10-31",
-  "window_start": "2026-10-25",
-  "window_end": "2026-10-31",
+  "date": "2026-11-01",
+  "window_start": "2026-10-26",
+  "window_end": "2026-11-01",
   "window_days": 7,
-  "generated_at": "2026-11-01T08:27:16+08:00",
+  "generated_at": "2026-11-02T06:32:28+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 66,
       "oldest": "2026-09-28",
-      "newest": "2026-11-01",
+      "newest": "2026-11-02",
       "hit": 98,
       "stale_days": -1,
       "stale": false
@@ -20,7 +20,7 @@
       "ok": true,
       "total": 66,
       "oldest": "2026-09-28",
-      "newest": "2026-11-01",
+      "newest": "2026-11-02",
       "hit": 96,
       "stale_days": -1,
       "stale": false
@@ -31,27 +31,27 @@
       "total": 54,
       "oldest": "2026-10-26",
       "newest": "2026-10-31",
-      "hit": 58,
-      "stale_days": 0,
+      "hit": 57,
+      "stale_days": 1,
       "stale": false
     },
     {
       "source": "Dezeen",
       "ok": true,
       "total": 49,
-      "oldest": "2026-10-25",
+      "oldest": "2026-10-26",
       "newest": "2026-11-01",
       "hit": 51,
-      "stale_days": -1,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 6,
-      "oldest": "2026-10-30",
-      "newest": "2026-11-01",
-      "hit": 19,
+      "total": 4,
+      "oldest": "2026-10-31",
+      "newest": "2026-11-02",
+      "hit": 18,
       "stale_days": -1,
       "stale": false
     },
@@ -62,7 +62,7 @@
       "oldest": "2026-10-23",
       "newest": "2026-10-29",
       "hit": 15,
-      "stale_days": 2,
+      "stale_days": 3,
       "stale": false
     },
     {
@@ -72,17 +72,17 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 0,
-      "stale_days": 62,
+      "stale_days": 63,
       "stale": true
     }
   ],
-  "candidate_count": 337,
-  "new_stored": 0,
-  "store_total": 1109,
-  "after_dedupe": 215,
+  "candidate_count": 335,
+  "new_stored": 19,
+  "store_total": 1128,
+  "after_dedupe": 214,
   "noise_count": 11,
-  "heat_signal_count": 121,
-  "heat_hit_count": 69,
+  "heat_signal_count": 126,
+  "heat_hit_count": 71,
   "out_of_window_count": 2,
   "count": 10,
   "noise": [
@@ -153,15 +153,15 @@
       "summary": "景观  以“自然森谷”重塑商业景观 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T11:26:22+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
       "meta": {
         "photographer": "三棱镜"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2333 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2394 次"
       ],
-      "views": 2333,
+      "views": 2394,
       "heat_rank": 1,
       "is_project": true,
       "btype": "商业",
@@ -172,7 +172,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2333 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2394 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「西安」+3；封面图+2"
       ],
       "rank": 1
@@ -187,27 +187,27 @@
       "summary": "建筑  雪松木构的“间隙空间” 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T15:32:37+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
       "meta": {
         "year": "2024",
         "photographer": "Hiroyuki Hirai"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2275 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2376 次"
       ],
-      "views": 2275,
+      "views": 2376,
       "heat_rank": 2,
       "is_project": true,
       "btype": "文化",
       "region": "日本",
       "city": "",
       "architect": "",
-      "heat_score": 43.9,
+      "heat_score": 44.7,
       "quality_score": 33.4,
-      "score": 77.3,
+      "score": 78.1,
       "reasons": [
-        "热度 43.9：谷德 7 天最热 第 2 名 · 阅读 2275 次→43.9",
+        "热度 44.7：谷德 7 天最热 第 2 名 · 阅读 2376 次→44.7",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 2
@@ -222,64 +222,29 @@
       "summary": "建筑  在新旧编织之间，重塑非遗文化的当代表达 2026.10.26 收藏 分享",
       "published_at": "2026-10-26T11:04:48+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
       "meta": {
         "photographer": "存在建筑-建筑摄影"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2176 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2230 次"
       ],
-      "views": 2176,
+      "views": 2230,
       "heat_rank": 3,
       "is_project": true,
       "btype": "文化",
       "region": "成都",
       "city": "",
       "architect": "",
-      "heat_score": 42.0,
+      "heat_score": 41.9,
       "quality_score": 33.4,
-      "score": 75.4,
+      "score": 75.3,
       "reasons": [
-        "热度 42.0：谷德 7 天最热 第 3 名 · 阅读 2176 次→42.0",
+        "热度 41.9：谷德 7 天最热 第 3 名 · 阅读 2230 次→41.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「成都」+3；封面图+2"
       ],
       "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "渌口美术馆，株洲 / 地方工作室",
-      "url": "https://www.gooood.cn/lukou-art-museum-by-wcy-regional-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/2-egg-472x303.jpg",
-      "summary": "建筑  一座从桃林坡地里长出来的乡村美术馆 2026.10.26 收藏 分享",
-      "published_at": "2026-10-26T12:40:38+08:00",
-      "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
-      "meta": {
-        "area": "884.83 m²",
-        "year": "2026"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2031 次"
-      ],
-      "views": 2031,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "文化",
-      "region": "株洲",
-      "city": "",
-      "architect": "地方工作室",
-      "heat_score": 39.2,
-      "quality_score": 33.4,
-      "score": 72.6,
-      "reasons": [
-        "热度 39.2：谷德 7 天最热 第 4 名 · 阅读 2031 次→39.2",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「株洲」+3；封面图+2"
-      ],
-      "rank": 4
     },
     {
       "source": "谷德设计网",
@@ -291,28 +256,63 @@
       "summary": "建筑  高密度双重挑战下校园的∞延展 2026.10.26 收藏 分享",
       "published_at": "2026-10-26T16:42:43+08:00",
       "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
       "meta": {
         "area": "30950 m²",
         "photographer": "夏至"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2031 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2078 次"
       ],
-      "views": 2031,
-      "heat_rank": 5,
+      "views": 2078,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "教育",
       "region": "深圳",
       "city": "",
       "architect": "筑博设计-联合公设+厘米制造",
-      "heat_score": 39.2,
+      "heat_score": 39.1,
       "quality_score": 33.4,
-      "score": 72.6,
+      "score": 72.5,
       "reasons": [
-        "热度 39.2：谷德 7 天最热 第 5 名 · 阅读 2031 次→39.2",
+        "热度 39.1：谷德 7 天最热 第 4 名 · 阅读 2078 次→39.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「深圳」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "渌口美术馆，株洲 / 地方工作室",
+      "url": "https://www.gooood.cn/lukou-art-museum-by-wcy-regional-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/2-egg-472x303.jpg",
+      "summary": "建筑  一座从桃林坡地里长出来的乡村美术馆 2026.10.26 收藏 分享",
+      "published_at": "2026-10-26T12:40:38+08:00",
+      "first_seen": "2026-10-27T06:31:30+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
+      "meta": {
+        "area": "884.83 m²",
+        "year": "2026"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 2071 次"
+      ],
+      "views": 2071,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "文化",
+      "region": "株洲",
+      "city": "",
+      "architect": "地方工作室",
+      "heat_score": 38.9,
+      "quality_score": 33.4,
+      "score": 72.3,
+      "reasons": [
+        "热度 38.9：谷德 7 天最热 第 5 名 · 阅读 2071 次→38.9",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「株洲」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -320,41 +320,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Sunnyside Studios / Gluck+",
-      "url": "https://www.archdaily.cn/zh/1187885/sunnyside-studios-gluck-plus",
-      "cover": "https://images.adsttc.com/media/images/6ae0/b342/3271/8400/01d0/f0d6/newsletter/2112-PRO-02-HANA-L1700212a.jpg?1793110935",
-      "summary": "十月 31 © Here and Now Agency + 32 • Queens, 美国 建筑师: GLUCK+ 面积 该建筑项目的领域 面积: 350000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Nudura ICF https://www.archdaily.cn/zh/1187885/sunnyside-studios-gluck-plus Nana Dokua 阅读更多 »",
-      "published_at": "2026-10-31T23:00:00+08:00",
-      "first_seen": "2026-11-01T06:30:59+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
-      "alt_url": "https://www.archdaily.com/1187610/sunnyside-studios-gluck-plus",
+      "title": "U-shaped store / MANERA",
+      "url": "https://www.archdaily.cn/zh/1187765/u-shaped-store-manera",
+      "cover": "https://images.adsttc.com/media/images/6adb/8d91/3271/8400/01d0/e5b6/newsletter/04_U-shaped_store_Medellin_Colombia_MANERA__Juan_Camilo_Roa.jpg?1792773553",
+      "summary": "十一月 01 © Juan Camilo Roa + 13 • Medellín, 哥伦比亚 建筑师: MANERA 面积 该建筑项目的领域 面积: 170 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187765/u-shaped-store-manera Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-01T22:00:00+08:00",
+      "first_seen": "2026-11-02T06:32:20+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
+      "alt_url": "https://www.archdaily.com/1187442/u-shaped-store-manera",
       "bilingual": true,
       "meta": {
-        "photographer": "Here and Now Agency",
-        "image_count": 32,
-        "city": "Queens",
-        "country": "美国",
-        "architect": "GLUCK+",
-        "year": "2025",
-        "brands": [
-          "Nudura ICF"
-        ]
+        "photographer": "Juan Camilo Roa",
+        "image_count": 13,
+        "city": "Medellín",
+        "country": "哥伦比亚",
+        "architect": "MANERA",
+        "area": "170 m²",
+        "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
         "ArchDaily中国 首页第 5 位"
       ],
       "is_project": true,
-      "btype": null,
-      "region": "美国",
-      "city": "Queens",
-      "architect": "GLUCK+",
+      "btype": "商业",
+      "region": "哥伦比亚",
+      "city": "Medellín",
+      "architect": "MANERA",
       "heat_score": 12.3,
       "quality_score": 40.0,
       "score": 52.3,
       "reasons": [
         "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；地域「美国」+3；封面图+2；含材料厂家+1"
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「商业」+3；地域「哥伦比亚」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
     },
@@ -362,47 +360,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "Alonakia 住宅 / React Architects",
-      "url": "https://www.archdaily.cn/zh/1187750/alonakia-zhu-zhai-react-architects",
-      "cover": "https://images.adsttc.com/media/images/6ae1/f5eb/3271/8400/01d0/f5f2/newsletter/151.jpg?1793193601",
-      "summary": "十月 31 © Panagiotis Voumvakis + 19 • Paros, 希腊 建筑师: React Architects 面积 该建筑项目的领域 面积: 350 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Contain , Develime , FILPRO , Kritikos Efarmoges , LACOMAR , +5 PAFOS SA , SOFA DESIGN STUDIO , Subzero , THERMOPANART , halo Lighting -5 https://www.archdaily.cn/zh/1187750/alonakia-zhu-zhai-react-architects Cristina Popescu 阅读更多 »",
-      "published_at": "2026-10-31T22:00:00+08:00",
-      "first_seen": "2026-11-01T06:30:59+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
-      "alt_url": "https://www.archdaily.com/1187679/alonakia-react-architects",
+      "title": "Escola Sant Ignasi-Jesuïtes de Sarrià 学校 / Aquidos",
+      "url": "https://www.archdaily.cn/zh/1187898/escola-sant-ignasi-jesuites-de-sarria-xue-xiao-aquidos",
+      "cover": "https://images.adsttc.com/media/images/6ae3/7638/495d/0300/01a7/652a/newsletter/archdaily_SantIgnasi_1.jpg?1793291853",
+      "summary": "十一月 01 © Pol Viladoms + 9 • Barcelona, 西班牙 建筑师: aquidos 面积 该建筑项目的领域 面积: 3505 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187898/escola-sant-ignasi-jesuites-de-sarria-xue-xiao-aquidos Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-01T23:00:00+08:00",
+      "first_seen": "2026-11-02T06:32:20+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
+      "alt_url": "https://www.archdaily.com/1187783/escola-sant-ignasi-jesuites-de-sarria-aquidos",
       "bilingual": true,
       "meta": {
-        "photographer": "Panagiotis Voumvakis",
-        "image_count": 19,
-        "city": "Paros",
-        "country": "希腊",
-        "architect": "React Architects",
-        "area": "350 m²",
-        "year": "2025",
-        "brands": [
-          "Contain",
-          "Develime",
-          "FILPRO",
-          "Kritikos Efarmoges",
-          "LACOMAR",
-          "+5 PAFOS SA"
-        ]
+        "photographer": "Pol Viladoms",
+        "image_count": 9,
+        "city": "Barcelona",
+        "country": "西班牙",
+        "architect": "aquidos",
+        "area": "3505 m²",
+        "year": "2024"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 6 位"
+        "ArchDaily中国 首页第 4 位"
       ],
       "is_project": true,
-      "btype": "住宅",
-      "region": "希腊",
-      "city": "Paros",
-      "architect": "React Architects",
-      "heat_score": 11.9,
-      "quality_score": 40.0,
-      "score": 51.9,
+      "btype": "教育",
+      "region": "西班牙",
+      "city": "Barcelona",
+      "architect": "aquidos",
+      "heat_score": 12.8,
+      "quality_score": 39.0,
+      "score": 51.8,
       "reasons": [
-        "热度 11.9：ArchDaily中国 首页第 6 位→7.9；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集19张+5；知名事务所+6；类型「住宅」+3；地域「希腊」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 12.8：ArchDaily中国 首页第 4 位→8.8；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集9张+3；类型「教育」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
     },
@@ -446,39 +436,42 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "维涅杜住宅 / Apiacás Arquitetos",
-      "url": "https://www.archdaily.cn/zh/1151601/wei-nie-du-zhu-zhai-apiacas-arquitetos",
-      "cover": "https://images.adsttc.com/media/images/6901/00f7/243c/4d00/01f8/145a/newsletter/_07A0126_27_28_29_30.jpg?1761673510",
-      "summary": "十月 30 © Alessandro Kusuki + 18 • Vinhedo, 巴西 建筑师: Apiacás Arquitetos 面积 该建筑项目的领域 面积: 333 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 https://www.archdaily.cn/zh/1151601/wei-nie-du-zhu-zhai-apiacas-arquitetos Susanna Moreira 阅读更多 »",
-      "published_at": "2026-10-31T05:00:00+08:00",
-      "first_seen": "2026-10-31T06:36:39+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
-      "alt_url": "https://www.archdaily.com/1036541/house-in-vinhedo-apiacas-arquitetos",
+      "title": "科尼亚广场住宅与自行车博物馆扩建项目 / Yalin Architectural Design",
+      "url": "https://www.archdaily.cn/zh/1187606/ke-ni-ya-yan-chang-zhu-zhai-yu-zi-xing-che-bo-wu-guan-kuo-jian-xiang-mu-yalin-architectural-design",
+      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6ae0/af72/db5c/2001/882d/0aa3/slideshow/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design_25.jpg?1793109879&format=webp&width=640&height=580",
+      "summary": "十一月 01 视频 © Hacer Bozkurt + 31 • Konya, 土耳其 建筑师: Yalin Architectural Design 面积 该建筑项目的领域 面积: 7500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Asmaz https://www.archdaily.cn/zh/1187606/ke-ni-ya-yan-chang-zhu-zhai-yu-zi-xing-che-bo-wu-guan-kuo-jian-xiang-mu-yalin-architectural-design Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-01T09:00:00+08:00",
+      "first_seen": "2026-11-02T06:32:20+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
+      "alt_url": "https://www.archdaily.com/1187508/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design",
       "bilingual": true,
       "meta": {
-        "photographer": "Alessandro Kusuki",
-        "image_count": 18,
-        "city": "Vinhedo",
-        "country": "巴西",
-        "architect": "Apiacás Arquitetos",
-        "area": "333 m²",
-        "year": "2022"
+        "photographer": "Hacer Bozkurt",
+        "image_count": 31,
+        "city": "Konya",
+        "country": "土耳其",
+        "architect": "Yalin Architectural Design",
+        "area": "7500 m²",
+        "year": "2026",
+        "brands": [
+          "Asmaz"
+        ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 8 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "巴西",
-      "city": "Vinhedo",
-      "architect": "Apiacás Arquitetos",
-      "heat_score": 10.2,
+      "region": "土耳其",
+      "city": "Konya",
+      "architect": "Yalin Architectural Design",
+      "heat_score": 11.1,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 51.1,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「住宅」+3；地域「巴西」+3；封面图+2；含面积数据+2"
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；地域「土耳其」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 9
     },
@@ -486,29 +479,27 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "This week Foster + Partners unveiled the replacement for San Siro stadium",
-      "url": "https://www.dezeen.com/2026/10/31/foster-partners-replacement-san-siro-stadium",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/generali-stadium-san-siro-replacement-foster-partners-manica-ac-inter-milan-italy_dezeen_2364_sq-1-1024x1024.jpg",
-      "summary": "This week on Dezeen , architecture studio Foster + Partners and US studio Manica unveiled their design for Generali Stadium in Milan , which will become home to local football clubs AC Milan and Inter Milan. The stadium will seat 71,500 people and be built alongside the 99-year-old San Siro stadium, which will eventually be torn down. Generali Stadium will be defined by a structural facade compose",
-      "published_at": "2026-10-31T14:00:00+08:00",
-      "first_seen": "2026-11-01T06:30:59+08:00",
-      "last_seen": "2026-11-01T08:27:08+08:00",
+      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
+      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the 73-square-metre home is formed of cubic volumes clad in corrugated metal and black render, perched on a hill overlooking the nearby Lake Biwa. Drawings Previous Next Drawings Close Plan Plan Section S",
+      "published_at": "2026-10-29T19:30:00+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-11-02T06:32:20+08:00",
       "meta": {},
       "strong_heat": false,
-      "heat_labels": [
-        "Dezeen 首页第 2 位"
-      ],
-      "is_project": false,
-      "btype": "体育",
-      "region": "Milan",
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "日本",
       "city": "",
       "architect": "",
-      "heat_score": 15.3,
-      "quality_score": 24.6,
-      "score": 39.9,
+      "heat_score": 0.0,
+      "quality_score": 39.6,
+      "score": 39.6,
       "reasons": [
-        "热度 15.3：Dezeen 首页第 2 位→15.3",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「体育」+3；地域「Milan」+3；封面图+2"
+        "热度 0.0：无信号",
+        "质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 10
     }
