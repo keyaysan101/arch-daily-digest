@@ -785,5 +785,26 @@
   "brands": [
    "友猫设计"
   ]
+ },
+ "https://www.gooood.cn/prisma-xinjia-center.htm": {
+  "photographer": "岸木摄影 编辑：苏浩博 联系邮箱： aiden@pland.net.cn"
+ },
+ "https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten": {
+  "year": "2025",
+  "photographer": "Dominic Kummer",
+  "brands": [
+   "Arper Pix"
+  ],
+  "image_count": 27
+ },
+ "https://www.archdaily.cn/zh/1187850/mres-mold-architects": {
+  "year": "2026",
+  "photographer": "Giorgos Sfakianakis",
+  "image_count": 35
+ },
+ "https://www.archdaily.cn/zh/1187918/lion-green-road-zhu-zhai-xiang-mu-mary-duggan-architects": {
+  "year": "2022",
+  "photographer": "Lorenzo Zandri , Rob Parrish",
+  "image_count": 25
  }
 }

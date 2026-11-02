@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-01",
-  "window_start": "2026-10-26",
-  "window_end": "2026-11-01",
+  "date": "2026-11-02",
+  "window_start": "2026-10-27",
+  "window_end": "2026-11-02",
   "window_days": 7,
-  "generated_at": "2026-11-02T08:28:51+08:00",
+  "generated_at": "2026-11-03T06:37:37+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
-      "total": 66,
-      "oldest": "2026-09-28",
-      "newest": "2026-11-02",
-      "hit": 98,
+      "total": 64,
+      "oldest": "2026-09-30",
+      "newest": "2026-11-03",
+      "hit": 99,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "ArchDaily中国",
       "ok": true,
-      "total": 66,
-      "oldest": "2026-09-28",
-      "newest": "2026-11-02",
-      "hit": 96,
+      "total": 64,
+      "oldest": "2026-09-29",
+      "newest": "2026-11-03",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -29,28 +29,28 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-26",
-      "newest": "2026-10-31",
-      "hit": 55,
-      "stale_days": 1,
+      "oldest": "2026-10-27",
+      "newest": "2026-11-02",
+      "hit": 58,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "Dezeen",
       "ok": true,
       "total": 49,
-      "oldest": "2026-10-26",
-      "newest": "2026-11-01",
-      "hit": 51,
-      "stale_days": 0,
+      "oldest": "2026-10-27",
+      "newest": "2026-11-03",
+      "hit": 52,
+      "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 4,
-      "oldest": "2026-10-31",
-      "newest": "2026-11-02",
+      "total": 6,
+      "oldest": "2026-11-01",
+      "newest": "2026-11-03",
       "hit": 18,
       "stale_days": -1,
       "stale": false
@@ -58,11 +58,11 @@
     {
       "source": "有方空间",
       "ok": true,
-      "total": 16,
+      "total": 17,
       "oldest": "2026-10-23",
-      "newest": "2026-10-29",
-      "hit": 15,
-      "stale_days": 3,
+      "newest": "2026-11-02",
+      "hit": 12,
+      "stale_days": 0,
       "stale": false
     },
     {
@@ -72,18 +72,18 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 0,
-      "stale_days": 63,
+      "stale_days": 64,
       "stale": true
     }
   ],
-  "candidate_count": 333,
-  "new_stored": 0,
-  "store_total": 1128,
-  "after_dedupe": 212,
-  "noise_count": 11,
-  "heat_signal_count": 126,
-  "heat_hit_count": 71,
-  "out_of_window_count": 0,
+  "candidate_count": 336,
+  "new_stored": 63,
+  "store_total": 1191,
+  "after_dedupe": 214,
+  "noise_count": 10,
+  "heat_signal_count": 127,
+  "heat_hit_count": 68,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -135,11 +135,6 @@
       "title": "\"Things start in really simple gestures\" says Es Devlin of her Design Museum retrospective",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/10/27/other-worlds-es-devlin-exhibition-retrospective-design-museum-london-interview-video"
-    },
-    {
-      "title": "Dezeen readers decide 19 winners in Dezeen Awards architecture public vote",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/26/dezeen-awards-public-vote-winner-architecture-2026"
     }
   ],
   "items": [
@@ -153,15 +148,15 @@
       "summary": "景观  以“自然森谷”重塑商业景观 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T11:26:22+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
       "meta": {
         "photographer": "三棱镜"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2397 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2649 次"
       ],
-      "views": 2397,
+      "views": 2649,
       "heat_rank": 1,
       "is_project": true,
       "btype": "商业",
@@ -172,7 +167,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2397 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2649 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「西安」+3；封面图+2"
       ],
       "rank": 1
@@ -187,66 +182,30 @@
       "summary": "建筑  雪松木构的“间隙空间” 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T15:32:37+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
       "meta": {
         "year": "2024",
         "photographer": "Hiroyuki Hirai"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2381 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2607 次"
       ],
-      "views": 2381,
+      "views": 2607,
       "heat_rank": 2,
       "is_project": true,
       "btype": "文化",
       "region": "日本",
       "city": "",
       "architect": "",
-      "heat_score": 44.7,
+      "heat_score": 44.3,
       "quality_score": 33.4,
-      "score": 78.1,
+      "score": 77.7,
       "reasons": [
-        "热度 44.7：谷德 7 天最热 第 2 名 · 阅读 2381 次→44.7",
+        "热度 44.3：谷德 7 天最热 第 2 名 · 阅读 2607 次→44.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "海宁高新区中央文体中心，浙江 / 张·雷设计研究 azLa + 南京长江都市建筑设计股份有限公司",
-      "url": "https://www.gooood.cn/haining-central-cultural-sports-center-by-azla.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/02-6mu-472x303.jpg",
-      "summary": "建筑  片墙与折板之间的重屏漫游 2026.10.27 收藏 分享",
-      "published_at": "2026-10-27T09:41:34+08:00",
-      "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
-      "meta": {
-        "area": "40000 m²",
-        "year": "2022",
-        "photographer": "侯博文、DONG image、邱文锏、杨泽宇"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2057 次"
-      ],
-      "views": 2057,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": "文化",
-      "region": "浙江",
-      "city": "",
-      "architect": "",
-      "heat_score": 38.6,
-      "quality_score": 33.4,
-      "score": 72.0,
-      "reasons": [
-        "热度 38.6：谷德 7 天最热 第 3 名 · 阅读 2057 次→38.6",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「浙江」+3；封面图+2"
-      ],
-      "rank": 3
     },
     {
       "source": "谷德设计网",
@@ -258,7 +217,7 @@
       "summary": "建筑  百年阙境，焕然新生 2026.10.29 收藏 分享",
       "published_at": "2026-10-29T17:11:27+08:00",
       "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
       "meta": {
         "year": "2026",
         "photographer": "李玲玉",
@@ -268,21 +227,57 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 1733 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2288 次"
       ],
-      "views": 1733,
-      "heat_rank": 4,
+      "views": 2288,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "酒店",
       "region": "福州",
       "city": "",
       "architect": "己盒概念",
-      "heat_score": 32.5,
+      "heat_score": 38.9,
       "quality_score": 33.4,
-      "score": 65.9,
+      "score": 72.3,
       "reasons": [
-        "热度 32.5：谷德 7 天最热 第 4 名 · 阅读 1733 次→32.5",
+        "热度 38.9：谷德 7 天最热 第 3 名 · 阅读 2288 次→38.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「福州」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "海宁高新区中央文体中心，浙江 / 张·雷设计研究 azLa + 南京长江都市建筑设计股份有限公司",
+      "url": "https://www.gooood.cn/haining-central-cultural-sports-center-by-azla.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/02-6mu-472x303.jpg",
+      "summary": "建筑  片墙与折板之间的重屏漫游 2026.10.27 收藏 分享",
+      "published_at": "2026-10-27T09:41:34+08:00",
+      "first_seen": "2026-10-28T06:33:45+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
+      "meta": {
+        "area": "40000 m²",
+        "year": "2022",
+        "photographer": "侯博文、DONG image、邱文锏、杨泽宇"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 4 名 · 阅读 2201 次"
+      ],
+      "views": 2201,
+      "heat_rank": 4,
+      "is_project": true,
+      "btype": "文化",
+      "region": "浙江",
+      "city": "",
+      "architect": "",
+      "heat_score": 37.4,
+      "quality_score": 33.4,
+      "score": 70.8,
+      "reasons": [
+        "热度 37.4：谷德 7 天最热 第 4 名 · 阅读 2201 次→37.4",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「浙江」+3；封面图+2"
       ],
       "rank": 4
     },
@@ -290,34 +285,33 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "深圳市龙华区创新实验学校（初中部） / 筑博设计-联合公设+厘米制造",
-      "url": "https://www.gooood.cn/longhua-innovation-experimental-school-by-zhubo-design-aao-cm-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/1-uwh-472x303.jpg",
-      "summary": "建筑  高密度双重挑战下校园的∞延展 2026.10.26 收藏 分享",
-      "published_at": "2026-10-26T16:42:43+08:00",
-      "first_seen": "2026-10-27T06:31:30+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
+      "title": "PRISMA新嘉中心景观设计，上海 / PLAND博度景观设计",
+      "url": "https://www.gooood.cn/prisma-xinjia-center.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-dcc-472x303.png",
+      "summary": "景观  在43万平方米商业体脚下铺开柔软地表 2026.10.29 收藏 分享",
+      "published_at": "2026-10-29T10:30:28+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
       "meta": {
-        "area": "30950 m²",
-        "photographer": "夏至"
+        "photographer": "岸木摄影 编辑：苏浩博 联系邮箱： aiden@pland.net.cn"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1664 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1870 次"
       ],
-      "views": 1664,
+      "views": 1870,
       "heat_rank": 5,
       "is_project": true,
-      "btype": "教育",
-      "region": "深圳",
+      "btype": "商业",
+      "region": "上海",
       "city": "",
-      "architect": "筑博设计-联合公设+厘米制造",
-      "heat_score": 31.2,
+      "architect": "",
+      "heat_score": 31.8,
       "quality_score": 33.4,
-      "score": 64.6,
+      "score": 65.2,
       "reasons": [
-        "热度 31.2：谷德 7 天最热 第 5 名 · 阅读 1664 次→31.2",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「深圳」+3；封面图+2"
+        "热度 31.8：谷德 7 天最热 第 5 名 · 阅读 1870 次→31.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「上海」+3；封面图+2"
       ],
       "rank": 5
     },
@@ -325,81 +319,44 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "U-shaped store / MANERA",
-      "url": "https://www.archdaily.cn/zh/1187765/u-shaped-store-manera",
-      "cover": "https://images.adsttc.com/media/images/6adb/8d91/3271/8400/01d0/e5b6/newsletter/04_U-shaped_store_Medellin_Colombia_MANERA__Juan_Camilo_Roa.jpg?1792773553",
-      "summary": "十一月 01 © Juan Camilo Roa + 13 • Medellín, 哥伦比亚 建筑师: MANERA 面积 该建筑项目的领域 面积: 170 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187765/u-shaped-store-manera Nina Vuga 阅读更多 »",
-      "published_at": "2026-11-01T22:00:00+08:00",
-      "first_seen": "2026-11-02T06:32:20+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
-      "alt_url": "https://www.archdaily.com/1187442/u-shaped-store-manera",
+      "title": "多恩比恩 Haselstauden 社区中心 / Cukrowicz Nachbaur Architekten",
+      "url": "https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten",
+      "cover": "https://images.adsttc.com/media/images/6ae6/243b/bfbd/4c00/01ee/5e4d/newsletter/408_HADO_A12__Dominic_Kummer_f_r_Cukrowicz_Nachbaur_Architekten.jpg?1793467657",
+      "summary": "十一月 02 © Dominic Kummer + 19 • Dornbirn, 奥地利 建筑师: Cukrowicz Nachbaur Architekten 面积 该建筑项目的领域 面积: 1519 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Arper Pix https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-02T23:00:00+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
+      "alt_url": "https://www.archdaily.com/1187922/centre-haselstauden-dornbirn-cukrowicz-nachbaur-architekten",
       "bilingual": true,
       "meta": {
-        "photographer": "Juan Camilo Roa",
-        "image_count": 13,
-        "city": "Medellín",
-        "country": "哥伦比亚",
-        "architect": "MANERA",
-        "area": "170 m²",
-        "year": "2026"
+        "photographer": "Dominic Kummer",
+        "image_count": 19,
+        "city": "Dornbirn",
+        "country": "奥地利",
+        "architect": "Cukrowicz Nachbaur Architekten",
+        "area": "1519 m²",
+        "year": "2025",
+        "brands": [
+          "Arper Pix"
+        ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 5 位"
+        "ArchDaily中国 首页第 7 位"
       ],
       "is_project": true,
-      "btype": "商业",
-      "region": "哥伦比亚",
-      "city": "Medellín",
-      "architect": "MANERA",
-      "heat_score": 12.3,
+      "btype": "公共",
+      "region": "奥地利",
+      "city": "Dornbirn",
+      "architect": "Cukrowicz Nachbaur Architekten",
+      "heat_score": 11.5,
       "quality_score": 40.0,
-      "score": 52.3,
+      "score": 51.5,
       "reasons": [
-        "热度 12.3：ArchDaily中国 首页第 5 位→8.3；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「商业」+3；地域「哥伦比亚」+3；封面图+2；含面积数据+2"
+        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集19张+5；类型「公共」+3；地域「奥地利」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 6
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "Escola Sant Ignasi-Jesuïtes de Sarrià 学校 / Aquidos",
-      "url": "https://www.archdaily.cn/zh/1187898/escola-sant-ignasi-jesuites-de-sarria-xue-xiao-aquidos",
-      "cover": "https://images.adsttc.com/media/images/6ae3/7638/495d/0300/01a7/652a/newsletter/archdaily_SantIgnasi_1.jpg?1793291853",
-      "summary": "十一月 01 © Pol Viladoms + 9 • Barcelona, 西班牙 建筑师: aquidos 面积 该建筑项目的领域 面积: 3505 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187898/escola-sant-ignasi-jesuites-de-sarria-xue-xiao-aquidos Cristina Popescu 阅读更多 »",
-      "published_at": "2026-11-01T23:00:00+08:00",
-      "first_seen": "2026-11-02T06:32:20+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
-      "alt_url": "https://www.archdaily.com/1187783/escola-sant-ignasi-jesuites-de-sarria-aquidos",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Pol Viladoms",
-        "image_count": 9,
-        "city": "Barcelona",
-        "country": "西班牙",
-        "architect": "aquidos",
-        "area": "3505 m²",
-        "year": "2024"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 4 位"
-      ],
-      "is_project": true,
-      "btype": "教育",
-      "region": "西班牙",
-      "city": "Barcelona",
-      "architect": "aquidos",
-      "heat_score": 12.8,
-      "quality_score": 39.0,
-      "score": 51.8,
-      "reasons": [
-        "热度 12.8：ArchDaily中国 首页第 4 位→8.8；中英双版+4",
-        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集9张+3；类型「教育」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 7
     },
     {
       "source": "ArchDaily",
@@ -435,48 +392,83 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "MRES / MOLD Architects",
+      "url": "https://www.archdaily.cn/zh/1187850/mres-mold-architects",
+      "cover": "https://images.adsttc.com/media/images/6ae3/0cae/3271/8400/01d0/faa9/newsletter/2.jpg?1793264898",
+      "summary": "十一月 02 © Giorgos Sfakianakis + 28 • 希腊 建筑师: MOLD Architects 面积 该建筑项目的领域 面积: 270 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187850/mres-mold-architects Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-02T19:00:00+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
+      "alt_url": "https://www.archdaily.com/1187735/mres-mold-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Giorgos Sfakianakis",
+        "image_count": 28,
+        "architect": "MOLD Architects",
+        "area": "270 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 10 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "希腊",
+      "city": "",
+      "architect": "MOLD Architects",
+      "heat_score": 10.2,
+      "quality_score": 40.0,
+      "score": 50.2,
+      "reasons": [
+        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集28张+8；地域「希腊」+3；封面图+2；含面积数据+2"
+      ],
       "rank": 8
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "科尼亚广场住宅与自行车博物馆扩建项目 / Yalin Architectural Design",
-      "url": "https://www.archdaily.cn/zh/1187606/ke-ni-ya-yan-chang-zhu-zhai-yu-zi-xing-che-bo-wu-guan-kuo-jian-xiang-mu-yalin-architectural-design",
-      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6ae0/af72/db5c/2001/882d/0aa3/slideshow/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design_25.jpg?1793109879&format=webp&width=640&height=580",
-      "summary": "十一月 01 视频 © Hacer Bozkurt + 31 • Konya, 土耳其 建筑师: Yalin Architectural Design 面积 该建筑项目的领域 面积: 7500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Asmaz https://www.archdaily.cn/zh/1187606/ke-ni-ya-yan-chang-zhu-zhai-yu-zi-xing-che-bo-wu-guan-kuo-jian-xiang-mu-yalin-architectural-design Pratik Mour 阅读更多 »",
-      "published_at": "2026-11-01T09:00:00+08:00",
-      "first_seen": "2026-11-02T06:32:20+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
-      "alt_url": "https://www.archdaily.com/1187508/konya-square-houses-and-bicycle-museum-extension-yalin-architectural-design",
+      "title": "Lion Green Road 住宅项目 / Mary Duggan Architects",
+      "url": "https://www.archdaily.cn/zh/1187918/lion-green-road-zhu-zhai-xiang-mu-mary-duggan-architects",
+      "cover": "https://images.adsttc.com/media/images/6ae4/b158/a8ed/4101/8962/34de/medium_jpg/lion-green-road_5.jpg?1793372634",
+      "summary": "十一月 02 © Lorenzo Zandri + 18 • Coulsdon, 英国 建筑师: Mary Duggan Architects 面积 该建筑项目的领域 面积: 9549 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 https://www.archdaily.cn/zh/1187918/lion-green-road-zhu-zhai-xiang-mu-mary-duggan-architects Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-02T18:00:00+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
+      "alt_url": "https://www.archdaily.com/1187856/lion-green-road",
       "bilingual": true,
       "meta": {
-        "photographer": "Hacer Bozkurt",
-        "image_count": 31,
-        "city": "Konya",
-        "country": "土耳其",
-        "architect": "Yalin Architectural Design",
-        "area": "7500 m²",
-        "year": "2026",
-        "brands": [
-          "Asmaz"
-        ]
+        "photographer": "Lorenzo Zandri",
+        "image_count": 18,
+        "city": "Coulsdon",
+        "country": "英国",
+        "architect": "Mary Duggan Architects",
+        "area": "9549 m²",
+        "year": "2022"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 13 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "土耳其",
-      "city": "Konya",
-      "architect": "Yalin Architectural Design",
-      "heat_score": 11.1,
+      "region": "英国",
+      "city": "Coulsdon",
+      "architect": "Mary Duggan Architects",
+      "heat_score": 9.0,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 49.0,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；地域「土耳其」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
     },
@@ -484,27 +476,29 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "Minimalist House in Japan by FORM/Kouichi Kimura is \"reduced to the essentials\"",
-      "url": "https://www.dezeen.com/2026/10/29/minimalist-house-form-kouichi-kimura",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/10/minimalist-house-kouichi-kimura-architects-residential-japan-shiga_dezeen_2364_sq-1024x1024.jpg",
-      "summary": "A monochrome palette and pared-back, open interiors define the aptly named Minimalist House, a home in Japan designed by local studio FORM/Kouichi Kimura Architects . Located in Shiga prefecture, the 73-square-metre home is formed of cubic volumes clad in corrugated metal and black render, perched on a hill overlooking the nearby Lake Biwa. Drawings Previous Next Drawings Close Plan Plan Section S",
-      "published_at": "2026-10-29T19:30:00+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-02T08:28:45+08:00",
+      "title": "Arches create “animated silhouette” at red-brick apartment block in King’s Cross",
+      "url": "https://www.dezeen.com/2026/11/02/cadence-court-alison-brooks-architects-kings-cross",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/10/cadence-court-alison-brooks-architects-kings-cross-sq_dezeen_2364_col_0-1024x1024.jpg",
+      "summary": "Two-storey-tall arches frame entrances to Cadence, a mixed-use apartment block in King’s Cross , London, which has been completed by local studio Alison Brooks Architects . Positioned at the northern end of Lewis Cubitt Park, the prominent red-brick building combines 163 apartments alongside commercial and social spaces organised around an open-air courtyard. Signposted by its two towers, the buil",
+      "published_at": "2026-11-02T19:30:00+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T06:37:30+08:00",
       "meta": {},
       "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
+      "heat_labels": [
+        "Dezeen 首页第 2 位"
+      ],
+      "is_project": false,
       "btype": "住宅",
-      "region": "日本",
+      "region": "King",
       "city": "",
       "architect": "",
-      "heat_score": 0.0,
-      "quality_score": 39.6,
-      "score": 39.6,
+      "heat_score": 15.3,
+      "quality_score": 24.6,
+      "score": 39.9,
       "reasons": [
-        "热度 0.0：无信号",
-        "质量 39.6：建成项目格式+18；站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
+        "热度 15.3：Dezeen 首页第 2 位→15.3",
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「住宅」+3；地域「King」+3；封面图+2"
       ],
       "rank": 10
     }
