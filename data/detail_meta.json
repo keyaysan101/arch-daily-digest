@@ -812,5 +812,27 @@
   "year": "2026",
   "photographer": "Wang Xiao Xiao"
  },
- "https://www.gooood.cn/ascendant-tower-by-shop-architects.htm": {}
+ "https://www.gooood.cn/ascendant-tower-by-shop-architects.htm": {},
+ "https://www.archdaily.cn/zh/1187962/atrapos-an-ti-pa-luo-si-dao-xia-ri-zhu-zhai-area": {
+  "year": "2025",
+  "photographer": "Vassilis Makris",
+  "image_count": 26
+ },
+ "https://www.archdaily.cn/zh/1187837/ar-rahbah-zhan-ji-2026nian-an-man-she-ji-zhou-laith-matarweh-studio-for-architecture": {
+  "year": "2026",
+  "photographer": "Mohanad Jihad",
+  "image_count": 35
+ },
+ "https://www.archdaily.cn/zh/1187960/wa-te-wei-er-xin-zhou-li-xue-xiao-gunz-and-kunzle-architekt-star-innen": {
+  "year": "2026",
+  "photographer": "Federico Farinatti",
+  "brands": [
+   "Embru",
+   "Kvadrat",
+   "Lammhults",
+   "Lehni",
+   "Seledue"
+  ],
+  "image_count": 38
+ }
 }
