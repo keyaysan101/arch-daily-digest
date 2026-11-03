@@ -3,7 +3,7 @@
   "window_start": "2026-10-27",
   "window_end": "2026-11-02",
   "window_days": 7,
-  "generated_at": "2026-11-03T06:37:37+08:00",
+  "generated_at": "2026-11-03T08:29:55+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-10-27",
       "newest": "2026-11-02",
-      "hit": 58,
+      "hit": 57,
       "stale_days": 0,
       "stale": false
     },
@@ -48,8 +48,8 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 6,
-      "oldest": "2026-11-01",
+      "total": 5,
+      "oldest": "2026-11-02",
       "newest": "2026-11-03",
       "hit": 18,
       "stale_days": -1,
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 336,
-  "new_stored": 63,
-  "store_total": 1191,
-  "after_dedupe": 214,
+  "candidate_count": 335,
+  "new_stored": 2,
+  "store_total": 1193,
+  "after_dedupe": 213,
   "noise_count": 10,
   "heat_signal_count": 127,
-  "heat_hit_count": 68,
-  "out_of_window_count": 1,
+  "heat_hit_count": 66,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
     {
@@ -142,33 +142,37 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "西安源创Oya商业项目景观设计 / 物候设计",
-      "url": "https://www.gooood.cn/xian-yuanchuang-oya-retail-landscape-design-by-weho-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/02-vxa-472x303.jpg",
-      "summary": "景观  以“自然森谷”重塑商业景观 2026.10.27 收藏 分享",
-      "published_at": "2026-10-27T11:26:22+08:00",
-      "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "title": "今阙1912人文民宿，福建福州 / 己盒概念",
+      "url": "https://www.gooood.cn/jinque-1912-by-geomebox-concept.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/002-egh-472x303.jpg",
+      "summary": "建筑  百年阙境，焕然新生 2026.10.29 收藏 分享",
+      "published_at": "2026-10-29T17:11:27+08:00",
+      "first_seen": "2026-10-30T06:37:23+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "meta": {
-        "photographer": "三棱镜"
+        "year": "2026",
+        "photographer": "李玲玉",
+        "brands": [
+          "友猫设计"
+        ]
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2649 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2297 次"
       ],
-      "views": 2649,
+      "views": 2297,
       "heat_rank": 1,
       "is_project": true,
-      "btype": "商业",
-      "region": "西安",
+      "btype": "酒店",
+      "region": "福州",
       "city": "",
-      "architect": "物候设计",
+      "architect": "己盒概念",
       "heat_score": 45.0,
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2649 次→45.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「西安」+3；封面图+2"
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2297 次→45.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「福州」+3；封面图+2"
       ],
       "rank": 1
     },
@@ -182,104 +186,30 @@
       "summary": "建筑  雪松木构的“间隙空间” 2026.10.27 收藏 分享",
       "published_at": "2026-10-27T15:32:37+08:00",
       "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "meta": {
         "year": "2024",
         "photographer": "Hiroyuki Hirai"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2607 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2024 次"
       ],
-      "views": 2607,
+      "views": 2024,
       "heat_rank": 2,
       "is_project": true,
       "btype": "文化",
       "region": "日本",
       "city": "",
       "architect": "",
-      "heat_score": 44.3,
+      "heat_score": 39.6,
       "quality_score": 33.4,
-      "score": 77.7,
+      "score": 73.0,
       "reasons": [
-        "热度 44.3：谷德 7 天最热 第 2 名 · 阅读 2607 次→44.3",
+        "热度 39.6：谷德 7 天最热 第 2 名 · 阅读 2024 次→39.6",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「日本」+3；封面图+2"
       ],
       "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "今阙1912人文民宿，福建福州 / 己盒概念",
-      "url": "https://www.gooood.cn/jinque-1912-by-geomebox-concept.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/002-egh-472x303.jpg",
-      "summary": "建筑  百年阙境，焕然新生 2026.10.29 收藏 分享",
-      "published_at": "2026-10-29T17:11:27+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
-      "meta": {
-        "year": "2026",
-        "photographer": "李玲玉",
-        "brands": [
-          "友猫设计"
-        ]
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2288 次"
-      ],
-      "views": 2288,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": "酒店",
-      "region": "福州",
-      "city": "",
-      "architect": "己盒概念",
-      "heat_score": 38.9,
-      "quality_score": 33.4,
-      "score": 72.3,
-      "reasons": [
-        "热度 38.9：谷德 7 天最热 第 3 名 · 阅读 2288 次→38.9",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「福州」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "海宁高新区中央文体中心，浙江 / 张·雷设计研究 azLa + 南京长江都市建筑设计股份有限公司",
-      "url": "https://www.gooood.cn/haining-central-cultural-sports-center-by-azla.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/02-6mu-472x303.jpg",
-      "summary": "建筑  片墙与折板之间的重屏漫游 2026.10.27 收藏 分享",
-      "published_at": "2026-10-27T09:41:34+08:00",
-      "first_seen": "2026-10-28T06:33:45+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
-      "meta": {
-        "area": "40000 m²",
-        "year": "2022",
-        "photographer": "侯博文、DONG image、邱文锏、杨泽宇"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2201 次"
-      ],
-      "views": 2201,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": "文化",
-      "region": "浙江",
-      "city": "",
-      "architect": "",
-      "heat_score": 37.4,
-      "quality_score": 33.4,
-      "score": 70.8,
-      "reasons": [
-        "热度 37.4：谷德 7 天最热 第 4 名 · 阅读 2201 次→37.4",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「浙江」+3；封面图+2"
-      ],
-      "rank": 4
     },
     {
       "source": "谷德设计网",
@@ -291,72 +221,99 @@
       "summary": "景观  在43万平方米商业体脚下铺开柔软地表 2026.10.29 收藏 分享",
       "published_at": "2026-10-29T10:30:28+08:00",
       "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "meta": {
         "photographer": "岸木摄影 编辑：苏浩博 联系邮箱： aiden@pland.net.cn"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1870 次"
+        "谷德 7 天最热 第 3 名 · 阅读 1874 次"
       ],
-      "views": 1870,
-      "heat_rank": 5,
+      "views": 1874,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "商业",
       "region": "上海",
       "city": "",
       "architect": "",
-      "heat_score": 31.8,
+      "heat_score": 36.7,
       "quality_score": 33.4,
-      "score": 65.2,
+      "score": 70.1,
       "reasons": [
-        "热度 31.8：谷德 7 天最热 第 5 名 · 阅读 1870 次→31.8",
+        "热度 36.7：谷德 7 天最热 第 3 名 · 阅读 1874 次→36.7",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「上海」+3；封面图+2"
       ],
-      "rank": 5
+      "rank": 3
     },
     {
-      "source": "ArchDaily",
-      "weight": 1.0,
+      "source": "谷德设计网",
+      "weight": 0.92,
       "lang": "zh",
-      "title": "多恩比恩 Haselstauden 社区中心 / Cukrowicz Nachbaur Architekten",
-      "url": "https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten",
-      "cover": "https://images.adsttc.com/media/images/6ae6/243b/bfbd/4c00/01ee/5e4d/newsletter/408_HADO_A12__Dominic_Kummer_f_r_Cukrowicz_Nachbaur_Architekten.jpg?1793467657",
-      "summary": "十一月 02 © Dominic Kummer + 19 • Dornbirn, 奥地利 建筑师: Cukrowicz Nachbaur Architekten 面积 该建筑项目的领域 面积: 1519 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Arper Pix https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten Nina Vuga 阅读更多 »",
-      "published_at": "2026-11-02T23:00:00+08:00",
-      "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
-      "alt_url": "https://www.archdaily.com/1187922/centre-haselstauden-dornbirn-cukrowicz-nachbaur-architekten",
-      "bilingual": true,
+      "title": "罗湖妇儿大厦 · 深港社区服务中心，深圳 / GDG 香港元新设计",
+      "url": "https://www.gooood.cn/luohu-women-children-building-by-gdg.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-9or-472x303.png",
+      "summary": "建筑  高密度城区中的关怀空间 2026.10.28 收藏 分享",
+      "published_at": "2026-10-28T10:05:51+08:00",
+      "first_seen": "2026-10-29T06:35:43+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "meta": {
-        "photographer": "Dominic Kummer",
-        "image_count": 19,
-        "city": "Dornbirn",
-        "country": "奥地利",
-        "architect": "Cukrowicz Nachbaur Architekten",
-        "area": "1519 m²",
-        "year": "2025",
-        "brands": [
-          "Arper Pix"
-        ]
+        "city": "深港社区服务中心",
+        "country": "深圳",
+        "area": "6,000 m²",
+        "year": "2026",
+        "photographer": "Wang Xiao Xiao"
       },
-      "strong_heat": false,
+      "strong_heat": true,
       "heat_labels": [
-        "ArchDaily中国 首页第 7 位"
+        "谷德 7 天最热 第 4 名 · 阅读 1863 次"
       ],
+      "views": 1863,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "公共",
-      "region": "奥地利",
-      "city": "Dornbirn",
-      "architect": "Cukrowicz Nachbaur Architekten",
-      "heat_score": 11.5,
-      "quality_score": 40.0,
-      "score": 51.5,
+      "region": "深圳",
+      "city": "深港社区服务中心",
+      "architect": "",
+      "heat_score": 36.5,
+      "quality_score": 33.4,
+      "score": 69.9,
       "reasons": [
-        "热度 11.5：ArchDaily中国 首页第 7 位→7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集19张+5；类型「公共」+3；地域「奥地利」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 36.5：谷德 7 天最热 第 4 名 · 阅读 1863 次→36.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「公共」+3；地域「深圳」+3；封面图+2"
       ],
-      "rank": 6
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "当住宅不再只是城市的背景：上海淮海路8号 / SHoP Architects + gad",
+      "url": "https://www.gooood.cn/ascendant-tower-by-shop-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/002-p6q-472x303.jpg",
+      "summary": "建筑  从一个人的露台，到一座城市的共同记忆。 2026.10.30 收藏 分享",
+      "published_at": "2026-10-30T10:25:52+08:00",
+      "first_seen": "2026-10-31T06:36:39+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 5 名 · 阅读 1787 次"
+      ],
+      "views": 1787,
+      "heat_rank": 5,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "上海",
+      "city": "",
+      "architect": "SHoP Architects + gad",
+      "heat_score": 35.0,
+      "quality_score": 39.4,
+      "score": 74.4,
+      "reasons": [
+        "热度 35.0：谷德 7 天最热 第 5 名 · 阅读 1787 次→35.0",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「上海」+3；封面图+2"
+      ],
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -392,6 +349,49 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "多恩比恩 Haselstauden 社区中心 / Cukrowicz Nachbaur Architekten",
+      "url": "https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten",
+      "cover": "https://images.adsttc.com/media/images/6ae6/243b/bfbd/4c00/01ee/5e4d/newsletter/408_HADO_A12__Dominic_Kummer_f_r_Cukrowicz_Nachbaur_Architekten.jpg?1793467657",
+      "summary": "十一月 02 © Dominic Kummer + 19 • Dornbirn, 奥地利 建筑师: Cukrowicz Nachbaur Architekten 面积 该建筑项目的领域 面积: 1519 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Arper Pix https://www.archdaily.cn/zh/1187954/duo-en-bi-en-haselstauden-she-qu-zhong-xin-cukrowicz-nachbaur-architekten Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-02T23:00:00+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
+      "alt_url": "https://www.archdaily.com/1187922/centre-haselstauden-dornbirn-cukrowicz-nachbaur-architekten",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Dominic Kummer",
+        "image_count": 19,
+        "city": "Dornbirn",
+        "country": "奥地利",
+        "architect": "Cukrowicz Nachbaur Architekten",
+        "area": "1519 m²",
+        "year": "2025",
+        "brands": [
+          "Arper Pix"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "公共",
+      "region": "奥地利",
+      "city": "Dornbirn",
+      "architect": "Cukrowicz Nachbaur Architekten",
+      "heat_score": 11.1,
+      "quality_score": 40.0,
+      "score": 51.1,
+      "reasons": [
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集19张+5；类型「公共」+3；地域「奥地利」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
       "rank": 7
     },
     {
@@ -404,7 +404,7 @@
       "summary": "十一月 02 © Giorgos Sfakianakis + 28 • 希腊 建筑师: MOLD Architects 面积 该建筑项目的领域 面积: 270 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187850/mres-mold-architects Cristina Popescu 阅读更多 »",
       "published_at": "2026-11-02T19:00:00+08:00",
       "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "alt_url": "https://www.archdaily.com/1187735/mres-mold-architects",
       "bilingual": true,
       "meta": {
@@ -416,18 +416,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "希腊",
       "city": "",
       "architect": "MOLD Architects",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集28张+8；地域「希腊」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
@@ -442,7 +442,7 @@
       "summary": "十一月 02 © Lorenzo Zandri + 18 • Coulsdon, 英国 建筑师: Mary Duggan Architects 面积 该建筑项目的领域 面积: 9549 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 https://www.archdaily.cn/zh/1187918/lion-green-road-zhu-zhai-xiang-mu-mary-duggan-architects Cristina Popescu 阅读更多 »",
       "published_at": "2026-11-02T18:00:00+08:00",
       "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "alt_url": "https://www.archdaily.com/1187856/lion-green-road",
       "bilingual": true,
       "meta": {
@@ -456,18 +456,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 13 位"
+        "ArchDaily中国 首页第 14 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "英国",
       "city": "Coulsdon",
       "architect": "Mary Duggan Architects",
-      "heat_score": 9.0,
+      "heat_score": 8.6,
       "quality_score": 40.0,
-      "score": 49.0,
+      "score": 48.6,
       "reasons": [
-        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 9
@@ -482,7 +482,7 @@
       "summary": "Two-storey-tall arches frame entrances to Cadence, a mixed-use apartment block in King’s Cross , London, which has been completed by local studio Alison Brooks Architects . Positioned at the northern end of Lewis Cubitt Park, the prominent red-brick building combines 163 apartments alongside commercial and social spaces organised around an open-air courtyard. Signposted by its two towers, the buil",
       "published_at": "2026-11-02T19:30:00+08:00",
       "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-03T08:29:49+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
