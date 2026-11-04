@@ -435,7 +435,8 @@ def card(it: dict) -> str:
 
 
 def nav_bar(links: dict, current: str = "") -> str:
-    items = [("home", "最新一期"), ("archive", "往期归档"), ("library", "灵感库")]
+    items = [("home", "最新一期"), ("archive", "往期归档"), ("library", "灵感库"),
+             ("awards", "建筑奖项")]
     out = []
     for k, label in items:
         href = links.get(k)
@@ -451,7 +452,7 @@ def nav_bar(links: dict, current: str = "") -> str:
 def render(data: dict, links=None, current: str = "") -> str:
     d = data["date"]
     links = links or {"home": "index.html", "archive": "archive.html",
-                      "library": "library.html"}
+                      "library": "library.html", "awards": "awards.html"}
     # 收藏按钮需要日期，补进每条
     for it in data["items"]:
         it.setdefault("date", d)
@@ -549,7 +550,7 @@ def render_index(datas: list[dict], links=None, current: str = "archive") -> str
     if not datas:
         return "<html><body style='font-family:sans-serif;padding:40px'>暂无日报</body></html>"
     links = links or {"home": "index.html", "archive": "archive.html",
-                      "library": "library.html"}
+                      "library": "library.html", "awards": "awards.html"}
     rows = []
     for d in sorted(datas, key=lambda x: x["date"], reverse=True):
         items = d["items"][:3]
@@ -614,7 +615,7 @@ CSS_ARCHIVE = """
 def render_library(datas: list[dict], links=None) -> str:
     """全量灵感库：搜索 / 筛选 / 排序 / 收藏 / 导出"""
     links = links or {"home": "index.html", "archive": "archive.html",
-                      "library": "library.html"}
+                      "library": "library.html", "awards": "awards.html"}
     rows = []
     seen = set()
     for d in sorted(datas, key=lambda x: x["date"], reverse=True):
@@ -719,7 +720,8 @@ def write_site(datas: list[dict]) -> str:
     site = os.environ.get("SITE_DIR") or "site"
     os.makedirs(site, exist_ok=True)
     latest = max(datas, key=lambda x: x["date"])
-    links = {"home": "index.html", "archive": "archive.html", "library": "library.html"}
+    links = {"home": "index.html", "archive": "archive.html", "library": "library.html",
+             "awards": "awards.html"}
 
     for d in datas:
         with open(f"{site}/digest_{d['date']}.html", "w", encoding="utf-8") as f:
@@ -782,7 +784,8 @@ def main():
 def write_local_extras(datas: list[dict]) -> None:
     import glob
     os.makedirs("preview", exist_ok=True)
-    links = {"home": "index.html", "archive": "index.html", "library": "library.html"}
+    links = {"home": "index.html", "archive": "index.html", "library": "library.html",
+             "awards": "awards.html"}
 
     for d in datas:
         with open(f"preview/digest_{d['date']}.html", "w", encoding="utf-8") as f:
@@ -798,7 +801,8 @@ def write_local_extras(datas: list[dict]) -> None:
     latest = max(datas, key=lambda x: x["date"])
     root = os.path.join("..", "每日建筑案例.html")
     root_links = {"home": "", "archive": "arch-daily-digest/preview/index.html",
-                  "library": "arch-daily-digest/preview/library.html"}
+                  "library": "arch-daily-digest/preview/library.html",
+                  "awards": "arch-daily-digest/preview/awards.html"}
     with open(root, "w", encoding="utf-8") as f:
         f.write(render(latest, links=root_links, current="home"))
 
