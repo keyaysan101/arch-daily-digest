@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>世界建筑奖项观察</title>
+<link rel="icon" href="icon.svg">
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+
+  .grp{margin:18px 0 10px;font-size:13px;font-weight:700;color:#334155;
+       display:flex;align-items:center;gap:8px}
+  .grp span{font-size:11px;font-weight:400;color:#94a3b8}
+  .awd{background:#fff;border-radius:16px;padding:16px 14px;margin-bottom:14px;
+       box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .awd h2{font-size:16px;font-weight:700;line-height:1.4}
+  .awd h2 small{font-size:11px;font-weight:400;color:#94a3b8;display:block;margin-top:2px}
+  .badges{display:flex;flex-wrap:wrap;gap:5px;margin:10px 0 2px}
+  .bdg{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px;color:#334155}
+  .bdg.hot{background:#dc2626;color:#fff}
+  .bdg.gold{background:#b45309;color:#fff}
+  .who{margin-top:10px;padding:10px;background:#f8fafc;border-radius:10px}
+  .who+.who{margin-top:8px}
+  .who .t{font-size:13px;font-weight:600;line-height:1.55;color:#0f172a}
+  .who .l{font-size:11px;color:#7c3aed;margin-top:2px}
+  .who .d{font-size:12px;color:#334155;line-height:1.8;margin-top:5px}
+  .who .w{font-size:11px;color:#64748b;line-height:1.8;margin-top:5px}
+  .who .w b{color:#15803d;font-weight:600}
+  .prev{font-size:11px;color:#94a3b8;line-height:1.8;margin-top:10px;
+        border-top:1px dashed #e2e8f0;padding-top:8px}
+  .srcs{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+  .srcs a{font-size:11px;color:#2563eb;text-decoration:none;background:#eff6ff;
+          border-radius:6px;padding:4px 8px}
+  .srcs a:active{background:#dbeafe}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>世界建筑奖项观察</h1>
+    <div class="sub">近年国际权威建筑奖项的最新一届结果<br/>
+    数据截至 <b>2026-11-04</b>，全部来自奖项官网或权威媒体，来源可溯源<br/>
+    奖项一年或数年一届，公布后手动更新，<b>不参与每日抓取</b></div>
+    <div class="stats">
+      <div class="stat"><b>12</b>奖项体系</div>
+      <div class="stat"><b>18</b>获奖条目</div>
+      <div class="stat"><b>3</b>大类</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html" class="on">建筑奖项</a></div>
+  <div class="grp">终身成就类<span>授予建筑师个人（或事务所）的职业生涯最高荣誉</span></div><div class="awd"><h2>普利兹克建筑奖<small>The Pritzker Architecture Prize · 凯悦基金会（美国）</small></h2><div class="badges"><span class="bdg hot">国际公认「建筑界诺贝尔奖」</span><span class="bdg gold">2026 年 · 第 55 届</span><span class="bdg">公布 2026-03</span><span class="bdg">每年一届 · 1979 年创立</span></div><div class="who"><div class="t"> 1. 斯米尔扬·拉迪奇·克拉克 Smiljan Radić Clarke</div><div class="l">智利 · 圣地亚哥</div><div class="d">以「脆弱建筑」著称：蛇形画廊展亭（伦敦，2014）、比奥比奥大区剧院（康塞普西翁，2018）、NAVE 表演艺术中心（圣地亚哥，2015）</div><div class="w"><b>获奖理由：</b>评审词：他的作品以最激进而又最质朴的形式，彰显了天赋、远见与责任感</div></div><div class="prev">2025 年得主为中国建筑师刘家琨（成都）</div><div class="srcs"><a href="https://www.pritzkerprize.com/cn" target="_blank" rel="noopener">来源：普利兹克奖官网（中文）</a><a href="https://www.pritzkerprize.com/cn/届获奖者/simieryangladiqikelake" target="_blank" rel="noopener">来源：2026 得主官方页</a></div></div><div class="awd"><h2>UIA 金奖<small>UIA Gold Medal · 国际建筑师协会</small></h2><div class="badges"><span class="bdg hot">全球建筑师同行投票的最高荣誉</span><span class="bdg gold">2026 年（三年奖同批颁发）</span><span class="bdg">公布 2026-04-28 公布 · 2026-07 巴塞罗那圣家堂颁奖</span><span class="bdg">每三年一届 · 1984 年创立</span></div><div class="who"><div class="t"> 1. 爱德华多·索托·德·莫拉 Eduardo Souto de Moura</div><div class="l">葡萄牙</div><div class="d">以克制、精确、面向社会的建筑体系著称，2011 年普利兹克奖得主</div><div class="w"><b>获奖理由：</b>授奖词：以智慧、克制和深刻的社会责任感定义了一生的作品</div></div><div class="prev">同批三年奖：中国清华大学宋晔皓获 Robert Matthew 可持续人居环境奖；首届 UIA 青年建筑师奖授予西班牙 Cierto Estudio</div><div class="srcs"><a href="https://www.uia-architectes.org/?p=41353/" target="_blank" rel="noopener">来源：UIA 官方公告</a><a href="https://www.uia-architectes.org/?p=41371/" target="_blank" rel="noopener">来源：UIA 金奖专文</a></div></div><div class="awd"><h2>梁思成建筑奖<small>Liang Sicheng Architecture Prize · 中国建筑学会</small></h2><div class="badges"><span class="bdg hot">中国建筑界最高荣誉</span><span class="bdg gold">第十一届（2022）</span><span class="bdg">公布 2022</span><span class="bdg">约两年一届（国际奖项，面向全球建筑师）</span></div><div class="who"><div class="t"> 1. 张利（清华大学建筑学院院长）、胡越（北京建筑大学）</div><div class="l">中国</div><div class="d">张利主持北京冬奥会张家口赛区规划、国家跳台滑雪中心「雪如意」；胡越以北京城市建筑实践著称</div><div class="w"><b>获奖理由：</b>第十一届双得主；张利随后于 2026 年 7 月当选国际建筑师协会（UIA）主席，系中国建筑师首次</div></div><div class="prev">第十届（2020）：矶崎新（日本）、李兴钢（中国）</div><div class="srcs"><a href="https://baike.baidu.com/item/梁思成建筑奖" target="_blank" rel="noopener">来源：百度百科·历届名录</a><a href="https://news.bjd.com.cn/2026/07/04/11844884.shtml" target="_blank" rel="noopener">来源：张利当选 UIA 主席（京报网）</a></div></div><div class="grp">年度建筑类<span>授予单个建成项目的年度大奖</span></div><div class="awd"><h2>RIBA 斯特林奖<small>RIBA Stirling Prize · 英国皇家建筑师协会</small></h2><div class="badges"><span class="bdg hot">英国最重要的建筑奖项</span><span class="bdg gold">2026 年</span><span class="bdg">公布 2026-10-15</span><span class="bdg">每年一届 · 1996 年创立（2026 年恰逢 30 周年）</span></div><div class="who"><div class="t"> 1. Lion Green Road（狮绿路住宅区）</div><div class="l">英国 · 伦敦南部库尔兹登</div><div class="d">Mary Duggan Architects + RUFF Architects 为克罗伊登区政府设计的 157 户混合 tenure 住宅：5 栋十三边形砌块楼、坡地 8 米高差、公园化布局，一半以上为保障房，全成本低于每平米 2500 英镑</div><div class="w"><b>获奖理由：</b>评审词：在急需住房的时代证明高密度不必牺牲场所质量——用一致性规格加微妙错动，做出「有规模的住宅而不千篇一律」</div></div><div class="prev">30 周年公众票选史上最爱：伦敦伊丽莎白线（Grimshaw）</div><div class="srcs"><a href="https://www.riba.org/news/riba-stirling-prize-2026-winner-announced" target="_blank" rel="noopener">来源：RIBA 官方获奖公告</a><a href="https://www.bbc.co.uk/news/articles/cq8jzgl7zz9po" target="_blank" rel="noopener">来源：BBC 报道</a></div></div><div class="awd"><h2>欧盟当代建筑奖·密斯奖<small>EUmies Awards（EU Mies van der Rohe Award） · 欧盟委员会 + 密斯·凡·德·罗基金会</small></h2><div class="badges"><span class="bdg hot">欧盟境内最高建筑荣誉</span><span class="bdg gold">2026 年（从 410 件提名作品选出）</span><span class="bdg">公布 2026-04-16 于芬兰奥卢宣布</span><span class="bdg">两年一届 · 1988 年创立</span></div><div class="who"><div class="t"> 1. 沙勒罗瓦展览宫改造 Charleroi Palais des Expositions</div><div class="l">比利时 · 沙勒罗瓦</div><div class="d">AgwA + architecten jan de vylder inge vinck：对 1950 年代会展建筑「不拆改写」——保留结构体系、掏出三层空中花园、拆除构件转为城市家具，近乎零能耗</div><div class="w"><b>获奖理由：</b>评审词：把修复与再利用作为设计工具，让「与既有共存」成为当代欧洲建筑的核心方向</div></div><div class="who"><div class="t"> 2. 新锐奖：斯洛文尼亚国家话剧院临时空间</div><div class="l">斯洛维尼亚 · 卢布尔雅那</div><div class="d">Vidic Grohar Arhitekti：废弃工业厂房改为剧场，可逆建造、可拆卸木构</div><div class="w"><b>获奖理由：</b>把「临时性」做成持久的文化基础设施</div></div><div class="prev">评审团主席即 2026 普利兹克奖得主斯米尔扬·拉迪奇</div><div class="srcs"><a href="https://barcelona.spain.representation.ec.europa.eu/noticies-i-esdeveniments/noticies/ja-es-coneixen-els-guanyadors-dels-premis-eu-mies-2026-darquitectura-2026-04-17_it" target="_blank" rel="noopener">来源：欧盟委员会巴塞罗那办事处公告</a><a href="https://www.domusweb.it/en/news/gallery/2026/04/16/eumies-awards-2026-winners-european-architecture.amp.html" target="_blank" rel="noopener">来源：Domus 报道</a></div></div><div class="awd"><h2>阿卡汗建筑奖<small>Aga Khan Award for Architecture · 阿卡汗发展网络</small></h2><div class="badges"><span class="bdg hot">奖金总额 100 万美元、全球最大的建筑奖项之一；聚焦穆斯林社区的建成环境</span><span class="bdg gold">2025 年 · 第 16 届（7 个获奖项目共享奖金）</span><span class="bdg">公布 2025-09-02 于吉尔吉斯斯坦比什凯克宣布</span><span class="bdg">每三年一届 · 1977 年创立</span></div><div class="who"><div class="t"> 1. 西乌素图村民中心 West Wusutu Village Community Centre</div><div class="l">中国 · 呼和浩特</div><div class="d">内蒙古工大设计 / 张鹏举：回收砖砌筑的乡村社区中心，回应多民族聚居社区的文化需求</div><div class="w"><b>获奖理由：</b>评审词：在乡村人居的宏观环境中创造出共享而包容的社区微观世界</div></div><div class="who"><div class="t"> 2. 其余 6 个获奖项目</div><div class="l">孟加拉 / 埃及 / 伊朗 ×2 / 巴基斯坦 / 巴勒斯坦</div><div class="d">Khudi Bari 竹构自建房（Marina Tabassum，2025 普利兹克奖得主）、埃斯纳历史城区复兴、霍尔木兹岛 Majara 聚落、德黑兰 Jahad 地铁站改造、伊斯兰堡 Vision Pakistan、伯利恒 Wonder Cabinet</div><div class="w"><b>获奖理由：</b>普遍特征：低成本、在地材料、社区参与</div></div><div class="prev">16 届以来共授奖 136 个项目</div><div class="srcs"><a href="https://the.akdn/en/how-we-work/our-agencies/aga-khan-trust-culture/aga-khan-award-for-architecture/aga-khan-award-for-architecture-2023-2025-cycle/aga-khan-award-for-architecture-2025-winners" target="_blank" rel="noopener">来源：AKDN 官方获奖名单</a><a href="https://www.archdaily.com/zh/1033699/2025a-qia-han-jian-zhu-jiang-jie-xiao-zhong-guo-jian-zhu-shi-zhang-peng-ju-xiang-mu-xi-wu-su-tu-cun-min-zhong-xin-huo-jiang" target="_blank" rel="noopener">来源：ArchDaily 中文报道（中国项目获奖）</a></div></div><div class="awd"><h2>WAF 世界建筑节年度大奖<small>World Building of the Year · 世界建筑节（WAF）</small></h2><div class="badges"><span class="bdg hot">全球规模最大的建筑现场评审奖项</span><span class="bdg gold">2025 年（迈阿密，WAF 首次落地美国）</span><span class="bdg">公布 2025-11</span><span class="bdg">每年一届 · 现场终评</span></div><div class="who"><div class="t"> 1. Las Chumberas 救世主教堂与社区中心</div><div class="l">西班牙 · 特内里费岛</div><div class="d">Fernando Menis：混凝土折面体块堆叠的教堂，本身规模不大却拿下全场最高奖</div><div class="w"><b>获奖理由：</b>以朴素尺度传递精神力量，呼应本届主题「Hearts and Minds」</div></div><div class="who"><div class="t"> 2. 同类单项冠军</div><div class="l">不丹 / 奥地利 / 中国</div><div class="d">未来项目奖：不丹 Gelephu 国际机场（BIG）；室内奖：格拉茨医院 Fractal Chapel（INNOCAD）；景观奖：新疆天山江雾生态走廊「Embracing Flood」（土人设计 Turenscape）</div><div class="w"><b>获奖理由：</b>中国团队在 WAF 景观类别再度获奖</div></div><div class="prev">WAF 2026（美国佛罗里达）结果待 11 月底公布</div><div class="srcs"><a href="https://www.worldarchitecturefestival.com/WAF2026/en/page/winners-2025" target="_blank" rel="noopener">来源：WAF 官方 2025 得主页</a><a href="https://www.riba.org/news/riba-at-world-architecture-festival-in-miami-beach" target="_blank" rel="noopener">来源：RIBA 现场报道</a></div></div><div class="awd"><h2>Dezeen Awards 年度建筑项目<small>Dezeen Awards · Architecture Project of the Year · Dezeen（英国）</small></h2><div class="badges"><span class="bdg hot">全球媒体报道量最大的设计媒体奖项</span><span class="bdg gold">2025 年（4300+ 参评、17 个建筑类别）</span><span class="bdg">公布 2025-11-25 伦敦颁奖</span><span class="bdg">每年一届 · 2018 年创立</span></div><div class="who"><div class="t"> 1. 苏黎世大学儿童医院</div><div class="l">瑞士 · 苏黎世</div><div class="d">Herzog &amp; de Meuron：96,200㎡ 木构医疗城邦——急性病区 + 研究中心由绿地串联，以「小镇」模型缓解儿童就医恐惧</div><div class="w"><b>获奖理由：</b>评审词：医院罕有杰作，而这就是——应成为医疗建筑的标准</div></div><div class="who"><div class="t"> 2. 其他亮点类别</div><div class="l">西班牙 / 乌干达 / 芬兰</div><div class="d">住宅奖：巴塞罗那 La Comunidad（无功能预设的性别平等户型）；文化奖：乌干达 Bidi Bidi 表演艺术中心（Hassell，全球最大难民营中的生砖剧场）；年度城市：赫尔辛基木构总部 Katajanokan Laituri</div><div class="w"><b>获奖理由：</b>获奖项目分布 15 个国家</div></div><div class="prev">2026 届评选已启动，结果预计 2026 年 11 月底公布</div><div class="srcs"><a href="https://www.dezeen.com/2025/12/02/dezeen-awards-2025-party-london/" target="_blank" rel="noopener">来源：Dezeen 官方报道</a><a href="https://architecturelist.com/?p=51462" target="_blank" rel="noopener">来源：获奖全名单（Architecture List）</a></div></div><div class="awd"><h2>ArchDaily 年度建筑奖<small>ArchDaily Building of the Year Awards · ArchDaily</small></h2><div class="badges"><span class="bdg hot">全球最大的公众投票建筑奖项</span><span class="bdg gold">2026 年 · 第 17 届（100+ 国家 12 万张选票，创纪录）</span><span class="bdg">公布 2026-02-20</span><span class="bdg">每年一届 · 2010 年创立</span></div><div class="who"><div class="t"> 1. 15 个类别全部由读者投票产生</div><div class="l">14 个国家</div><div class="d">文化类：大阪世博会巴林馆「单桅帆船的解剖」（Lina Ghotmeh）；工业类：葡萄牙罐头厂改造（OOD）；办公类：葡萄牙电力总部（ELEMENTAL）；公共与景观类：雅加达格栅创意花园（RAD+ar，回收 4.8 吨周塑料废料）</div><div class="w"><b>获奖理由：</b>公众票选结果反映行业偏好：材料智慧、人性化尺度、社会责任</div></div><div class="prev">与「热度评分」口径最接近的奖项——完全由大众阅读行为决定</div><div class="srcs"><a href="https://www.archdaily.cn/cn/1038904/2026-nian-archdaily-nian-du-jian-zhu-da-jiang-15-ge-huo-jiang-xiang-mu" target="_blank" rel="noopener">来源：ArchDaily 中文获奖全名单</a></div></div><div class="grp">专题类<span>聚焦特定类型的权威奖项</span></div><div class="awd"><h2>CTBUH 年度高层建筑奖<small>Best Tall Building Worldwide · 高层建筑与城市人居环境委员会（CTBUH / CVU）</small></h2><div class="badges"><span class="bdg hot">全球高层建筑领域最高奖</span><span class="bdg gold">2025 年（多伦多年会，100+ 项目入围）</span><span class="bdg">公布 2025-10-08</span><span class="bdg">每年一届</span></div><div class="who"><div class="t"> 1. ZIN in No(o)rd</div><div class="l">比利时 · 布鲁塞尔（111 米）</div><div class="d">Jaspers-Eyers Architects 等：1970 年代办公综合体改造为垂直街区（办公+住宅+酒店+公共设施）</div><div class="w"><b>获奖理由：</b>「垂直城市化已成年」——不建新楼也能拿高层最高奖，改造取代地标成为主旋律</div></div><div class="who"><div class="t"> 2. 分项冠军</div><div class="l">马来西亚 / 中国 / 新加坡</div><div class="d">300 米以上组：吉隆坡 Merdeka 118；亚洲区最佳：香港 The Henderson（扎哈事务所）；十年奖（并列）：上海中心大厦 &amp; 新加坡 Sky Habitat</div><div class="w"><b>获奖理由：</b>上海中心获十年奖代表超高层运营可持续性的国际认可</div></div><div class="prev">2026 年度评选已启动（Wasl Tower、Merdeka 118 等已获卓越奖）</div><div class="srcs"><a href="https://www.ctbuh.org/news/council-names-2025-best-tall-building-worldwide" target="_blank" rel="noopener">来源：CTBUH 官方公告</a></div></div><div class="awd"><h2>Holcim 可持续建筑奖<small>Holcim Foundation Awards · Holcim 基金会（瑞士）</small></h2><div class="badges"><span class="bdg hot">全球最重要的可持续建造奖项（总奖金 100 万美元）</span><span class="bdg gold">2025 年 · 第 8 届（20 个获奖项目：5 个分区大奖 + 15 个分区奖）</span><span class="bdg">公布 2025-11-20 于威尼斯颁奖</span><span class="bdg">两年一届 · 2004 年创立</span></div><div class="who"><div class="t"> 1. 五个分区大奖</div><div class="l">孟加拉 / 科索沃 / 巴西 / 巴勒斯坦 / 美国</div><div class="d">老达卡中央监狱保护改造（FORM.3）；普里什蒂纳 Art-Tek 砖厂再生（Rafi Segal）；阿雷格里港抗洪学校（Andrade Morettin + Sauermartins）；Qalandiya 绿色历史迷宫（RIWAQ）；波士顿 Moakley 公园（Stoss）</div><div class="w"><b>获奖理由：</b>评审主题：把约束转化为能力——再利用、再生、邀请社区参与</div></div><div class="who"><div class="t"> 2. 亚太区获奖的中国项目</div><div class="l">中国 · 深圳</div><div class="d">坪山河碧道景观（Sasaki）：40 公里河流廊道转为生物多样性公共景观，兼顾防洪与降温</div><div class="w"><b>获奖理由：</b>中国项目连续两届入围获奖</div></div><div class="prev">评审团主席：藤本壮介、Kjetil Trædal Thorsen、Jeanne Gang、Sandra Barclay、Lina Ghotmeh；马岩松任亚太区评委</div><div class="srcs"><a href="https://awards.holcimfoundation.org/2025-winners" target="_blank" rel="noopener">来源：Holcim 基金会官方获奖页</a></div></div><div class="awd"><h2>RIBA 国际奖<small>RIBA International Prize · 英国皇家建筑师协会</small></h2><div class="badges"><span class="bdg hot">面向全球最卓越新建筑的 RIBA 最高国际荣誉</span><span class="bdg gold">2026 年</span><span class="bdg">公布 2026-10</span><span class="bdg">两年一届</span></div><div class="who"><div class="t"> 1. Green Field Factory（绿野工厂）</div><div class="l">孟加拉国</div><div class="d">Karupannya Rangpur 纺织厂：为工人而建的工业建筑打败全球对手获奖；同时 MAKER Architecten（比利时）获国际新锐建筑师奖</div><div class="w"><b>获奖理由：</b>连续两届国际奖都颁给「为普通使用者服务」的建筑，行业价值取向信号明确</div></div><div class="srcs"><a href="https://www.architecture.com/" target="_blank" rel="noopener">来源：RIBA 官网新闻</a></div></div>
+  <div class="ft">收录近年国际权威建筑奖项的最新一届结果。静态维护、不参与每日更新；所有条目均来自奖项官方网站或权威媒体报道，来源可溯源。<br/>
+  奖项一年一届或数年一届，本页在每年主要奖项公布后手动更新即可</div>
+</div>
+</body>
+</html>
