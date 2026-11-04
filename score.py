@@ -48,7 +48,12 @@ NOISE_WORDS = re.compile(
     r"|\bpodcast\b|\bopinion\b|advertorial|\bsponsored\b|partner content"
     r"|\bpartners with\b|\bconference\b|\bwebinar\b|\bnewsletter\b|five new products"
     r"|\bround-?ups?\b|\blookbook\b|in[- ]pictures|dezeen awards|\bweekly round\b"
-    r"|招聘|征文启事|直播预告|线上课程|讲座报名|讣告|榜单|招生简章|实习生招募|合作推广)",
+    r"|this week on dezeen|\bthis week\b|\bweek in review\b"
+    r"|open for submissions|call for (?:entries|submissions|papers)"
+    r"|now accepting (?:entries|submissions)|submission deadline"
+    r"|student project awards|awards? (?:are )?(?:now )?open|winners announced"
+    r"|招聘|征文启事|直播预告|线上课程|讲座报名|讣告|榜单|招生简章|实习生招募|合作推广"
+    r"|竞赛报名|作品征集|获奖公布|征集公告)",
     re.I,
 )
 
