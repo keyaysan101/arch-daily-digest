@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import datetime as dt
+import glob
 import json
 import os
 import sys
@@ -19,6 +20,63 @@ except Exception:
 N = int(os.environ.get("DIGEST_N", "10"))
 # 候选窗口天数：热度需要时间沉淀，只筛单日等于把热度信号全排除（见 store.items_in_range）
 WINDOW_DAYS = int(os.environ.get("WINDOW_DAYS", "7"))
+# 已刊回溯期：最近这么多期的日报里出现过的条目不再重复入选
+# 窗口是 7 天而热榜变化慢，不排重会连续多期推送同几个热榜项目
+RECENT_DAYS = int(os.environ.get("RECENT_DIGEST_DAYS", "6"))
+
+
+def _canon(url: str) -> str:
+    """把 ArchDaily 中英双语版本归一到同一个 key。
+
+    同一个项目在中英文站是两个不同 id（1187795 vs 1187801），
+    靠 URL 直接比对会漏掉跨语言重复，这里用 bilingual_cache 的映射归一。
+    """
+    return (url or "").rstrip("/").lower()
+
+
+def _load_bilingual_map() -> dict:
+    path = os.path.join("data", "bilingual_cache.json")
+    if not os.path.exists(path):
+        return {}
+    try:
+        with open(path, encoding="utf-8") as f:
+            raw = json.load(f)
+    except Exception:
+        return {}
+    m = {}
+    for k, v in raw.items():
+        if not isinstance(v, str):
+            continue
+        a, b = _canon(k), _canon(v)
+        m[a] = b
+        m[b] = b  # 归一方向统一指向英文站地址
+    return m
+
+
+def recent_published_keys(target_date: dt.date, days: int = RECENT_DAYS) -> set:
+    """最近 days 期日报已刊出的条目 key 集合（不含 target_date 当期）。"""
+    bl = _load_bilingual_map()
+    keys = set()
+    for f in glob.glob(os.path.join("data", "digest_*.json")):
+        try:
+            with open(f, encoding="utf-8") as fh:
+                d = json.load(fh)
+        except Exception:
+            continue
+        dd = d.get("date", "")
+        if not dd or dd >= target_date.isoformat():
+            continue
+        try:
+            gap = (target_date - dt.date.fromisoformat(dd)).days
+        except Exception:
+            continue
+        if gap > days:
+            continue
+        for it in d.get("items", []):
+            u = _canon(it.get("url", ""))
+            if u:
+                keys.add(bl.get(u, u))
+    return keys
 
 
 def build(target_date: dt.date, n=N, verbose=True, fetch=True,
@@ -93,6 +151,27 @@ def build(target_date: dt.date, n=N, verbose=True, fetch=True,
         stats.append(row)
 
     picked, dropped, info = score_run(items, n, heat_sig)
+
+    # 4b) 已刊排重：优先用近 RECENT_DAYS 期未出现过的条目，
+    # 新鲜条目不足 n 时再用往期条目补齐（宁可重复也不要不满一期）。
+    try:
+        bl = _load_bilingual_map()
+        used = recent_published_keys(target_date)
+        fresh = [x for x in items if bl.get(_canon(x["url"]), _canon(x["url"])) not in used]
+        repeated = [x for x in items if bl.get(_canon(x["url"]), _canon(x["url"])) in used]
+        if used and fresh:
+            picked, dropped, info = score_run(fresh, n, heat_sig)
+            if len(picked) < n and repeated:
+                fill, _, _ = score_run(repeated, n - len(picked), heat_sig)
+                have = {x["url"] for x in picked}
+                for x in fill:
+                    if len(picked) >= n:
+                        break
+                    if x["url"] not in have:
+                        picked.append(x)
+                        have.add(x["url"])
+    except Exception as e:
+        print(f"  [提示] 已刊排重跳过（不影响出刊）：{type(e).__name__} {str(e)[:80]}")
 
     for i, it in enumerate(picked, 1):
         it["rank"] = i
