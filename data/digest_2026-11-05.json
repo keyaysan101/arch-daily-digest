@@ -1,0 +1,492 @@
+{
+  "date": "2026-11-05",
+  "window_start": "2026-10-30",
+  "window_end": "2026-11-05",
+  "window_days": 7,
+  "generated_at": "2026-11-06T06:45:17+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-05",
+      "newest": "2026-11-06",
+      "hit": 99,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-02",
+      "newest": "2026-11-06",
+      "hit": 95,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-10-30",
+      "newest": "2026-11-05",
+      "hit": 61,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-10-30",
+      "newest": "2026-11-06",
+      "hit": 52,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 5,
+      "oldest": "2026-11-05",
+      "newest": "2026-11-06",
+      "hit": 26,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 17,
+      "oldest": "2026-10-27",
+      "newest": "2026-11-05",
+      "hit": 5,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-07-28",
+      "newest": "2026-08-30",
+      "hit": 0,
+      "stale_days": 67,
+      "stale": true
+    }
+  ],
+  "candidate_count": 338,
+  "new_stored": 59,
+  "store_total": 1370,
+  "after_dedupe": 207,
+  "noise_count": 10,
+  "heat_signal_count": 102,
+  "heat_hit_count": 55,
+  "out_of_window_count": 3,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Sharjah Architecture Triennial 2026 Announces Opening Programme Featuring Performances, Films, and Conference",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188119/sharjah-architecture-triennial-2026-announces-opening-programme-featuring-performances-films-and-conference"
+    },
+    {
+      "title": "Milan’s New San Siro Stadium and the BIAU’s 12 Awarded Projects: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188109/milans-new-san-siro-stadium-and-the-biaus-12-awarded-projects-this-weeks-review"
+    },
+    {
+      "title": "Concept car that transforms from SUV to pickup is \"a symbol of freedom\" says Fiat CEO",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview"
+    },
+    {
+      "title": "Final chance to buy Dezeen Awards 2026 party tickets",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/04/dezeen-awards-2026-party-tickets-final-chance"
+    },
+    {
+      "title": "Lapalma presents a cross-section of its catalogue on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/04/lapalma-colourways-furniture-seating-dezeen-showroom"
+    },
+    {
+      "title": "podcast: curing urban isolation through collective care and architectural intuition",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-03-04"
+    },
+    {
+      "title": "Making the City: ArchDaily Student Project Awards 2027 Open for Submissions",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1187728/making-the-city-archdaily-student-project-awards-2027-open-for-submissions"
+    },
+    {
+      "title": "‘dismantling should be designed, not improvised’: THISS studio on radical reuse in architecture",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/thiss-studio-tamsin-hanke-radical-reuse-exhibition-design-interview"
+    },
+    {
+      "title": "podcast: architecture that listens through nature and site intelligence",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-01-02"
+    },
+    {
+      "title": "\"Lady in Blue is as fitting a monument to our era as any I can imagine\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/10/30/lady-in-blue-trafalgar-square-priya-khanchandani-opinion"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "红仓文创产业园片区文化艺术提升，成都 / 目坦艺术MTA",
+      "url": "https://www.gooood.cn/hongcang-cultural-arts-upgrade.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/hongchang-cover-700x449-472x303.jpg",
+      "summary": "景观  工业遗存、文艺生活与数字未来交织的公共艺术更新 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T15:19:07+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {
+        "area": "1400 m²",
+        "year": "2026"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 8 名 · 阅读 1732 次"
+      ],
+      "views": 1732,
+      "heat_rank": 8,
+      "is_project": true,
+      "btype": "文化",
+      "region": "成都",
+      "city": "",
+      "architect": "目坦艺术MTA",
+      "heat_score": 28.1,
+      "quality_score": 33.4,
+      "score": 61.5,
+      "reasons": [
+        "热度 28.1：谷德 7 天最热 第 8 名 · 阅读 1732 次→28.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「成都」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "咕咕谷咖啡，武汉 / UAO瑞拓设计",
+      "url": "https://www.gooood.cn/gugu-valley-cafe-by-uao-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-uao-cafe-472x303.jpg",
+      "summary": "建筑  粗劣的骄傲 2026.11.04 收藏 分享",
+      "published_at": "2026-11-04T10:35:57+08:00",
+      "first_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1646 次"
+      ],
+      "views": 1646,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": null,
+      "region": "武汉",
+      "city": "",
+      "architect": "UAO瑞拓设计",
+      "heat_score": 26.7,
+      "quality_score": 30.4,
+      "score": 57.1,
+      "reasons": [
+        "热度 26.7：谷德 7 天最热 第 10 名 · 阅读 1646 次→26.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「武汉」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Dumas海滨总体规划，印度 / INI Design Studio",
+      "url": "https://www.gooood.cn/dumas-sea-face-masterplan-by-ini-design-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-ejc-472x303.png",
+      "summary": "景观  252.2英亩的海岸韧性公共领域，重塑苏拉特与阿拉伯海的关系 2026.10.30 收藏 分享",
+      "published_at": "2026-10-30T09:59:17+08:00",
+      "first_seen": "2026-10-31T06:36:39+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "meta": {
+        "year": "2026",
+        "photographer": "Vinay Panjwani"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1543 次"
+      ],
+      "views": 1543,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": "景观",
+      "region": "印度",
+      "city": "",
+      "architect": "INI Design Studio",
+      "heat_score": 25.1,
+      "quality_score": 33.4,
+      "score": 58.5,
+      "reasons": [
+        "热度 25.1：谷德 7 天最热 第 12 名 · 阅读 1543 次→25.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「印度」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "School De Hagewinde Roeselare / laagland architecten",
+      "url": "https://www.archdaily.com/1187771/school-de-hagewinde-roeselare",
+      "cover": "https://images.adsttc.com/media/images/6ae3/62a0/3a16/4b00/01b5/dfc0/newsletter/Roeselare_DeHagewinde_MichielVergauwerPhotography_04.jpg?1793286832",
+      "summary": "November 05 © Michiel Vergauwe + 26 Educational Architecture , Schools , Extension • Roeselare, Belgium Architects: laagland architecten Area Area of this architecture project Area: 645 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Reynaers Aluminium , Tarkett , VELUX Group , Heylen Ceramics , Jor",
+      "published_at": "2026-11-05T23:00:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {
+        "photographer": "Michiel Vergauwe",
+        "image_count": 26,
+        "city": "Roeselare",
+        "country": "Belgium",
+        "architect": "laagland architecten",
+        "area": "645 m²",
+        "year": "2026",
+        "brands": [
+          "Reynaers Aluminium",
+          "Tarkett",
+          "VELUX Group",
+          "Heylen Ceramics",
+          "Jor"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 6 位"
+      ],
+      "is_project": true,
+      "btype": "教育",
+      "region": "比利时",
+      "city": "Roeselare",
+      "architect": "laagland architecten",
+      "heat_score": 24.9,
+      "quality_score": 40.0,
+      "score": 64.9,
+      "reasons": [
+        "热度 24.9：ArchDaily 首页第 6 位→17.4；2 家媒体报道+7.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「教育」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "苏里亚图书馆 / Javier de las Heras Solé",
+      "url": "https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole",
+      "cover": "https://images.adsttc.com/media/images/6ae8/e29d/62dc/0e01/8725/7818/newsletter/suria-library-javier-de-las-heras-sole_31.jpg?1793647279",
+      "summary": "十一月 04 © José Hevia + 34 • Barcelona, 西班牙 建筑师: Javier de las Heras Solé 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-04T19:00:00+08:00",
+      "first_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "alt_url": "https://www.archdaily.com/1187981/suria-library-javier-de-las-heras-sole",
+      "bilingual": true,
+      "meta": {
+        "photographer": "José Hevia",
+        "image_count": 34,
+        "city": "Barcelona",
+        "country": "西班牙",
+        "architect": "Javier de las Heras Solé",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "文化",
+      "region": "西班牙",
+      "city": "Barcelona",
+      "architect": "Javier de las Heras Solé",
+      "heat_score": 11.5,
+      "quality_score": 40.0,
+      "score": 51.5,
+      "reasons": [
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集34张+8；类型「文化」+3；地域「西班牙」+3；封面图+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Ersatzneubau Winkel / Kollektiv.w AG",
+      "url": "https://www.archdaily.cn/zh/1188075/ersatzneubau-winkel-kollekti-ag",
+      "cover": "https://images.adsttc.com/media/images/6aea/0961/a85b/a800/01f0/2040/newsletter/241018_EFH_Roggliswil_106.jpg?1793722848",
+      "summary": "十一月 05 © Benjamin Kunz + 25 • Roggliswil, 瑞士 建筑师: Kollektiv.w AG 面积 该建筑项目的领域 面积: 122 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1188075/ersatzneubau-winkel-kollekti-ag Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-05T20:00:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "alt_url": "https://www.archdaily.com/1188023/ersatzneubau-winkel-kollekti-ag",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Benjamin Kunz",
+        "image_count": 25,
+        "city": "Roggliswil",
+        "country": "瑞士",
+        "architect": "Kollektiv.w AG",
+        "area": "122 m²",
+        "year": "2024"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "瑞士",
+      "city": "Roggliswil",
+      "architect": "Kollektiv.w AG",
+      "heat_score": 11.1,
+      "quality_score": 40.0,
+      "score": 51.1,
+      "reasons": [
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；地域「瑞士」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "芭提雅帕塔纳克山住宅 / SPACE | STORY | STUDIO",
+      "url": "https://www.archdaily.cn/zh/1187860/ba-ti-ya-pa-ta-na-ke-shan-zhu-zhai-space-story-studio",
+      "cover": "https://images.adsttc.com/media/images/6ae3/1e6b/3271/8400/01d0/fad7/newsletter/06.jpg?1793269373",
+      "summary": "十一月 05 © Pongthawat Panthong + 24 • Muang Pattaya, 泰国 建筑师: SPACE | STORY | STUDIO 面积 该建筑项目的领域 面积: 2000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187860/ba-ti-ya-pa-ta-na-ke-shan-zhu-zhai-space-story-studio Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-05T16:00:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "alt_url": "https://www.archdaily.com/1187736/khao-phra-tamnak-house-space-story-studio",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Pongthawat Panthong",
+        "image_count": 24,
+        "city": "Muang Pattaya",
+        "country": "泰国",
+        "architect": "SPACE | STORY | STUDIO",
+        "area": "2000 m²",
+        "year": "2025"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 15 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "泰国",
+      "city": "Muang Pattaya",
+      "architect": "SPACE | STORY | STUDIO",
+      "heat_score": 8.2,
+      "quality_score": 40.0,
+      "score": 48.2,
+      "reasons": [
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集24张+8；类型「住宅」+3；地域「泰国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "新作丨广州白鹅潭景观设计 / agence ter",
+      "url": "https://www.archiposition.com/items/f9d9cbf95a",
+      "cover": "https://image.archiposition.com/2026/11/71793870571.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "探索景观如何让人重新感知广州的地理与日常生活。",
+      "published_at": "2026-11-05T17:47:48+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "景观",
+      "region": "广州",
+      "city": "",
+      "architect": "agence ter",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「景观」+3；地域「广州」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "深圳河包围九年一贯制学校，围屋重构 / TJAD曾群建筑研究室",
+      "url": "https://www.archiposition.com/items/d712916628",
+      "cover": "https://image.archiposition.com/2026/11/41793848332.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "设计从传统围屋与书院空间中寻找启发，以“围合”作为设计线索。",
+      "published_at": "2026-11-05T11:37:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "教育",
+      "region": "围屋重构",
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「围屋重构」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "angelo renna proposes floating modular island with 39-tree ring on florence’s river",
+      "url": "https://www.designboom.com/architecture/angelo-renna-floating-modular-island-39-tree-ring-florence-river-firenze-little-island",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/renna-studio-angelo-renna-firenze-little-island-designboom-700-500x400-22b08q85r848.jpg",
+      "summary": "RENNA ENVISIONS FLOATING PLATFORM ON FLORENCE&#8217;S RIVER &nbsp; Designed by Renna Studio and architect Angelo Renna , Firenze Little Island is an architectural proposal for a demountable, seasonal public floating platform on the Arno River in Florence, Italy . Sited along the Pescaia weir, where water flow is regulated, the project introduces an amphibious public space designed for cultural gat",
+      "published_at": "2026-11-05T15:15:27+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T06:45:00+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 6 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": "意大利",
+      "city": "",
+      "architect": "",
+      "heat_score": 9.5,
+      "quality_score": 17.6,
+      "score": 27.1,
+      "reasons": [
+        "热度 9.5：Designboom 首页第 6 位→9.5",
+        "质量 17.6：站点权重0.82→6.6；类型「文化」+3；地域「意大利」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
