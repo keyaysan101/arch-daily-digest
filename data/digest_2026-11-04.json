@@ -3,7 +3,7 @@
   "window_start": "2026-10-29",
   "window_end": "2026-11-04",
   "window_days": 7,
-  "generated_at": "2026-11-05T06:44:26+08:00",
+  "generated_at": "2026-11-05T08:35:38+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -30,9 +30,9 @@
       "ok": true,
       "total": 54,
       "oldest": "2026-10-29",
-      "newest": "2026-11-04",
+      "newest": "2026-11-05",
       "hit": 58,
-      "stale_days": 0,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -48,7 +48,7 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 8,
+      "total": 7,
       "oldest": "2026-11-04",
       "newest": "2026-11-05",
       "hit": 25,
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 334,
-  "new_stored": 59,
-  "store_total": 1307,
+  "new_stored": 4,
+  "store_total": 1311,
   "after_dedupe": 211,
   "noise_count": 8,
   "heat_signal_count": 101,
-  "heat_hit_count": 59,
+  "heat_hit_count": 57,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
@@ -138,27 +138,27 @@
       "summary": "建筑  蝴蝶形塔楼与开放裙房 2026.11.02 收藏 分享",
       "published_at": "2026-11-02T09:23:03+08:00",
       "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "meta": {
         "area": "11,118 m²",
         "photographer": "Kris Provoost"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1845 次"
+        "谷德 7 天最热 第 4 名 · 阅读 1849 次"
       ],
-      "views": 1845,
-      "heat_rank": 5,
+      "views": 1849,
+      "heat_rank": 4,
       "is_project": true,
       "btype": "办公",
       "region": "深圳",
       "city": "",
       "architect": "RSHP",
-      "heat_score": 28.5,
+      "heat_score": 32.2,
       "quality_score": 39.4,
-      "score": 67.9,
+      "score": 71.6,
       "reasons": [
-        "热度 28.5：谷德 7 天最热 第 5 名 · 阅读 1845 次→28.5",
+        "热度 32.2：谷德 7 天最热 第 4 名 · 阅读 1849 次→32.2",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「办公」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 1
@@ -173,99 +173,30 @@
       "summary": "建筑  以一片折叠的薄板顺应山坡 2026.10.30 收藏 分享",
       "published_at": "2026-10-30T15:19:29+08:00",
       "first_seen": "2026-10-31T06:36:39+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "meta": {
         "area": "463 m²",
         "photographer": "Jesús Orrico"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 1779 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1781 次"
       ],
-      "views": 1779,
-      "heat_rank": 7,
+      "views": 1781,
+      "heat_rank": 5,
       "is_project": true,
       "btype": "住宅",
       "region": "西班牙",
       "city": "",
       "architect": "Fran Silvestre Arquitectos",
-      "heat_score": 27.5,
+      "heat_score": 31.1,
       "quality_score": 33.4,
-      "score": 60.9,
+      "score": 64.5,
       "reasons": [
-        "热度 27.5：谷德 7 天最热 第 7 名 · 阅读 1779 次→27.5",
+        "热度 31.1：谷德 7 天最热 第 5 名 · 阅读 1781 次→31.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「西班牙」+3；封面图+2"
       ],
       "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "BIG主导设计的美国六月节国家博物馆建设迎来重要进展",
-      "url": "https://www.gooood.cn/national-juneteenth-museum-progress-update-by-big.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/001-ixz-472x303.jpg",
-      "summary": "建筑  迈向更加公正未来的愿景 2026.10.29 收藏 分享",
-      "published_at": "2026-10-29T10:32:17+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
-      "meta": {
-        "area": "6,690 m²",
-        "photographer": "Phillip Dunlap"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1749 次"
-      ],
-      "views": 1749,
-      "heat_rank": 8,
-      "is_project": false,
-      "btype": "文化",
-      "region": "美国",
-      "city": "",
-      "architect": "",
-      "heat_score": 27.1,
-      "quality_score": 24.4,
-      "score": 51.5,
-      "reasons": [
-        "热度 27.1：谷德 7 天最热 第 8 名 · 阅读 1749 次→27.1",
-        "质量 24.4：站点权重0.92→7.4；知名事务所+6；类型「文化」+3；地域「美国」+3；封面图+2"
-      ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "城市更新十年后的“微更新”：香港观塘工业历史展亭 / 苏畅设计研究室",
-      "url": "https://www.gooood.cn/kwun-tong-industrial-history-pavilion.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/cover-ktp-472x303.jpg",
-      "summary": "景观  高密度工业社区中的低干预、重循环微更新 2026.10.29 收藏 分享",
-      "published_at": "2026-10-29T14:22:14+08:00",
-      "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
-      "meta": {
-        "year": "2024"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1699 次"
-      ],
-      "views": 1699,
-      "heat_rank": 9,
-      "is_project": true,
-      "btype": "景观",
-      "region": "香港",
-      "city": "",
-      "architect": "",
-      "heat_score": 26.3,
-      "quality_score": 33.4,
-      "score": 59.7,
-      "reasons": [
-        "热度 26.3：谷德 7 天最热 第 9 名 · 阅读 1699 次→26.3",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「香港」+3；封面图+2"
-      ],
-      "rank": 4
     },
     {
       "source": "谷德设计网",
@@ -277,69 +208,97 @@
       "summary": "建筑  如电影般度过一天 2026.10.30 收藏 分享",
       "published_at": "2026-10-30T16:17:29+08:00",
       "first_seen": "2026-10-31T06:36:39+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "meta": {
         "area": "434.99 m²",
         "photographer": "Woojin Park"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1671 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1675 次"
       ],
-      "views": 1671,
-      "heat_rank": 10,
+      "views": 1675,
+      "heat_rank": 6,
       "is_project": true,
       "btype": null,
       "region": "韩国",
       "city": "",
       "architect": "ATMOROUND",
-      "heat_score": 25.8,
+      "heat_score": 29.2,
       "quality_score": 30.4,
-      "score": 56.2,
+      "score": 59.6,
       "reasons": [
-        "热度 25.8：谷德 7 天最热 第 10 名 · 阅读 1671 次→25.8",
+        "热度 29.2：谷德 7 天最热 第 6 名 · 阅读 1675 次→29.2",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「韩国」+3；封面图+2"
       ],
-      "rank": 5
+      "rank": 3
     },
     {
-      "source": "ArchDaily",
-      "weight": 1.0,
+      "source": "谷德设计网",
+      "weight": 0.92,
       "lang": "zh",
-      "title": "苏里亚图书馆 / Javier de las Heras Solé",
-      "url": "https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole",
-      "cover": "https://images.adsttc.com/media/images/6ae8/e29d/62dc/0e01/8725/7818/newsletter/suria-library-javier-de-las-heras-sole_31.jpg?1793647279",
-      "summary": "十一月 04 © José Hevia + 34 • Barcelona, 西班牙 建筑师: Javier de las Heras Solé 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole Cristina Popescu 阅读更多 »",
-      "published_at": "2026-11-04T19:00:00+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
-      "alt_url": "https://www.archdaily.com/1187981/suria-library-javier-de-las-heras-sole",
-      "bilingual": true,
-      "meta": {
-        "photographer": "José Hevia",
-        "image_count": 34,
-        "city": "Barcelona",
-        "country": "西班牙",
-        "architect": "Javier de las Heras Solé",
-        "year": "2026"
-      },
-      "strong_heat": false,
+      "title": "Casa Loma住宅，多伦多 / StudioAC",
+      "url": "https://www.gooood.cn/casa-loma-by-studioac.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/09/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-bfz-472x303.png",
+      "summary": "建筑  围绕雕塑庭院展开的画廊式住宅 2026.10.30 收藏 分享",
+      "published_at": "2026-10-30T08:30:24+08:00",
+      "first_seen": "2026-10-31T06:36:39+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "meta": {},
+      "strong_heat": true,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "谷德 7 天最热 第 8 名 · 阅读 1583 次"
       ],
+      "views": 1583,
+      "heat_rank": 8,
       "is_project": true,
-      "btype": "文化",
-      "region": "西班牙",
-      "city": "Barcelona",
-      "architect": "Javier de las Heras Solé",
-      "heat_score": 17.8,
-      "quality_score": 40.0,
-      "score": 57.8,
+      "btype": "住宅",
+      "region": "多伦多",
+      "city": "",
+      "architect": "StudioAC",
+      "heat_score": 27.6,
+      "quality_score": 39.4,
+      "score": 67.0,
       "reasons": [
-        "热度 17.8：ArchDaily中国 首页第 10 位→6.2；2 家媒体报道+7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集34张+8；类型「文化」+3；地域「西班牙」+3；封面图+2"
+        "热度 27.6：谷德 7 天最热 第 8 名 · 阅读 1583 次→27.6",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「多伦多」+3；封面图+2"
       ],
-      "rank": 6
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "麓溪湖慢行中心，重庆 / 之外建筑",
+      "url": "https://www.gooood.cn/luxe-valley-cyclists-oasis-by-they-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-luxe-valley-cyclists-oasis-016-44-472x303.jpg",
+      "summary": "建筑  顺势为“之” 2026.11.02 收藏 分享",
+      "published_at": "2026-11-02T14:26:55+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "meta": {
+        "area": "410 m²",
+        "photographer": "朱清言，PrismImage"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1496 次"
+      ],
+      "views": 1496,
+      "heat_rank": 9,
+      "is_project": true,
+      "btype": null,
+      "region": "重庆",
+      "city": "",
+      "architect": "之外建筑",
+      "heat_score": 26.1,
+      "quality_score": 30.4,
+      "score": 56.5,
+      "reasons": [
+        "热度 26.1：谷德 7 天最热 第 9 名 · 阅读 1496 次→26.1",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「重庆」+3；封面图+2"
+      ],
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -351,7 +310,7 @@
       "summary": "November 04 © Jolien Fagard + 31 Residential Architecture , Housing , Sustainability • Leuven, Belgium Architects: Atelier M Architects + Planners bv Area Area of this architecture project Area: 2797 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: NBK Keramik GmbH, Emmerich am Rhein https://www.arch",
       "published_at": "2026-11-04T23:00:00+08:00",
       "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "meta": {
         "photographer": "Jolien Fagard",
         "image_count": 31,
@@ -367,55 +326,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 6 位"
+        "ArchDaily 首页第 7 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "比利时",
       "city": "Leuven",
       "architect": "Atelier M Architects + Planners bv",
-      "heat_score": 17.4,
+      "heat_score": 16.5,
       "quality_score": 40.0,
-      "score": 57.4,
+      "score": 56.5,
       "reasons": [
-        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 7
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "en",
-      "title": "Black Miller House / Three Sixty Architecture",
-      "url": "https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture",
-      "cover": "https://images.adsttc.com/media/images/6ae0/a572/20d6/d811/3b1a/5848/newsletter/black-miller-house-three-sixty-architecture_7.jpg?1793107332",
-      "summary": "November 04 © David Straight + 11 https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture Pratik Mour Read more »",
-      "published_at": "2026-11-04T20:00:00+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
-      "meta": {
-        "photographer": "David Straight",
-        "image_count": 11,
-        "year": "2024"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 11 位"
-      ],
-      "is_project": true,
-      "btype": "住宅",
-      "region": null,
-      "city": "",
-      "architect": "Three Sixty Architecture",
-      "heat_score": 12.8,
-      "quality_score": 36.0,
-      "score": 48.8,
-      "reasons": [
-        "热度 12.8：ArchDaily 首页第 11 位→12.8",
-        "质量 36.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；封面图+2"
-      ],
-      "rank": 8
+      "rank": 6
     },
     {
       "source": "ArchDaily",
@@ -427,7 +352,7 @@
       "summary": "十一月 04 视频 © Alessio Mei + 16 • Casablanca, 摩洛哥 建筑师: Mahfoud Laasri Architecte - MLA 面积 该建筑项目的领域 面积: 965 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: Saint-Gobain , ALPI , HDL , Reckli , Roca , +2 Sépalumic , Treemme -2 https://www.archdaily.cn/zh/1187707/sahar-bie-shu-mahfoud-laasri-architecte-mla Pratik Mour 阅读更多 »",
       "published_at": "2026-11-04T16:00:00+08:00",
       "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "alt_url": "https://www.archdaily.com/1187663/villa-sahar-mahfoud-laasri-architecte-mla",
       "bilingual": true,
       "meta": {
@@ -449,19 +374,101 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 14 位"
+        "ArchDaily中国 首页第 15 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "摩洛哥",
       "city": "Casablanca",
       "architect": "Mahfoud Laasri Architecte - MLA",
-      "heat_score": 8.6,
+      "heat_score": 8.2,
       "quality_score": 40.0,
-      "score": 48.6,
+      "score": 48.2,
       "reasons": [
-        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；类型「住宅」+3；地域「摩洛哥」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Black Miller House / Three Sixty Architecture",
+      "url": "https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture",
+      "cover": "https://images.adsttc.com/media/images/6ae0/a572/20d6/d811/3b1a/5848/newsletter/black-miller-house-three-sixty-architecture_7.jpg?1793107332",
+      "summary": "November 04 © David Straight + 11 https://www.archdaily.com/1187590/black-miller-house-three-sixty-architecture Pratik Mour Read more »",
+      "published_at": "2026-11-04T20:00:00+08:00",
+      "first_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "meta": {
+        "photographer": "David Straight",
+        "image_count": 11,
+        "year": "2024"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": null,
+      "city": "",
+      "architect": "Three Sixty Architecture",
+      "heat_score": 11.9,
+      "quality_score": 36.0,
+      "score": 47.9,
+      "reasons": [
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "质量 36.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "托卡住宅 / ARKITITO Arquitetura",
+      "url": "https://www.archdaily.cn/zh/1036220/tuo-qia-zhu-zhai-arkitito-arquitetura",
+      "cover": "https://images.adsttc.com/media/images/68f6/d160/9662/4135/afe7/d12c/newsletter/casa-toca-arkitito-arquitetura_1.jpg?1761005937",
+      "summary": "十一月 03 © Fran Parente + 33 • 圣保罗, 巴西 建筑师: ARKITITO Arquitetura 面积 该建筑项目的领域 面积: 350 m² 项目年份 该建筑项目的竣工年份 项目年份: 2022 厂家 该项目中使用产品的品牌 厂家: Braston , Cebrace , Coral Tintas , Crosslam , Docol , +4 Gerdau , IKO , Tigre , Votorantim -4 https://www.archdaily.cn/zh/1036220/tuo-qia-zhu-zhai-arkitito-arquitetura Andreas Luco 阅读更多 »",
+      "published_at": "2026-11-04T06:00:00+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
+      "alt_url": "https://www.archdaily.com/1035246/house-toca-arkitito-arquitetura",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Fran Parente",
+        "image_count": 33,
+        "city": "圣保罗",
+        "country": "巴西",
+        "architect": "ARKITITO Arquitetura",
+        "area": "350 m²",
+        "year": "2022",
+        "brands": [
+          "Braston",
+          "Cebrace",
+          "Coral Tintas",
+          "Crosslam",
+          "Docol",
+          "+4 Gerdau"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 18 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "巴西",
+      "city": "圣保罗",
+      "architect": "ARKITITO Arquitetura",
+      "heat_score": 6.9,
+      "quality_score": 40.0,
+      "score": 46.9,
+      "reasons": [
+        "热度 6.9：ArchDaily中国 首页第 18 位→2.9；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集33张+8；类型「住宅」+3；地域「巴西」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 9
     },
@@ -475,7 +482,7 @@
       "summary": "不通过制式设计使建筑趋于一致，而是为不同的空间赋予符合定位的场景。",
       "published_at": "2026-10-29T19:23:43+08:00",
       "first_seen": "2026-10-30T06:37:23+08:00",
-      "last_seen": "2026-11-05T06:44:15+08:00",
+      "last_seen": "2026-11-05T08:35:33+08:00",
       "meta": {
         "area": "9532 m²"
       },

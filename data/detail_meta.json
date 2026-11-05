@@ -898,5 +898,23 @@
  },
  "https://www.archiposition.com/items/49e72d5832": {
   "area": "9532 m²"
+ },
+ "https://www.gooood.cn/casa-loma-by-studioac.htm": {},
+ "https://www.gooood.cn/luxe-valley-cyclists-oasis-by-they-architects.htm": {
+  "area": "410 m²",
+  "photographer": "朱清言，PrismImage"
+ },
+ "https://www.archdaily.cn/zh/1036220/tuo-qia-zhu-zhai-arkitito-arquitetura": {
+  "year": "2022",
+  "photographer": "Fran Parente",
+  "brands": [
+   "Braston",
+   "Cebrace",
+   "Coral Tintas",
+   "Crosslam",
+   "Docol",
+   "Gerdau"
+  ],
+  "image_count": 40
  }
 }
