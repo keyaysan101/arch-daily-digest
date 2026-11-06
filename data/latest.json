@@ -3,7 +3,7 @@
   "window_start": "2026-10-30",
   "window_end": "2026-11-05",
   "window_days": 7,
-  "generated_at": "2026-11-06T06:45:17+08:00",
+  "generated_at": "2026-11-06T08:34:04+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -30,9 +30,9 @@
       "ok": true,
       "total": 54,
       "oldest": "2026-10-30",
-      "newest": "2026-11-05",
-      "hit": 61,
-      "stale_days": 0,
+      "newest": "2026-11-06",
+      "hit": 60,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 338,
-  "new_stored": 59,
-  "store_total": 1370,
+  "candidate_count": 337,
+  "new_stored": 3,
+  "store_total": 1373,
   "after_dedupe": 207,
   "noise_count": 10,
   "heat_signal_count": 102,
-  "heat_hit_count": 55,
-  "out_of_window_count": 3,
+  "heat_hit_count": 53,
+  "out_of_window_count": 2,
   "count": 10,
   "noise": [
     {
@@ -148,27 +148,27 @@
       "summary": "景观  工业遗存、文艺生活与数字未来交织的公共艺术更新 2026.11.03 收藏 分享",
       "published_at": "2026-11-03T15:19:07+08:00",
       "first_seen": "2026-11-04T06:38:56+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "meta": {
         "area": "1400 m²",
         "year": "2026"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1732 次"
+        "谷德 7 天最热 第 3 名 · 阅读 1739 次"
       ],
-      "views": 1732,
-      "heat_rank": 8,
+      "views": 1739,
+      "heat_rank": 3,
       "is_project": true,
       "btype": "文化",
       "region": "成都",
       "city": "",
       "architect": "目坦艺术MTA",
-      "heat_score": 28.1,
+      "heat_score": 38.6,
       "quality_score": 33.4,
-      "score": 61.5,
+      "score": 72.0,
       "reasons": [
-        "热度 28.1：谷德 7 天最热 第 8 名 · 阅读 1732 次→28.1",
+        "热度 38.6：谷德 7 天最热 第 3 名 · 阅读 1739 次→38.6",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「成都」+3；封面图+2"
       ],
       "rank": 1
@@ -183,24 +183,24 @@
       "summary": "建筑  粗劣的骄傲 2026.11.04 收藏 分享",
       "published_at": "2026-11-04T10:35:57+08:00",
       "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1646 次"
+        "谷德 7 天最热 第 4 名 · 阅读 1663 次"
       ],
-      "views": 1646,
-      "heat_rank": 10,
+      "views": 1663,
+      "heat_rank": 4,
       "is_project": true,
       "btype": null,
       "region": "武汉",
       "city": "",
       "architect": "UAO瑞拓设计",
-      "heat_score": 26.7,
+      "heat_score": 36.9,
       "quality_score": 30.4,
-      "score": 57.1,
+      "score": 67.3,
       "reasons": [
-        "热度 26.7：谷德 7 天最热 第 10 名 · 阅读 1646 次→26.7",
+        "热度 36.9：谷德 7 天最热 第 4 名 · 阅读 1663 次→36.9",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「武汉」+3；封面图+2"
       ],
       "rank": 2
@@ -209,36 +209,107 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "Dumas海滨总体规划，印度 / INI Design Studio",
-      "url": "https://www.gooood.cn/dumas-sea-face-masterplan-by-ini-design-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-ejc-472x303.png",
-      "summary": "景观  252.2英亩的海岸韧性公共领域，重塑苏拉特与阿拉伯海的关系 2026.10.30 收藏 分享",
-      "published_at": "2026-10-30T09:59:17+08:00",
-      "first_seen": "2026-10-31T06:36:39+08:00",
-      "last_seen": "2026-11-05T08:35:33+08:00",
+      "title": "墙墙猫公园，成都 / 大小景观",
+      "url": "https://www.gooood.cn/hide-and-seek-park-by-atelier-scale.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/wall-cat-park-cover-472x303.jpg",
+      "summary": "景观  把小时候的快乐找回来 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T10:50:58+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "meta": {
         "year": "2026",
-        "photographer": "Vinay Panjwani"
+        "photographer": "Holi河狸景观摄影"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1543 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1431 次"
       ],
-      "views": 1543,
-      "heat_rank": 12,
+      "views": 1431,
+      "heat_rank": 8,
       "is_project": true,
       "btype": "景观",
-      "region": "印度",
+      "region": "成都",
       "city": "",
-      "architect": "INI Design Studio",
-      "heat_score": 25.1,
+      "architect": "大小景观",
+      "heat_score": 31.7,
       "quality_score": 33.4,
-      "score": 58.5,
+      "score": 65.1,
       "reasons": [
-        "热度 25.1：谷德 7 天最热 第 12 名 · 阅读 1543 次→25.1",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「印度」+3；封面图+2"
+        "热度 31.7：谷德 7 天最热 第 8 名 · 阅读 1431 次→31.7",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「成都」+3；封面图+2"
       ],
       "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "安之若宿·物生其地，内蒙古 / STUDIO QI建筑事务所",
+      "url": "https://www.gooood.cn/annso-inner-mongolia-by-studio-qi.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-annso-inner-mongolia-12-472x303.jpg",
+      "summary": "建筑  物生其地，让建筑生长于万物之间 2026.11.02 收藏 分享",
+      "published_at": "2026-11-02T08:57:38+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
+      "meta": {
+        "city": "物生其地",
+        "country": "内蒙古",
+        "year": "2021",
+        "photographer": "R.J Photography、ANNSO（详见各图署名）"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1340 次"
+      ],
+      "views": 1340,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": null,
+      "region": "内蒙古",
+      "city": "物生其地",
+      "architect": "STUDIO QI建筑事务所",
+      "heat_score": 29.7,
+      "quality_score": 30.4,
+      "score": 60.1,
+      "reasons": [
+        "热度 29.7：谷德 7 天最热 第 10 名 · 阅读 1340 次→29.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「内蒙古」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Generali体育场，米兰 / Foster + Partners & MANICA",
+      "url": "https://www.gooood.cn/generali-stadium-by-foster-partners-manica.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-Generali-Stadium-472x303.jpg",
+      "summary": "建筑  以混凝土X形构架与双曲面屋顶延续圣西罗精神的71,500座新球场 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T09:30:32+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
+      "meta": {
+        "area": "281,000 m²"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1335 次"
+      ],
+      "views": 1335,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": "体育",
+      "region": "米兰",
+      "city": "",
+      "architect": "Foster + Partners & MANICA",
+      "heat_score": 29.6,
+      "quality_score": 39.4,
+      "score": 69.0,
+      "reasons": [
+        "热度 29.6：谷德 7 天最热 第 11 名 · 阅读 1335 次→29.6",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「体育」+3；地域「米兰」+3；封面图+2"
+      ],
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -250,7 +321,7 @@
       "summary": "November 05 © Michiel Vergauwe + 26 Educational Architecture , Schools , Extension • Roeselare, Belgium Architects: laagland architecten Area Area of this architecture project Area: 645 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Reynaers Aluminium , Tarkett , VELUX Group , Heylen Ceramics , Jor",
       "published_at": "2026-11-05T23:00:00+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "meta": {
         "photographer": "Michiel Vergauwe",
         "image_count": 26,
@@ -269,21 +340,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 6 位"
+        "ArchDaily 首页第 7 位"
       ],
       "is_project": true,
       "btype": "教育",
       "region": "比利时",
       "city": "Roeselare",
       "architect": "laagland architecten",
-      "heat_score": 24.9,
+      "heat_score": 24.0,
       "quality_score": 40.0,
-      "score": 64.9,
+      "score": 64.0,
       "reasons": [
-        "热度 24.9：ArchDaily 首页第 6 位→17.4；2 家媒体报道+7.5",
+        "热度 24.0：ArchDaily 首页第 7 位→16.5；2 家媒体报道+7.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「教育」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "source": "ArchDaily",
@@ -320,7 +391,7 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集34张+8；类型「文化」+3；地域「西班牙」+3；封面图+2"
       ],
-      "rank": 5
+      "rank": 7
     },
     {
       "source": "ArchDaily",
@@ -332,7 +403,7 @@
       "summary": "十一月 05 © Benjamin Kunz + 25 • Roggliswil, 瑞士 建筑师: Kollektiv.w AG 面积 该建筑项目的领域 面积: 122 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1188075/ersatzneubau-winkel-kollekti-ag Nina Vuga 阅读更多 »",
       "published_at": "2026-11-05T20:00:00+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "alt_url": "https://www.archdaily.com/1188023/ersatzneubau-winkel-kollekti-ag",
       "bilingual": true,
       "meta": {
@@ -346,21 +417,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 8 位"
+        "ArchDaily中国 首页第 9 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "瑞士",
       "city": "Roggliswil",
       "architect": "Kollektiv.w AG",
-      "heat_score": 11.1,
+      "heat_score": 10.7,
       "quality_score": 40.0,
-      "score": 51.1,
+      "score": 50.7,
       "reasons": [
-        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；地域「瑞士」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 6
+      "rank": 8
     },
     {
       "source": "ArchDaily",
@@ -372,7 +443,7 @@
       "summary": "十一月 05 © Pongthawat Panthong + 24 • Muang Pattaya, 泰国 建筑师: SPACE | STORY | STUDIO 面积 该建筑项目的领域 面积: 2000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187860/ba-ti-ya-pa-ta-na-ke-shan-zhu-zhai-space-story-studio Pratik Mour 阅读更多 »",
       "published_at": "2026-11-05T16:00:00+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "alt_url": "https://www.archdaily.com/1187736/khao-phra-tamnak-house-space-story-studio",
       "bilingual": true,
       "meta": {
@@ -386,21 +457,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 15 位"
+        "ArchDaily中国 首页第 16 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "泰国",
       "city": "Muang Pattaya",
       "architect": "SPACE | STORY | STUDIO",
-      "heat_score": 8.2,
+      "heat_score": 7.8,
       "quality_score": 40.0,
-      "score": 48.2,
+      "score": 47.8,
       "reasons": [
-        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集24张+8；类型「住宅」+3；地域「泰国」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 7
+      "rank": 9
     },
     {
       "source": "有方空间",
@@ -412,7 +483,7 @@
       "summary": "探索景观如何让人重新感知广州的地理与日常生活。",
       "published_at": "2026-11-05T17:47:48+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
@@ -427,64 +498,6 @@
       "reasons": [
         "热度 0.0：无信号",
         "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「景观」+3；地域「广州」+3；封面图+2"
-      ],
-      "rank": 8
-    },
-    {
-      "source": "有方空间",
-      "weight": 0.8,
-      "lang": "zh",
-      "title": "深圳河包围九年一贯制学校，围屋重构 / TJAD曾群建筑研究室",
-      "url": "https://www.archiposition.com/items/d712916628",
-      "cover": "https://image.archiposition.com/2026/11/41793848332.png?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "设计从传统围屋与书院空间中寻找启发，以“围合”作为设计线索。",
-      "published_at": "2026-11-05T11:37:00+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
-      "meta": {},
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "教育",
-      "region": "围屋重构",
-      "city": "",
-      "architect": "",
-      "heat_score": 0.0,
-      "quality_score": 32.4,
-      "score": 32.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「围屋重构」+3；封面图+2"
-      ],
-      "rank": 9
-    },
-    {
-      "source": "Designboom",
-      "weight": 0.82,
-      "lang": "en",
-      "title": "angelo renna proposes floating modular island with 39-tree ring on florence’s river",
-      "url": "https://www.designboom.com/architecture/angelo-renna-floating-modular-island-39-tree-ring-florence-river-firenze-little-island",
-      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/renna-studio-angelo-renna-firenze-little-island-designboom-700-500x400-22b08q85r848.jpg",
-      "summary": "RENNA ENVISIONS FLOATING PLATFORM ON FLORENCE&#8217;S RIVER &nbsp; Designed by Renna Studio and architect Angelo Renna , Firenze Little Island is an architectural proposal for a demountable, seasonal public floating platform on the Arno River in Florence, Italy . Sited along the Pescaia weir, where water flow is regulated, the project introduces an amphibious public space designed for cultural gat",
-      "published_at": "2026-11-05T15:15:27+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T06:45:00+08:00",
-      "meta": {},
-      "strong_heat": false,
-      "heat_labels": [
-        "Designboom 首页第 6 位"
-      ],
-      "is_project": false,
-      "btype": "文化",
-      "region": "意大利",
-      "city": "",
-      "architect": "",
-      "heat_score": 9.5,
-      "quality_score": 17.6,
-      "score": 27.1,
-      "reasons": [
-        "热度 9.5：Designboom 首页第 6 位→9.5",
-        "质量 17.6：站点权重0.82→6.6；类型「文化」+3；地域「意大利」+3；封面图+2"
       ],
       "rank": 10
     }
