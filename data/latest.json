@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-05",
-  "window_start": "2026-10-30",
-  "window_end": "2026-11-05",
+  "date": "2026-11-06",
+  "window_start": "2026-10-31",
+  "window_end": "2026-11-06",
   "window_days": 7,
-  "generated_at": "2026-11-06T08:34:04+08:00",
+  "generated_at": "2026-11-07T06:37:32+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-05",
-      "newest": "2026-11-06",
-      "hit": 99,
+      "oldest": "2026-10-06",
+      "newest": "2026-11-07",
+      "hit": 101,
       "stale_days": -1,
       "stale": false
     },
@@ -19,9 +19,9 @@
       "source": "ArchDaily中国",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-02",
-      "newest": "2026-11-06",
-      "hit": 95,
+      "oldest": "2026-10-05",
+      "newest": "2026-11-07",
+      "hit": 100,
       "stale_days": -1,
       "stale": false
     },
@@ -29,39 +29,39 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-10-30",
+      "oldest": "2026-11-02",
       "newest": "2026-11-06",
-      "hit": 60,
-      "stale_days": -1,
+      "hit": 62,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-10-30",
-      "newest": "2026-11-06",
-      "hit": 52,
+      "oldest": "2026-10-31",
+      "newest": "2026-11-07",
+      "hit": 51,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 5,
-      "oldest": "2026-11-05",
+      "total": 3,
+      "oldest": "2026-11-06",
       "newest": "2026-11-06",
-      "hit": 26,
-      "stale_days": -1,
+      "hit": 25,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "有方空间",
       "ok": true,
-      "total": 17,
-      "oldest": "2026-10-27",
-      "newest": "2026-11-05",
-      "hit": 5,
+      "total": 16,
+      "oldest": "2026-10-28",
+      "newest": "2026-11-06",
+      "hit": 7,
       "stale_days": 0,
       "stale": false
     },
@@ -72,20 +72,25 @@
       "oldest": "2026-07-28",
       "newest": "2026-08-30",
       "hit": 0,
-      "stale_days": 67,
+      "stale_days": 68,
       "stale": true
     }
   ],
-  "candidate_count": 337,
-  "new_stored": 3,
-  "store_total": 1373,
-  "after_dedupe": 207,
-  "noise_count": 10,
-  "heat_signal_count": 102,
-  "heat_hit_count": 53,
-  "out_of_window_count": 2,
+  "candidate_count": 346,
+  "new_stored": 50,
+  "store_total": 1423,
+  "after_dedupe": 214,
+  "noise_count": 8,
+  "heat_signal_count": 99,
+  "heat_hit_count": 65,
+  "out_of_window_count": 5,
   "count": 10,
   "noise": [
+    {
+      "title": "Fragile lighting collection by Marset among 15 new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/05/fragile-lighting-marset-furniture-tiles-products-dezeen-showroom"
+    },
     {
       "title": "Sharjah Architecture Triennial 2026 Announces Opening Programme Featuring Performances, Films, and Conference",
       "source": "ArchDaily",
@@ -120,21 +125,6 @@
       "title": "Making the City: ArchDaily Student Project Awards 2027 Open for Submissions",
       "source": "ArchDaily",
       "url": "https://www.archdaily.com/1187728/making-the-city-archdaily-student-project-awards-2027-open-for-submissions"
-    },
-    {
-      "title": "‘dismantling should be designed, not improvised’: THISS studio on radical reuse in architecture",
-      "source": "Designboom",
-      "url": "https://www.designboom.com/architecture/thiss-studio-tamsin-hanke-radical-reuse-exhibition-design-interview"
-    },
-    {
-      "title": "podcast: architecture that listens through nature and site intelligence",
-      "source": "Designboom",
-      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-01-02"
-    },
-    {
-      "title": "\"Lady in Blue is as fitting a monument to our era as any I can imagine\"",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/10/30/lady-in-blue-trafalgar-square-priya-khanchandani-opinion"
     }
   ],
   "items": [
@@ -142,362 +132,339 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "红仓文创产业园片区文化艺术提升，成都 / 目坦艺术MTA",
-      "url": "https://www.gooood.cn/hongcang-cultural-arts-upgrade.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/hongchang-cover-700x449-472x303.jpg",
-      "summary": "景观  工业遗存、文艺生活与数字未来交织的公共艺术更新 2026.11.03 收藏 分享",
-      "published_at": "2026-11-03T15:19:07+08:00",
-      "first_seen": "2026-11-04T06:38:56+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "meta": {
-        "area": "1400 m²",
-        "year": "2026"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 1739 次"
-      ],
-      "views": 1739,
-      "heat_rank": 3,
-      "is_project": true,
-      "btype": "文化",
-      "region": "成都",
-      "city": "",
-      "architect": "目坦艺术MTA",
-      "heat_score": 38.6,
-      "quality_score": 33.4,
-      "score": 72.0,
-      "reasons": [
-        "热度 38.6：谷德 7 天最热 第 3 名 · 阅读 1739 次→38.6",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「文化」+3；地域「成都」+3；封面图+2"
-      ],
-      "rank": 1
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "咕咕谷咖啡，武汉 / UAO瑞拓设计",
-      "url": "https://www.gooood.cn/gugu-valley-cafe-by-uao-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/00-uao-cafe-472x303.jpg",
-      "summary": "建筑  粗劣的骄傲 2026.11.04 收藏 分享",
-      "published_at": "2026-11-04T10:35:57+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
+      "title": "重庆UNDERJOY桥下·城市营地 / 物候设计",
+      "url": "https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-wli-472x303.jpg",
+      "summary": "景观  以自然花园、江景平台与多元餐饮激活重庆桥下闲置空间。 2026.11.05 收藏 分享",
+      "published_at": "2026-11-05T10:29:10+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 1663 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1624 次"
       ],
-      "views": 1663,
-      "heat_rank": 4,
-      "is_project": true,
-      "btype": null,
-      "region": "武汉",
-      "city": "",
-      "architect": "UAO瑞拓设计",
-      "heat_score": 36.9,
-      "quality_score": 30.4,
-      "score": 67.3,
-      "reasons": [
-        "热度 36.9：谷德 7 天最热 第 4 名 · 阅读 1663 次→36.9",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「武汉」+3；封面图+2"
-      ],
-      "rank": 2
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "墙墙猫公园，成都 / 大小景观",
-      "url": "https://www.gooood.cn/hide-and-seek-park-by-atelier-scale.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/wall-cat-park-cover-472x303.jpg",
-      "summary": "景观  把小时候的快乐找回来 2026.11.03 收藏 分享",
-      "published_at": "2026-11-03T10:50:58+08:00",
-      "first_seen": "2026-11-04T06:38:56+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "meta": {
-        "year": "2026",
-        "photographer": "Holi河狸景观摄影"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1431 次"
-      ],
-      "views": 1431,
-      "heat_rank": 8,
+      "views": 1624,
+      "heat_rank": 6,
       "is_project": true,
       "btype": "景观",
-      "region": "成都",
+      "region": "重庆",
       "city": "",
-      "architect": "大小景观",
-      "heat_score": 31.7,
+      "architect": "物候设计",
+      "heat_score": 33.3,
       "quality_score": 33.4,
-      "score": 65.1,
+      "score": 66.7,
       "reasons": [
-        "热度 31.7：谷德 7 天最热 第 8 名 · 阅读 1431 次→31.7",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「成都」+3；封面图+2"
+        "热度 33.3：谷德 7 天最热 第 6 名 · 阅读 1624 次→33.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2"
       ],
-      "rank": 3
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "安之若宿·物生其地，内蒙古 / STUDIO QI建筑事务所",
-      "url": "https://www.gooood.cn/annso-inner-mongolia-by-studio-qi.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/00-annso-inner-mongolia-12-472x303.jpg",
-      "summary": "建筑  物生其地，让建筑生长于万物之间 2026.11.02 收藏 分享",
-      "published_at": "2026-11-02T08:57:38+08:00",
-      "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "meta": {
-        "city": "物生其地",
-        "country": "内蒙古",
-        "year": "2021",
-        "photographer": "R.J Photography、ANNSO（详见各图署名）"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1340 次"
-      ],
-      "views": 1340,
-      "heat_rank": 10,
-      "is_project": true,
-      "btype": null,
-      "region": "内蒙古",
-      "city": "物生其地",
-      "architect": "STUDIO QI建筑事务所",
-      "heat_score": 29.7,
-      "quality_score": 30.4,
-      "score": 60.1,
-      "reasons": [
-        "热度 29.7：谷德 7 天最热 第 10 名 · 阅读 1340 次→29.7",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「内蒙古」+3；封面图+2"
-      ],
-      "rank": 4
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Generali体育场，米兰 / Foster + Partners & MANICA",
-      "url": "https://www.gooood.cn/generali-stadium-by-foster-partners-manica.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/00-Generali-Stadium-472x303.jpg",
-      "summary": "建筑  以混凝土X形构架与双曲面屋顶延续圣西罗精神的71,500座新球场 2026.11.03 收藏 分享",
-      "published_at": "2026-11-03T09:30:32+08:00",
-      "first_seen": "2026-11-04T06:38:56+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "meta": {
-        "area": "281,000 m²"
-      },
-      "strong_heat": true,
-      "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1335 次"
-      ],
-      "views": 1335,
-      "heat_rank": 11,
-      "is_project": true,
-      "btype": "体育",
-      "region": "米兰",
-      "city": "",
-      "architect": "Foster + Partners & MANICA",
-      "heat_score": 29.6,
-      "quality_score": 39.4,
-      "score": 69.0,
-      "reasons": [
-        "热度 29.6：谷德 7 天最热 第 11 名 · 阅读 1335 次→29.6",
-        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「体育」+3；地域「米兰」+3；封面图+2"
-      ],
-      "rank": 5
+      "rank": 1
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "en",
-      "title": "School De Hagewinde Roeselare / laagland architecten",
-      "url": "https://www.archdaily.com/1187771/school-de-hagewinde-roeselare",
-      "cover": "https://images.adsttc.com/media/images/6ae3/62a0/3a16/4b00/01b5/dfc0/newsletter/Roeselare_DeHagewinde_MichielVergauwerPhotography_04.jpg?1793286832",
-      "summary": "November 05 © Michiel Vergauwe + 26 Educational Architecture , Schools , Extension • Roeselare, Belgium Architects: laagland architecten Area Area of this architecture project Area: 645 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Reynaers Aluminium , Tarkett , VELUX Group , Heylen Ceramics , Jor",
-      "published_at": "2026-11-05T23:00:00+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
+      "title": "Cadence Courtyard Tower / Alison Brooks Architects",
+      "url": "https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects",
+      "cover": "https://images.adsttc.com/media/images/6aeb/28ad/d2cc/6001/8a4f/6b8c/newsletter/cadence-kings-cross-alison-brooks-architects_1.jpg?1793796324",
+      "summary": "November 06 © Paul Riddle + 32 Mixed Use Architecture , Residential Architecture , Apartments • London, United Kingdom Architects: Alison Brooks Architects Area Area of this architecture project Area: 16724 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects Cristina Popescu Read more »",
+      "published_at": "2026-11-06T23:00:00+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
       "meta": {
-        "photographer": "Michiel Vergauwe",
-        "image_count": 26,
-        "city": "Roeselare",
-        "country": "Belgium",
-        "architect": "laagland architecten",
-        "area": "645 m²",
-        "year": "2026",
-        "brands": [
-          "Reynaers Aluminium",
-          "Tarkett",
-          "VELUX Group",
-          "Heylen Ceramics",
-          "Jor"
-        ]
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 7 位"
-      ],
-      "is_project": true,
-      "btype": "教育",
-      "region": "比利时",
-      "city": "Roeselare",
-      "architect": "laagland architecten",
-      "heat_score": 24.0,
-      "quality_score": 40.0,
-      "score": 64.0,
-      "reasons": [
-        "热度 24.0：ArchDaily 首页第 7 位→16.5；2 家媒体报道+7.5",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「教育」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "苏里亚图书馆 / Javier de las Heras Solé",
-      "url": "https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole",
-      "cover": "https://images.adsttc.com/media/images/6ae8/e29d/62dc/0e01/8725/7818/newsletter/suria-library-javier-de-las-heras-sole_31.jpg?1793647279",
-      "summary": "十一月 04 © José Hevia + 34 • Barcelona, 西班牙 建筑师: Javier de las Heras Solé 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187995/su-li-ya-tu-shu-guan-javier-de-las-heras-sole Cristina Popescu 阅读更多 »",
-      "published_at": "2026-11-04T19:00:00+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-05T08:35:33+08:00",
-      "alt_url": "https://www.archdaily.com/1187981/suria-library-javier-de-las-heras-sole",
-      "bilingual": true,
-      "meta": {
-        "photographer": "José Hevia",
-        "image_count": 34,
-        "city": "Barcelona",
-        "country": "西班牙",
-        "architect": "Javier de las Heras Solé",
-        "year": "2026"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "文化",
-      "region": "西班牙",
-      "city": "Barcelona",
-      "architect": "Javier de las Heras Solé",
-      "heat_score": 11.5,
-      "quality_score": 40.0,
-      "score": 51.5,
-      "reasons": [
-        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集34张+8；类型「文化」+3；地域「西班牙」+3；封面图+2"
-      ],
-      "rank": 7
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "Ersatzneubau Winkel / Kollektiv.w AG",
-      "url": "https://www.archdaily.cn/zh/1188075/ersatzneubau-winkel-kollekti-ag",
-      "cover": "https://images.adsttc.com/media/images/6aea/0961/a85b/a800/01f0/2040/newsletter/241018_EFH_Roggliswil_106.jpg?1793722848",
-      "summary": "十一月 05 © Benjamin Kunz + 25 • Roggliswil, 瑞士 建筑师: Kollektiv.w AG 面积 该建筑项目的领域 面积: 122 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1188075/ersatzneubau-winkel-kollekti-ag Nina Vuga 阅读更多 »",
-      "published_at": "2026-11-05T20:00:00+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "alt_url": "https://www.archdaily.com/1188023/ersatzneubau-winkel-kollekti-ag",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Benjamin Kunz",
-        "image_count": 25,
-        "city": "Roggliswil",
-        "country": "瑞士",
-        "architect": "Kollektiv.w AG",
-        "area": "122 m²",
-        "year": "2024"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 9 位"
-      ],
-      "is_project": true,
-      "btype": null,
-      "region": "瑞士",
-      "city": "Roggliswil",
-      "architect": "Kollektiv.w AG",
-      "heat_score": 10.7,
-      "quality_score": 40.0,
-      "score": 50.7,
-      "reasons": [
-        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；地域「瑞士」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 8
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "zh",
-      "title": "芭提雅帕塔纳克山住宅 / SPACE | STORY | STUDIO",
-      "url": "https://www.archdaily.cn/zh/1187860/ba-ti-ya-pa-ta-na-ke-shan-zhu-zhai-space-story-studio",
-      "cover": "https://images.adsttc.com/media/images/6ae3/1e6b/3271/8400/01d0/fad7/newsletter/06.jpg?1793269373",
-      "summary": "十一月 05 © Pongthawat Panthong + 24 • Muang Pattaya, 泰国 建筑师: SPACE | STORY | STUDIO 面积 该建筑项目的领域 面积: 2000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187860/ba-ti-ya-pa-ta-na-ke-shan-zhu-zhai-space-story-studio Pratik Mour 阅读更多 »",
-      "published_at": "2026-11-05T16:00:00+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "alt_url": "https://www.archdaily.com/1187736/khao-phra-tamnak-house-space-story-studio",
-      "bilingual": true,
-      "meta": {
-        "photographer": "Pongthawat Panthong",
-        "image_count": 24,
-        "city": "Muang Pattaya",
-        "country": "泰国",
-        "architect": "SPACE | STORY | STUDIO",
-        "area": "2000 m²",
+        "photographer": "Paul Riddle",
+        "image_count": 32,
+        "city": "London",
+        "country": "United",
+        "architect": "Alison Brooks Architects",
+        "area": "16724 m²",
         "year": "2025"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 16 位"
+        "ArchDaily 首页第 4 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "泰国",
-      "city": "Muang Pattaya",
-      "architect": "SPACE | STORY | STUDIO",
-      "heat_score": 7.8,
+      "region": "United",
+      "city": "London",
+      "architect": "Alison Brooks Architects",
+      "heat_score": 19.2,
       "quality_score": 40.0,
-      "score": 47.8,
+      "score": 59.2,
       "reasons": [
-        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集24张+8；类型「住宅」+3；地域「泰国」+3；封面图+2；含面积数据+2"
+        "热度 19.2：ArchDaily 首页第 4 位→19.2",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 9
+      "rank": 2
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Cliff House / GASAP",
+      "url": "https://www.archdaily.com/1187693/cliff-house",
+      "cover": "https://images.adsttc.com/media/images/6ae2/098c/3271/8400/01d0/f715/newsletter/02.jpg?1793199291",
+      "summary": "November 06 © Panagiotis Voumvakis + 26 Residential Architecture , Houses , House Interiors • Rethimno, Greece Architects: GASAP Area Area of this architecture project Area: 250 m² Year Completion year of this architecture project Year: 2023 https://www.archdaily.com/1187693/cliff-house Cristina Popescu Read more »",
+      "published_at": "2026-11-06T19:00:00+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {
+        "photographer": "Panagiotis Voumvakis",
+        "image_count": 26,
+        "city": "Rethimno",
+        "country": "Greece",
+        "architect": "GASAP",
+        "area": "250 m²",
+        "year": "2023"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "希腊",
+      "city": "Rethimno",
+      "architect": "GASAP",
+      "heat_score": 15.6,
+      "quality_score": 40.0,
+      "score": 55.6,
+      "reasons": [
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「希腊」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Amman Design Week 2026 / Laith Matarweh Studio for Architecture 打造的“Al-Mastaba”装置",
+      "url": "https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi",
+      "cover": "https://images.adsttc.com/media/images/6ae3/1f5d/3271/8400/01d0/fb25/newsletter/11_Al-Mastaba_Installation_Mohanad_Jihad.jpg?1793269936",
+      "summary": "十一月 06 © Mohanad Jihad + 11 • Amman, 约旦 建筑师: Laith Matarweh Studio for Architecture 面积 该建筑项目的领域 面积: 25 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-06T16:00:00+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "alt_url": "https://www.archdaily.com/1187739/al-mastaba-installation-at-amman-design-week-2026-laith-matarweh-studio-for-architecture",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Mohanad Jihad",
+        "image_count": 11,
+        "city": "Amman",
+        "country": "约旦",
+        "architect": "Laith Matarweh Studio for Architecture",
+        "area": "25 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 11 位"
+      ],
+      "is_project": true,
+      "btype": "展览",
+      "region": "约旦",
+      "city": "Amman",
+      "architect": "Laith Matarweh Studio for Architecture",
+      "heat_score": 9.8,
+      "quality_score": 40.0,
+      "score": 49.8,
+      "reasons": [
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "清水诊所 / 矢野青山建筑设计事务所",
+      "url": "https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo",
+      "cover": "https://images.adsttc.com/media/images/6abf/9d08/07c3/d100/017f/cb9f/newsletter/009_Exterior_vegetal_filtering.jpg?1790942515",
+      "summary": "十一月 06 © Masao Nishikawa + 20 • Matsuyama, 日本 建筑师: Yano Aoyama Architecture Design 面积 该建筑项目的领域 面积: 235 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo Nana Dokua 阅读更多 »",
+      "published_at": "2026-11-06T15:00:00+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "alt_url": "https://www.archdaily.com/1186233/shimizu-clinic-yano-aoyama-architecture-design",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Masao Nishikawa",
+        "image_count": 20,
+        "city": "Matsuyama",
+        "country": "日本",
+        "architect": "Yano Aoyama Architecture Design",
+        "area": "235 m²",
+        "year": "2025"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "日本",
+      "city": "Matsuyama",
+      "architect": "Yano Aoyama Architecture Design",
+      "heat_score": 9.4,
+      "quality_score": 40.0,
+      "score": 49.4,
+      "reasons": [
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；地域「日本」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Westerpark West总体规划，阿姆斯特丹 / MVRDV",
+      "url": "https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-472x303.jpg",
+      "summary": "建筑  将旧办公园区改造为拥有921套住宅的绿色社区 2026.11.02 收藏 分享",
+      "published_at": "2026-11-02T11:53:21+08:00",
+      "first_seen": "2026-11-03T06:37:30+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {
+        "area": "77,000 m²",
+        "year": "2026",
+        "photographer": "Ossip van Duivenbode"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "阿姆斯特丹",
+      "city": "",
+      "architect": "MVRDV",
+      "heat_score": 0.0,
+      "quality_score": 39.4,
+      "score": 39.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「阿姆斯特丹」+3；封面图+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Spreebogen河湾联邦机构办公楼，柏林 / Sauerbruch Hutton",
+      "url": "https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/cover-sxv-472x303.jpg",
+      "summary": "建筑  德国联邦总统临时办公驻地 2026.11.06 收藏 分享",
+      "published_at": "2026-11-06T16:20:31+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {
+        "area": "18,700 m²",
+        "year": "2026",
+        "photographer": "Jan Bitter、Noshe"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "办公",
+      "region": "柏林",
+      "city": "",
+      "architect": "Sauerbruch Hutton",
+      "heat_score": 0.0,
+      "quality_score": 33.4,
+      "score": 33.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「柏林」+3；封面图+2"
+      ],
+      "rank": 7
     },
     {
       "source": "有方空间",
       "weight": 0.8,
       "lang": "zh",
-      "title": "新作丨广州白鹅潭景观设计 / agence ter",
-      "url": "https://www.archiposition.com/items/f9d9cbf95a",
-      "cover": "https://image.archiposition.com/2026/11/71793870571.png?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "探索景观如何让人重新感知广州的地理与日常生活。",
-      "published_at": "2026-11-05T17:47:48+08:00",
-      "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-06T08:33:47+08:00",
-      "meta": {},
+      "title": "顺势为“之”：重庆麓溪湖慢行中心 / 之外建筑",
+      "url": "https://www.archiposition.com/items/642c730b71",
+      "cover": "https://image.archiposition.com/2026/11/61793935945.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "将多种出行方式的交汇节点拓展为兼具通行、休憩与交流的公共空间。",
+      "published_at": "2026-11-06T11:56:40+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {
+        "area": "410 m²"
+      },
       "strong_heat": false,
       "heat_labels": [],
       "is_project": true,
-      "btype": "景观",
-      "region": "广州",
+      "btype": "公共",
+      "region": "重庆",
       "city": "",
-      "architect": "agence ter",
+      "architect": "之外建筑",
       "heat_score": 0.0,
       "quality_score": 32.4,
       "score": 32.4,
       "reasons": [
         "热度 0.0：无信号",
-        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「景观」+3；地域「广州」+3；封面图+2"
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「公共」+3；地域「重庆」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "深圳河包围九年一贯制学校，围屋重构 / TJAD曾群建筑研究室",
+      "url": "https://www.archiposition.com/items/d712916628",
+      "cover": "https://image.archiposition.com/2026/11/41793848332.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "设计从传统围屋与书院空间中寻找启发，以“围合”作为设计线索。",
+      "published_at": "2026-11-05T11:37:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "教育",
+      "region": "围屋重构",
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「围屋重构」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "SCI-Arc task force champions long-term architectural strategies for fire-prone areas",
+      "url": "https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/10/sci-arc-resilient-futures-task-force-designboom-700-500x400-22b08q85r445.jpg",
+      "summary": "SCI-ARC FOSTERS RADICAL RESPONSES TO INCREASING WILDFIRE RISKS &nbsp; The SCI-Arc Resilient Futures Task Force was created to rethink standard rebuilding methods after the January 2025 fires in Los Angeles exposed deep weaknesses in Southern California’s default residential. Bringing together teachers, researchers, and students, the initiative gives displaced homeowners direct, practical help with",
+      "published_at": "2026-11-06T19:00:21+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T06:37:24+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 4 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "Los Angeles",
+      "city": "",
+      "architect": "",
+      "heat_score": 10.5,
+      "quality_score": 17.6,
+      "score": 28.1,
+      "reasons": [
+        "热度 10.5：Designboom 首页第 4 位→10.5",
+        "质量 17.6：站点权重0.82→6.6；类型「住宅」+3；地域「Los Angeles」+3；封面图+2"
       ],
       "rank": 10
     }

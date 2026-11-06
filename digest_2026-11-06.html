@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-10-31 ~ 2026-11-06）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-10-31 ~ 2026-11-06）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-11-07 06:37:32 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 101 · ArchDaily中国 100 · 谷德设计网 62 · Dezeen 51 · Designboom 25 · 有方空间 7 · 建筑学院 0<br/>窗口内 346 条候选，其中 65 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>346</b>候选</div>
+      <div class="stat"><b>214</b>去重后</div>
+      <div class="stat"><b>8</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html">建筑奖项</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/001-wli-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm" target="_blank" rel="noopener">重庆UNDERJOY桥下·城市营地 / 物候设计</a></div>
+        <div class="arch">设计：物候设计</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 6 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,624 次</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 重庆</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,624 次</span>
+          <button type="button" class="mini" data-more="mfc117a4b1fdd">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm"
+            data-t="重庆UNDERJOY桥下·城市营地 / 物候设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/001-wli-472x303.jpg" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mfc117a4b1fdd"><div class="kv"><b>所在地</b><span>重庆</span></div><div class="kv"><b>摘要</b><span>景观 以自然花园、江景平台与多元餐饮激活重庆桥下闲置空间。 2026.11.05 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 67 分</b><div>· 热度 33.3：谷德 7 天最热 第 6 名 · 阅读 1624 次→33.3</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6aeb/28ad/d2cc/6001/8a4f/6b8c/newsletter/cadence-kings-cross-alison-brooks-architects_1.jpg?1793796324" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects" target="_blank" rel="noopener">Cadence Courtyard Tower / Alison Brooks Architects</a></div>
+        <div class="arch">设计：Alison Brooks Architects</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 4 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 United</span><span class="chip" style="color:#7c3aed">面积 16724 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 32 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 59 分</span>
+          <button type="button" class="mini" data-more="m5c3d1d030060">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects"
+            data-t="Cadence Courtyard Tower / Alison Brooks Architects" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6aeb/28ad/d2cc/6001/8a4f/6b8c/newsletter/cadence-kings-cross-alison-brooks-architects_1.jpg?1793796324" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m5c3d1d030060"><div class="kv"><b>建筑面积</b><span>16724 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>32 张</span></div><div class="kv"><b>摄影</b><span>Paul Riddle</span></div><div class="kv"><b>所在地</b><span>London / United</span></div><div class="kv"><b>摘要</b><span>November 06 © Paul Riddle + 32 Mixed Use Architecture , Residential Architecture , Apartments • London, United Kingdom Architects: Alison Brooks Architects Area Area of this architecture project Area:…</span></div><div class="why"><b>为什么推荐 · 合计 59 分</b><div>· 热度 19.2：ArchDaily 首页第 4 位→19.2</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1187693/cliff-house">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ae2/098c/3271/8400/01d0/f715/newsletter/02.jpg?1793199291" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1187693/cliff-house" target="_blank" rel="noopener">Cliff House / GASAP</a></div>
+        <div class="arch">设计：GASAP</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 8 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 希腊</span><span class="chip" style="color:#7c3aed">面积 250 m²</span><span class="chip" style="color:#b45309">建成 2023</span><span class="chip" style="color:#475569">图 26 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 56 分</span>
+          <button type="button" class="mini" data-more="mbc2e9f92b7ca">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1187693/cliff-house"
+            data-t="Cliff House / GASAP" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ae2/098c/3271/8400/01d0/f715/newsletter/02.jpg?1793199291" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1187693/cliff-house" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mbc2e9f92b7ca"><div class="kv"><b>建筑面积</b><span>250 m²</span></div><div class="kv"><b>建成年份</b><span>2023 年</span></div><div class="kv"><b>图集</b><span>26 张</span></div><div class="kv"><b>摄影</b><span>Panagiotis Voumvakis</span></div><div class="kv"><b>所在地</b><span>Rethimno / Greece</span></div><div class="kv"><b>摘要</b><span>November 06 © Panagiotis Voumvakis + 26 Residential Architecture , Houses , House Interiors • Rethimno, Greece Architects: GASAP Area Area of this architecture project Area: 250 m² Year Completion yea…</span></div><div class="why"><b>为什么推荐 · 合计 56 分</b><div>· 热度 15.6：ArchDaily 首页第 8 位→15.6</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「希腊」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ae3/1f5d/3271/8400/01d0/fb25/newsletter/11_Al-Mastaba_Installation_Mohanad_Jihad.jpg?1793269936" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi" target="_blank" rel="noopener">Amman Design Week 2026 / Laith Matarweh Studio for Architecture 打造的“Al-Mastaba”装置</a></div>
+        <div class="arch">设计：Laith Matarweh Studio for Architecture</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 11 位</span><span class="chip" style="color:#334155">类型 展览</span><span class="chip" style="color:#0f766e">地域 约旦</span><span class="chip" style="color:#7c3aed">面积 25 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 11 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 50 分</span>
+          <button type="button" class="mini" data-more="m3484edec68f1">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi"
+            data-t="Amman Design Week 2026 / Laith Matarweh Studio for Architecture 打造的“Al-Mastaba”装置" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ae3/1f5d/3271/8400/01d0/fb25/newsletter/11_Al-Mastaba_Installation_Mohanad_Jihad.jpg?1793269936" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m3484edec68f1"><div class="kv"><b>建筑面积</b><span>25 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>11 张</span></div><div class="kv"><b>摄影</b><span>Mohanad Jihad</span></div><div class="kv"><b>所在地</b><span>Amman / 约旦</span></div><div class="kv"><b>摘要</b><span>十一月 06 © Mohanad Jihad + 11 • Amman, 约旦 建筑师: Laith Matarweh Studio for Architecture 面积 该建筑项目的领域 面积: 25 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-ma…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187739/al-mastaba-installation-at-amman-design-week-2026-laith-matarweh-studio-for-architecture" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 50 分</b><div>· 热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6abf/9d08/07c3/d100/017f/cb9f/newsletter/009_Exterior_vegetal_filtering.jpg?1790942515" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo" target="_blank" rel="noopener">清水诊所 / 矢野青山建筑设计事务所</a></div>
+        <div class="arch">设计：Yano Aoyama Architecture Design</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 12 位</span><span class="chip" style="color:#0f766e">地域 日本</span><span class="chip" style="color:#7c3aed">面积 235 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 20 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 49 分</span>
+          <button type="button" class="mini" data-more="m475b8f2bec1e">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo"
+            data-t="清水诊所 / 矢野青山建筑设计事务所" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6abf/9d08/07c3/d100/017f/cb9f/newsletter/009_Exterior_vegetal_filtering.jpg?1790942515" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m475b8f2bec1e"><div class="kv"><b>建筑面积</b><span>235 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>20 张</span></div><div class="kv"><b>摄影</b><span>Masao Nishikawa</span></div><div class="kv"><b>所在地</b><span>Matsuyama / 日本</span></div><div class="kv"><b>摘要</b><span>十一月 06 © Masao Nishikawa + 20 • Matsuyama, 日本 建筑师: Yano Aoyama Architecture Design 面积 该建筑项目的领域 面积: 235 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1186233/shimizu-clinic-yano-aoyama-architecture-design" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 49 分</b><div>· 热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；地域「日本」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/001-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm" target="_blank" rel="noopener">Westerpark West总体规划，阿姆斯特丹 / MVRDV</a></div>
+        <div class="arch">设计：MVRDV</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 阿姆斯特丹</span><span class="chip" style="color:#7c3aed">面积 77,000 m²</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">综合 39 分</span>
+          <button type="button" class="mini" data-more="m8a2fb47e6a29">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm"
+            data-t="Westerpark West总体规划，阿姆斯特丹 / MVRDV" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/001-472x303.jpg" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m8a2fb47e6a29"><div class="kv"><b>建筑面积</b><span>77,000 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>摄影</b><span>Ossip van Duivenbode</span></div><div class="kv"><b>所在地</b><span>阿姆斯特丹</span></div><div class="kv"><b>摘要</b><span>建筑 将旧办公园区改造为拥有921套住宅的绿色社区 2026.11.02 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 39 分</b><div>· 热度 0.0：无信号</div><div>· 质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「阿姆斯特丹」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/10/cover-sxv-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm" target="_blank" rel="noopener">Spreebogen河湾联邦机构办公楼，柏林 / Sauerbruch Hutton</a></div>
+        <div class="arch">设计：Sauerbruch Hutton</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 办公</span><span class="chip" style="color:#0f766e">地域 柏林</span><span class="chip" style="color:#7c3aed">面积 18,700 m²</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">综合 33 分</span>
+          <button type="button" class="mini" data-more="m28eed6963e83">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm"
+            data-t="Spreebogen河湾联邦机构办公楼，柏林 / Sauerbruch Hutton" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/10/cover-sxv-472x303.jpg" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m28eed6963e83"><div class="kv"><b>建筑面积</b><span>18,700 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>摄影</b><span>Jan Bitter、Noshe</span></div><div class="kv"><b>所在地</b><span>柏林</span></div><div class="kv"><b>摘要</b><span>建筑 德国联邦总统临时办公驻地 2026.11.06 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 33 分</b><div>· 热度 0.0：无信号</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「柏林」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/642c730b71">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/61793935945.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/642c730b71" target="_blank" rel="noopener">顺势为“之”：重庆麓溪湖慢行中心 / 之外建筑</a></div>
+        <div class="arch">设计：之外建筑</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 公共</span><span class="chip" style="color:#0f766e">地域 重庆</span><span class="chip" style="color:#7c3aed">面积 410 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 32 分</span>
+          <button type="button" class="mini" data-more="mb5da3c031189">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/642c730b71"
+            data-t="顺势为“之”：重庆麓溪湖慢行中心 / 之外建筑" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/61793935945.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/642c730b71" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mb5da3c031189"><div class="kv"><b>建筑面积</b><span>410 m²</span></div><div class="kv"><b>所在地</b><span>重庆</span></div><div class="kv"><b>摘要</b><span>将多种出行方式的交汇节点拓展为兼具通行、休憩与交流的公共空间。</span></div><div class="why"><b>为什么推荐 · 合计 32 分</b><div>· 热度 0.0：无信号</div><div>· 质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「公共」+3；地域「重庆」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/d712916628">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/41793848332.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/d712916628" target="_blank" rel="noopener">深圳河包围九年一贯制学校，围屋重构 / TJAD曾群建筑研究室</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 围屋重构</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 32 分</span>
+          <button type="button" class="mini" data-more="m323cd299c07f">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/d712916628"
+            data-t="深圳河包围九年一贯制学校，围屋重构 / TJAD曾群建筑研究室" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/41793848332.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/d712916628" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m323cd299c07f"><div class="kv"><b>所在地</b><span>围屋重构</span></div><div class="kv"><b>摘要</b><span>设计从传统围屋与书院空间中寻找启发，以“围合”作为设计线索。</span></div><div class="why"><b>为什么推荐 · 合计 32 分</b><div>· 热度 0.0：无信号</div><div>· 质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「围屋重构」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/10/sci-arc-resilient-futures-task-force-designboom-700-500x400-22b08q85r445.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force" target="_blank" rel="noopener">SCI-Arc Task Force Champions Long-term Architectural Strategies for Fire-prone Areas</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Designboom 首页第 4 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 Los Angeles</span></div>
+        <div class="foot">
+          <span class="src" style="background:#7c3aed">Designboom</span>
+          <span class="score">综合 28 分</span>
+          <button type="button" class="mini" data-more="m90b35a47bdde">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force"
+            data-t="SCI-Arc Task Force Champions Long-term Architectural Strategies for Fire-prone Areas" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/10/sci-arc-resilient-futures-task-force-designboom-700-500x400-22b08q85r445.jpg" data-d="2026-11-06">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/sci-arc-resilient-futures-task-force" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m90b35a47bdde"><div class="kv"><b>所在地</b><span>Los Angeles</span></div><div class="kv"><b>摘要</b><span>SCI-ARC FOSTERS RADICAL RESPONSES TO INCREASING WILDFIRE RISKS &amp;nbsp; The SCI-Arc Resilient Futures Task Force was created to rethink standard rebuilding methods after the January 2025 fires in Los An…</span></div><div class="why"><b>为什么推荐 · 合计 28 分</b><div>· 热度 10.5：Designboom 首页第 4 位→10.5</div><div>· 质量 17.6：站点权重0.82→6.6；类型「住宅」+3；地域「Los Angeles」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-10-31 ~ 2026-11-06）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 5 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>
