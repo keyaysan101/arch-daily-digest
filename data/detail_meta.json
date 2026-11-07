@@ -1002,5 +1002,50 @@
   "area": "25 m²",
   "year": "2026",
   "photographer": "KennLeung、Kevin Chu"
+ },
+ "https://www.gooood.cn/wild-wood-by-reborn-design.htm": {},
+ "https://www.archdaily.com/1187909/masso-apartment-castroferro-arquitectura": {
+  "year": "2026",
+  "brands": [
+   "Neolith",
+   "Cortizo",
+   "Dekton",
+   "Parador"
+  ],
+  "image_count": 20
+ },
+ "https://www.archdaily.com/1187683/beach-house": {
+  "year": "2026",
+  "image_count": 20
+ },
+ "https://www.archdaily.com/1188203/concrete-house-vierna9-plus-ciral-arquitectos": {
+  "year": "2025",
+  "brands": [
+   "Cerámica Mayor",
+   "Gröel",
+   "HOLCIM ESPAÑA S.A.U.",
+   "Hager",
+   "Marmolera vallisoletana",
+   "Panoramah!"
+  ],
+  "image_count": 25
+ },
+ "https://www.archdaily.com/1188218/sertao-block-and-amparo-house-asa-arquitetos": {
+  "year": "2026",
+  "brands": [
+   "Deca",
+   "Kingspan Insulated Panels",
+   "Portobello"
+  ],
+  "image_count": 31
+ },
+ "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london": {
+  "area": "133 m²",
+  "year": "2026"
+ },
+ "https://www.gooood.cn/the-university-of-chicago-campus-in-hong-kong-by-revery-architecture.htm": {},
+ "https://www.designboom.com/architecture/powerhouse-parramatta-steel-lattice-museum-opens-art-es-devlin-james-turrell-sydney-australia": {
+  "area": "18,000 m²",
+  "photographer": "© Rory Gardiner | @arorygardiner"
  }
 }
