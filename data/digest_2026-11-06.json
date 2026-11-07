@@ -3,7 +3,7 @@
   "window_start": "2026-10-31",
   "window_end": "2026-11-06",
   "window_days": 7,
-  "generated_at": "2026-11-07T06:37:32+08:00",
+  "generated_at": "2026-11-07T08:30:39+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-11-02",
       "newest": "2026-11-06",
-      "hit": 62,
+      "hit": 59,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 346,
-  "new_stored": 50,
-  "store_total": 1423,
+  "candidate_count": 343,
+  "new_stored": 2,
+  "store_total": 1425,
   "after_dedupe": 214,
   "noise_count": 8,
   "heat_signal_count": 99,
-  "heat_hit_count": 65,
-  "out_of_window_count": 5,
+  "heat_hit_count": 63,
+  "out_of_window_count": 2,
   "count": 10,
   "noise": [
     {
@@ -138,13 +138,13 @@
       "summary": "景观  以自然花园、江景平台与多元餐饮激活重庆桥下闲置空间。 2026.11.05 收藏 分享",
       "published_at": "2026-11-05T10:29:10+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 1624 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1627 次"
       ],
-      "views": 1624,
+      "views": 1627,
       "heat_rank": 6,
       "is_project": true,
       "btype": "景观",
@@ -155,10 +155,82 @@
       "quality_score": 33.4,
       "score": 66.7,
       "reasons": [
-        "热度 33.3：谷德 7 天最热 第 6 名 · 阅读 1624 次→33.3",
+        "热度 33.3：谷德 7 天最热 第 6 名 · 阅读 1627 次→33.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2"
       ],
       "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "乔村·二十八道，杭州 / 杭州偲所设计",
+      "url": "https://www.gooood.cn/qiaocun-by-hangzhou-sisuo-architectural-space-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/qiaocun-28-cover-472x303.jpg",
+      "summary": "建筑  在水声与光影间透出自然的呼吸 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T10:11:22+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
+      "meta": {
+        "city": "二十八道",
+        "country": "杭州",
+        "photographer": "赵龙"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1411 次"
+      ],
+      "views": 1411,
+      "heat_rank": 9,
+      "is_project": true,
+      "btype": null,
+      "region": "杭州",
+      "city": "二十八道",
+      "architect": "",
+      "heat_score": 28.9,
+      "quality_score": 30.4,
+      "score": 59.3,
+      "reasons": [
+        "热度 28.9：谷德 7 天最热 第 9 名 · 阅读 1411 次→28.9",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Rico Coffee，中山 / 一二三设计",
+      "url": "https://www.gooood.cn/rico-coffee-by-123-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/rico-coffee-cover-472x303.jpg",
+      "summary": "建筑  街角的路灯 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T14:58:35+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
+      "meta": {
+        "area": "25 m²",
+        "year": "2026",
+        "photographer": "KennLeung、Kevin Chu"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1381 次"
+      ],
+      "views": 1381,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": null,
+      "region": "中山",
+      "city": "",
+      "architect": "一二三设计",
+      "heat_score": 28.3,
+      "quality_score": 30.4,
+      "score": 58.7,
+      "reasons": [
+        "热度 28.3：谷德 7 天最热 第 12 名 · 阅读 1381 次→28.3",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「中山」+3；封面图+2"
+      ],
+      "rank": 3
     },
     {
       "source": "ArchDaily",
@@ -170,7 +242,7 @@
       "summary": "November 06 © Paul Riddle + 32 Mixed Use Architecture , Residential Architecture , Apartments • London, United Kingdom Architects: Alison Brooks Architects Area Area of this architecture project Area: 16724 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188074/cadence-kings-cross-alison-brooks-architects Cristina Popescu Read more »",
       "published_at": "2026-11-06T23:00:00+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {
         "photographer": "Paul Riddle",
         "image_count": 32,
@@ -182,21 +254,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 4 位"
+        "ArchDaily 首页第 5 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
       "city": "London",
       "architect": "Alison Brooks Architects",
-      "heat_score": 19.2,
+      "heat_score": 18.3,
       "quality_score": 40.0,
-      "score": 59.2,
+      "score": 58.3,
       "reasons": [
-        "热度 19.2：ArchDaily 首页第 4 位→19.2",
+        "热度 18.3：ArchDaily 首页第 5 位→18.3",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "source": "ArchDaily",
@@ -208,7 +280,7 @@
       "summary": "November 06 © Panagiotis Voumvakis + 26 Residential Architecture , Houses , House Interiors • Rethimno, Greece Architects: GASAP Area Area of this architecture project Area: 250 m² Year Completion year of this architecture project Year: 2023 https://www.archdaily.com/1187693/cliff-house Cristina Popescu Read more »",
       "published_at": "2026-11-06T19:00:00+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {
         "photographer": "Panagiotis Voumvakis",
         "image_count": 26,
@@ -220,21 +292,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 8 位"
+        "ArchDaily 首页第 9 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "希腊",
       "city": "Rethimno",
       "architect": "GASAP",
-      "heat_score": 15.6,
+      "heat_score": 14.7,
       "quality_score": 40.0,
-      "score": 55.6,
+      "score": 54.7,
       "reasons": [
-        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「希腊」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -246,7 +318,7 @@
       "summary": "十一月 06 © Mohanad Jihad + 11 • Amman, 约旦 建筑师: Laith Matarweh Studio for Architecture 面积 该建筑项目的领域 面积: 25 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1187863/amman-design-week-2026-laith-matarweh-studio-for-architecture-da-zao-de-al-mastaba-zhuang-zhi Pratik Mour 阅读更多 »",
       "published_at": "2026-11-06T16:00:00+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "alt_url": "https://www.archdaily.com/1187739/al-mastaba-installation-at-amman-design-week-2026-laith-matarweh-studio-for-architecture",
       "bilingual": true,
       "meta": {
@@ -260,21 +332,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 12 位"
       ],
       "is_project": true,
       "btype": "展览",
       "region": "约旦",
       "city": "Amman",
       "architect": "Laith Matarweh Studio for Architecture",
-      "heat_score": 9.8,
+      "heat_score": 9.4,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 49.4,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「展览」+3；地域「约旦」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "source": "ArchDaily",
@@ -286,7 +358,7 @@
       "summary": "十一月 06 © Masao Nishikawa + 20 • Matsuyama, 日本 建筑师: Yano Aoyama Architecture Design 面积 该建筑项目的领域 面积: 235 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1187513/qing-shui-zhen-suo-shi-ye-qing-shan-jian-zhu-she-ji-shi-wu-suo Nana Dokua 阅读更多 »",
       "published_at": "2026-11-06T15:00:00+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "alt_url": "https://www.archdaily.com/1186233/shimizu-clinic-yano-aoyama-architecture-design",
       "bilingual": true,
       "meta": {
@@ -300,83 +372,19 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 12 位"
+        "ArchDaily中国 首页第 13 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "日本",
       "city": "Matsuyama",
       "architect": "Yano Aoyama Architecture Design",
-      "heat_score": 9.4,
+      "heat_score": 9.0,
       "quality_score": 40.0,
-      "score": 49.4,
+      "score": 49.0,
       "reasons": [
-        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
+        "热度 9.0：ArchDaily中国 首页第 13 位→5.0；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；地域「日本」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 5
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Westerpark West总体规划，阿姆斯特丹 / MVRDV",
-      "url": "https://www.gooood.cn/westerpark-west-by-mvrdv-completed.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-472x303.jpg",
-      "summary": "建筑  将旧办公园区改造为拥有921套住宅的绿色社区 2026.11.02 收藏 分享",
-      "published_at": "2026-11-02T11:53:21+08:00",
-      "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
-      "meta": {
-        "area": "77,000 m²",
-        "year": "2026",
-        "photographer": "Ossip van Duivenbode"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "住宅",
-      "region": "阿姆斯特丹",
-      "city": "",
-      "architect": "MVRDV",
-      "heat_score": 0.0,
-      "quality_score": 39.4,
-      "score": 39.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「住宅」+3；地域「阿姆斯特丹」+3；封面图+2"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Spreebogen河湾联邦机构办公楼，柏林 / Sauerbruch Hutton",
-      "url": "https://www.gooood.cn/office-building-for-federal-authorities-at-the-spreebogen-by-sauerbruch-hutton.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/10/cover-sxv-472x303.jpg",
-      "summary": "建筑  德国联邦总统临时办公驻地 2026.11.06 收藏 分享",
-      "published_at": "2026-11-06T16:20:31+08:00",
-      "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
-      "meta": {
-        "area": "18,700 m²",
-        "year": "2026",
-        "photographer": "Jan Bitter、Noshe"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "办公",
-      "region": "柏林",
-      "city": "",
-      "architect": "Sauerbruch Hutton",
-      "heat_score": 0.0,
-      "quality_score": 33.4,
-      "score": 33.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「柏林」+3；封面图+2"
       ],
       "rank": 7
     },
@@ -390,7 +398,7 @@
       "summary": "将多种出行方式的交汇节点拓展为兼具通行、休憩与交流的公共空间。",
       "published_at": "2026-11-06T11:56:40+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {
         "area": "410 m²"
       },
@@ -420,7 +428,7 @@
       "summary": "设计从传统围屋与书院空间中寻找启发，以“围合”作为设计线索。",
       "published_at": "2026-11-05T11:37:00+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
@@ -448,7 +456,7 @@
       "summary": "SCI-ARC FOSTERS RADICAL RESPONSES TO INCREASING WILDFIRE RISKS &nbsp; The SCI-Arc Resilient Futures Task Force was created to rethink standard rebuilding methods after the January 2025 fires in Los Angeles exposed deep weaknesses in Southern California’s default residential. Bringing together teachers, researchers, and students, the initiative gives displaced homeowners direct, practical help with",
       "published_at": "2026-11-06T19:00:21+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-07T08:30:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
