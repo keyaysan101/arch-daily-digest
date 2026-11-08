@@ -3,7 +3,7 @@
   "window_start": "2026-11-01",
   "window_end": "2026-11-07",
   "window_days": 7,
-  "generated_at": "2026-11-08T06:34:11+08:00",
+  "generated_at": "2026-11-08T08:29:09+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-11-02",
       "newest": "2026-11-07",
-      "hit": 59,
+      "hit": 58,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": true
     }
   ],
-  "candidate_count": 342,
-  "new_stored": 26,
+  "candidate_count": 341,
+  "new_stored": 0,
   "store_total": 1451,
   "after_dedupe": 202,
   "noise_count": 10,
   "heat_signal_count": 96,
   "heat_hit_count": 60,
-  "out_of_window_count": 2,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -148,14 +148,14 @@
       "summary": "建筑  在大理，让时间继续生长 2026.11.04 收藏 分享",
       "published_at": "2026-11-04T14:43:15+08:00",
       "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1486 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1489 次"
       ],
-      "views": 1486,
-      "heat_rank": 9,
+      "views": 1489,
+      "heat_rank": 8,
       "is_project": true,
       "btype": null,
       "region": "大理",
@@ -165,7 +165,7 @@
       "quality_score": 30.4,
       "score": 60.2,
       "reasons": [
-        "热度 29.8：谷德 7 天最热 第 9 名 · 阅读 1486 次→29.8",
+        "热度 29.8：谷德 7 天最热 第 8 名 · 阅读 1489 次→29.8",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「大理」+3；封面图+2"
       ],
       "rank": 1
@@ -180,7 +180,7 @@
       "summary": "November 07 © Héctor Santos Díez + 13 Renovation , Residential Interiors • Vigo, Spain Architects: Castroferro Arquitectura Area Area of this architecture project Area: 144 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Neolith , Cortizo , Dekton , Parador https://www.archdaily.com/1187909/masso-ap",
       "published_at": "2026-11-07T23:00:00+08:00",
       "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "photographer": "Héctor Santos Díez",
         "image_count": 13,
@@ -224,7 +224,7 @@
       "summary": "November 07 © Martin Smedsen + 12 Residential Architecture , Houses , House Interiors • Sweden Architects: Sebastian Honnér Area Area of this architecture project Area: 110 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187683/beach-house Cristina Popescu Read more »",
       "published_at": "2026-11-07T19:00:00+08:00",
       "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "photographer": "Martin Smedsen",
         "image_count": 12,
@@ -260,7 +260,7 @@
       "summary": "November 07 © Imagen Subliminal (Rocío R. Rivas, Miguel de Guzmán) + 18 Residential Architecture , Houses , House Interiors • Madrid, Spain Architects: CIRAL Arquitectos , Vierna9 Area Area of this architecture project Area: 897 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Cerámica Mayor , Gröel ",
       "published_at": "2026-11-07T08:00:00+08:00",
       "first_seen": "2026-11-07T08:30:32+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "city": "Madrid",
         "country": "Spain",
@@ -301,7 +301,7 @@
       "summary": "November 06 © Igor Ribeiro + 23 Residential Architecture , Houses • Brazil Architects: Asa Arquitetos Area Area of this architecture project Area: 622 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Deca , Kingspan Insulated Panels , Portobello https://www.archdaily.com/1188218/sertao-block-and-ampa",
       "published_at": "2026-11-07T06:00:00+08:00",
       "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "photographer": "Igor Ribeiro",
         "image_count": 23,
@@ -342,7 +342,7 @@
       "summary": "建筑  将旧办公园区改造为拥有921套住宅的绿色社区 2026.11.02 收藏 分享",
       "published_at": "2026-11-02T11:53:21+08:00",
       "first_seen": "2026-11-03T06:37:30+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "area": "77,000 m²",
         "year": "2026",
@@ -374,7 +374,7 @@
       "summary": "a pink facade of oversized arches &nbsp; Architect Peter Morris has completed The Cloud House in Gospel Oak, North London , bringing a rather unexpected shade of pink to a street of grey brick buildings. The project comprises two adjoining three-story homes , united by a facade of enormous arches, scalloped rooflines, and turquoise-framed windows. Somewhere between a Gothic church and a Miami beac",
       "published_at": "2026-11-07T11:25:53+08:00",
       "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "area": "133 m²",
         "year": "2026"
@@ -407,7 +407,7 @@
       "summary": "建筑  悬浮山坡，连接历史与自然 2026.11.07 收藏 分享",
       "published_at": "2026-11-07T08:30:54+08:00",
       "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
@@ -435,7 +435,7 @@
       "summary": "a new museum opens its doors in western sydney &nbsp; Powerhouse Parramatta, the new museum designed by Moreau Kusunoki and Genton in Western Sydney, Australia , will officially open to the public on November 7th, 2026. Following years of construction along the Parramatta River, the monumental cultural building, with its lattice facade , is ready to welcome its first visitors, with five inaugural ",
       "published_at": "2026-11-06T23:26:59+08:00",
       "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {
         "area": "18,000 m²",
         "photographer": "© Rory Gardiner | @arorygardiner"
@@ -468,7 +468,7 @@
       "summary": "International studio Linehouse has completed the interiors of the Jen hotel in Hangzhou , China , which features details that nod to local craft and the area's industrial heritage.&nbsp; The hotel, which is owned by the Shangri-La Hotel Group , is located along Hangzhou's Dongxin River in an urban setting and flanked by two former industrial factory compounds.&nbsp; Plans and drawings Previous Nex",
       "published_at": "2026-11-05T19:30:00+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-08T06:34:04+08:00",
+      "last_seen": "2026-11-08T08:29:04+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
