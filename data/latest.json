@@ -1,27 +1,27 @@
 {
-  "date": "2026-11-08",
-  "window_start": "2026-11-02",
-  "window_end": "2026-11-08",
+  "date": "2026-11-09",
+  "window_start": "2026-11-03",
+  "window_end": "2026-11-09",
   "window_days": 7,
-  "generated_at": "2026-11-09T08:31:15+08:00",
+  "generated_at": "2026-11-10T06:42:04+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
-      "total": 66,
-      "oldest": "2026-10-06",
-      "newest": "2026-11-09",
-      "hit": 101,
+      "total": 64,
+      "oldest": "2026-10-07",
+      "newest": "2026-11-10",
+      "hit": 99,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "ArchDaily中国",
       "ok": true,
-      "total": 66,
-      "oldest": "2026-10-05",
-      "newest": "2026-11-09",
-      "hit": 99,
+      "total": 64,
+      "oldest": "2026-10-06",
+      "newest": "2026-11-10",
+      "hit": 96,
       "stale_days": -1,
       "stale": false
     },
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-11-02",
-      "newest": "2026-11-08",
-      "hit": 58,
+      "oldest": "2026-11-03",
+      "newest": "2026-11-09",
+      "hit": 56,
       "stale_days": 0,
       "stale": false
     },
@@ -39,53 +39,63 @@
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-11-02",
-      "newest": "2026-11-08",
-      "hit": 50,
-      "stale_days": 0,
+      "oldest": "2026-11-03",
+      "newest": "2026-11-10",
+      "hit": 49,
+      "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
       "total": 5,
-      "oldest": "2026-11-07",
-      "newest": "2026-11-08",
-      "hit": 27,
-      "stale_days": 0,
+      "oldest": "2026-11-09",
+      "newest": "2026-11-10",
+      "hit": 26,
+      "stale_days": -1,
       "stale": false
     },
     {
       "source": "有方空间",
       "ok": true,
-      "total": 16,
-      "oldest": "2026-10-28",
-      "newest": "2026-11-06",
-      "hit": 7,
-      "stale_days": 2,
+      "total": 15,
+      "oldest": "2026-11-04",
+      "newest": "2026-11-09",
+      "hit": 15,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "建筑学院",
       "ok": true,
       "total": 10,
-      "oldest": "2026-07-28",
-      "newest": "2026-08-30",
-      "hit": 0,
-      "stale_days": 70,
-      "stale": true
+      "oldest": "2026-07-29",
+      "newest": "2026-11-09",
+      "hit": 1,
+      "stale_days": 0,
+      "stale": false
     }
   ],
   "candidate_count": 342,
-  "new_stored": 0,
-  "store_total": 1471,
-  "after_dedupe": 202,
-  "noise_count": 10,
-  "heat_signal_count": 97,
-  "heat_hit_count": 62,
+  "new_stored": 63,
+  "store_total": 1534,
+  "after_dedupe": 196,
+  "noise_count": 11,
+  "heat_signal_count": 101,
+  "heat_hit_count": 60,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
+    {
+      "title": "podcast: architecture that refuses signature styles for spaces shaped by instinct",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-05-06"
+    },
+    {
+      "title": "inside mikoü architecture and its search for meaning in craft and construction",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/salwa-selma-mikoustudio-craft-architecture-interview-louisiana-channel"
+    },
     {
       "title": "Eight galleries artfully made from concrete",
       "source": "Dezeen",
@@ -130,11 +140,6 @@
       "title": "podcast: curing urban isolation through collective care and architectural intuition",
       "source": "Designboom",
       "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-03-04"
-    },
-    {
-      "title": "Making the City: ArchDaily Student Project Awards 2027 Open for Submissions",
-      "source": "ArchDaily",
-      "url": "https://www.archdaily.com/1187728/making-the-city-archdaily-student-project-awards-2027-open-for-submissions"
     }
   ],
   "items": [
@@ -142,40 +147,35 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "苏州第一丝厂改造 / 日清设计",
-      "url": "https://www.gooood.cn/renovation-of-suzhous-first-silk-factory-by-lacime-architects.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/00-irst-Silk-Factory-by-Lacime-Architects-472x303.jpg",
-      "summary": "建筑  空间织补，百年丝厂的新生 2026.11.06 收藏 分享",
-      "published_at": "2026-11-06T11:46:54+08:00",
-      "first_seen": "2026-11-07T06:37:24+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
+      "title": "南京徐庄高新区聚智园办公群 / 邦建实践",
+      "url": "https://www.gooood.cn/juzhiyuan-office-complex-by-uag.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/juzhiyuan-office-uag-cover-700x449-472x303.jpg",
+      "summary": "建筑  山城相映的多元科研办公社区 2026.11.05 收藏 分享",
+      "published_at": "2026-11-05T09:48:18+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
       "meta": {
-        "year": "2024",
-        "brands": [
-          "Leitlan Ceramics",
-          "Kunshan TKG",
-          "Anhui Weichu New Materials",
-          "Suzhou Zhongsheng",
-          "Jiangsu Quanhao Aluminum"
-        ]
+        "area": "36754 m²",
+        "year": "2021",
+        "photographer": "侯博文"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1610 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1739 次"
       ],
-      "views": 1610,
-      "heat_rank": 5,
+      "views": 1739,
+      "heat_rank": 8,
       "is_project": true,
-      "btype": "改造",
-      "region": "苏州",
+      "btype": "办公",
+      "region": "南京",
       "city": "",
-      "architect": "日清设计",
-      "heat_score": 33.2,
+      "architect": "邦建实践",
+      "heat_score": 31.6,
       "quality_score": 33.4,
-      "score": 66.6,
+      "score": 65.0,
       "reasons": [
-        "热度 33.2：谷德 7 天最热 第 5 名 · 阅读 1610 次→33.2",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「改造」+3；地域「苏州」+3；封面图+2"
+        "热度 31.6：谷德 7 天最热 第 8 名 · 阅读 1739 次→31.6",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「南京」+3；封面图+2"
       ],
       "rank": 1
     },
@@ -183,259 +183,262 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "领克MEC汽车运动体验中心，成都 / MUDA慕达建筑",
-      "url": "https://www.gooood.cn/lynk-co-motorsport-experience-center-chengdu-by-muda-architects.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-u8q-472x303.jpg",
-      "summary": "建筑  星舰停泊 2026.11.05 收藏 分享",
-      "published_at": "2026-11-05T10:59:35+08:00",
+      "title": "两条人食志（慢闪店），杭州 / ZAMIN LAB丈设计",
+      "url": "https://www.gooood.cn/two-guys-pop-up-store-by-zamin-lab.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/ltr-popup-cover-472x303.jpg",
+      "summary": "建筑  模块化设计在慢闪空间中的应用实践 2026.11.05 收藏 分享",
+      "published_at": "2026-11-05T18:30:19+08:00",
       "first_seen": "2026-11-06T06:45:00+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
-      "meta": {
-        "area": "3,884 m²",
-        "photographer": "存在建筑、吴清波、领克汽车运动"
-      },
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1489 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1642 次"
       ],
-      "views": 1489,
-      "heat_rank": 10,
+      "views": 1642,
+      "heat_rank": 9,
       "is_project": true,
-      "btype": "体育",
-      "region": "成都",
+      "btype": "商业",
+      "region": "杭州",
       "city": "",
-      "architect": "MUDA慕达建筑",
-      "heat_score": 30.7,
+      "architect": "ZAMIN LAB丈设计",
+      "heat_score": 29.8,
       "quality_score": 33.4,
-      "score": 64.1,
+      "score": 63.2,
       "reasons": [
-        "热度 30.7：谷德 7 天最热 第 10 名 · 阅读 1489 次→30.7",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「体育」+3；地域「成都」+3；封面图+2"
+        "热度 29.8：谷德 7 天最热 第 9 名 · 阅读 1642 次→29.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 2
     },
     {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "围屋重构：深圳河包围九年一贯制学校 / TJAD曾群建筑研究室",
-      "url": "https://www.gooood.cn/shenzhen-river-encirclement-nine-year-school-by-tjad-zeng-qun.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/00-hebaowei-01-472x303.jpg",
-      "summary": "建筑  以“围合”作为设计线索，探索属于当代校园的空间秩序 2026.11.04 收藏 分享",
-      "published_at": "2026-11-04T09:03:02+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Bai’etan, Guangzhou / UTE Agence Ter & Ana Coello de Llobet",
+      "url": "https://www.archdaily.com/1187741/baietan-guangzhou-ute-agence-ter-and-ana-coello-de-llobet",
+      "cover": "https://images.adsttc.com/media/images/6ae3/2795/3271/8400/01d0/fb55/newsletter/TER_Bai_etan_Riverfront-Plaza-4-__IAM____.jpg?1793271740",
+      "summary": "November 09 © ©️IAM岸木摄影 + 20 Public Space , Installations & Structures , Landscape Architecture • Guangzhou, China Architects: UTE Agence Ter & Ana Coello de Llobet Area Area of this architecture project Area: 100000 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187741/baietan-guangzhou-ute-agence-ter-and-ana-coello-de-llobet Cristina Popescu Read more ",
+      "published_at": "2026-11-09T23:00:00+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
       "meta": {
-        "photographer": "张超"
+        "photographer": "©️IAM岸木摄影",
+        "image_count": 20,
+        "city": "Guangzhou",
+        "country": "China",
+        "architect": "UTE Agence Ter & Ana Coello de Llobet",
+        "area": "100000 m²",
+        "year": "2026"
       },
-      "strong_heat": true,
+      "strong_heat": false,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1475 次"
+        "ArchDaily 首页第 6 位"
       ],
-      "views": 1475,
-      "heat_rank": 11,
       "is_project": true,
-      "btype": "教育",
-      "region": "深圳",
-      "city": "",
-      "architect": "",
-      "heat_score": 30.4,
-      "quality_score": 33.4,
-      "score": 63.8,
+      "btype": "景观",
+      "region": "中国",
+      "city": "Guangzhou",
+      "architect": "UTE Agence Ter & Ana Coello de Llobet",
+      "heat_score": 17.4,
+      "quality_score": 40.0,
+      "score": 57.4,
       "reasons": [
-        "热度 30.4：谷德 7 天最热 第 11 名 · 阅读 1475 次→30.4",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「深圳」+3；封面图+2"
+        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 3
     },
     {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "立方体中的住宅，墨西哥 / operadora",
-      "url": "https://www.gooood.cn/house-within-a-cube-i-by-operadora.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-t6i-472x303.jpg",
-      "summary": "建筑  7.5米立方体里的三层独户住宅 2026.11.04 收藏 分享",
-      "published_at": "2026-11-04T15:10:33+08:00",
-      "first_seen": "2026-11-05T06:44:15+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Studio for two / Krupinski/Krupinska Arkitekter",
+      "url": "https://www.archdaily.com/1188025/studio-for-two",
+      "cover": "https://images.adsttc.com/media/images/6aea/09e6/a85b/a800/01f0/20d0/newsletter/STUDIO_FOR_TWO_photo_by_Victor_Johansson__12_.jpg?1793722916",
+      "summary": "November 09 © VictorJohansson + 10 Residential Architecture , Houses , House Interiors • Stockholm, Sweden Architects: Krupinski/Krupinska Arkitekter Area Area of this architecture project Area: 60 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188025/studio-for-two Cristina Popescu Read more »",
+      "published_at": "2026-11-09T19:00:00+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
       "meta": {
-        "area": "120 m²",
-        "photographer": "Arturo Arrieta"
+        "photographer": "VictorJohansson",
+        "image_count": 10,
+        "city": "Stockholm",
+        "country": "Sweden",
+        "architect": "Krupinski/Krupinska Arkitekter",
+        "area": "60 m²",
+        "year": "2025"
       },
-      "strong_heat": true,
+      "strong_heat": false,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1373 次"
+        "ArchDaily 首页第 14 位"
       ],
-      "views": 1373,
-      "heat_rank": 12,
       "is_project": true,
       "btype": "住宅",
-      "region": "墨西哥",
-      "city": "",
-      "architect": "operadora",
-      "heat_score": 28.3,
-      "quality_score": 33.4,
-      "score": 61.7,
+      "region": "瑞典",
+      "city": "Stockholm",
+      "architect": "Krupinski/Krupinska Arkitekter",
+      "heat_score": 10.1,
+      "quality_score": 40.0,
+      "score": 50.1,
       "reasons": [
-        "热度 28.3：谷德 7 天最热 第 12 名 · 阅读 1373 次→28.3",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「墨西哥」+3；封面图+2"
+        "热度 10.1：ArchDaily 首页第 14 位→10.1",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「住宅」+3；地域「瑞典」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "U House / NAQI & Partners",
-      "url": "https://www.archdaily.com/1187503/u-house-naqi-and-partners",
-      "cover": "https://images.adsttc.com/media/images/6adf/304a/3271/8400/01d0/e953/newsletter/UHouse-2.jpg?1793011815",
-      "summary": "November 08 © Nguyễn Nhật Anh Chương + 30 Houses • Ha Long, Vietnam Architects: NAQI & Partners Area Area of this architecture project Area: 262 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187503/u-house-naqi-and-partners Pratik Mour Read more »",
-      "published_at": "2026-11-08T10:00:00+08:00",
-      "first_seen": "2026-11-09T06:35:06+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
+      "lang": "zh",
+      "title": "漂流木住宅 / Nestcraft Architecture",
+      "url": "https://www.archdaily.cn/zh/1188020/piao-liu-mu-zhu-zhai-nestcraft-architecture",
+      "cover": "https://images.adsttc.com/media/images/6ae0/acf8/3271/8400/01d0/f02c/newsletter/Abhimanyu_K__4_.jpg?1793109298",
+      "summary": "十一月 09 视频 © Abhimanyu KV + 27 • Kozhikode, 印度 建筑师: Nestcraft Architecture 面积 该建筑项目的领域 面积: 2950 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Asian Paints , SIMPOLO TILES , ULTRATECH CEMENTS https://www.archdaily.cn/zh/1188020/piao-liu-mu-zhu-zhai-nestcraft-architecture Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-09T16:00:00+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "alt_url": "https://www.archdaily.com/1187593/driftwood-residence-nestcraft-architecture",
+      "bilingual": true,
       "meta": {
-        "photographer": "Nguyễn Nhật Anh Chương",
-        "image_count": 30,
-        "city": "Ha Long",
-        "country": "Vietnam",
-        "architect": "NAQI & Partners",
-        "area": "262 m²",
-        "year": "2026"
+        "photographer": "Abhimanyu KV",
+        "image_count": 27,
+        "city": "Kozhikode",
+        "country": "印度",
+        "architect": "Nestcraft Architecture",
+        "year": "2026",
+        "brands": [
+          "Asian Paints",
+          "SIMPOLO TILES",
+          "ULTRATECH CEMENTS"
+        ],
+        "area": "269 m²"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 9 位"
+        "ArchDaily中国 首页第 14 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "越南",
-      "city": "Ha Long",
-      "architect": "NAQI & Partners",
-      "heat_score": 14.7,
+      "region": "印度",
+      "city": "Kozhikode",
+      "architect": "Nestcraft Architecture",
+      "heat_score": 8.6,
       "quality_score": 40.0,
-      "score": 54.7,
+      "score": 48.6,
       "reasons": [
-        "热度 14.7：ArchDaily 首页第 9 位→14.7",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集30张+8；类型「住宅」+3；地域「越南」+3；封面图+2；含面积数据+2"
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「印度」+3；封面图+2；含材料厂家+1"
       ],
       "rank": 5
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "House with Forest Windows / Yosuke Tomiya Architectural Design",
-      "url": "https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design",
-      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6ac0/0585/90e2/9d01/89d2/dbf1/slideshow/house-with-forest-windows-yosuke-tomiya-architectural-design_1.jpg?1790969246&format=webp&width=640&height=580",
-      "summary": "November 07 © Koji Sakai + 18 Houses , Sustainability • Sapporo, Japan Architects: Yosuke Tomiya Architectural Design Area Area of this architecture project Area: 99 m² Year Completion year of this architecture project Year: 2023 Professionals: Shinei Kouken https://www.archdaily.com/1186270/house-with-forest-windows-yosuke-tomiya-architectural-design Pilar Caballero Read more »",
-      "published_at": "2026-11-08T06:00:00+08:00",
-      "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
+      "lang": "zh",
+      "title": "Ghost Roof 与花园住宅 / OOOarchitecture",
+      "url": "https://www.archdaily.cn/zh/1187867/ghost-roof-yu-hua-yuan-zhu-zhai-oooarchitecture",
+      "cover": "https://images.adsttc.com/media/images/6ae0/a488/3271/8400/01d0/eff9/newsletter/GRH_00.jpg?1793107122",
+      "summary": "十一月 09 © Shota Hiyoshi + 23 • Chiba, 日本 建筑师: OOOarchitecture 面积 该建筑项目的领域 面积: 86 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Marushi Mokuzai , Tokyo Koei https://www.archdaily.cn/zh/1187867/ghost-roof-yu-hua-yuan-zhu-zhai-oooarchitecture Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-09T15:00:00+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "alt_url": "https://www.archdaily.com/1187591/house-with-ghost-roof-and-garden-oooarchitecture",
+      "bilingual": true,
       "meta": {
-        "photographer": "Koji Sakai",
-        "image_count": 18,
-        "city": "Sapporo",
-        "country": "Japan",
-        "architect": "Yosuke Tomiya Architectural Design",
-        "area": "99 m²",
-        "year": "2023"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 10 位"
-      ],
-      "is_project": true,
-      "btype": "住宅",
-      "region": "日本",
-      "city": "Sapporo",
-      "architect": "Yosuke Tomiya Architectural Design",
-      "heat_score": 13.8,
-      "quality_score": 40.0,
-      "score": 53.8,
-      "reasons": [
-        "热度 13.8：ArchDaily 首页第 10 位→13.8",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "en",
-      "title": "One Orient Headquarters / gmp Architects",
-      "url": "https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects",
-      "cover": "https://images.adsttc.com/media/images/6ae3/7392/1c13/4b01/a2d9/b95f/newsletter/one-orient-headquarters-von-gerkan-marg-and-partners-architects_1.jpg?1793291175",
-      "summary": "November 08 © CreatAR Images + 9 Office buildings , Sustainability • Shenzhen, China Architects: gmp Architects Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187779/one-orient-headquarters-von-gerkan-marg-and-partners-architects Pilar Caballero Read more »",
-      "published_at": "2026-11-08T19:00:00+08:00",
-      "first_seen": "2026-11-09T06:35:06+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
-      "meta": {
-        "photographer": "CreatAR Images",
-        "image_count": 9,
-        "city": "Shenzhen",
-        "country": "China",
-        "architect": "gmp Architects Year Completion year of this architecture pro",
-        "year": "2026"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 8 位"
-      ],
-      "is_project": true,
-      "btype": "办公",
-      "region": "中国",
-      "city": "Shenzhen",
-      "architect": "gmp Architects Year Completion year of this architecture pro",
-      "heat_score": 15.6,
-      "quality_score": 37.0,
-      "score": 52.6,
-      "reasons": [
-        "热度 15.6：ArchDaily 首页第 8 位→15.6",
-        "质量 37.0：建成项目格式+18；站点权重1.00→8.0；图集9张+3；类型「办公」+3；地域「中国」+3；封面图+2"
-      ],
-      "rank": 7
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "en",
-      "title": "Mila House / Isla Architects",
-      "url": "https://www.archdaily.com/1027157/mila-house-isla-architects",
-      "cover": "https://images.adsttc.com/media/images/67b6/2e80/cd9a/d701/88b4/b096/newsletter/casa-mila-isla-architects_10.jpg?1739992716",
-      "summary": "November 07 © Luis Díaz Díaz + 19 Houses , Renovation • Spain Architects: Isla Architects Area Area of this architecture project Area: 2809 ft² Year Completion year of this architecture project Year: 2024 Manufacturers Brands with products used in this architecture project Manufacturers: BANDALUX , FARO Barcelona , FSB Franz Schneider Brakel , AutoDesk , Cocinart , +5 Hager , Huguet , ICONICO , La",
-      "published_at": "2026-11-08T04:00:00+08:00",
-      "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
-      "meta": {
-        "photographer": "Luis Díaz Díaz",
-        "image_count": 19,
-        "architect": "Isla Architects",
-        "year": "2024",
+        "photographer": "Shota Hiyoshi",
+        "image_count": 23,
+        "city": "Chiba",
+        "country": "日本",
+        "architect": "OOOarchitecture",
+        "area": "86 m²",
+        "year": "2026",
         "brands": [
-          "BANDALUX",
-          "FARO Barcelona",
-          "FSB Franz Schneider Brakel",
-          "AutoDesk",
-          "Cocinart",
-          "+5 Hager"
+          "Marushi Mokuzai",
+          "Tokyo Koei"
         ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 12 位"
+        "ArchDaily中国 首页第 15 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "西班牙",
-      "city": "",
-      "architect": "Isla Architects",
-      "heat_score": 11.9,
+      "region": "日本",
+      "city": "Chiba",
+      "architect": "OOOarchitecture",
+      "heat_score": 8.2,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 48.2,
       "reasons": [
-        "热度 11.9：ArchDaily 首页第 12 位→11.9",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集19张+5；类型「住宅」+3；地域「西班牙」+3；封面图+2；含材料厂家+1"
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "建筑学院",
+      "weight": 0.65,
+      "lang": "zh",
+      "title": "新作丨灼灼社区，陶阳里老城中的持续生长地 / 韦加设计",
+      "url": "https://www.archcollege.com/105270.html",
+      "cover": "https://www.archcollege.com/wp-content/uploads/2025/10/ArchCollege-建筑学院-缩略图-1.webp",
+      "summary": "△ 灼灼社区部分空间 ©魏溦 01 陶阳里： 从窑火到街巷的老城生长 陶阳里，是景德镇明清时期皇家御用瓷器的重要制造区域。窑场、作坊、民居、会馆与街巷长期交织，形成生产、生活与商贸混合的老城聚落。陶阳里位于景德镇老城区核心地带，是城市瓷业历史最集中、最具代表性的历史文化街区之一。2026年7月25日，“景德镇手工瓷业遗存”正式列入《世界遗产名录》，陶阳里亦处于这一完整手工制瓷遗产体系的重要城市语境之中。 △ 陶阳里历史文化街区示意图 ©韦加设计 项目位于陶阳里核心区域，西临中山北路步行街——雏形为600年前成型的陶阳里前街，东接御窑厂国家考古遗址及遗址公园。老城有多条东西向串联前街和御窑厂的里弄，项目用地由北至南依次经过詹家上弄、程家上弄、迎瑞上弄以及老当铺上弄等。 △ 构成灼灼社区的四个里弄：平面与现状 ©韦加设计 这些里弄如同毛细血管，各具特色：巷道尺度细腻，最窄处昔日“两人错身都需要",
+      "published_at": "2026-11-09T08:52:00+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "meta": {
+        "area": "9532 m²",
+        "photographer": "魏溦、笑涵"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "建筑学院 首页第 1 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": null,
+      "city": "",
+      "architect": "韦加设计",
+      "heat_score": 8.0,
+      "quality_score": 28.2,
+      "score": 36.2,
+      "reasons": [
+        "热度 8.0：建筑学院 首页第 1 位→8.0",
+        "质量 28.2：建成项目格式+18；站点权重0.65→5.2；类型「住宅」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "PANACHE临时装置，法国 / Studio Tephra",
+      "url": "https://www.gooood.cn/panache-by-studio-tephra.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-osd-472x303.jpg",
+      "summary": "艺术  悬于树冠之间的白色织物，以火山喷发为意象唤醒花园记忆 2026.11.09 收藏 分享",
+      "published_at": "2026-11-09T17:39:51+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "meta": {
+        "year": "2022",
+        "brands": [
+          "All generic"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "景观",
+      "region": "法国",
+      "city": "",
+      "architect": "Studio Tephra",
+      "heat_score": 0.0,
+      "quality_score": 33.4,
+      "score": 33.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「法国」+3；封面图+2"
       ],
       "rank": 8
     },
@@ -443,64 +446,57 @@
       "source": "Designboom",
       "weight": 0.82,
       "lang": "en",
-      "title": "sweeping concrete cutouts shape ZAO’s sculptural art center in rizhao",
-      "url": "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china",
-      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/ZAO-rizhao-community-art-center-china-designboom-700-500x400-22b08q85r847.jpg",
-      "summary": "a concrete art center emerges from china&#8217;s wooded hillside &nbsp; ZAO / Zhang Ke Architecture Office has completed the Rizhao Community Art Center in China &#8216;s Shandong province, where a sculptural concrete structure rises from a wooded hillside beside a small lake. The building appears to hover above the landscape, its heavy upper volume supported at three corners while sweeping, eye-s",
-      "published_at": "2026-11-08T12:10:00+08:00",
-      "first_seen": "2026-11-09T06:35:06+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
-      "meta": {
-        "area": "2,525 m²",
-        "year": "2024"
-      },
+      "title": "pearce+ co-builds guerrilla shading pavilion from salvaged timber and canvas sails in camden",
+      "url": "https://www.designboom.com/architecture/pearce-plus-guerrilla-shading-pavilion-salvaged-timber-canvas-sails-camden-london",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/pearce-plus-guerrilla-shading-pavilion-salvaged-timber-canvas-sails-camden-designboom-700-1-500x400-22b08q85r074.jpg",
+      "summary": "PEARCE+ AND VOLUNTEERS ERECT SHADING PAVILION IN CAMDEN, London &nbsp; Commissioned by Camden Town Unlimited and Euston Town BIDs for the Camden Inspire festival, architecture practice PEARCE+ collaborated with advocacy group Shade The UK and local volunteers to co-build the Guerrilla Shading pavilion . Sited at Camden Collective in London , the structure responds to escalating urban temperatures ",
+      "published_at": "2026-11-09T16:15:05+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "Designboom 首页第 4 位"
+        "Designboom 首页第 6 位"
       ],
       "is_project": false,
-      "btype": "办公",
-      "region": "中国",
+      "btype": "展览",
+      "region": "英国",
       "city": "",
       "architect": "",
-      "heat_score": 10.5,
+      "heat_score": 9.5,
       "quality_score": 17.6,
-      "score": 28.1,
+      "score": 27.1,
       "reasons": [
-        "热度 10.5：Designboom 首页第 4 位→10.5",
-        "质量 17.6：站点权重0.82→6.6；类型「办公」+3；地域「中国」+3；封面图+2"
+        "热度 9.5：Designboom 首页第 6 位→9.5",
+        "质量 17.6：站点权重0.82→6.6；类型「展览」+3；地域「英国」+3；封面图+2"
       ],
       "rank": 9
     },
     {
-      "source": "Designboom",
-      "weight": 0.82,
-      "lang": "en",
-      "title": "concrete pairs with brushed metal for hybrid automotive gallery café in hong kong",
-      "url": "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei",
-      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei-designboom-700-2-500x400-22b08q85r142.jpg",
-      "summary": "STUDIO RUEI designs hybrid AUTOMOTIVE GALLERY and CAFÉ IN WAN CHAI &nbsp; Designed by Yuisze Wong of Studio Ruei, Macchina is a hybrid gallery café in Hong Kong’s Wan Chai district that integrates automotive exhibition spaces with hospitality programming. Framing vehicles as cultural and industrial artifacts rather than commercial commodities, the interior provides a social venue where automotive ",
-      "published_at": "2026-11-07T06:35:27+08:00",
-      "first_seen": "2026-11-08T06:34:04+08:00",
-      "last_seen": "2026-11-09T08:31:07+08:00",
-      "meta": {
-        "area": "32 m²"
-      },
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "第二名方案丨知城云径：云栖地理 / 青亭建筑",
+      "url": "https://www.archiposition.com/items/f700ef7a02",
+      "cover": "https://image.archiposition.com/2026/11/81794211593.jpg?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "通过对“城市本底”的探究与重新认知，得出对当下城市“地质层”的介入方案。",
+      "published_at": "2026-11-09T16:30:22+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-10T06:41:56+08:00",
+      "meta": {},
       "strong_heat": false,
-      "heat_labels": [
-        "Designboom 首页第 7 位"
-      ],
-      "is_project": false,
-      "btype": "文化",
-      "region": "Hong Kong",
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": null,
       "city": "",
-      "architect": "",
-      "heat_score": 9.0,
-      "quality_score": 17.6,
-      "score": 26.6,
+      "architect": "青亭建筑",
+      "heat_score": 0.0,
+      "quality_score": 26.4,
+      "score": 26.4,
       "reasons": [
-        "热度 9.0：Designboom 首页第 7 位→9.0",
-        "质量 17.6：站点权重0.82→6.6；类型「文化」+3；地域「Hong Kong」+3；封面图+2"
+        "热度 0.0：无信号",
+        "质量 26.4：建成项目格式+18；站点权重0.80→6.4；封面图+2"
       ],
       "rank": 10
     }
