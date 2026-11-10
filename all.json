@@ -4116,7 +4116,7 @@
   "yr": "2021",
   "ic": 0,
   "ph": "侯博文",
-  "sc": 65.0,
+  "sc": 65.1,
   "d": "2026-11-09",
   "au": "",
   "rk": 1
@@ -4140,6 +4140,42 @@
   "rk": 2
  },
  {
+  "t": "HAO非洲动物标本博物馆，北京 / 建筑营设计工作室",
+  "u": "https://www.gooood.cn/hao-african-animal-specimen-museum-by-archstudio.htm",
+  "c": "https://oss.gooood.cn/uploads/2026/11/00-hao-african-museum-019-472x303.jpg",
+  "s": "谷德设计网",
+  "a": "",
+  "bt": "文化",
+  "rg": "北京",
+  "ct": "",
+  "ar": "1600 m²",
+  "yr": "",
+  "ic": 0,
+  "ph": "金伟琦",
+  "sc": 60.9,
+  "d": "2026-11-09",
+  "au": "",
+  "rk": 3
+ },
+ {
+  "t": "新皇岗口岸联检大楼，深圳 / Aedas",
+  "u": "https://www.gooood.cn/new-huanggang-port-development-by-aedas.htm",
+  "c": "https://oss.gooood.cn/uploads/2026/11/001-8my-472x303.jpg",
+  "s": "谷德设计网",
+  "a": "Aedas",
+  "bt": "",
+  "rg": "深圳",
+  "ct": "",
+  "ar": "689,750 m²",
+  "yr": "2026",
+  "ic": 0,
+  "ph": "",
+  "sc": 57.0,
+  "d": "2026-11-09",
+  "au": "",
+  "rk": 4
+ },
+ {
   "t": "Bai’etan, Guangzhou / UTE Agence Ter & Ana Coello De Llobet",
   "u": "https://www.archdaily.com/1187741/baietan-guangzhou-ute-agence-ter-and-ana-coello-de-llobet",
   "c": "https://images.adsttc.com/media/images/6ae3/2795/3271/8400/01d0/fb55/newsletter/TER_Bai_etan_Riverfront-Plaza-4-__IAM____.jpg?1793271740",
@@ -4152,10 +4188,10 @@
   "yr": "2026",
   "ic": 20,
   "ph": "©️IAM岸木摄影",
-  "sc": 57.4,
+  "sc": 56.5,
   "d": "2026-11-09",
   "au": "",
-  "rk": 3
+  "rk": 5
  },
  {
   "t": "Studio for Two / Krupinski/Krupinska Arkitekter",
@@ -4170,10 +4206,10 @@
   "yr": "2025",
   "ic": 10,
   "ph": "VictorJohansson",
-  "sc": 50.1,
+  "sc": 49.2,
   "d": "2026-11-09",
   "au": "",
-  "rk": 4
+  "rk": 6
  },
  {
   "t": "漂流木住宅 / Nestcraft Architecture",
@@ -4188,10 +4224,10 @@
   "yr": "2026",
   "ic": 27,
   "ph": "Abhimanyu KV",
-  "sc": 48.6,
+  "sc": 48.2,
   "d": "2026-11-09",
   "au": "https://www.archdaily.com/1187593/driftwood-residence-nestcraft-architecture",
-  "rk": 5
+  "rk": 7
  },
  {
   "t": "Ghost Roof 与花园住宅 / OOOarchitecture",
@@ -4206,10 +4242,10 @@
   "yr": "2026",
   "ic": 23,
   "ph": "Shota Hiyoshi",
-  "sc": 48.2,
+  "sc": 47.8,
   "d": "2026-11-09",
   "au": "https://www.archdaily.com/1187591/house-with-ghost-roof-and-garden-oooarchitecture",
-  "rk": 6
+  "rk": 8
  },
  {
   "t": "新作丨灼灼社区，陶阳里老城中的持续生长地 / 韦加设计",
@@ -4227,25 +4263,7 @@
   "sc": 36.2,
   "d": "2026-11-09",
   "au": "",
-  "rk": 7
- },
- {
-  "t": "PANACHE临时装置，法国 / Studio Tephra",
-  "u": "https://www.gooood.cn/panache-by-studio-tephra.htm",
-  "c": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-osd-472x303.jpg",
-  "s": "谷德设计网",
-  "a": "Studio Tephra",
-  "bt": "景观",
-  "rg": "法国",
-  "ct": "",
-  "ar": "",
-  "yr": "2022",
-  "ic": 0,
-  "ph": "",
-  "sc": 33.4,
-  "d": "2026-11-09",
-  "au": "",
-  "rk": 8
+  "rk": 9
  },
  {
   "t": "Pearce+ Co-builds Guerrilla Shading Pavilion From Salvaged Timber and Canvas Sails in Camden",
@@ -4261,24 +4279,6 @@
   "ic": 0,
   "ph": "",
   "sc": 27.1,
-  "d": "2026-11-09",
-  "au": "",
-  "rk": 9
- },
- {
-  "t": "第二名方案丨知城云径：云栖地理 / 青亭建筑",
-  "u": "https://www.archiposition.com/items/f700ef7a02",
-  "c": "https://image.archiposition.com/2026/11/81794211593.jpg?x-oss-process=image/resize,m_fill,w_917,h_600",
-  "s": "有方空间",
-  "a": "青亭建筑",
-  "bt": "",
-  "rg": "",
-  "ct": "",
-  "ar": "",
-  "yr": "",
-  "ic": 0,
-  "ph": "",
-  "sc": 26.4,
   "d": "2026-11-09",
   "au": "",
   "rk": 10
