@@ -3,7 +3,7 @@
   "window_start": "2026-11-04",
   "window_end": "2026-11-10",
   "window_days": 7,
-  "generated_at": "2026-11-11T06:38:44+08:00",
+  "generated_at": "2026-11-11T08:31:54+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-11-04",
       "newest": "2026-11-10",
-      "hit": 57,
+      "hit": 56,
       "stale_days": 0,
       "stale": false
     },
@@ -76,14 +76,14 @@
       "stale": false
     }
   ],
-  "candidate_count": 344,
-  "new_stored": 56,
-  "store_total": 1592,
-  "after_dedupe": 191,
+  "candidate_count": 343,
+  "new_stored": 2,
+  "store_total": 1594,
+  "after_dedupe": 192,
   "noise_count": 13,
   "heat_signal_count": 101,
-  "heat_hit_count": 61,
-  "out_of_window_count": 1,
+  "heat_hit_count": 59,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
     {
@@ -154,6 +154,109 @@
   ],
   "items": [
     {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "大庆西城景苑城市更新 / 慢珊瑚设计",
+      "url": "https://www.gooood.cn/daqing-xicheng-jingyuan-urban-renewal-by-slow-coral-design.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/daqing-xicheng-cover-472x303.jpg",
+      "summary": "建筑  从一座老公园出发，重塑城市生活日常 2026.11.06 收藏 分享",
+      "published_at": "2026-11-06T09:27:27+08:00",
+      "first_seen": "2026-11-07T06:37:24+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
+      "meta": {
+        "photographer": "潘杰"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1617 次"
+      ],
+      "views": 1617,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": "景观",
+      "region": null,
+      "city": "",
+      "architect": "慢珊瑚设计",
+      "heat_score": 24.4,
+      "quality_score": 30.4,
+      "score": 54.8,
+      "reasons": [
+        "热度 24.4：谷德 7 天最热 第 10 名 · 阅读 1617 次→24.4",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "崃州蒸馏厂体验中心，邛崃 / AND Studio安棣建筑",
+      "url": "https://www.gooood.cn/laizhou-distillery-experience-center-by-and-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-qr8-472x303.jpg",
+      "summary": "建筑  关系生态中的建筑 2026.11.09 收藏 分享",
+      "published_at": "2026-11-09T14:03:34+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
+      "meta": {
+        "area": "25,600 m²"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1505 次"
+      ],
+      "views": 1505,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": null,
+      "region": "邛崃",
+      "city": "",
+      "architect": "AND Studio安棣建筑",
+      "heat_score": 22.7,
+      "quality_score": 30.4,
+      "score": 53.1,
+      "reasons": [
+        "热度 22.7：谷德 7 天最热 第 11 名 · 阅读 1505 次→22.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「邛崃」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "达美拥酒庄风土艺术中心，西藏 / 迹·建筑事务所（TAO）",
+      "url": "https://www.gooood.cn/dameiyong-winery-terroir-art-center-by-tao.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/dameiyong-tao-cover-472x303.jpg",
+      "summary": "建筑  葡萄园与峡谷之间的红色混凝土体量 2026.11.09 收藏 分享",
+      "published_at": "2026-11-09T09:16:32+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
+      "meta": {
+        "area": "2754 m²",
+        "photographer": "朱雨蒙，Coppakstudio"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1493 次"
+      ],
+      "views": 1493,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": null,
+      "region": "西藏",
+      "city": "",
+      "architect": "迹·建筑事务所（TAO）",
+      "heat_score": 22.5,
+      "quality_score": 36.4,
+      "score": 58.9,
+      "reasons": [
+        "热度 22.5：谷德 7 天最热 第 12 名 · 阅读 1493 次→22.5",
+        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「西藏」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "en",
@@ -163,7 +266,7 @@
       "summary": "November 10 © James Brittain + 29 Mixed Use Architecture , Apartments • Hackney Wick, United Kingdom Architects: Studioshaw Area Area of this architecture project Area: 6250 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188214/bridge-house-studioshaw Andreas Luco Read more »",
       "published_at": "2026-11-10T23:00:00+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "photographer": "James Brittain",
         "image_count": 29,
@@ -175,21 +278,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 6 位"
+        "ArchDaily 首页第 7 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
       "city": "Hackney Wick",
       "architect": "Studioshaw",
-      "heat_score": 17.4,
+      "heat_score": 16.5,
       "quality_score": 40.0,
-      "score": 57.4,
+      "score": 56.5,
       "reasons": [
-        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集29张+8；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 1
+      "rank": 4
     },
     {
       "source": "ArchDaily",
@@ -201,7 +304,7 @@
       "summary": "十一月 09 © César Béjar + 31 • Capilla de Guadalupe, 墨西哥 建筑师: Elías Rizo Arquitectos 面积 该建筑项目的领域 面积: 6625 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188333/la-hacienda-clase-azul-you-ke-zhong-xin-elias-rizo-arquitectos Valentina Díaz 阅读更多 »",
       "published_at": "2026-11-10T04:00:00+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "alt_url": "https://www.archdaily.com/1188331/visitor-center-at-la-hacienda-clase-azul-elias-rizo-arquitectos",
       "bilingual": true,
       "meta": {
@@ -215,21 +318,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 17 位"
+        "ArchDaily中国 首页第 18 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "墨西哥",
       "city": "Capilla de Guadalupe",
       "architect": "Elías Rizo Arquitectos",
-      "heat_score": 14.8,
+      "heat_score": 14.4,
       "quality_score": 40.0,
-      "score": 54.8,
+      "score": 54.4,
       "reasons": [
-        "热度 14.8：ArchDaily中国 首页第 17 位→3.3；2 家媒体报道+7.5；中英双版+4",
+        "热度 14.4：ArchDaily中国 首页第 18 位→2.9；2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；地域「墨西哥」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 2
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -241,7 +344,7 @@
       "summary": "November 10 © Benjamin Kunz + 31 Residential Architecture , Apartments , Sustainability • Nebikon, Switzerland Architects: Kollektiv.w AG Area Area of this architecture project Area: 243 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: MARAZZI , AL-KU Fenstertechnik AG , BAFRI AG , CKW Gebäudetechnik",
       "published_at": "2026-11-10T20:00:00+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "photographer": "Benjamin Kunz",
         "image_count": 31,
@@ -259,21 +362,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 9 位"
+        "ArchDaily 首页第 10 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "瑞士",
       "city": "Nebikon",
       "architect": "Kollektiv.w AG",
-      "heat_score": 14.7,
+      "heat_score": 13.8,
       "quality_score": 40.0,
-      "score": 54.7,
+      "score": 53.8,
       "reasons": [
-        "热度 14.7：ArchDaily 首页第 9 位→14.7",
+        "热度 13.8：ArchDaily 首页第 10 位→13.8",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「住宅」+3；地域「瑞士」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 3
+      "rank": 6
     },
     {
       "source": "ArchDaily",
@@ -285,7 +388,7 @@
       "summary": "November 10 © Filip Šlapal + 36 Houses , Sustainability • Prague, Czechia Architects: Stempel & Tesar Architekti Area Area of this architecture project Area: 150 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Hansgrohe , Heroal , JUNG , Laufen , Pedrali , +10 Vibia , M&T , Vondom , Amadeus , Forbo ",
       "published_at": "2026-11-10T19:00:00+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "photographer": "Filip Šlapal",
         "image_count": 36,
@@ -305,21 +408,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 11 位"
+        "ArchDaily 首页第 12 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "Czechia",
       "city": "Prague",
       "architect": "Stempel & Tesar Architekti",
-      "heat_score": 12.8,
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 52.8,
+      "score": 51.9,
       "reasons": [
-        "热度 12.8：ArchDaily 首页第 11 位→12.8",
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集36张+8；知名事务所+6；类型「住宅」+3；地域「Czechia」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 4
+      "rank": 7
     },
     {
       "source": "建筑学院",
@@ -331,7 +434,7 @@
       "summary": "“五年设计营造，三年时光沉淀。四块巨石与三组混凝土雕塑体量沉卧山谷，隐于森林。世俗生活与精神修行在此交融。四季流转，时间渐渐成为建筑的一部分，场所的力量在岁月中缓慢生长。” ——孟凡浩 孔雀林山庄位于中国东北的一处山谷之中。业主最初希望在山地度假的基础上，引入佛教礼仪与禅修体验，由此形成一座兼具度假生活与精神性活动的非标度假空间。客房、餐饮、社交、SPA、泳池与健身构成开放而丰富的度假生活；佛堂与禅修堂则对应更为安静、内向的禅修与礼仪活动。两类不同的使用状态，共同构成山庄的空间基础。 项目自2018年启动，历经约五年的设计与建造，于2023年3月完成并陆续投入使用。2026年秋天，主持建筑师孟凡浩重新回访时发现，孔雀林山庄已逐渐融入山谷，最初关于地形、体量与材料的判断也在时间与真实使用中得到检验。重新回看整个项目，其设计始终围绕两条相互关联的线索展开：一方面通过地形、体量与空间序列，组织不",
       "published_at": "2026-11-10T09:28:59+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "area": "4085.84 m²",
         "photographer": "陈曦工作室、line+、孙磊（模型）",
@@ -355,99 +458,6 @@
         "热度 8.0：建筑学院 首页第 1 位→8.0",
         "质量 37.2：建成项目格式+18；站点权重0.65→5.2；知名事务所+6；类型「教育」+3；地域「中国」+3；封面图+2"
       ],
-      "rank": 5
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio",
-      "url": "https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg",
-      "summary": "建筑  竹拱之下，音乐与自然相遇 2026.11.10 收藏 分享",
-      "published_at": "2026-11-10T14:53:48+08:00",
-      "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
-      "meta": {
-        "area": "929 m²"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": null,
-      "region": "金奈",
-      "city": "",
-      "architect": "Ekarth Studio",
-      "heat_score": 0.0,
-      "quality_score": 36.4,
-      "score": 36.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「金奈」+3；封面图+2"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Gelmini新总部，意大利 / Studio Capitanio Architetti",
-      "url": "https://www.gooood.cn/new-gelmini-headquarters-by-studio-capitanio-architetti.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/new-gelmini-cover-700x449-472x303.jpg",
-      "summary": "建筑  让企业营造智慧化为归属与共享的空间 2026.11.10 收藏 分享",
-      "published_at": "2026-11-10T16:52:14+08:00",
-      "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
-      "meta": {
-        "area": "1,000 m²",
-        "year": "2026",
-        "photographer": "Stefano Tacchinardi"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "办公",
-      "region": "意大利",
-      "city": "",
-      "architect": "Studio Capitanio Architetti",
-      "heat_score": 0.0,
-      "quality_score": 33.4,
-      "score": 33.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「办公」+3；地域「意大利」+3；封面图+2"
-      ],
-      "rank": 7
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "Echeverría加油站与步行长廊，布宜诺斯艾利斯 / RDR arquitectos",
-      "url": "https://www.gooood.cn/echeverria-service-station-pedestrian-promenade-by-rdr-arquitectos.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/post-472x303.jpg",
-      "summary": "建筑  以连续绿色屋顶和节点式服务重塑城市加油站 2026.11.10 收藏 分享",
-      "published_at": "2026-11-10T15:53:37+08:00",
-      "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
-      "meta": {
-        "area": "7,886.29 m²",
-        "year": "2023"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "景观",
-      "region": "布宜诺斯艾利斯",
-      "city": "",
-      "architect": "RDR arquitectos",
-      "heat_score": 0.0,
-      "quality_score": 33.4,
-      "score": 33.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「布宜诺斯艾利斯」+3；封面图+2"
-      ],
       "rank": 8
     },
     {
@@ -460,7 +470,7 @@
       "summary": "随业主需求变化，从库房、主楼到花园，住宅逐渐生长为垂直的立体公共空间。",
       "published_at": "2026-11-10T17:03:46+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "area": "1422 m²"
       },
@@ -490,7 +500,7 @@
       "summary": "以克制的策略，将建筑群的核心区域改造为五星级酒店，延续历史遗迹的生命力。",
       "published_at": "2026-11-10T16:45:45+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-11T08:31:47+08:00",
       "meta": {
         "area": "6698 m²"
       },
