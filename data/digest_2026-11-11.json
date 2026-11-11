@@ -1,0 +1,499 @@
+{
+  "date": "2026-11-11",
+  "window_start": "2026-11-05",
+  "window_end": "2026-11-11",
+  "window_days": 7,
+  "generated_at": "2026-11-12T06:48:19+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-09",
+      "newest": "2026-11-12",
+      "hit": 94,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-08",
+      "newest": "2026-11-12",
+      "hit": 94,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-05",
+      "newest": "2026-11-11",
+      "hit": 55,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-05",
+      "newest": "2026-11-12",
+      "hit": 51,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 2,
+      "oldest": "2026-11-11",
+      "newest": "2026-11-11",
+      "hit": 21,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 17,
+      "oldest": "2026-11-09",
+      "newest": "2026-11-11",
+      "hit": 24,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-05",
+      "newest": "2026-11-10",
+      "hit": 2,
+      "stale_days": 1,
+      "stale": false
+    }
+  ],
+  "candidate_count": 341,
+  "new_stored": 51,
+  "store_total": 1645,
+  "after_dedupe": 193,
+  "noise_count": 12,
+  "heat_signal_count": 98,
+  "heat_hit_count": 62,
+  "out_of_window_count": 1,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Dezeen Awards-shortlisted housing project damaged in fire",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/10/la-querola-andorra-jean-nouvel-ribas-ribas-arquitectos-fire"
+    },
+    {
+      "title": "Dezeen Awards trophy updated using \"one of humanity's oldest natural materials\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/09/dezeen-awards-2026-trophy-cork-amorim-corticeira"
+    },
+    {
+      "title": "podcast: architecture that refuses signature styles for spaces shaped by instinct",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-05-06"
+    },
+    {
+      "title": "inside mikoü architecture and its search for meaning in craft and construction",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/salwa-selma-mikoustudio-craft-architecture-interview-louisiana-channel"
+    },
+    {
+      "title": "Eight galleries artfully made from concrete",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/07/concrete-art-galleries-roundup"
+    },
+    {
+      "title": "This week Kengo Kuma unveiled a pyramidal brick bathhouse",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/07/kengo-kuma-pyramidal-brick-bathhouse-copenhagen"
+    },
+    {
+      "title": "Fragile lighting collection by Marset among 15 new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/05/fragile-lighting-marset-furniture-tiles-products-dezeen-showroom"
+    },
+    {
+      "title": "Sharjah Architecture Triennial 2026 Announces Opening Programme Featuring Performances, Films, and Conference",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188119/sharjah-architecture-triennial-2026-announces-opening-programme-featuring-performances-films-and-conference"
+    },
+    {
+      "title": "Milan’s New San Siro Stadium and the BIAU’s 12 Awarded Projects: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188109/milans-new-san-siro-stadium-and-the-biaus-12-awarded-projects-this-weeks-review"
+    },
+    {
+      "title": "Concept car that transforms from SUV to pickup is \"a symbol of freedom\" says Fiat CEO",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/05/fiat-multiplay-multipilina-concept-car-video-interview"
+    },
+    {
+      "title": "Final chance to buy Dezeen Awards 2026 party tickets",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/04/dezeen-awards-2026-party-tickets-final-chance"
+    },
+    {
+      "title": "Lapalma presents a cross-section of its catalogue on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/04/lapalma-colourways-furniture-seating-dezeen-showroom"
+    }
+  ],
+  "items": [
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Planá Kindergarten / PROAM ARCHITEKTI",
+      "url": "https://www.archdaily.com/1187802/plana-kindergarten-proam-architekti",
+      "cover": "https://images.adsttc.com/media/images/6ae3/d82c/a8ed/4101/8962/32cb/newsletter/plana-kindergarten-proam-architekti_3.jpg?1793316920",
+      "summary": "November 11 © Petr Polák Studio + 43 Kindergarten • Planá, Czechia Architects: PROAM ARCHITEKTI Area Area of this architecture project Area: 800 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Swisspearl , Fermacell , Carl Stahl ARC , Cewood SIA , Custom-made furniture contractor , +5 Gerfloor , HSE",
+      "published_at": "2026-11-11T23:00:00+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "photographer": "Petr Polák Studio",
+        "image_count": 43,
+        "city": "Planá",
+        "country": "Czechia",
+        "architect": "PROAM ARCHITEKTI",
+        "area": "800 m²",
+        "year": "2025",
+        "brands": [
+          "Swisspearl",
+          "Fermacell",
+          "Carl Stahl ARC",
+          "Cewood SIA",
+          "Custom-made furniture contractor",
+          "+5 Gerfloor"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 6 位"
+      ],
+      "is_project": true,
+      "btype": "教育",
+      "region": "Czechia",
+      "city": "Planá",
+      "architect": "PROAM ARCHITEKTI",
+      "heat_score": 17.4,
+      "quality_score": 40.0,
+      "score": 57.4,
+      "reasons": [
+        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集43张+8；知名事务所+6；类型「教育」+3；地域「Czechia」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Gamaya Farms / Biome Environmental Solutions",
+      "url": "https://www.archdaily.com/1188052/gamaya-farms-biome-environmental-solutions",
+      "cover": "https://images.adsttc.com/media/images/6aea/b5ff/d2cc/6001/8a4f/6a10/newsletter/gamaya-farms-biome-environmental-solutions_12.jpg?1793766952",
+      "summary": "November 11 © Vivek Muthuramalingam + 32 Hotels • Vikarabad, India Architects: Biome Environmental Solutions Area Area of this architecture project Area: 854 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188052/gamaya-farms-biome-environmental-solutions Pratik Mour Read more »",
+      "published_at": "2026-11-11T20:00:00+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "photographer": "Vivek Muthuramalingam",
+        "image_count": 32,
+        "city": "Vikarabad",
+        "country": "India",
+        "architect": "Biome Environmental Solutions",
+        "area": "854 m²",
+        "year": "2025"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "酒店",
+      "region": "印度",
+      "city": "Vikarabad",
+      "architect": "Biome Environmental Solutions",
+      "heat_score": 15.6,
+      "quality_score": 40.0,
+      "score": 55.6,
+      "reasons": [
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；类型「酒店」+3；地域「印度」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Cultural and Community Center Stara Fužina / OFIS Architects",
+      "url": "https://www.archdaily.com/1188337/cultural-and-community-center-stara-fuzina-ofis-architects",
+      "cover": "https://images.adsttc.com/media/images/6af3/2f1d/8074/f401/89de/dd52/newsletter/cultural-and-community-center-stara-fuzina-ofis-architects_3.jpg?1794322263",
+      "summary": "November 11 © Miran Kambič + 41 Community center , Renovation , Cultural Center • Stara Fužina, Slovenia Architects: OFIS Architects Area Area of this architecture project Area: 623 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188337/cultural-and-community-center-stara-fuzina-ofis-architects Nina Vuga Read more »",
+      "published_at": "2026-11-11T19:00:00+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "photographer": "Miran Kambič",
+        "image_count": 41,
+        "city": "Stara Fužina",
+        "country": "Slovenia",
+        "architect": "OFIS Architects",
+        "area": "623 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 10 位"
+      ],
+      "is_project": true,
+      "btype": "文化",
+      "region": "Slovenia",
+      "city": "Stara Fužina",
+      "architect": "OFIS Architects",
+      "heat_score": 13.8,
+      "quality_score": 40.0,
+      "score": 53.8,
+      "reasons": [
+        "热度 13.8：ArchDaily 首页第 10 位→13.8",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集41张+8；类型「文化」+3；地域「Slovenia」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "林间住宅 / architectureRED",
+      "url": "https://www.archdaily.cn/zh/1187976/lin-jian-zhu-zhai-architecturered",
+      "cover": "https://images.adsttc.com/media/images/6ae8/9487/62dc/0e01/8725/753d/newsletter/homes-around-trees-architecturered_1.jpg?1793627329",
+      "summary": "十一月 05 © Edmund Sumner + 23 • Bengaluru, 印度 建筑师: architectureRED 面积 该建筑项目的领域 面积: 13100 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1187976/lin-jian-zhu-zhai-architecturered Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-05T15:00:00+08:00",
+      "first_seen": "2026-11-06T06:45:00+08:00",
+      "last_seen": "2026-11-06T08:33:47+08:00",
+      "alt_url": "https://www.archdaily.com/1187952/homes-around-trees-architecturered",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Edmund Sumner",
+        "image_count": 23,
+        "city": "Bengaluru",
+        "country": "印度",
+        "architect": "architectureRED",
+        "area": "13100 m²",
+        "year": "2024"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "印度",
+      "city": "Bengaluru",
+      "architect": "architectureRED",
+      "heat_score": 11.5,
+      "quality_score": 40.0,
+      "score": 51.5,
+      "reasons": [
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；类型「住宅」+3；地域「印度」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "谷中之石：孔雀林山庄，长春 / 孟凡浩line+",
+      "url": "https://www.gooood.cn/peacock-forest-retreat-by-lineplus-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%AD%94%E9%9B%80%E5%B1%B1-472x303.jpg",
+      "summary": "建筑  隐于森林的四块巨石 2026.11.11 收藏 分享",
+      "published_at": "2026-11-11T15:21:15+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "4085.84 m²",
+        "photographer": "陈曦工作室、line+、孙磊（模型）",
+        "brands": [
+          "德国solarlux、意大利silvelox、丹麦velux"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": "长春",
+      "city": "",
+      "architect": "孟凡浩line+",
+      "heat_score": 0.0,
+      "quality_score": 36.4,
+      "score": 36.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「长春」+3；封面图+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio",
+      "url": "https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg",
+      "summary": "建筑  竹拱之下，音乐与自然相遇 2026.11.10 收藏 分享",
+      "published_at": "2026-11-10T14:53:48+08:00",
+      "first_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "929 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": "金奈",
+      "city": "",
+      "architect": "Ekarth Studio",
+      "heat_score": 0.0,
+      "quality_score": 36.4,
+      "score": 36.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「金奈」+3；封面图+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "jean nouvel’s shenzhen opera house takes shape on the waterfront, with completion set for 2028",
+      "url": "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028-designboom-700-500x400-22b08q85r111.jpg",
+      "summary": "jean nouvel to complete shenzhen opera house in 2028 &nbsp; Designed by Ateliers Jean Nouvel , the Shenzhen Opera House is taking shape along the waterfront of Shekou, in Shenzhen , China , with completion expected by December 2028. Selected through an international competition in 2021 (find designboom&#8217;s previous coverage here ), the project, titled Light of the Sea, translates its coastal s",
+      "published_at": "2026-11-11T19:00:16+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "220,000 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 4 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "Shenzhen",
+      "city": "",
+      "architect": "",
+      "heat_score": 10.5,
+      "quality_score": 23.6,
+      "score": 34.1,
+      "reasons": [
+        "热度 10.5：Designboom 首页第 4 位→10.5",
+        "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「住宅」+3；地域「Shenzhen」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "只和花中关村领展店，北京 / 方未建筑事务所",
+      "url": "https://www.gooood.cn/only-flowers-link-plaza-zhongguancun.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/page-472x303.jpg",
+      "summary": "室内  68平方米花店以弧形天花、环形层架与流线工作台营造都市秘密花园 2026.11.11 收藏 分享",
+      "published_at": "2026-11-11T15:42:32+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "68 m²",
+        "photographer": "肖莹、Siping"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "景观",
+      "region": "北京",
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 33.4,
+      "score": 33.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "北京西兴隆街片区复兴及J1、J2地块建筑设计 / 北京建院吴晨工作室",
+      "url": "https://www.archiposition.com/items/9a8f825fc6",
+      "cover": "https://image.archiposition.com/2026/11/91794289618.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "首都功能核心区历史街区的存量提质与更新复兴的一次实践。",
+      "published_at": "2026-11-10T14:42:45+08:00",
+      "first_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "399 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "改造",
+      "region": "北京",
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「改造」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "微风之家：广阔在内部 / 勉强设计事务所",
+      "url": "https://www.archiposition.com/items/65fe5417d1",
+      "cover": "https://image.archiposition.com/2026/11/21794369649.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "以柔和的曲面边界，塑造包裹式的亲密空间，带来轻微的运动感。",
+      "published_at": "2026-11-11T14:10:57+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T06:48:12+08:00",
+      "meta": {
+        "area": "75 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "体育",
+      "region": null,
+      "city": "",
+      "architect": "",
+      "heat_score": 0.0,
+      "quality_score": 29.4,
+      "score": 29.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 29.4：建成项目格式+18；站点权重0.80→6.4；类型「体育」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
