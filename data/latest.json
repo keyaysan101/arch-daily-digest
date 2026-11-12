@@ -3,7 +3,7 @@
   "window_start": "2026-11-05",
   "window_end": "2026-11-11",
   "window_days": 7,
-  "generated_at": "2026-11-12T06:48:19+08:00",
+  "generated_at": "2026-11-12T08:46:18+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -30,9 +30,9 @@
       "ok": true,
       "total": 54,
       "oldest": "2026-11-05",
-      "newest": "2026-11-11",
-      "hit": 55,
-      "stale_days": 0,
+      "newest": "2026-11-12",
+      "hit": 54,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -76,14 +76,14 @@
       "stale": false
     }
   ],
-  "candidate_count": 341,
-  "new_stored": 51,
-  "store_total": 1645,
+  "candidate_count": 340,
+  "new_stored": 3,
+  "store_total": 1648,
   "after_dedupe": 193,
   "noise_count": 12,
   "heat_signal_count": 98,
-  "heat_hit_count": 62,
-  "out_of_window_count": 1,
+  "heat_hit_count": 60,
+  "out_of_window_count": 0,
   "count": 10,
   "noise": [
     {
@@ -149,6 +149,78 @@
   ],
   "items": [
     {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "湖田古瓷窑址保护展示建筑改造设计，景德镇 / 中国院",
+      "url": "https://www.gooood.cn/hutian-ancient-kiln-site-conservation-exhibition-renovation.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/%E6%99%AF%E5%BE%B7%E9%95%87-472x303.jpg",
+      "summary": "建筑  从封闭容器到传导界面 2026.11.09 收藏 分享",
+      "published_at": "2026-11-09T10:09:16+08:00",
+      "first_seen": "2026-11-10T06:41:56+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
+      "meta": {
+        "photographer": "张钦泉"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1467 次"
+      ],
+      "views": 1467,
+      "heat_rank": 9,
+      "is_project": true,
+      "btype": "改造",
+      "region": "景德镇",
+      "city": "",
+      "architect": "中国院",
+      "heat_score": 19.5,
+      "quality_score": 33.4,
+      "score": 52.9,
+      "reasons": [
+        "热度 19.5：谷德 7 天最热 第 9 名 · 阅读 1467 次→19.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「改造」+3；地域「景德镇」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Mitte 2.0咖啡馆，乌克兰 / LIS design studio",
+      "url": "https://www.gooood.cn/mitte-cafe-2-0-by-lis-design-studio-and-38050.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/10/mitte-cafe2-20261015-cover-472x303.jpg",
+      "summary": "建筑  紧凑空间中的弧线、木作与定制灯光 2026.11.06 收藏 分享",
+      "published_at": "2026-11-06T08:30:56+08:00",
+      "first_seen": "2026-11-06T08:33:47+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
+      "meta": {
+        "year": "2025",
+        "photographer": "Misha Lukashuk",
+        "brands": [
+          "Lampe Gras"
+        ]
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1410 次"
+      ],
+      "views": 1410,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": null,
+      "region": "乌克兰",
+      "city": "",
+      "architect": "LIS design studio",
+      "heat_score": 18.7,
+      "quality_score": 30.4,
+      "score": 49.1,
+      "reasons": [
+        "热度 18.7：谷德 7 天最热 第 11 名 · 阅读 1410 次→18.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「乌克兰」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "en",
@@ -158,7 +230,7 @@
       "summary": "November 11 © Petr Polák Studio + 43 Kindergarten • Planá, Czechia Architects: PROAM ARCHITEKTI Area Area of this architecture project Area: 800 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Swisspearl , Fermacell , Carl Stahl ARC , Cewood SIA , Custom-made furniture contractor , +5 Gerfloor , HSE",
       "published_at": "2026-11-11T23:00:00+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "photographer": "Petr Polák Studio",
         "image_count": 43,
@@ -178,21 +250,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 6 位"
+        "ArchDaily 首页第 7 位"
       ],
       "is_project": true,
       "btype": "教育",
       "region": "Czechia",
       "city": "Planá",
       "architect": "PROAM ARCHITEKTI",
-      "heat_score": 17.4,
+      "heat_score": 16.5,
       "quality_score": 40.0,
-      "score": 57.4,
+      "score": 56.5,
       "reasons": [
-        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集43张+8；知名事务所+6；类型「教育」+3；地域「Czechia」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
-      "rank": 1
+      "rank": 3
     },
     {
       "source": "ArchDaily",
@@ -204,7 +276,7 @@
       "summary": "November 11 © Vivek Muthuramalingam + 32 Hotels • Vikarabad, India Architects: Biome Environmental Solutions Area Area of this architecture project Area: 854 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188052/gamaya-farms-biome-environmental-solutions Pratik Mour Read more »",
       "published_at": "2026-11-11T20:00:00+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "photographer": "Vivek Muthuramalingam",
         "image_count": 32,
@@ -216,21 +288,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 8 位"
+        "ArchDaily 首页第 9 位"
       ],
       "is_project": true,
       "btype": "酒店",
       "region": "印度",
       "city": "Vikarabad",
       "architect": "Biome Environmental Solutions",
-      "heat_score": 15.6,
+      "heat_score": 14.7,
       "quality_score": 40.0,
-      "score": 55.6,
+      "score": 54.7,
       "reasons": [
-        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集32张+8；类型「酒店」+3；地域「印度」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 2
+      "rank": 4
     },
     {
       "source": "ArchDaily",
@@ -242,7 +314,7 @@
       "summary": "November 11 © Miran Kambič + 41 Community center , Renovation , Cultural Center • Stara Fužina, Slovenia Architects: OFIS Architects Area Area of this architecture project Area: 623 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188337/cultural-and-community-center-stara-fuzina-ofis-architects Nina Vuga Read more »",
       "published_at": "2026-11-11T19:00:00+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "photographer": "Miran Kambič",
         "image_count": 41,
@@ -254,21 +326,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 10 位"
+        "ArchDaily 首页第 11 位"
       ],
       "is_project": true,
       "btype": "文化",
       "region": "Slovenia",
       "city": "Stara Fužina",
       "architect": "OFIS Architects",
-      "heat_score": 13.8,
+      "heat_score": 12.8,
       "quality_score": 40.0,
-      "score": 53.8,
+      "score": 52.8,
       "reasons": [
-        "热度 13.8：ArchDaily 首页第 10 位→13.8",
+        "热度 12.8：ArchDaily 首页第 11 位→12.8",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集41张+8；类型「文化」+3；地域「Slovenia」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 3
+      "rank": 5
     },
     {
       "source": "ArchDaily",
@@ -306,7 +378,7 @@
         "热度 11.5：2 家媒体报道+7.5；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；类型「住宅」+3；地域「印度」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 4
+      "rank": 6
     },
     {
       "source": "谷德设计网",
@@ -318,7 +390,7 @@
       "summary": "建筑  隐于森林的四块巨石 2026.11.11 收藏 分享",
       "published_at": "2026-11-11T15:21:15+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "area": "4085.84 m²",
         "photographer": "陈曦工作室、line+、孙磊（模型）",
@@ -340,37 +412,7 @@
         "热度 0.0：无信号",
         "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「长春」+3；封面图+2"
       ],
-      "rank": 5
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio",
-      "url": "https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg",
-      "summary": "建筑  竹拱之下，音乐与自然相遇 2026.11.10 收藏 分享",
-      "published_at": "2026-11-10T14:53:48+08:00",
-      "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
-      "meta": {
-        "area": "929 m²"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": null,
-      "region": "金奈",
-      "city": "",
-      "architect": "Ekarth Studio",
-      "heat_score": 0.0,
-      "quality_score": 36.4,
-      "score": 36.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「金奈」+3；封面图+2"
-      ],
-      "rank": 6
+      "rank": 7
     },
     {
       "source": "Designboom",
@@ -382,7 +424,7 @@
       "summary": "jean nouvel to complete shenzhen opera house in 2028 &nbsp; Designed by Ateliers Jean Nouvel , the Shenzhen Opera House is taking shape along the waterfront of Shekou, in Shenzhen , China , with completion expected by December 2028. Selected through an international competition in 2021 (find designboom&#8217;s previous coverage here ), the project, titled Light of the Sea, translates its coastal s",
       "published_at": "2026-11-11T19:00:16+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "area": "220,000 m²"
       },
@@ -402,37 +444,6 @@
         "热度 10.5：Designboom 首页第 4 位→10.5",
         "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「住宅」+3；地域「Shenzhen」+3；封面图+2"
       ],
-      "rank": 7
-    },
-    {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "只和花中关村领展店，北京 / 方未建筑事务所",
-      "url": "https://www.gooood.cn/only-flowers-link-plaza-zhongguancun.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/page-472x303.jpg",
-      "summary": "室内  68平方米花店以弧形天花、环形层架与流线工作台营造都市秘密花园 2026.11.11 收藏 分享",
-      "published_at": "2026-11-11T15:42:32+08:00",
-      "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
-      "meta": {
-        "area": "68 m²",
-        "photographer": "肖莹、Siping"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "景观",
-      "region": "北京",
-      "city": "",
-      "architect": "",
-      "heat_score": 0.0,
-      "quality_score": 33.4,
-      "score": 33.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「北京」+3；封面图+2"
-      ],
       "rank": 8
     },
     {
@@ -445,7 +456,7 @@
       "summary": "首都功能核心区历史街区的存量提质与更新复兴的一次实践。",
       "published_at": "2026-11-10T14:42:45+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "area": "399 m²"
       },
@@ -475,7 +486,7 @@
       "summary": "以柔和的曲面边界，塑造包裹式的亲密空间，带来轻微的运动感。",
       "published_at": "2026-11-11T14:10:57+08:00",
       "first_seen": "2026-11-12T06:48:12+08:00",
-      "last_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-12T08:46:12+08:00",
       "meta": {
         "area": "75 m²"
       },
