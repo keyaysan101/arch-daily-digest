@@ -1277,5 +1277,51 @@
   "brands": [
    "Lampe Gras"
   ]
+ },
+ "https://www.gooood.cn/dounan-forest-by-studio-darkwave.htm": {
+  "year": "2023",
+  "brands": [
+   "Serge Ferrari (France)"
+  ]
+ },
+ "https://www.gooood.cn/grotto-observation-park-by-radar.htm": {
+  "year": "2025"
+ },
+ "https://www.archdaily.com/1187696/ex-macello-di-treviso": {
+  "year": "2026",
+  "brands": [
+   "Knauf",
+   "Calce del Brenta",
+   "Cassina",
+   "Celenit",
+   "DND"
+  ],
+  "image_count": 23
+ },
+ "https://www.archdaily.com/1187942/family-scraper-de-maasbode-van-bergen-kolpa-architects": {
+  "year": "2026",
+  "image_count": 64
+ },
+ "https://www.archdaily.cn/zh/1188420/freedom-mobile-gong-xing-lu-tian-ju-chang-revery-architecture": {
+  "year": "2026",
+  "photographer": "Ema Peter",
+  "brands": [
+   "Cascadia",
+   "Keith Panel Systems",
+   "Nordic Structures",
+   "Walters Group"
+  ],
+  "image_count": 38
+ },
+ "https://www.archdaily.com/1188045/les-balcons-de-sermenaz-hemaa-architectes": {
+  "year": "2026",
+  "image_count": 46
+ },
+ "https://www.designboom.com/architecture/sumayya-vally-counterspace-elie-khouri-art-foundation-ekaf-dubai": {},
+ "https://www.archiposition.com/items/1235bc1ee0": {
+  "area": "152000 m²"
+ },
+ "https://www.archiposition.com/items/83bfd2d932": {
+  "area": "110031.2 m²"
  }
 }
