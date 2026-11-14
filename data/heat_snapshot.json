@@ -1,463 +1,319 @@
 {
-  "captured_at": "2026-11-13T22:40:57",
+  "captured_at": "2026-11-14T00:32:05",
   "signals": {
     "https://www.gooood.cn/renovation-of-suzhous-first-silk-factory-by-lacime-architects.htm": {
       "heat": 45.0,
       "labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2951 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2612 次"
       ],
-      "views": 2951
+      "views": 2612
     },
     "https://www.gooood.cn/grotto-observation-park-by-radar.htm": {
-      "heat": 37.06,
+      "heat": 42.11,
       "labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 2430 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2444 次"
       ],
-      "views": 2430
+      "views": 2444
     },
     "https://www.gooood.cn/laizhou-distillery-experience-center-by-and-studio.htm": {
-      "heat": 35.74,
+      "heat": 40.43,
       "labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 2344 次"
+        "谷德 7 天最热 第 3 名 · 阅读 2347 次"
       ],
-      "views": 2344
+      "views": 2347
     },
     "https://www.gooood.cn/dounan-forest-by-studio-darkwave.htm": {
-      "heat": 34.11,
+      "heat": 38.61,
       "labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 2237 次"
+        "谷德 7 天最热 第 4 名 · 阅读 2241 次"
       ],
-      "views": 2237
-    },
-    "https://www.gooood.cn/the-university-of-chicago-campus-in-hong-kong-by-revery-architecture.htm": {
-      "heat": 33.06,
-      "labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 2168 次"
-      ],
-      "views": 2168
+      "views": 2241
     },
     "https://www.gooood.cn/dameiyong-winery-terroir-art-center-by-tao.htm": {
-      "heat": 31.9,
+      "heat": 36.04,
       "labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 2092 次"
+        "谷德 7 天最热 第 5 名 · 阅读 2092 次"
       ],
       "views": 2092
     },
-    "https://www.gooood.cn/hutian-ancient-kiln-site-conservation-exhibition-renovation.htm": {
-      "heat": 26.81,
+    "https://www.gooood.cn/the-university-of-chicago-campus-in-hong-kong-by-revery-architecture.htm": {
+      "heat": 30.79,
       "labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 1758 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1787 次"
       ],
-      "views": 1758
+      "views": 1787
+    },
+    "https://www.gooood.cn/hutian-ancient-kiln-site-conservation-exhibition-renovation.htm": {
+      "heat": 30.32,
+      "labels": [
+        "谷德 7 天最热 第 7 名 · 阅读 1760 次"
+      ],
+      "views": 1760
     },
     "https://www.gooood.cn/peacock-forest-retreat-by-lineplus-studio.htm": {
-      "heat": 26.43,
+      "heat": 29.91,
       "labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1733 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1736 次"
       ],
-      "views": 1733
+      "views": 1736
     },
     "https://www.gooood.cn/jen-hangzhou-by-linehouse.htm": {
-      "heat": 26.23,
+      "heat": 29.67,
       "labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1720 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1722 次"
       ],
-      "views": 1720
-    },
-    "https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm": {
-      "heat": 25.86,
-      "labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1696 次"
-      ],
-      "views": 1696
+      "views": 1722
     },
     "https://www.gooood.cn/new-gelmini-headquarters-by-studio-capitanio-architetti.htm": {
-      "heat": 25.02,
+      "heat": 28.31,
       "labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1641 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1643 次"
       ],
-      "views": 1641
+      "views": 1643
     },
     "https://www.gooood.cn/echeverria-service-station-pedestrian-promenade-by-rdr-arquitectos.htm": {
-      "heat": 23.85,
+      "heat": 26.98,
       "labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1564 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1566 次"
       ],
-      "views": 1564
+      "views": 1566
     },
-    "https://www.designboom.com/architecture/page": {
-      "heat": 12.0,
+    "https://www.gooood.cn/underjoy-urban-camp-beneath-the-bridge-chongqing-by-weho-design.htm": {
+      "heat": 26.03,
       "labels": [
-        "Designboom 首页第 1 位"
-      ]
+        "谷德 7 天最热 第 12 名 · 阅读 1511 次"
+      ],
+      "views": 1511
     },
-    "https://www.designboom.com/architecture/feed": {
-      "heat": 11.5,
-      "labels": [
-        "Designboom 首页第 2 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan": {
-      "heat": 11.0,
-      "labels": [
-        "Designboom 首页第 3 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty": {
-      "heat": 10.5,
-      "labels": [
-        "Designboom 首页第 4 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/arnaud-behzadi-doobies-paris-pavyllon-lyon": {
-      "heat": 10.0,
-      "labels": [
-        "Designboom 首页第 5 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/bacteria-builders-eth-zurich-exploration-living-architecture-karen-antorveza-paez": {
-      "heat": 9.5,
-      "labels": [
-        "Designboom 首页第 6 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/prefabricated-timber-dekruif-house-noa-noa-network-architecture-owners": {
-      "heat": 9.0,
-      "labels": [
-        "Designboom 首页第 7 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/hyan-1970s-timber-frame-live-work-residence-hayama-japan-green-sandwich-house": {
-      "heat": 8.5,
-      "labels": [
-        "Designboom 首页第 8 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/built99-india-contextual-intelligence": {
-      "heat": 8.0,
-      "labels": [
-        "Designboom 首页第 9 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/big-bjarke-ingels-group-future-temporary-shelter-uganda-bidi-bidi-refugees-to-org": {
-      "heat": 7.5,
-      "labels": [
-        "Designboom 首页第 10 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/garton-group-architecture-tropical-costa-rican-home-casa-black-stone-timber": {
-      "heat": 7.0,
-      "labels": [
-        "Designboom 首页第 11 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/sumayya-vally-counterspace-elie-khouri-art-foundation-ekaf-dubai": {
-      "heat": 6.5,
-      "labels": [
-        "Designboom 首页第 12 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028": {
-      "heat": 6.0,
-      "labels": [
-        "Designboom 首页第 13 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/giant-circle-niko-timber-guesthouse-tiny-curved-sauna-japan-marumi": {
-      "heat": 5.5,
-      "labels": [
-        "Designboom 首页第 14 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/built99-guide-india-architecture-studios": {
-      "heat": 5.0,
-      "labels": [
-        "Designboom 首页第 15 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/balzar-arquitectos-19th-century-modernist-interiors-wabi-sabi-materiality-valencia-apartment-renovation-ciutat-vella-apartment": {
-      "heat": 4.5,
-      "labels": [
-        "Designboom 首页第 16 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/podcast-room-for-utopias-05-06": {
-      "heat": 4.0,
-      "labels": [
-        "Designboom 首页第 17 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/salwa-selma-mikoustudio-craft-architecture-interview-louisiana-channel": {
-      "heat": 3.5,
-      "labels": [
-        "Designboom 首页第 18 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/pearce-plus-guerrilla-shading-pavilion-salvaged-timber-canvas-sails-camden-london": {
-      "heat": 3.0,
-      "labels": [
-        "Designboom 首页第 19 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china": {
-      "heat": 2.5,
-      "labels": [
-        "Designboom 首页第 20 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/raw-concrete-steel-stripped-back-1960s-apartment-zagreb-simple-architecture": {
-      "heat": 2.0,
-      "labels": [
-        "Designboom 首页第 21 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/atelier-gabu-observation-tower-french-hillside-timber-translucent-fabric-brunebasse": {
-      "heat": 1.5,
-      "labels": [
-        "Designboom 首页第 22 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london": {
-      "heat": 1.0,
-      "labels": [
-        "Designboom 首页第 23 位"
-      ]
-    },
-    "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei": {
-      "heat": 0.5,
-      "labels": [
-        "Designboom 首页第 24 位"
-      ]
-    },
-    "https://www.archdaily.com/1188439/fm-house-dado-castello-branco-arquitetura": {
+    "https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos": {
       "heat": 22.0,
       "labels": [
         "ArchDaily 首页第 1 位"
       ]
     },
-    "https://www.archdaily.com/1188590/sima-house-dosorozco": {
+    "https://www.archdaily.com/1188439/fm-house-dado-castello-branco-arquitetura": {
       "heat": 21.08,
       "labels": [
         "ArchDaily 首页第 2 位"
       ]
     },
-    "https://www.archdaily.com/1188603/bachour-cafe-estudio-guto-requena": {
+    "https://www.archdaily.com/1188590/sima-house-dosorozco": {
       "heat": 20.17,
       "labels": [
         "ArchDaily 首页第 3 位"
       ]
     },
-    "https://www.archdaily.com/1035266/pavilion-in-the-oaks-mork-ulnes-architects": {
+    "https://www.archdaily.com/1188603/bachour-cafe-estudio-guto-requena": {
       "heat": 19.25,
       "labels": [
         "ArchDaily 首页第 4 位"
       ]
     },
-    "https://www.archdaily.com/1003816/kerena-funeral-services-myt-plus-glvdk": {
+    "https://www.archdaily.com/1035266/pavilion-in-the-oaks-mork-ulnes-architects": {
       "heat": 18.33,
       "labels": [
         "ArchDaily 首页第 5 位"
       ]
     },
-    "https://www.archdaily.com/1188089/neuweilerstrasse-mixed-use-development-volpatohatz": {
+    "https://www.archdaily.com/1003816/kerena-funeral-services-myt-plus-glvdk": {
       "heat": 17.42,
       "labels": [
         "ArchDaily 首页第 6 位"
       ]
     },
-    "https://www.archdaily.com/1187810/argyle-house-the-story-behind-edinburghs-brutalist-landmark": {
+    "https://www.archdaily.com/1188089/neuweilerstrasse-mixed-use-development-volpatohatz": {
       "heat": 16.5,
       "labels": [
         "ArchDaily 首页第 7 位"
       ]
     },
-    "https://www.archdaily.com/1188053/capsule-retreat-east-architecture-studio": {
+    "https://www.archdaily.com/1187810/argyle-house-the-story-behind-edinburghs-brutalist-landmark": {
       "heat": 15.58,
       "labels": [
         "ArchDaily 首页第 8 位"
       ]
     },
-    "https://www.archdaily.com/1188504/jswd-wins-competition-to-design-mixed-use-riymar-towers-in-riyadh-saudi-arabia": {
+    "https://www.archdaily.com/1188053/capsule-retreat-east-architecture-studio": {
       "heat": 14.67,
       "labels": [
         "ArchDaily 首页第 9 位"
       ]
     },
-    "https://www.archdaily.com/1187694/maison-de-lenvironnement-et-de-la-biodiversite": {
+    "https://www.archdaily.com/1188504/jswd-wins-competition-to-design-mixed-use-riymar-towers-in-riyadh-saudi-arabia": {
       "heat": 13.75,
       "labels": [
         "ArchDaily 首页第 10 位"
       ]
     },
-    "https://www.archdaily.com/1188561/shaus-microlibraries-initiative-expands-with-a-new-project-in-jakarta": {
+    "https://www.archdaily.com/1187694/maison-de-lenvironnement-et-de-la-biodiversite": {
       "heat": 12.83,
       "labels": [
         "ArchDaily 首页第 11 位"
       ]
     },
-    "https://www.archdaily.com/1031619/kampung-mrican-phase-1-and-microlibrary-pringwulung-shau-indonesia": {
+    "https://www.archdaily.com/1188561/shaus-microlibraries-initiative-expands-with-a-new-project-in-jakarta": {
       "heat": 11.92,
       "labels": [
         "ArchDaily 首页第 12 位"
       ]
     },
-    "https://www.archdaily.com/1035920/ammodo-architecture-awards-2025-announces-26-recipients-for-socially-and-ecologically-responsible-design": {
+    "https://www.archdaily.com/1031619/kampung-mrican-phase-1-and-microlibrary-pringwulung-shau-indonesia": {
       "heat": 11.0,
       "labels": [
         "ArchDaily 首页第 13 位"
       ]
     },
-    "https://www.archdaily.com/1188503/what-architecture-brings-together-encounters-at-open-house-valencia-2026": {
+    "https://www.archdaily.com/1035920/ammodo-architecture-awards-2025-announces-26-recipients-for-socially-and-ecologically-responsible-design": {
       "heat": 10.08,
       "labels": [
         "ArchDaily 首页第 14 位"
       ]
     },
-    "https://www.archdaily.com/1038832/heritage-without-permanence-when-architecture-endures-by-disappearing": {
+    "https://www.archdaily.com/1188503/what-architecture-brings-together-encounters-at-open-house-valencia-2026": {
       "heat": 9.17,
       "labels": [
         "ArchDaily 首页第 15 位"
       ]
     },
-    "https://www.archdaily.com/1188078/casa-tranquilo-dado": {
+    "https://www.archdaily.com/1038832/heritage-without-permanence-when-architecture-endures-by-disappearing": {
       "heat": 8.25,
       "labels": [
         "ArchDaily 首页第 16 位"
       ]
     },
-    "https://www.archdaily.com/1188168/lynk-and-co-motorsport-experience-center-chengdu-muda-architects": {
+    "https://www.archdaily.com/1188078/casa-tranquilo-dado": {
       "heat": 7.33,
       "labels": [
         "ArchDaily 首页第 17 位"
       ]
     },
-    "https://www.archdaily.com/1188378/mekong-breeze-house-re-edge-architecture": {
+    "https://www.archdaily.com/1188168/lynk-and-co-motorsport-experience-center-chengdu-muda-architects": {
       "heat": 6.42,
       "labels": [
         "ArchDaily 首页第 18 位"
       ]
     },
-    "https://www.archdaily.com/1188496/casa-de-las-lavanderas-raul-sanchez": {
+    "https://www.archdaily.com/1188378/mekong-breeze-house-re-edge-architecture": {
       "heat": 5.5,
       "labels": [
         "ArchDaily 首页第 19 位"
       ]
     },
-    "https://www.archdaily.com/1188436/ell-house-suite": {
+    "https://www.archdaily.com/1188496/casa-de-las-lavanderas-raul-sanchez": {
       "heat": 4.58,
       "labels": [
         "ArchDaily 首页第 20 位"
       ]
     },
-    "https://www.archdaily.com/1188558/balsa-self-sufficient-boat-for-laboratories-and-services-in-the-amazon-casa-ciudades-auto-sostenibles-amazonicas": {
+    "https://www.archdaily.com/1188436/ell-house-suite": {
       "heat": 3.67,
       "labels": [
         "ArchDaily 首页第 21 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188441/fm-zhu-zhai-dado-castello-branco-arquitetura": {
+    "https://www.archdaily.cn/zh/1188631/itchimbia-zhu-zhai-mejia-narvaez-arquitectos": {
       "heat": 10.0,
       "labels": [
         "ArchDaily中国 首页第 1 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188589/sima-zhu-zhai-dosorozco": {
+    "https://www.archdaily.cn/zh/1188441/fm-zhu-zhai-dado-castello-branco-arquitetura": {
       "heat": 9.58,
       "labels": [
         "ArchDaily中国 首页第 2 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188605/bachour-ka-pei-ting-estudio-guto-requena": {
+    "https://www.archdaily.cn/zh/1188589/sima-zhu-zhai-dosorozco": {
       "heat": 9.17,
       "labels": [
         "ArchDaily中国 首页第 3 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1153128/xiang-shu-lin-zhong-de-ting-ge-mork-ulnes-architects": {
+    "https://www.archdaily.cn/zh/1188605/bachour-ka-pei-ting-estudio-guto-requena": {
       "heat": 8.75,
       "labels": [
         "ArchDaily中国 首页第 4 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1173512/kerena-bin-yi-fu-wu-myt-plus-glvdk": {
+    "https://www.archdaily.cn/zh/1153128/xiang-shu-lin-zhong-de-ting-ge-mork-ulnes-architects": {
       "heat": 8.33,
       "labels": [
         "ArchDaily中国 首页第 5 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188242/neuweilerstrasse-zhu-zhai-kai-fa-volpatohatz": {
+    "https://www.archdaily.cn/zh/1173512/kerena-bin-yi-fu-wu-myt-plus-glvdk": {
       "heat": 7.92,
       "labels": [
         "ArchDaily中国 首页第 6 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188555/a-gai-er-da-sha-ai-ding-bao-cu-ye-zhu-yi-di-biao-bei-hou-de-gu-shi": {
+    "https://www.archdaily.cn/zh/1188242/neuweilerstrasse-zhu-zhai-kai-fa-volpatohatz": {
       "heat": 7.5,
       "labels": [
         "ArchDaily中国 首页第 7 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188358/tai-kong-cang-bi-nan-suo-east-architecture-studio": {
+    "https://www.archdaily.cn/zh/1188555/a-gai-er-da-sha-ai-ding-bao-cu-ye-zhu-yi-di-biao-bei-hou-de-gu-shi": {
       "heat": 7.08,
       "labels": [
         "ArchDaily中国 首页第 8 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188569/jswdying-de-sha-te-a-la-bo-li-ya-de-riymarhun-he-yong-tu-ta-lou-she-ji-jing-sai": {
+    "https://www.archdaily.cn/zh/1188358/tai-kong-cang-bi-nan-suo-east-architecture-studio": {
       "heat": 6.67,
       "labels": [
         "ArchDaily中国 首页第 9 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188430/huan-jing-yu-sheng-wu-duo-yang-xing-zhi-jia-maison-de-lenvironnement-et-de-la-biodiversite": {
+    "https://www.archdaily.cn/zh/1188569/jswdying-de-sha-te-a-la-bo-li-ya-de-riymarhun-he-yong-tu-ta-lou-she-ji-jing-sai": {
       "heat": 6.25,
       "labels": [
         "ArchDaily中国 首页第 10 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188582/shau-wei-xing-tu-shu-guan-ji-hua-zai-ya-jia-da-ying-lai-xin-xiang-mu-gui-mo-chi-xu-kuo-da": {
+    "https://www.archdaily.cn/zh/1188430/huan-jing-yu-sheng-wu-duo-yang-xing-zhi-jia-maison-de-lenvironnement-et-de-la-biodiversite": {
       "heat": 5.83,
       "labels": [
         "ArchDaily中国 首页第 11 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188552/jian-zhu-suo-ning-ju-de-qie-2026nian-wa-lun-xi-ya-open-house-zhong-de-xiang-yu": {
+    "https://www.archdaily.cn/zh/1188582/shau-wei-xing-tu-shu-guan-ji-hua-zai-ya-jia-da-ying-lai-xin-xiang-mu-gui-mo-chi-xu-kuo-da": {
       "heat": 5.42,
       "labels": [
         "ArchDaily中国 首页第 12 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188361/tranquilo-zhu-zhai-dado": {
+    "https://www.archdaily.cn/zh/1188552/jian-zhu-suo-ning-ju-de-qie-2026nian-wa-lun-xi-ya-open-house-zhong-de-xiang-yu": {
       "heat": 5.0,
       "labels": [
         "ArchDaily中国 首页第 13 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188172/ling-ke-mecqi-che-yun-dong-ti-yan-zhong-xin-star-cheng-du-mudamu-da-jian-zhu": {
+    "https://www.archdaily.cn/zh/1188361/tranquilo-zhu-zhai-dado": {
       "heat": 4.58,
       "labels": [
         "ArchDaily中国 首页第 14 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188575/built99-hui-ju-99-jia-jian-zhu-shi-wu-suo-zong-lan-dang-dai-yin-du-jian-zhu": {
+    "https://www.archdaily.cn/zh/1188172/ling-ke-mecqi-che-yun-dong-ti-yan-zhong-xin-star-cheng-du-mudamu-da-jian-zhu": {
       "heat": 4.17,
       "labels": [
         "ArchDaily中国 首页第 15 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188473/mekong-breeze-house-re-edge-architecture": {
+    "https://www.archdaily.cn/zh/1188575/built99-hui-ju-99-jia-jian-zhu-shi-wu-suo-zong-lan-dang-dai-yin-du-jian-zhu": {
       "heat": 3.75,
       "labels": [
         "ArchDaily中国 首页第 16 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188566/xi-yi-fu-zhi-jia-raul-sanchez": {
+    "https://www.archdaily.cn/zh/1188473/mekong-breeze-house-re-edge-architecture": {
       "heat": 3.33,
       "labels": [
         "ArchDaily中国 首页第 17 位"
       ]
     },
-    "https://www.archdaily.cn/zh/1188438/casa-ell-suite": {
+    "https://www.archdaily.cn/zh/1188566/xi-yi-fu-zhi-jia-raul-sanchez": {
       "heat": 2.92,
       "labels": [
         "ArchDaily中国 首页第 18 位"
@@ -605,6 +461,150 @@
       "heat": 0.33,
       "labels": [
         "建筑学院 首页第 24 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/page": {
+      "heat": 12.0,
+      "labels": [
+        "Designboom 首页第 1 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/feed": {
+      "heat": 11.5,
+      "labels": [
+        "Designboom 首页第 2 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan": {
+      "heat": 11.0,
+      "labels": [
+        "Designboom 首页第 3 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty": {
+      "heat": 10.5,
+      "labels": [
+        "Designboom 首页第 4 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/arnaud-behzadi-doobies-paris-pavyllon-lyon": {
+      "heat": 10.0,
+      "labels": [
+        "Designboom 首页第 5 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/bacteria-builders-eth-zurich-exploration-living-architecture-karen-antorveza-paez": {
+      "heat": 9.5,
+      "labels": [
+        "Designboom 首页第 6 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/prefabricated-timber-dekruif-house-noa-noa-network-architecture-owners": {
+      "heat": 9.0,
+      "labels": [
+        "Designboom 首页第 7 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/hyan-1970s-timber-frame-live-work-residence-hayama-japan-green-sandwich-house": {
+      "heat": 8.5,
+      "labels": [
+        "Designboom 首页第 8 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/built99-india-contextual-intelligence": {
+      "heat": 8.0,
+      "labels": [
+        "Designboom 首页第 9 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/big-bjarke-ingels-group-future-temporary-shelter-uganda-bidi-bidi-refugees-to-org": {
+      "heat": 7.5,
+      "labels": [
+        "Designboom 首页第 10 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/garton-group-architecture-tropical-costa-rican-home-casa-black-stone-timber": {
+      "heat": 7.0,
+      "labels": [
+        "Designboom 首页第 11 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/sumayya-vally-counterspace-elie-khouri-art-foundation-ekaf-dubai": {
+      "heat": 6.5,
+      "labels": [
+        "Designboom 首页第 12 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/jean-nouvel-shenzhen-opera-house-waterfront-completion-2028": {
+      "heat": 6.0,
+      "labels": [
+        "Designboom 首页第 13 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/giant-circle-niko-timber-guesthouse-tiny-curved-sauna-japan-marumi": {
+      "heat": 5.5,
+      "labels": [
+        "Designboom 首页第 14 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/built99-guide-india-architecture-studios": {
+      "heat": 5.0,
+      "labels": [
+        "Designboom 首页第 15 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/balzar-arquitectos-19th-century-modernist-interiors-wabi-sabi-materiality-valencia-apartment-renovation-ciutat-vella-apartment": {
+      "heat": 4.5,
+      "labels": [
+        "Designboom 首页第 16 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/podcast-room-for-utopias-05-06": {
+      "heat": 4.0,
+      "labels": [
+        "Designboom 首页第 17 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/salwa-selma-mikoustudio-craft-architecture-interview-louisiana-channel": {
+      "heat": 3.5,
+      "labels": [
+        "Designboom 首页第 18 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/pearce-plus-guerrilla-shading-pavilion-salvaged-timber-canvas-sails-camden-london": {
+      "heat": 3.0,
+      "labels": [
+        "Designboom 首页第 19 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/sweeping-concrete-zao-art-center-rizhao-china": {
+      "heat": 2.5,
+      "labels": [
+        "Designboom 首页第 20 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/raw-concrete-steel-stripped-back-1960s-apartment-zagreb-simple-architecture": {
+      "heat": 2.0,
+      "labels": [
+        "Designboom 首页第 21 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/atelier-gabu-observation-tower-french-hillside-timber-translucent-fabric-brunebasse": {
+      "heat": 1.5,
+      "labels": [
+        "Designboom 首页第 22 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/peter-morris-miami-art-deco-london-gothic-pink-cloud-house-london": {
+      "heat": 1.0,
+      "labels": [
+        "Designboom 首页第 23 位"
+      ]
+    },
+    "https://www.designboom.com/architecture/concrete-brushed-metal-hybrid-automotive-gallery-cafe-hong-kong-macchina-studio-ruei": {
+      "heat": 0.5,
+      "labels": [
+        "Designboom 首页第 24 位"
       ]
     }
   }

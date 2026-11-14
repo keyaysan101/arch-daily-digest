@@ -3,7 +3,7 @@
   "window_start": "2026-11-07",
   "window_end": "2026-11-13",
   "window_days": 7,
-  "generated_at": "2026-11-14T06:41:01+08:00",
+  "generated_at": "2026-11-14T08:32:06+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -28,7 +28,7 @@
     {
       "source": "谷德设计网",
       "ok": true,
-      "total": 54,
+      "total": 53,
       "oldest": "2026-11-07",
       "newest": "2026-11-13",
       "hit": 55,
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 343,
-  "new_stored": 62,
-  "store_total": 1772,
+  "new_stored": 2,
+  "store_total": 1774,
   "after_dedupe": 209,
   "noise_count": 9,
   "heat_signal_count": 99,
-  "heat_hit_count": 60,
+  "heat_hit_count": 58,
   "out_of_window_count": 2,
   "count": 10,
   "noise": [
@@ -147,20 +147,20 @@
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1696 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1511 次"
       ],
-      "views": 1696,
-      "heat_rank": 10,
+      "views": 1511,
+      "heat_rank": 12,
       "is_project": true,
       "btype": "景观",
       "region": "重庆",
       "city": "",
       "architect": "物候设计",
-      "heat_score": 25.9,
+      "heat_score": 26.0,
       "quality_score": 33.4,
-      "score": 59.3,
+      "score": 59.4,
       "reasons": [
-        "热度 25.9：谷德 7 天最热 第 10 名 · 阅读 1696 次→25.9",
+        "热度 26.0：谷德 7 天最热 第 12 名 · 阅读 1511 次→26.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2"
       ],
       "rank": 1
@@ -175,7 +175,7 @@
       "summary": "November 13 © Tina Barth + 20 Residential Architecture , Apartments , Sustainability • Basel, Switzerland Architects: Volpatohatz Area Area of this architecture project Area: 294 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188089/neuweilerstrasse-mixed-use-development-volpatohatz Cristina Popescu Read more »",
       "published_at": "2026-11-13T23:00:00+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "photographer": "Tina Barth",
         "image_count": 20,
@@ -187,18 +187,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 6 位"
+        "ArchDaily 首页第 7 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "瑞士",
       "city": "Basel",
       "architect": "Volpatohatz",
-      "heat_score": 17.4,
+      "heat_score": 16.5,
       "quality_score": 40.0,
-      "score": 57.4,
+      "score": 56.5,
       "reasons": [
-        "热度 17.4：ArchDaily 首页第 6 位→17.4",
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；类型「住宅」+3；地域「瑞士」+3；封面图+2；含面积数据+2"
       ],
       "rank": 2
@@ -213,7 +213,7 @@
       "summary": "November 13 © Ieva Saudargaitė + 29 Houses • Zabbougha, Lebanon Architects: East Architecture Studio Area Area of this architecture project Area: 400 m² Year Completion year of this architecture project Year: 2023 https://www.archdaily.com/1188053/capsule-retreat-east-architecture-studio Pratik Mour Read more »",
       "published_at": "2026-11-13T20:00:00+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "photographer": "Ieva Saudargaitė",
         "image_count": 29,
@@ -225,18 +225,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 8 位"
+        "ArchDaily 首页第 9 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "Lebanon",
       "city": "Zabbougha",
       "architect": "East Architecture Studio",
-      "heat_score": 15.6,
+      "heat_score": 14.7,
       "quality_score": 40.0,
-      "score": 55.6,
+      "score": 54.7,
       "reasons": [
-        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集29张+8；类型「住宅」+3；地域「Lebanon」+3；封面图+2；含面积数据+2"
       ],
       "rank": 3
@@ -251,7 +251,7 @@
       "summary": "November 13 © Hervé Abbadie + 21 Mixed Use Architecture , Community , Sustainability • Mitry-Mory, France Architects: Bulle, Poirier & Justman Architectes Area Area of this architecture project Area: 225 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187694/maison-de-lenvironnement-et-de-la-biodiversite Cristina Popescu Read more »",
       "published_at": "2026-11-13T19:00:00+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "photographer": "Hervé Abbadie",
         "image_count": 21,
@@ -263,18 +263,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 10 位"
+        "ArchDaily 首页第 11 位"
       ],
       "is_project": true,
       "btype": "公共",
       "region": "法国",
       "city": "Mitry-Mory",
       "architect": "Bulle, Poirier & Justman Architectes",
-      "heat_score": 13.8,
+      "heat_score": 12.8,
       "quality_score": 40.0,
-      "score": 53.8,
+      "score": 52.8,
       "reasons": [
-        "热度 13.8：ArchDaily 首页第 10 位→13.8",
+        "热度 12.8：ArchDaily 首页第 11 位→12.8",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集21张+8；类型「公共」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
@@ -283,47 +283,46 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "洗衣妇之家 / Raúl Sanchez Architects",
-      "url": "https://www.archdaily.cn/zh/1188566/xi-yi-fu-zhi-jia-raul-sanchez-architects",
-      "cover": "https://images.adsttc.com/media/images/6af4/7557/8074/f401/89de/e472/newsletter/casa-de-las-lavanderas-raul-sanchez_7.jpg?1794405735",
-      "summary": "十一月 13 © José Hevia + 38 • Barcelona, 西班牙 建筑师: Raúl Sanchez Architects 面积 该建筑项目的领域 面积: 90 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 厂家 该项目中使用产品的品牌 厂家: Artemide , Knoll International , Louis Poulsen , Vibia , Alessi , +9 CASAS. , Casamitjana , Fenix Originals , Flos , Kartell , MYC-Gavina , Poltrona Frau , Stelton , Vitra -9 https://www.archdaily.cn/zh/1188566/xi-yi-fu-zhi-jia-raul-sanchez-architects Cristina ",
-      "published_at": "2026-11-13T08:00:00+08:00",
-      "first_seen": "2026-11-13T08:37:34+08:00",
-      "last_seen": "2026-11-13T08:37:34+08:00",
-      "alt_url": "https://www.archdaily.com/1188496/casa-de-las-lavanderas-raul-sanchez",
+      "title": "Tranquilo 住宅 / DADO",
+      "url": "https://www.archdaily.cn/zh/1188361/tranquilo-zhu-zhai-dado",
+      "cover": "https://images.adsttc.com/media/images/6aeb/26dc/1f37/4900/010d/10e5/newsletter/01.jpg?1793795834",
+      "summary": "十一月 13 © Ar. Ekansh Goel © Studio Recall + 23 • Verla Canca, 印度 建筑师: DADO 面积 该建筑项目的领域 面积: 10000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2024 厂家 该项目中使用产品的品牌 厂家: Bliss-Space , Dtale Modern , Gulmohar Lane , Living Shapes , Oorjas Lighting , +2 Studio Palassa , Thomas the Potter -2 https://www.archdaily.cn/zh/1188361/tranquilo-zhu-zhai-dado Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-13T16:00:00+08:00",
+      "first_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
+      "alt_url": "https://www.archdaily.com/1188078/casa-tranquilo-dado",
       "bilingual": true,
       "meta": {
-        "photographer": "José Hevia",
-        "image_count": 38,
-        "city": "Barcelona",
-        "country": "西班牙",
-        "architect": "Raúl Sanchez Architects",
-        "area": "90 m²",
+        "photographer": "Ar. Ekansh Goel © Studio Recall",
+        "image_count": 23,
+        "city": "Verla Canca",
+        "country": "印度",
+        "architect": "DADO",
         "year": "2024",
         "brands": [
-          "Artemide",
-          "Knoll International",
-          "Louis Poulsen",
-          "Vibia",
-          "Alessi",
-          "+9 CASAS."
+          "Bliss-Space",
+          "Dtale Modern",
+          "Gulmohar Lane",
+          "Living Shapes",
+          "Oorjas Lighting",
+          "+2 Studio Palassa"
         ]
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 19 位"
+        "ArchDaily中国 首页第 14 位"
       ],
       "is_project": true,
-      "btype": null,
-      "region": "西班牙",
-      "city": "Barcelona",
-      "architect": "Raúl Sanchez Architects",
-      "heat_score": 9.5,
+      "btype": "住宅",
+      "region": "印度",
+      "city": "Verla Canca",
+      "architect": "DADO",
+      "heat_score": 8.6,
       "quality_score": 40.0,
-      "score": 49.5,
+      "score": 48.6,
       "reasons": [
-        "热度 9.5：ArchDaily 首页第 19 位→5.5；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集38张+8；地域「西班牙」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；知名事务所+6；类型「住宅」+3；地域「印度」+3；封面图+2；含材料厂家+1"
       ],
       "rank": 5
     },
@@ -337,7 +336,7 @@
       "summary": "建筑  连接自然的总部园区 2026.11.13 收藏 分享",
       "published_at": "2026-11-13T12:30:53+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
@@ -365,7 +364,7 @@
       "summary": "建筑  百年住宅以庭院为核心，在传统材料与当代结构之间建立对话。 2026.11.12 收藏 分享",
       "published_at": "2026-11-12T16:57:50+08:00",
       "first_seen": "2026-11-13T06:43:31+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "area": "200 m²",
         "year": "2025",
@@ -397,7 +396,7 @@
       "summary": "NOA stacks volumes to create a house designed for relocation &nbsp; Designed by NOA , DeKruif House is a prefabricated timber residence conceived for a family that does not want to commit to a single location. Originally envisioned for two waterfront sites, one in British Columbia , Canada, and another in Ilwaco, Washington , the project treats the home as something that can follow its inhabitants",
       "published_at": "2026-11-13T16:45:06+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "area": "75 m²"
       },
@@ -429,7 +428,7 @@
       "summary": "绿色表达了文化与自然的相遇。",
       "published_at": "2026-11-13T19:06:01+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "area": "4 500 m²"
       },
@@ -459,7 +458,7 @@
       "summary": "一座可居住的雕塑。",
       "published_at": "2026-11-13T16:33:25+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-14T08:32:02+08:00",
       "meta": {
         "area": "6000 m²"
       },
