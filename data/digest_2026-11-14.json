@@ -1,0 +1,481 @@
+{
+  "date": "2026-11-14",
+  "window_start": "2026-11-08",
+  "window_end": "2026-11-14",
+  "window_days": 7,
+  "generated_at": "2026-11-15T09:42:06+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 65,
+      "oldest": "2026-10-13",
+      "newest": "2026-11-15",
+      "hit": 95,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 65,
+      "oldest": "2026-10-12",
+      "newest": "2026-11-15",
+      "hit": 97,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-09",
+      "newest": "2026-11-15",
+      "hit": 54,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-08",
+      "newest": "2026-11-15",
+      "hit": 51,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 6,
+      "oldest": "2026-11-13",
+      "newest": "2026-11-14",
+      "hit": 20,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 17,
+      "oldest": "2026-11-10",
+      "newest": "2026-11-13",
+      "hit": 26,
+      "stale_days": 1,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-05",
+      "newest": "2026-11-10",
+      "hit": 2,
+      "stale_days": 4,
+      "stale": false
+    }
+  ],
+  "candidate_count": 345,
+  "new_stored": 21,
+  "store_total": 1795,
+  "after_dedupe": 207,
+  "noise_count": 8,
+  "heat_signal_count": 97,
+  "heat_hit_count": 62,
+  "out_of_window_count": 1,
+  "count": 10,
+  "noise": [
+    {
+      "title": "This week Sony revived its classic Walkman headphones",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/14/this-week-sony-walkman-headphones"
+    },
+    {
+      "title": "Was the Cybertruck a flop, or a design success?",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/13/tesla-cybertruck-la-querola-fire-sony-headphones-dezeen-weekly-podcast"
+    },
+    {
+      "title": "Pablo Castillo partners with Decibel on 3D-printed chair with under-seat storage",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/13/kino-3d-printed-chair-pablo-castillo-decibel"
+    },
+    {
+      "title": "Sydney’s Powerhouse Parramatta Museum and Bratislava’s Winter Harbour Redevelopment: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188495/sydneys-powerhouse-parramatta-museum-and-bratislavas-winter-harbour-redevelopment-this-weeks-review"
+    },
+    {
+      "title": "Dezeen Awards-shortlisted housing project damaged in fire",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/10/la-querola-andorra-jean-nouvel-ribas-ribas-arquitectos-fire"
+    },
+    {
+      "title": "Dezeen Awards trophy updated using \"one of humanity's oldest natural materials\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/09/dezeen-awards-2026-trophy-cork-amorim-corticeira"
+    },
+    {
+      "title": "podcast: architecture that refuses signature styles for spaces shaped by instinct",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-05-06"
+    },
+    {
+      "title": "inside mikoü architecture and its search for meaning in craft and construction",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/salwa-selma-mikoustudio-craft-architecture-interview-louisiana-channel"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "通马路综合交通枢纽，北京 / 中国建筑设计研究院",
+      "url": "https://www.gooood.cn/tongma-road-integrated-transport-hub-by-cadg.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-nfa-472x303.png",
+      "summary": "建筑  在街区尺度中重塑站城融合 2026.11.12 收藏 分享",
+      "published_at": "2026-11-12T10:51:38+08:00",
+      "first_seen": "2026-11-13T06:43:31+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "area": "176,000 m²",
+        "year": "2026",
+        "photographer": "张锦影像工作室（除特殊标注外）"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1549 次"
+      ],
+      "views": 1549,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": "交通",
+      "region": "北京",
+      "city": "",
+      "architect": "",
+      "heat_score": 26.9,
+      "quality_score": 33.4,
+      "score": 60.3,
+      "reasons": [
+        "热度 26.9：谷德 7 天最热 第 11 名 · 阅读 1549 次→26.9",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「交通」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "OFFICE真相专辑 NO.65 - PILLS工作室",
+      "url": "https://www.gooood.cn/office-fact-pills-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/wangzigeng-cover-472x303.jpg",
+      "summary": "专辑  在实验与实践之间 2026.11.11 收藏 分享",
+      "published_at": "2026-11-11T09:08:40+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1541 次"
+      ],
+      "views": 1541,
+      "heat_rank": 12,
+      "is_project": false,
+      "btype": "办公",
+      "region": null,
+      "city": "",
+      "architect": "",
+      "heat_score": 26.8,
+      "quality_score": 15.4,
+      "score": 42.2,
+      "reasons": [
+        "热度 26.8：谷德 7 天最热 第 12 名 · 阅读 1541 次→26.8",
+        "质量 15.4：站点权重0.92→7.4；类型「办公」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Maryland House / Remi C.T.",
+      "url": "https://www.archdaily.com/1188511/maryland-house",
+      "cover": "https://images.adsttc.com/media/images/6af4/9801/eabd/2a00/0192/c6b2/medium_jpg/MH_RCT_05_EDIT.jpg?1794414625",
+      "summary": "November 14 © James Retief + 13 Residential Architecture , Houses , House Interiors • United Kingdom Architects: Remi C.T. Area Area of this architecture project Area: 100 m² Year Completion year of this architecture project Year: 2021 https://www.archdaily.com/1188511/maryland-house Cristina Popescu Read more »",
+      "published_at": "2026-11-14T23:00:00+08:00",
+      "first_seen": "2026-11-15T09:41:59+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "photographer": "James Retief",
+        "image_count": 13,
+        "architect": "Remi C.T.",
+        "area": "100 m²",
+        "year": "2021"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 5 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "英国",
+      "city": "",
+      "architect": "Remi C.T.",
+      "heat_score": 18.3,
+      "quality_score": 40.0,
+      "score": 58.3,
+      "reasons": [
+        "热度 18.3：ArchDaily 首页第 5 位→18.3",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Vandeuren III-IV / P&P Architectes + Atelier d'Architecture A4",
+      "url": "https://www.archdaily.com/1186465/vandeuren-iii-iv-p-and-p-architectes",
+      "cover": "https://images.adsttc.com/media/images/6ac6/104f/07c3/d100/017f/dbe9/newsletter/7-Courtyard_block_interior__Nicolas_Da_Silva_Lucas_.jpg?1791365243",
+      "summary": "November 14 © Nicolas Da Silva Lucas + 39 Residential Architecture , Apartments , Renovation • Bruxelles, Belgium Architects: Atelier d'Architecture A4 , P&P Architectes Area Area of this architecture project Area: 14230 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Sto , Batisteel , Fabribois , K",
+      "published_at": "2026-11-14T19:00:00+08:00",
+      "first_seen": "2026-11-15T09:41:59+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "photographer": "Nicolas Da Silva Lucas",
+        "image_count": 39,
+        "city": "Bruxelles",
+        "country": "Belgium",
+        "architect": "Atelier d'Architecture A4 , P&P Architectes",
+        "area": "14230 m²",
+        "year": "2025",
+        "brands": [
+          "Sto",
+          "Batisteel",
+          "Fabribois"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "比利时",
+      "city": "Bruxelles",
+      "architect": "Atelier d'Architecture A4 , P&P Architectes",
+      "heat_score": 15.6,
+      "quality_score": 40.0,
+      "score": 55.6,
+      "reasons": [
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集39张+8；类型「住宅」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Minou-On Apartment Renovation / CROSSARCHITECTURE / Mehrdad Makaremi",
+      "url": "https://www.archdaily.com/1187951/minou-on-apartment-renovation-crossarchitecture-mehrdad-makaremi",
+      "cover": "https://images.adsttc.com/media/images/6ae8/8239/bcbc/3500/01ae/ae87/newsletter/01.jpg?1793622689",
+      "summary": "November 14 © Neel Studio + 13 Renovation , House Interiors • Tehran, Iran Architects: CROSSARCHITECTURE / Mehrdad Makaremi Area Area of this architecture project Area: 200 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Namachin Brick https://www.archdaily.com/1187951/minou-on-apartment-renovation-",
+      "published_at": "2026-11-14T15:00:00+08:00",
+      "first_seen": "2026-11-15T09:41:59+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "photographer": "Neel Studio",
+        "image_count": 13,
+        "city": "Tehran",
+        "country": "Iran",
+        "architect": "CROSSARCHITECTURE / Mehrdad Makaremi",
+        "area": "200 m²",
+        "year": "2025",
+        "brands": [
+          "Namachin Brick"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 9 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "Iran",
+      "city": "Tehran",
+      "architect": "CROSSARCHITECTURE / Mehrdad Makaremi",
+      "heat_score": 14.7,
+      "quality_score": 40.0,
+      "score": 54.7,
+      "reasons": [
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「Iran」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Itchimbía Housing / Mejía Narváez Arquitectos",
+      "url": "https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos",
+      "cover": "https://images.adsttc.com/media/images/6af7/008b/eabd/2a00/0192/e383/medium_jpg/BICUBIK_0144.jpg?1794572460",
+      "summary": "November 14 Videos © Bicubik Photography + 22 Residential Architecture • Quito, Ecuador Architects: Mejía Narváez Arquitectos Area Area of this architecture project Area: 853 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos Valentina Díaz Read more »",
+      "published_at": "2026-11-14T08:00:00+08:00",
+      "first_seen": "2026-11-14T08:32:02+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "photographer": "Bicubik Photography",
+        "image_count": 22,
+        "city": "Quito",
+        "country": "Ecuador",
+        "architect": "Mejía Narváez Arquitectos",
+        "area": "853 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 10 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "Ecuador",
+      "city": "Quito",
+      "architect": "Mejía Narváez Arquitectos",
+      "heat_score": 13.8,
+      "quality_score": 40.0,
+      "score": 53.8,
+      "reasons": [
+        "热度 13.8：ArchDaily 首页第 10 位→13.8",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；类型「住宅」+3；地域「Ecuador」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio",
+      "url": "https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg",
+      "summary": "建筑  竹拱之下，音乐与自然相遇 2026.11.10 收藏 分享",
+      "published_at": "2026-11-10T14:53:48+08:00",
+      "first_seen": "2026-11-11T06:38:33+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "area": "929 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": "金奈",
+      "city": "",
+      "architect": "Ekarth Studio",
+      "heat_score": 0.0,
+      "quality_score": 36.4,
+      "score": 36.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「金奈」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "kengo kuma builds a circular thatched house from local timber and earth in japan",
+      "url": "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/kengo-kuma-kagaku-no-sato-main-house-project-japan-designboom-700-500x400-22b08q85r691.jpg",
+      "summary": "kengo kuma completes thatched house in rural japan &nbsp; In Ibaraki Prefecture, Japan, Kengo Kuma and Associates has completed the Kagaku no Sato Main House, a small wooden building set beneath a sweeping, circular thatched roof . Completed in 2025, the project has recently received the Encouragement Award (Jury Chairperson&#8217;s Award) at the Wood Design Awards 2026. &nbsp; Its broad roof curv",
+      "published_at": "2026-11-14T03:10:47+08:00",
+      "first_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "area": "137 m²",
+        "photographer": "© NTV / Ryohei Sawaki"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 4 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "日本",
+      "city": "",
+      "architect": "",
+      "heat_score": 10.5,
+      "quality_score": 23.6,
+      "score": 34.1,
+      "reasons": [
+        "热度 10.5：Designboom 首页第 4 位→10.5",
+        "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "崃州蒸馏厂体验中心，林中烈酒庄园 / AND Studio 安棣建筑",
+      "url": "https://www.archiposition.com/items/1235bc1ee0",
+      "cover": "https://image.archiposition.com/2026/11/101794447900.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "没有统治性的“主楼”，体量被拆解为三大功能聚落“嵌入”自然的空隙中。",
+      "published_at": "2026-11-12T17:49:45+08:00",
+      "first_seen": "2026-11-13T06:43:31+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "area": "152000 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": "林中烈酒庄园",
+      "city": "",
+      "architect": "AND Studio 安棣建筑",
+      "heat_score": 0.0,
+      "quality_score": 29.4,
+      "score": 29.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 29.4：建成项目格式+18；站点权重0.80→6.4；地域「林中烈酒庄园」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "上海张江机器人谷一期 / Atelier Ping Jiang | EID Arch",
+      "url": "https://www.archiposition.com/items/83bfd2d932",
+      "cover": "https://image.archiposition.com/2026/11/71794447670.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "搭建一系列多维度差异化的场景，促进人与机器人、空间与智能制造共生演进。",
+      "published_at": "2026-11-12T11:58:52+08:00",
+      "first_seen": "2026-11-13T06:43:31+08:00",
+      "last_seen": "2026-11-15T09:41:59+08:00",
+      "meta": {
+        "area": "110031.2 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": null,
+      "region": "上海",
+      "city": "",
+      "architect": "Atelier Ping Jiang | EID Arch",
+      "heat_score": 0.0,
+      "quality_score": 29.4,
+      "score": 29.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 29.4：建成项目格式+18；站点权重0.80→6.4；地域「上海」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}

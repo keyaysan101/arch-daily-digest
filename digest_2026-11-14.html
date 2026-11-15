@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-11-08 ~ 2026-11-14）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-11-08 ~ 2026-11-14）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-11-15 09:42:06 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 95 · ArchDaily中国 97 · 谷德设计网 54 · Dezeen 51 · Designboom 20 · 有方空间 26 · 建筑学院 2<br/>窗口内 345 条候选，其中 62 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>345</b>候选</div>
+      <div class="stat"><b>207</b>去重后</div>
+      <div class="stat"><b>8</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html">建筑奖项</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/tongma-road-integrated-transport-hub-by-cadg.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-nfa-472x303.png" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/tongma-road-integrated-transport-hub-by-cadg.htm" target="_blank" rel="noopener">通马路综合交通枢纽，北京 / 中国建筑设计研究院</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 11 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,549 次</span><span class="chip" style="color:#334155">类型 交通</span><span class="chip" style="color:#0f766e">地域 北京</span><span class="chip" style="color:#7c3aed">面积 176,000 m²</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,549 次</span>
+          <button type="button" class="mini" data-more="m0af037f24793">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/tongma-road-integrated-transport-hub-by-cadg.htm"
+            data-t="通马路综合交通枢纽，北京 / 中国建筑设计研究院" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-nfa-472x303.png" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/tongma-road-integrated-transport-hub-by-cadg.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m0af037f24793"><div class="kv"><b>建筑面积</b><span>176,000 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>摄影</b><span>张锦影像工作室（除特殊标注外）</span></div><div class="kv"><b>所在地</b><span>北京</span></div><div class="kv"><b>摘要</b><span>建筑 在街区尺度中重塑站城融合 2026.11.12 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 60 分</b><div>· 热度 26.9：谷德 7 天最热 第 11 名 · 阅读 1549 次→26.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「交通」+3；地域「北京」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/office-fact-pills-architects.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/wangzigeng-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/office-fact-pills-architects.htm" target="_blank" rel="noopener">OFFICE真相专辑 NO.65 - PILLS工作室</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 12 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,541 次</span><span class="chip" style="color:#334155">类型 办公</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,541 次</span>
+          <button type="button" class="mini" data-more="m697520620d97">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/office-fact-pills-architects.htm"
+            data-t="OFFICE真相专辑 NO.65 - PILLS工作室" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/wangzigeng-cover-472x303.jpg" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/office-fact-pills-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m697520620d97"><div class="kv"><b>摘要</b><span>专辑 在实验与实践之间 2026.11.11 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 42 分</b><div>· 热度 26.8：谷德 7 天最热 第 12 名 · 阅读 1541 次→26.8</div><div>· 质量 15.4：站点权重0.92→7.4；类型「办公」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188511/maryland-house">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af4/9801/eabd/2a00/0192/c6b2/medium_jpg/MH_RCT_05_EDIT.jpg?1794414625" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188511/maryland-house" target="_blank" rel="noopener">Maryland House / Remi C.T.</a></div>
+        <div class="arch">设计：Remi C.T.</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 5 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 英国</span><span class="chip" style="color:#7c3aed">面积 100 m²</span><span class="chip" style="color:#b45309">建成 2021</span><span class="chip" style="color:#475569">图 13 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 58 分</span>
+          <button type="button" class="mini" data-more="m392481de2975">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188511/maryland-house"
+            data-t="Maryland House / Remi C.T." data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af4/9801/eabd/2a00/0192/c6b2/medium_jpg/MH_RCT_05_EDIT.jpg?1794414625" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188511/maryland-house" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m392481de2975"><div class="kv"><b>建筑面积</b><span>100 m²</span></div><div class="kv"><b>建成年份</b><span>2021 年</span></div><div class="kv"><b>图集</b><span>13 张</span></div><div class="kv"><b>摄影</b><span>James Retief</span></div><div class="kv"><b>所在地</b><span>英国</span></div><div class="kv"><b>摘要</b><span>November 14 © James Retief + 13 Residential Architecture , Houses , House Interiors • United Kingdom Architects: Remi C.T. Area Area of this architecture project Area: 100 m² Year Completion year of t…</span></div><div class="why"><b>为什么推荐 · 合计 58 分</b><div>· 热度 18.3：ArchDaily 首页第 5 位→18.3</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「英国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1186465/vandeuren-iii-iv-p-and-p-architectes">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ac6/104f/07c3/d100/017f/dbe9/newsletter/7-Courtyard_block_interior__Nicolas_Da_Silva_Lucas_.jpg?1791365243" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1186465/vandeuren-iii-iv-p-and-p-architectes" target="_blank" rel="noopener">Vandeuren III-IV / P&amp;P Architectes + Atelier D&#x27;Architecture A4</a></div>
+        <div class="arch">设计：Atelier d&#x27;Architecture A4 , P&amp;P Architectes</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 8 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 比利时</span><span class="chip" style="color:#7c3aed">面积 14230 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 39 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 56 分</span>
+          <button type="button" class="mini" data-more="mdbeee9d76b20">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1186465/vandeuren-iii-iv-p-and-p-architectes"
+            data-t="Vandeuren III-IV / P&amp;P Architectes + Atelier D&#x27;Architecture A4" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ac6/104f/07c3/d100/017f/dbe9/newsletter/7-Courtyard_block_interior__Nicolas_Da_Silva_Lucas_.jpg?1791365243" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1186465/vandeuren-iii-iv-p-and-p-architectes" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mdbeee9d76b20"><div class="kv"><b>建筑面积</b><span>14230 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>39 张</span></div><div class="kv"><b>摄影</b><span>Nicolas Da Silva Lucas</span></div><div class="kv"><b>所在地</b><span>Bruxelles / Belgium</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Sto&#x27;, &#x27;Batisteel&#x27;, &#x27;Fabribois&#x27;]</span></div><div class="kv"><b>摘要</b><span>November 14 © Nicolas Da Silva Lucas + 39 Residential Architecture , Apartments , Renovation • Bruxelles, Belgium Architects: Atelier d&#x27;Architecture A4 , P&amp;P Architectes Area Area of this architecture…</span></div><div class="why"><b>为什么推荐 · 合计 56 分</b><div>· 热度 15.6：ArchDaily 首页第 8 位→15.6</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集39张+8；类型「住宅」+3；地域「比利时」+3；封面图+2；含面积数据+2；含材料厂家+1</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1187951/minou-on-apartment-renovation-crossarchitecture-mehrdad-makaremi">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6ae8/8239/bcbc/3500/01ae/ae87/newsletter/01.jpg?1793622689" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1187951/minou-on-apartment-renovation-crossarchitecture-mehrdad-makaremi" target="_blank" rel="noopener">Minou-On Apartment Renovation / CROSSARCHITECTURE / Mehrdad Makaremi</a></div>
+        <div class="arch">设计：CROSSARCHITECTURE / Mehrdad Makaremi</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 9 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 Iran</span><span class="chip" style="color:#7c3aed">面积 200 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 13 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 55 分</span>
+          <button type="button" class="mini" data-more="m8169134a33c2">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1187951/minou-on-apartment-renovation-crossarchitecture-mehrdad-makaremi"
+            data-t="Minou-On Apartment Renovation / CROSSARCHITECTURE / Mehrdad Makaremi" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6ae8/8239/bcbc/3500/01ae/ae87/newsletter/01.jpg?1793622689" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1187951/minou-on-apartment-renovation-crossarchitecture-mehrdad-makaremi" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m8169134a33c2"><div class="kv"><b>建筑面积</b><span>200 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>13 张</span></div><div class="kv"><b>摄影</b><span>Neel Studio</span></div><div class="kv"><b>所在地</b><span>Tehran / Iran</span></div><div class="kv"><b>材料厂家</b><span>[&#x27;Namachin Brick&#x27;]</span></div><div class="kv"><b>摘要</b><span>November 14 © Neel Studio + 13 Renovation , House Interiors • Tehran, Iran Architects: CROSSARCHITECTURE / Mehrdad Makaremi Area Area of this architecture project Area: 200 m² Year Completion year of …</span></div><div class="why"><b>为什么推荐 · 合计 55 分</b><div>· 热度 14.7：ArchDaily 首页第 9 位→14.7</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「Iran」+3；封面图+2；含面积数据+2；含材料厂家+1</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af7/008b/eabd/2a00/0192/e383/medium_jpg/BICUBIK_0144.jpg?1794572460" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos" target="_blank" rel="noopener">Itchimbía Housing / Mejía Narváez Arquitectos</a></div>
+        <div class="arch">设计：Mejía Narváez Arquitectos</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 10 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 Ecuador</span><span class="chip" style="color:#7c3aed">面积 853 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 22 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 54 分</span>
+          <button type="button" class="mini" data-more="m6d752f355d31">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos"
+            data-t="Itchimbía Housing / Mejía Narváez Arquitectos" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af7/008b/eabd/2a00/0192/e383/medium_jpg/BICUBIK_0144.jpg?1794572460" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188630/itchimbia-housing-mejia-narvaez-arquitectos" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m6d752f355d31"><div class="kv"><b>建筑面积</b><span>853 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>22 张</span></div><div class="kv"><b>摄影</b><span>Bicubik Photography</span></div><div class="kv"><b>所在地</b><span>Quito / Ecuador</span></div><div class="kv"><b>摘要</b><span>November 14 Videos © Bicubik Photography + 22 Residential Architecture • Quito, Ecuador Architects: Mejía Narváez Arquitectos Area Area of this architecture project Area: 853 m² Year Completion year o…</span></div><div class="why"><b>为什么推荐 · 合计 54 分</b><div>· 热度 13.8：ArchDaily 首页第 10 位→13.8</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；类型「住宅」+3；地域「Ecuador」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm" target="_blank" rel="noopener">伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio</a></div>
+        <div class="arch">设计：Ekarth Studio</div>
+        <div class="tags"><span class="chip" style="color:#0f766e">地域 金奈</span><span class="chip" style="color:#7c3aed">面积 929 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">综合 36 分</span>
+          <button type="button" class="mini" data-more="m5879c234bbff">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm"
+            data-t="伊莱雅拉贾大师音乐中心，金奈 / Ekarth Studio" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/%E5%B0%81%E9%9D%A2-kks-472x303.jpg" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/maestro-ilaiyaraaja-centre-for-music-at-iit-madras-by-ekarth-studio.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m5879c234bbff"><div class="kv"><b>建筑面积</b><span>929 m²</span></div><div class="kv"><b>所在地</b><span>金奈</span></div><div class="kv"><b>摘要</b><span>建筑 竹拱之下，音乐与自然相遇 2026.11.10 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 36 分</b><div>· 热度 0.0：无信号</div><div>· 质量 36.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；地域「金奈」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/11/kengo-kuma-kagaku-no-sato-main-house-project-japan-designboom-700-500x400-22b08q85r691.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan" target="_blank" rel="noopener">Kengo Kuma Builds a Circular Thatched House From Local Timber and Earth in Japan</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Designboom 首页第 4 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 日本</span><span class="chip" style="color:#7c3aed">面积 137 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#7c3aed">Designboom</span>
+          <span class="score">综合 34 分</span>
+          <button type="button" class="mini" data-more="m43d6af98b953">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan"
+            data-t="Kengo Kuma Builds a Circular Thatched House From Local Timber and Earth in Japan" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/11/kengo-kuma-kagaku-no-sato-main-house-project-japan-designboom-700-500x400-22b08q85r691.jpg" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m43d6af98b953"><div class="kv"><b>建筑面积</b><span>137 m²</span></div><div class="kv"><b>摄影</b><span>© NTV / Ryohei Sawaki</span></div><div class="kv"><b>所在地</b><span>日本</span></div><div class="kv"><b>摘要</b><span>kengo kuma completes thatched house in rural japan &amp;nbsp; In Ibaraki Prefecture, Japan, Kengo Kuma and Associates has completed the Kagaku no Sato Main House, a small wooden building set beneath a swe…</span></div><div class="why"><b>为什么推荐 · 合计 34 分</b><div>· 热度 10.5：Designboom 首页第 4 位→10.5</div><div>· 质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「住宅」+3；地域「日本」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/1235bc1ee0">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/101794447900.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/1235bc1ee0" target="_blank" rel="noopener">崃州蒸馏厂体验中心，林中烈酒庄园 / AND Studio 安棣建筑</a></div>
+        <div class="arch">设计：AND Studio 安棣建筑</div>
+        <div class="tags"><span class="chip" style="color:#0f766e">地域 林中烈酒庄园</span><span class="chip" style="color:#7c3aed">面积 152000 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 29 分</span>
+          <button type="button" class="mini" data-more="m2b585da641a8">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/1235bc1ee0"
+            data-t="崃州蒸馏厂体验中心，林中烈酒庄园 / AND Studio 安棣建筑" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/101794447900.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/1235bc1ee0" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m2b585da641a8"><div class="kv"><b>建筑面积</b><span>152000 m²</span></div><div class="kv"><b>所在地</b><span>林中烈酒庄园</span></div><div class="kv"><b>摘要</b><span>没有统治性的“主楼”，体量被拆解为三大功能聚落“嵌入”自然的空隙中。</span></div><div class="why"><b>为什么推荐 · 合计 29 分</b><div>· 热度 0.0：无信号</div><div>· 质量 29.4：建成项目格式+18；站点权重0.80→6.4；地域「林中烈酒庄园」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/83bfd2d932">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/71794447670.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/83bfd2d932" target="_blank" rel="noopener">上海张江机器人谷一期 / Atelier Ping Jiang | EID Arch</a></div>
+        <div class="arch">设计：Atelier Ping Jiang | EID Arch</div>
+        <div class="tags"><span class="chip" style="color:#0f766e">地域 上海</span><span class="chip" style="color:#7c3aed">面积 110031.2 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 29 分</span>
+          <button type="button" class="mini" data-more="mdf1f708001b4">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/83bfd2d932"
+            data-t="上海张江机器人谷一期 / Atelier Ping Jiang | EID Arch" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/71794447670.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-14">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/83bfd2d932" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mdf1f708001b4"><div class="kv"><b>建筑面积</b><span>110031.2 m²</span></div><div class="kv"><b>所在地</b><span>上海</span></div><div class="kv"><b>摘要</b><span>搭建一系列多维度差异化的场景，促进人与机器人、空间与智能制造共生演进。</span></div><div class="why"><b>为什么推荐 · 合计 29 分</b><div>· 热度 0.0：无信号</div><div>· 质量 29.4：建成项目格式+18；站点权重0.80→6.4；地域「上海」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-11-08 ~ 2026-11-14）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 1 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>
