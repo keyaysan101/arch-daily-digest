@@ -1418,5 +1418,40 @@
  "https://www.designboom.com/architecture/kengo-kuma-circular-thatched-house-timber-earth-japan": {
   "area": "137 m²",
   "photographer": "© NTV / Ryohei Sawaki"
- }
+ },
+ "https://www.gooood.cn/ruin-garden-hotel-by-node-architecture-urbanism.htm": {
+  "area": "15,505 m²",
+  "photographer": "张超"
+ },
+ "https://www.gooood.cn/cozimory-cafe-by-atelier-sow.htm": {
+  "area": "98 m²",
+  "year": "2025",
+  "photographer": "Yongsu Kim"
+ },
+ "https://www.archdaily.com/1187742/heathside-house-manea-kella": {
+  "year": "2025",
+  "image_count": 27
+ },
+ "https://www.archdaily.com/1188229/okidoki-matcha-bar": {
+  "year": "2026",
+  "image_count": 15
+ },
+ "https://www.archdaily.com/1187878/hustlr-pickleball-and-social-club-cys-architect-sdn-bhd": {
+  "year": "2026",
+  "image_count": 26
+ },
+ "https://www.archdaily.com/1187949/vanguard-house-ming-architects": {
+  "year": "2025",
+  "brands": [
+   "Polystone",
+   "Rice Fields",
+   "Sol Luminaire"
+  ],
+  "image_count": 19
+ },
+ "https://www.archiposition.com/items/6bb4241b7d": {
+  "area": "110 m²"
+ },
+ "https://www.designboom.com/architecture/arnaud-behzadi-doobies-paris-pavyllon-lyon": {},
+ "https://www.designboom.com/architecture/giant-circle-niko-timber-guesthouse-tiny-curved-sauna-japan-marumi": {}
 }
