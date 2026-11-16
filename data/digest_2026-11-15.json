@@ -3,7 +3,7 @@
   "window_start": "2026-11-09",
   "window_end": "2026-11-15",
   "window_days": 7,
-  "generated_at": "2026-11-16T09:45:44+08:00",
+  "generated_at": "2026-11-16T11:50:28+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -60,9 +60,9 @@
       "ok": true,
       "total": 17,
       "oldest": "2026-11-10",
-      "newest": "2026-11-13",
+      "newest": "2026-11-16",
       "hit": 26,
-      "stale_days": 2,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 343,
-  "new_stored": 18,
-  "store_total": 1815,
+  "new_stored": 5,
+  "store_total": 1820,
   "after_dedupe": 206,
   "noise_count": 8,
   "heat_signal_count": 100,
-  "heat_hit_count": 62,
+  "heat_hit_count": 60,
   "out_of_window_count": 1,
   "count": 10,
   "noise": [
@@ -151,20 +151,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 1725 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1797 次"
       ],
-      "views": 1725,
+      "views": 1797,
       "heat_rank": 6,
       "is_project": true,
       "btype": "改造",
       "region": "苏州",
       "city": "",
       "architect": "日清设计",
-      "heat_score": 28.0,
+      "heat_score": 28.1,
       "quality_score": 33.4,
-      "score": 61.4,
+      "score": 61.5,
       "reasons": [
-        "热度 28.0：谷德 7 天最热 第 6 名 · 阅读 1725 次→28.0",
+        "热度 28.1：谷德 7 天最热 第 6 名 · 阅读 1797 次→28.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「改造」+3；地域「苏州」+3；封面图+2"
       ],
       "rank": 1
@@ -179,27 +179,27 @@
       "summary": "建筑  “红色飘带” 2026.11.12 收藏 分享",
       "published_at": "2026-11-12T11:57:46+08:00",
       "first_seen": "2026-11-13T06:43:31+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "area": "15,505 m²",
         "photographer": "张超"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1643 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1745 次"
       ],
-      "views": 1643,
-      "heat_rank": 11,
+      "views": 1745,
+      "heat_rank": 10,
       "is_project": true,
       "btype": "酒店",
       "region": "合肥",
       "city": "",
       "architect": "南沙原创",
-      "heat_score": 26.7,
+      "heat_score": 27.2,
       "quality_score": 33.4,
-      "score": 60.1,
+      "score": 60.6,
       "reasons": [
-        "热度 26.7：谷德 7 天最热 第 11 名 · 阅读 1643 次→26.7",
+        "热度 27.2：谷德 7 天最热 第 10 名 · 阅读 1745 次→27.2",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「合肥」+3；封面图+2"
       ],
       "rank": 2
@@ -214,7 +214,7 @@
       "summary": "建筑  旧派出所与大树共同定义社区咖啡日常 2026.11.10 收藏 分享",
       "published_at": "2026-11-10T10:07:26+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "area": "98 m²",
         "year": "2025",
@@ -222,20 +222,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1600 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1630 次"
       ],
-      "views": 1600,
+      "views": 1630,
       "heat_rank": 12,
       "is_project": true,
       "btype": "公共",
       "region": "首尔",
       "city": "",
       "architect": "Atelier SOW",
-      "heat_score": 26.0,
+      "heat_score": 25.4,
       "quality_score": 33.4,
-      "score": 59.4,
+      "score": 58.8,
       "reasons": [
-        "热度 26.0：谷德 7 天最热 第 12 名 · 阅读 1600 次→26.0",
+        "热度 25.4：谷德 7 天最热 第 12 名 · 阅读 1630 次→25.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「公共」+3；地域「首尔」+3；封面图+2"
       ],
       "rank": 3
@@ -250,7 +250,7 @@
       "summary": "November 15 © French + Tye + 20 Houses , Restoration , Renovation • London, United Kingdom Architects: Manea Kella Area Area of this architecture project Area: 1622 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1187742/heathside-house-manea-kella Nina Vuga Read more »",
       "published_at": "2026-11-15T23:00:00+08:00",
       "first_seen": "2026-11-16T09:45:36+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "city": "London",
         "country": "United",
@@ -261,18 +261,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 4 位"
+        "ArchDaily 首页第 5 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
       "city": "London",
       "architect": "Manea Kella",
-      "heat_score": 19.2,
+      "heat_score": 18.3,
       "quality_score": 36.0,
-      "score": 55.2,
+      "score": 54.3,
       "reasons": [
-        "热度 19.2：ArchDaily 首页第 4 位→19.2",
+        "热度 18.3：ArchDaily 首页第 5 位→18.3",
         "质量 36.0：建成项目格式+18；站点权重1.00→8.0；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
@@ -287,7 +287,7 @@
       "summary": "November 15 © Migdał Studio + 8 Interior Design , Coffee Shop Interiors • Wrocław, Poland Architects: Dobrochna Rajcic Area Area of this architecture project Area: 58 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188229/okidoki-matcha-bar Cristina Popescu Read more »",
       "published_at": "2026-11-15T19:00:00+08:00",
       "first_seen": "2026-11-16T09:45:36+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "photographer": "Migdał Studio",
         "image_count": 8,
@@ -299,18 +299,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 9 位"
+        "ArchDaily 首页第 10 位"
       ],
       "is_project": true,
       "btype": "商业",
       "region": "波兰",
       "city": "Wrocław",
       "architect": "Dobrochna Rajcic",
-      "heat_score": 14.7,
+      "heat_score": 13.8,
       "quality_score": 39.0,
-      "score": 53.7,
+      "score": 52.8,
       "reasons": [
-        "热度 14.7：ArchDaily 首页第 9 位→14.7",
+        "热度 13.8：ArchDaily 首页第 10 位→13.8",
         "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集8张+3；类型「商业」+3；地域「波兰」+3；封面图+2；含面积数据+2"
       ],
       "rank": 5
@@ -325,7 +325,7 @@
       "summary": "November 15 © Bricksbegin + 18 Recreation & Training , Community , Adaptive reuse • Kuala Lumpur, Malaysia Architects: CYS Architect Sdn Bhd Area Area of this architecture project Area: 3040 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187878/hustlr-pickleball-and-social-club-cys-architect-sdn-bhd Pratik Mour Read more »",
       "published_at": "2026-11-15T10:00:00+08:00",
       "first_seen": "2026-11-15T11:50:32+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "photographer": "Bricksbegin",
         "image_count": 18,
@@ -337,18 +337,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 11 位"
+        "ArchDaily 首页第 12 位"
       ],
       "is_project": true,
       "btype": "改造",
       "region": "Malaysia",
       "city": "Kuala Lumpur",
       "architect": "CYS Architect Sdn Bhd",
-      "heat_score": 12.8,
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 52.8,
+      "score": 51.9,
       "reasons": [
-        "热度 12.8：ArchDaily 首页第 11 位→12.8",
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「改造」+3；地域「Malaysia」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -363,7 +363,7 @@
       "summary": "November 14 © Studio Periphery + 11 Houses • Singapore Architects: Ming Architects Area Area of this architecture project Area: 500 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Polystone , Rice Fields , Sol Luminaire https://www.archdaily.com/1187949/vanguard-house-ming-architects Pratik Mour Rea",
       "published_at": "2026-11-15T06:00:00+08:00",
       "first_seen": "2026-11-15T09:41:59+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "photographer": "Studio Periphery",
         "image_count": 11,
@@ -378,18 +378,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 12 位"
+        "ArchDaily 首页第 13 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "新加坡",
       "city": "",
       "architect": "Ming Architects",
-      "heat_score": 11.9,
+      "heat_score": 11.0,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 51.0,
       "reasons": [
-        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "热度 11.0：ArchDaily 首页第 13 位→11.0",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「新加坡」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 7
@@ -404,7 +404,7 @@
       "summary": "不必把每一个细节都处理得过于精致，也不必让所有东西都保持绝对统一。",
       "published_at": "2026-11-10T16:33:16+08:00",
       "first_seen": "2026-11-11T06:38:33+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {
         "area": "110 m²"
       },
@@ -434,7 +434,7 @@
       "summary": "WHEN ARCHITECTURE LEARNS TO LISTEN &nbsp; Speaking with Arnaud Behzadi is something of a masterclass in understanding architecture beyond aesthetics. For the Paris-based architect, spaces are living entities, capable of provoking emotions, awakening memories, and shaping human relationships, provided they have been designed with enough sensitivity. His approach challenges the notion that beauty is",
       "published_at": "2026-11-13T21:28:59+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-16T09:45:36+08:00",
+      "last_seen": "2026-11-16T11:50:24+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
