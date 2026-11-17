@@ -3,7 +3,7 @@
   "window_start": "2026-11-10",
   "window_end": "2026-11-16",
   "window_days": 7,
-  "generated_at": "2026-11-17T12:24:56+08:00",
+  "generated_at": "2026-11-17T13:44:02+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 338,
-  "new_stored": 72,
-  "store_total": 1892,
+  "new_stored": 3,
+  "store_total": 1895,
   "after_dedupe": 202,
   "noise_count": 7,
   "heat_signal_count": 100,
-  "heat_hit_count": 55,
+  "heat_hit_count": 53,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
@@ -133,27 +133,27 @@
       "summary": "建筑  城市共生：成熟综合体成长出来的年轻开放街区 2026.11.13 收藏 分享",
       "published_at": "2026-11-13T12:26:02+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "area": "18,070 m²",
         "photographer": "DONG建筑影像、何明智"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1714 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1721 次"
       ],
-      "views": 1714,
+      "views": 1721,
       "heat_rank": 8,
       "is_project": true,
       "btype": "商业",
       "region": null,
       "city": "",
       "architect": "大奕明亮",
-      "heat_score": 23.6,
+      "heat_score": 23.7,
       "quality_score": 30.4,
-      "score": 54.0,
+      "score": 54.1,
       "reasons": [
-        "热度 23.6：谷德 7 天最热 第 8 名 · 阅读 1714 次→23.6",
+        "热度 23.7：谷德 7 天最热 第 8 名 · 阅读 1721 次→23.7",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；封面图+2"
       ],
       "rank": 1
@@ -168,27 +168,27 @@
       "summary": "建筑  燕罗大院，活力环廊 2026.11.13 收藏 分享",
       "published_at": "2026-11-13T08:59:58+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "area": "88586.15 m²",
         "year": "2022"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1663 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1672 次"
       ],
-      "views": 1663,
+      "views": 1672,
       "heat_rank": 10,
       "is_project": true,
       "btype": "景观",
       "region": "深圳",
       "city": "",
       "architect": "",
-      "heat_score": 22.9,
+      "heat_score": 23.0,
       "quality_score": 33.4,
-      "score": 56.3,
+      "score": 56.4,
       "reasons": [
-        "热度 22.9：谷德 7 天最热 第 10 名 · 阅读 1663 次→22.9",
+        "热度 23.0：谷德 7 天最热 第 10 名 · 阅读 1672 次→23.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「深圳」+3；封面图+2"
       ],
       "rank": 2
@@ -203,27 +203,27 @@
       "summary": "室内  长城脚下，一座由七十年代老粮店改造、被时光雕刻的书店 2026.11.13 收藏 分享",
       "published_at": "2026-11-13T16:13:20+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "city": "BOH书店",
         "country": "北京"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1584 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1598 次"
       ],
-      "views": 1584,
+      "views": 1598,
       "heat_rank": 12,
       "is_project": true,
       "btype": "商业",
       "region": "北京",
       "city": "BOH书店",
       "architect": "壹外建筑",
-      "heat_score": 21.8,
+      "heat_score": 22.0,
       "quality_score": 33.4,
-      "score": 55.2,
+      "score": 55.4,
       "reasons": [
-        "热度 21.8：谷德 7 天最热 第 12 名 · 阅读 1584 次→21.8",
+        "热度 22.0：谷德 7 天最热 第 12 名 · 阅读 1598 次→22.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 3
@@ -238,7 +238,7 @@
       "summary": "November 16 Verra, MVRDV. Image © Jason O’Rear + 50 Apartments • Boston, United States Architects: MVRDV Area Area of this architecture project Area: 27000 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188676/verra-mvrdv Nina Vuga Read more »",
       "published_at": "2026-11-16T23:00:00+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "photographer": "Jason O’Rear",
         "image_count": 50,
@@ -250,18 +250,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 7 位"
+        "ArchDaily 首页第 8 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
       "city": "Boston",
       "architect": "MVRDV",
-      "heat_score": 24.0,
+      "heat_score": 23.1,
       "quality_score": 40.0,
-      "score": 64.0,
+      "score": 63.1,
       "reasons": [
-        "热度 24.0：ArchDaily 首页第 7 位→16.5；2 家媒体报道+7.5",
+        "热度 23.1：ArchDaily 首页第 8 位→15.6；2 家媒体报道+7.5",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集50张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
@@ -276,24 +276,24 @@
       "summary": "November 16 Audio available Kashef Chowdhury/URBANA. Friendship Centre, 2008-2011. Gaibandha, Bangladesh. Image © Hélène Binet, courtesy URBANA The Museum of Modern Art (MoMA) has selected Kashef Chowdhury/URBANA as the recipient of the first Ambasz–MoMA Annual Prize for Nature–Reconciled Architecture . The prize goes to the Dhaka-based architectural office for the design of the Friendship Centre ",
       "published_at": "2026-11-16T21:00:00+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "image_count": 10
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 8 位"
+        "ArchDaily 首页第 9 位"
       ],
       "is_project": true,
       "btype": "文化",
       "region": null,
       "city": "",
       "architect": "",
-      "heat_score": 15.6,
+      "heat_score": 14.7,
       "quality_score": 37.0,
-      "score": 52.6,
+      "score": 51.7,
       "reasons": [
-        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
         "质量 37.0：建成项目格式+18；站点权重1.00→8.0；知名事务所+6；类型「文化」+3；封面图+2"
       ],
       "rank": 5
@@ -308,7 +308,7 @@
       "summary": "November 16 © Ernest Theofilus + 18 Public Architecture • Wuhan, China Architects: RAD+ar (Research Artistic Design + architecture) Area Area of this architecture project Area: 750 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture Xiaoyin Kuang Read more »",
       "published_at": "2026-11-16T20:00:00+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "photographer": "Ernest Theofilus",
         "image_count": 18,
@@ -320,18 +320,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 13 位"
+        "ArchDaily 首页第 14 位"
       ],
       "is_project": true,
       "btype": "景观",
       "region": "中国",
       "city": "Wuhan",
       "architect": "RAD+ar (Research Artistic Design + architecture)",
-      "heat_score": 11.0,
+      "heat_score": 10.1,
       "quality_score": 40.0,
-      "score": 51.0,
+      "score": 50.1,
       "reasons": [
-        "热度 11.0：ArchDaily 首页第 13 位→11.0",
+        "热度 10.1：ArchDaily 首页第 14 位→10.1",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -346,7 +346,7 @@
       "summary": "十一月 16 © Ernest Theofilus + 18 • Wuhan, 中国 建筑师: RAD+ar (Research Artistic Design + architecture) 面积 该建筑项目的领域 面积: 750 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture Xiaoyin Kuang 阅读更多 »",
       "published_at": "2026-11-16T20:00:00+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "alt_url": "https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture",
       "bilingual": true,
       "meta": {
@@ -360,18 +360,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": "景观",
       "region": "中国",
       "city": "Wuhan",
       "architect": "RAD+ar (Research Artistic Design + architecture)",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
@@ -386,7 +386,7 @@
       "summary": "旨在打造适应当代媒体需求、技术密集型的工作环境。",
       "published_at": "2026-11-16T18:15:33+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {
         "area": "11 208 m²",
         "year": "2021"
@@ -417,7 +417,7 @@
       "summary": "以公共空间为纽带，将山水、产业与城市生活重新组织起来。",
       "published_at": "2026-11-16T14:30:42+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-17T13:43:58+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
