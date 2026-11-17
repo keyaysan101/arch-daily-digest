@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-11-10 ~ 2026-11-16）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-11-10 ~ 2026-11-16）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-11-17 12:24:56 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 94 · ArchDaily中国 96 · 谷德设计网 53 · Dezeen 53 · Designboom 18 · 有方空间 23 · 建筑学院 1<br/>窗口内 338 条候选，其中 55 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>338</b>候选</div>
+      <div class="stat"><b>202</b>去重后</div>
+      <div class="stat"><b>7</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html">建筑奖项</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/sm-xiamen-chao-block-by-dyml.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/%E5%A4%A7%E5%A5%95%E6%98%8E%E4%BA%AE-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/sm-xiamen-chao-block-by-dyml.htm" target="_blank" rel="noopener">SM厦门CHAO BLOCK商业改造 / 大奕明亮</a></div>
+        <div class="arch">设计：大奕明亮</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 8 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,714 次</span><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#7c3aed">面积 18,070 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,714 次</span>
+          <button type="button" class="mini" data-more="ma0a0254b91db">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/sm-xiamen-chao-block-by-dyml.htm"
+            data-t="SM厦门CHAO BLOCK商业改造 / 大奕明亮" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/%E5%A4%A7%E5%A5%95%E6%98%8E%E4%BA%AE-472x303.jpg" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/sm-xiamen-chao-block-by-dyml.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="ma0a0254b91db"><div class="kv"><b>建筑面积</b><span>18,070 m²</span></div><div class="kv"><b>摄影</b><span>DONG建筑影像、何明智</span></div><div class="kv"><b>摘要</b><span>建筑 城市共生：成熟综合体成长出来的年轻开放街区 2026.11.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 54 分</b><div>· 热度 23.6：谷德 7 天最热 第 8 名 · 阅读 1714 次→23.6</div><div>· 质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/yanluo-intelligent-connected-vehicle-industrial-park-by-ccdi-dongxiying-studio.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/yanluo-intelligent-connected-vehicle-industrial-park-by-ccdi-dongxiying-studio.htm" target="_blank" rel="noopener">燕罗智能网联汽车产业园，深圳 / 悉地国际东西影工作室</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 10 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,663 次</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 深圳</span><span class="chip" style="color:#7c3aed">面积 88586.15 m²</span><span class="chip" style="color:#b45309">建成 2022</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,663 次</span>
+          <button type="button" class="mini" data-more="m4e57af1bb15a">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/yanluo-intelligent-connected-vehicle-industrial-park-by-ccdi-dongxiying-studio.htm"
+            data-t="燕罗智能网联汽车产业园，深圳 / 悉地国际东西影工作室" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/cover-472x303.jpg" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/yanluo-intelligent-connected-vehicle-industrial-park-by-ccdi-dongxiying-studio.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m4e57af1bb15a"><div class="kv"><b>建筑面积</b><span>88586.15 m²</span></div><div class="kv"><b>建成年份</b><span>2022 年</span></div><div class="kv"><b>所在地</b><span>深圳</span></div><div class="kv"><b>摘要</b><span>建筑 燕罗大院，活力环廊 2026.11.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 56 分</b><div>· 热度 22.9：谷德 7 天最热 第 10 名 · 阅读 1663 次→22.9</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「深圳」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/gubeikou-boh-bookshop-by-1y-architecture.htm">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/07-472x303.png" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/gubeikou-boh-bookshop-by-1y-architecture.htm" target="_blank" rel="noopener">古北口·BOH书店，北京 / 壹外建筑</a></div>
+        <div class="arch">设计：壹外建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 12 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,584 次</span><span class="chip" style="color:#334155">类型 商业</span><span class="chip" style="color:#0f766e">地域 北京</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,584 次</span>
+          <button type="button" class="mini" data-more="mcd6cca8c0831">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/gubeikou-boh-bookshop-by-1y-architecture.htm"
+            data-t="古北口·BOH书店，北京 / 壹外建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/07-472x303.png" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/gubeikou-boh-bookshop-by-1y-architecture.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mcd6cca8c0831"><div class="kv"><b>所在地</b><span>BOH书店 / 北京</span></div><div class="kv"><b>摘要</b><span>室内 长城脚下，一座由七十年代老粮店改造、被时光雕刻的书店 2026.11.13 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 55 分</b><div>· 热度 21.8：谷德 7 天最热 第 12 名 · 阅读 1584 次→21.8</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「北京」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188676/verra-mvrdv">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://snoopy.archdaily.com/images/archdaily/media/images/6afa/9178/c23f/1f52/896d/7123/slideshow/verra-mvrdv_18.jpg?1794806179&amp;format=webp&amp;width=640&amp;height=580" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188676/verra-mvrdv" target="_blank" rel="noopener">Verra / MVRDV</a></div>
+        <div class="arch">设计：MVRDV</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 7 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 United</span><span class="chip" style="color:#7c3aed">面积 27000 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 50 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 64 分</span>
+          <button type="button" class="mini" data-more="m2ab121cb2d58">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188676/verra-mvrdv"
+            data-t="Verra / MVRDV" data-s="ArchDaily"
+            data-c="https://snoopy.archdaily.com/images/archdaily/media/images/6afa/9178/c23f/1f52/896d/7123/slideshow/verra-mvrdv_18.jpg?1794806179&amp;format=webp&amp;width=640&amp;height=580" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188676/verra-mvrdv" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m2ab121cb2d58"><div class="kv"><b>建筑面积</b><span>27000 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>50 张</span></div><div class="kv"><b>摄影</b><span>Jason O’Rear</span></div><div class="kv"><b>所在地</b><span>Boston / United</span></div><div class="kv"><b>摘要</b><span>November 16 Verra, MVRDV. Image © Jason O’Rear + 50 Apartments • Boston, United States Architects: MVRDV Area Area of this architecture project Area: 27000 m² Year Completion year of this architecture…</span></div><div class="why"><b>为什么推荐 · 合计 64 分</b><div>· 热度 24.0：ArchDaily 首页第 7 位→16.5；2 家媒体报道+7.5</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集50张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188667/kashef-chowdhury-urbana-receives-the-first-ambasz-moma-annual-prize-for-nature-reconciled-architecture">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6afa/00de/c23f/1f01/895a/ff4b/newsletter/kashef-chowdhury-urbana-receives-the-inaugural-ambasz-moma-annual-prize-for-nature-reconciled-architecture_4.jpg?1794769143" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188667/kashef-chowdhury-urbana-receives-the-first-ambasz-moma-annual-prize-for-nature-reconciled-architecture" target="_blank" rel="noopener">Kashef Chowdhury/URBANA Receives the First Ambasz–MoMA Annual Prize for Nature–Reconciled Architecture</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 8 位</span><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#475569">图 10 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 53 分</span>
+          <button type="button" class="mini" data-more="m132f93e80fce">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188667/kashef-chowdhury-urbana-receives-the-first-ambasz-moma-annual-prize-for-nature-reconciled-architecture"
+            data-t="Kashef Chowdhury/URBANA Receives the First Ambasz–MoMA Annual Prize for Nature–Reconciled Architecture" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6afa/00de/c23f/1f01/895a/ff4b/newsletter/kashef-chowdhury-urbana-receives-the-inaugural-ambasz-moma-annual-prize-for-nature-reconciled-architecture_4.jpg?1794769143" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188667/kashef-chowdhury-urbana-receives-the-first-ambasz-moma-annual-prize-for-nature-reconciled-architecture" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m132f93e80fce"><div class="kv"><b>图集</b><span>10 张</span></div><div class="kv"><b>摘要</b><span>November 16 Audio available Kashef Chowdhury/URBANA. Friendship Centre, 2008-2011. Gaibandha, Bangladesh. Image © Hélène Binet, courtesy URBANA The Museum of Modern Art (MoMA) has selected Kashef Chow…</span></div><div class="why"><b>为什么推荐 · 合计 53 分</b><div>· 热度 15.6：ArchDaily 首页第 8 位→15.6</div><div>· 质量 37.0：建成项目格式+18；站点权重1.00→8.0；知名事务所+6；类型「文化」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture" target="_blank" rel="noopener">Grotto Observation Park Pavilion / RAD+ar (Research Artistic Design + Architecture)</a></div>
+        <div class="arch">设计：RAD+ar (Research Artistic Design + architecture)</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 13 位</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 中国</span><span class="chip" style="color:#7c3aed">面积 750 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 18 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 51 分</span>
+          <button type="button" class="mini" data-more="maea860a5ba6b">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture"
+            data-t="Grotto Observation Park Pavilion / RAD+ar (Research Artistic Design + Architecture)" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="maea860a5ba6b"><div class="kv"><b>建筑面积</b><span>750 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>18 张</span></div><div class="kv"><b>摄影</b><span>Ernest Theofilus</span></div><div class="kv"><b>所在地</b><span>Wuhan / China</span></div><div class="kv"><b>摘要</b><span>November 16 © Ernest Theofilus + 18 Public Architecture • Wuhan, China Architects: RAD+ar (Research Artistic Design + architecture) Area Area of this architecture project Area: 750 m² Year Completion …</span></div><div class="why"><b>为什么推荐 · 合计 51 分</b><div>· 热度 11.0：ArchDaily 首页第 13 位→11.0</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture" target="_blank" rel="noopener">武汉麓洲生态城花园驿站 / RAD+ar (Research Artistic Design + architecture)</a></div>
+        <div class="arch">设计：RAD+ar (Research Artistic Design + architecture)</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 10 位</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 中国</span><span class="chip" style="color:#7c3aed">面积 750 m²</span><span class="chip" style="color:#b45309">建成 2025</span><span class="chip" style="color:#475569">图 18 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 50 分</span>
+          <button type="button" class="mini" data-more="m1f63ee1fb523">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture"
+            data-t="武汉麓洲生态城花园驿站 / RAD+ar (Research Artistic Design + architecture)" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m1f63ee1fb523"><div class="kv"><b>建筑面积</b><span>750 m²</span></div><div class="kv"><b>建成年份</b><span>2025 年</span></div><div class="kv"><b>图集</b><span>18 张</span></div><div class="kv"><b>摄影</b><span>Ernest Theofilus</span></div><div class="kv"><b>所在地</b><span>Wuhan / 中国</span></div><div class="kv"><b>摘要</b><span>十一月 16 © Ernest Theofilus + 18 • Wuhan, 中国 建筑师: RAD+ar (Research Artistic Design + architecture) 面积 该建筑项目的领域 面积: 750 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-she…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 50 分</b><div>· 热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/44a420673d">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/01794823132.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/44a420673d" target="_blank" rel="noopener">布拉格CNC &amp; Active办公空间，彩色有机体 / Studio Reaktor</a></div>
+        <div class="arch">设计：Studio Reaktor</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 办公</span><span class="chip" style="color:#0f766e">地域 彩色有机体</span><span class="chip" style="color:#7c3aed">面积 11 208 m²</span><span class="chip" style="color:#b45309">建成 2021</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 32 分</span>
+          <button type="button" class="mini" data-more="m53969ac7ca6b">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/44a420673d"
+            data-t="布拉格CNC &amp; Active办公空间，彩色有机体 / Studio Reaktor" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/01794823132.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/44a420673d" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m53969ac7ca6b"><div class="kv"><b>建筑面积</b><span>11 208 m²</span></div><div class="kv"><b>建成年份</b><span>2021 年</span></div><div class="kv"><b>所在地</b><span>彩色有机体</span></div><div class="kv"><b>摘要</b><span>旨在打造适应当代媒体需求、技术密集型的工作环境。</span></div><div class="why"><b>为什么推荐 · 合计 32 分</b><div>· 热度 0.0：无信号</div><div>· 质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「办公」+3；地域「彩色有机体」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/ed2acde496">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/61794807834.png?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/ed2acde496" target="_blank" rel="noopener">第三名方案丨知城云径：环串三生，环生万象 / SWA+sbp</a></div>
+        <div class="arch">设计：SWA+sbp</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 公共</span><span class="chip" style="color:#0f766e">地域 环生万象</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 32 分</span>
+          <button type="button" class="mini" data-more="m97ecbb9a32f2">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/ed2acde496"
+            data-t="第三名方案丨知城云径：环串三生，环生万象 / SWA+sbp" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/61794807834.png?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/ed2acde496" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m97ecbb9a32f2"><div class="kv"><b>所在地</b><span>环生万象</span></div><div class="kv"><b>摘要</b><span>以公共空间为纽带，将山水、产业与城市生活重新组织起来。</span></div><div class="why"><b>为什么推荐 · 合计 32 分</b><div>· 热度 0.0：无信号</div><div>· 质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「公共」+3；地域「环生万象」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/11/line-arc-esentai-hospitality-infused-offices-almaty-designboom-700-2-500x400-22b08q85r060.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty" target="_blank" rel="noopener">Terracotta Tones and Botanical Palettes Define Line Arc’s Hospitality-infused Offices in Almaty</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Designboom 首页第 10 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 ALMATY</span><span class="chip" style="color:#7c3aed">面积 984.91 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#7c3aed">Designboom</span>
+          <span class="score">综合 25 分</span>
+          <button type="button" class="mini" data-more="me9d2c53a063c">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty"
+            data-t="Terracotta Tones and Botanical Palettes Define Line Arc’s Hospitality-infused Offices in Almaty" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/11/line-arc-esentai-hospitality-infused-offices-almaty-designboom-700-2-500x400-22b08q85r060.jpg" data-d="2026-11-16">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="me9d2c53a063c"><div class="kv"><b>建筑面积</b><span>984.91 m²</span></div><div class="kv"><b>所在地</b><span>ALMATY</span></div><div class="kv"><b>摘要</b><span>LINE ARC develops HOSPITALITY-INFUSED ESENTAI OFFICES in ALMATY &amp;nbsp; Completed in 2025 within the Esentai Apartments complex in Almaty, Kazakhstan, Esentai Offices is a 984.91-sqm workplace designed…</span></div><div class="why"><b>为什么推荐 · 合计 25 分</b><div>· 热度 7.5：Designboom 首页第 10 位→7.5</div><div>· 质量 17.6：站点权重0.82→6.6；类型「住宅」+3；地域「ALMATY」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-11-10 ~ 2026-11-16）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>
