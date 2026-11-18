@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-16",
-  "window_start": "2026-11-10",
-  "window_end": "2026-11-16",
+  "date": "2026-11-17",
+  "window_start": "2026-11-11",
+  "window_end": "2026-11-17",
   "window_days": 7,
-  "generated_at": "2026-11-17T13:44:02+08:00",
+  "generated_at": "2026-11-18T11:33:09+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-14",
-      "newest": "2026-11-17",
-      "hit": 94,
+      "oldest": "2026-10-15",
+      "newest": "2026-11-18",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -19,9 +19,9 @@
       "source": "ArchDaily中国",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-13",
-      "newest": "2026-11-17",
-      "hit": 96,
+      "oldest": "2026-10-14",
+      "newest": "2026-11-18",
+      "hit": 97,
       "stale_days": -1,
       "stale": false
     },
@@ -29,8 +29,8 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-11-10",
-      "newest": "2026-11-17",
+      "oldest": "2026-11-11",
+      "newest": "2026-11-18",
       "hit": 53,
       "stale_days": -1,
       "stale": false
@@ -39,9 +39,9 @@
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-11-11",
-      "newest": "2026-11-17",
-      "hit": 53,
+      "oldest": "2026-11-12",
+      "newest": "2026-11-18",
+      "hit": 57,
       "stale_days": -1,
       "stale": false
     },
@@ -49,9 +49,9 @@
       "source": "Designboom",
       "ok": true,
       "total": 4,
-      "oldest": "2026-11-16",
-      "newest": "2026-11-17",
-      "hit": 18,
+      "oldest": "2026-11-17",
+      "newest": "2026-11-18",
+      "hit": 19,
       "stale_days": -1,
       "stale": false
     },
@@ -59,33 +59,53 @@
       "source": "有方空间",
       "ok": true,
       "total": 14,
-      "oldest": "2026-11-12",
+      "oldest": "2026-11-13",
       "newest": "2026-11-17",
-      "hit": 23,
-      "stale_days": -1,
+      "hit": 25,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "建筑学院",
       "ok": true,
       "total": 10,
-      "oldest": "2026-08-05",
-      "newest": "2026-11-10",
+      "oldest": "2026-08-12",
+      "newest": "2026-11-17",
       "hit": 1,
-      "stale_days": 6,
+      "stale_days": 0,
       "stale": false
     }
   ],
-  "candidate_count": 338,
-  "new_stored": 3,
-  "store_total": 1895,
-  "after_dedupe": 202,
-  "noise_count": 7,
-  "heat_signal_count": 100,
-  "heat_hit_count": 53,
+  "candidate_count": 349,
+  "new_stored": 54,
+  "store_total": 1949,
+  "after_dedupe": 212,
+  "noise_count": 9,
+  "heat_signal_count": 102,
+  "heat_hit_count": 56,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
+    {
+      "title": "Discover this year's Dezeen Awards Designers of the Year",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/discover-this-years-dezeen-awards-designers-of-the-year"
+    },
+    {
+      "title": "Dezeen Awards 2026 architecture project of the year revealed",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-architecture-project-of-the-year-revealed"
+    },
+    {
+      "title": "Dezeen Awards 2026 interiors project of the year announced",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-interiors-project-of-the-year-announced"
+    },
+    {
+      "title": "Dezeen Awards 2026 design project of the year winner named",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-design-project-of-the-year-winner-va-east-storehouse"
+    },
     {
       "title": "podcast: indian architects adapt building codes and restore soil through trust",
       "source": "Designboom",
@@ -110,16 +130,6 @@
       "title": "Sydney’s Powerhouse Parramatta Museum and Bratislava’s Winter Harbour Redevelopment: This Week’s Review",
       "source": "ArchDaily",
       "url": "https://www.archdaily.com/1188495/sydneys-powerhouse-parramatta-museum-and-bratislavas-winter-harbour-redevelopment-this-weeks-review"
-    },
-    {
-      "title": "Dezeen Awards-shortlisted housing project damaged in fire",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/10/la-querola-andorra-jean-nouvel-ribas-ribas-arquitectos-fire"
-    },
-    {
-      "title": "Dezeen Awards trophy updated using \"one of humanity's oldest natural materials\"",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/09/dezeen-awards-2026-trophy-cork-amorim-corticeira"
     }
   ],
   "items": [
@@ -127,34 +137,35 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "SM厦门CHAO BLOCK商业改造 / 大奕明亮",
-      "url": "https://www.gooood.cn/sm-xiamen-chao-block-by-dyml.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/%E5%A4%A7%E5%A5%95%E6%98%8E%E4%BA%AE-472x303.jpg",
-      "summary": "建筑  城市共生：成熟综合体成长出来的年轻开放街区 2026.11.13 收藏 分享",
-      "published_at": "2026-11-13T12:26:02+08:00",
-      "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "title": "Coqueira住宅，葡萄牙 / Tiago Sousa Arquitecto",
+      "url": "https://www.gooood.cn/casa-coqueira-by-tiago-sousa-arquitecto.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-hlw-472x303.jpg",
+      "summary": "建筑  几何、平面与悬浮的体量 2026.11.14 收藏 分享",
+      "published_at": "2026-11-14T08:30:42+08:00",
+      "first_seen": "2026-11-15T09:41:59+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
       "meta": {
-        "area": "18,070 m²",
-        "photographer": "DONG建筑影像、何明智"
+        "area": "140 m²",
+        "year": "2025",
+        "photographer": "Ivo Tavares Studio"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1721 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1722 次"
       ],
-      "views": 1721,
-      "heat_rank": 8,
+      "views": 1722,
+      "heat_rank": 9,
       "is_project": true,
-      "btype": "商业",
-      "region": null,
+      "btype": "住宅",
+      "region": "葡萄牙",
       "city": "",
-      "architect": "大奕明亮",
-      "heat_score": 23.7,
-      "quality_score": 30.4,
-      "score": 54.1,
+      "architect": "Tiago Sousa Arquitecto",
+      "heat_score": 28.0,
+      "quality_score": 33.4,
+      "score": 61.4,
       "reasons": [
-        "热度 23.7：谷德 7 天最热 第 8 名 · 阅读 1721 次→23.7",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；封面图+2"
+        "热度 28.0：谷德 7 天最热 第 9 名 · 阅读 1722 次→28.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「葡萄牙」+3；封面图+2"
       ],
       "rank": 1
     },
@@ -162,69 +173,72 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "燕罗智能网联汽车产业园，深圳 / 悉地国际东西影工作室",
-      "url": "https://www.gooood.cn/yanluo-intelligent-connected-vehicle-industrial-park-by-ccdi-dongxiying-studio.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/cover-472x303.jpg",
-      "summary": "建筑  燕罗大院，活力环廊 2026.11.13 收藏 分享",
-      "published_at": "2026-11-13T08:59:58+08:00",
-      "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "title": "ZIN世贸中心双塔改造，布鲁塞尔 / 51N4E + l’AUC + Jaspers-Eyers",
+      "url": "https://www.gooood.cn/zin-by-51n4e-lauc-and-jaspers-eyers.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-zin-51n4e-010-472x303.jpg",
+      "summary": "建筑  从单一办公塔楼到可持续演变的城市复合体 2026.11.12 收藏 分享",
+      "published_at": "2026-11-12T10:21:36+08:00",
+      "first_seen": "2026-11-13T06:43:31+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
       "meta": {
-        "area": "88586.15 m²",
-        "year": "2022"
+        "area": "10,800 m²",
+        "photographer": "Maxime Delvaux"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1672 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1643 次"
       ],
-      "views": 1672,
-      "heat_rank": 10,
-      "is_project": true,
-      "btype": "景观",
-      "region": "深圳",
+      "views": 1643,
+      "heat_rank": 12,
+      "is_project": false,
+      "btype": "办公",
+      "region": "布鲁塞尔",
       "city": "",
-      "architect": "",
-      "heat_score": 23.0,
-      "quality_score": 33.4,
-      "score": 56.4,
+      "architect": "51N4E + l’AUC + Jaspers-Eyers",
+      "heat_score": 26.7,
+      "quality_score": 18.4,
+      "score": 45.1,
       "reasons": [
-        "热度 23.0：谷德 7 天最热 第 10 名 · 阅读 1672 次→23.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「深圳」+3；封面图+2"
+        "热度 26.7：谷德 7 天最热 第 12 名 · 阅读 1643 次→26.7",
+        "质量 18.4：站点权重0.92→7.4；类型「办公」+3；地域「布鲁塞尔」+3；封面图+2"
       ],
       "rank": 2
     },
     {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "古北口·BOH书店，北京 / 壹外建筑",
-      "url": "https://www.gooood.cn/gubeikou-boh-bookshop-by-1y-architecture.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/07-472x303.png",
-      "summary": "室内  长城脚下，一座由七十年代老粮店改造、被时光雕刻的书店 2026.11.13 收藏 分享",
-      "published_at": "2026-11-13T16:13:20+08:00",
-      "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "ROOT / LEVS architecten",
+      "url": "https://www.archdaily.com/1188651/root-levs-architecten",
+      "cover": "https://images.adsttc.com/media/images/6af8/27ee/eabd/2a00/0192/f2c8/newsletter/LEVS_ROOT-47-min.jpg?1794648155",
+      "summary": "November 17 Videos © LEVS architecten + 16 Residential Architecture , Housing • Eindhoven, The Netherlands Architects: LEVS architecten Area Area of this architecture project Area: 6750 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188651/root-levs-architecten Nina Vuga Read more »",
+      "published_at": "2026-11-17T23:00:00+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
       "meta": {
-        "city": "BOH书店",
-        "country": "北京"
+        "photographer": "LEVS architecten",
+        "image_count": 16,
+        "city": "Eindhoven",
+        "country": "The",
+        "architect": "LEVS architecten",
+        "area": "6750 m²",
+        "year": "2025"
       },
-      "strong_heat": true,
+      "strong_heat": false,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1598 次"
+        "ArchDaily 首页第 7 位"
       ],
-      "views": 1598,
-      "heat_rank": 12,
       "is_project": true,
-      "btype": "商业",
-      "region": "北京",
-      "city": "BOH书店",
-      "architect": "壹外建筑",
-      "heat_score": 22.0,
-      "quality_score": 33.4,
-      "score": 55.4,
+      "btype": "住宅",
+      "region": "The",
+      "city": "Eindhoven",
+      "architect": "LEVS architecten",
+      "heat_score": 16.5,
+      "quality_score": 40.0,
+      "score": 56.5,
       "reasons": [
-        "热度 22.0：谷德 7 天最热 第 12 名 · 阅读 1598 次→22.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「北京」+3；封面图+2"
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；类型「住宅」+3；地域「The」+3；封面图+2；含面积数据+2"
       ],
       "rank": 3
     },
@@ -232,178 +246,179 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "en",
-      "title": "Verra / MVRDV",
-      "url": "https://www.archdaily.com/1188676/verra-mvrdv",
-      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6afa/9178/c23f/1f52/896d/7123/slideshow/verra-mvrdv_18.jpg?1794806179&format=webp&width=640&height=580",
-      "summary": "November 16 Verra, MVRDV. Image © Jason O’Rear + 50 Apartments • Boston, United States Architects: MVRDV Area Area of this architecture project Area: 27000 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188676/verra-mvrdv Nina Vuga Read more »",
-      "published_at": "2026-11-16T23:00:00+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "title": "The Cloud House / Peter Morris Architects",
+      "url": "https://www.archdaily.com/1188660/the-cloud-house-peter-morris-architects",
+      "cover": "https://images.adsttc.com/media/images/6af9/1093/c23f/1f01/895a/fe91/medium_jpg/the-cloud-house-peter-morris-architects_41.jpg?1794707612",
+      "summary": "November 17 © Juliet Murphy + 68 Houses • London, United Kingdom Architects: Peter Morris Architects Area Area of this architecture project Area: 298 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188660/the-cloud-house-peter-morris-architects Nina Vuga Read more »",
+      "published_at": "2026-11-17T20:00:00+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
       "meta": {
-        "photographer": "Jason O’Rear",
-        "image_count": 50,
-        "city": "Boston",
+        "photographer": "Juliet Murphy",
+        "image_count": 68,
+        "city": "London",
         "country": "United",
-        "architect": "MVRDV",
-        "area": "27000 m²",
+        "architect": "Peter Morris Architects",
+        "area": "298 m²",
         "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 8 位"
+        "ArchDaily 首页第 12 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
-      "city": "Boston",
-      "architect": "MVRDV",
-      "heat_score": 23.1,
+      "city": "London",
+      "architect": "Peter Morris Architects",
+      "heat_score": 11.9,
       "quality_score": 40.0,
-      "score": 63.1,
+      "score": 51.9,
       "reasons": [
-        "热度 23.1：ArchDaily 首页第 8 位→15.6；2 家媒体报道+7.5",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集50张+8；知名事务所+6；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集68张+8；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "Kashef Chowdhury/URBANA Receives the First Ambasz–MoMA Annual Prize for Nature–Reconciled Architecture",
-      "url": "https://www.archdaily.com/1188667/kashef-chowdhury-urbana-receives-the-first-ambasz-moma-annual-prize-for-nature-reconciled-architecture",
-      "cover": "https://images.adsttc.com/media/images/6afa/00de/c23f/1f01/895a/ff4b/newsletter/kashef-chowdhury-urbana-receives-the-inaugural-ambasz-moma-annual-prize-for-nature-reconciled-architecture_4.jpg?1794769143",
-      "summary": "November 16 Audio available Kashef Chowdhury/URBANA. Friendship Centre, 2008-2011. Gaibandha, Bangladesh. Image © Hélène Binet, courtesy URBANA The Museum of Modern Art (MoMA) has selected Kashef Chowdhury/URBANA as the recipient of the first Ambasz–MoMA Annual Prize for Nature–Reconciled Architecture . The prize goes to the Dhaka-based architectural office for the design of the Friendship Centre ",
-      "published_at": "2026-11-16T21:00:00+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
-      "meta": {
-        "image_count": 10
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 9 位"
-      ],
-      "is_project": true,
-      "btype": "文化",
-      "region": null,
-      "city": "",
-      "architect": "",
-      "heat_score": 14.7,
-      "quality_score": 37.0,
-      "score": 51.7,
-      "reasons": [
-        "热度 14.7：ArchDaily 首页第 9 位→14.7",
-        "质量 37.0：建成项目格式+18；站点权重1.00→8.0；知名事务所+6；类型「文化」+3；封面图+2"
-      ],
-      "rank": 5
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "en",
-      "title": "Grotto Observation Park Pavilion / RAD+ar (Research Artistic Design + architecture)",
-      "url": "https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture",
-      "cover": "https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453",
-      "summary": "November 16 © Ernest Theofilus + 18 Public Architecture • Wuhan, China Architects: RAD+ar (Research Artistic Design + architecture) Area Area of this architecture project Area: 750 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture Xiaoyin Kuang Read more »",
-      "published_at": "2026-11-16T20:00:00+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
-      "meta": {
-        "photographer": "Ernest Theofilus",
-        "image_count": 18,
-        "city": "Wuhan",
-        "country": "China",
-        "architect": "RAD+ar (Research Artistic Design + architecture)",
-        "area": "750 m²",
-        "year": "2025"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 14 位"
-      ],
-      "is_project": true,
-      "btype": "景观",
-      "region": "中国",
-      "city": "Wuhan",
-      "architect": "RAD+ar (Research Artistic Design + architecture)",
-      "heat_score": 10.1,
-      "quality_score": 40.0,
-      "score": 50.1,
-      "reasons": [
-        "热度 10.1：ArchDaily 首页第 14 位→10.1",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 6
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
       "lang": "zh",
-      "title": "武汉麓洲生态城花园驿站 / RAD+ar (Research Artistic Design + architecture)",
-      "url": "https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture",
-      "cover": "https://images.adsttc.com/media/images/6af6/96dc/8074/f401/89de/eab4/newsletter/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture_26.jpg?1794545453",
-      "summary": "十一月 16 © Ernest Theofilus + 18 • Wuhan, 中国 建筑师: RAD+ar (Research Artistic Design + architecture) 面积 该建筑项目的领域 面积: 750 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188579/wu-yi-lu-zhou-sheng-tai-cheng-hua-yuan-yi-zhan-rad-plus-ar-research-artistic-design-plus-architecture Xiaoyin Kuang 阅读更多 »",
-      "published_at": "2026-11-16T20:00:00+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
-      "alt_url": "https://www.archdaily.com/1188282/grotto-observation-park-pavilion-rad-plus-ar-research-artistic-design-plus-architecture",
+      "title": "VinziRast am Land / gaupenraub+/-",
+      "url": "https://www.archdaily.cn/zh/1188684/vinzirast-am-land-gaupenraub-plus",
+      "cover": "https://images.adsttc.com/media/images/6af4/978d/eabd/2a00/0192/c69d/newsletter/VRaL_KK_9209_kurt-kuball.jpg?1794414530",
+      "summary": "十一月 17 © Kurt Kuball + 22 • Mayerling, 奥地利 建筑师: gaupenraub+/- 面积 该建筑项目的领域 面积: 3500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1188684/vinzirast-am-land-gaupenraub-plus Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-17T19:00:00+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
+      "alt_url": "https://www.archdaily.com/1188510/vinzirast-am-land",
       "bilingual": true,
       "meta": {
-        "photographer": "Ernest Theofilus",
-        "image_count": 18,
-        "city": "Wuhan",
-        "country": "中国",
-        "architect": "RAD+ar (Research Artistic Design + architecture)",
-        "area": "750 m²",
-        "year": "2025"
+        "photographer": "Kurt Kuball",
+        "image_count": 22,
+        "city": "Mayerling",
+        "country": "奥地利",
+        "architect": "gaupenraub+/-",
+        "area": "3500 m²",
+        "year": "2023"
       },
       "strong_heat": false,
       "heat_labels": [
         "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
-      "btype": "景观",
-      "region": "中国",
-      "city": "Wuhan",
-      "architect": "RAD+ar (Research Artistic Design + architecture)",
+      "btype": null,
+      "region": "奥地利",
+      "city": "Mayerling",
+      "architect": "gaupenraub+/-",
       "heat_score": 9.8,
       "quality_score": 40.0,
       "score": 49.8,
       "reasons": [
         "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「奥地利」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 7
+      "rank": 5
     },
     {
-      "source": "有方空间",
-      "weight": 0.8,
+      "source": "ArchDaily",
+      "weight": 1.0,
       "lang": "zh",
-      "title": "布拉格CNC & Active办公空间，彩色有机体 / Studio Reaktor",
-      "url": "https://www.archiposition.com/items/44a420673d",
-      "cover": "https://image.archiposition.com/2026/11/01794823132.png?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "旨在打造适应当代媒体需求、技术密集型的工作环境。",
-      "published_at": "2026-11-16T18:15:33+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "title": "Itan 住宅 / atelier kọ",
+      "url": "https://www.archdaily.cn/zh/1188698/itan-zhu-zhai-atelier-ko",
+      "cover": "https://images.adsttc.com/media/images/6af4/874e/eabd/2a00/0192/c648/newsletter/Maison-Itan_01_Ambre-Alfredo.jpg?1794410360",
+      "summary": "十一月 17 © Ambre Alfredo + 23 • Cotonou, 贝宁 建筑师: atelier kọ 面积 该建筑项目的领域 面积: 340 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188698/itan-zhu-zhai-atelier-ko Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-17T16:00:00+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
+      "alt_url": "https://www.archdaily.com/1188506/itan-house-atelier-ko",
+      "bilingual": true,
       "meta": {
-        "area": "11 208 m²",
-        "year": "2021"
+        "photographer": "Ambre Alfredo",
+        "image_count": 23,
+        "city": "Cotonou",
+        "country": "贝宁",
+        "architect": "atelier kọ",
+        "area": "340 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 14 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "贝宁",
+      "city": "Cotonou",
+      "architect": "atelier kọ",
+      "heat_score": 8.6,
+      "quality_score": 40.0,
+      "score": 48.6,
+      "reasons": [
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；类型「住宅」+3；地域「贝宁」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "开阔亭，南京 / 毕斯特建筑",
+      "url": "https://www.gooood.cn/the-open-pavilion-by-beats-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-gooood-interview-Yang-Dingliang%E7%9A%84%E5%89%AF%E6%9C%AC_%E5%89%AF%E6%9C%AC-m5s-472x303.png",
+      "summary": "建筑  机场跑道公园上的木构阅读亭，带来20座城市独立书店推荐的2000本赠书 2026.11.17 收藏 分享",
+      "published_at": "2026-11-17T11:25:42+08:00",
+      "first_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
+      "meta": {
+        "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [],
       "is_project": true,
-      "btype": "办公",
-      "region": "彩色有机体",
+      "btype": "景观",
+      "region": "南京",
       "city": "",
-      "architect": "Studio Reaktor",
+      "architect": "毕斯特建筑",
       "heat_score": 0.0,
-      "quality_score": 32.4,
-      "score": 32.4,
+      "quality_score": 39.4,
+      "score": 39.4,
       "reasons": [
         "热度 0.0：无信号",
-        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「办公」+3；地域「彩色有机体」+3；封面图+2"
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「景观」+3；地域「南京」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "建筑学院",
+      "weight": 0.65,
+      "lang": "zh",
+      "title": "湖田古瓷窑址保护展示及环境整治方案设计 / 中国建筑设计研究院",
+      "url": "https://www.archcollege.com/105526.html",
+      "cover": "https://www.archcollege.com/wp-content/uploads/2025/10/ArchCollege-建筑学院-缩略图-1.webp",
+      "summary": "△ 乌鱼岭眺望3号馆 摄影：张钦泉 湖田古瓷窑址是世界文化遗产“景德镇手工瓷业遗存”的重要组成部分，位于珠山区竟成镇湖田村，紧邻景德镇镇区，地处昌江支流南河南岸，是宋、元时期景德镇手工瓷业的中心窑址。窑址由窑业堆积、作坊、窑炉，及道路、水井、房基等生产生活遗迹组成。在系列遗产的整体价值阐释框架中，湖田窑是景德镇“早期窑业组团式生产模式”和“宋元至明代的烧造技术发展”特征的重要支撑，除了遗址本体外，窑址选址环境特征、传统技术与知识、环境景观视廊等也是体现其价值特征的重要展示内容。 △ 湖田古瓷窑址建成效果鸟瞰 摄影：张钦泉 针对紧迫的申遗任务，基于价值认知深化与展示条件评估，本项目设计范围聚焦遗产特征最为集中的宋元明制瓷作坊窑址和乌鱼岭遗址，以及与窑址相邻的小南河与南河水系，以“一带、五区、两视点”的展示空间结构，阐释“早期窑业生产选址环境”“早期瓷业面貌、技术和市场”“景德镇制瓷中心转移”",
+      "published_at": "2026-11-17T22:00:51+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
+      "meta": {
+        "photographer": "张钦泉"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "建筑学院 首页第 1 位"
+      ],
+      "is_project": true,
+      "btype": "教育",
+      "region": "中国",
+      "city": "",
+      "architect": "",
+      "heat_score": 8.0,
+      "quality_score": 31.2,
+      "score": 39.2,
+      "reasons": [
+        "热度 8.0：建筑学院 首页第 1 位→8.0",
+        "质量 31.2：建成项目格式+18；站点权重0.65→5.2；类型「教育」+3；地域「中国」+3；封面图+2"
       ],
       "rank": 8
     },
@@ -411,59 +426,57 @@
       "source": "有方空间",
       "weight": 0.8,
       "lang": "zh",
-      "title": "第三名方案丨知城云径：环串三生，环生万象 / SWA+sbp",
-      "url": "https://www.archiposition.com/items/ed2acde496",
-      "cover": "https://image.archiposition.com/2026/11/61794807834.png?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "以公共空间为纽带，将山水、产业与城市生活重新组织起来。",
-      "published_at": "2026-11-16T14:30:42+08:00",
+      "title": "上海长宁路396弄微更新 / 任天建筑+goa大象+ConCom Studio集良",
+      "url": "https://www.archiposition.com/items/4a2c5a6494",
+      "cover": "https://image.archiposition.com/2026/11/61794813991.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "不作大拆大建，通过细节改造，使300米长的街道串起社区日常。",
+      "published_at": "2026-11-17T11:53:34+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-17T13:43:58+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
       "is_project": true,
-      "btype": "公共",
-      "region": "环生万象",
+      "btype": "改造",
+      "region": "上海",
       "city": "",
-      "architect": "SWA+sbp",
+      "architect": "任天建筑+goa大象+ConCom Studio集良",
+      "heat_score": 0.0,
+      "quality_score": 38.4,
+      "score": 38.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 38.4：建成项目格式+18；站点权重0.80→6.4；知名事务所+6；类型「改造」+3；地域「上海」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "澳门国际科技产业中心办公室，锐利与温和 / 创思设计",
+      "url": "https://www.archiposition.com/items/b771a48bb2",
+      "cover": "https://image.archiposition.com/2026/11/21794887690.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "探索前沿的锋锐结合人文关照的底色，体现中心作为创新策源地的气质。",
+      "published_at": "2026-11-17T12:13:00+08:00",
+      "first_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-18T11:33:00+08:00",
+      "meta": {
+        "area": "2500 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "办公",
+      "region": "锐利与温和",
+      "city": "",
+      "architect": "创思设计",
       "heat_score": 0.0,
       "quality_score": 32.4,
       "score": 32.4,
       "reasons": [
         "热度 0.0：无信号",
-        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「公共」+3；地域「环生万象」+3；封面图+2"
-      ],
-      "rank": 9
-    },
-    {
-      "source": "Designboom",
-      "weight": 0.82,
-      "lang": "en",
-      "title": "terracotta tones and botanical palettes define line arc’s hospitality-infused offices in almaty",
-      "url": "https://www.designboom.com/architecture/terracotta-tones-and-botanical-palettes-define-line-arcs-hospitality-infused-offices-in-almaty",
-      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/line-arc-esentai-hospitality-infused-offices-almaty-designboom-700-2-500x400-22b08q85r060.jpg",
-      "summary": "LINE ARC develops HOSPITALITY-INFUSED ESENTAI OFFICES in ALMATY &nbsp; Completed in 2025 within the Esentai Apartments complex in Almaty, Kazakhstan, Esentai Offices is a 984.91-sqm workplace designed by Line Arc under the direction of principal designer Ilnara Seitzhanova. Moving away from conventional corporate layouts, the single-level plan integrates hospitality-driven interiors, flexible cowo",
-      "published_at": "2026-11-14T00:45:47+08:00",
-      "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-16T11:50:24+08:00",
-      "meta": {
-        "area": "984.91 m²"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "Designboom 首页第 10 位"
-      ],
-      "is_project": false,
-      "btype": "住宅",
-      "region": "ALMATY",
-      "city": "",
-      "architect": "",
-      "heat_score": 7.5,
-      "quality_score": 17.6,
-      "score": 25.1,
-      "reasons": [
-        "热度 7.5：Designboom 首页第 10 位→7.5",
-        "质量 17.6：站点权重0.82→6.6；类型「住宅」+3；地域「ALMATY」+3；封面图+2"
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「办公」+3；地域「锐利与温和」+3；封面图+2"
       ],
       "rank": 10
     }
