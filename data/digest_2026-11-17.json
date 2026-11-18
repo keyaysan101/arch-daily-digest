@@ -3,7 +3,7 @@
   "window_start": "2026-11-11",
   "window_end": "2026-11-17",
   "window_days": 7,
-  "generated_at": "2026-11-18T11:33:09+08:00",
+  "generated_at": "2026-11-18T13:09:10+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -58,10 +58,10 @@
     {
       "source": "有方空间",
       "ok": true,
-      "total": 14,
+      "total": 15,
       "oldest": "2026-11-13",
       "newest": "2026-11-17",
-      "hit": 25,
+      "hit": 26,
       "stale_days": 0,
       "stale": false
     },
@@ -76,13 +76,13 @@
       "stale": false
     }
   ],
-  "candidate_count": 349,
-  "new_stored": 54,
-  "store_total": 1949,
-  "after_dedupe": 212,
+  "candidate_count": 350,
+  "new_stored": 4,
+  "store_total": 1953,
+  "after_dedupe": 213,
   "noise_count": 9,
   "heat_signal_count": 102,
-  "heat_hit_count": 56,
+  "heat_hit_count": 54,
   "out_of_window_count": 0,
   "count": 10,
   "noise": [
@@ -143,7 +143,7 @@
       "summary": "建筑  几何、平面与悬浮的体量 2026.11.14 收藏 分享",
       "published_at": "2026-11-14T08:30:42+08:00",
       "first_seen": "2026-11-15T09:41:59+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "area": "140 m²",
         "year": "2025",
@@ -151,20 +151,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1722 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1739 次"
       ],
-      "views": 1722,
+      "views": 1739,
       "heat_rank": 9,
       "is_project": true,
       "btype": "住宅",
       "region": "葡萄牙",
       "city": "",
       "architect": "Tiago Sousa Arquitecto",
-      "heat_score": 28.0,
+      "heat_score": 28.1,
       "quality_score": 33.4,
-      "score": 61.4,
+      "score": 61.5,
       "reasons": [
-        "热度 28.0：谷德 7 天最热 第 9 名 · 阅读 1722 次→28.0",
+        "热度 28.1：谷德 7 天最热 第 9 名 · 阅读 1739 次→28.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「葡萄牙」+3；封面图+2"
       ],
       "rank": 1
@@ -179,16 +179,16 @@
       "summary": "建筑  从单一办公塔楼到可持续演变的城市复合体 2026.11.12 收藏 分享",
       "published_at": "2026-11-12T10:21:36+08:00",
       "first_seen": "2026-11-13T06:43:31+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "area": "10,800 m²",
         "photographer": "Maxime Delvaux"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1643 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1651 次"
       ],
-      "views": 1643,
+      "views": 1651,
       "heat_rank": 12,
       "is_project": false,
       "btype": "办公",
@@ -199,7 +199,7 @@
       "quality_score": 18.4,
       "score": 45.1,
       "reasons": [
-        "热度 26.7：谷德 7 天最热 第 12 名 · 阅读 1643 次→26.7",
+        "热度 26.7：谷德 7 天最热 第 12 名 · 阅读 1651 次→26.7",
         "质量 18.4：站点权重0.92→7.4；类型「办公」+3；地域「布鲁塞尔」+3；封面图+2"
       ],
       "rank": 2
@@ -214,7 +214,7 @@
       "summary": "November 17 Videos © LEVS architecten + 16 Residential Architecture , Housing • Eindhoven, The Netherlands Architects: LEVS architecten Area Area of this architecture project Area: 6750 m² Year Completion year of this architecture project Year: 2025 https://www.archdaily.com/1188651/root-levs-architecten Nina Vuga Read more »",
       "published_at": "2026-11-17T23:00:00+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "photographer": "LEVS architecten",
         "image_count": 16,
@@ -226,18 +226,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 7 位"
+        "ArchDaily 首页第 8 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "The",
       "city": "Eindhoven",
       "architect": "LEVS architecten",
-      "heat_score": 16.5,
+      "heat_score": 15.6,
       "quality_score": 40.0,
-      "score": 56.5,
+      "score": 55.6,
       "reasons": [
-        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集16张+5；类型「住宅」+3；地域「The」+3；封面图+2；含面积数据+2"
       ],
       "rank": 3
@@ -252,7 +252,7 @@
       "summary": "November 17 © Juliet Murphy + 68 Houses • London, United Kingdom Architects: Peter Morris Architects Area Area of this architecture project Area: 298 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188660/the-cloud-house-peter-morris-architects Nina Vuga Read more »",
       "published_at": "2026-11-17T20:00:00+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "photographer": "Juliet Murphy",
         "image_count": 68,
@@ -264,18 +264,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 12 位"
+        "ArchDaily 首页第 13 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "United",
       "city": "London",
       "architect": "Peter Morris Architects",
-      "heat_score": 11.9,
+      "heat_score": 11.0,
       "quality_score": 40.0,
-      "score": 51.9,
+      "score": 51.0,
       "reasons": [
-        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "热度 11.0：ArchDaily 首页第 13 位→11.0",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集68张+8；类型「住宅」+3；地域「United」+3；封面图+2；含面积数据+2"
       ],
       "rank": 4
@@ -290,7 +290,7 @@
       "summary": "十一月 17 © Kurt Kuball + 22 • Mayerling, 奥地利 建筑师: gaupenraub+/- 面积 该建筑项目的领域 面积: 3500 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1188684/vinzirast-am-land-gaupenraub-plus Cristina Popescu 阅读更多 »",
       "published_at": "2026-11-17T19:00:00+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "alt_url": "https://www.archdaily.com/1188510/vinzirast-am-land",
       "bilingual": true,
       "meta": {
@@ -304,18 +304,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 12 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "奥地利",
       "city": "Mayerling",
       "architect": "gaupenraub+/-",
-      "heat_score": 9.8,
+      "heat_score": 9.4,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 49.4,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「奥地利」+3；封面图+2；含面积数据+2"
       ],
       "rank": 5
@@ -330,7 +330,7 @@
       "summary": "十一月 17 © Ambre Alfredo + 23 • Cotonou, 贝宁 建筑师: atelier kọ 面积 该建筑项目的领域 面积: 340 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188698/itan-zhu-zhai-atelier-ko Pratik Mour 阅读更多 »",
       "published_at": "2026-11-17T16:00:00+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "alt_url": "https://www.archdaily.com/1188506/itan-house-atelier-ko",
       "bilingual": true,
       "meta": {
@@ -344,18 +344,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 14 位"
+        "ArchDaily中国 首页第 15 位"
       ],
       "is_project": true,
       "btype": "住宅",
       "region": "贝宁",
       "city": "Cotonou",
       "architect": "atelier kọ",
-      "heat_score": 8.6,
+      "heat_score": 8.2,
       "quality_score": 40.0,
-      "score": 48.6,
+      "score": 48.2,
       "reasons": [
-        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；类型「住宅」+3；地域「贝宁」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -370,7 +370,7 @@
       "summary": "建筑  机场跑道公园上的木构阅读亭，带来20座城市独立书店推荐的2000本赠书 2026.11.17 收藏 分享",
       "published_at": "2026-11-17T11:25:42+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "year": "2026"
       },
@@ -400,7 +400,7 @@
       "summary": "△ 乌鱼岭眺望3号馆 摄影：张钦泉 湖田古瓷窑址是世界文化遗产“景德镇手工瓷业遗存”的重要组成部分，位于珠山区竟成镇湖田村，紧邻景德镇镇区，地处昌江支流南河南岸，是宋、元时期景德镇手工瓷业的中心窑址。窑址由窑业堆积、作坊、窑炉，及道路、水井、房基等生产生活遗迹组成。在系列遗产的整体价值阐释框架中，湖田窑是景德镇“早期窑业组团式生产模式”和“宋元至明代的烧造技术发展”特征的重要支撑，除了遗址本体外，窑址选址环境特征、传统技术与知识、环境景观视廊等也是体现其价值特征的重要展示内容。 △ 湖田古瓷窑址建成效果鸟瞰 摄影：张钦泉 针对紧迫的申遗任务，基于价值认知深化与展示条件评估，本项目设计范围聚焦遗产特征最为集中的宋元明制瓷作坊窑址和乌鱼岭遗址，以及与窑址相邻的小南河与南河水系，以“一带、五区、两视点”的展示空间结构，阐释“早期窑业生产选址环境”“早期瓷业面貌、技术和市场”“景德镇制瓷中心转移”",
       "published_at": "2026-11-17T22:00:51+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "photographer": "张钦泉"
       },
@@ -432,7 +432,7 @@
       "summary": "不作大拆大建，通过细节改造，使300米长的街道串起社区日常。",
       "published_at": "2026-11-17T11:53:34+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [],
@@ -460,7 +460,7 @@
       "summary": "探索前沿的锋锐结合人文关照的底色，体现中心作为创新策源地的气质。",
       "published_at": "2026-11-17T12:13:00+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
       "meta": {
         "area": "2500 m²"
       },
