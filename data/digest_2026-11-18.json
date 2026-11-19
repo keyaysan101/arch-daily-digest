@@ -3,7 +3,7 @@
   "window_start": "2026-11-12",
   "window_end": "2026-11-18",
   "window_days": 7,
-  "generated_at": "2026-11-19T11:05:25+08:00",
+  "generated_at": "2026-11-19T13:02:44+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 359,
-  "new_stored": 55,
-  "store_total": 2008,
+  "new_stored": 6,
+  "store_total": 2014,
   "after_dedupe": 217,
   "noise_count": 9,
   "heat_signal_count": 124,
-  "heat_hit_count": 74,
+  "heat_hit_count": 71,
   "out_of_window_count": 2,
   "count": 10,
   "noise": [
@@ -143,12 +143,12 @@
       "summary": "Nendo has selected Linde Freya Tangelder for Dezeen's 20×20 project in partnership with Kohler . In this interview , the Dutch designer explains why she doesn't find design inspiring. Insofar as she creates furniture and lighting, Tangelder is technically a designer, but only just. \"How I think is not typical design,\" she told Dezeen. \"So I'm never thinking about function in the first place. The w",
       "published_at": "2026-11-18T19:16:10+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
         "Dezeen 热门榜 第 1 名",
-        "Dezeen 首页第 3 位"
+        "Dezeen 首页第 4 位"
       ],
       "heat_rank": 1,
       "is_project": false,
@@ -156,11 +156,11 @@
       "region": null,
       "city": "",
       "architect": "",
-      "heat_score": 49.7,
+      "heat_score": 49.0,
       "quality_score": 12.6,
-      "score": 62.3,
+      "score": 61.6,
       "reasons": [
-        "热度 49.7：Dezeen 热门榜 第 1 名、Dezeen 首页第 3 位→49.7",
+        "热度 49.0：Dezeen 热门榜 第 1 名、Dezeen 首页第 4 位→49.0",
         "质量 12.6：站点权重0.95→7.6；封面图+2"
       ],
       "rank": 1
@@ -175,7 +175,7 @@
       "summary": "建筑  公园之上、城校共生 2026.11.16 收藏 分享",
       "published_at": "2026-11-16T11:09:38+08:00",
       "first_seen": "2026-11-16T11:50:24+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {
         "area": "50,314.28 m²",
         "year": "2026",
@@ -183,9 +183,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1589 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1603 次"
       ],
-      "views": 1589,
+      "views": 1603,
       "heat_rank": 9,
       "is_project": true,
       "btype": "教育",
@@ -196,7 +196,7 @@
       "quality_score": 30.4,
       "score": 59.8,
       "reasons": [
-        "热度 29.4：谷德 7 天最热 第 9 名 · 阅读 1589 次→29.4",
+        "热度 29.4：谷德 7 天最热 第 9 名 · 阅读 1603 次→29.4",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；封面图+2"
       ],
       "rank": 2
@@ -211,7 +211,7 @@
       "summary": "建筑  交错的三翼体量，向街区敞开的公共底层 2026.11.13 收藏 分享",
       "published_at": "2026-11-13T15:07:02+08:00",
       "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {
         "area": "64,300 m²",
         "year": "2025",
@@ -219,20 +219,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1458 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1466 次"
       ],
-      "views": 1458,
+      "views": 1466,
       "heat_rank": 11,
       "is_project": true,
       "btype": "公共",
       "region": "慕尼黑",
       "city": "",
       "architect": "HENN",
-      "heat_score": 27.0,
+      "heat_score": 26.9,
       "quality_score": 33.4,
-      "score": 60.4,
+      "score": 60.3,
       "reasons": [
-        "热度 27.0：谷德 7 天最热 第 11 名 · 阅读 1458 次→27.0",
+        "热度 26.9：谷德 7 天最热 第 11 名 · 阅读 1466 次→26.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「公共」+3；地域「慕尼黑」+3；封面图+2"
       ],
       "rank": 3
@@ -247,13 +247,13 @@
       "summary": "景观  一个将大型体育与娱乐园区转变为日常城市景观的公共领域项目 2026.11.15 收藏 分享",
       "published_at": "2026-11-15T09:01:24+08:00",
       "first_seen": "2026-11-15T09:41:59+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1374 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1386 次"
       ],
-      "views": 1374,
+      "views": 1386,
       "heat_rank": 12,
       "is_project": true,
       "btype": "景观",
@@ -264,7 +264,7 @@
       "quality_score": 33.4,
       "score": 58.8,
       "reasons": [
-        "热度 25.4：谷德 7 天最热 第 12 名 · 阅读 1374 次→25.4",
+        "热度 25.4：谷德 7 天最热 第 12 名 · 阅读 1386 次→25.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「美国」+3；封面图+2"
       ],
       "rank": 4
@@ -279,7 +279,7 @@
       "summary": "November 18 © Eugeni Pons + 48 Elementary & Middle school • Nantes, France Architects: Dominique Coulon & associés Area Area of this architecture project Area: 3720 m² https://www.archdaily.com/1188659/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes Andreas Luco Read more »",
       "published_at": "2026-11-18T23:00:00+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {
         "photographer": "Eugeni Pons",
         "image_count": 48,
@@ -290,18 +290,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 5 位"
+        "ArchDaily 首页第 6 位"
       ],
       "is_project": true,
       "btype": "教育",
       "region": "法国",
       "city": "Nantes",
       "architect": "Dominique Coulon & associés",
-      "heat_score": 18.3,
+      "heat_score": 17.4,
       "quality_score": 40.0,
-      "score": 58.3,
+      "score": 57.4,
       "reasons": [
-        "热度 18.3：ArchDaily 首页第 5 位→18.3",
+        "热度 17.4：ArchDaily 首页第 6 位→17.4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集48张+8；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 5
@@ -316,7 +316,7 @@
       "summary": "November 18 © Studio f/8 + 12 Installations & Structures • Baramati, India Architects: Craft Narrative Area Area of this architecture project Area: 15 m² Year Completion year of this architecture project Year: 2024 https://www.archdaily.com/1188502/pod-for-happiness-craft-narrative Pratik Mour Read more »",
       "published_at": "2026-11-18T20:00:00+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {
         "photographer": "Studio f/8",
         "image_count": 12,
@@ -328,18 +328,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 10 位"
+        "ArchDaily 首页第 11 位"
       ],
       "is_project": true,
       "btype": "展览",
       "region": "印度",
       "city": "Baramati",
       "architect": "Craft Narrative",
-      "heat_score": 13.8,
+      "heat_score": 12.8,
       "quality_score": 40.0,
-      "score": 53.8,
+      "score": 52.8,
       "reasons": [
-        "热度 13.8：ArchDaily 首页第 10 位→13.8",
+        "热度 12.8：ArchDaily 首页第 11 位→12.8",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集12张+5；类型「展览」+3；地域「印度」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
@@ -354,7 +354,7 @@
       "summary": "十一月 18 © Agnese Sanvito + 23 • 英国 建筑师: Edward McCann Architecture 面积 该建筑项目的领域 面积: 37 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: RODECA GMBH , Rodeca , Viroc https://www.archdaily.cn/zh/1188733/fei-ao-nuo-gong-zuo-shi-edward-mccann-architecture Nina Vuga 阅读更多 »",
       "published_at": "2026-11-18T19:00:00+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "alt_url": "https://www.archdaily.com/1188643/fionas-studio-edward-mccann-architecture",
       "bilingual": true,
       "meta": {
@@ -371,18 +371,18 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 10 位"
+        "ArchDaily中国 首页第 11 位"
       ],
       "is_project": true,
       "btype": null,
       "region": "英国",
       "city": "",
       "architect": "Edward McCann Architecture",
-      "heat_score": 10.2,
+      "heat_score": 9.8,
       "quality_score": 40.0,
-      "score": 50.2,
+      "score": 49.8,
       "reasons": [
-        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；地域「英国」+3；封面图+2；含面积数据+2；含材料厂家+1"
       ],
       "rank": 7
@@ -397,7 +397,7 @@
       "summary": "十一月 18 © Kyung Roh + 29 • Gyeongju-si, 韩国 建筑师: Hyunjoon Yoo + Partners 面积 该建筑项目的领域 面积: 1594 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188516/oar-dang-dai-mei-zhu-guan-hyunjoon-yoo-plus-partners Pilar Caballero 阅读更多 »",
       "published_at": "2026-11-18T16:00:00+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "alt_url": "https://www.archdaily.com/1188435/oar-contemporary-art-museum-hyunjoon-yoo-plus-partners",
       "bilingual": true,
       "meta": {
@@ -411,51 +411,21 @@
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 14 位"
+        "ArchDaily中国 首页第 15 位"
       ],
       "is_project": true,
       "btype": "文化",
       "region": "韩国",
       "city": "Gyeongju-si",
       "architect": "Hyunjoon Yoo + Partners",
-      "heat_score": 8.6,
+      "heat_score": 8.2,
       "quality_score": 40.0,
-      "score": 48.6,
+      "score": 48.2,
       "reasons": [
-        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集29张+8；类型「文化」+3；地域「韩国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
-    },
-    {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "Yuri Suzuki 3D-prints miniature rollercoaster and Ferris wheel for kinetic Onomatopia exhibition",
-      "url": "https://www.dezeen.com/2026/11/18/yuri-suzuki-onomatopia-exhibition",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/yuri-suzuki-onomatopia_dezeen_2364_col_sq3-1024x1024.jpg",
-      "summary": "Designer Y uri Suzuki drew on his childhood fascination with amusement parks for the Onomatopia exhibition, which features playful dioramas with their own soundtracks and shows how theme parks \"bring together architecture, sound, movement and human experience\". On show at the Osh Gallery in London's Angel neighbourhood, the exhibition features five models, a short film and reference materials from",
-      "published_at": "2026-11-18T17:00:00+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
-      "meta": {},
-      "strong_heat": false,
-      "heat_labels": [
-        "Dezeen 首页第 8 位"
-      ],
-      "is_project": false,
-      "btype": "文化",
-      "region": "London",
-      "city": "",
-      "architect": "",
-      "heat_score": 11.3,
-      "quality_score": 24.6,
-      "score": 35.9,
-      "reasons": [
-        "热度 11.3：Dezeen 首页第 8 位→11.3",
-        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；地域「London」+3；封面图+2"
-      ],
-      "rank": 9
     },
     {
       "source": "Dezeen",
@@ -467,23 +437,53 @@
       "summary": "Landscape architecture students at Harvard's Graduate School of Design have designed two proposals for Memorial Circle in Washington, DC , the site of US president Donald Trump 's proposed triumphal arch. Both designs feature expansive pools of water that cover the current vehicular roundabout at Memorial Circle, and emphasise connectivity to the city's historic processional axis and straight sigh",
       "published_at": "2026-11-18T18:34:21+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 4 位"
+        "Dezeen 首页第 7 位"
       ],
       "is_project": false,
       "btype": "文化",
       "region": "Washington",
       "city": "",
       "architect": "",
-      "heat_score": 14.0,
+      "heat_score": 12.0,
       "quality_score": 18.6,
-      "score": 32.6,
+      "score": 30.6,
       "reasons": [
-        "热度 14.0：Dezeen 首页第 4 位→14.0",
+        "热度 12.0：Dezeen 首页第 7 位→12.0",
         "质量 18.6：站点权重0.95→7.6；类型「文化」+3；地域「Washington」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "RESONANCE：塔林建筑双年展展亭 / 或间建筑",
+      "url": "https://www.archiposition.com/items/eaf9165ba0",
+      "cover": "https://image.archiposition.com/2026/11/01794895183.jpg?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "以螺旋交错的绳索系统连接木质墙体与中央核心，如同大型乐器的琴弦和调音栓。",
+      "published_at": "2026-11-17T17:35:02+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
+      "meta": {
+        "area": "59 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "展览",
+      "region": null,
+      "city": "",
+      "architect": "或间建筑",
+      "heat_score": 0.0,
+      "quality_score": 29.4,
+      "score": 29.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 29.4：建成项目格式+18；站点权重0.80→6.4；类型「展览」+3；封面图+2"
       ],
       "rank": 10
     }
