@@ -1,17 +1,17 @@
 {
-  "date": "2026-11-18",
-  "window_start": "2026-11-12",
-  "window_end": "2026-11-18",
+  "date": "2026-11-19",
+  "window_start": "2026-11-13",
+  "window_end": "2026-11-19",
   "window_days": 7,
-  "generated_at": "2026-11-19T13:02:44+08:00",
+  "generated_at": "2026-11-20T10:56:40+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-16",
-      "newest": "2026-11-19",
-      "hit": 101,
+      "oldest": "2026-10-19",
+      "newest": "2026-11-20",
+      "hit": 98,
       "stale_days": -1,
       "stale": false
     },
@@ -19,9 +19,9 @@
       "source": "ArchDaily中国",
       "ok": true,
       "total": 64,
-      "oldest": "2026-10-15",
-      "newest": "2026-11-19",
-      "hit": 101,
+      "oldest": "2026-10-16",
+      "newest": "2026-11-20",
+      "hit": 100,
       "stale_days": -1,
       "stale": false
     },
@@ -29,9 +29,9 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-11-12",
-      "newest": "2026-11-19",
-      "hit": 58,
+      "oldest": "2026-11-13",
+      "newest": "2026-11-20",
+      "hit": 61,
       "stale_days": -1,
       "stale": false
     },
@@ -40,7 +40,7 @@
       "ok": true,
       "total": 50,
       "oldest": "2026-11-13",
-      "newest": "2026-11-19",
+      "newest": "2026-11-20",
       "hit": 57,
       "stale_days": -1,
       "stale": false
@@ -48,20 +48,20 @@
     {
       "source": "Designboom",
       "ok": true,
-      "total": 4,
-      "oldest": "2026-11-18",
+      "total": 3,
+      "oldest": "2026-11-19",
       "newest": "2026-11-19",
-      "hit": 19,
-      "stale_days": -1,
+      "hit": 21,
+      "stale_days": 0,
       "stale": false
     },
     {
       "source": "有方空间",
       "ok": true,
-      "total": 15,
-      "oldest": "2026-11-13",
-      "newest": "2026-11-18",
-      "hit": 22,
+      "total": 14,
+      "oldest": "2026-11-16",
+      "newest": "2026-11-19",
+      "hit": 20,
       "stale_days": 0,
       "stale": false
     },
@@ -70,22 +70,42 @@
       "ok": true,
       "total": 10,
       "oldest": "2026-08-12",
-      "newest": "2026-11-17",
-      "hit": 1,
-      "stale_days": 1,
+      "newest": "2026-11-19",
+      "hit": 2,
+      "stale_days": 0,
       "stale": false
     }
   ],
   "candidate_count": 359,
-  "new_stored": 6,
-  "store_total": 2014,
-  "after_dedupe": 217,
-  "noise_count": 9,
-  "heat_signal_count": 124,
-  "heat_hit_count": 71,
+  "new_stored": 54,
+  "store_total": 2068,
+  "after_dedupe": 218,
+  "noise_count": 12,
+  "heat_signal_count": 126,
+  "heat_hit_count": 74,
   "out_of_window_count": 2,
   "count": 10,
   "noise": [
+    {
+      "title": "podcast: indian architects ask who shapes homes: algorithms or occupants",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-09-10"
+    },
+    {
+      "title": "A Guide to Urban Resilience Against El Niño and BIG's Refugee City Masterplan: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day One Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188890/world-architecture-festival-2026-day-one-winners-announced"
+    },
+    {
+      "title": "Bubbly lamp by Canalside Studio among nine new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/18/bubbly-lamp-canalside-studio-lighting-furniture-products-surfaces-dezeen-showroom"
+    },
     {
       "title": "Discover this year's Dezeen Awards Designers of the Year",
       "source": "Dezeen",
@@ -125,11 +145,6 @@
       "title": "Pablo Castillo partners with Decibel on 3D-printed chair with under-seat storage",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/11/13/kino-3d-printed-chair-pablo-castillo-decibel"
-    },
-    {
-      "title": "Sydney’s Powerhouse Parramatta Museum and Bratislava’s Winter Harbour Redevelopment: This Week’s Review",
-      "source": "ArchDaily",
-      "url": "https://www.archdaily.com/1188495/sydneys-powerhouse-parramatta-museum-and-bratislavas-winter-harbour-redevelopment-this-weeks-review"
     }
   ],
   "items": [
@@ -137,18 +152,18 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "Meet Linde Freya Tangelder, Nendo's pick for the most influential designer of the next 20 years",
-      "url": "https://www.dezeen.com/2026/11/18/linde-freya-tangelder-20-20",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/linde-freya-tangelder-20-20-series-1024x1024.jpg",
-      "summary": "Nendo has selected Linde Freya Tangelder for Dezeen's 20×20 project in partnership with Kohler . In this interview , the Dutch designer explains why she doesn't find design inspiring. Insofar as she creates furniture and lighting, Tangelder is technically a designer, but only just. \"How I think is not typical design,\" she told Dezeen. \"So I'm never thinking about function in the first place. The w",
-      "published_at": "2026-11-18T19:16:10+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
+      "title": "Dezeen launches 20x20 project to identify the architects and designers to watch over the next 20 years",
+      "url": "https://www.dezeen.com/2026/11/17/dezeen-20x20-birthday",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/20x20-series-dezeen_dezeen_2364_col_0-1024x1024.jpg",
+      "summary": "Today is Dezeen's 20th birthday, and to celebrate we launch our 20x20 project in partnership with Kohler. For the series we've asked 20 architects and designers who have had a major impact over the past 20 years to each select an architect or designer that they believe will have the biggest impact over the next 20 years. Called 20x20, the project aims to celebrate the past 20 years of Dezeen while",
+      "published_at": "2026-11-17T20:26:29+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
         "Dezeen 热门榜 第 1 名",
-        "Dezeen 首页第 4 位"
+        "Dezeen 首页第 22 位"
       ],
       "heat_rank": 1,
       "is_project": false,
@@ -156,12 +171,12 @@
       "region": null,
       "city": "",
       "architect": "",
-      "heat_score": 49.0,
-      "quality_score": 12.6,
-      "score": 61.6,
+      "heat_score": 37.0,
+      "quality_score": 18.6,
+      "score": 55.6,
       "reasons": [
-        "热度 49.0：Dezeen 热门榜 第 1 名、Dezeen 首页第 4 位→49.0",
-        "质量 12.6：站点权重0.95→7.6；封面图+2"
+        "热度 37.0：Dezeen 热门榜 第 1 名、Dezeen 首页第 22 位→37.0",
+        "质量 18.6：站点权重0.95→7.6；知名事务所+6；封面图+2"
       ],
       "rank": 1
     },
@@ -169,35 +184,36 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "义乌保联小学改扩建工程 / 九米设计",
-      "url": "https://www.gooood.cn/yiwu-baolian-primary-school-by-9m-design.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-q6a-472x303.jpg",
-      "summary": "建筑  公园之上、城校共生 2026.11.16 收藏 分享",
-      "published_at": "2026-11-16T11:09:38+08:00",
-      "first_seen": "2026-11-16T11:50:24+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
+      "title": "钱岸公园滨江公共空间先行段·御道城市公园潮头驿，杭州 / 同济原作设计工作室",
+      "url": "https://www.gooood.cn/yudao-urban-park-and-crest-tide-pavilion-by-original-design-studio-tjad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/yudao-chaotou-cover-472x303.jpg",
+      "summary": "建筑  从基础设施到城市公共生活，新潮岸的起点 2026.11.18 收藏 分享",
+      "published_at": "2026-11-18T09:19:45+08:00",
+      "first_seen": "2026-11-18T11:33:00+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
       "meta": {
-        "area": "50,314.28 m²",
-        "year": "2026",
-        "photographer": "是然建筑摄影"
+        "city": "御道城市公园潮头驿",
+        "country": "杭州",
+        "area": "1297.7 m²",
+        "photographer": "Daily建筑摄影-刘国威、原作设计工作室"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1603 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1530 次"
       ],
-      "views": 1603,
-      "heat_rank": 9,
+      "views": 1530,
+      "heat_rank": 6,
       "is_project": true,
-      "btype": "教育",
-      "region": null,
-      "city": "",
-      "architect": "九米设计",
-      "heat_score": 29.4,
-      "quality_score": 30.4,
-      "score": 59.8,
+      "btype": "景观",
+      "region": "杭州",
+      "city": "御道城市公园潮头驿",
+      "architect": "",
+      "heat_score": 35.3,
+      "quality_score": 33.4,
+      "score": 68.7,
       "reasons": [
-        "热度 29.4：谷德 7 天最热 第 9 名 · 阅读 1603 次→29.4",
-        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；封面图+2"
+        "热度 35.3：谷德 7 天最热 第 6 名 · 阅读 1530 次→35.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 2
     },
@@ -205,35 +221,35 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "Der Bogen综合体，慕尼黑 / HENN",
-      "url": "https://www.gooood.cn/der-bogen-by-henn.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/der-bogen-henn-cover-472x303.jpg",
-      "summary": "建筑  交错的三翼体量，向街区敞开的公共底层 2026.11.13 收藏 分享",
-      "published_at": "2026-11-13T15:07:02+08:00",
-      "first_seen": "2026-11-14T06:40:51+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
+      "title": "繁花GULLY，宜昌 / HID翰地景观",
+      "url": "https://www.gooood.cn/blossom-gully-by-hid-landscape-architecture.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-ieg-472x303.jpg",
+      "summary": "景观  繁花之间，公园商业的日常生长 2026.11.17 收藏 分享",
+      "published_at": "2026-11-17T10:53:47+08:00",
+      "first_seen": "2026-11-17T12:24:46+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
       "meta": {
-        "area": "64,300 m²",
+        "area": "8000 m²",
         "year": "2025",
-        "photographer": "Simon Menges"
+        "photographer": "IAM岸木摄影"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1466 次"
+        "谷德 7 天最热 第 7 名 · 阅读 1508 次"
       ],
-      "views": 1466,
-      "heat_rank": 11,
+      "views": 1508,
+      "heat_rank": 7,
       "is_project": true,
-      "btype": "公共",
-      "region": "慕尼黑",
+      "btype": "商业",
+      "region": "宜昌",
       "city": "",
-      "architect": "HENN",
-      "heat_score": 26.9,
-      "quality_score": 33.4,
-      "score": 60.3,
+      "architect": "HID翰地景观",
+      "heat_score": 34.8,
+      "quality_score": 39.4,
+      "score": 74.2,
       "reasons": [
-        "热度 26.9：谷德 7 天最热 第 11 名 · 阅读 1466 次→26.9",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「公共」+3；地域「慕尼黑」+3；封面图+2"
+        "热度 34.8：谷德 7 天最热 第 7 名 · 阅读 1508 次→34.8",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「商业」+3；地域「宜昌」+3；封面图+2"
       ],
       "rank": 3
     },
@@ -241,52 +257,89 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "2026 ASLA通用设计类荣誉奖：SoFi体育场与好莱坞公园公共领域，美国 / Studio-MLA",
-      "url": "https://www.gooood.cn/sofi-stadium-and-hollywood-park-public-realm-usa-studio-mla.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/09/00-SoFi-Stadium-and-Hollywood-Park-Public-Realm-472x303.jpg",
-      "summary": "景观  一个将大型体育与娱乐园区转变为日常城市景观的公共领域项目 2026.11.15 收藏 分享",
-      "published_at": "2026-11-15T09:01:24+08:00",
-      "first_seen": "2026-11-15T09:41:59+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
-      "meta": {},
+      "title": "岩洞观景公园，武汉 / RAD+ar",
+      "url": "https://www.gooood.cn/grotto-observation-park-by-radar.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-Grotto-Observation-Park-472x303.jpg",
+      "summary": "建筑  自发性生态与参数化乡土构筑共同塑造的公园庇护所。 2026.11.11 收藏 分享",
+      "published_at": "2026-11-11T11:38:45+08:00",
+      "first_seen": "2026-11-12T06:48:12+08:00",
+      "last_seen": "2026-11-18T13:09:06+08:00",
+      "meta": {
+        "year": "2025"
+      },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1386 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1400 次"
       ],
-      "views": 1386,
-      "heat_rank": 12,
+      "views": 1400,
+      "heat_rank": 9,
       "is_project": true,
       "btype": "景观",
-      "region": "美国",
+      "region": "武汉",
       "city": "",
-      "architect": "Studio-MLA",
-      "heat_score": 25.4,
+      "architect": "RAD+ar",
+      "heat_score": 32.3,
       "quality_score": 33.4,
-      "score": 58.8,
+      "score": 65.7,
       "reasons": [
-        "热度 25.4：谷德 7 天最热 第 12 名 · 阅读 1386 次→25.4",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「美国」+3；封面图+2"
+        "热度 32.3：谷德 7 天最热 第 9 名 · 阅读 1400 次→32.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「武汉」+3；封面图+2"
       ],
       "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "FEEL AND JOY品牌空间，杭州 / 水丁集设计",
+      "url": "https://www.gooood.cn/feel-and-joy.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/feel-and-joy-cover-700x449-472x303.jpg",
+      "summary": "建筑  新的介入与原有痕迹共同生活 2026.11.17 收藏 分享",
+      "published_at": "2026-11-17T12:31:26+08:00",
+      "first_seen": "2026-11-17T13:43:58+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
+      "meta": {
+        "photographer": "ACT STUDIO"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1385 次"
+      ],
+      "views": 1385,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": null,
+      "region": "杭州",
+      "city": "",
+      "architect": "水丁集设计",
+      "heat_score": 31.9,
+      "quality_score": 30.4,
+      "score": 62.3,
+      "reasons": [
+        "热度 31.9：谷德 7 天最热 第 10 名 · 阅读 1385 次→31.9",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
+      ],
+      "rank": 5
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "en",
-      "title": "Renovation and Extension of La Beaujoire Nursery and Primary School in Nantes / Dominique Coulon & associés",
-      "url": "https://www.archdaily.com/1188659/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes",
-      "cover": "https://images.adsttc.com/media/images/6af8/b99e/c23f/1f01/895a/fe5b/newsletter/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes_27.jpg?1794685357",
-      "summary": "November 18 © Eugeni Pons + 48 Elementary & Middle school • Nantes, France Architects: Dominique Coulon & associés Area Area of this architecture project Area: 3720 m² https://www.archdaily.com/1188659/renovation-and-extension-of-la-beaujoire-nursery-and-primary-school-in-nantes-dominique-coulon-and-associes Andreas Luco Read more »",
-      "published_at": "2026-11-18T23:00:00+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
+      "title": "Guilliers School Restaurant / eeun architecure",
+      "url": "https://www.archdaily.com/1188550/guilliers-school-restaurant-eeun-architecure",
+      "cover": "https://images.adsttc.com/media/images/6af5/ab33/eabd/2a00/0192/d4e1/newsletter/50-DSCF7159.jpg?1794485150",
+      "summary": "November 19 © erle marec + 10 Educational Architecture , Dining Hall , Adaptive reuse • Guilliers, France Architects: eeun architecure Area Area of this architecture project Area: 500 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188550/guilliers-school-restaurant-eeun-architecure Nina Vuga Read more »",
+      "published_at": "2026-11-19T23:00:00+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
       "meta": {
-        "photographer": "Eugeni Pons",
-        "image_count": 48,
-        "city": "Nantes",
+        "photographer": "erle marec",
+        "image_count": 10,
+        "city": "Guilliers",
         "country": "France",
-        "architect": "Dominique Coulon & associés",
-        "area": "3720 m²"
+        "architect": "eeun architecure",
+        "area": "500 m²",
+        "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
@@ -295,52 +348,14 @@
       "is_project": true,
       "btype": "教育",
       "region": "法国",
-      "city": "Nantes",
-      "architect": "Dominique Coulon & associés",
+      "city": "Guilliers",
+      "architect": "eeun architecure",
       "heat_score": 17.4,
       "quality_score": 40.0,
       "score": 57.4,
       "reasons": [
         "热度 17.4：ArchDaily 首页第 6 位→17.4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集48张+8；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 5
-    },
-    {
-      "source": "ArchDaily",
-      "weight": 1.0,
-      "lang": "en",
-      "title": "Pod for Happiness / Craft Narrative",
-      "url": "https://www.archdaily.com/1188502/pod-for-happiness-craft-narrative",
-      "cover": "https://images.adsttc.com/media/images/6af4/821f/c23f/1f01/895a/f4b6/newsletter/pod-for-happiness-craft-narrative_4.jpg?1794409026",
-      "summary": "November 18 © Studio f/8 + 12 Installations & Structures • Baramati, India Architects: Craft Narrative Area Area of this architecture project Area: 15 m² Year Completion year of this architecture project Year: 2024 https://www.archdaily.com/1188502/pod-for-happiness-craft-narrative Pratik Mour Read more »",
-      "published_at": "2026-11-18T20:00:00+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
-      "meta": {
-        "photographer": "Studio f/8",
-        "image_count": 12,
-        "city": "Baramati",
-        "country": "India",
-        "architect": "Craft Narrative",
-        "area": "15 m²",
-        "year": "2024"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 11 位"
-      ],
-      "is_project": true,
-      "btype": "展览",
-      "region": "印度",
-      "city": "Baramati",
-      "architect": "Craft Narrative",
-      "heat_score": 12.8,
-      "quality_score": 40.0,
-      "score": 52.8,
-      "reasons": [
-        "热度 12.8：ArchDaily 首页第 11 位→12.8",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集12张+5；类型「展览」+3；地域「印度」+3；封面图+2；含面积数据+2"
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
     },
@@ -348,42 +363,39 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "菲奥娜工作室 / Edward McCann Architecture",
-      "url": "https://www.archdaily.cn/zh/1188733/fei-ao-nuo-gong-zuo-shi-edward-mccann-architecture",
-      "cover": "https://images.adsttc.com/media/images/6af7/cf00/eabd/2a00/0192/f1c5/newsletter/Artist_Studio-02___Agnese_Sanvito.jpg?1794625306",
-      "summary": "十一月 18 © Agnese Sanvito + 23 • 英国 建筑师: Edward McCann Architecture 面积 该建筑项目的领域 面积: 37 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 厂家 该项目中使用产品的品牌 厂家: RODECA GMBH , Rodeca , Viroc https://www.archdaily.cn/zh/1188733/fei-ao-nuo-gong-zuo-shi-edward-mccann-architecture Nina Vuga 阅读更多 »",
-      "published_at": "2026-11-18T19:00:00+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
-      "alt_url": "https://www.archdaily.com/1188643/fionas-studio-edward-mccann-architecture",
+      "title": "Can Amor de la Isla / KOSMOS Architects + Blanca Gardelegui",
+      "url": "https://www.archdaily.cn/zh/1188746/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui",
+      "cover": "https://images.adsttc.com/media/images/6afc/1fa1/c23f/1f52/896d/75d2/newsletter/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui_12.jpg?1794908080",
+      "summary": "十一月 19 © Luis Díaz Díaz + 49 • Banyalbufar, 西班牙 建筑师: Blanca Gardelegui , KOSMOS Architects 面积 该建筑项目的领域 面积: 110 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188746/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-19T20:00:00+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
+      "alt_url": "https://www.archdaily.com/1188731/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui",
       "bilingual": true,
       "meta": {
-        "photographer": "Agnese Sanvito",
-        "image_count": 23,
-        "architect": "Edward McCann Architecture",
-        "area": "37 m²",
-        "year": "2025",
-        "brands": [
-          "RODECA GMBH",
-          "Rodeca",
-          "Viroc"
-        ]
+        "photographer": "Luis Díaz Díaz",
+        "image_count": 49,
+        "city": "Banyalbufar",
+        "country": "西班牙",
+        "architect": "Blanca Gardelegui , KOSMOS Architects",
+        "area": "110 m²",
+        "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 11 位"
+        "ArchDaily中国 首页第 8 位"
       ],
       "is_project": true,
       "btype": null,
-      "region": "英国",
-      "city": "",
-      "architect": "Edward McCann Architecture",
-      "heat_score": 9.8,
+      "region": "西班牙",
+      "city": "Banyalbufar",
+      "architect": "Blanca Gardelegui , KOSMOS Architects",
+      "heat_score": 11.1,
       "quality_score": 40.0,
-      "score": 49.8,
+      "score": 51.1,
       "reasons": [
-        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集23张+8；地域「英国」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集49张+8；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
       "rank": 7
     },
@@ -391,99 +403,107 @@
       "source": "ArchDaily",
       "weight": 1.0,
       "lang": "zh",
-      "title": "OAR 当代美术馆 / Hyunjoon Yoo + Partners",
-      "url": "https://www.archdaily.cn/zh/1188516/oar-dang-dai-mei-zhu-guan-hyunjoon-yoo-plus-partners",
-      "cover": "https://images.adsttc.com/media/images/6af3/64ec/8074/f401/89de/df89/newsletter/oar-contemporary-art-museum-hyunjoon-yoo-plus-partners_1.jpg?1794335997",
-      "summary": "十一月 18 © Kyung Roh + 29 • Gyeongju-si, 韩国 建筑师: Hyunjoon Yoo + Partners 面积 该建筑项目的领域 面积: 1594 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188516/oar-dang-dai-mei-zhu-guan-hyunjoon-yoo-plus-partners Pilar Caballero 阅读更多 »",
-      "published_at": "2026-11-18T16:00:00+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
-      "alt_url": "https://www.archdaily.com/1188435/oar-contemporary-art-museum-hyunjoon-yoo-plus-partners",
+      "title": "Geneo / Serie Architects + Multiply Architects + Surbana Jurong",
+      "url": "https://www.archdaily.cn/zh/1188673/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong",
+      "cover": "https://images.adsttc.com/media/images/6afa/6ccc/e7ea/b401/a117/0b53/newsletter/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong_3.jpg?1794796808",
+      "summary": "十一月 19 © Finbarr Fallon + 25 • 新加坡 建筑师: Multiply Architects , Serie Architects , Surbana Jurong 面积 该建筑项目的领域 面积: 180600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188673/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-19T19:00:00+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
+      "alt_url": "https://www.archdaily.com/1188665/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong",
       "bilingual": true,
       "meta": {
-        "photographer": "Kyung Roh",
-        "image_count": 29,
-        "city": "Gyeongju-si",
-        "country": "韩国",
-        "architect": "Hyunjoon Yoo + Partners",
-        "area": "1594 m²",
+        "photographer": "Finbarr Fallon",
+        "image_count": 25,
+        "architect": "Multiply Architects , Serie Architects , Surbana Jurong",
+        "area": "180600 m²",
         "year": "2025"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily中国 首页第 15 位"
+        "ArchDaily中国 首页第 10 位"
       ],
       "is_project": true,
-      "btype": "文化",
-      "region": "韩国",
-      "city": "Gyeongju-si",
-      "architect": "Hyunjoon Yoo + Partners",
-      "heat_score": 8.2,
+      "btype": null,
+      "region": "新加坡",
+      "city": "",
+      "architect": "Multiply Architects , Serie Architects , Surbana Jurong",
+      "heat_score": 10.2,
       "quality_score": 40.0,
-      "score": 48.2,
+      "score": 50.2,
       "reasons": [
-        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集29张+8；类型「文化」+3；地域「韩国」+3；封面图+2；含面积数据+2"
+        "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；地域「新加坡」+3；封面图+2；含面积数据+2"
       ],
       "rank": 8
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "西之京别墅 / ALIANA ARCHITECTS",
+      "url": "https://www.archdaily.cn/zh/1188528/xi-zhi-jing-bie-shu-aliana-architects",
+      "cover": "https://images.adsttc.com/media/images/6ada/2bf5/3271/8400/01d0/e105/newsletter/006_______4455.jpg?1792683015",
+      "summary": "十一月 19 © MASAYA TSUCHIDE + 10 • Kyoto, 日本 建筑师: ALIANA ARCHITECTS 面积 该建筑项目的领域 面积: 45 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1188528/xi-zhi-jing-bie-shu-aliana-architects Pratik Mour 阅读更多 »",
+      "published_at": "2026-11-19T16:00:00+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
+      "alt_url": "https://www.archdaily.com/1187388/villa-in-nishinokyo-aliana-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "MASAYA TSUCHIDE",
+        "image_count": 10,
+        "city": "Kyoto",
+        "country": "日本",
+        "architect": "ALIANA ARCHITECTS",
+        "area": "45 m²",
+        "year": "2023"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 14 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "日本",
+      "city": "Kyoto",
+      "architect": "ALIANA ARCHITECTS",
+      "heat_score": 8.6,
+      "quality_score": 40.0,
+      "score": 48.6,
+      "reasons": [
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 9
     },
     {
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "Harvard GSD students propose alternatives to Trump's arch",
-      "url": "https://www.dezeen.com/2026/11/18/harvard-gsd-triumphal-arch-proposals-the-cultural-landscape-foundation",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/the-cultural-landscape-foundation-harvard-triumphal-arch-provocations_dezeen_sq-1-1024x1024.jpg",
-      "summary": "Landscape architecture students at Harvard's Graduate School of Design have designed two proposals for Memorial Circle in Washington, DC , the site of US president Donald Trump 's proposed triumphal arch. Both designs feature expansive pools of water that cover the current vehicular roundabout at Memorial Circle, and emphasise connectivity to the city's historic processional axis and straight sigh",
-      "published_at": "2026-11-18T18:34:21+08:00",
-      "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
+      "title": "Fictional Project designs home in Kerala to feel \"one with the landscape\"",
+      "url": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/fictional-project-interstitial-living-home-kerala-sq_dezeen_2364_col_1-1024x1024.jpg",
+      "summary": "Curving ceilings sweep down to frame the two small gardens that flank this home in Kerala , India, designed by local architecture studio Fictional Project. Named Interstitial Living, the home in the village of Adoor was designed for a family of four who wanted to feel connected to the outside, in particular the lush greenery surrounding the site. This led Fictional Project to pull the home's built",
+      "published_at": "2026-11-19T19:30:00+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T10:56:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 7 位"
+        "Dezeen 首页第 3 位"
       ],
       "is_project": false,
-      "btype": "文化",
-      "region": "Washington",
+      "btype": "住宅",
+      "region": "Kerala",
       "city": "",
       "architect": "",
-      "heat_score": 12.0,
+      "heat_score": 14.7,
       "quality_score": 18.6,
-      "score": 30.6,
+      "score": 33.3,
       "reasons": [
-        "热度 12.0：Dezeen 首页第 7 位→12.0",
-        "质量 18.6：站点权重0.95→7.6；类型「文化」+3；地域「Washington」+3；封面图+2"
-      ],
-      "rank": 9
-    },
-    {
-      "source": "有方空间",
-      "weight": 0.8,
-      "lang": "zh",
-      "title": "RESONANCE：塔林建筑双年展展亭 / 或间建筑",
-      "url": "https://www.archiposition.com/items/eaf9165ba0",
-      "cover": "https://image.archiposition.com/2026/11/01794895183.jpg?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "以螺旋交错的绳索系统连接木质墙体与中央核心，如同大型乐器的琴弦和调音栓。",
-      "published_at": "2026-11-17T17:35:02+08:00",
-      "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-19T13:02:37+08:00",
-      "meta": {
-        "area": "59 m²"
-      },
-      "strong_heat": false,
-      "heat_labels": [],
-      "is_project": true,
-      "btype": "展览",
-      "region": null,
-      "city": "",
-      "architect": "或间建筑",
-      "heat_score": 0.0,
-      "quality_score": 29.4,
-      "score": 29.4,
-      "reasons": [
-        "热度 0.0：无信号",
-        "质量 29.4：建成项目格式+18；站点权重0.80→6.4；类型「展览」+3；封面图+2"
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 18.6：站点权重0.95→7.6；类型「住宅」+3；地域「Kerala」+3；封面图+2"
       ],
       "rank": 10
     }
