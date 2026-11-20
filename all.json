@@ -5898,7 +5898,7 @@
   "yr": "",
   "ic": 0,
   "ph": "Daily建筑摄影-刘国威、原作设计工作室",
-  "sc": 68.7,
+  "sc": 69.3,
   "d": "2026-11-19",
   "au": "",
   "rk": 2
@@ -5916,7 +5916,7 @@
   "yr": "2025",
   "ic": 0,
   "ph": "IAM岸木摄影",
-  "sc": 74.2,
+  "sc": 74.5,
   "d": "2026-11-19",
   "au": "",
   "rk": 3
@@ -5934,10 +5934,28 @@
   "yr": "",
   "ic": 0,
   "ph": "ACT STUDIO",
-  "sc": 62.3,
+  "sc": 62.5,
   "d": "2026-11-19",
   "au": "",
   "rk": 5
+ },
+ {
+  "t": "把屋顶变成日常—北京福里咖啡四合院改造设计 / 介介工作室",
+  "u": "https://www.gooood.cn/turning-the-roof-into-the-everyday-fuli-courtyard-cafe-by-jiejie-studio.htm",
+  "c": "https://oss.gooood.cn/uploads/2026/11/11-wwb-472x303.png",
+  "s": "谷德设计网",
+  "a": "介介工作室",
+  "bt": "室内",
+  "rg": "北京",
+  "ct": "",
+  "ar": "58 m²",
+  "yr": "",
+  "ic": 0,
+  "ph": "吴昂",
+  "sc": 65.3,
+  "d": "2026-11-19",
+  "au": "",
+  "rk": 6
  },
  {
   "t": "Guilliers School Restaurant / Eeun Architecure",
@@ -5955,7 +5973,7 @@
   "sc": 57.4,
   "d": "2026-11-19",
   "au": "",
-  "rk": 6
+  "rk": 7
  },
  {
   "t": "Can Amor De La Isla / KOSMOS Architects + Blanca Gardelegui",
@@ -5973,7 +5991,7 @@
   "sc": 51.1,
   "d": "2026-11-19",
   "au": "https://www.archdaily.com/1188731/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui",
-  "rk": 7
+  "rk": 8
  },
  {
   "t": "Geneo / Serie Architects + Multiply Architects + Surbana Jurong",
@@ -5991,7 +6009,7 @@
   "sc": 50.2,
   "d": "2026-11-19",
   "au": "https://www.archdaily.com/1188665/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong",
-  "rk": 8
+  "rk": 9
  },
  {
   "t": "西之京别墅 / ALIANA ARCHITECTS",
@@ -6009,24 +6027,6 @@
   "sc": 48.6,
   "d": "2026-11-19",
   "au": "https://www.archdaily.com/1187388/villa-in-nishinokyo-aliana-architects",
-  "rk": 9
- },
- {
-  "t": "Fictional Project Designs Home in Kerala to Feel \"one with the Landscape\"",
-  "u": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living",
-  "c": "https://static-2026.dezeen.com/uploads/2026/11/fictional-project-interstitial-living-home-kerala-sq_dezeen_2364_col_1-1024x1024.jpg",
-  "s": "Dezeen",
-  "a": "",
-  "bt": "住宅",
-  "rg": "Kerala",
-  "ct": "",
-  "ar": "",
-  "yr": "",
-  "ic": 0,
-  "ph": "",
-  "sc": 33.3,
-  "d": "2026-11-19",
-  "au": "",
   "rk": 10
  }
 ]

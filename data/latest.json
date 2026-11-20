@@ -3,7 +3,7 @@
   "window_start": "2026-11-13",
   "window_end": "2026-11-19",
   "window_days": 7,
-  "generated_at": "2026-11-20T10:56:40+08:00",
+  "generated_at": "2026-11-20T12:53:27+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -31,7 +31,7 @@
       "total": 54,
       "oldest": "2026-11-13",
       "newest": "2026-11-20",
-      "hit": 61,
+      "hit": 60,
       "stale_days": -1,
       "stale": false
     },
@@ -50,9 +50,9 @@
       "ok": true,
       "total": 3,
       "oldest": "2026-11-19",
-      "newest": "2026-11-19",
+      "newest": "2026-11-20",
       "hit": 21,
-      "stale_days": 0,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -76,14 +76,14 @@
       "stale": false
     }
   ],
-  "candidate_count": 359,
-  "new_stored": 54,
-  "store_total": 2068,
+  "candidate_count": 358,
+  "new_stored": 2,
+  "store_total": 2070,
   "after_dedupe": 218,
   "noise_count": 12,
   "heat_signal_count": 126,
   "heat_hit_count": 74,
-  "out_of_window_count": 2,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
     {
@@ -158,7 +158,7 @@
       "summary": "Today is Dezeen's 20th birthday, and to celebrate we launch our 20x20 project in partnership with Kohler. For the series we've asked 20 architects and designers who have had a major impact over the past 20 years to each select an architect or designer that they believe will have the biggest impact over the next 20 years. Called 20x20, the project aims to celebrate the past 20 years of Dezeen while",
       "published_at": "2026-11-17T20:26:29+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "meta": {},
       "strong_heat": true,
       "heat_labels": [
@@ -190,7 +190,7 @@
       "summary": "建筑  从基础设施到城市公共生活，新潮岸的起点 2026.11.18 收藏 分享",
       "published_at": "2026-11-18T09:19:45+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "meta": {
         "city": "御道城市公园潮头驿",
         "country": "杭州",
@@ -199,20 +199,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 1530 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1568 次"
       ],
-      "views": 1530,
+      "views": 1568,
       "heat_rank": 6,
       "is_project": true,
       "btype": "景观",
       "region": "杭州",
       "city": "御道城市公园潮头驿",
       "architect": "",
-      "heat_score": 35.3,
+      "heat_score": 35.9,
       "quality_score": 33.4,
-      "score": 68.7,
+      "score": 69.3,
       "reasons": [
-        "热度 35.3：谷德 7 天最热 第 6 名 · 阅读 1530 次→35.3",
+        "热度 35.9：谷德 7 天最热 第 6 名 · 阅读 1568 次→35.9",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 2
@@ -227,7 +227,7 @@
       "summary": "景观  繁花之间，公园商业的日常生长 2026.11.17 收藏 分享",
       "published_at": "2026-11-17T10:53:47+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "meta": {
         "area": "8000 m²",
         "year": "2025",
@@ -235,20 +235,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 1508 次"
+        "谷德 7 天最热 第 7 名 · 阅读 1534 次"
       ],
-      "views": 1508,
+      "views": 1534,
       "heat_rank": 7,
       "is_project": true,
       "btype": "商业",
       "region": "宜昌",
       "city": "",
       "architect": "HID翰地景观",
-      "heat_score": 34.8,
+      "heat_score": 35.1,
       "quality_score": 39.4,
-      "score": 74.2,
+      "score": 74.5,
       "reasons": [
-        "热度 34.8：谷德 7 天最热 第 7 名 · 阅读 1508 次→34.8",
+        "热度 35.1：谷德 7 天最热 第 7 名 · 阅读 1534 次→35.1",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「商业」+3；地域「宜昌」+3；封面图+2"
       ],
       "rank": 3
@@ -269,9 +269,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1400 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1410 次"
       ],
-      "views": 1400,
+      "views": 1410,
       "heat_rank": 9,
       "is_project": true,
       "btype": "景观",
@@ -282,7 +282,7 @@
       "quality_score": 33.4,
       "score": 65.7,
       "reasons": [
-        "热度 32.3：谷德 7 天最热 第 9 名 · 阅读 1400 次→32.3",
+        "热度 32.3：谷德 7 天最热 第 9 名 · 阅读 1410 次→32.3",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「武汉」+3；封面图+2"
       ],
       "rank": 4
@@ -297,29 +297,64 @@
       "summary": "建筑  新的介入与原有痕迹共同生活 2026.11.17 收藏 分享",
       "published_at": "2026-11-17T12:31:26+08:00",
       "first_seen": "2026-11-17T13:43:58+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "meta": {
         "photographer": "ACT STUDIO"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1385 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1402 次"
       ],
-      "views": 1385,
-      "heat_rank": 10,
+      "views": 1402,
+      "heat_rank": 11,
       "is_project": true,
       "btype": null,
       "region": "杭州",
       "city": "",
       "architect": "水丁集设计",
-      "heat_score": 31.9,
+      "heat_score": 32.1,
       "quality_score": 30.4,
-      "score": 62.3,
+      "score": 62.5,
       "reasons": [
-        "热度 31.9：谷德 7 天最热 第 10 名 · 阅读 1385 次→31.9",
+        "热度 32.1：谷德 7 天最热 第 11 名 · 阅读 1402 次→32.1",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「杭州」+3；封面图+2"
       ],
       "rank": 5
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "把屋顶变成日常—北京福里咖啡四合院改造设计 / 介介工作室",
+      "url": "https://www.gooood.cn/turning-the-roof-into-the-everyday-fuli-courtyard-cafe-by-jiejie-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/11-wwb-472x303.png",
+      "summary": "室内  打开立面与屋顶，让老城院落重新承载四季日常 2026.11.18 收藏 分享",
+      "published_at": "2026-11-18T17:08:25+08:00",
+      "first_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
+      "meta": {
+        "area": "58 m²",
+        "photographer": "吴昂"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1394 次"
+      ],
+      "views": 1394,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": "室内",
+      "region": "北京",
+      "city": "",
+      "architect": "介介工作室",
+      "heat_score": 31.9,
+      "quality_score": 33.4,
+      "score": 65.3,
+      "reasons": [
+        "热度 31.9：谷德 7 天最热 第 12 名 · 阅读 1394 次→31.9",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「室内」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 6
     },
     {
       "source": "ArchDaily",
@@ -331,7 +366,7 @@
       "summary": "November 19 © erle marec + 10 Educational Architecture , Dining Hall , Adaptive reuse • Guilliers, France Architects: eeun architecure Area Area of this architecture project Area: 500 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188550/guilliers-school-restaurant-eeun-architecure Nina Vuga Read more »",
       "published_at": "2026-11-19T23:00:00+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "meta": {
         "photographer": "erle marec",
         "image_count": 10,
@@ -357,7 +392,7 @@
         "热度 17.4：ArchDaily 首页第 6 位→17.4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「教育」+3；地域「法国」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 6
+      "rank": 7
     },
     {
       "source": "ArchDaily",
@@ -369,7 +404,7 @@
       "summary": "十一月 19 © Luis Díaz Díaz + 49 • Banyalbufar, 西班牙 建筑师: Blanca Gardelegui , KOSMOS Architects 面积 该建筑项目的领域 面积: 110 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188746/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui Nina Vuga 阅读更多 »",
       "published_at": "2026-11-19T20:00:00+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "alt_url": "https://www.archdaily.com/1188731/can-amor-de-la-isla-kosmos-architects-plus-blanca-gardelegui",
       "bilingual": true,
       "meta": {
@@ -397,7 +432,7 @@
         "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集49张+8；地域「西班牙」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 7
+      "rank": 8
     },
     {
       "source": "ArchDaily",
@@ -409,7 +444,7 @@
       "summary": "十一月 19 © Finbarr Fallon + 25 • 新加坡 建筑师: Multiply Architects , Serie Architects , Surbana Jurong 面积 该建筑项目的领域 面积: 180600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188673/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong Nina Vuga 阅读更多 »",
       "published_at": "2026-11-19T19:00:00+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "alt_url": "https://www.archdaily.com/1188665/geneo-serie-architects-plus-multiply-architects-plus-surbana-jurong",
       "bilingual": true,
       "meta": {
@@ -435,7 +470,7 @@
         "热度 10.2：ArchDaily中国 首页第 10 位→6.2；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；地域「新加坡」+3；封面图+2；含面积数据+2"
       ],
-      "rank": 8
+      "rank": 9
     },
     {
       "source": "ArchDaily",
@@ -447,7 +482,7 @@
       "summary": "十一月 19 © MASAYA TSUCHIDE + 10 • Kyoto, 日本 建筑师: ALIANA ARCHITECTS 面积 该建筑项目的领域 面积: 45 m² 项目年份 该建筑项目的竣工年份 项目年份: 2023 https://www.archdaily.cn/zh/1188528/xi-zhi-jing-bie-shu-aliana-architects Pratik Mour 阅读更多 »",
       "published_at": "2026-11-19T16:00:00+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-20T12:53:21+08:00",
       "alt_url": "https://www.archdaily.com/1187388/villa-in-nishinokyo-aliana-architects",
       "bilingual": true,
       "meta": {
@@ -474,36 +509,6 @@
       "reasons": [
         "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
         "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集10张+5；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 9
-    },
-    {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "Fictional Project designs home in Kerala to feel \"one with the landscape\"",
-      "url": "https://www.dezeen.com/2026/11/19/fictional-project-interstitial-living",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/fictional-project-interstitial-living-home-kerala-sq_dezeen_2364_col_1-1024x1024.jpg",
-      "summary": "Curving ceilings sweep down to frame the two small gardens that flank this home in Kerala , India, designed by local architecture studio Fictional Project. Named Interstitial Living, the home in the village of Adoor was designed for a family of four who wanted to feel connected to the outside, in particular the lush greenery surrounding the site. This led Fictional Project to pull the home's built",
-      "published_at": "2026-11-19T19:30:00+08:00",
-      "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-20T10:56:32+08:00",
-      "meta": {},
-      "strong_heat": false,
-      "heat_labels": [
-        "Dezeen 首页第 3 位"
-      ],
-      "is_project": false,
-      "btype": "住宅",
-      "region": "Kerala",
-      "city": "",
-      "architect": "",
-      "heat_score": 14.7,
-      "quality_score": 18.6,
-      "score": 33.3,
-      "reasons": [
-        "热度 14.7：Dezeen 首页第 3 位→14.7",
-        "质量 18.6：站点权重0.95→7.6；类型「住宅」+3；地域「Kerala」+3；封面图+2"
       ],
       "rank": 10
     }
