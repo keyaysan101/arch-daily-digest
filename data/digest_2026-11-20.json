@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-20",
+  "window_start": "2026-11-14",
+  "window_end": "2026-11-20",
+  "window_days": 7,
+  "generated_at": "2026-11-21T11:04:19+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 63,
+      "oldest": "2026-10-20",
+      "newest": "2026-11-21",
+      "hit": 99,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 63,
+      "oldest": "2026-10-20",
+      "newest": "2026-11-21",
+      "hit": 100,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-16",
+      "newest": "2026-11-21",
+      "hit": 59,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-15",
+      "newest": "2026-11-20",
+      "hit": 58,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 3,
+      "oldest": "2026-11-20",
+      "newest": "2026-11-21",
+      "hit": 19,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 14,
+      "oldest": "2026-11-16",
+      "newest": "2026-11-20",
+      "hit": 19,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-12",
+      "newest": "2026-11-17",
+      "hit": 2,
+      "stale_days": 3,
+      "stale": false
+    }
+  ],
+  "candidate_count": 356,
+  "new_stored": 55,
+  "store_total": 2125,
+  "after_dedupe": 217,
+  "noise_count": 14,
+  "heat_signal_count": 126,
+  "heat_hit_count": 78,
+  "out_of_window_count": 2,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Meet Lanza Atelier, Frida Escobedo's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20"
+    },
+    {
+      "title": "\"All over the world, buildings designed to be explored in 3D are subject to restrictions\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion"
+    },
+    {
+      "title": "The best designers in the world right now",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day Two Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188992/world-architecture-festival-2026-day-two-winners-announced"
+    },
+    {
+      "title": "podcast: indian architects ask who shapes homes: algorithms or occupants",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-09-10"
+    },
+    {
+      "title": "A Guide to Urban Resilience Against El Niño and BIG's Refugee City Masterplan: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day One Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188890/world-architecture-festival-2026-day-one-winners-announced"
+    },
+    {
+      "title": "Bubbly lamp by Canalside Studio among nine new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/18/bubbly-lamp-canalside-studio-lighting-furniture-products-surfaces-dezeen-showroom"
+    },
+    {
+      "title": "Discover this year's Dezeen Awards Designers of the Year",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/discover-this-years-dezeen-awards-designers-of-the-year"
+    },
+    {
+      "title": "Dezeen Awards 2026 architecture project of the year revealed",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-architecture-project-of-the-year-revealed"
+    },
+    {
+      "title": "Dezeen Awards 2026 interiors project of the year announced",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-interiors-project-of-the-year-announced"
+    },
+    {
+      "title": "Dezeen Awards 2026 design project of the year winner named",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-design-project-of-the-year-winner-va-east-storehouse"
+    },
+    {
+      "title": "podcast: indian architects adapt building codes and restore soil through trust",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-07-08"
+    },
+    {
+      "title": "This week Sony revived its classic Walkman headphones",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/14/this-week-sony-walkman-headphones"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Oracle甲骨文全球总部园区，美国 / Foster + Partners",
+      "url": "https://www.gooood.cn/oracle-campus-nashville-foster-partners.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/oracle-campus-nashville-foster-partners-cover-472x303.jpg",
+      "summary": "建筑  连接自然的总部园区 2026.11.13 收藏 分享",
+      "published_at": "2026-11-13T12:30:53+08:00",
+      "first_seen": "2026-11-14T06:40:51+08:00",
+      "last_seen": "2026-11-19T13:02:37+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 3 名 · 阅读 1668 次"
+      ],
+      "views": 1668,
+      "heat_rank": 3,
+      "is_project": true,
+      "btype": "教育",
+      "region": "美国",
+      "city": "",
+      "architect": "Foster + Partners",
+      "heat_score": 42.0,
+      "quality_score": 39.4,
+      "score": 81.4,
+      "reasons": [
+        "热度 42.0：谷德 7 天最热 第 3 名 · 阅读 1668 次→42.0",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「教育」+3；地域「美国」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "京郊合院住宅，北京 / xiān氙建筑",
+      "url": "https://www.gooood.cn/courtyard-house-in-the-suburbs-of-beijing-by-xian-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-2vj-472x303.jpg",
+      "summary": "建筑  从补丁机制到普通结构 2026.11.18 收藏 分享",
+      "published_at": "2026-11-18T15:01:47+08:00",
+      "first_seen": "2026-11-19T11:05:15+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {
+        "area": "936 m²",
+        "year": "2025",
+        "photographer": "刘国威",
+        "brands": [
+          "NAZA"
+        ]
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1477 次"
+      ],
+      "views": 1477,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "北京",
+      "city": "",
+      "architect": "xiān氙建筑",
+      "heat_score": 37.2,
+      "quality_score": 33.4,
+      "score": 70.6,
+      "reasons": [
+        "热度 37.2：谷德 7 天最热 第 11 名 · 阅读 1477 次→37.2",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "峨眉山悦榕庄酒店，四川 / BUZZ庄子玉工作室",
+      "url": "https://www.gooood.cn/banyan-tree-emei-by-buzz.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-llk-472x303.jpg",
+      "summary": "建筑  散点场域中的高差织构 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T09:05:46+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {
+        "area": "41000 m²",
+        "year": "2018",
+        "photographer": "如你所见-王厅，存在建筑"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1474 次"
+      ],
+      "views": 1474,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": "酒店",
+      "region": "四川",
+      "city": "",
+      "architect": "",
+      "heat_score": 37.2,
+      "quality_score": 33.4,
+      "score": 70.6,
+      "reasons": [
+        "热度 37.2：谷德 7 天最热 第 12 名 · 阅读 1474 次→37.2",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「四川」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Snake Building / C+S Architects",
+      "url": "https://www.archdaily.com/1188693/snake-building-c-plus-s-architects",
+      "cover": "https://images.adsttc.com/media/images/6afa/fce2/c23f/1f52/896d/7230/newsletter/snake-building-c-plus-s-architects_1.jpg?1794833686",
+      "summary": "November 20 © Alessandra Bello + 21 Mixed Use Architecture , Housing , Commercial Architecture • Aarschot, Belgium Architects: C+S Architects Area Area of this architecture project Area: 70000 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188693/snake-building-c-plus-s-architects Andreas Luco Read more »",
+      "published_at": "2026-11-20T23:00:00+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {
+        "photographer": "Alessandra Bello",
+        "image_count": 21,
+        "city": "Aarschot",
+        "country": "Belgium",
+        "architect": "C+S Architects",
+        "area": "70000 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "比利时",
+      "city": "Aarschot",
+      "architect": "C+S Architects",
+      "heat_score": 16.5,
+      "quality_score": 40.0,
+      "score": 56.5,
+      "reasons": [
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集21张+8；类型「住宅」+3；地域「比利时」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Design Museum Gent / Carmody Groarke + ATAMA + RE-ST",
+      "url": "https://www.archdaily.com/1188828/design-museum-gent-carmody-groarke-plus-atama-plus-re-st",
+      "cover": "https://images.adsttc.com/media/images/6afd/6115/c23f/1f60/4095/9683/newsletter/design-museum-gent-carmody-groarke-plus-atama-plus-re-st_7.jpg?1794990386",
+      "summary": "November 20 © Johan Dehlin + 27 Museum , Restoration , Extension • Ghent, Belgium Architects: ATAMA , Carmody Groarke , RE-ST Area Area of this architecture project Area: 6500 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188828/design-museum-gent-carmody-groarke-plus-atama-plus-re-st Nina Vuga Read more »",
+      "published_at": "2026-11-20T20:00:00+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {
+        "photographer": "Johan Dehlin",
+        "image_count": 27,
+        "city": "Ghent",
+        "country": "Belgium",
+        "architect": "ATAMA , Carmody Groarke , RE-ST",
+        "area": "6500 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 9 位"
+      ],
+      "is_project": true,
+      "btype": "文化",
+      "region": "比利时",
+      "city": "Ghent",
+      "architect": "ATAMA , Carmody Groarke , RE-ST",
+      "heat_score": 14.7,
+      "quality_score": 40.0,
+      "score": 54.7,
+      "reasons": [
+        "热度 14.7：ArchDaily 首页第 9 位→14.7",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「文化」+3；地域「比利时」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Skroget / Rare Collectiv",
+      "url": "https://www.archdaily.com/1187770/skroget-rare-collectiv",
+      "cover": "https://images.adsttc.com/media/images/6ae3/6274/3a16/4b00/01b5/df99/newsletter/01_Merethe_Amundsen_Ruud.jpg?1793286829",
+      "summary": "November 20 Videos © Merethe Amundsen Ruud + 28 Hospitality Architecture , Sauna , Small Scale • Båtsfjord, Norway Architects: Rare Collectiv Area Area of this architecture project Area: 140 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187770/skroget-rare-collectiv Nina Vuga Read more »",
+      "published_at": "2026-11-20T19:00:00+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {
+        "photographer": "Merethe Amundsen Ruud",
+        "image_count": 28,
+        "city": "Båtsfjord",
+        "country": "Norway",
+        "architect": "Rare Collectiv",
+        "area": "140 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": "商业",
+      "region": "挪威",
+      "city": "Båtsfjord",
+      "architect": "Rare Collectiv",
+      "heat_score": 11.9,
+      "quality_score": 40.0,
+      "score": 51.9,
+      "reasons": [
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集28张+8；类型「商业」+3；地域「挪威」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "S. R. 大学学生餐厅 / SJK Architects",
+      "url": "https://www.archdaily.cn/zh/1188931/s-r-da-xue-xue-sheng-can-ting-sjk-architects",
+      "cover": "https://images.adsttc.com/media/images/6afc/7f78/c23f/1f52/896d/7831/newsletter/student-dining-block-at-s-r-university-sjk-architects_10.jpg?1794932629",
+      "summary": "十一月 20 © Vivek Eadara + 17 • Warangal, 印度 建筑师: SJK Architects 面积 该建筑项目的领域 面积: 58085 m² 项目年份 该建筑项目的竣工年份 项目年份: 2025 https://www.archdaily.cn/zh/1188931/s-r-da-xue-xue-sheng-can-ting-sjk-architects Pilar Caballero 阅读更多 »",
+      "published_at": "2026-11-20T16:00:00+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "alt_url": "https://www.archdaily.com/1188784/student-dining-block-at-s-r-university-sjk-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Vivek Eadara",
+        "image_count": 17,
+        "city": "Warangal",
+        "country": "印度",
+        "architect": "SJK Architects",
+        "area": "58085 m²",
+        "year": "2025"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 14 位"
+      ],
+      "is_project": true,
+      "btype": "教育",
+      "region": "印度",
+      "city": "Warangal",
+      "architect": "SJK Architects",
+      "heat_score": 8.6,
+      "quality_score": 40.0,
+      "score": 48.6,
+      "reasons": [
+        "热度 8.6：ArchDaily中国 首页第 14 位→4.6；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集17张+5；类型「教育」+3；地域「印度」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Upside-down cantilever cracks open timber hotel by BIG",
+      "url": "https://www.dezeen.com/2026/11/20/big-hotel-siegenthalergut-thun-switzerland",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/Nachwachsende-Stadt-big-thun-switzerland_dezeen_2364_col_sq1-1024x1024.jpg",
+      "summary": "Architecture studio BIG has unveiled a hotel building with a stepped, zigzagging design that will function as a \"gateway\" to the Siegenthalergut urban district in Thun, Switzerland. Together with landscape architect August + Margrith Künzel , BIG designed the 13,000-square-metre Nachwachsende Stadt (Growing City) development, which will form a key section of the new district. Drawings and renders ",
+      "published_at": "2026-11-20T17:30:00+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 7 位"
+      ],
+      "is_project": false,
+      "btype": "酒店",
+      "region": "瑞士",
+      "city": "",
+      "architect": "BIG",
+      "heat_score": 12.0,
+      "quality_score": 24.6,
+      "score": 36.6,
+      "reasons": [
+        "热度 12.0：Dezeen 首页第 7 位→12.0",
+        "质量 24.6：站点权重0.95→7.6；知名事务所+6；类型「酒店」+3；地域「瑞士」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Atelier Manferdini uses digital glitches to shape tile-and-metal facade of Virginia power station",
+      "url": "https://www.dezeen.com/2026/11/20/atelier-manferdini-virginia-power-station",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/manferdini-virginia-power-station-invisible_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "California-based studio Atelier Manferdini has created an expressive facade system for an electrical substation in Virginia , USA, using metal and colourful tile to represent the flow of electrical power within. Called InVisible, the project was carried out for Dominion Energy, an electricity provider that was updating the substation in Crystal City, Northern Virginia, just outside of Washington D",
+      "published_at": "2026-11-20T22:59:09+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 1 位"
+      ],
+      "is_project": false,
+      "btype": "交通",
+      "region": "美国",
+      "city": "",
+      "architect": "",
+      "heat_score": 16.0,
+      "quality_score": 18.6,
+      "score": 34.6,
+      "reasons": [
+        "热度 16.0：Dezeen 首页第 1 位→16.0",
+        "质量 18.6：站点权重0.95→7.6；类型「交通」+3；地域「美国」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "CAN combines eclectic references for eccentric revamp of London house",
+      "url": "https://www.dezeen.com/2026/11/20/can-house-tropicalia",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/house-tropicalia-can-architecture-london-residential-houses-extensions-england-uk_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "Towers of concrete drainage tubes and colourful exposed steel elements are among the eclectic features of House-Tropicália, a “very personal” London residence recently extended by local architecture studio CAN . Located in Catford, the project responds to a brief with “two distinct strands” – one relating to the functional elements of the project, and the other to its expressive and atmospheric q",
+      "published_at": "2026-11-20T19:44:58+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-21T11:04:12+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 2 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "Catford",
+      "city": "",
+      "architect": "",
+      "heat_score": 15.3,
+      "quality_score": 18.6,
+      "score": 33.9,
+      "reasons": [
+        "热度 15.3：Dezeen 首页第 2 位→15.3",
+        "质量 18.6：站点权重0.95→7.6；类型「住宅」+3；地域「Catford」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}

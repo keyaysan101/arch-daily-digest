@@ -1593,5 +1593,35 @@
  "https://www.gooood.cn/turning-the-roof-into-the-everyday-fuli-courtyard-cafe-by-jiejie-studio.htm": {
   "area": "58 m²",
   "photographer": "吴昂"
+ },
+ "https://www.gooood.cn/courtyard-house-in-the-suburbs-of-beijing-by-xian-architects.htm": {
+  "area": "936 m²",
+  "year": "2025",
+  "photographer": "刘国威",
+  "brands": [
+   "NAZA"
+  ]
+ },
+ "https://www.gooood.cn/banyan-tree-emei-by-buzz.htm": {
+  "area": "41000 m²",
+  "year": "2018",
+  "photographer": "如你所见-王厅，存在建筑"
+ },
+ "https://www.archdaily.com/1188693/snake-building-c-plus-s-architects": {
+  "year": "2026",
+  "image_count": 29
+ },
+ "https://www.archdaily.com/1188828/design-museum-gent-carmody-groarke-plus-atama-plus-re-st": {
+  "year": "2026",
+  "image_count": 35
+ },
+ "https://www.archdaily.com/1187770/skroget-rare-collectiv": {
+  "year": "2026",
+  "image_count": 36
+ },
+ "https://www.archdaily.cn/zh/1188931/s-r-da-xue-xue-sheng-can-ting-sjk-architects": {
+  "year": "2025",
+  "photographer": "Vivek Eadara",
+  "image_count": 25
  }
 }
