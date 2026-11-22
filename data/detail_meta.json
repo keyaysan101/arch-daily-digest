@@ -1623,5 +1623,49 @@
   "year": "2025",
   "photographer": "Vivek Eadara",
   "image_count": 25
+ },
+ "https://www.gooood.cn/canal-bay-tod-by-gad.htm": {
+  "area": "527,884.54 m²",
+  "year": "2022",
+  "photographer": "刘国威/文沛"
+ },
+ "https://www.gooood.cn/whyis-future-technology-center-by-lineplus.htm": {
+  "area": "44599 m²",
+  "photographer": "陈曦工作室、line+"
+ },
+ "https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects": {
+  "image_count": 32
+ },
+ "https://www.archdaily.com/1188489/darwin-bridges-provencher-roy": {
+  "year": "2021",
+  "image_count": 17
+ },
+ "https://www.archdaily.com/1188648/fleischerei-a-restaurant-reworked-allen-kaufmann-architekten": {
+  "year": "2025",
+  "brands": [
+   "Glasbausteine Center",
+   "Object Carpet"
+  ],
+  "image_count": 28
+ },
+ "https://www.archdaily.cn/zh/941871/te-bo-zi-te-lan-jiu-dian-taller-carlos-marin-plus-pasquinel-studio": {
+  "year": "2020",
+  "photographer": "Onnis Luque",
+  "brands": [
+   "Basaltex",
+   "AutoDesk",
+   "Comosa",
+   "Kraken",
+   "Rhino",
+   "Sólido"
+  ],
+  "image_count": 36
+ },
+ "https://www.gooood.cn/torri-di-madonna-bianca.htm": {
+  "photographer": "Gustav Willeit"
+ },
+ "https://www.archiposition.com/items/820bc56e51": {
+  "area": "8,023 m²",
+  "year": "2020"
  }
 }
