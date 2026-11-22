@@ -3,7 +3,7 @@
   "window_start": "2026-11-15",
   "window_end": "2026-11-21",
   "window_days": 7,
-  "generated_at": "2026-11-22T10:00:56+08:00",
+  "generated_at": "2026-11-22T12:04:05+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,7 +77,7 @@
     }
   ],
   "candidate_count": 350,
-  "new_stored": 23,
+  "new_stored": 0,
   "store_total": 2148,
   "after_dedupe": 210,
   "noise_count": 14,
@@ -168,7 +168,7 @@
       "summary": "建筑  城市更新背景下的公共滨水社区设计与营造 2026.11.19 收藏 分享",
       "published_at": "2026-11-19T10:07:04+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "area": "527,884.54 m²",
         "year": "2022",
@@ -176,20 +176,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1456 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1463 次"
       ],
-      "views": 1456,
+      "views": 1463,
       "heat_rank": 11,
       "is_project": true,
       "btype": "景观",
       "region": "杭州",
       "city": "",
       "architect": "gad",
-      "heat_score": 36.1,
+      "heat_score": 36.2,
       "quality_score": 39.4,
-      "score": 75.5,
+      "score": 75.6,
       "reasons": [
-        "热度 36.1：谷德 7 天最热 第 11 名 · 阅读 1456 次→36.1",
+        "热度 36.2：谷德 7 天最热 第 11 名 · 阅读 1463 次→36.2",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「景观」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 1
@@ -204,27 +204,27 @@
       "summary": "建筑  Y³：互联生长的企业总部 2026.11.18 收藏 分享",
       "published_at": "2026-11-18T16:06:25+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "area": "44599 m²",
         "photographer": "陈曦工作室、line+"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1395 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1404 次"
       ],
-      "views": 1395,
+      "views": 1404,
       "heat_rank": 12,
       "is_project": true,
       "btype": "办公",
       "region": "杭州",
       "city": "",
       "architect": "朱培栋line+",
-      "heat_score": 34.6,
+      "heat_score": 34.8,
       "quality_score": 39.4,
-      "score": 74.0,
+      "score": 74.2,
       "reasons": [
-        "热度 34.6：谷德 7 天最热 第 12 名 · 阅读 1395 次→34.6",
+        "热度 34.8：谷德 7 天最热 第 12 名 · 阅读 1404 次→34.8",
         "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「办公」+3；地域「杭州」+3；封面图+2"
       ],
       "rank": 2
@@ -239,7 +239,7 @@
       "summary": "November 21 © Nicholas Worley + 24 Other facilities • United Kingdom Architects: Tigg + Coll Architects Professionals: Longley Group , RD M&E Group Consulting Engineers , KP Acoustics https://www.archdaily.com/1188720/lamberth-palace-arches-tigg-plus-coll-architects Pilar Caballero Read more »",
       "published_at": "2026-11-21T23:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "photographer": "Nicholas Worley",
         "image_count": 24,
@@ -273,7 +273,7 @@
       "summary": "November 20 © Stéphane Brügger + 9 Bridges • Montreal, Canada Architects: Provencher_Roy Area Area of this architecture project Area: 37 m² Year Completion year of this architecture project Year: 2021 https://www.archdaily.com/1188489/darwin-bridges-provencher-roy Andreas Luco Read more »",
       "published_at": "2026-11-21T01:00:00+08:00",
       "first_seen": "2026-11-21T11:04:12+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "photographer": "Stéphane Brügger",
         "image_count": 9,
@@ -311,7 +311,7 @@
       "summary": "November 21 © Ana-Maria Bulugea + 21 Hospitality Architecture , Renovation • Berlin, Germany Architects: Allen Kaufmann Architekten Area Area of this architecture project Area: 210 m² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Glasbausteine Center , Object Carpet https://www.archdaily.com/1188648/",
       "published_at": "2026-11-21T19:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "photographer": "Ana-Maria Bulugea",
         "image_count": 21,
@@ -353,7 +353,7 @@
       "summary": "十一月 20 © Onnis Luque + 28 • 建筑师: Pasquinel Studio , Taller Carlos Marín 面积 该建筑项目的领域 面积: 1537 m² 项目年份 该建筑项目的竣工年份 项目年份: 2020 厂家 该项目中使用产品的品牌 厂家: Basaltex , AutoDesk , Comosa , Kraken , Rhino , +1 Sólido -1 https://www.archdaily.cn/zh/941871/te-bo-zi-te-lan-jiu-dian-taller-carlos-marin-plus-pasquinel-studio Clara Ott 阅读更多 »",
       "published_at": "2026-11-21T04:00:00+08:00",
       "first_seen": "2026-11-21T11:04:12+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "alt_url": "https://www.archdaily.com/941774/hotel-tepoztlan-taller-carlos-marin-plus-pasquinel-studio",
       "bilingual": true,
       "meta": {
@@ -399,7 +399,7 @@
       "summary": "建筑  以色彩遮阳系统延续1970年代社会住宅身份 2026.11.16 收藏 分享",
       "published_at": "2026-11-16T16:26:08+08:00",
       "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "photographer": "Gustav Willeit"
       },
@@ -429,7 +429,7 @@
       "summary": "A Japanese wedding chapel, an Indian university and a reformed monument to an Albanian dictator are among these public buildings where stairs help to create a dramatic facade. Some, like the MVRDV's Pyramid of Tirana and Snøhetta's Shanghai Grand Opera House, were designed specifically to give the public unrivalled access to their architecture. Others, like the Ribbon Chapel (top image), use stair",
       "published_at": "2026-11-21T18:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -459,7 +459,7 @@
       "summary": "UK studio ZHA took visual cues from the riverbank site of this national theatre in Morocco when designing its sweeping exterior form, which encases a trio of performance spaces. Named Théâtre Royal de Rabat, the performance venue for artists and musicians is located between the cities of Rabat and Salé near to the recently completed Mohammed VI Tower, which is the country's tallest building. It is",
       "published_at": "2026-11-21T19:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -489,7 +489,7 @@
       "summary": "通过对功能与空间规划的重新组织，建立适应使用需求的新联系。",
       "published_at": "2026-11-19T15:34:22+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-22T12:04:00+08:00",
       "meta": {
         "area": "8,023 m²",
         "year": "2020"
