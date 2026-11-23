@@ -1667,5 +1667,37 @@
  "https://www.archiposition.com/items/820bc56e51": {
   "area": "8,023 m²",
   "year": "2020"
+ },
+ "https://www.gooood.cn/pavilion-labyrinth-by-ciro-najle-and-josep-ferrando.htm": {
+  "photographer": "Anna Mas、Diez Veinte"
+ },
+ "https://www.gooood.cn/luxe-valley-dam-cafe.htm": {
+  "photographer": "朱清言，刘国威，PrismImage"
+ },
+ "https://www.gooood.cn/funamoto-dental-clinic-by-studio-aluc.htm": {
+  "area": "564.95 m²",
+  "photographer": "Kenta Hasegawa"
+ },
+ "https://www.archdaily.com/1188267/aua-najarian-center-storaket-architectural-studio": {
+  "year": "2023",
+  "image_count": 40
+ },
+ "https://www.archdaily.com/1187743/ato-ramen-cudo": {
+  "year": "2026",
+  "image_count": 23
+ },
+ "https://www.archdaily.com/1188548/strata-house-vpa-architects": {
+  "year": "2026",
+  "brands": [
+   "Hansgrohe",
+   "MYK Laticrate",
+   "Mitsubishi Electric",
+   "Orient bell high re"
+  ],
+  "image_count": 28
+ },
+ "https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley": {
+  "year": "2026",
+  "image_count": 31
  }
 }
