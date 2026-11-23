@@ -1,233 +1,95 @@
 {
-  "captured_at": "2026-11-23T02:26:32",
+  "captured_at": "2026-11-23T04:45:43",
   "signals": {
     "https://www.gooood.cn/banyan-tree-emei-by-buzz.htm": {
       "heat": 45.0,
       "labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2212 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2393 次"
       ],
-      "views": 2212
+      "views": 2393
     },
     "https://www.gooood.cn/turning-the-roof-into-the-everyday-fuli-courtyard-cafe-by-jiejie-studio.htm": {
-      "heat": 39.57,
+      "heat": 37.72,
       "labels": [
-        "谷德 7 天最热 第 2 名 · 阅读 1945 次"
+        "谷德 7 天最热 第 2 名 · 阅读 2006 次"
       ],
-      "views": 1945
+      "views": 2006
     },
     "https://www.gooood.cn/yudao-urban-park-and-crest-tide-pavilion-by-original-design-studio-tjad.htm": {
-      "heat": 38.55,
+      "heat": 36.46,
       "labels": [
-        "谷德 7 天最热 第 3 名 · 阅读 1895 次"
+        "谷德 7 天最热 第 3 名 · 阅读 1939 次"
       ],
-      "views": 1895
-    },
-    "https://www.gooood.cn/blossom-gully-by-hid-landscape-architecture.htm": {
-      "heat": 36.31,
-      "labels": [
-        "谷德 7 天最热 第 4 名 · 阅读 1785 次"
-      ],
-      "views": 1785
+      "views": 1939
     },
     "https://www.gooood.cn/courtyard-house-in-the-suburbs-of-beijing-by-xian-architects.htm": {
-      "heat": 35.89,
+      "heat": 34.58,
       "labels": [
-        "谷德 7 天最热 第 5 名 · 阅读 1764 次"
+        "谷德 7 天最热 第 4 名 · 阅读 1839 次"
       ],
-      "views": 1764
+      "views": 1839
     },
-    "https://www.gooood.cn/the-open-pavilion-by-beats-architects.htm": {
-      "heat": 32.59,
+    "https://www.gooood.cn/blossom-gully-by-hid-landscape-architecture.htm": {
+      "heat": 34.13,
       "labels": [
-        "谷德 7 天最热 第 6 名 · 阅读 1602 次"
+        "谷德 7 天最热 第 5 名 · 阅读 1815 次"
       ],
-      "views": 1602
+      "views": 1815
     },
     "https://www.gooood.cn/canal-bay-tod-by-gad.htm": {
-      "heat": 32.31,
+      "heat": 30.93,
       "labels": [
-        "谷德 7 天最热 第 7 名 · 阅读 1588 次"
+        "谷德 7 天最热 第 6 名 · 阅读 1645 次"
       ],
-      "views": 1588
+      "views": 1645
+    },
+    "https://www.gooood.cn/the-open-pavilion-by-beats-architects.htm": {
+      "heat": 30.75,
+      "labels": [
+        "谷德 7 天最热 第 7 名 · 阅读 1635 次"
+      ],
+      "views": 1635
     },
     "https://www.gooood.cn/feel-and-joy.htm": {
-      "heat": 31.86,
+      "heat": 29.92,
       "labels": [
-        "谷德 7 天最热 第 8 名 · 阅读 1566 次"
+        "谷德 7 天最热 第 8 名 · 阅读 1591 次"
       ],
-      "views": 1566
+      "views": 1591
     },
     "https://www.gooood.cn/whyis-future-technology-center-by-lineplus.htm": {
-      "heat": 30.7,
+      "heat": 29.6,
       "labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1509 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1574 次"
       ],
-      "views": 1509
+      "views": 1574
     },
     "https://www.gooood.cn/pavilion-labyrinth-by-ciro-najle-and-josep-ferrando.htm": {
-      "heat": 29.21,
+      "heat": 28.72,
       "labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1436 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1527 次"
       ],
-      "views": 1436
+      "views": 1527
     },
     "https://www.gooood.cn/luxe-valley-dam-cafe.htm": {
-      "heat": 28.77,
+      "heat": 28.64,
       "labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1414 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1523 次"
       ],
-      "views": 1414
+      "views": 1523
     },
-    "https://www.gooood.cn/funamoto-dental-clinic-by-studio-aluc.htm": {
-      "heat": 26.0,
+    "https://www.gooood.cn/beijing-renze-high-school-by-biad.htm": {
+      "heat": 24.33,
       "labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1278 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1294 次"
       ],
-      "views": 1278
+      "views": 1294
     },
     "https://www.dezeen.com/2026/11/17/dezeen-20x20-birthday": {
       "heat": 36.33,
       "labels": [
         "Dezeen 热门榜 第 1 名",
         "Dezeen 首页第 23 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/22/after-night-there-is-nothing-sharjah-architecture-triennial": {
-      "heat": 16.0,
-      "labels": [
-        "Dezeen 首页第 1 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/21/evan-edward-miami-beach-pied-a-terre-apartment-renovation": {
-      "heat": 15.33,
-      "labels": [
-        "Dezeen 首页第 2 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco": {
-      "heat": 14.67,
-      "labels": [
-        "Dezeen 首页第 3 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/22/eight-furniture-designs-informed-by-life-in-new-york-city": {
-      "heat": 14.0,
-      "labels": [
-        "Dezeen 首页第 4 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/22/jony-ive-margaret-calvert-posters-decade-london-design-museum-kensington": {
-      "heat": 13.33,
-      "labels": [
-        "Dezeen 首页第 5 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/21/exterior-staircases-facade": {
-      "heat": 12.67,
-      "labels": [
-        "Dezeen 首页第 6 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week": {
-      "heat": 12.0,
-      "labels": [
-        "Dezeen 首页第 7 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20": {
-      "heat": 11.33,
-      "labels": [
-        "Dezeen 首页第 8 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/19/swedish-girls-20-20-swedish-girls": {
-      "heat": 10.67,
-      "labels": [
-        "Dezeen 首页第 9 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/18/linde-freya-tangelder-20-20": {
-      "heat": 10.0,
-      "labels": [
-        "Dezeen 首页第 10 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/17/office-simon-robinson-public-housing-melbourne-australia": {
-      "heat": 9.33,
-      "labels": [
-        "Dezeen 首页第 11 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/17/harry-nuriev-20-20-bjarke-ingels": {
-      "heat": 8.67,
-      "labels": [
-        "Dezeen 首页第 12 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era": {
-      "heat": 8.0,
-      "labels": [
-        "Dezeen 首页第 13 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/10/28/ma-yansong-interview-lucas-museum": {
-      "heat": 7.33,
-      "labels": [
-        "Dezeen 首页第 14 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview": {
-      "heat": 6.67,
-      "labels": [
-        "Dezeen 首页第 15 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/the-nue-black-aesthetic-exhibition": {
-      "heat": 6.0,
-      "labels": [
-        "Dezeen 首页第 16 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/big-hotel-siegenthalergut-thun-switzerland": {
-      "heat": 5.33,
-      "labels": [
-        "Dezeen 首页第 17 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/bennetts-associates-edinburgh-futures-institute-rias-doolan-award": {
-      "heat": 4.67,
-      "labels": [
-        "Dezeen 首页第 18 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/atelier-manferdini-virginia-power-station": {
-      "heat": 4.0,
-      "labels": [
-        "Dezeen 首页第 19 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/can-house-tropicalia": {
-      "heat": 3.33,
-      "labels": [
-        "Dezeen 首页第 20 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion": {
-      "heat": 2.67,
-      "labels": [
-        "Dezeen 首页第 21 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast": {
-      "heat": 2.0,
-      "labels": [
-        "Dezeen 首页第 22 位"
-      ]
-    },
-    "https://www.dezeen.com/2026/07/13/future-stadium-series-introduction": {
-      "heat": 0.67,
-      "labels": [
-        "Dezeen 首页第 24 位"
       ]
     },
     "https://www.archdaily.com/1188943/fukasawa-commercial-building-key-operation-inc-architects": {
@@ -372,6 +234,144 @@
       "heat": 0.92,
       "labels": [
         "ArchDaily 首页第 24 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/22/after-night-there-is-nothing-sharjah-architecture-triennial": {
+      "heat": 16.0,
+      "labels": [
+        "Dezeen 首页第 1 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/21/evan-edward-miami-beach-pied-a-terre-apartment-renovation": {
+      "heat": 15.33,
+      "labels": [
+        "Dezeen 首页第 2 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/21/zha-theatre-royal-de-rabat-morroco": {
+      "heat": 14.67,
+      "labels": [
+        "Dezeen 首页第 3 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/22/eight-furniture-designs-informed-by-life-in-new-york-city": {
+      "heat": 14.0,
+      "labels": [
+        "Dezeen 首页第 4 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/22/jony-ive-margaret-calvert-posters-decade-london-design-museum-kensington": {
+      "heat": 13.33,
+      "labels": [
+        "Dezeen 首页第 5 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/21/exterior-staircases-facade": {
+      "heat": 12.67,
+      "labels": [
+        "Dezeen 首页第 6 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week": {
+      "heat": 12.0,
+      "labels": [
+        "Dezeen 首页第 7 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20": {
+      "heat": 11.33,
+      "labels": [
+        "Dezeen 首页第 8 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/19/swedish-girls-20-20-swedish-girls": {
+      "heat": 10.67,
+      "labels": [
+        "Dezeen 首页第 9 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/18/linde-freya-tangelder-20-20": {
+      "heat": 10.0,
+      "labels": [
+        "Dezeen 首页第 10 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/17/office-simon-robinson-public-housing-melbourne-australia": {
+      "heat": 9.33,
+      "labels": [
+        "Dezeen 首页第 11 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/17/harry-nuriev-20-20-bjarke-ingels": {
+      "heat": 8.67,
+      "labels": [
+        "Dezeen 首页第 12 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/16/nike-tuned-air-new-era": {
+      "heat": 8.0,
+      "labels": [
+        "Dezeen 首页第 13 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/10/28/ma-yansong-interview-lucas-museum": {
+      "heat": 7.33,
+      "labels": [
+        "Dezeen 首页第 14 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/10/15/aimee-daniels-shaded-interview": {
+      "heat": 6.67,
+      "labels": [
+        "Dezeen 首页第 15 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/the-nue-black-aesthetic-exhibition": {
+      "heat": 6.0,
+      "labels": [
+        "Dezeen 首页第 16 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/big-hotel-siegenthalergut-thun-switzerland": {
+      "heat": 5.33,
+      "labels": [
+        "Dezeen 首页第 17 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/bennetts-associates-edinburgh-futures-institute-rias-doolan-award": {
+      "heat": 4.67,
+      "labels": [
+        "Dezeen 首页第 18 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/atelier-manferdini-virginia-power-station": {
+      "heat": 4.0,
+      "labels": [
+        "Dezeen 首页第 19 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/can-house-tropicalia": {
+      "heat": 3.33,
+      "labels": [
+        "Dezeen 首页第 20 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion": {
+      "heat": 2.67,
+      "labels": [
+        "Dezeen 首页第 21 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast": {
+      "heat": 2.0,
+      "labels": [
+        "Dezeen 首页第 22 位"
+      ]
+    },
+    "https://www.dezeen.com/2026/07/13/future-stadium-series-introduction": {
+      "heat": 0.67,
+      "labels": [
+        "Dezeen 首页第 24 位"
       ]
     },
     "https://www.archdaily.cn/zh/1188946/fukasawa-shang-ye-da-lou-key-operation-inc-architects": {

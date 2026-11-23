@@ -3,7 +3,7 @@
   "window_start": "2026-11-16",
   "window_end": "2026-11-22",
   "window_days": 7,
-  "generated_at": "2026-11-23T10:26:36+08:00",
+  "generated_at": "2026-11-23T12:45:45+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -29,7 +29,7 @@
       "source": "谷德设计网",
       "ok": true,
       "total": 54,
-      "oldest": "2026-11-16",
+      "oldest": "2026-11-17",
       "newest": "2026-11-23",
       "hit": 58,
       "stale_days": -1,
@@ -58,11 +58,11 @@
     {
       "source": "有方空间",
       "ok": true,
-      "total": 14,
-      "oldest": "2026-11-16",
-      "newest": "2026-11-20",
+      "total": 15,
+      "oldest": "2026-11-17",
+      "newest": "2026-11-23",
       "hit": 19,
-      "stale_days": 2,
+      "stale_days": -1,
       "stale": false
     },
     {
@@ -77,8 +77,8 @@
     }
   ],
   "candidate_count": 351,
-  "new_stored": 23,
-  "store_total": 2171,
+  "new_stored": 5,
+  "store_total": 2176,
   "after_dedupe": 206,
   "noise_count": 14,
   "heat_signal_count": 102,
@@ -168,26 +168,26 @@
       "summary": "建筑  343块虹彩夹层玻璃，将流动空间转化为层叠迷宫 2026.11.18 收藏 分享",
       "published_at": "2026-11-18T17:40:03+08:00",
       "first_seen": "2026-11-19T11:05:15+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "Anna Mas、Diez Veinte"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1436 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1527 次"
       ],
-      "views": 1436,
+      "views": 1527,
       "heat_rank": 10,
       "is_project": true,
       "btype": "展览",
       "region": "巴塞罗那",
       "city": "",
       "architect": "Ciro Najle + Josep Ferrando",
-      "heat_score": 29.2,
+      "heat_score": 28.7,
       "quality_score": 33.4,
-      "score": 62.6,
+      "score": 62.1,
       "reasons": [
-        "热度 29.2：谷德 7 天最热 第 10 名 · 阅读 1436 次→29.2",
+        "热度 28.7：谷德 7 天最热 第 10 名 · 阅读 1527 次→28.7",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「展览」+3；地域「巴塞罗那」+3；封面图+2"
       ],
       "rank": 1
@@ -202,26 +202,26 @@
       "summary": "建筑  重庆麓溪湖落日水坝的拱形飘带下，一座轻质帆幕咖啡亭延续着场地原有的开放性 2026.11.19 收藏 分享",
       "published_at": "2026-11-19T16:14:27+08:00",
       "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "朱清言，刘国威，PrismImage"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1414 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1523 次"
       ],
-      "views": 1414,
+      "views": 1523,
       "heat_rank": 11,
       "is_project": true,
       "btype": null,
       "region": "重庆",
       "city": "",
       "architect": "之外建筑 TheY Architects",
-      "heat_score": 28.8,
+      "heat_score": 28.6,
       "quality_score": 30.4,
-      "score": 59.2,
+      "score": 59.0,
       "reasons": [
-        "热度 28.8：谷德 7 天最热 第 11 名 · 阅读 1414 次→28.8",
+        "热度 28.6：谷德 7 天最热 第 11 名 · 阅读 1523 次→28.6",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「重庆」+3；封面图+2"
       ],
       "rank": 2
@@ -230,34 +230,35 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "Funamoto牙科诊所，日本 / STUDIO ALUC",
-      "url": "https://www.gooood.cn/funamoto-dental-clinic-by-studio-aluc.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-wtb-472x303.jpg",
-      "summary": "建筑  四个错落体量，串联温和而连续的诊疗空间 2026.11.17 收藏 分享",
-      "published_at": "2026-11-17T11:58:24+08:00",
-      "first_seen": "2026-11-17T12:24:46+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "title": "北京市仁泽高中 / 北京市建筑设计研究院股份有限公司石华团队",
+      "url": "https://www.gooood.cn/beijing-renze-high-school-by-biad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-gyn-472x303.jpg",
+      "summary": "建筑  由老旧电影厂改造成的新学校 2026.11.19 收藏 分享",
+      "published_at": "2026-11-19T11:44:21+08:00",
+      "first_seen": "2026-11-19T13:02:37+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
-        "area": "564.95 m²",
-        "photographer": "Kenta Hasegawa"
+        "area": "15000 m²",
+        "year": "2022",
+        "photographer": "UK Studio"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1278 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1294 次"
       ],
-      "views": 1278,
+      "views": 1294,
       "heat_rank": 12,
       "is_project": true,
-      "btype": "医疗",
-      "region": "日本",
+      "btype": "教育",
+      "region": "北京",
       "city": "",
-      "architect": "STUDIO ALUC",
-      "heat_score": 26.0,
+      "architect": "",
+      "heat_score": 24.3,
       "quality_score": 33.4,
-      "score": 59.4,
+      "score": 57.7,
       "reasons": [
-        "热度 26.0：谷德 7 天最热 第 12 名 · 阅读 1278 次→26.0",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「医疗」+3；地域「日本」+3；封面图+2"
+        "热度 24.3：谷德 7 天最热 第 12 名 · 阅读 1294 次→24.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「北京」+3；封面图+2"
       ],
       "rank": 3
     },
@@ -271,7 +272,7 @@
       "summary": "November 22 © Sona Manukyan & Ani Avagyan + 32 Educational Architecture , Extension , Sustainability • Yerevan, Armenia Architects: Storaket Architectural Studio Area Area of this architecture project Area: 2015 m² Year Completion year of this architecture project Year: 2023 https://www.archdaily.com/1188267/aua-najarian-center-storaket-architectural-studio Cristina Popescu Read more »",
       "published_at": "2026-11-22T23:00:00+08:00",
       "first_seen": "2026-11-23T10:26:28+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "Sona Manukyan & Ani Avagyan",
         "image_count": 32,
@@ -309,7 +310,7 @@
       "summary": "November 22 Videos © Migdał Studio + 16 Interior Design , Hospitality Interiors , Restaurant & Bar Interiors • Warsaw, Poland Architects: CUDO: Area Area of this architecture project Area: 300 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1187743/ato-ramen-cudo Cristina Popescu Read more »",
       "published_at": "2026-11-22T19:00:00+08:00",
       "first_seen": "2026-11-23T10:26:28+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "Migdał Studio",
         "image_count": 16,
@@ -347,7 +348,7 @@
       "summary": "November 22 © Inclined Studio + 21 Houses • Ahmedabad, India Architects: VPA Architects Area Area of this architecture project Area: 11000 ft² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: Hansgrohe , Interior & Exterior - Asian Paints Texture Paint , MYK Laticrate , Mitsubishi Electric , Orient bell",
       "published_at": "2026-11-22T10:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "Inclined Studio",
         "image_count": 21,
@@ -390,7 +391,7 @@
       "summary": "November 21 © MKG Studio + 23 Police Station • Southegowdanahalli, India Architects: STUDIO MOTLEY Area Area of this architecture project Area: 13250 ft² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188485/police-station-for-the-people-studio-motley Pratik Mour Read more »",
       "published_at": "2026-11-22T06:00:00+08:00",
       "first_seen": "2026-11-22T10:00:49+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {
         "photographer": "MKG Studio",
         "image_count": 23,
@@ -427,7 +428,7 @@
       "summary": "Architect Mohamad Nahleh and architecture professor Ozayr Saloojee have created three domed structures that reimagine constellations by mapping military objects in the night sky, which were displayed at this year's Sharjah Architecture Triennial . Titled After Night There is Nothing, the trio of installations aim to bring attention to how communities are responding to drones, satellites, rockets a",
       "published_at": "2026-11-22T19:00:00+08:00",
       "first_seen": "2026-11-23T10:26:28+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -457,7 +458,7 @@
       "summary": "Miami 's nightlife scene in the 1990s informed the saturated colours and metallic accents used by local studio Evan Edward inside this apartment in the oceanside city, illustrating what the studio calls its \"high-impact minimalism\" approach. Designed for an international family with \"personal ties to the city's storied nightlife era\", the Miami Beach pied-à-terre reflects the hedonistic era that l",
       "published_at": "2026-11-22T02:00:00+08:00",
       "first_seen": "2026-11-23T10:26:28+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -487,7 +488,7 @@
       "summary": "BIG founder Bjarke Ingels has selected Harry Nuriev for Dezeen's 20x20 project in partnership with Kohler. In this interview , the New York and Paris-based designer explains how he constantly aims to reinvent himself and his work. Nuriev established his studio, Crosby Studios , 12 years ago with the aim of shaking up the world of interior design . \"First, it came from this game of rejection,\" he t",
       "published_at": "2026-11-17T20:20:00+08:00",
       "first_seen": "2026-11-18T11:33:00+08:00",
-      "last_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-23T12:45:39+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
