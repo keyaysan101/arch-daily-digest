@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-11-18 ~ 2026-11-24）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-11-18 ~ 2026-11-24）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-11-25 12:51:13 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 102 · ArchDaily中国 100 · 谷德设计网 59 · Dezeen 53 · Designboom 20 · 有方空间 20 · 建筑学院 2<br/>窗口内 356 条候选，其中 74 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>356</b>候选</div>
+      <div class="stat"><b>210</b>去重后</div>
+      <div class="stat"><b>13</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html">建筑奖项</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/002-cyw-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm" target="_blank" rel="noopener">湖北工建机电科技产业园3#楼，武汉 / 浙江大学建筑设计研究院</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 9 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,646 次</span><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 武汉</span><span class="chip" style="color:#7c3aed">面积 2562.82 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,646 次</span>
+          <button type="button" class="mini" data-more="m0b6a8136b200">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm"
+            data-t="湖北工建机电科技产业园3#楼，武汉 / 浙江大学建筑设计研究院" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/002-cyw-472x303.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m0b6a8136b200"><div class="kv"><b>建筑面积</b><span>2562.82 m²</span></div><div class="kv"><b>摄影</b><span>Chill Shine 丘文三映</span></div><div class="kv"><b>所在地</b><span>武汉</span></div><div class="kv"><b>摘要</b><span>建筑 以正反模与弧形UHPC构件实现形质合一的装配式展厅 2026.11.20 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 54 分</b><div>· 热度 20.8：谷德 7 天最热 第 9 名 · 阅读 1646 次→20.8</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「武汉」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/matata-bar-nex-architecture.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/matata-cover-700x449-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/matata-bar-nex-architecture.htm" target="_blank" rel="noopener">MATATA酒吧，西安 / NEX衍界建筑</a></div>
+        <div class="arch">设计：NEX衍界建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 10 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,637 次</span><span class="chip" style="color:#0f766e">地域 西安</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,637 次</span>
+          <button type="button" class="mini" data-more="ma142531529c4">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/matata-bar-nex-architecture.htm"
+            data-t="MATATA酒吧，西安 / NEX衍界建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/matata-cover-700x449-472x303.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/matata-bar-nex-architecture.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="ma142531529c4"><div class="kv"><b>摄影</b><span>KEVIN</span></div><div class="kv"><b>所在地</b><span>西安</span></div><div class="kv"><b>摘要</b><span>建筑 “古典哥特梦核”的当代演绎 2026.11.20 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 51 分</b><div>· 热度 20.7：谷德 7 天最热 第 10 名 · 阅读 1637 次→20.7</div><div>· 质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「西安」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af7/ce1d/eabd/2a00/0192/f1b0/newsletter/Aegelmatt_01_Aussenansicht_mit_Spielplatz_Foto_Willem_Pab.jpg?1794625080" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter" target="_blank" rel="noopener">Kindergarten Aegelmatt / Brandenberger Kloter</a></div>
+        <div class="arch">设计：Brandenberger Kloter</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 8 位</span><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 瑞士</span><span class="chip" style="color:#7c3aed">面积 1135 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 13 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 56 分</span>
+          <button type="button" class="mini" data-more="m47b6a725a896">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter"
+            data-t="Kindergarten Aegelmatt / Brandenberger Kloter" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af7/ce1d/eabd/2a00/0192/f1b0/newsletter/Aegelmatt_01_Aussenansicht_mit_Spielplatz_Foto_Willem_Pab.jpg?1794625080" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m47b6a725a896"><div class="kv"><b>建筑面积</b><span>1135 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>13 张</span></div><div class="kv"><b>摄影</b><span>Willem Pab</span></div><div class="kv"><b>所在地</b><span>Pratteln / Switzerland</span></div><div class="kv"><b>摘要</b><span>November 24 © Willem Pab + 13 Educational Architecture , Kindergarten • Pratteln, Switzerland Architects: Brandenberger Kloter Area Area of this architecture project Area: 1135 m² Year Completion year…</span></div><div class="why"><b>为什么推荐 · 合计 56 分</b><div>· 热度 15.6：ArchDaily 首页第 8 位→15.6</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「教育」+3；地域「瑞士」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6aff/0031/eabd/2a00/0193/2472/newsletter/sabo-work-division-02.jpg?1795096644" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project" target="_blank" rel="noopener">柔性分区公寓 / SABO project</a></div>
+        <div class="arch">设计：SABO project</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 美国</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 13 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 50 分</span>
+          <button type="button" class="mini" data-more="mca78db5cbf52">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project"
+            data-t="柔性分区公寓 / SABO project" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6aff/0031/eabd/2a00/0193/2472/newsletter/sabo-work-division-02.jpg?1795096644" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mca78db5cbf52"><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>13 张</span></div><div class="kv"><b>摄影</b><span>Alexandre Delaunay</span></div><div class="kv"><b>所在地</b><span>New York / 美国</span></div><div class="kv"><b>摘要</b><span>十一月 23 © Alexandre Delaunay + 13 • New York, 美国 建筑师: SABO project 面积 该建筑项目的领域 面积: 728 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project Susanna Mo…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1188937/soft-division-apartment-sabo-project" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 50 分</b><div>· 热度 11.5：2 家媒体报道+7.5；中英双版+4</div><div>· 质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「美国」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6af1/8c88/4ba6/4700/01d0/80a0/newsletter/Grigory_Sokolinsky_19.jpg?1794215149" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture" target="_blank" rel="noopener">Kaklebi 私人住宅 / Werkraum Design Architecture</a></div>
+        <div class="arch">设计：Werkraum Design Architecture</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 12 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 格鲁吉亚</span><span class="chip" style="color:#7c3aed">面积 630 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 27 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 49 分</span>
+          <button type="button" class="mini" data-more="mbb8678b628ac">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture"
+            data-t="Kaklebi 私人住宅 / Werkraum Design Architecture" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6af1/8c88/4ba6/4700/01d0/80a0/newsletter/Grigory_Sokolinsky_19.jpg?1794215149" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mbb8678b628ac"><div class="kv"><b>建筑面积</b><span>630 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>27 张</span></div><div class="kv"><b>摄影</b><span>Grigory Sokolinsky</span></div><div class="kv"><b>所在地</b><span>Tbilisi / 格鲁吉亚</span></div><div class="kv"><b>摘要</b><span>十一月 24 © Grigory Sokolinsky + 27 • Tbilisi, 格鲁吉亚 建筑师: Werkraum Design Architecture 面积 该建筑项目的领域 面积: 630 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkrau…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1188266/private-house-in-kaklebi" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 49 分</b><div>· 热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「格鲁吉亚」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6b04/5146/2bc2/8501/8901/2892/newsletter/abishkar-residence-system-architects-eknc_22.jpg?1795445095" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc" target="_blank" rel="noopener">Abishkar 住宅 / SYSTEM architects - EKNC</a></div>
+        <div class="arch">设计：SYSTEM architects - EKNC</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 16 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 孟加拉</span><span class="chip" style="color:#7c3aed">面积 6588 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 26 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 48 分</span>
+          <button type="button" class="mini" data-more="m2eeaa4568d76">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc"
+            data-t="Abishkar 住宅 / SYSTEM architects - EKNC" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6b04/5146/2bc2/8501/8901/2892/newsletter/abishkar-residence-system-architects-eknc_22.jpg?1795445095" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m2eeaa4568d76"><div class="kv"><b>建筑面积</b><span>6588 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>26 张</span></div><div class="kv"><b>摄影</b><span>Maruf Raihan</span></div><div class="kv"><b>所在地</b><span>Dhaka / 孟加拉</span></div><div class="kv"><b>摘要</b><span>十一月 24 © Maruf Raihan + 26 • Dhaka, 孟加拉 建筑师: SYSTEM architects - EKNC 面积 该建筑项目的领域 面积: 6588 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc Mi…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1187086/abishkar-residence-system-architects-eknc" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 48 分</b><div>· 热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「孟加拉」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/mres-by-mold-architects.htm">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/MRES-MOLD-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/mres-by-mold-architects.htm" target="_blank" rel="noopener">MRES住宅，塞里福斯岛 / MOLD Architects</a></div>
+        <div class="arch">设计：MOLD Architects</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 塞里福斯岛</span><span class="chip" style="color:#7c3aed">面积 270 m²</span><span class="chip" style="color:#b45309">建成 2011</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">综合 41 分</span>
+          <button type="button" class="mini" data-more="m953529f64545">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/mres-by-mold-architects.htm"
+            data-t="MRES住宅，塞里福斯岛 / MOLD Architects" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/MRES-MOLD-cover-472x303.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/mres-by-mold-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m953529f64545"><div class="kv"><b>建筑面积</b><span>270 m²</span></div><div class="kv"><b>建成年份</b><span>2011 年</span></div><div class="kv"><b>摄影</b><span>Giorgos Sfakianakis</span></div><div class="kv"><b>所在地</b><span>塞里福斯岛</span></div><div class="kv"><b>摘要</b><span>建筑 七座庭院，藏在山顶的方形体量中 2026.11.24 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 41 分</b><div>· 热度 7.5：2 家媒体报道+7.5</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「塞里福斯岛」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://static-2026.dezeen.com/uploads/2026/11/burberry-va-christmas-tree-2026_dezeen_2364_col_sq-1024x1024.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry" target="_blank" rel="noopener">Biscuit-tin Lids, Horse Brasses and Scrap Metal Form Sculptural V&amp;A Christmas Tree by Burberry</a></div>
+        <div class="arch">设计：Burberry</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">Dezeen 首页第 3 位</span><span class="chip" style="color:#334155">类型 文化</span></div>
+        <div class="foot">
+          <span class="src" style="background:#1d4ed8">Dezeen</span>
+          <span class="score">综合 36 分</span>
+          <button type="button" class="mini" data-more="m14e07c662855">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry"
+            data-t="Biscuit-tin Lids, Horse Brasses and Scrap Metal Form Sculptural V&amp;A Christmas Tree by Burberry" data-s="Dezeen"
+            data-c="https://static-2026.dezeen.com/uploads/2026/11/burberry-va-christmas-tree-2026_dezeen_2364_col_sq-1024x1024.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m14e07c662855"><div class="kv"><b>摘要</b><span>Fashion brand Burberry &#x27;s chief creative officer Daniel Lee worked with artist Ann Carrington to create a Christmas tree sculpture for the Victoria &amp;amp; Albert Museum , made from &quot;memories, tradition…</span></div><div class="why"><b>为什么推荐 · 合计 36 分</b><div>· 热度 14.7：Dezeen 首页第 3 位→14.7</div><div>· 质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects-sq_dezeen_2364_col_2-1024x1024.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects" target="_blank" rel="noopener">London Museum Brings &quot;back a Bit of London&#x27;s Heritage&quot; with Smithfield Market Opening</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Dezeen 首页第 7 位</span><span class="chip" style="color:#334155">类型 文化</span></div>
+        <div class="foot">
+          <span class="src" style="background:#1d4ed8">Dezeen</span>
+          <span class="score">综合 34 分</span>
+          <button type="button" class="mini" data-more="m1692f48c4a99">详情</button>
+          <button type="button" class="mini" data-fav="https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects"
+            data-t="London Museum Brings &quot;back a Bit of London&#x27;s Heritage&quot; with Smithfield Market Opening" data-s="Dezeen"
+            data-c="https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects-sq_dezeen_2364_col_2-1024x1024.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m1692f48c4a99"><div class="kv"><b>摘要</b><span>Architecture studios Stanton Williams , Asif Khan and Julian Harrap Architects have completed their long-awaited transformation of the 1880s Smithfield General Market into the London Museum. Opening t…</span></div><div class="why"><b>为什么推荐 · 合计 34 分</b><div>· 热度 12.0：Dezeen 首页第 7 位→12.0</div><div>· 质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://www.designboom.com/wp-content/uploads/2026/11/ZHA-architects-theatre-royal-de-rabat-morocco-hufton-crow-designboom-700-500x400-22b08q85r106.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow" target="_blank" rel="noopener">Inside ZHA’s Royal Theater in Morocco, White Curves Meet Crystalline Caverns</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">Designboom 首页第 6 位</span><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 Morocco</span></div>
+        <div class="foot">
+          <span class="src" style="background:#7c3aed">Designboom</span>
+          <span class="score">综合 33 分</span>
+          <button type="button" class="mini" data-more="mf9387e4d7852">详情</button>
+          <button type="button" class="mini" data-fav="https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow"
+            data-t="Inside ZHA’s Royal Theater in Morocco, White Curves Meet Crystalline Caverns" data-s="Designboom"
+            data-c="https://www.designboom.com/wp-content/uploads/2026/11/ZHA-architects-theatre-royal-de-rabat-morocco-hufton-crow-designboom-700-500x400-22b08q85r106.jpg" data-d="2026-11-24">收藏</button>
+          <a class="mini" href="https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mf9387e4d7852"><div class="kv"><b>所在地</b><span>Morocco</span></div><div class="kv"><b>摘要</b><span>new images reveal ZHA&amp;#8217;s royal theater in rabat &amp;nbsp; Zaha Hadid Architects (ZHA) has released new photographs of the Théâtre Royal de Rabat in Morocco , revealing the completed architecture of …</span></div><div class="why"><b>为什么推荐 · 合计 33 分</b><div>· 热度 9.5：Designboom 首页第 6 位→9.5</div><div>· 质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「文化」+3；地域「Morocco」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-11-18 ~ 2026-11-24）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 1 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>

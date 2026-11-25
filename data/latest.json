@@ -1,16 +1,16 @@
 {
-  "date": "2026-11-23",
-  "window_start": "2026-11-17",
-  "window_end": "2026-11-23",
+  "date": "2026-11-24",
+  "window_start": "2026-11-18",
+  "window_end": "2026-11-24",
   "window_days": 7,
-  "generated_at": "2026-11-24T15:37:37+08:00",
+  "generated_at": "2026-11-25T12:51:13+08:00",
   "sources": [
     {
       "source": "ArchDaily",
       "ok": true,
-      "total": 63,
-      "oldest": "2026-10-22",
-      "newest": "2026-11-24",
+      "total": 64,
+      "oldest": "2026-10-23",
+      "newest": "2026-11-25",
       "hit": 102,
       "stale_days": -1,
       "stale": false
@@ -18,10 +18,10 @@
     {
       "source": "ArchDaily中国",
       "ok": true,
-      "total": 63,
-      "oldest": "2026-10-22",
-      "newest": "2026-11-24",
-      "hit": 99,
+      "total": 64,
+      "oldest": "2026-10-23",
+      "newest": "2026-11-25",
+      "hit": 100,
       "stale_days": -1,
       "stale": false
     },
@@ -30,7 +30,7 @@
       "ok": true,
       "total": 54,
       "oldest": "2026-11-18",
-      "newest": "2026-11-24",
+      "newest": "2026-11-25",
       "hit": 59,
       "stale_days": -1,
       "stale": false
@@ -39,19 +39,19 @@
       "source": "Dezeen",
       "ok": true,
       "total": 50,
-      "oldest": "2026-11-17",
-      "newest": "2026-11-24",
-      "hit": 55,
+      "oldest": "2026-11-18",
+      "newest": "2026-11-25",
+      "hit": 53,
       "stale_days": -1,
       "stale": false
     },
     {
       "source": "Designboom",
       "ok": true,
-      "total": 4,
-      "oldest": "2026-11-23",
-      "newest": "2026-11-24",
-      "hit": 19,
+      "total": 3,
+      "oldest": "2026-11-24",
+      "newest": "2026-11-25",
+      "hit": 20,
       "stale_days": -1,
       "stale": false
     },
@@ -59,10 +59,10 @@
       "source": "有方空间",
       "ok": true,
       "total": 16,
-      "oldest": "2026-11-19",
+      "oldest": "2026-11-20",
       "newest": "2026-11-24",
       "hit": 20,
-      "stale_days": -1,
+      "stale_days": 0,
       "stale": false
     },
     {
@@ -70,22 +70,37 @@
       "ok": true,
       "total": 10,
       "oldest": "2026-08-12",
-      "newest": "2026-11-17",
+      "newest": "2026-11-24",
       "hit": 2,
-      "stale_days": 6,
+      "stale_days": 0,
       "stale": false
     }
   ],
   "candidate_count": 356,
-  "new_stored": 10,
-  "store_total": 2254,
-  "after_dedupe": 207,
-  "noise_count": 14,
-  "heat_signal_count": 124,
-  "heat_hit_count": 70,
-  "out_of_window_count": 0,
+  "new_stored": 52,
+  "store_total": 2306,
+  "after_dedupe": 210,
+  "noise_count": 13,
+  "heat_signal_count": 126,
+  "heat_hit_count": 74,
+  "out_of_window_count": 1,
   "count": 10,
   "noise": [
+    {
+      "title": "Meet Courage Dzidula Kpodo, Lesley Lokko's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/courage-dzidula-kpodo-interview-lesley-lokko-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging architect of the year Kuma&Elsa",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect"
+    },
+    {
+      "title": "Architects and designers celebrate at Dezeen Awards 2026 party in London",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/dezeen-awards-2026-party-london"
+    },
     {
       "title": "Meet AMAA, Neri&Hu’s pick for the most influential architect of the next 20 years",
       "source": "Dezeen",
@@ -135,26 +150,6 @@
       "title": "Bubbly lamp by Canalside Studio among nine new products on Dezeen Showroom",
       "source": "Dezeen",
       "url": "https://www.dezeen.com/2026/11/18/bubbly-lamp-canalside-studio-lighting-furniture-products-surfaces-dezeen-showroom"
-    },
-    {
-      "title": "Discover this year's Dezeen Awards Designers of the Year",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/16/discover-this-years-dezeen-awards-designers-of-the-year"
-    },
-    {
-      "title": "Dezeen Awards 2026 architecture project of the year revealed",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-architecture-project-of-the-year-revealed"
-    },
-    {
-      "title": "Dezeen Awards 2026 interiors project of the year announced",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-interiors-project-of-the-year-announced"
-    },
-    {
-      "title": "Dezeen Awards 2026 design project of the year winner named",
-      "source": "Dezeen",
-      "url": "https://www.dezeen.com/2026/11/16/dezeen-awards-2026-design-project-of-the-year-winner-va-east-storehouse"
     }
   ],
   "items": [
@@ -162,35 +157,34 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "临高百仞滩闸坝改造，海南 / 素朴工作室",
-      "url": "https://www.gooood.cn/lingao-bairentan-weir-revitalization-project-by-sup-atelier.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/002-hf9-472x303.jpg",
-      "summary": "景观  从水坝到桥亭——基础设施承载公共生活 2026.11.20 收藏 分享",
-      "published_at": "2026-11-20T11:26:58+08:00",
-      "first_seen": "2026-11-20T12:53:21+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
+      "title": "湖北工建机电科技产业园3#楼，武汉 / 浙江大学建筑设计研究院",
+      "url": "https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/002-cyw-472x303.jpg",
+      "summary": "建筑  以正反模与弧形UHPC构件实现形质合一的装配式展厅 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T16:47:55+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
       "meta": {
-        "area": "10360 m²",
-        "year": "2021",
-        "photographer": "夏至"
+        "area": "2562.82 m²",
+        "photographer": "Chill Shine 丘文三映"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1700 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1646 次"
       ],
-      "views": 1700,
+      "views": 1646,
       "heat_rank": 9,
       "is_project": true,
-      "btype": "景观",
-      "region": "海南",
+      "btype": "教育",
+      "region": "武汉",
       "city": "",
-      "architect": "素朴工作室",
-      "heat_score": 23.9,
+      "architect": "",
+      "heat_score": 20.8,
       "quality_score": 33.4,
-      "score": 57.3,
+      "score": 54.2,
       "reasons": [
-        "热度 23.9：谷德 7 天最热 第 9 名 · 阅读 1700 次→23.9",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「海南」+3；封面图+2"
+        "热度 20.8：谷德 7 天最热 第 9 名 · 阅读 1646 次→20.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「武汉」+3；封面图+2"
       ],
       "rank": 1
     },
@@ -198,256 +192,250 @@
       "source": "谷德设计网",
       "weight": 0.92,
       "lang": "zh",
-      "title": "西岸公园·氧痒乐园，烟台 / 派澜儿童",
-      "url": "https://www.gooood.cn/west-park-o2park-by-partner-playgrounds.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/11/001-bpz-472x303.jpg",
-      "summary": "景观  遗落的潮间带 2026.11.20 收藏 分享",
-      "published_at": "2026-11-20T15:52:57+08:00",
+      "title": "MATATA酒吧，西安 / NEX衍界建筑",
+      "url": "https://www.gooood.cn/matata-bar-nex-architecture.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/matata-cover-700x449-472x303.jpg",
+      "summary": "建筑  “古典哥特梦核”的当代演绎 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T17:46:52+08:00",
       "first_seen": "2026-11-21T11:04:12+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
       "meta": {
-        "city": "氧痒乐园",
-        "country": "烟台"
+        "photographer": "KEVIN"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1627 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1637 次"
       ],
-      "views": 1627,
+      "views": 1637,
       "heat_rank": 10,
       "is_project": true,
-      "btype": "景观",
-      "region": "烟台",
-      "city": "氧痒乐园",
-      "architect": "派澜儿童",
-      "heat_score": 22.9,
-      "quality_score": 33.4,
-      "score": 56.3,
+      "btype": null,
+      "region": "西安",
+      "city": "",
+      "architect": "NEX衍界建筑",
+      "heat_score": 20.7,
+      "quality_score": 30.4,
+      "score": 51.1,
       "reasons": [
-        "热度 22.9：谷德 7 天最热 第 10 名 · 阅读 1627 次→22.9",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「烟台」+3；封面图+2"
+        "热度 20.7：谷德 7 天最热 第 10 名 · 阅读 1637 次→20.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「西安」+3；封面图+2"
       ],
       "rank": 2
     },
     {
-      "source": "谷德设计网",
-      "weight": 0.92,
-      "lang": "zh",
-      "title": "2026 ASLA住宅设计类荣誉奖：避风港：一个景观主导的LEED铂金社区，美国 / Design Workshop",
-      "url": "https://www.gooood.cn/a-landscape-led-leed-platinum-neighborhood-usa-design-workshop.htm",
-      "cover": "https://oss.gooood.cn/uploads/2026/09/00-The-Havens-A-Landscape-Led-LEED-Platinum-Neighborhood--472x303.jpg",
-      "summary": "建筑  一个将传统度假开发比例倒置的景观主导框架，兼具市场差异化与生态驱动力的可复制模式 2026.11.20 收藏 分享",
-      "published_at": "2026-11-20T08:59:14+08:00",
-      "first_seen": "2026-11-20T10:56:32+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
-      "meta": {},
-      "strong_heat": true,
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Kindergarten Aegelmatt / Brandenberger Kloter",
+      "url": "https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter",
+      "cover": "https://images.adsttc.com/media/images/6af7/ce1d/eabd/2a00/0192/f1b0/newsletter/Aegelmatt_01_Aussenansicht_mit_Spielplatz_Foto_Willem_Pab.jpg?1794625080",
+      "summary": "November 24 © Willem Pab + 13 Educational Architecture , Kindergarten • Pratteln, Switzerland Architects: Brandenberger Kloter Area Area of this architecture project Area: 1135 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter Nina Vuga Read more »",
+      "published_at": "2026-11-24T23:00:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {
+        "photographer": "Willem Pab",
+        "image_count": 13,
+        "city": "Pratteln",
+        "country": "Switzerland",
+        "architect": "Brandenberger Kloter",
+        "area": "1135 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1568 次"
+        "ArchDaily 首页第 8 位"
       ],
-      "views": 1568,
-      "heat_rank": 11,
       "is_project": true,
-      "btype": "住宅",
-      "region": "美国",
-      "city": "",
-      "architect": "Design Workshop",
-      "heat_score": 22.1,
-      "quality_score": 33.4,
-      "score": 55.5,
+      "btype": "教育",
+      "region": "瑞士",
+      "city": "Pratteln",
+      "architect": "Brandenberger Kloter",
+      "heat_score": 15.6,
+      "quality_score": 40.0,
+      "score": 55.6,
       "reasons": [
-        "热度 22.1：谷德 7 天最热 第 11 名 · 阅读 1568 次→22.1",
-        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「美国」+3；封面图+2"
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「教育」+3；地域「瑞士」+3；封面图+2；含面积数据+2"
       ],
       "rank": 3
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "Farmhouse in Novohradské Hory Reconstruction / Jan Vranovský",
-      "url": "https://www.archdaily.com/1188647/farmhouse-in-novohradske-hory-reconstruction-jan-vranovsky",
-      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6af7/de30/eabd/2a00/0192/f24e/slideshow/Novohradske_hory_2.jpg?1794629203&format=webp&width=640&height=580",
-      "summary": "November 23 © Jan Vranovský + 21 Refurbishment , Adaptive reuse , Renovation • Czechia Architects: Jan Vranovský Area Area of this architecture project Area: 100 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: BDoors s.r.o. , BOCA spol. s.r.o. , Maskop 99 spol s.r.o. https://www.archdaily.com/118864",
-      "published_at": "2026-11-23T23:00:00+08:00",
+      "lang": "zh",
+      "title": "柔性分区公寓 / SABO project",
+      "url": "https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project",
+      "cover": "https://images.adsttc.com/media/images/6aff/0031/eabd/2a00/0193/2472/newsletter/sabo-work-division-02.jpg?1795096644",
+      "summary": "十一月 23 © Alexandre Delaunay + 13 • New York, 美国 建筑师: SABO project 面积 该建筑项目的领域 面积: 728 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project Susanna Moreira 阅读更多 »",
+      "published_at": "2026-11-24T01:00:00+08:00",
       "first_seen": "2026-11-24T13:51:10+08:00",
       "last_seen": "2026-11-24T15:37:32+08:00",
+      "alt_url": "https://www.archdaily.com/1188937/soft-division-apartment-sabo-project",
+      "bilingual": true,
       "meta": {
-        "photographer": "Jan Vranovský",
-        "image_count": 21,
-        "architect": "Jan Vranovský",
-        "area": "100 m²",
-        "year": "2026",
-        "brands": [
-          "BDoors s.r.o.",
-          "BOCA spol. s.r.o.",
-          "Maskop 99 spol s.r.o."
-        ]
+        "photographer": "Alexandre Delaunay",
+        "image_count": 13,
+        "city": "New York",
+        "country": "美国",
+        "architect": "SABO project",
+        "year": "2026"
       },
       "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily 首页第 9 位"
-      ],
+      "heat_labels": [],
       "is_project": true,
       "btype": "住宅",
-      "region": "Novohradsk",
-      "city": "",
-      "architect": "Jan Vranovský",
-      "heat_score": 14.7,
-      "quality_score": 40.0,
-      "score": 54.7,
+      "region": "美国",
+      "city": "New York",
+      "architect": "SABO project",
+      "heat_score": 11.5,
+      "quality_score": 39.0,
+      "score": 50.5,
       "reasons": [
-        "热度 14.7：ArchDaily 首页第 9 位→14.7",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集21张+8；类型「住宅」+3；地域「Novohradsk」+3；封面图+2；含面积数据+2；含材料厂家+1"
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「美国」+3；封面图+2"
       ],
       "rank": 4
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "Red Top Meadows Residential Treatment Facility / untitled architecture",
-      "url": "https://www.archdaily.com/1188919/red-top-meadows-residential-treatment-facility-untitled-architecture",
-      "cover": "https://images.adsttc.com/media/images/6afe/e7ab/eabd/2a00/0193/2381/newsletter/krafty_photos_red_top_summer-15.jpg?1795090445",
-      "summary": "November 23 © Aaron Kraft + 18 Healthcare • Jackson, United States Architects: untitled architecture Area Area of this architecture project Area: 8945 ft² Year Completion year of this architecture project Year: 2025 Manufacturers Brands with products used in this architecture project Manufacturers: Jeld-Wen , Tendaro https://www.archdaily.com/1188919/red-top-meadows-residential-treatment-facility-",
-      "published_at": "2026-11-23T20:00:00+08:00",
-      "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
+      "lang": "zh",
+      "title": "Kaklebi 私人住宅 / Werkraum Design Architecture",
+      "url": "https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture",
+      "cover": "https://images.adsttc.com/media/images/6af1/8c88/4ba6/4700/01d0/80a0/newsletter/Grigory_Sokolinsky_19.jpg?1794215149",
+      "summary": "十一月 24 © Grigory Sokolinsky + 27 • Tbilisi, 格鲁吉亚 建筑师: Werkraum Design Architecture 面积 该建筑项目的领域 面积: 630 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-24T19:00:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "alt_url": "https://www.archdaily.com/1188266/private-house-in-kaklebi",
+      "bilingual": true,
       "meta": {
-        "photographer": "Aaron Kraft",
-        "image_count": 18,
-        "city": "Jackson",
-        "country": "United",
-        "architect": "untitled architecture",
-        "year": "2025",
-        "brands": [
-          "Jeld-Wen",
-          "Tendaro"
-        ]
+        "photographer": "Grigory Sokolinsky",
+        "image_count": 27,
+        "city": "Tbilisi",
+        "country": "格鲁吉亚",
+        "architect": "Werkraum Design Architecture",
+        "area": "630 m²",
+        "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 11 位"
+        "ArchDaily中国 首页第 12 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "United",
-      "city": "Jackson",
-      "architect": "untitled architecture",
-      "heat_score": 12.8,
+      "region": "格鲁吉亚",
+      "city": "Tbilisi",
+      "architect": "Werkraum Design Architecture",
+      "heat_score": 9.4,
       "quality_score": 40.0,
-      "score": 52.8,
+      "score": 49.4,
       "reasons": [
-        "热度 12.8：ArchDaily 首页第 11 位→12.8",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集18张+5；类型「住宅」+3；地域「United」+3；封面图+2；含材料厂家+1"
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「格鲁吉亚」+3；封面图+2；含面积数据+2"
       ],
       "rank": 5
     },
     {
       "source": "ArchDaily",
       "weight": 1.0,
-      "lang": "en",
-      "title": "Stammhaus / KOSMOS Architects + Gordon Selbach",
-      "url": "https://www.archdaily.com/1188730/stammhaus-kosmos-architects-plus-gordon-selbach",
-      "cover": "https://images.adsttc.com/media/images/6afb/cdf8/c23f/1f52/896d/752e/medium_jpg/stammhaus-kosmos-architects-plus-gordon-selbach_4.jpg?1794887198",
-      "summary": "November 23 © Rasmus Norlander + 30 Houses , Refurbishment , Adaptive reuse • Vienna, Austria Architects: Gordon Selbach , KOSMOS Architects Area Area of this architecture project Area: 450 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188730/stammhaus-kosmos-architects-plus-gordon-selbach Nina Vuga Read more »",
-      "published_at": "2026-11-23T19:00:00+08:00",
-      "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
+      "lang": "zh",
+      "title": "Abishkar 住宅 / SYSTEM architects - EKNC",
+      "url": "https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc",
+      "cover": "https://images.adsttc.com/media/images/6b04/5146/2bc2/8501/8901/2892/newsletter/abishkar-residence-system-architects-eknc_22.jpg?1795445095",
+      "summary": "十一月 24 © Maruf Raihan + 26 • Dhaka, 孟加拉 建筑师: SYSTEM architects - EKNC 面积 该建筑项目的领域 面积: 6588 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc Miwa Negoro 阅读更多 »",
+      "published_at": "2026-11-24T15:00:00+08:00",
+      "first_seen": "2026-11-24T15:37:32+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "alt_url": "https://www.archdaily.com/1187086/abishkar-residence-system-architects-eknc",
+      "bilingual": true,
       "meta": {
-        "photographer": "Rasmus Norlander",
-        "image_count": 30,
-        "city": "Vienna",
-        "country": "Austria",
-        "architect": "Gordon Selbach , KOSMOS Architects",
-        "area": "450 m²",
+        "photographer": "Maruf Raihan",
+        "image_count": 26,
+        "city": "Dhaka",
+        "country": "孟加拉",
+        "architect": "SYSTEM architects - EKNC",
+        "area": "6588 m²",
         "year": "2026"
       },
       "strong_heat": false,
       "heat_labels": [
-        "ArchDaily 首页第 14 位"
+        "ArchDaily中国 首页第 16 位"
       ],
       "is_project": true,
       "btype": "住宅",
-      "region": "奥地利",
-      "city": "Vienna",
-      "architect": "Gordon Selbach , KOSMOS Architects",
-      "heat_score": 10.1,
+      "region": "孟加拉",
+      "city": "Dhaka",
+      "architect": "SYSTEM architects - EKNC",
+      "heat_score": 7.8,
       "quality_score": 40.0,
-      "score": 50.1,
+      "score": 47.8,
       "reasons": [
-        "热度 10.1：ArchDaily 首页第 14 位→10.1",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集30张+8；类型「住宅」+3；地域「奥地利」+3；封面图+2；含面积数据+2"
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「孟加拉」+3；封面图+2；含面积数据+2"
       ],
       "rank": 6
     },
     {
-      "source": "ArchDaily",
-      "weight": 1.0,
+      "source": "谷德设计网",
+      "weight": 0.92,
       "lang": "zh",
-      "title": "Powerhouse Parramatta 帕拉马塔动力博物馆 / Moreau Kusunoki + Genton",
-      "url": "https://www.archdaily.cn/zh/1188956/powerhouse-parramatta-pa-la-ma-ta-dong-li-bo-wu-guan-moreau-kusunoki-plus-genton",
-      "cover": "https://images.adsttc.com/media/images/6aff/1562/c23f/1f6a/4351/69b4/newsletter/powerhouse-parramatta-moreau-kusunoki-plus-genton_1.jpg?1795102079",
-      "summary": "十一月 23 © Powerhouse studio + 29 • Parramatta, 澳大利亚 建筑师: Genton , Moreau Kusunoki 面积 该建筑项目的领域 面积: 30000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188956/powerhouse-parramatta-pa-la-ma-ta-dong-li-bo-wu-guan-moreau-kusunoki-plus-genton Miwa Negoro 阅读更多 »",
-      "published_at": "2026-11-23T16:00:00+08:00",
+      "title": "MRES住宅，塞里福斯岛 / MOLD Architects",
+      "url": "https://www.gooood.cn/mres-by-mold-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/MRES-MOLD-cover-472x303.jpg",
+      "summary": "建筑  七座庭院，藏在山顶的方形体量中 2026.11.24 收藏 分享",
+      "published_at": "2026-11-24T11:27:27+08:00",
       "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
-      "alt_url": "https://www.archdaily.com/1188953/powerhouse-parramatta-moreau-kusunoki-plus-genton",
-      "bilingual": true,
+      "last_seen": "2026-11-25T12:51:01+08:00",
       "meta": {
-        "photographer": "Powerhouse studio",
-        "image_count": 29,
-        "city": "Parramatta",
-        "country": "澳大利亚",
-        "architect": "Genton , Moreau Kusunoki",
-        "area": "30000 m²",
-        "year": "2026"
-      },
-      "strong_heat": false,
-      "heat_labels": [
-        "ArchDaily中国 首页第 18 位"
-      ],
-      "is_project": true,
-      "btype": "住宅",
-      "region": "澳大利亚",
-      "city": "Parramatta",
-      "architect": "Genton , Moreau Kusunoki",
-      "heat_score": 6.9,
-      "quality_score": 40.0,
-      "score": 46.9,
-      "reasons": [
-        "热度 6.9：ArchDaily中国 首页第 18 位→2.9；中英双版+4",
-        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集29张+8；类型「住宅」+3；地域「澳大利亚」+3；封面图+2；含面积数据+2"
-      ],
-      "rank": 7
-    },
-    {
-      "source": "有方空间",
-      "weight": 0.8,
-      "lang": "zh",
-      "title": "曲线克制的家，金华都市外滩住宅 / MOON LAB",
-      "url": "https://www.archiposition.com/items/8dd969fd53",
-      "cover": "https://image.archiposition.com/2026/11/101795417065.png?x-oss-process=image/resize,m_fill,w_917,h_600",
-      "summary": "以标准曲率换取异形视效，在造价、工艺难度与视觉丰富度之间寻找平衡。",
-      "published_at": "2026-11-23T15:46:01+08:00",
-      "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
-      "meta": {
-        "area": "200 m²"
+        "area": "270 m²",
+        "year": "2011",
+        "photographer": "Giorgos Sfakianakis"
       },
       "strong_heat": false,
       "heat_labels": [],
       "is_project": true,
       "btype": "住宅",
-      "region": "金华都市外滩住宅",
+      "region": "塞里福斯岛",
       "city": "",
-      "architect": "MOON LAB",
-      "heat_score": 0.0,
-      "quality_score": 32.4,
-      "score": 32.4,
+      "architect": "MOLD Architects",
+      "heat_score": 7.5,
+      "quality_score": 33.4,
+      "score": 40.9,
       "reasons": [
-        "热度 0.0：无信号",
-        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「住宅」+3；地域「金华都市外滩住宅」+3；封面图+2"
+        "热度 7.5：2 家媒体报道+7.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「塞里福斯岛」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Biscuit-tin lids, horse brasses and scrap metal form sculptural V&A Christmas tree by Burberry",
+      "url": "https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/burberry-va-christmas-tree-2026_dezeen_2364_col_sq-1024x1024.jpg",
+      "summary": "Fashion brand Burberry 's chief creative officer Daniel Lee worked with artist Ann Carrington to create a Christmas tree sculpture for the Victoria &amp; Albert Museum , made from \"memories, traditions and little treasures.\" The 16-foot (4.8-metre) tree, which was unveiled this week, sits in the entrance hall of the Victoria &amp; Albert Museum (VA's) South Kensington location and was designed to ",
+      "published_at": "2026-11-24T18:45:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 3 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": null,
+      "city": "",
+      "architect": "Burberry",
+      "heat_score": 14.7,
+      "quality_score": 21.6,
+      "score": 36.3,
+      "reasons": [
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
       ],
       "rank": 8
     },
@@ -455,59 +443,59 @@
       "source": "Dezeen",
       "weight": 0.95,
       "lang": "en",
-      "title": "HTA Design unveils \"UK's largest council housing development\"",
-      "url": "https://www.dezeen.com/2026/11/23/kidbrooke-park-road-hta-design",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/kidbrooke-park-road-hta-design-council-housing_dezeen_2364_sq-1024x1024.jpg",
-      "summary": "A collection of brick-clad buildings containing over 450 homes forms Kidbrooke Park Road in London , which architecture studio HTA Design &nbsp;claims is the largest new-build council housing development in the UK . Built on a formerly disused site in Greenwich, the development contains 452 homes, all of which are social housing. Construction company Durkan delivered Kidbrooke Park Road for the Ro",
-      "published_at": "2026-11-23T19:30:00+08:00",
-      "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-24T15:37:32+08:00",
+      "title": "London Museum brings \"back a bit of London's heritage\" with Smithfield Market opening",
+      "url": "https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects-sq_dezeen_2364_col_2-1024x1024.jpg",
+      "summary": "Architecture studios Stanton Williams , Asif Khan and Julian Harrap Architects have completed their long-awaited transformation of the 1880s Smithfield General Market into the London Museum. Opening to the public on Saturday, the former Victorian market hall now functions as a museum that tells the story of London's history through exhibitions designed by German studio Atelier Brückner . According",
+      "published_at": "2026-11-24T17:54:18+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 5 位"
+        "Dezeen 首页第 7 位"
       ],
       "is_project": false,
-      "btype": "住宅",
-      "region": "英国",
+      "btype": "文化",
+      "region": null,
       "city": "",
       "architect": "",
-      "heat_score": 13.3,
-      "quality_score": 18.6,
-      "score": 31.9,
+      "heat_score": 12.0,
+      "quality_score": 21.6,
+      "score": 33.6,
       "reasons": [
-        "热度 13.3：Dezeen 首页第 5 位→13.3",
-        "质量 18.6：站点权重0.95→7.6；类型「住宅」+3；地域「英国」+3；封面图+2"
+        "热度 12.0：Dezeen 首页第 7 位→12.0",
+        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
       ],
       "rank": 9
     },
     {
-      "source": "Dezeen",
-      "weight": 0.95,
+      "source": "Designboom",
+      "weight": 0.82,
       "lang": "en",
-      "title": "IKEA's Color of the Year \"unexpectedly fits in\"",
-      "url": "https://www.dezeen.com/2026/11/23/ikeas-color-of-the-year-2027-wild-fig",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/04/ikea-ps-2026-lamp-lex-pott_dezeen_2364_col_2.jpg",
-      "summary": "Swedish retailer IKEA has unveiled its prediction for 2027's Color of the Year – a dark, reddish-purple shade called Wild Fig. Although revealed by IKEA US as part of its 2027 Style Guide, keen eyes would've already seen the shade pop up earlier this year in the sell-out floor lamp created by Dutch designer Lex Pott for IKEA's PS Collection. IKEA US has named Wild Fig its Color of the Year The com",
-      "published_at": "2026-11-23T18:45:00+08:00",
+      "title": "inside ZHA’s royal theater in morocco, white curves meet crystalline caverns",
+      "url": "https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/ZHA-architects-theatre-royal-de-rabat-morocco-hufton-crow-designboom-700-500x400-22b08q85r106.jpg",
+      "summary": "new images reveal ZHA&#8217;s royal theater in rabat &nbsp; Zaha Hadid Architects (ZHA) has released new photographs of the Théâtre Royal de Rabat in Morocco , revealing the completed architecture of its first realized project in Africa. Captured by Hufton + Crow , the images trace the theater &#8216;s sweeping white exterior along the Bouregreg River before moving inside, where intersecting stair",
+      "published_at": "2026-11-24T03:10:51+08:00",
       "first_seen": "2026-11-24T13:51:10+08:00",
       "last_seen": "2026-11-24T15:37:32+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
-        "Dezeen 首页第 4 位"
+        "Designboom 首页第 6 位"
       ],
       "is_project": false,
-      "btype": "商业",
-      "region": null,
+      "btype": "文化",
+      "region": "Morocco",
       "city": "",
       "architect": "",
-      "heat_score": 14.0,
-      "quality_score": 15.6,
-      "score": 29.6,
+      "heat_score": 9.5,
+      "quality_score": 23.6,
+      "score": 33.1,
       "reasons": [
-        "热度 14.0：Dezeen 首页第 4 位→14.0",
-        "质量 15.6：站点权重0.95→7.6；类型「商业」+3；封面图+2"
+        "热度 9.5：Designboom 首页第 6 位→9.5",
+        "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「文化」+3；地域「Morocco」+3；封面图+2"
       ],
       "rank": 10
     }

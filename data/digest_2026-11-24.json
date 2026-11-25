@@ -1,0 +1,503 @@
+{
+  "date": "2026-11-24",
+  "window_start": "2026-11-18",
+  "window_end": "2026-11-24",
+  "window_days": 7,
+  "generated_at": "2026-11-25T12:51:13+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-23",
+      "newest": "2026-11-25",
+      "hit": 102,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-23",
+      "newest": "2026-11-25",
+      "hit": 100,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-18",
+      "newest": "2026-11-25",
+      "hit": 59,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-18",
+      "newest": "2026-11-25",
+      "hit": 53,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 3,
+      "oldest": "2026-11-24",
+      "newest": "2026-11-25",
+      "hit": 20,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 16,
+      "oldest": "2026-11-20",
+      "newest": "2026-11-24",
+      "hit": 20,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-12",
+      "newest": "2026-11-24",
+      "hit": 2,
+      "stale_days": 0,
+      "stale": false
+    }
+  ],
+  "candidate_count": 356,
+  "new_stored": 52,
+  "store_total": 2306,
+  "after_dedupe": 210,
+  "noise_count": 13,
+  "heat_signal_count": 126,
+  "heat_hit_count": 74,
+  "out_of_window_count": 1,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Meet Courage Dzidula Kpodo, Lesley Lokko's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/courage-dzidula-kpodo-interview-lesley-lokko-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging architect of the year Kuma&Elsa",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect"
+    },
+    {
+      "title": "Architects and designers celebrate at Dezeen Awards 2026 party in London",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/dezeen-awards-2026-party-london"
+    },
+    {
+      "title": "Meet AMAA, Neri&Hu’s pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu"
+    },
+    {
+      "title": "This week we launched a series celebrating the top architects and designers of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week"
+    },
+    {
+      "title": "Meet Lanza Atelier, Frida Escobedo's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20"
+    },
+    {
+      "title": "\"All over the world, buildings designed to be explored in 3D are subject to restrictions\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion"
+    },
+    {
+      "title": "The best designers in the world right now",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day Two Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188992/world-architecture-festival-2026-day-two-winners-announced"
+    },
+    {
+      "title": "podcast: indian architects ask who shapes homes: algorithms or occupants",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-09-10"
+    },
+    {
+      "title": "A Guide to Urban Resilience Against El Niño and BIG's Refugee City Masterplan: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day One Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188890/world-architecture-festival-2026-day-one-winners-announced"
+    },
+    {
+      "title": "Bubbly lamp by Canalside Studio among nine new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/18/bubbly-lamp-canalside-studio-lighting-furniture-products-surfaces-dezeen-showroom"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "湖北工建机电科技产业园3#楼，武汉 / 浙江大学建筑设计研究院",
+      "url": "https://www.gooood.cn/exhibition-hall-no-3-hubei-construction-engineering-industry-technology-park-by-uad.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/002-cyw-472x303.jpg",
+      "summary": "建筑  以正反模与弧形UHPC构件实现形质合一的装配式展厅 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T16:47:55+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {
+        "area": "2562.82 m²",
+        "photographer": "Chill Shine 丘文三映"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1646 次"
+      ],
+      "views": 1646,
+      "heat_rank": 9,
+      "is_project": true,
+      "btype": "教育",
+      "region": "武汉",
+      "city": "",
+      "architect": "",
+      "heat_score": 20.8,
+      "quality_score": 33.4,
+      "score": 54.2,
+      "reasons": [
+        "热度 20.8：谷德 7 天最热 第 9 名 · 阅读 1646 次→20.8",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「武汉」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "MATATA酒吧，西安 / NEX衍界建筑",
+      "url": "https://www.gooood.cn/matata-bar-nex-architecture.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/matata-cover-700x449-472x303.jpg",
+      "summary": "建筑  “古典哥特梦核”的当代演绎 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T17:46:52+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {
+        "photographer": "KEVIN"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1637 次"
+      ],
+      "views": 1637,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": null,
+      "region": "西安",
+      "city": "",
+      "architect": "NEX衍界建筑",
+      "heat_score": 20.7,
+      "quality_score": 30.4,
+      "score": 51.1,
+      "reasons": [
+        "热度 20.7：谷德 7 天最热 第 10 名 · 阅读 1637 次→20.7",
+        "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「西安」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Kindergarten Aegelmatt / Brandenberger Kloter",
+      "url": "https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter",
+      "cover": "https://images.adsttc.com/media/images/6af7/ce1d/eabd/2a00/0192/f1b0/newsletter/Aegelmatt_01_Aussenansicht_mit_Spielplatz_Foto_Willem_Pab.jpg?1794625080",
+      "summary": "November 24 © Willem Pab + 13 Educational Architecture , Kindergarten • Pratteln, Switzerland Architects: Brandenberger Kloter Area Area of this architecture project Area: 1135 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter Nina Vuga Read more »",
+      "published_at": "2026-11-24T23:00:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {
+        "photographer": "Willem Pab",
+        "image_count": 13,
+        "city": "Pratteln",
+        "country": "Switzerland",
+        "architect": "Brandenberger Kloter",
+        "area": "1135 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "教育",
+      "region": "瑞士",
+      "city": "Pratteln",
+      "architect": "Brandenberger Kloter",
+      "heat_score": 15.6,
+      "quality_score": 40.0,
+      "score": 55.6,
+      "reasons": [
+        "热度 15.6：ArchDaily 首页第 8 位→15.6",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「教育」+3；地域「瑞士」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "柔性分区公寓 / SABO project",
+      "url": "https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project",
+      "cover": "https://images.adsttc.com/media/images/6aff/0031/eabd/2a00/0193/2472/newsletter/sabo-work-division-02.jpg?1795096644",
+      "summary": "十一月 23 © Alexandre Delaunay + 13 • New York, 美国 建筑师: SABO project 面积 该建筑项目的领域 面积: 728 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189050/rou-xing-fen-qu-gong-yu-sabo-project Susanna Moreira 阅读更多 »",
+      "published_at": "2026-11-24T01:00:00+08:00",
+      "first_seen": "2026-11-24T13:51:10+08:00",
+      "last_seen": "2026-11-24T15:37:32+08:00",
+      "alt_url": "https://www.archdaily.com/1188937/soft-division-apartment-sabo-project",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Alexandre Delaunay",
+        "image_count": 13,
+        "city": "New York",
+        "country": "美国",
+        "architect": "SABO project",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "美国",
+      "city": "New York",
+      "architect": "SABO project",
+      "heat_score": 11.5,
+      "quality_score": 39.0,
+      "score": 50.5,
+      "reasons": [
+        "热度 11.5：2 家媒体报道+7.5；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集13张+5；类型「住宅」+3；地域「美国」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Kaklebi 私人住宅 / Werkraum Design Architecture",
+      "url": "https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture",
+      "cover": "https://images.adsttc.com/media/images/6af1/8c88/4ba6/4700/01d0/80a0/newsletter/Grigory_Sokolinsky_19.jpg?1794215149",
+      "summary": "十一月 24 © Grigory Sokolinsky + 27 • Tbilisi, 格鲁吉亚 建筑师: Werkraum Design Architecture 面积 该建筑项目的领域 面积: 630 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture Cristina Popescu 阅读更多 »",
+      "published_at": "2026-11-24T19:00:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "alt_url": "https://www.archdaily.com/1188266/private-house-in-kaklebi",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Grigory Sokolinsky",
+        "image_count": 27,
+        "city": "Tbilisi",
+        "country": "格鲁吉亚",
+        "architect": "Werkraum Design Architecture",
+        "area": "630 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "格鲁吉亚",
+      "city": "Tbilisi",
+      "architect": "Werkraum Design Architecture",
+      "heat_score": 9.4,
+      "quality_score": 40.0,
+      "score": 49.4,
+      "reasons": [
+        "热度 9.4：ArchDaily中国 首页第 12 位→5.4；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集27张+8；类型「住宅」+3；地域「格鲁吉亚」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Abishkar 住宅 / SYSTEM architects - EKNC",
+      "url": "https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc",
+      "cover": "https://images.adsttc.com/media/images/6b04/5146/2bc2/8501/8901/2892/newsletter/abishkar-residence-system-architects-eknc_22.jpg?1795445095",
+      "summary": "十一月 24 © Maruf Raihan + 26 • Dhaka, 孟加拉 建筑师: SYSTEM architects - EKNC 面积 该建筑项目的领域 面积: 6588 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc Miwa Negoro 阅读更多 »",
+      "published_at": "2026-11-24T15:00:00+08:00",
+      "first_seen": "2026-11-24T15:37:32+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "alt_url": "https://www.archdaily.com/1187086/abishkar-residence-system-architects-eknc",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Maruf Raihan",
+        "image_count": 26,
+        "city": "Dhaka",
+        "country": "孟加拉",
+        "architect": "SYSTEM architects - EKNC",
+        "area": "6588 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 16 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "孟加拉",
+      "city": "Dhaka",
+      "architect": "SYSTEM architects - EKNC",
+      "heat_score": 7.8,
+      "quality_score": 40.0,
+      "score": 47.8,
+      "reasons": [
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；类型「住宅」+3；地域「孟加拉」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "MRES住宅，塞里福斯岛 / MOLD Architects",
+      "url": "https://www.gooood.cn/mres-by-mold-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/MRES-MOLD-cover-472x303.jpg",
+      "summary": "建筑  七座庭院，藏在山顶的方形体量中 2026.11.24 收藏 分享",
+      "published_at": "2026-11-24T11:27:27+08:00",
+      "first_seen": "2026-11-24T13:51:10+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {
+        "area": "270 m²",
+        "year": "2011",
+        "photographer": "Giorgos Sfakianakis"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "塞里福斯岛",
+      "city": "",
+      "architect": "MOLD Architects",
+      "heat_score": 7.5,
+      "quality_score": 33.4,
+      "score": 40.9,
+      "reasons": [
+        "热度 7.5：2 家媒体报道+7.5",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「塞里福斯岛」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Biscuit-tin lids, horse brasses and scrap metal form sculptural V&A Christmas tree by Burberry",
+      "url": "https://www.dezeen.com/2026/11/24/va-christmas-tree-burberry",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/burberry-va-christmas-tree-2026_dezeen_2364_col_sq-1024x1024.jpg",
+      "summary": "Fashion brand Burberry 's chief creative officer Daniel Lee worked with artist Ann Carrington to create a Christmas tree sculpture for the Victoria &amp; Albert Museum , made from \"memories, traditions and little treasures.\" The 16-foot (4.8-metre) tree, which was unveiled this week, sits in the entrance hall of the Victoria &amp; Albert Museum (VA's) South Kensington location and was designed to ",
+      "published_at": "2026-11-24T18:45:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 3 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": null,
+      "city": "",
+      "architect": "Burberry",
+      "heat_score": 14.7,
+      "quality_score": 21.6,
+      "score": 36.3,
+      "reasons": [
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "London Museum brings \"back a bit of London's heritage\" with Smithfield Market opening",
+      "url": "https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects-sq_dezeen_2364_col_2-1024x1024.jpg",
+      "summary": "Architecture studios Stanton Williams , Asif Khan and Julian Harrap Architects have completed their long-awaited transformation of the 1880s Smithfield General Market into the London Museum. Opening to the public on Saturday, the former Victorian market hall now functions as a museum that tells the story of London's history through exhibitions designed by German studio Atelier Brückner . According",
+      "published_at": "2026-11-24T17:54:18+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T12:51:01+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 7 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": null,
+      "city": "",
+      "architect": "",
+      "heat_score": 12.0,
+      "quality_score": 21.6,
+      "score": 33.6,
+      "reasons": [
+        "热度 12.0：Dezeen 首页第 7 位→12.0",
+        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "inside ZHA’s royal theater in morocco, white curves meet crystalline caverns",
+      "url": "https://www.designboom.com/architecture/zha-royal-theater-rabat-morocco-curves-crystalline-hufton-crow",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/ZHA-architects-theatre-royal-de-rabat-morocco-hufton-crow-designboom-700-500x400-22b08q85r106.jpg",
+      "summary": "new images reveal ZHA&#8217;s royal theater in rabat &nbsp; Zaha Hadid Architects (ZHA) has released new photographs of the Théâtre Royal de Rabat in Morocco , revealing the completed architecture of its first realized project in Africa. Captured by Hufton + Crow , the images trace the theater &#8216;s sweeping white exterior along the Bouregreg River before moving inside, where intersecting stair",
+      "published_at": "2026-11-24T03:10:51+08:00",
+      "first_seen": "2026-11-24T13:51:10+08:00",
+      "last_seen": "2026-11-24T15:37:32+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 6 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": "Morocco",
+      "city": "",
+      "architect": "",
+      "heat_score": 9.5,
+      "quality_score": 23.6,
+      "score": 33.1,
+      "reasons": [
+        "热度 9.5：Designboom 首页第 6 位→9.5",
+        "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「文化」+3；地域「Morocco」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
