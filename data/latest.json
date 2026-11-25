@@ -3,7 +3,7 @@
   "window_start": "2026-11-18",
   "window_end": "2026-11-24",
   "window_days": 7,
-  "generated_at": "2026-11-25T12:51:13+08:00",
+  "generated_at": "2026-11-25T14:05:58+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,12 +77,12 @@
     }
   ],
   "candidate_count": 356,
-  "new_stored": 52,
-  "store_total": 2306,
+  "new_stored": 3,
+  "store_total": 2309,
   "after_dedupe": 210,
   "noise_count": 13,
   "heat_signal_count": 126,
-  "heat_hit_count": 74,
+  "heat_hit_count": 72,
   "out_of_window_count": 1,
   "count": 10,
   "noise": [
@@ -163,16 +163,16 @@
       "summary": "建筑  以正反模与弧形UHPC构件实现形质合一的装配式展厅 2026.11.20 收藏 分享",
       "published_at": "2026-11-20T16:47:55+08:00",
       "first_seen": "2026-11-21T11:04:12+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "meta": {
         "area": "2562.82 m²",
         "photographer": "Chill Shine 丘文三映"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 9 名 · 阅读 1646 次"
+        "谷德 7 天最热 第 9 名 · 阅读 1656 次"
       ],
-      "views": 1646,
+      "views": 1656,
       "heat_rank": 9,
       "is_project": true,
       "btype": "教育",
@@ -183,7 +183,7 @@
       "quality_score": 33.4,
       "score": 54.2,
       "reasons": [
-        "热度 20.8：谷德 7 天最热 第 9 名 · 阅读 1646 次→20.8",
+        "热度 20.8：谷德 7 天最热 第 9 名 · 阅读 1656 次→20.8",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「武汉」+3；封面图+2"
       ],
       "rank": 1
@@ -198,26 +198,26 @@
       "summary": "建筑  “古典哥特梦核”的当代演绎 2026.11.20 收藏 分享",
       "published_at": "2026-11-20T17:46:52+08:00",
       "first_seen": "2026-11-21T11:04:12+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "meta": {
         "photographer": "KEVIN"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1637 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1644 次"
       ],
-      "views": 1637,
+      "views": 1644,
       "heat_rank": 10,
       "is_project": true,
       "btype": null,
       "region": "西安",
       "city": "",
       "architect": "NEX衍界建筑",
-      "heat_score": 20.7,
+      "heat_score": 20.6,
       "quality_score": 30.4,
-      "score": 51.1,
+      "score": 51.0,
       "reasons": [
-        "热度 20.7：谷德 7 天最热 第 10 名 · 阅读 1637 次→20.7",
+        "热度 20.6：谷德 7 天最热 第 10 名 · 阅读 1644 次→20.6",
         "质量 30.4：建成项目格式+18；站点权重0.92→7.4；地域「西安」+3；封面图+2"
       ],
       "rank": 2
@@ -232,7 +232,7 @@
       "summary": "November 24 © Willem Pab + 13 Educational Architecture , Kindergarten • Pratteln, Switzerland Architects: Brandenberger Kloter Area Area of this architecture project Area: 1135 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1188642/kindergarten-aegelmatt-brandenberger-kloter Nina Vuga Read more »",
       "published_at": "2026-11-24T23:00:00+08:00",
       "first_seen": "2026-11-25T12:51:01+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "meta": {
         "photographer": "Willem Pab",
         "image_count": 13,
@@ -307,7 +307,7 @@
       "summary": "十一月 24 © Grigory Sokolinsky + 27 • Tbilisi, 格鲁吉亚 建筑师: Werkraum Design Architecture 面积 该建筑项目的领域 面积: 630 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188894/kaklebi-si-ren-zhu-zhai-werkraum-design-architecture Cristina Popescu 阅读更多 »",
       "published_at": "2026-11-24T19:00:00+08:00",
       "first_seen": "2026-11-25T12:51:01+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "alt_url": "https://www.archdaily.com/1188266/private-house-in-kaklebi",
       "bilingual": true,
       "meta": {
@@ -347,7 +347,7 @@
       "summary": "十一月 24 © Maruf Raihan + 26 • Dhaka, 孟加拉 建筑师: SYSTEM architects - EKNC 面积 该建筑项目的领域 面积: 6588 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189071/abishkar-zhu-zhai-system-architects-eknc Miwa Negoro 阅读更多 »",
       "published_at": "2026-11-24T15:00:00+08:00",
       "first_seen": "2026-11-24T15:37:32+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "alt_url": "https://www.archdaily.com/1187086/abishkar-residence-system-architects-eknc",
       "bilingual": true,
       "meta": {
@@ -387,7 +387,7 @@
       "summary": "建筑  七座庭院，藏在山顶的方形体量中 2026.11.24 收藏 分享",
       "published_at": "2026-11-24T11:27:27+08:00",
       "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "meta": {
         "area": "270 m²",
         "year": "2011",
@@ -419,37 +419,7 @@
       "summary": "Fashion brand Burberry 's chief creative officer Daniel Lee worked with artist Ann Carrington to create a Christmas tree sculpture for the Victoria &amp; Albert Museum , made from \"memories, traditions and little treasures.\" The 16-foot (4.8-metre) tree, which was unveiled this week, sits in the entrance hall of the Victoria &amp; Albert Museum (VA's) South Kensington location and was designed to ",
       "published_at": "2026-11-24T18:45:00+08:00",
       "first_seen": "2026-11-25T12:51:01+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
-      "meta": {},
-      "strong_heat": false,
-      "heat_labels": [
-        "Dezeen 首页第 3 位"
-      ],
-      "is_project": false,
-      "btype": "文化",
-      "region": null,
-      "city": "",
-      "architect": "Burberry",
-      "heat_score": 14.7,
-      "quality_score": 21.6,
-      "score": 36.3,
-      "reasons": [
-        "热度 14.7：Dezeen 首页第 3 位→14.7",
-        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
-      ],
-      "rank": 8
-    },
-    {
-      "source": "Dezeen",
-      "weight": 0.95,
-      "lang": "en",
-      "title": "London Museum brings \"back a bit of London's heritage\" with Smithfield Market opening",
-      "url": "https://www.dezeen.com/2026/11/24/london-museum-stanton-williams-asif-khan-julian-harrap-architects",
-      "cover": "https://static-2026.dezeen.com/uploads/2026/11/london-museum-stanton-williams-asif-khan-julian-harrap-architects-sq_dezeen_2364_col_2-1024x1024.jpg",
-      "summary": "Architecture studios Stanton Williams , Asif Khan and Julian Harrap Architects have completed their long-awaited transformation of the 1880s Smithfield General Market into the London Museum. Opening to the public on Saturday, the former Victorian market hall now functions as a museum that tells the story of London's history through exhibitions designed by German studio Atelier Brückner . According",
-      "published_at": "2026-11-24T17:54:18+08:00",
-      "first_seen": "2026-11-25T12:51:01+08:00",
-      "last_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
       "meta": {},
       "strong_heat": false,
       "heat_labels": [
@@ -459,13 +429,43 @@
       "btype": "文化",
       "region": null,
       "city": "",
-      "architect": "",
+      "architect": "Burberry",
       "heat_score": 12.0,
       "quality_score": 21.6,
       "score": 33.6,
       "reasons": [
         "热度 12.0：Dezeen 首页第 7 位→12.0",
         "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「文化」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "\"Intensely physical patterns\" cloak Gerhard Richter's self-designed gallery in Doha",
+      "url": "https://www.dezeen.com/2026/11/24/gerhard-richters-doha-pavilion-selldorf-architects",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/doha-pavilion-gerhard-richter-selldorf-architects-qatar-architecture-galleries-cultural_dezeen_2364_sq-1024x1024.jpg",
+      "summary": "Kaleidoscopic patterns adorn the exterior of this pavilion in Doha, Qatar, designed by artist Gerhard Richter with US studio Selldorf Architects as an art gallery. Simply called Doha Pavilion, the psychedelic structure was conceived a work of both art and architecture for MIA Park – a public space outside the Museum of Islamic Art by IM Pei . Photographs Previous Next Photographs Close It serves a",
+      "published_at": "2026-11-24T19:30:00+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-25T14:05:52+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 3 位"
+      ],
+      "is_project": false,
+      "btype": "文化",
+      "region": "Doha",
+      "city": "",
+      "architect": "",
+      "heat_score": 14.7,
+      "quality_score": 18.6,
+      "score": 33.3,
+      "reasons": [
+        "热度 14.7：Dezeen 首页第 3 位→14.7",
+        "质量 18.6：站点权重0.95→7.6；类型「文化」+3；地域「Doha」+3；封面图+2"
       ],
       "rank": 9
     },
