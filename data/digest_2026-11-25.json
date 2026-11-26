@@ -1,0 +1,533 @@
+{
+  "date": "2026-11-25",
+  "window_start": "2026-11-19",
+  "window_end": "2026-11-25",
+  "window_days": 7,
+  "generated_at": "2026-11-26T12:04:16+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 65,
+      "oldest": "2026-10-26",
+      "newest": "2026-11-26",
+      "hit": 101,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 65,
+      "oldest": "2026-10-26",
+      "newest": "2026-11-26",
+      "hit": 97,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-19",
+      "newest": "2026-11-26",
+      "hit": 56,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-19",
+      "newest": "2026-11-26",
+      "hit": 54,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 3,
+      "oldest": "2026-11-25",
+      "newest": "2026-11-26",
+      "hit": 20,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 17,
+      "oldest": "2026-11-23",
+      "newest": "2026-11-25",
+      "hit": 21,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-12",
+      "newest": "2026-11-24",
+      "hit": 2,
+      "stale_days": 1,
+      "stale": false
+    }
+  ],
+  "candidate_count": 351,
+  "new_stored": 56,
+  "store_total": 2365,
+  "after_dedupe": 208,
+  "noise_count": 15,
+  "heat_signal_count": 126,
+  "heat_hit_count": 69,
+  "out_of_window_count": 1,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Meet Laerke Ryom, Patricia Urquiola's pick for the most influential designer of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/laerke-ryom-interview-patricia-urquiola-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging designer of the year Simon Skinner",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/simon-skinner-key-projects-designer-year-2026"
+    },
+    {
+      "title": "Meet Courage Dzidula Kpodo, Lesley Lokko's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/courage-dzidula-kpodo-interview-lesley-lokko-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging architect of the year Kuma&Elsa",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect"
+    },
+    {
+      "title": "Architects and designers celebrate at Dezeen Awards 2026 party in London",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/dezeen-awards-2026-party-london"
+    },
+    {
+      "title": "Meet AMAA, Neri&Hu’s pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu"
+    },
+    {
+      "title": "This week we launched a series celebrating the top architects and designers of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week"
+    },
+    {
+      "title": "Meet Lanza Atelier, Frida Escobedo's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20"
+    },
+    {
+      "title": "\"All over the world, buildings designed to be explored in 3D are subject to restrictions\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion"
+    },
+    {
+      "title": "The best designers in the world right now",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day Two Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188992/world-architecture-festival-2026-day-two-winners-announced"
+    },
+    {
+      "title": "podcast: indian architects ask who shapes homes: algorithms or occupants",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-09-10"
+    },
+    {
+      "title": "A Guide to Urban Resilience Against El Niño and BIG's Refugee City Masterplan: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188874/a-guide-to-urban-resilience-against-el-nino-and-bigs-refugee-city-masterplan-this-weeks-review"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day One Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188890/world-architecture-festival-2026-day-one-winners-announced"
+    },
+    {
+      "title": "Bubbly lamp by Canalside Studio among nine new products on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/18/bubbly-lamp-canalside-studio-lighting-furniture-products-surfaces-dezeen-showroom"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "巫家坝中央公园Alive Park航迹1922，昆明 / 见势设计",
+      "url": "https://www.gooood.cn/wujiaba-central-park-alive-park-flight-path-1922-by-potential-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-alivepark-1922-20261122-03-03-472x303.jpg",
+      "summary": "建筑  跳出非标商业的消费逻辑，以开放公共空间承接市民真实日常 2026.11.23 收藏 分享",
+      "published_at": "2026-11-23T11:38:03+08:00",
+      "first_seen": "2026-11-23T12:45:39+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {
+        "area": "8911 m²",
+        "photographer": "存在建筑-建筑摄影、见势设计"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 8 名 · 阅读 1707 次"
+      ],
+      "views": 1707,
+      "heat_rank": 8,
+      "is_project": true,
+      "btype": "商业",
+      "region": "昆明",
+      "city": "",
+      "architect": "见势设计",
+      "heat_score": 19.3,
+      "quality_score": 33.4,
+      "score": 52.7,
+      "reasons": [
+        "热度 19.3：谷德 7 天最热 第 8 名 · 阅读 1707 次→19.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「商业」+3；地域「昆明」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "Common Nexus共享学习创新中心，名古屋 / Tetsuo Kobori Architects",
+      "url": "https://www.gooood.cn/common-nexus-by-tetsuo-kobori-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/00-common-nexus-005-comone_np_001-472x303.jpg",
+      "summary": "建筑  以起伏屋顶连接校园、自然与公共生活 2026.11.23 收藏 分享",
+      "published_at": "2026-11-23T14:14:14+08:00",
+      "first_seen": "2026-11-24T13:51:10+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {
+        "area": "243,659.61 m²",
+        "year": "2025",
+        "photographer": "Flavio Coddou (ComoNe_FC_)"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 9 名 · 阅读 1703 次"
+      ],
+      "views": 1703,
+      "heat_rank": 9,
+      "is_project": true,
+      "btype": "教育",
+      "region": "名古屋",
+      "city": "",
+      "architect": "Tetsuo Kobori Architects",
+      "heat_score": 19.2,
+      "quality_score": 33.4,
+      "score": 52.6,
+      "reasons": [
+        "热度 19.2：谷德 7 天最热 第 9 名 · 阅读 1703 次→19.2",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「教育」+3；地域「名古屋」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "奥德-海弗莱社区中心，比利时 / KPW Architecten",
+      "url": "https://www.gooood.cn/oud-heverlee-community-centre-by-kpw-architecten.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/oud-heverlee-cover-472x303.jpg",
+      "summary": "建筑  融入村庄与公园景观的公共会堂 2026.11.22 收藏 分享",
+      "published_at": "2026-11-22T08:30:15+08:00",
+      "first_seen": "2026-11-22T10:00:49+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1655 次"
+      ],
+      "views": 1655,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": "景观",
+      "region": "比利时",
+      "city": "",
+      "architect": "KPW Architecten",
+      "heat_score": 18.7,
+      "quality_score": 33.4,
+      "score": 52.1,
+      "reasons": [
+        "热度 18.7：谷德 7 天最热 第 10 名 · 阅读 1655 次→18.7",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「比利时」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "普洛斯湾区西部智慧产业园综合服务中心A16，肇庆 / 潘冀联合建筑师事务所",
+      "url": "https://www.gooood.cn/glp-western-bay-area-intelligent-industrial-park-a16-by-jjp.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/glp-a16-jjp-cover-472x303.jpg",
+      "summary": "建筑  从效率到连结，重识产业建筑的社会价值 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T17:12:14+08:00",
+      "first_seen": "2026-11-21T11:04:12+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {},
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1604 次"
+      ],
+      "views": 1604,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": "景观",
+      "region": "肇庆",
+      "city": "",
+      "architect": "",
+      "heat_score": 18.1,
+      "quality_score": 33.4,
+      "score": 51.5,
+      "reasons": [
+        "热度 18.1：谷德 7 天最热 第 11 名 · 阅读 1604 次→18.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「肇庆」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "拉巴特皇家剧院，摩洛哥 / 扎哈·哈迪德建筑事务所",
+      "url": "https://www.gooood.cn/theatre-royal-de-rabat-by-zaha-hadid-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/rabat-zha-cover-472x303.jpg",
+      "summary": "建筑  河岸上的流动曲线，通往故事与想象的舞台 2026.11.23 收藏 分享",
+      "published_at": "2026-11-23T09:44:58+08:00",
+      "first_seen": "2026-11-23T10:26:28+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {
+        "city": "哈迪德建筑事务所 建筑  河岸上的流动曲线",
+        "country": "通往故事与想象的舞台",
+        "photographer": "Hufton+Crow"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1513 次"
+      ],
+      "views": 1513,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": "文化",
+      "region": "通往故事与想象的舞台",
+      "city": "哈迪德建筑事务所 建筑  河岸上的流动曲线",
+      "architect": "",
+      "heat_score": 17.1,
+      "quality_score": 39.4,
+      "score": 56.5,
+      "reasons": [
+        "热度 17.1：谷德 7 天最热 第 12 名 · 阅读 1513 次→17.1",
+        "质量 39.4：建成项目格式+18；站点权重0.92→7.4；知名事务所+6；类型「文化」+3；地域「通往故事与想象的舞台」+3；封面图+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Church and Cultural Centre, Veneux-les-Sablons, France / Bertrand Taquet Architectes",
+      "url": "https://www.archdaily.com/1189111/church-and-cultural-centre-veneux-les-sablons-france-bertrand-taquet-architectes",
+      "cover": "https://images.adsttc.com/media/images/6b05/0143/94d7/ea00/019d/04c8/newsletter/03_ANS20260925_8862-02_26-27_BTA__glise_HD.jpg?1795490185",
+      "summary": "November 25 © Antoine Seguin + 25 Churches , Refurbishment , Cultural Center • Moret-Loing-et-Orvanne, France Architects: Bertrand Taquet Architectes Area Area of this architecture project Area: 315 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1189111/church-and-cultural-centre-veneux-les-sablons-france-bertrand-taquet-architectes Nina Vuga Read more »",
+      "published_at": "2026-11-25T23:00:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {
+        "photographer": "Antoine Seguin",
+        "image_count": 25,
+        "city": "Moret-Loing-et-Orvanne",
+        "country": "France",
+        "architect": "Bertrand Taquet Architectes",
+        "area": "315 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": "文化",
+      "region": "法国",
+      "city": "Moret-Loing-et-Orvanne",
+      "architect": "Bertrand Taquet Architectes",
+      "heat_score": 16.5,
+      "quality_score": 40.0,
+      "score": 56.5,
+      "reasons": [
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集25张+8；类型「文化」+3；地域「法国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Avara 住宅 / mxsxt",
+      "url": "https://www.archdaily.cn/zh/1189206/avara-zhu-zhai-mxsxt",
+      "cover": "https://images.adsttc.com/media/images/6b06/9d96/94d7/ea00/019d/0b2b/newsletter/Avara_Medveja_mxsxt_53.jpg?1795595720",
+      "summary": "十一月 25 © Ana Orlic + 9 • 克罗地亚 建筑师: mataija x sipina x turato 面积 该建筑项目的领域 面积: 2000 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 厂家 该项目中使用产品的品牌 厂家: Holcim , Prostoria https://www.archdaily.cn/zh/1189206/avara-zhu-zhai-mxsxt Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-25T20:00:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "alt_url": "https://www.archdaily.com/1189202/avara-residence-mxsxt",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Ana Orlic",
+        "image_count": 9,
+        "architect": "mataija x sipina x turato",
+        "area": "2000 m²",
+        "year": "2026",
+        "brands": [
+          "Holcim",
+          "Prostoria"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 9 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "克罗地亚",
+      "city": "",
+      "architect": "mataija x sipina x turato",
+      "heat_score": 10.7,
+      "quality_score": 40.0,
+      "score": 50.7,
+      "reasons": [
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集9张+3；类型「住宅」+3；地域「克罗地亚」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "LeopoldQuartier / Gangoly & Kristiner Architekten",
+      "url": "https://www.archdaily.cn/zh/1188905/leopoldquartier-gangoly-and-kristiner-architekten",
+      "cover": "https://images.adsttc.com/media/images/6af7/cbf1/eabd/2a00/0192/f19d/newsletter/105_-_02_Exterior_Tag_Gangoly_Kristiner_Leopoldquartier_Patrick_Johannsen_Fotografie-31.jpg?1794624558",
+      "summary": "十一月 25 © Patrick Johannsen + 26 • Wien, 奥地利 建筑师: Gangoly & Kristiner Architekten 面积 该建筑项目的领域 面积: 15400 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1188905/leopoldquartier-gangoly-and-kristiner-architekten Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-25T19:00:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "alt_url": "https://www.archdaily.com/1188641/leopoldquartier",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Patrick Johannsen",
+        "image_count": 26,
+        "city": "Wien",
+        "country": "奥地利",
+        "architect": "Gangoly & Kristiner Architekten",
+        "area": "15400 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 11 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "奥地利",
+      "city": "Wien",
+      "architect": "Gangoly & Kristiner Architekten",
+      "heat_score": 9.8,
+      "quality_score": 40.0,
+      "score": 49.8,
+      "reasons": [
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集26张+8；地域「奥地利」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "栃木自民党俱乐部三毳学习中心 / 大成建设（TAISEI DESIGN Planners Architects & Engineers）",
+      "url": "https://www.archdaily.cn/zh/1189161/hoy-mu-zi-min-dang-ju-le-bu-san-cui-xue-xi-zhong-xin-da-cheng-jian-she-taisei-design-planners-architects-and-engineers",
+      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6b04/963b/dd54/ea01/8880/efd6/slideshow/tochigi-jiminie-club-study-center-mikamo-taisei-design-planners-architects-and-engineers_2.jpg?1795462743&format=webp&width=640&height=580",
+      "summary": "十一月 25 © Gankosha, Harunori Noda + 35 • Tochigi, 日本 建筑师: 大成建设 面积 该建筑项目的领域 面积: 6136 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 厂家 该项目中使用产品的品牌 厂家: Ohya Stone Industry , Shelter , Taisei Corporation https://www.archdaily.cn/zh/1189161/hoy-mu-zi-min-dang-ju-le-bu-san-cui-xue-xi-zhong-xin-da-cheng-jian-she-taisei-design-planners-architects-and-engineers Pilar Caballero 阅读更多 »",
+      "published_at": "2026-11-25T15:00:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "alt_url": "https://www.archdaily.com/1189095/tochigi-jiminie-club-study-center-mikamo-taisei-design-planners-architects-and-engineers",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Gankosha, Harunori Noda",
+        "image_count": 35,
+        "city": "Tochigi",
+        "country": "日本",
+        "architect": "大成建设",
+        "area": "6136 m²",
+        "year": "2024",
+        "brands": [
+          "Ohya Stone Industry",
+          "Shelter",
+          "Taisei Corporation"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 16 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "日本",
+      "city": "Tochigi",
+      "architect": "大成建设",
+      "heat_score": 7.8,
+      "quality_score": 40.0,
+      "score": 47.8,
+      "reasons": [
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集35张+8；地域「日本」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Dezeen",
+      "weight": 0.95,
+      "lang": "en",
+      "title": "Staff at Edinburgh College of Art criticise \"financially-driven\" closure of design courses",
+      "url": "https://www.dezeen.com/2026/11/25/staff-edinburgh-college-of-art-financially-driven-closure-design-courses-news",
+      "cover": "https://static-2026.dezeen.com/uploads/2026/11/edinburgh-college-of-art-sq-1024x1024.jpg",
+      "summary": "Over one hundred staff at Edinburgh College of Art have signed an open letter addressed to the university, calling on the institution to reverse its decision to cut three craft -focussed design courses from its programme. Open letter states \"deep concern\" The open letter was signed by 109 unnamed staff members of Edinburgh College of Art , which announced on 15 September that it would stop admitti",
+      "published_at": "2026-11-25T17:30:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T12:04:04+08:00",
+      "meta": {},
+      "strong_heat": false,
+      "heat_labels": [
+        "Dezeen 首页第 7 位"
+      ],
+      "is_project": false,
+      "btype": "教育",
+      "region": null,
+      "city": "",
+      "architect": "",
+      "heat_score": 12.0,
+      "quality_score": 21.6,
+      "score": 33.6,
+      "reasons": [
+        "热度 12.0：Dezeen 首页第 7 位→12.0",
+        "质量 21.6：站点权重0.95→7.6；知名事务所+6；类型「教育」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
