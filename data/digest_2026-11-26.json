@@ -1,0 +1,525 @@
+{
+  "date": "2026-11-26",
+  "window_start": "2026-11-20",
+  "window_end": "2026-11-26",
+  "window_days": 7,
+  "generated_at": "2026-11-27T12:02:03+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-27",
+      "newest": "2026-11-27",
+      "hit": 105,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-27",
+      "newest": "2026-11-27",
+      "hit": 100,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-19",
+      "newest": "2026-11-27",
+      "hit": 53,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-20",
+      "newest": "2026-11-27",
+      "hit": 53,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 4,
+      "oldest": "2026-11-26",
+      "newest": "2026-11-27",
+      "hit": 18,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 18,
+      "oldest": "2026-11-23",
+      "newest": "2026-11-26",
+      "hit": 23,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-16",
+      "newest": "2026-11-26",
+      "hit": 2,
+      "stale_days": 0,
+      "stale": false
+    }
+  ],
+  "candidate_count": 354,
+  "new_stored": 60,
+  "store_total": 2427,
+  "after_dedupe": 210,
+  "noise_count": 15,
+  "heat_signal_count": 102,
+  "heat_hit_count": 58,
+  "out_of_window_count": 1,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Lisbon Triennale Announces CO-OP and Herzog & de Meuron’s Memphis Museum Opens: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1189276/lisbon-triennale-announces-co-op-and-herzog-and-de-meurons-memphis-museum-opens-this-weeks-review"
+    },
+    {
+      "title": "Meet BC Architects & Studies & Materials, Marina Tabassum's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/26/bc-architects-interview-20x20-marina-tabassum-2"
+    },
+    {
+      "title": "\"How did young designers become so convinced of their own powerlessness?\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/26/design-power-change-celine-semaan-opinion"
+    },
+    {
+      "title": "podcast: how to create utopia for everyone when architecture scales to the metropolis",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-11"
+    },
+    {
+      "title": "Meet Laerke Ryom, Patricia Urquiola's pick for the most influential designer of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/laerke-ryom-interview-patricia-urquiola-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging designer of the year Simon Skinner",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/simon-skinner-key-projects-designer-year-2026"
+    },
+    {
+      "title": "Meet Courage Dzidula Kpodo, Lesley Lokko's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/courage-dzidula-kpodo-interview-lesley-lokko-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging architect of the year Kuma&Elsa",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect"
+    },
+    {
+      "title": "Architects and designers celebrate at Dezeen Awards 2026 party in London",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/dezeen-awards-2026-party-london"
+    },
+    {
+      "title": "Meet AMAA, Neri&Hu’s pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu"
+    },
+    {
+      "title": "This week we launched a series celebrating the top architects and designers of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week"
+    },
+    {
+      "title": "Meet Lanza Atelier, Frida Escobedo's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/lanza-atelier-interview-frida-escobedo-20x20"
+    },
+    {
+      "title": "\"All over the world, buildings designed to be explored in 3D are subject to restrictions\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/shanghai-opera-house-controversy-aaron-betsky-opinion"
+    },
+    {
+      "title": "The best designers in the world right now",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/20/dezeen-awards-white-house-dezeen-weekly-podcast"
+    },
+    {
+      "title": "World Architecture Festival 2026: Day Two Winners Announced",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1188992/world-architecture-festival-2026-day-two-winners-announced"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "墙墙猫公园，成都 / 大小景观",
+      "url": "https://www.gooood.cn/hide-and-seek-park-by-atelier-scale.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/wall-cat-park-cover-472x303.jpg",
+      "summary": "景观  把小时候的快乐找回来 2026.11.03 收藏 分享",
+      "published_at": "2026-11-03T10:50:58+08:00",
+      "first_seen": "2026-11-04T06:38:56+08:00",
+      "last_seen": "2026-11-10T08:29:42+08:00",
+      "meta": {
+        "year": "2026",
+        "photographer": "Holi河狸景观摄影"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 2 名 · 阅读 2516 次"
+      ],
+      "views": 2516,
+      "heat_rank": 2,
+      "is_project": true,
+      "btype": "景观",
+      "region": "成都",
+      "city": "",
+      "architect": "大小景观",
+      "heat_score": 39.3,
+      "quality_score": 33.4,
+      "score": 72.7,
+      "reasons": [
+        "热度 39.3：谷德 7 天最热 第 2 名 · 阅读 2516 次→39.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「成都」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "JM Dessert，北京 / 马志成、段旺旺",
+      "url": "https://www.gooood.cn/jm-dessert-by-ma-zhicheng-and-duan-wangwang.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/JM-Dessert-20261124-cover-472x303.jpg",
+      "summary": "建筑  以盒体、双廊与装置《露》，打开胡同合院 2026.11.25 收藏 分享",
+      "published_at": "2026-11-25T15:11:59+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "photographer": "金伟琦"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 7 名 · 阅读 1701 次"
+      ],
+      "views": 1701,
+      "heat_rank": 7,
+      "is_project": true,
+      "btype": "展览",
+      "region": "北京",
+      "city": "",
+      "architect": "马志成、段旺旺",
+      "heat_score": 26.6,
+      "quality_score": 33.4,
+      "score": 60.0,
+      "reasons": [
+        "热度 26.6：谷德 7 天最热 第 7 名 · 阅读 1701 次→26.6",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「展览」+3；地域「北京」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "麓上咖啡室内设计，成都 / LZA张烨建筑事务所",
+      "url": "https://www.gooood.cn/luner-coffee-interior-by-wanhua-and-lza.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-8ho-472x303.jpg",
+      "summary": "建筑  隐入湖光树影之间 2026.11.25 收藏 分享",
+      "published_at": "2026-11-25T09:26:07+08:00",
+      "first_seen": "2026-11-25T12:51:01+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "area": "208 m²",
+        "photographer": "吴鉴泉"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1556 次"
+      ],
+      "views": 1556,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": "室内",
+      "region": "成都",
+      "city": "",
+      "architect": "",
+      "heat_score": 24.3,
+      "quality_score": 33.4,
+      "score": 57.7,
+      "reasons": [
+        "热度 24.3：谷德 7 天最热 第 10 名 · 阅读 1556 次→24.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「室内」+3；地域「成都」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Central Kitchen Graz / Superfuturegroup",
+      "url": "https://www.archdaily.com/1188913/central-kitchen-graz-superfuturegroup",
+      "cover": "https://snoopy.archdaily.com/images/archdaily/media/images/6afe/d02a/eabd/2a00/0193/22ef/slideshow/c-oberhofer-K_G-02-web.jpg?1795084349&format=webp&width=640&height=580",
+      "summary": "November 26 Videos © Simon Oberhofer + 22 Distribution Center , Public Architecture , Institutional buildings • Graz, Austria Architects: Superfuturegroup Area Area of this architecture project Area: 1700 m² Year Completion year of this architecture project Year: 2026 Manufacturers Brands with products used in this architecture project Manufacturers: DOMICO , Duravit , Hörmann Austria GmbH , Schüc",
+      "published_at": "2026-11-26T23:00:00+08:00",
+      "first_seen": "2026-11-27T12:01:55+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "photographer": "Simon Oberhofer",
+        "image_count": 22,
+        "city": "Graz",
+        "country": "Austria",
+        "architect": "Superfuturegroup",
+        "area": "1700 m²",
+        "year": "2026",
+        "brands": [
+          "DOMICO",
+          "Duravit",
+          "Hörmann Austria GmbH",
+          "Schüc"
+        ]
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": "公共",
+      "region": "奥地利",
+      "city": "Graz",
+      "architect": "Superfuturegroup",
+      "heat_score": 16.5,
+      "quality_score": 40.0,
+      "score": 56.5,
+      "reasons": [
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；类型「公共」+3；地域「奥地利」+3；封面图+2；含面积数据+2；含材料厂家+1"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Wujiaba Flight Path 1922 Park Pavilions / Potential Architects",
+      "url": "https://www.archdaily.com/1189198/wujiaba-flight-path-1922-pavilions-potential-architects",
+      "cover": "https://images.adsttc.com/media/images/6b06/7194/94d7/ea00/019d/0aff/newsletter/____Arch-Exist-__-24.jpg?1795584661",
+      "summary": "November 26 © Arch-Exist Photography + 31 Public Architecture • Kunming, China Architects: Potential Architects Area Area of this architecture project Area: 8911 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1189198/wujiaba-flight-path-1922-pavilions-potential-architects Xiaoyin Kuang Read more »",
+      "published_at": "2026-11-26T20:00:00+08:00",
+      "first_seen": "2026-11-27T12:01:55+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "photographer": "Arch-Exist Photography",
+        "image_count": 31,
+        "city": "Kunming",
+        "country": "China",
+        "architect": "Potential Architects",
+        "area": "8911 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 12 位"
+      ],
+      "is_project": true,
+      "btype": "景观",
+      "region": "中国",
+      "city": "Kunming",
+      "architect": "Potential Architects",
+      "heat_score": 11.9,
+      "quality_score": 40.0,
+      "score": 51.9,
+      "reasons": [
+        "热度 11.9：ArchDaily 首页第 12 位→11.9",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "巫家坝航迹1922公园建筑群 / 见势设计",
+      "url": "https://www.archdaily.cn/zh/1189199/wu-jia-ba-hang-ji-1922gong-yuan-jian-zhu-qun-jian-shi-she-ji",
+      "cover": "https://images.adsttc.com/media/images/6b06/7194/94d7/ea00/019d/0aff/newsletter/____Arch-Exist-__-24.jpg?1795584661",
+      "summary": "十一月 26 © Arch-Exist Photography + 31 • Kunming, 中国 建筑师: 见势设计 面积 该建筑项目的领域 面积: 8911 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189199/wu-jia-ba-hang-ji-1922gong-yuan-jian-zhu-qun-jian-shi-she-ji Xiaoyin Kuang 阅读更多 »",
+      "published_at": "2026-11-26T20:00:00+08:00",
+      "first_seen": "2026-11-27T12:01:55+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "alt_url": "https://www.archdaily.com/1189198/wujiaba-flight-path-1922-pavilions-potential-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Arch-Exist Photography",
+        "image_count": 31,
+        "city": "Kunming",
+        "country": "中国",
+        "architect": "见势设计",
+        "area": "8911 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 9 位"
+      ],
+      "is_project": true,
+      "btype": "景观",
+      "region": "中国",
+      "city": "Kunming",
+      "architect": "见势设计",
+      "heat_score": 10.7,
+      "quality_score": 40.0,
+      "score": 50.7,
+      "reasons": [
+        "热度 10.7：ArchDaily中国 首页第 9 位→6.7；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集31张+8；类型「景观」+3；地域「中国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Y 住宅 / monotrum",
+      "url": "https://www.archdaily.cn/zh/1189219/y-zhu-zhai-monotrum",
+      "cover": "https://images.adsttc.com/media/images/6b06/b042/94d7/ea00/019d/0bfc/newsletter/2026_0113_0166.jpg?1795600474",
+      "summary": "十一月 26 © Yoshiro Masuda + 11 • Tokyo, 日本 建筑师: monotrum 面积 该建筑项目的领域 面积: 87 m² 项目年份 该建筑项目的竣工年份 项目年份: 2024 https://www.archdaily.cn/zh/1189219/y-zhu-zhai-monotrum Miwa Negoro 阅读更多 »",
+      "published_at": "2026-11-26T16:00:00+08:00",
+      "first_seen": "2026-11-27T12:01:55+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "alt_url": "https://www.archdaily.com/1189216/house-y-monotrum",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Yoshiro Masuda",
+        "image_count": 11,
+        "city": "Tokyo",
+        "country": "日本",
+        "architect": "monotrum",
+        "area": "87 m²",
+        "year": "2024"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 16 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "日本",
+      "city": "Tokyo",
+      "architect": "monotrum",
+      "heat_score": 7.8,
+      "quality_score": 40.0,
+      "score": 47.8,
+      "reasons": [
+        "热度 7.8：ArchDaily中国 首页第 16 位→3.8；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集11张+5；类型「住宅」+3；地域「日本」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "杭州JEN酒店室内设计，叠加工业美学 / Linehouse",
+      "url": "https://www.archiposition.com/items/786d074873",
+      "cover": "https://image.archiposition.com/2026/11/01795681909.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "以本地工艺与工业遗产为意象，引入室内设计语汇。",
+      "published_at": "2026-11-26T16:57:21+08:00",
+      "first_seen": "2026-11-27T12:01:55+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "area": "12850 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "叠加工业美学",
+      "city": "",
+      "architect": "Linehouse",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「住宅」+3；地域「叠加工业美学」+3；封面图+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "爱哲未来创新学校，持续生长 / hypersity architects",
+      "url": "https://www.archiposition.com/items/00c19a95ba",
+      "cover": "https://image.archiposition.com/2026/11/101795580819.png?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "改造并未以统一模式一次性覆盖场地，而是保留既有格局、持续调整空间关系。",
+      "published_at": "2026-11-25T14:40:16+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "area": "2243 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "教育",
+      "region": "持续生长",
+      "city": "",
+      "architect": "hypersity architects",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「持续生长」+3；封面图+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "Designboom",
+      "weight": 0.82,
+      "lang": "en",
+      "title": "kanal-centre pompidou opens in brussels inside restored 1930s citroën garage",
+      "url": "https://www.designboom.com/architecture/kanal-centre-pompidou-brussels-restored-1930s-citroen-garage-em2n-noaarchitecten-sergison-bates",
+      "cover": "https://www.designboom.com/wp-content/uploads/2026/11/kanal-centre-pompidou-brussels-restored-1930s-citroen-garage-em2n-noaarchitecten-sergison-bates-designboom-700-500x400-22b08q85r450.jpg",
+      "summary": "a former citroën garage becomes a museum for the city &nbsp; Designed by Atelier Kanal, a consortium comprising EM2N , noAarchitecten and Sergison Bates architects, Kanal opens in Brussels on November 28th, 2026, transforming a former Citroën garage into a 40,000-square-meter museum and public cultural center (find designboom&#8217;s previous coverage here ). The project houses contemporary art, a",
+      "published_at": "2026-11-25T17:20:19+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T13:58:10+08:00",
+      "meta": {
+        "area": "20,000 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "Designboom 首页第 10 位"
+      ],
+      "is_project": false,
+      "btype": "住宅",
+      "region": "Brussels",
+      "city": "",
+      "architect": "",
+      "heat_score": 7.5,
+      "quality_score": 23.6,
+      "score": 31.1,
+      "reasons": [
+        "热度 7.5：Designboom 首页第 10 位→7.5",
+        "质量 23.6：站点权重0.82→6.6；知名事务所+6；类型「住宅」+3；地域「Brussels」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
