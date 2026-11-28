@@ -3,7 +3,7 @@
   "window_start": "2026-11-21",
   "window_end": "2026-11-27",
   "window_days": 7,
-  "generated_at": "2026-11-28T11:48:59+08:00",
+  "generated_at": "2026-11-28T13:31:53+08:00",
   "sources": [
     {
       "source": "ArchDaily",
@@ -77,7 +77,7 @@
     }
   ],
   "candidate_count": 358,
-  "new_stored": 50,
+  "new_stored": 0,
   "store_total": 2484,
   "after_dedupe": 221,
   "noise_count": 14,
@@ -176,9 +176,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 1 名 · 阅读 2786 次"
+        "谷德 7 天最热 第 1 名 · 阅读 2795 次"
       ],
-      "views": 2786,
+      "views": 2795,
       "heat_rank": 1,
       "is_project": true,
       "btype": "酒店",
@@ -189,7 +189,7 @@
       "quality_score": 33.4,
       "score": 78.4,
       "reasons": [
-        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2786 次→45.0",
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2795 次→45.0",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「四川」+3；封面图+2"
       ],
       "rank": 1
@@ -204,7 +204,7 @@
       "summary": "景观  新山水营城理想——纬图景观规划的创新实践 2026.11.25 收藏 分享",
       "published_at": "2026-11-25T15:01:41+08:00",
       "first_seen": "2026-11-26T12:04:04+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "meta": {
         "city": "麓溪湖景观规划",
         "country": "重庆",
@@ -212,9 +212,9 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 10 名 · 阅读 1557 次"
+        "谷德 7 天最热 第 10 名 · 阅读 1562 次"
       ],
-      "views": 1557,
+      "views": 1562,
       "heat_rank": 10,
       "is_project": true,
       "btype": "景观",
@@ -225,7 +225,7 @@
       "quality_score": 33.4,
       "score": 58.5,
       "reasons": [
-        "热度 25.1：谷德 7 天最热 第 10 名 · 阅读 1557 次→25.1",
+        "热度 25.1：谷德 7 天最热 第 10 名 · 阅读 1562 次→25.1",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2"
       ],
       "rank": 2
@@ -240,16 +240,16 @@
       "summary": "建筑  原有框架中的错动平台 2026.11.24 收藏 分享",
       "published_at": "2026-11-24T10:28:40+08:00",
       "first_seen": "2026-11-24T13:51:10+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "meta": {
         "year": "2026",
         "photographer": "陈颢"
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 11 名 · 阅读 1524 次"
+        "谷德 7 天最热 第 11 名 · 阅读 1526 次"
       ],
-      "views": 1524,
+      "views": 1526,
       "heat_rank": 11,
       "is_project": true,
       "btype": "住宅",
@@ -260,7 +260,7 @@
       "quality_score": 33.4,
       "score": 58.0,
       "reasons": [
-        "热度 24.6：谷德 7 天最热 第 11 名 · 阅读 1524 次→24.6",
+        "热度 24.6：谷德 7 天最热 第 11 名 · 阅读 1526 次→24.6",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「温州」+3；封面图+2"
       ],
       "rank": 3
@@ -275,7 +275,7 @@
       "summary": "建筑  一间没有墙的乡村会客厅 2026.11.25 收藏 分享",
       "published_at": "2026-11-25T16:28:34+08:00",
       "first_seen": "2026-11-26T12:04:04+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "meta": {
         "area": "500 m²",
         "year": "2026",
@@ -283,20 +283,20 @@
       },
       "strong_heat": true,
       "heat_labels": [
-        "谷德 7 天最热 第 12 名 · 阅读 1506 次"
+        "谷德 7 天最热 第 12 名 · 阅读 1514 次"
       ],
-      "views": 1506,
+      "views": 1514,
       "heat_rank": 12,
       "is_project": true,
       "btype": "展览",
       "region": "德清",
       "city": "",
       "architect": "",
-      "heat_score": 24.3,
+      "heat_score": 24.4,
       "quality_score": 33.4,
-      "score": 57.7,
+      "score": 57.8,
       "reasons": [
-        "热度 24.3：谷德 7 天最热 第 12 名 · 阅读 1506 次→24.3",
+        "热度 24.4：谷德 7 天最热 第 12 名 · 阅读 1514 次→24.4",
         "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「展览」+3；地域「德清」+3；封面图+2"
       ],
       "rank": 4
@@ -311,7 +311,7 @@
       "summary": "November 27 © Agustin Andorno + 15 Cultural Architecture , Library • Beauvais, France Architects: CONTINUO ARCHITECTURE Area Area of this architecture project Area: 650 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture Nina Vuga Read more »",
       "published_at": "2026-11-27T23:00:00+08:00",
       "first_seen": "2026-11-28T11:48:53+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "meta": {
         "photographer": "Agustin Andorno",
         "image_count": 15,
@@ -349,7 +349,7 @@
       "summary": "十一月 27 © Miran Kambič + 42 • Ljubljana, 斯洛文尼亚 建筑师: OFIS Architects 面积 该建筑项目的领域 面积: 28600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects Nina Vuga 阅读更多 »",
       "published_at": "2026-11-27T20:00:00+08:00",
       "first_seen": "2026-11-28T11:48:53+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "alt_url": "https://www.archdaily.com/1189136/housing-on-the-marshes-ofis-architects",
       "bilingual": true,
       "meta": {
@@ -389,7 +389,7 @@
       "summary": "十一月 27 © Tim Soar + 22 • 英国 建筑师: Orms 面积 该建筑项目的领域 面积: 100000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189133/the-ribbon-orms Nina Vuga 阅读更多 »",
       "published_at": "2026-11-27T19:00:00+08:00",
       "first_seen": "2026-11-28T11:48:53+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "alt_url": "https://www.archdaily.com/1189047/the-ribbon-orms",
       "bilingual": true,
       "meta": {
@@ -427,7 +427,7 @@
       "summary": "十一月 27 © Dahae Park + 20 • Seoul, 韩国 建筑师: Cho and Partners 面积 该建筑项目的领域 面积: 924 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners Pilar Caballero 阅读更多 »",
       "published_at": "2026-11-27T15:00:00+08:00",
       "first_seen": "2026-11-28T11:48:53+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "alt_url": "https://www.archdaily.com/1189224/title-roll-building-cho-and-partners",
       "bilingual": true,
       "meta": {
@@ -503,7 +503,7 @@
       "summary": "形态、结构与功能三位一体，让校园阐述科学理性，呈现由内而外的建筑之美。",
       "published_at": "2026-11-27T18:34:43+08:00",
       "first_seen": "2026-11-28T11:48:53+08:00",
-      "last_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T13:31:49+08:00",
       "meta": {
         "area": "70220 m²"
       },
