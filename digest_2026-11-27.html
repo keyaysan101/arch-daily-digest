@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"/>
+<meta name="theme-color" content="#1e293b"/>
+<meta name="format-detection" content="telephone=no"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="default"/>
+<meta name="apple-mobile-web-app-title" content="建筑案例日报"/>
+<link rel="manifest" href="manifest.json"/>
+<title>近 7 天（2026-11-21 ~ 2026-11-27）最热 · 每日建筑案例</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:#eef1f6;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC",
+       "Microsoft YaHei","Helvetica Neue",sans-serif;color:#0f172a;padding:20px 12px 40px;
+       -webkit-text-size-adjust:100%}
+  .wrap{max-width:420px;margin:0 auto}
+  .wrap.wide{max-width:760px}
+  .hd{background:#1e293b;color:#fff;border-radius:18px;padding:20px 18px;margin-bottom:12px}
+  .hd h1{font-size:20px;letter-spacing:.5px}
+  .hd .sub{font-size:12px;opacity:.75;margin-top:6px;line-height:1.7}
+  .stats{display:flex;gap:8px;margin-top:12px}
+  .stat{background:rgba(255,255,255,.14);border-radius:10px;padding:7px 10px;
+        font-size:11px;line-height:1.5;flex:1}
+  .stat b{display:block;font-size:16px;font-weight:700}
+  .nav{display:flex;gap:8px;margin-bottom:14px}
+  .nav a{flex:1;text-align:center;background:#fff;border-radius:10px;padding:9px 4px;
+         font-size:12px;color:#334155;text-decoration:none;
+         box-shadow:0 1px 3px rgba(15,23,42,.07)}
+  .nav a.on{background:#1e293b;color:#fff}
+  .card{background:#fff;border-radius:16px;overflow:hidden;margin-bottom:14px;color:inherit;
+        position:relative;-webkit-tap-highlight-color:transparent;cursor:pointer;
+        box-shadow:0 1px 3px rgba(15,23,42,.08),0 8px 24px rgba(15,23,42,.06)}
+  .card:active{transform:scale(.99)}
+  .rank{position:absolute;top:10px;left:10px;z-index:2;background:rgba(15,23,42,.82);
+        color:#fff;width:26px;height:26px;border-radius:9px;font-size:13px;font-weight:700;
+        display:flex;align-items:center;justify-content:center}
+  .pic{aspect-ratio:3/2;background:#e2e8f0;overflow:hidden;position:relative}
+  .pic img{width:100%;height:100%;object-fit:cover;display:block}
+  .pic.bad img{display:none}
+  .pic.bad:after{content:"图片暂不可用";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .pic.none{aspect-ratio:auto;height:120px}
+  .pic.none:after{content:"暂无图片";position:absolute;inset:0;display:flex;
+        align-items:center;justify-content:center;color:#94a3b8;font-size:12px}
+  .body{padding:14px}
+  .title{font-size:16px;font-weight:600;line-height:1.45;margin-bottom:6px}
+  .title a{color:inherit;text-decoration:none}
+  .arch{font-size:12px;color:#64748b;margin-bottom:8px}
+  .tags{display:flex;flex-wrap:wrap;gap:5px;margin-bottom:10px}
+  .chip{font-size:11px;background:#f1f5f9;border-radius:6px;padding:3px 7px}
+  .foot{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+  .src{font-size:11px;color:#fff;border-radius:6px;padding:3px 8px}
+  .score{font-size:11px;color:#94a3b8;margin-right:auto}
+  .mini{font-size:11px;color:#334155;background:#f1f5f9;border:0;border-radius:6px;
+        padding:4px 9px;cursor:pointer;text-decoration:none;line-height:1.6}
+  .mini:active{background:#e2e8f0}
+  .mini.faved{background:#1e293b;color:#fff}
+  .more{display:none;margin-top:12px;border-top:1px dashed #e2e8f0;padding-top:12px}
+  .more.open{display:block}
+  .kv{display:flex;font-size:12px;line-height:1.9}
+  .kv b{font-weight:400;color:#94a3b8;width:66px;flex:none}
+  .kv span{color:#334155}
+  .why{margin-top:10px;font-size:11px;color:#64748b;line-height:1.8}
+  .why b{color:#334155;font-weight:600;display:block;margin-bottom:4px}
+  .ft{text-align:center;font-size:11px;color:#94a3b8;line-height:1.9;padding:8px}
+  .ft-link{color:#2563eb;text-decoration:none;font-size:12px}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hd">
+    <h1>每日建筑案例 · Top 10</h1>
+    <div class="sub"><b>近 7 天（2026-11-21 ~ 2026-11-27）</b>最热的案例<br/>排序以热度为主，质量为底线过滤<br/>
+      页面更新于 2026-11-28 11:48:59 · 每天 06:00 / 08:00 自动更新<br/>ArchDaily 105 · ArchDaily中国 99 · 谷德设计网 55 · Dezeen 52 · Designboom 19 · 有方空间 26 · 建筑学院 2<br/>窗口内 358 条候选，其中 57 条命中热度信号</div>
+    <div class="stats">
+      <div class="stat"><b>358</b>候选</div>
+      <div class="stat"><b>221</b>去重后</div>
+      <div class="stat"><b>14</b>过滤噪音</div>
+    </div>
+  </div>
+  <div class="nav"><a href="index.html">最新一期</a><a href="archive.html">往期归档</a><a href="library.html">灵感库</a><a href="awards.html">建筑奖项</a></div>
+  
+    <div class="card" data-url="https://www.gooood.cn/banyan-tree-emei-by-buzz.htm">
+      <div class="rank">1</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/001-llk-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/banyan-tree-emei-by-buzz.htm" target="_blank" rel="noopener">峨眉山悦榕庄酒店，四川 / BUZZ庄子玉工作室</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 1 名</span><span class="chip" style="color:#dc2626">7 天阅读 2,786 次</span><span class="chip" style="color:#334155">类型 酒店</span><span class="chip" style="color:#0f766e">地域 四川</span><span class="chip" style="color:#7c3aed">面积 41000 m²</span><span class="chip" style="color:#b45309">建成 2018</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 2,786 次</span>
+          <button type="button" class="mini" data-more="m865e5e72cc31">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/banyan-tree-emei-by-buzz.htm"
+            data-t="峨眉山悦榕庄酒店，四川 / BUZZ庄子玉工作室" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/001-llk-472x303.jpg" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/banyan-tree-emei-by-buzz.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m865e5e72cc31"><div class="kv"><b>建筑面积</b><span>41000 m²</span></div><div class="kv"><b>建成年份</b><span>2018 年</span></div><div class="kv"><b>摄影</b><span>如你所见-王厅，存在建筑</span></div><div class="kv"><b>所在地</b><span>四川</span></div><div class="kv"><b>摘要</b><span>建筑 散点场域中的高差织构 2026.11.20 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 78 分</b><div>· 热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2786 次→45.0</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「四川」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/luxi-lake-landscape-planning-at-luxe-valley-by-wtd-group.htm">
+      <div class="rank">2</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/Luxi-Lake-WTD-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/luxi-lake-landscape-planning-at-luxe-valley-by-wtd-group.htm" target="_blank" rel="noopener">麓悦江城·麓溪湖景观规划，重庆 / WTD纬图设计</a></div>
+        <div class="arch">设计：WTD纬图设计</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 10 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,557 次</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 重庆</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,557 次</span>
+          <button type="button" class="mini" data-more="m190615007f76">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/luxi-lake-landscape-planning-at-luxe-valley-by-wtd-group.htm"
+            data-t="麓悦江城·麓溪湖景观规划，重庆 / WTD纬图设计" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/Luxi-Lake-WTD-cover-472x303.jpg" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/luxi-lake-landscape-planning-at-luxe-valley-by-wtd-group.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m190615007f76"><div class="kv"><b>摄影</b><span>WTD品牌部，Prism三棱镜</span></div><div class="kv"><b>所在地</b><span>麓溪湖景观规划 / 重庆</span></div><div class="kv"><b>摘要</b><span>景观 新山水营城理想——纬图景观规划的创新实践 2026.11.25 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 58 分</b><div>· 热度 25.1：谷德 7 天最热 第 10 名 · 阅读 1557 次→25.1</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/shoe-factory-gatehouses-by-xie-jie-architects.htm">
+      <div class="rank">3</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/xieting-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/shoe-factory-gatehouses-by-xie-jie-architects.htm" target="_blank" rel="noopener">鞋厂门亭，温州 / 谢杰建筑</a></div>
+        <div class="arch">设计：谢杰建筑</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 11 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,524 次</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 温州</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,524 次</span>
+          <button type="button" class="mini" data-more="m6eec836d3841">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/shoe-factory-gatehouses-by-xie-jie-architects.htm"
+            data-t="鞋厂门亭，温州 / 谢杰建筑" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/xieting-472x303.jpg" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/shoe-factory-gatehouses-by-xie-jie-architects.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m6eec836d3841"><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>摄影</b><span>陈颢</span></div><div class="kv"><b>所在地</b><span>温州</span></div><div class="kv"><b>摘要</b><span>建筑 原有框架中的错动平台 2026.11.24 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 58 分</b><div>· 热度 24.6：谷德 7 天最热 第 11 名 · 阅读 1524 次→24.6</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「温州」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.gooood.cn/valley-gap-pavilion-daxiantan-reception-hall-by-concom-studio.htm">
+      <div class="rank">4</div>
+      <div class="pic"><img src="https://oss.gooood.cn/uploads/2026/11/daxiantan-20261124-cover-472x303.jpg" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.gooood.cn/valley-gap-pavilion-daxiantan-reception-hall-by-concom-studio.htm" target="_blank" rel="noopener">谷口亭—大仙潭会客厅，德清 / ConCom 集良建筑事务所</a></div>
+        
+        <div class="tags"><span class="chip" style="color:#b91c1c">谷德 7 天最热 第 12 名</span><span class="chip" style="color:#dc2626">7 天阅读 1,506 次</span><span class="chip" style="color:#334155">类型 展览</span><span class="chip" style="color:#0f766e">地域 德清</span><span class="chip" style="color:#7c3aed">面积 500 m²</span><span class="chip" style="color:#b45309">建成 2026</span></div>
+        <div class="foot">
+          <span class="src" style="background:#15803d">谷德设计网</span>
+          <span class="score">7 天阅读 1,506 次</span>
+          <button type="button" class="mini" data-more="mefd1689cf805">详情</button>
+          <button type="button" class="mini" data-fav="https://www.gooood.cn/valley-gap-pavilion-daxiantan-reception-hall-by-concom-studio.htm"
+            data-t="谷口亭—大仙潭会客厅，德清 / ConCom 集良建筑事务所" data-s="谷德设计网"
+            data-c="https://oss.gooood.cn/uploads/2026/11/daxiantan-20261124-cover-472x303.jpg" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.gooood.cn/valley-gap-pavilion-daxiantan-reception-hall-by-concom-studio.htm" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mefd1689cf805"><div class="kv"><b>建筑面积</b><span>500 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>摄影</b><span>BIAN LIN</span></div><div class="kv"><b>所在地</b><span>德清</span></div><div class="kv"><b>摘要</b><span>建筑 一间没有墙的乡村会客厅 2026.11.25 收藏 分享</span></div><div class="why"><b>为什么推荐 · 合计 58 分</b><div>· 热度 24.3：谷德 7 天最热 第 12 名 · 阅读 1506 次→24.3</div><div>· 质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「展览」+3；地域「德清」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture">
+      <div class="rank">5</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6b04/3611/94d7/ea00/019d/0140/newsletter/DSCF11000_11.jpg?1795438112" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture" target="_blank" rel="noopener">Argentine Media Library / CONTINUO ARCHITECTURE</a></div>
+        <div class="arch">设计：CONTINUO ARCHITECTURE</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily 首页第 7 位</span><span class="chip" style="color:#334155">类型 文化</span><span class="chip" style="color:#0f766e">地域 法国</span><span class="chip" style="color:#7c3aed">面积 650 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 15 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 56 分</span>
+          <button type="button" class="mini" data-more="mf447d67689eb">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture"
+            data-t="Argentine Media Library / CONTINUO ARCHITECTURE" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6b04/3611/94d7/ea00/019d/0140/newsletter/DSCF11000_11.jpg?1795438112" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="mf447d67689eb"><div class="kv"><b>建筑面积</b><span>650 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>15 张</span></div><div class="kv"><b>摄影</b><span>Agustin Andorno</span></div><div class="kv"><b>所在地</b><span>Beauvais / France</span></div><div class="kv"><b>摘要</b><span>November 27 © Agustin Andorno + 15 Cultural Architecture , Library • Beauvais, France Architects: CONTINUO ARCHITECTURE Area Area of this architecture project Area: 650 m² Year Completion year of this…</span></div><div class="why"><b>为什么推荐 · 合计 56 分</b><div>· 热度 16.5：ArchDaily 首页第 7 位→16.5</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集15张+5；类型「文化」+3；地域「法国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects">
+      <div class="rank">6</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6b07/f74c/3a81/a801/8917/c6ee/newsletter/housing-on-the-marshes-ofis-architects_24.jpg?1795684553" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects" target="_blank" rel="noopener">湿地住宅 / OFIS Architects</a></div>
+        <div class="arch">设计：OFIS Architects</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 8 位</span><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 斯洛文尼亚</span><span class="chip" style="color:#7c3aed">面积 28600 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 42 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 51 分</span>
+          <button type="button" class="mini" data-more="m862550707541">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects"
+            data-t="湿地住宅 / OFIS Architects" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6b07/f74c/3a81/a801/8917/c6ee/newsletter/housing-on-the-marshes-ofis-architects_24.jpg?1795684553" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m862550707541"><div class="kv"><b>建筑面积</b><span>28600 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>42 张</span></div><div class="kv"><b>摄影</b><span>Miran Kambič</span></div><div class="kv"><b>所在地</b><span>Ljubljana / 斯洛文尼亚</span></div><div class="kv"><b>摘要</b><span>十一月 27 © Miran Kambič + 42 • Ljubljana, 斯洛文尼亚 建筑师: OFIS Architects 面积 该建筑项目的领域 面积: 28600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects Nina Vuga 阅读…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1189136/housing-on-the-marshes-ofis-architects" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 51 分</b><div>· 热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集42张+8；类型「住宅」+3；地域「斯洛文尼亚」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189133/the-ribbon-orms">
+      <div class="rank">7</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6b04/2d6c/94d7/ea00/019d/0098/newsletter/Orms_-_The_Ribbon___Tim_Soar__19_.jpg?1795436016" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189133/the-ribbon-orms" target="_blank" rel="noopener">The Ribbon / Orms</a></div>
+        <div class="arch">设计：Orms</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 11 位</span><span class="chip" style="color:#0f766e">地域 英国</span><span class="chip" style="color:#7c3aed">面积 9290 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 22 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 49 分</span>
+          <button type="button" class="mini" data-more="ma141eed4204d">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189133/the-ribbon-orms"
+            data-t="The Ribbon / Orms" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6b04/2d6c/94d7/ea00/019d/0098/newsletter/Orms_-_The_Ribbon___Tim_Soar__19_.jpg?1795436016" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189133/the-ribbon-orms" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="ma141eed4204d"><div class="kv"><b>建筑面积</b><span>9290 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>22 张</span></div><div class="kv"><b>摄影</b><span>Tim Soar</span></div><div class="kv"><b>所在地</b><span>英国</span></div><div class="kv"><b>摘要</b><span>十一月 27 © Tim Soar + 22 • 英国 建筑师: Orms 面积 该建筑项目的领域 面积: 100000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189133/the-ribbon-orms Nina Vuga 阅读更多 »</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1189047/the-ribbon-orms" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 49 分</b><div>· 热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4</div><div>· 质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「英国」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners">
+      <div class="rank">8</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6b06/d4c4/2bc2/8501/8901/3110/newsletter/title-roll-building-cho-and-partners_2.jpg?1795609852" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners" target="_blank" rel="noopener">Title Roll 大楼 / Cho and Partners</a></div>
+        <div class="arch">设计：Cho and Partners</div>
+        <div class="tags"><span class="chip" style="color:#b91c1c">ArchDaily中国 首页第 15 位</span><span class="chip" style="color:#334155">类型 景观</span><span class="chip" style="color:#0f766e">地域 韩国</span><span class="chip" style="color:#7c3aed">面积 924 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 20 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily</span>
+          <span class="score">综合 48 分</span>
+          <button type="button" class="mini" data-more="m771d63e8c544">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners"
+            data-t="Title Roll 大楼 / Cho and Partners" data-s="ArchDaily"
+            data-c="https://images.adsttc.com/media/images/6b06/d4c4/2bc2/8501/8901/3110/newsletter/title-roll-building-cho-and-partners_2.jpg?1795609852" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m771d63e8c544"><div class="kv"><b>建筑面积</b><span>924 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>20 张</span></div><div class="kv"><b>摄影</b><span>Dahae Park</span></div><div class="kv"><b>所在地</b><span>Seoul / 韩国</span></div><div class="kv"><b>摘要</b><span>十一月 27 © Dahae Park + 20 • Seoul, 韩国 建筑师: Cho and Partners 面积 该建筑项目的领域 面积: 924 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners Pilar Caballero 阅读更多…</span></div><div class="kv"><b>英文原版</b><span><a href="https://www.archdaily.com/1189224/title-roll-building-cho-and-partners" target="_blank" rel="noopener">打开 ArchDaily 国际站原文</a></span></div><div class="why"><b>为什么推荐 · 合计 48 分</b><div>· 热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4</div><div>· 质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；类型「景观」+3；地域「韩国」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura">
+      <div class="rank">9</div>
+      <div class="pic"><img src="https://images.adsttc.com/media/images/6afd/b906/eabd/2a00/0193/1d2a/newsletter/JL260310_FORARQ-SOTARRA-1.jpg?1795012889" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura" target="_blank" rel="noopener">Sotarrá 住宅 / FORarquitectura</a></div>
+        <div class="arch">设计：FORarquitectura</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 住宅</span><span class="chip" style="color:#0f766e">地域 西班牙</span><span class="chip" style="color:#7c3aed">面积 90 m²</span><span class="chip" style="color:#b45309">建成 2026</span><span class="chip" style="color:#475569">图 30 张</span></div>
+        <div class="foot">
+          <span class="src" style="background:#c2410c">ArchDaily中国</span>
+          <span class="score">综合 40 分</span>
+          <button type="button" class="mini" data-more="m63ec45d09c4d">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura"
+            data-t="Sotarrá 住宅 / FORarquitectura" data-s="ArchDaily中国"
+            data-c="https://images.adsttc.com/media/images/6afd/b906/eabd/2a00/0193/1d2a/newsletter/JL260310_FORARQ-SOTARRA-1.jpg?1795012889" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m63ec45d09c4d"><div class="kv"><b>建筑面积</b><span>90 m²</span></div><div class="kv"><b>建成年份</b><span>2026 年</span></div><div class="kv"><b>图集</b><span>30 张</span></div><div class="kv"><b>摄影</b><span>Juanca Lagares</span></div><div class="kv"><b>所在地</b><span>Málaga / 西班牙</span></div><div class="kv"><b>摘要</b><span>十一月 26 视频 © Juanca Lagares + 30 • Málaga, 西班牙 建筑师: FORarquitectura 面积 该建筑项目的领域 面积: 90 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura Valentina Díaz …</span></div><div class="why"><b>为什么推荐 · 合计 40 分</b><div>· 热度 0.0：无信号</div><div>· 质量 40.0：建成项目格式+18；站点权重0.88→7.0；图集30张+8；类型「住宅」+3；地域「西班牙」+3；封面图+2；含面积数据+2</div></div></div>
+      </div>
+    </div>
+
+    <div class="card" data-url="https://www.archiposition.com/items/d3facbd991">
+      <div class="rank">10</div>
+      <div class="pic"><img src="https://image.archiposition.com/2026/11/20261127183610youfang70.jpg?x-oss-process=image/resize,m_fill,w_917,h_600" referrerpolicy="no-referrer" loading="lazy" decoding="async" onerror="this.parentNode.classList.add('bad')"/></div>
+      <div class="body">
+        <div class="title"><a href="https://www.archiposition.com/items/d3facbd991" target="_blank" rel="noopener">晋级候选方案｜苏州李政道学校：立石问道 / 境象建筑</a></div>
+        <div class="arch">设计：境象建筑</div>
+        <div class="tags"><span class="chip" style="color:#334155">类型 教育</span><span class="chip" style="color:#0f766e">地域 苏州</span><span class="chip" style="color:#7c3aed">面积 70220 m²</span></div>
+        <div class="foot">
+          <span class="src" style="background:#0f766e">有方空间</span>
+          <span class="score">综合 32 分</span>
+          <button type="button" class="mini" data-more="m1cc3e9e2f236">详情</button>
+          <button type="button" class="mini" data-fav="https://www.archiposition.com/items/d3facbd991"
+            data-t="晋级候选方案｜苏州李政道学校：立石问道 / 境象建筑" data-s="有方空间"
+            data-c="https://image.archiposition.com/2026/11/20261127183610youfang70.jpg?x-oss-process=image/resize,m_fill,w_917,h_600" data-d="2026-11-27">收藏</button>
+          <a class="mini" href="https://www.archiposition.com/items/d3facbd991" target="_blank" rel="noopener">原文</a>
+        </div>
+        <div class="more" id="m1cc3e9e2f236"><div class="kv"><b>建筑面积</b><span>70220 m²</span></div><div class="kv"><b>所在地</b><span>苏州</span></div><div class="kv"><b>摘要</b><span>形态、结构与功能三位一体，让校园阐述科学理性，呈现由内而外的建筑之美。</span></div><div class="why"><b>为什么推荐 · 合计 32 分</b><div>· 热度 0.0：无信号</div><div>· 质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「苏州」+3；封面图+2</div></div></div>
+      </div>
+    </div>
+  <div class="ft">本页收录的是 <b>近 7 天（2026-11-21 ~ 2026-11-27）</b> 发布的案例，按热度排序<br/>热度 = 站方阅读排行（谷德「7 天最热」、Dezeen「Most popular」） + 各站首页曝光位次 + 多源转载 + 中英双版；质量（建成项目、资料完整度、事务所声望）只作底线过滤<br/>用「近 7 天」而非「昨天」：热度需要时间沉淀，当天发布的内容还没有任何阅读数据<br/>另有 3 条发布于该窗口之前、此刻仍挂在站方阅读榜上的热文，破例一并收录<br/>
+  数据来源：ArchDaily / ArchDaily中国 / 谷德设计网 / Dezeen / Designboom / 建筑学院<br/>
+  点卡片跳原文，点「详情」看完整数据与评分理由，点「收藏」存进灵感库<br/>
+  <a class="ft-link" href="library.html">打开全量灵感库（搜索 / 筛选 / 导出）›</a></div>
+</div>
+<script>
+var FAVKEY='adfav_v1';
+function favList(){try{return JSON.parse(localStorage.getItem(FAVKEY)||'[]')}catch(e){return []}}
+function favSave(a){try{localStorage.setItem(FAVKEY,JSON.stringify(a))}catch(e){}}
+function favHas(u){return favList().some(function(x){return x.u===u})}
+function favToggle(u,t,s,c,d){
+  var a=favList(),i=-1;
+  for(var k=0;k<a.length;k++){if(a[k].u===u){i=k;break}}
+  if(i>=0){a.splice(i,1)}else{a.push({u:u,t:t,s:s,c:c,d:d,at:Date.now()})}
+  favSave(a);
+  syncFavBtns();
+  return i<0;
+}
+function syncFavBtns(){
+  var bs=document.querySelectorAll('[data-fav]');
+  for(var i=0;i<bs.length;i++){
+    var b=bs[i],on=favHas(b.getAttribute('data-fav'));
+    b.textContent=on?'已收藏':'收藏';
+    b.className='mini'+(on?' faved':'');
+  }
+}
+document.addEventListener('click',function(e){
+  var t=e.target;
+  var more=t.closest?t.closest('[data-more]'):null;
+  if(more){
+    var box=document.getElementById(more.getAttribute('data-more'));
+    if(box){box.classList.toggle('open');more.textContent=box.classList.contains('open')?'收起':'详情';}
+    return;
+  }
+  var fb=t.closest?t.closest('[data-fav]'):null;
+  if(fb){
+    e.stopPropagation();
+    favToggle(fb.getAttribute('data-fav'),fb.getAttribute('data-t'),
+              fb.getAttribute('data-s'),fb.getAttribute('data-c'),fb.getAttribute('data-d'));
+    return;
+  }
+  if(t.closest&&t.closest('.more'))return;
+  if(t.closest&&t.closest('a'))return;
+  var card=t.closest?t.closest('[data-url]'):null;
+  if(card){window.open(card.getAttribute('data-url'),'_blank');}
+});
+syncFavBtns();
+</script>
+</body>
+</html>

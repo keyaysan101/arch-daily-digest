@@ -1,0 +1,527 @@
+{
+  "date": "2026-11-27",
+  "window_start": "2026-11-21",
+  "window_end": "2026-11-27",
+  "window_days": 7,
+  "generated_at": "2026-11-28T11:48:59+08:00",
+  "sources": [
+    {
+      "source": "ArchDaily",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-28",
+      "newest": "2026-11-28",
+      "hit": 105,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "ArchDaily中国",
+      "ok": true,
+      "total": 64,
+      "oldest": "2026-10-28",
+      "newest": "2026-11-28",
+      "hit": 99,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "谷德设计网",
+      "ok": true,
+      "total": 54,
+      "oldest": "2026-11-20",
+      "newest": "2026-11-28",
+      "hit": 55,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Dezeen",
+      "ok": true,
+      "total": 50,
+      "oldest": "2026-11-22",
+      "newest": "2026-11-28",
+      "hit": 52,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "Designboom",
+      "ok": true,
+      "total": 4,
+      "oldest": "2026-11-27",
+      "newest": "2026-11-28",
+      "hit": 19,
+      "stale_days": -1,
+      "stale": false
+    },
+    {
+      "source": "有方空间",
+      "ok": true,
+      "total": 18,
+      "oldest": "2026-11-24",
+      "newest": "2026-11-27",
+      "hit": 26,
+      "stale_days": 0,
+      "stale": false
+    },
+    {
+      "source": "建筑学院",
+      "ok": true,
+      "total": 10,
+      "oldest": "2026-08-16",
+      "newest": "2026-11-26",
+      "hit": 2,
+      "stale_days": 1,
+      "stale": false
+    }
+  ],
+  "candidate_count": 358,
+  "new_stored": 50,
+  "store_total": 2484,
+  "after_dedupe": 221,
+  "noise_count": 14,
+  "heat_signal_count": 102,
+  "heat_hit_count": 57,
+  "out_of_window_count": 3,
+  "count": 10,
+  "noise": [
+    {
+      "title": "Meet Kiki Goti, Kelly Wearstler's pick for the most influential designer of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/27/kiki-goti-interview-20x20-kelly-wearstler"
+    },
+    {
+      "title": "振石会议中心景观设计，桐乡 / NCD玖鹿设计",
+      "source": "谷德设计网",
+      "url": "https://www.gooood.cn/zhenshi-conference-center-landscape-design-by-ncd-studio.htm"
+    },
+    {
+      "title": "Five lighting designs listed by Marset on Dezeen Showroom",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/26/lighting-designs-marset-dezeen-showroom"
+    },
+    {
+      "title": "Lisbon Triennale Announces CO-OP and Herzog & de Meuron’s Memphis Museum Opens: This Week’s Review",
+      "source": "ArchDaily",
+      "url": "https://www.archdaily.com/1189276/lisbon-triennale-announces-co-op-and-herzog-and-de-meurons-memphis-museum-opens-this-weeks-review"
+    },
+    {
+      "title": "Meet BC Architects & Studies & Materials, Marina Tabassum's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/26/bc-architects-interview-20x20-marina-tabassum-2"
+    },
+    {
+      "title": "\"How did young designers become so convinced of their own powerlessness?\"",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/26/design-power-change-celine-semaan-opinion"
+    },
+    {
+      "title": "podcast: how to create utopia for everyone when architecture scales to the metropolis",
+      "source": "Designboom",
+      "url": "https://www.designboom.com/architecture/podcast-room-for-utopias-11"
+    },
+    {
+      "title": "Meet Laerke Ryom, Patricia Urquiola's pick for the most influential designer of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/laerke-ryom-interview-patricia-urquiola-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging designer of the year Simon Skinner",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/25/simon-skinner-key-projects-designer-year-2026"
+    },
+    {
+      "title": "Meet Courage Dzidula Kpodo, Lesley Lokko's pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/courage-dzidula-kpodo-interview-lesley-lokko-20x20"
+    },
+    {
+      "title": "Five key projects by Dezeen Awards emerging architect of the year Kuma&Elsa",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/kumaelsa-key-projects-dezeen-awards-emerging-architect"
+    },
+    {
+      "title": "Architects and designers celebrate at Dezeen Awards 2026 party in London",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/24/dezeen-awards-2026-party-london"
+    },
+    {
+      "title": "Meet AMAA, Neri&Hu’s pick for the most influential architect of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/23/amaa-interview-dezeen-20x20-nerihu"
+    },
+    {
+      "title": "This week we launched a series celebrating the top architects and designers of the next 20 years",
+      "source": "Dezeen",
+      "url": "https://www.dezeen.com/2026/11/21/dezeen-20x20-this-week"
+    }
+  ],
+  "items": [
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "峨眉山悦榕庄酒店，四川 / BUZZ庄子玉工作室",
+      "url": "https://www.gooood.cn/banyan-tree-emei-by-buzz.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/001-llk-472x303.jpg",
+      "summary": "建筑  散点场域中的高差织构 2026.11.20 收藏 分享",
+      "published_at": "2026-11-20T09:05:46+08:00",
+      "first_seen": "2026-11-20T10:56:32+08:00",
+      "last_seen": "2026-11-27T12:01:55+08:00",
+      "meta": {
+        "area": "41000 m²",
+        "year": "2018",
+        "photographer": "如你所见-王厅，存在建筑"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 1 名 · 阅读 2786 次"
+      ],
+      "views": 2786,
+      "heat_rank": 1,
+      "is_project": true,
+      "btype": "酒店",
+      "region": "四川",
+      "city": "",
+      "architect": "",
+      "heat_score": 45.0,
+      "quality_score": 33.4,
+      "score": 78.4,
+      "reasons": [
+        "热度 45.0：谷德 7 天最热 第 1 名 · 阅读 2786 次→45.0",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「酒店」+3；地域「四川」+3；封面图+2"
+      ],
+      "rank": 1
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "麓悦江城·麓溪湖景观规划，重庆 / WTD纬图设计",
+      "url": "https://www.gooood.cn/luxi-lake-landscape-planning-at-luxe-valley-by-wtd-group.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/Luxi-Lake-WTD-cover-472x303.jpg",
+      "summary": "景观  新山水营城理想——纬图景观规划的创新实践 2026.11.25 收藏 分享",
+      "published_at": "2026-11-25T15:01:41+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "meta": {
+        "city": "麓溪湖景观规划",
+        "country": "重庆",
+        "photographer": "WTD品牌部，Prism三棱镜"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 10 名 · 阅读 1557 次"
+      ],
+      "views": 1557,
+      "heat_rank": 10,
+      "is_project": true,
+      "btype": "景观",
+      "region": "重庆",
+      "city": "麓溪湖景观规划",
+      "architect": "WTD纬图设计",
+      "heat_score": 25.1,
+      "quality_score": 33.4,
+      "score": 58.5,
+      "reasons": [
+        "热度 25.1：谷德 7 天最热 第 10 名 · 阅读 1557 次→25.1",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「景观」+3；地域「重庆」+3；封面图+2"
+      ],
+      "rank": 2
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "鞋厂门亭，温州 / 谢杰建筑",
+      "url": "https://www.gooood.cn/shoe-factory-gatehouses-by-xie-jie-architects.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/xieting-472x303.jpg",
+      "summary": "建筑  原有框架中的错动平台 2026.11.24 收藏 分享",
+      "published_at": "2026-11-24T10:28:40+08:00",
+      "first_seen": "2026-11-24T13:51:10+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "meta": {
+        "year": "2026",
+        "photographer": "陈颢"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 11 名 · 阅读 1524 次"
+      ],
+      "views": 1524,
+      "heat_rank": 11,
+      "is_project": true,
+      "btype": "住宅",
+      "region": "温州",
+      "city": "",
+      "architect": "谢杰建筑",
+      "heat_score": 24.6,
+      "quality_score": 33.4,
+      "score": 58.0,
+      "reasons": [
+        "热度 24.6：谷德 7 天最热 第 11 名 · 阅读 1524 次→24.6",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「住宅」+3；地域「温州」+3；封面图+2"
+      ],
+      "rank": 3
+    },
+    {
+      "source": "谷德设计网",
+      "weight": 0.92,
+      "lang": "zh",
+      "title": "谷口亭—大仙潭会客厅，德清 / ConCom 集良建筑事务所",
+      "url": "https://www.gooood.cn/valley-gap-pavilion-daxiantan-reception-hall-by-concom-studio.htm",
+      "cover": "https://oss.gooood.cn/uploads/2026/11/daxiantan-20261124-cover-472x303.jpg",
+      "summary": "建筑  一间没有墙的乡村会客厅 2026.11.25 收藏 分享",
+      "published_at": "2026-11-25T16:28:34+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "meta": {
+        "area": "500 m²",
+        "year": "2026",
+        "photographer": "BIAN LIN"
+      },
+      "strong_heat": true,
+      "heat_labels": [
+        "谷德 7 天最热 第 12 名 · 阅读 1506 次"
+      ],
+      "views": 1506,
+      "heat_rank": 12,
+      "is_project": true,
+      "btype": "展览",
+      "region": "德清",
+      "city": "",
+      "architect": "",
+      "heat_score": 24.3,
+      "quality_score": 33.4,
+      "score": 57.7,
+      "reasons": [
+        "热度 24.3：谷德 7 天最热 第 12 名 · 阅读 1506 次→24.3",
+        "质量 33.4：建成项目格式+18；站点权重0.92→7.4；类型「展览」+3；地域「德清」+3；封面图+2"
+      ],
+      "rank": 4
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "en",
+      "title": "Argentine Media Library / CONTINUO ARCHITECTURE",
+      "url": "https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture",
+      "cover": "https://images.adsttc.com/media/images/6b04/3611/94d7/ea00/019d/0140/newsletter/DSCF11000_11.jpg?1795438112",
+      "summary": "November 27 © Agustin Andorno + 15 Cultural Architecture , Library • Beauvais, France Architects: CONTINUO ARCHITECTURE Area Area of this architecture project Area: 650 m² Year Completion year of this architecture project Year: 2026 https://www.archdaily.com/1189058/argentine-media-library-continuo-architecture Nina Vuga Read more »",
+      "published_at": "2026-11-27T23:00:00+08:00",
+      "first_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "meta": {
+        "photographer": "Agustin Andorno",
+        "image_count": 15,
+        "city": "Beauvais",
+        "country": "France",
+        "architect": "CONTINUO ARCHITECTURE",
+        "area": "650 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily 首页第 7 位"
+      ],
+      "is_project": true,
+      "btype": "文化",
+      "region": "法国",
+      "city": "Beauvais",
+      "architect": "CONTINUO ARCHITECTURE",
+      "heat_score": 16.5,
+      "quality_score": 40.0,
+      "score": 56.5,
+      "reasons": [
+        "热度 16.5：ArchDaily 首页第 7 位→16.5",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集15张+5；类型「文化」+3；地域「法国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 5
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "湿地住宅 / OFIS Architects",
+      "url": "https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects",
+      "cover": "https://images.adsttc.com/media/images/6b07/f74c/3a81/a801/8917/c6ee/newsletter/housing-on-the-marshes-ofis-architects_24.jpg?1795684553",
+      "summary": "十一月 27 © Miran Kambič + 42 • Ljubljana, 斯洛文尼亚 建筑师: OFIS Architects 面积 该建筑项目的领域 面积: 28600 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189274/shi-di-zhu-zhai-ofis-architects Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-27T20:00:00+08:00",
+      "first_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "alt_url": "https://www.archdaily.com/1189136/housing-on-the-marshes-ofis-architects",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Miran Kambič",
+        "image_count": 42,
+        "city": "Ljubljana",
+        "country": "斯洛文尼亚",
+        "architect": "OFIS Architects",
+        "area": "28600 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 8 位"
+      ],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "斯洛文尼亚",
+      "city": "Ljubljana",
+      "architect": "OFIS Architects",
+      "heat_score": 11.1,
+      "quality_score": 40.0,
+      "score": 51.1,
+      "reasons": [
+        "热度 11.1：ArchDaily中国 首页第 8 位→7.1；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集42张+8；类型「住宅」+3；地域「斯洛文尼亚」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 6
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "The Ribbon / Orms",
+      "url": "https://www.archdaily.cn/zh/1189133/the-ribbon-orms",
+      "cover": "https://images.adsttc.com/media/images/6b04/2d6c/94d7/ea00/019d/0098/newsletter/Orms_-_The_Ribbon___Tim_Soar__19_.jpg?1795436016",
+      "summary": "十一月 27 © Tim Soar + 22 • 英国 建筑师: Orms 面积 该建筑项目的领域 面积: 100000 ft² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189133/the-ribbon-orms Nina Vuga 阅读更多 »",
+      "published_at": "2026-11-27T19:00:00+08:00",
+      "first_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "alt_url": "https://www.archdaily.com/1189047/the-ribbon-orms",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Tim Soar",
+        "image_count": 22,
+        "architect": "Orms",
+        "year": "2026",
+        "area": "9290 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 11 位"
+      ],
+      "is_project": true,
+      "btype": null,
+      "region": "英国",
+      "city": "",
+      "architect": "Orms",
+      "heat_score": 9.8,
+      "quality_score": 39.0,
+      "score": 48.8,
+      "reasons": [
+        "热度 9.8：ArchDaily中国 首页第 11 位→5.8；中英双版+4",
+        "质量 39.0：建成项目格式+18；站点权重1.00→8.0；图集22张+8；地域「英国」+3；封面图+2"
+      ],
+      "rank": 7
+    },
+    {
+      "source": "ArchDaily",
+      "weight": 1.0,
+      "lang": "zh",
+      "title": "Title Roll 大楼 / Cho and Partners",
+      "url": "https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners",
+      "cover": "https://images.adsttc.com/media/images/6b06/d4c4/2bc2/8501/8901/3110/newsletter/title-roll-building-cho-and-partners_2.jpg?1795609852",
+      "summary": "十一月 27 © Dahae Park + 20 • Seoul, 韩国 建筑师: Cho and Partners 面积 该建筑项目的领域 面积: 924 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189290/title-roll-da-lou-cho-and-partners Pilar Caballero 阅读更多 »",
+      "published_at": "2026-11-27T15:00:00+08:00",
+      "first_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "alt_url": "https://www.archdaily.com/1189224/title-roll-building-cho-and-partners",
+      "bilingual": true,
+      "meta": {
+        "photographer": "Dahae Park",
+        "image_count": 20,
+        "city": "Seoul",
+        "country": "韩国",
+        "architect": "Cho and Partners",
+        "area": "924 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [
+        "ArchDaily中国 首页第 15 位"
+      ],
+      "is_project": true,
+      "btype": "景观",
+      "region": "韩国",
+      "city": "Seoul",
+      "architect": "Cho and Partners",
+      "heat_score": 8.2,
+      "quality_score": 40.0,
+      "score": 48.2,
+      "reasons": [
+        "热度 8.2：ArchDaily中国 首页第 15 位→4.2；中英双版+4",
+        "质量 40.0：建成项目格式+18；站点权重1.00→8.0；图集20张+8；类型「景观」+3；地域「韩国」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 8
+    },
+    {
+      "source": "ArchDaily中国",
+      "weight": 0.88,
+      "lang": "zh",
+      "title": "Sotarrá 住宅 / FORarquitectura",
+      "url": "https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura",
+      "cover": "https://images.adsttc.com/media/images/6afd/b906/eabd/2a00/0193/1d2a/newsletter/JL260310_FORARQ-SOTARRA-1.jpg?1795012889",
+      "summary": "十一月 26 视频 © Juanca Lagares + 30 • Málaga, 西班牙 建筑师: FORarquitectura 面积 该建筑项目的领域 面积: 90 m² 项目年份 该建筑项目的竣工年份 项目年份: 2026 https://www.archdaily.cn/zh/1189259/sotarra-zhu-zhai-forarquitectura Valentina Díaz 阅读更多 »",
+      "published_at": "2026-11-26T08:00:00+08:00",
+      "first_seen": "2026-11-26T12:04:04+08:00",
+      "last_seen": "2026-11-26T13:58:10+08:00",
+      "meta": {
+        "photographer": "Juanca Lagares",
+        "image_count": 30,
+        "city": "Málaga",
+        "country": "西班牙",
+        "architect": "FORarquitectura",
+        "area": "90 m²",
+        "year": "2026"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "住宅",
+      "region": "西班牙",
+      "city": "Málaga",
+      "architect": "FORarquitectura",
+      "heat_score": 0.0,
+      "quality_score": 40.0,
+      "score": 40.0,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 40.0：建成项目格式+18；站点权重0.88→7.0；图集30张+8；类型「住宅」+3；地域「西班牙」+3；封面图+2；含面积数据+2"
+      ],
+      "rank": 9
+    },
+    {
+      "source": "有方空间",
+      "weight": 0.8,
+      "lang": "zh",
+      "title": "晋级候选方案｜苏州李政道学校：立石问道 / 境象建筑",
+      "url": "https://www.archiposition.com/items/d3facbd991",
+      "cover": "https://image.archiposition.com/2026/11/20261127183610youfang70.jpg?x-oss-process=image/resize,m_fill,w_917,h_600",
+      "summary": "形态、结构与功能三位一体，让校园阐述科学理性，呈现由内而外的建筑之美。",
+      "published_at": "2026-11-27T18:34:43+08:00",
+      "first_seen": "2026-11-28T11:48:53+08:00",
+      "last_seen": "2026-11-28T11:48:53+08:00",
+      "meta": {
+        "area": "70220 m²"
+      },
+      "strong_heat": false,
+      "heat_labels": [],
+      "is_project": true,
+      "btype": "教育",
+      "region": "苏州",
+      "city": "",
+      "architect": "境象建筑",
+      "heat_score": 0.0,
+      "quality_score": 32.4,
+      "score": 32.4,
+      "reasons": [
+        "热度 0.0：无信号",
+        "质量 32.4：建成项目格式+18；站点权重0.80→6.4；类型「教育」+3；地域「苏州」+3；封面图+2"
+      ],
+      "rank": 10
+    }
+  ]
+}
